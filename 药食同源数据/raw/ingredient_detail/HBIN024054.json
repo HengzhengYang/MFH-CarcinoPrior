@@ -1,0 +1,830 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000775&label=Herb",
+        "title": "HERB000775"
+      },
+      "CHEN PI",
+      "陈皮",
+      "Dried Tangerine Peel",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Pericarpium Citri Reticulatae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005782&label=Herb",
+        "title": "HERB005782"
+      },
+      "WU ZHU YU",
+      "吴茱萸",
+      "Medicil Evodia Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Evodiae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "2-Methylaminomethyl benzoate; 85-91-6; BENZOIC ACID METHYL ESTER,2-METHYLAMINO  (N-METHYL-ANTHRANILIC ACID METHYL ESTER); Benzoic acid, 2-(methylamino)-, methyl ester; SMR000112458; 65820_FLUKA; AI3-03340; EINECS 201-642-6; Anthranilic acid, N-methyl-, methyl ester; BRN 0607217; Methyl methanthranilate; Methyl-N-methylanthranilate; Methyl o-(methylamino)benzoate; FEMA No. 2718; 4-14-00-01016 (Beilstein Handbook Reference); methyl 2-methylaminobenzoate; W271802_ALDRICH; ZINC00157414; Methyl methylanthranilate; HSDB 2784; Methyl 2-(methylamino)benzoate; NSC9406; N-Methylanthranilic acid, methyl ester; Dimethyl anthranilate (natural); MLS000515990; InChI=1/C9H11NO2/c1-10-8-6-4-3-5-7(8)9(11)12-2/h3-6,10H,1-2H; N-Methyl methyl anthranilate; W271810_ALDRICH; 2-methylaminobenzoic acid methyl ester; WLN: 1OVR BM1; Methyl methylaminobenzoate; ST5407122; Methyl N-methyl-o-anthranilate; CCRIS 2846; NSC 9406; Methyl N-methylanthranilate"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000110&label=Disease",
+        "title": "HBDIS000110"
+      },
+      "Alloxan Diabetes",
+      "0.000711960267248381",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000205&label=Disease",
+        "title": "HBDIS000205"
+      },
+      "Anxiety Disorders",
+      "0.00138193607807373",
+      "0.0094518742553609"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000336&label=Disease",
+        "title": "HBDIS000336"
+      },
+      "Bladder neck obstruction",
+      "0.000212475374051532",
+      "0.00270167788475528"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000471&label=Disease",
+        "title": "HBDIS000471"
+      },
+      "Cardiovascular Diseases",
+      "0.00062190474716865",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000752&label=Disease",
+        "title": "HBDIS000752"
+      },
+      "Mental Depression",
+      "0.000336735515607462",
+      "0.00373195343489712"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000756&label=Disease",
+        "title": "HBDIS000756"
+      },
+      "Depressive disorder",
+      "0.000595624577875852",
+      "0.00554648256629014"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001502&label=Disease",
+        "title": "HBDIS001502"
+      },
+      "Hypotension",
+      "0.000863609543340064",
+      "0.00707636780648783"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001574&label=Disease",
+        "title": "HBDIS001574"
+      },
+      "Irritable Bowel Syndrome",
+      "0.000203965795714214",
+      "0.0026215158572753"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001784&label=Disease",
+        "title": "HBDIS001784"
+      },
+      "Lung diseases",
+      "0.00087545993549803",
+      "0.00709937910848182"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001901&label=Disease",
+        "title": "HBDIS001901"
+      },
+      "Memory Disorders",
+      "0.000184527333579906",
+      "0.00243183635807907"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002625&label=Disease",
+        "title": "HBDIS002625"
+      },
+      "Retinoblastoma",
+      "0.00112310570345262",
+      "0.00828844180984207"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002687&label=Disease",
+        "title": "HBDIS002687"
+      },
+      "Schizophrenia",
+      "0.00010771034594465",
+      "0.00164146104692648"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002848&label=Disease",
+        "title": "HBDIS002848"
+      },
+      "Streptozotocin Diabetes",
+      "0.000711960267248381",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002976&label=Disease",
+        "title": "HBDIS002976"
+      },
+      "Gilles de la Tourette syndrome",
+      "1.45611015350527e-05",
+      "0.000360600819440092"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003041&label=Disease",
+        "title": "HBDIS003041"
+      },
+      "Unipolar Depression",
+      "0.000601232030617672",
+      "0.00557956642751232"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003310&label=Disease",
+        "title": "HBDIS003310"
+      },
+      "Essential Hypertension",
+      "0.000252086100995244",
+      "0.00304112482546346"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003443&label=Disease",
+        "title": "HBDIS003443"
+      },
+      "Withdrawal Symptoms",
+      "0.000751894163483278",
+      "0.00644705342278575"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008000&label=Disease",
+        "title": "HBDIS008000"
+      },
+      "Adrenal Cushing's syndrome",
+      "0.00066038162819565",
+      "0.005902951609956"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008202&label=Disease",
+        "title": "HBDIS008202"
+      },
+      "Depressed mood",
+      "0.000312511484769414",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008573&label=Disease",
+        "title": "HBDIS008573"
+      },
+      "Endotoxemia",
+      "0.000212703867657413",
+      "0.00270373272407595"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009970&label=Disease",
+        "title": "HBDIS009970"
+      },
+      "Metabolic Syndrome X",
+      "0.00013620747345869",
+      "0.00195737333141473"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009989&label=Disease",
+        "title": "HBDIS009989"
+      },
+      "Mood Disorders",
+      "0.000448186971188494",
+      "0.00458384639873682"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010273&label=Disease",
+        "title": "HBDIS010273"
+      },
+      "Lower Urinary Tract Symptoms",
+      "0.000212475374051532",
+      "0.00270167788475528"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012906&label=Disease",
+        "title": "HBDIS012906"
+      },
+      "Attention deficit hyperactivity disorder",
+      "0.00116563966841279",
+      "0.00852535966803777"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013025&label=Disease",
+        "title": "HBDIS013025"
+      },
+      "Major Depressive Disorder",
+      "0.000120172061068807",
+      "0.00178397008285706"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013319&label=Disease",
+        "title": "HBDIS013319"
+      },
+      "Postural Orthostatic Tachycardia Syndrome",
+      "2.88548459934998e-05",
+      "0.00061182182197467"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017417&label=Disease",
+        "title": "HBDIS017417"
+      },
+      "Acth-Independent Macronodular Adrenal Hyperplasia",
+      "8.299432754808e-05",
+      "0.0013514082863086"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021536&label=Disease",
+        "title": "HBDIS021536"
+      },
+      "cocaine use",
+      "0.00024237349921496",
+      "0.00295307678714465"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002280&label=Disease",
+        "title": "HBDIS002280"
+      },
+      "Panic Disorder",
+      "0.00115924445255865",
+      "0.00849360275200751"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003392&label=Disease",
+        "title": "HBDIS003392"
+      },
+      "Epilepsy, Cryptogenic",
+      "0.00036231966514326",
+      "0.00393703673883121"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003967&label=Disease",
+        "title": "HBDIS003967"
+      },
+      "Acute myocardial infarction",
+      "0.000907102013687185",
+      "0.00730306466128359"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005039&label=Disease",
+        "title": "HBDIS005039"
+      },
+      "Aura",
+      "0.000325625795347236",
+      "0.00363760005380795"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005084&label=Disease",
+        "title": "HBDIS005084"
+      },
+      "Alcohol or Other Drugs use",
+      "0.000420984075085317",
+      "0.00437585334217057"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009160&label=Disease",
+        "title": "HBDIS009160"
+      },
+      "Inattention",
+      "0.000177845464647422",
+      "0.00236574192588233"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011161&label=Disease",
+        "title": "HBDIS011161"
+      },
+      "Awakening Epilepsy",
+      "0.000325625795347236",
+      "0.00363760005380795"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012058&label=Disease",
+        "title": "HBDIS012058"
+      },
+      "Stress induced hyperglycaemia",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020102&label=Disease",
+        "title": "HBDIS020102"
+      },
+      "Neurogenic bladder dysfunction",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001580&label=Disease",
+        "title": "HBDIS001580"
+      },
+      "Jacksonian Seizure",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003520&label=Disease",
+        "title": "HBDIS003520"
+      },
+      "Complex partial seizures",
+      "0.00102958317329278",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004916&label=Disease",
+        "title": "HBDIS004916"
+      },
+      "Clonic Seizures",
+      "0.000751894163483278",
+      "0.00644705342278575"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006510&label=Disease",
+        "title": "HBDIS006510"
+      },
+      "Tonic Seizures",
+      "0.00066038162819565",
+      "0.005902951609956"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006511&label=Disease",
+        "title": "HBDIS006511"
+      },
+      "Epileptic drop attack",
+      "0.000998344172113403",
+      "0.00770434442724005"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009087&label=Disease",
+        "title": "HBDIS009087"
+      },
+      "Seizures, Somatosensory",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009088&label=Disease",
+        "title": "HBDIS009088"
+      },
+      "Seizures, Auditory",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009089&label=Disease",
+        "title": "HBDIS009089"
+      },
+      "Olfactory seizure",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009090&label=Disease",
+        "title": "HBDIS009090"
+      },
+      "Gustatory seizure",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009091&label=Disease",
+        "title": "HBDIS009091"
+      },
+      "Vertiginous seizure",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011145&label=Disease",
+        "title": "HBDIS011145"
+      },
+      "Non-epileptic convulsion",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011160&label=Disease",
+        "title": "HBDIS011160"
+      },
+      "Single Seizure",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011167&label=Disease",
+        "title": "HBDIS011167"
+      },
+      "Atonic Absence Seizures",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011326&label=Disease",
+        "title": "HBDIS011326"
+      },
+      "Convulsive Seizures",
+      "0.000698886931862244",
+      "0.00616408720684162"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011328&label=Disease",
+        "title": "HBDIS011328"
+      },
+      "Seizures, Sensory",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021526&label=Disease",
+        "title": "HBDIS021526"
+      },
+      "Nonepileptic Seizures",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025296&label=Disease",
+        "title": "HBDIS025296"
+      },
+      "Convulsions",
+      "0.00136780148518349",
+      "0.00937832033829945"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026435&label=Disease",
+        "title": "HBDIS026435"
+      },
+      "Myoclonic Seizures",
+      "0.000765443232248043",
+      "0.00653246950486692"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026737&label=Disease",
+        "title": "HBDIS026737"
+      },
+      "Generalized Absence Seizures",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002110&label=Disease",
+        "title": "HBDIS002110"
+      },
+      "Neurocirculatory Asthenia",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002240&label=Disease",
+        "title": "HBDIS002240"
+      },
+      "Other heart block",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003582&label=Disease",
+        "title": "HBDIS003582"
+      },
+      "Fibrosis of mesentery",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004729&label=Disease",
+        "title": "HBDIS004729"
+      },
+      "Reflex bradycardia",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005068&label=Disease",
+        "title": "HBDIS005068"
+      },
+      "Panic disorder without agoraphobia",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014503&label=Disease",
+        "title": "HBDIS014503"
+      },
+      "Orthostatic intolerance",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020152&label=Disease",
+        "title": "HBDIS020152"
+      },
+      "Irritable heart",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023580&label=Disease",
+        "title": "HBDIS023580"
+      },
+      "Orthostatic tachycardia",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000094&label=Target",
+        "title": "HBTAR000094"
+      },
+      "ADRA1A",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT00102",
+          "title": "SymMap:SMTT00102"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000095&label=Target",
+        "title": "HBTAR000095"
+      },
+      "ADRA2A",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT00103",
+          "title": "SymMap:SMTT00103"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00105"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000699&label=Target",
+        "title": "HBTAR000699"
+      },
+      "CHRM1",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT00636",
+          "title": "SymMap:SMTT00636"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00038"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003761&label=Target",
+        "title": "HBTAR003761"
+      },
+      "SLC6A2",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT03193",
+          "title": "SymMap:SMTT03193"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00186"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000093&label=Target",
+        "title": "HBTAR000093"
+      },
+      "ADRA1B",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00216"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000097&label=Target",
+        "title": "HBTAR000097"
+      },
+      "ADRA2C",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00126"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000092&label=Target",
+        "title": "HBTAR000092"
+      },
+      "ADRA1D",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00191"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN024054",
+      "Dimethyl anthranilate",
+      "2-Methylaminomethyl benzoate; 85-91-6; BENZOIC ACID METHYL ESTER,2-METHYLAMINO  (N-METHYL-ANTHRANILIC ACID METHYL ESTER); Benzoic acid, 2-(methylamino)-, methyl ester; SMR000112458; 65820_FLUKA; AI3-03340; EINECS 201-642-6; Anthranilic acid, N-methyl-, methyl ester; BRN 0607217; Methyl methanthranilate; Methyl-N-methylanthranilate; Methyl o-(methylamino)benzoate; FEMA No. 2718; 4-14-00-01016 (Beilstein Handbook Reference); methyl 2-methylaminobenzoate; W271802_ALDRICH; ZINC00157414; Methyl methylanthranilate; HSDB 2784; Methyl 2-(methylamino)benzoate; NSC9406; N-Methylanthranilic acid, methyl ester; Dimethyl anthranilate (natural); MLS000515990; InChI=1/C9H11NO2/c1-10-8-6-4-3-5-7(8)9(11)12-2/h3-6,10H,1-2H; N-Methyl methyl anthranilate; W271810_ALDRICH; 2-methylaminobenzoic acid methyl ester; WLN: 1OVR BM1; Methyl methylaminobenzoate; ST5407122; Methyl N-methyl-o-anthranilate; CCRIS 2846; NSC 9406; Methyl N-methylanthranilate",
+      "C9H11NO2",
+      "CNC1=CC=CC=C1C(=O)OC",
+      "165.19",
+      "65.86883769",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "85-91-6"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT05948",
+        "title": "SMIT05948"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL003949"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/6826",
+        "title": "6826"
+      }
+    ]
+  ]
+}

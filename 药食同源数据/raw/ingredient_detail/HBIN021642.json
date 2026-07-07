@@ -1,0 +1,317 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000161&label=Herb",
+        "title": "HERB000161"
+      },
+      "BAI BIAN DOU",
+      "白扁豆",
+      "White Hyacinth Bean",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Lablab Album"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000570&label=Herb",
+        "title": "HERB000570"
+      },
+      "CAN SHA",
+      "蚕沙",
+      "Bombyx Mori L.",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004957&label=Herb",
+        "title": "HERB004957"
+      },
+      "SHANG LU",
+      "商陆",
+      "Pokeberry Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Phytolaccae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "C00408; (S)-(-)-pipecolic acid; L-pipecolate ester; (2S)-piperidine-2-carboxylic acid; L-(-)-pipecolic acid; (S)-pipecolic acid; 6-CARBOXYPIPERIDINE; Pipecolic acid; P2519_SIGMA; (2S)-2-piperidinecarboxylic acid; 2-Piperidinecarboxylic acid; L-pipecolate esters; (2S)-pipecolinic acid; Pipecolinic acid; CHEBI:30913; (S)-(&#8722;)-2-Piperidinecarboxylic acid; SBB006732; CHEBI:46876; (S)-piperidine-2-carboxylic acid; L-Homoproline"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006445&label=Disease",
+        "title": "HBDIS006445"
+      },
+      "Postpartum cardiomyopathy",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006906&label=Disease",
+        "title": "HBDIS006906"
+      },
+      "Early fontanel closure",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018111&label=Disease",
+        "title": "HBDIS018111"
+      },
+      "NEURONAL CEROID LIPOFUSCINOSIS DUE TO CATHEPSIN D DEFICIENCY",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018112&label=Disease",
+        "title": "HBDIS018112"
+      },
+      "Neuronal Ceroid Lipofuscinosis, Congenital",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018505&label=Disease",
+        "title": "HBDIS018505"
+      },
+      "CEROID LIPOFUSCINOSIS, NEURONAL, 2",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019217&label=Disease",
+        "title": "HBDIS019217"
+      },
+      "Kounis Syndrome",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026004&label=Disease",
+        "title": "HBDIS026004"
+      },
+      "FIGO Stage III Ovarian Cancer",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006370&label=Disease",
+        "title": "HBDIS006370"
+      },
+      "Glutaric aciduria, type 1",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017720&label=Disease",
+        "title": "HBDIS017720"
+      },
+      "2-AMINOADIPIC 2-OXOADIPIC ACIDURIA",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019724&label=Disease",
+        "title": "HBDIS019724"
+      },
+      "Alpha ketoadipic aciduria",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021847&label=Disease",
+        "title": "HBDIS021847"
+      },
+      "CHARCOT-MARIE-TOOTH DISEASE, AXONAL, TYPE 2Q",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027044&label=Disease",
+        "title": "HBDIS027044"
+      },
+      "Alpha-aminoadipic aciduria",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000927&label=Target",
+        "title": "HBTAR000927"
+      },
+      "CTSD",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT00838",
+          "title": "SymMap:SMTT00838"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00363"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003223&label=Target",
+        "title": "HBTAR003223"
+      },
+      "PRSS1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02928"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001096&label=Target",
+        "title": "HBTAR001096"
+      },
+      "DPP4",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00332"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN021642",
+      "CPI",
+      "C00408; (S)-(-)-pipecolic acid; L-pipecolate ester; (2S)-piperidine-2-carboxylic acid; L-(-)-pipecolic acid; (S)-pipecolic acid; 6-CARBOXYPIPERIDINE; Pipecolic acid; P2519_SIGMA; (2S)-2-piperidinecarboxylic acid; 2-Piperidinecarboxylic acid; L-pipecolate esters; (2S)-pipecolinic acid; Pipecolinic acid; CHEBI:30913; (S)-(&#8722;)-2-Piperidinecarboxylic acid; SBB006732; CHEBI:46876; (S)-piperidine-2-carboxylic acid; L-Homoproline",
+      "C6H11NO2",
+      "CC(C)(C(=O)OC)[N+]#[C-]",
+      "129.16",
+      "66.14393071",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "535-75-1"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT05814",
+        "title": "SMIT05814"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL003795"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/6918006",
+        "title": "6918006"
+      }
+    ]
+  ]
+}

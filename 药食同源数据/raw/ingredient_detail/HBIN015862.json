@@ -1,0 +1,227 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002370&label=Herb",
+        "title": "HERB002370"
+      },
+      "HU JI SHENG",
+      "槲寄生",
+      "Colored Mistletoe Herb",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Visci"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003031&label=Herb",
+        "title": "HERB003031"
+      },
+      "JU HUA",
+      "菊花",
+      "Chrysanthemum Flower",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Chrysanthemi"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "B 995; SBB057747; 6853-EP2295550A2; 26949-EP2305658A1; 6853-EP2305260A1; Succinic acid-2,2-dimethylhydrazide; LS-908; 3-[N-(dimethylamino)carbamoyl]propanoic acid; Butanedioic acid mono(2,2-dimethylhydrazide); Aminozid; N-Dimethylamino-succinamidsaeure; SCHEMBL50347; diaminozide; SUCCINIC ACID, 2,2-DIMETHYLHYDRAZIDE; Daminozide [ANSI:BSI:ISO]; AK310838; 1-(2,2-Dimethylhydrazide)butanedioic acid; N-Dimethylamino-beta-carbamylpropionic acid; N-dimethylamino-beta-carbamyl propionic acid; D4015; NCGC00091281-03; B-Nine; Alar 85; 74913-15-8; MFCD00002787; 6853-EP2275425A1; 6853-EP2301934A1; MolPort-002-927-289; EINECS 216-485-9; NCGC00091281-04; 3-(N',N'-dimethylhydrazinecarbonyl)propanoic acid; K-5005; W-107985; 6853-EP2371808A1; AC1L25O2; 4-(2,2-Dimethylhydrazino)-4-oxobutanoic acid; N-dimethylamino-beta-car bamyl propionic acid; AI3-50727; Succinic 1,1-dimethyl hydrazide; FT-0629276; D0B2WZ; Succinic acid, mono(2,2-dimethylhydrazide); EPA Pesticide Chemical Code 035101; NCGC00259748-01; AN-49511; MCULE-6532969482; AKOS005208038; DMASA; Kylar; NINE; 6853-EP2298760A1; Dazide; N-Dimethylamino-succinamidsaeure [German]; NCGC00091281-01; DSSTox_CID_370; CCG-55990; DYaK; NCGC00254822-01; Daminozide (B9); alar-85; NCI-C03827; 6853-EP2275420A1; 6853-EP2308882A1; 6853-EP2272516A2; Dimethylaminosuccinamic acid; CHEMBL2164243; 6853-EP2308875A1; micro yen(2,2- paragraph signthorn(1/4)x>>uo poundeA) paragraph sign inverted exclamation mark paragraph signthornEao poundeA; 6853-EP2305686A1; S"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS028111&label=Disease",
+        "title": "HBDIS028111"
+      },
+      "MITOCHONDRIAL COMPLEX I DEFICIENCY, NUCLEAR TYPE 32",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016267&label=Disease",
+        "title": "HBDIS016267"
+      },
+      "Siderius X-linked mental retardation syndrome",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR005375&label=Target",
+        "title": "HBTAR005375"
+      },
+      "KDM4A",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/13006/",
+          "title": "TCMID:13006"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR006433&label=Target",
+        "title": "HBTAR006433"
+      },
+      "KDM2A",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3583/",
+          "title": "TCMID:3583"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR006509&label=Target",
+        "title": "HBTAR006509"
+      },
+      "PHF8",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9839/",
+          "title": "TCMID:9839"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR008383&label=Target",
+        "title": "HBTAR008383"
+      },
+      "HIF1AN",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8335/",
+          "title": "TCMID:8335"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR009780&label=Target",
+        "title": "HBTAR009780"
+      },
+      "KDM7A",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/",
+          "title": "TCMID"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN015862",
+      "aminozide",
+      "B 995; SBB057747; 6853-EP2295550A2; 26949-EP2305658A1; 6853-EP2305260A1; Succinic acid-2,2-dimethylhydrazide; LS-908; 3-[N-(dimethylamino)carbamoyl]propanoic acid; Butanedioic acid mono(2,2-dimethylhydrazide); Aminozid; N-Dimethylamino-succinamidsaeure; SCHEMBL50347; diaminozide; SUCCINIC ACID, 2,2-DIMETHYLHYDRAZIDE; Daminozide [ANSI:BSI:ISO]; AK310838; 1-(2,2-Dimethylhydrazide)butanedioic acid; N-Dimethylamino-beta-carbamylpropionic acid; N-dimethylamino-beta-carbamyl propionic acid; D4015; NCGC00091281-03; B-Nine; Alar 85; 74913-15-8; MFCD00002787; 6853-EP2275425A1; 6853-EP2301934A1; MolPort-002-927-289; EINECS 216-485-9; NCGC00091281-04; 3-(N',N'-dimethylhydrazinecarbonyl)propanoic acid; K-5005; W-107985; 6853-EP2371808A1; AC1L25O2; 4-(2,2-Dimethylhydrazino)-4-oxobutanoic acid; N-dimethylamino-beta-car bamyl propionic acid; AI3-50727; Succinic 1,1-dimethyl hydrazide; FT-0629276; D0B2WZ; Succinic acid, mono(2,2-dimethylhydrazide); EPA Pesticide Chemical Code 035101; NCGC00259748-01; AN-49511; MCULE-6532969482; AKOS005208038; DMASA; Kylar; NINE; 6853-EP2298760A1; Dazide; N-Dimethylamino-succinamidsaeure [German]; NCGC00091281-01; DSSTox_CID_370; CCG-55990; DYaK; NCGC00254822-01; Daminozide (B9); alar-85; NCI-C03827; 6853-EP2275420A1; 6853-EP2308882A1; 6853-EP2272516A2; Dimethylaminosuccinamic acid; CHEMBL2164243; 6853-EP2308875A1; micro yen(2,2- paragraph signthorn(1/4)x>>uo poundeA) paragraph sign inverted exclamation mark paragraph signthornEao poundeA; 6853-EP2305686A1; S",
+      "C6H12N2O3",
+      "CN(C)NC(=O)CCC(=O)O",
+      "160.17",
+      {
+        "link": "https://www.symmap.org/detail/SMIT14269",
+        "title": "SMIT14269"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/1064/",
+        "title": "1064"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/15331",
+        "title": "15331"
+      }
+    ]
+  ]
+}

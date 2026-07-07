@@ -1,0 +1,136 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001210&label=Herb",
+        "title": "HERB001210"
+      },
+      "DANG GUI",
+      "当归",
+      "root of Chinese Angelica",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Angelicae sinensis"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "Phthalandione; isobenzofuran-1,3-quinone; Vulkalent B/C; 1,2-Benzenedicarboxylic anhydride; Isobenzofuran, 1,3-dihydro-1,3-dioxo-; Anhydride phtalique; AIDS-189621; EINECS 270-149-6; Vulkalent B; Phthalic anhydride treated-reduced and alkylated bovine serum albumin; RCRA waste no. U190; UN2214; 1,2-Benzenedicarboxylic acid anhydride; Wiltrol P; Anhydrid kyseliny ftalove [Czech]; 1,3-Phthalandione; AIDS-189608; TGL 6525; AIDS-189618; AIDS189616; 320064_SIAL; 80020_FLUKA; Phthalic anhydride treated gelatin; 2-benzofuran-1,3-dione; Retarder ESEN; AIDS-189620; ST5214459; Retarder PD; NSC10431; RCRA waste number U190; Phthalic anhydride, oxidized; Phthalsaeureanhydrid; NCI-C03601; Phthalic anhydride treated casein I; Phthalic acid anhydride; 85-44-9; AIDS189619; NCGC00091060-01; 68411-80-3; Ftalowy bezwodnik [Polish]; Phthalic anhydride treated BSA; Phthalic anhydride treated-reduced and alkylated BSA; Phthalic anhydride treated human serum albumin; Ftaalzuuranhydride [Dutch]; AIDS189615; Anidride ftalica; Phthalic anhydride treated casein II; AIDS-189619; phtalic anhydride; 1,3-Dioxophthalan; Phthalic anhydride; AIDS189608; Phthalic anhydride treated rabbit serum albumin; Anhydride phtalique [French]; Anidride ftalica [Italian]; AIDS-189616; Ftalowy bezwodnik; InChI=1/C8H4O3/c9-7-5-3-1-2-4-6(5)8(10)11-7/h1-4; AI3-04869; 1,3-Isobenzofurandione; Ftaalzuuranhydride; 1,3-Isobenzofurandione, oxidized; AIDS189621; Phthalsaeureanhydrid [German]; Phthalic anhydride (molten); NSC 10431; F"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN025801",
+      "ESEN",
+      "Phthalandione; isobenzofuran-1,3-quinone; Vulkalent B/C; 1,2-Benzenedicarboxylic anhydride; Isobenzofuran, 1,3-dihydro-1,3-dioxo-; Anhydride phtalique; AIDS-189621; EINECS 270-149-6; Vulkalent B; Phthalic anhydride treated-reduced and alkylated bovine serum albumin; RCRA waste no. U190; UN2214; 1,2-Benzenedicarboxylic acid anhydride; Wiltrol P; Anhydrid kyseliny ftalove [Czech]; 1,3-Phthalandione; AIDS-189608; TGL 6525; AIDS-189618; AIDS189616; 320064_SIAL; 80020_FLUKA; Phthalic anhydride treated gelatin; 2-benzofuran-1,3-dione; Retarder ESEN; AIDS-189620; ST5214459; Retarder PD; NSC10431; RCRA waste number U190; Phthalic anhydride, oxidized; Phthalsaeureanhydrid; NCI-C03601; Phthalic anhydride treated casein I; Phthalic acid anhydride; 85-44-9; AIDS189619; NCGC00091060-01; 68411-80-3; Ftalowy bezwodnik [Polish]; Phthalic anhydride treated BSA; Phthalic anhydride treated-reduced and alkylated BSA; Phthalic anhydride treated human serum albumin; Ftaalzuuranhydride [Dutch]; AIDS189615; Anidride ftalica; Phthalic anhydride treated casein II; AIDS-189619; phtalic anhydride; 1,3-Dioxophthalan; Phthalic anhydride; AIDS189608; Phthalic anhydride treated rabbit serum albumin; Anhydride phtalique [French]; Anidride ftalica [Italian]; AIDS-189616; Ftalowy bezwodnik; InChI=1/C8H4O3/c9-7-5-3-1-2-4-6(5)8(10)11-7/h1-4; AI3-04869; 1,3-Isobenzofurandione; Ftaalzuuranhydride; 1,3-Isobenzofurandione, oxidized; AIDS189621; Phthalsaeureanhydrid [German]; Phthalic anhydride (molten); NSC 10431; F",
+      "C8H4O3",
+      "C1=CC=C2C(=C1)C(=O)OC2=O",
+      "148.12",
+      "47.312947",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "85-44-9"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT09564",
+        "title": "SMIT09564"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL008250"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/6811",
+        "title": "6811"
+      }
+    ]
+  ]
+}

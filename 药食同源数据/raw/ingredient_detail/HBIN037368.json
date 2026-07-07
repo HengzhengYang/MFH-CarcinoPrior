@@ -1,0 +1,219 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001758&label=Herb",
+        "title": "HERB001758"
+      },
+      "FU PING",
+      "浮萍",
+      "all-grass of Common Ducksmeat",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Spirodelae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002171&label=Herb",
+        "title": "HERB002171"
+      },
+      "HE HUA YU LAN",
+      "荷花玉兰",
+      "Southern Magnolia",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Magnolia grandiflora"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002191&label=Herb",
+        "title": "HERB002191"
+      },
+      "HE YE",
+      "荷叶",
+      "Lotus leaf",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Folium Nelumbinis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002912&label=Herb",
+        "title": "HERB002912"
+      },
+      "JIN HUANG LIAN",
+      "金黄连",
+      "American Lotus",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Nelumbo lutea"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003376&label=Herb",
+        "title": "HERB003376"
+      },
+      "LIAN ZI",
+      "莲子",
+      "Hindu Lotus Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Nelumbo nucifera"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005515&label=Herb",
+        "title": "HERB005515"
+      },
+      "TIE ZI",
+      "铁子",
+      "African Myrsine",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Myrsine africana"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006774&label=Herb",
+        "title": "HERB006774"
+      },
+      "YUAN HUA FAN LI ZHI",
+      "圆滑番荔枝",
+      "Glabrous Custardapple",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Annona glabra"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "1,2,8-Trihydroxy-3-methyl-9,10-anthracenedione, 9CI; 2,5-DICHLOROPHENYL DICHLOROPHOSPHATE, 97; 1,2,8-Trihydroxy-3-methylanthraquinone; 2-Hydroxychrysophanol; Norobtusifolin; CHEMBL190245; ZINC4098690; CTK5A8153; 9,10-Anthracenedione,1,2,8-trihydroxy-3-methyl-; AK385973; C10379; 1,2,8-trihydroxy-3-methylanthracene-9,10-dione; AC-10899; 9,10-Anthracenedione, 1,2,8-trihydroxy-3-methyl-; 58322-78-4; LMPK13040011; DTXSID70207049; 1,2,8-trihydroxy-3-methyl-9,10-anthraquinone; AC1L9DD2; CHEBI:7635; AKOS015960424; SCHEMBL3192604"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN037368",
+      "norobtusifolin",
+      "1,2,8-Trihydroxy-3-methyl-9,10-anthracenedione, 9CI; 2,5-DICHLOROPHENYL DICHLOROPHOSPHATE, 97; 1,2,8-Trihydroxy-3-methylanthraquinone; 2-Hydroxychrysophanol; Norobtusifolin; CHEMBL190245; ZINC4098690; CTK5A8153; 9,10-Anthracenedione,1,2,8-trihydroxy-3-methyl-; AK385973; C10379; 1,2,8-trihydroxy-3-methylanthracene-9,10-dione; AC-10899; 9,10-Anthracenedione, 1,2,8-trihydroxy-3-methyl-; 58322-78-4; LMPK13040011; DTXSID70207049; 1,2,8-trihydroxy-3-methyl-9,10-anthraquinone; AC1L9DD2; CHEBI:7635; AKOS015960424; SCHEMBL3192604",
+      "C15H10O5",
+      "CC1=CC2=C(C(=C1O)O)C(=O)C3=C(C2=O)C=CC=C3O",
+      "270.24",
+      {
+        "link": "https://www.symmap.org/detail/SMIT16921",
+        "title": "SMIT16921"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/15773/",
+        "title": "15773"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/442759",
+        "title": "442759"
+      }
+    ]
+  ]
+}

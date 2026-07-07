@@ -1,0 +1,174 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002189&label=Herb",
+        "title": "HERB002189"
+      },
+      "HE TAO REN",
+      "核桃仁",
+      "English Walnut Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Juglandis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002840&label=Herb",
+        "title": "HERB002840"
+      },
+      "JIANG HUANG",
+      "姜黄",
+      "rhizome of Common Turmeric",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Curcumae longae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005335&label=Herb",
+        "title": "HERB005335"
+      },
+      "SUO LUO ZI",
+      "娑罗子",
+      "Buckeye Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Aesculi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006718&label=Herb",
+        "title": "HERB006718"
+      },
+      "YU JIN",
+      "郁金",
+      "Tuber - root of Common Turmeric",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Curcumae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "DTXSID10415202; 101392-12-5; AC1NQZ70; Turricolol E; C10838; CHEBI:9781; 2-[(2E,6Z)-7-(hydroxymethyl)-3,11-dimethyldodeca-2,6,10-trienyl]benzene-1,4-diol; 2-[(2E,6Z)-7-(hydroxymethyl)-3,11-dimethyl-dodeca-2,6,10-trienyl]benzene-1,4-diol"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN047397",
+      "turricolol e",
+      "DTXSID10415202; 101392-12-5; AC1NQZ70; Turricolol E; C10838; CHEBI:9781; 2-[(2E,6Z)-7-(hydroxymethyl)-3,11-dimethyldodeca-2,6,10-trienyl]benzene-1,4-diol; 2-[(2E,6Z)-7-(hydroxymethyl)-3,11-dimethyl-dodeca-2,6,10-trienyl]benzene-1,4-diol",
+      "C21H30O3",
+      "CC(=CCCC(=CCCC(=CCC1=C(C=CC(=C1)O)O)C)CO)C",
+      "330.5",
+      {
+        "link": "https://www.symmap.org/detail/SMIT18115",
+        "title": "SMIT18115"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/22126/",
+        "title": "22126"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/5281861",
+        "title": "5281861"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001448&label=Herb",
+        "title": "HERB001448"
+      },
+      "DUAN XUE LIU",
+      "断血流",
+      "Clinopodium Herb",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Clinopodii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003715&label=Herb",
+        "title": "HERB003715"
+      },
+      "MAI YA",
+      "麦芽",
+      "Germited Barley",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Hordei Germitus"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004093&label=Herb",
+        "title": "HERB004093"
+      },
+      "NAN HE SHI",
+      "南鹤虱",
+      "Fructus Carotae",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NSC69852 (TETRAHYDROCHLORIDE); S3256_SIGMA; Diaminopropyltetramethylenediamine; musculamine; 3-aminopropyl-[4-(3-aminopropylamino)butyl]amine; AIDS005222; NSC268508; HSCI1_000212; SPERMINE; 4,9-Diaza-1,12-dodecanediamine; NSC 268508; NCIMech_000206; diaminopropyl-tetramethylenediamine; 4,9-Diazadodecamethylenediamine; N,N'-bis(3-aminopropyl)butane-1,4-diamine; AI3-26633; NCI60_035280; Biomol-NT_000213; gerontine; N,N'-Bis(3-aminopropyl)-1,4-butane-diamine; 71-44-3; 71-44-3 (FREE BASE); BPBio1_001086; 1,4-Bis(aminopropyl) butanediamine; EINECS 200-754-2; Spermine, puriss; NCGC00024902-01; WLN: Z3M4M3Z; N,N'-Bis(3-aminopropyl)-1,4-diaminobutane; BRN 1750791; 306-67-2 (TETRAHYDROCHLORIDE); 1,4-Bis(aminopropyl)butanediamine; 115-04-8; Lopac-S-2876; NSC268508 (FREE BASE); AIDS-005222; Spermine dihydrate; Tocris-0958; 85588_FLUKA; 4-04-00-01301 (Beilstein Handbook Reference); Spermin; Lopac0_001077; C00750; 1,4-Diaminobutane, N,N'-bis(3-aminopropyl)-; NCGC00015941-01; S4264_SIGMA; neuridine; N,N'-Bis(3-aminopropyl)-1,4-butanediamine; 4,9-Diazadodecane-1,12-diamine; NCGC00024902-03; 1,4-Butanediamine, N,N'-bis(3-aminopropyl)-; CHEBI:15746"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN044635",
+      "SPM",
+      "NSC69852 (TETRAHYDROCHLORIDE); S3256_SIGMA; Diaminopropyltetramethylenediamine; musculamine; 3-aminopropyl-[4-(3-aminopropylamino)butyl]amine; AIDS005222; NSC268508; HSCI1_000212; SPERMINE; 4,9-Diaza-1,12-dodecanediamine; NSC 268508; NCIMech_000206; diaminopropyl-tetramethylenediamine; 4,9-Diazadodecamethylenediamine; N,N'-bis(3-aminopropyl)butane-1,4-diamine; AI3-26633; NCI60_035280; Biomol-NT_000213; gerontine; N,N'-Bis(3-aminopropyl)-1,4-butane-diamine; 71-44-3; 71-44-3 (FREE BASE); BPBio1_001086; 1,4-Bis(aminopropyl) butanediamine; EINECS 200-754-2; Spermine, puriss; NCGC00024902-01; WLN: Z3M4M3Z; N,N'-Bis(3-aminopropyl)-1,4-diaminobutane; BRN 1750791; 306-67-2 (TETRAHYDROCHLORIDE); 1,4-Bis(aminopropyl)butanediamine; 115-04-8; Lopac-S-2876; NSC268508 (FREE BASE); AIDS-005222; Spermine dihydrate; Tocris-0958; 85588_FLUKA; 4-04-00-01301 (Beilstein Handbook Reference); Spermin; Lopac0_001077; C00750; 1,4-Diaminobutane, N,N'-bis(3-aminopropyl)-; NCGC00015941-01; S4264_SIGMA; neuridine; N,N'-Bis(3-aminopropyl)-1,4-butanediamine; 4,9-Diazadodecane-1,12-diamine; NCGC00024902-03; 1,4-Butanediamine, N,N'-bis(3-aminopropyl)-; CHEBI:15746",
+      "C10H26N4",
+      "C(CCNCCCN)CNCCCN",
+      "202.34",
+      "26.81204873",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "115-04-8"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT07549",
+        "title": "SMIT07549"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL005850"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/1103",
+        "title": "1103"
+      }
+    ]
+  ]
+}

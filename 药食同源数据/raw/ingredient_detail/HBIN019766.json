@@ -1,0 +1,259 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001614&label=Herb",
+        "title": "HERB001614"
+      },
+      "FAN MU GUA",
+      "番木瓜",
+      "Papaya Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Carica papaya"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002183&label=Herb",
+        "title": "HERB002183"
+      },
+      "HE SHI FENG",
+      "鹤虱风",
+      "Wild Carrot",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Daucus carota"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002376&label=Herb",
+        "title": "HERB002376"
+      },
+      "HU LU BA",
+      "胡芦巴",
+      "Trigonellae Semen",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002381&label=Herb",
+        "title": "HERB002381"
+      },
+      "HU LUO BO ZI",
+      "胡萝卜子",
+      "Carrot Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Daucus carota var. sativa"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003040&label=Herb",
+        "title": "HERB003040"
+      },
+      "JU LUO",
+      "橘络",
+      "Citri Fructus Retinervus",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003282&label=Herb",
+        "title": "HERB003282"
+      },
+      "LE GE WANG GEN",
+      "了哥王根",
+      "Wikstroemiae Indicae Rasix",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003369&label=Herb",
+        "title": "HERB003369"
+      },
+      "LIAN XU",
+      "莲须",
+      "Lotus stamen",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Stamen Nelumbinis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004021&label=Herb",
+        "title": "HERB004021"
+      },
+      "MU GUA",
+      "木瓜",
+      "fruit of Common Floweringquince",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Chaenomelis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004093&label=Herb",
+        "title": "HERB004093"
+      },
+      "NAN HE SHI",
+      "南鹤虱",
+      "Fructus Carotae",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "CHEBI:3433; 13,26-Dimethyl-2,15-dioxa-12,25-diazatricyclotriacontane-3,16-dione; (1S,11R,13S,14S,24R,26S)-13,26-dimethyl-2,15-dioxa-12,25-diazatricyclo[22.2.2.211,14]triacontane-3,16-dione; VLR223H4QP; AC1L9D45; EINECS 222-414-2; SCHEMBL1443089; (+)-Carpaine; UNII-VLR223H4QP; 3463-92-1; ZINC100071528; C10135; Carpaine"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN019766",
+      "carpaine",
+      "CHEBI:3433; 13,26-Dimethyl-2,15-dioxa-12,25-diazatricyclotriacontane-3,16-dione; (1S,11R,13S,14S,24R,26S)-13,26-dimethyl-2,15-dioxa-12,25-diazatricyclo[22.2.2.211,14]triacontane-3,16-dione; VLR223H4QP; AC1L9D45; EINECS 222-414-2; SCHEMBL1443089; (+)-Carpaine; UNII-VLR223H4QP; 3463-92-1; ZINC100071528; C10135; Carpaine",
+      "C28H50N2O4",
+      "CC1C2CCC(N1)CCCCCCCC(=O)OC3CCC(CCCCCCCC(=O)O2)NC3C",
+      "478.7",
+      {
+        "link": "https://www.symmap.org/detail/SMIT01324",
+        "title": "SMIT01324"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/3218/",
+        "title": "3218"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL008514"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "5883"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/442630",
+        "title": "442630"
+      }
+    ]
+  ]
+}

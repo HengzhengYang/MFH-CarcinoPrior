@@ -1,0 +1,234 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000499&label=Herb",
+        "title": "HERB000499"
+      },
+      "BING SHE CHUANG",
+      "冰蛇床",
+      "Japanese Cnidium",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Cnidium japonicum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000658&label=Herb",
+        "title": "HERB000658"
+      },
+      "CHANG BIAN HUA DANG GUI",
+      "NA",
+      "Longradiate Angelica",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Angelica longeradiata"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000742&label=Herb",
+        "title": "HERB000742"
+      },
+      "CHANGBIAN HUA DANG GUI",
+      "当归",
+      "NA",
+      "NA"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003093&label=Herb",
+        "title": "HERB003093"
+      },
+      "KAI SHI DANG GUI",
+      "开始当归",
+      "Keislce Angelica",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Angelica keislcei"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004013&label=Herb",
+        "title": "HERB004013"
+      },
+      "MU DAN PI",
+      "牡丹皮",
+      "Tree Peony Bark",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Cortex Moutan"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004193&label=Herb",
+        "title": "HERB004193"
+      },
+      "NIU DA LI",
+      "牛大力",
+      "Millettiae Speciosae Radix",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004971&label=Herb",
+        "title": "HERB004971"
+      },
+      "SHE CHUANG ZI",
+      "蛇床子",
+      "Common Cnidium Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Cnidii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006766&label=Herb",
+        "title": "HERB006766"
+      },
+      "YUAN DANG GUI",
+      "圆当归",
+      "Angelica",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Angelica archangelica"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "[1-methyl-1-[(9R)-9-(3-methylbut-2-enoyloxy)-2-oxo-8,9-dihydrofuro[2,3-h]chromen-8-yl]ethyl] (E)-2-methylbut-2-enoate; CHEBI:2808"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN016605",
+      "archangelicin",
+      "[1-methyl-1-[(9R)-9-(3-methylbut-2-enoyloxy)-2-oxo-8,9-dihydrofuro[2,3-h]chromen-8-yl]ethyl] (E)-2-methylbut-2-enoate; CHEBI:2808",
+      "C24H26O7",
+      "CC=C(C)C(=O)OC1C(OC2=C1C3=C(C=C2)C=CC(=O)O3)C(C)(C)OC(=O)C(=CC)C",
+      "426.5",
+      {
+        "link": "https://www.symmap.org/detail/SMIT01274",
+        "title": "SMIT01274"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/1619/",
+        "title": "1619"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "6709"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/133562226",
+        "title": "133562226"
+      }
+    ]
+  ]
+}

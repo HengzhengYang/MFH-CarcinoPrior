@@ -1,0 +1,159 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005485&label=Herb",
+        "title": "HERB005485"
+      },
+      "TIAN ZHU HUANG",
+      "天竺黄",
+      "Chinese schinzostachyum Tabasheer",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Concretio Silicea Bambusae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006570&label=Herb",
+        "title": "HERB006570"
+      },
+      "YI ZHI HAO",
+      "一枝蒿",
+      "Alpine Yarrow",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Achillea alpina [Syn. Achillea sibirica ]"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB007046&label=Herb",
+        "title": "HERB007046"
+      },
+      "ZHI ZI",
+      "栀子",
+      "fruit of Cape Jasmine",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Gardeniae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "UNII-24J0W87Z43; 5-Hydroxy-3',4',5',6,7,8-hexamethoxyflavone; Gardenin; 5-Hydroxy-6,7,8,3',4',5'-Hexamethoxyflaone; NCGC00168844-01; AK391222; 24J0W87Z43; 5-hydroxy-6,7,8-trimethoxy-2-(3,4,5-trimethoxyphenyl)chromen-4-one; PubChem9851; MFCD00017419; DTXSID30175417; ZINC1615112; Flavone,4',5',6,7,8-hexamethoxy-; 5-Hydroxy-6,7,8-trimethoxy-(3,4,5-trimethoxyphenyl)-4H-1-benzopyran-4-one; MCULE-6990234990; 4H-1-Benzopyran-4-one,5-hydroxy-6,7,8- trimethoxy-2-(3,4,5-trimethoxyphenyl)-; 3',4',5',6,7,8-Hexamethoxy-5-hydroxyflavone; AKOS024286925; ACM21187735; SCHEMBL1764114; AC1L668E; HMS2269F21; CHEMBL77705; SMR000440777; BRD-K78744675-001-01-7; 21187-73-5; ST097542; MLS000863619; BIDD:ER0415; CJ-26066; ACon1_000048; Gardenin A; LMPK12111493; C-22035; NSC94889; 5-hydroxy-6,7,8-trimethoxy-2-(3,4,5-trimethoxyphenyl)-4H-chromen-4-one; 5OH3'4'5'6,7,8-hexMeO-Flavone; Flavone, 5-hydroxy-3',4',5',6,7,8-hexamethoxy-; MQBFFYQCZCKSBX-UHFFFAOYSA-N; NSC 94889; NCGC00096041-01; Gardenin (1); NSC-94889; BDBM153263; NCGC00096041-02; NCI60_042113; CTK4E6049; ST50331615; gardenin a, AldrichCPR; SPECTRUM1505146; FT-0630469; 4H-1-Benzopyran-4-one,7,8-trimethoxy-2-(3,4,5-trimethoxyphenyl)-; MEGxp0_001882; AC1Q6AIV"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN027364",
+      "gardenin",
+      "UNII-24J0W87Z43; 5-Hydroxy-3',4',5',6,7,8-hexamethoxyflavone; Gardenin; 5-Hydroxy-6,7,8,3',4',5'-Hexamethoxyflaone; NCGC00168844-01; AK391222; 24J0W87Z43; 5-hydroxy-6,7,8-trimethoxy-2-(3,4,5-trimethoxyphenyl)chromen-4-one; PubChem9851; MFCD00017419; DTXSID30175417; ZINC1615112; Flavone,4',5',6,7,8-hexamethoxy-; 5-Hydroxy-6,7,8-trimethoxy-(3,4,5-trimethoxyphenyl)-4H-1-benzopyran-4-one; MCULE-6990234990; 4H-1-Benzopyran-4-one,5-hydroxy-6,7,8- trimethoxy-2-(3,4,5-trimethoxyphenyl)-; 3',4',5',6,7,8-Hexamethoxy-5-hydroxyflavone; AKOS024286925; ACM21187735; SCHEMBL1764114; AC1L668E; HMS2269F21; CHEMBL77705; SMR000440777; BRD-K78744675-001-01-7; 21187-73-5; ST097542; MLS000863619; BIDD:ER0415; CJ-26066; ACon1_000048; Gardenin A; LMPK12111493; C-22035; NSC94889; 5-hydroxy-6,7,8-trimethoxy-2-(3,4,5-trimethoxyphenyl)-4H-chromen-4-one; 5OH3'4'5'6,7,8-hexMeO-Flavone; Flavone, 5-hydroxy-3',4',5',6,7,8-hexamethoxy-; MQBFFYQCZCKSBX-UHFFFAOYSA-N; NSC 94889; NCGC00096041-01; Gardenin (1); NSC-94889; BDBM153263; NCGC00096041-02; NCI60_042113; CTK4E6049; ST50331615; gardenin a, AldrichCPR; SPECTRUM1505146; FT-0630469; 4H-1-Benzopyran-4-one,7,8-trimethoxy-2-(3,4,5-trimethoxyphenyl)-; MEGxp0_001882; AC1Q6AIV",
+      "C21H22O9",
+      "COC1=CC(=CC(=C1OC)OC)C2=CC(=O)C3=C(C(=C(C(=C3O2)OC)OC)OC)O",
+      "418.4",
+      {
+        "link": "https://www.symmap.org/detail/SMIT15507",
+        "title": "SMIT15507"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/8227/",
+        "title": "8227"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/261859",
+        "title": "261859"
+      }
+    ]
+  ]
+}

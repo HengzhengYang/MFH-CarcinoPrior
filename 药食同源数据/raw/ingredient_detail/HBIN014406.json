@@ -1,0 +1,730 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000409&label=Herb",
+        "title": "HERB000409"
+      },
+      "BEI WU WEI ZI",
+      "北五味子",
+      "Schisandrae Chinensis Fructus",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001579&label=Herb",
+        "title": "HERB001579"
+      },
+      "E ZHU",
+      "莪术",
+      "Zedoray Rhizome",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Curcumae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001734&label=Herb",
+        "title": "HERB001734"
+      },
+      "FO SHOU",
+      "佛手",
+      "Finger Citron",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Citri sarcodactylis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002342&label=Herb",
+        "title": "HERB002342"
+      },
+      "HOU PU",
+      "厚朴",
+      "bark of Officil magnolia",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Cortex Magnoliae officilis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003730&label=Herb",
+        "title": "HERB003730"
+      },
+      "MAN SHAN HONG",
+      "满山红",
+      "Dahurian Rhododendron Leaf",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Folium Rhododendri Daurici"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005782&label=Herb",
+        "title": "HERB005782"
+      },
+      "WU ZHU YU",
+      "吴茱萸",
+      "Medicil Evodia Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Evodiae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005894&label=Herb",
+        "title": "HERB005894"
+      },
+      "XI XIN",
+      "细辛",
+      "all-grass Manchurian wildginger",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Asari"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006741&label=Herb",
+        "title": "HERB006741"
+      },
+      "YU XING CAO",
+      "鱼腥草",
+      "all-grass of Heartleaf Houttuynia",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Houttuyniae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "ZINC00404304; acetic acid [(1R,2R,4R)-1,7,7-trimethyl-2-norbornanyl] ester; [(1R,4R,6R)-1,7,7-trimethyl-6-bicyclo[2.2.1]heptanyl] acetate; bicyclo[2.2.1]heptan-2-ol, 1,7,7-trimethyl-, acetate; [(1R,2R,4R)-1,7,7-trimethylnorbornan-2-yl] acetate; [(1R,4R,6R)-1,7,7-trimethyl-6-bicyclo[2.2.1]heptanyl] ethanoate; InChI=1/C12H20O2/c1-8(13)14-10-7-9-5-6-12(10,4)11(9,2)3/h9-10H,5-7H2,1-4H"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026227&label=Disease",
+        "title": "HBDIS026227"
+      },
+      "AMELOGENESIS IMPERFECTA, TYPE IJ",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000336&label=Disease",
+        "title": "HBDIS000336"
+      },
+      "Bladder neck obstruction",
+      "0.000589584905688519",
+      "0.00550165070535431"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009738&label=Disease",
+        "title": "HBDIS009738"
+      },
+      "Tonic - clonic seizures",
+      "0.000319755920087053",
+      "0.00358398358499523"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011327&label=Disease",
+        "title": "HBDIS011327"
+      },
+      "Seizures, Focal",
+      "0.000153613682735188",
+      "0.00214283801606474"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026433&label=Disease",
+        "title": "HBDIS026433"
+      },
+      "Epileptic Seizures",
+      "0.00026980115249525",
+      "0.00320238776363029"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026435&label=Disease",
+        "title": "HBDIS026435"
+      },
+      "Myoclonic Seizures",
+      "3.67716339361346e-05",
+      "0.00073636946480116"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017720&label=Disease",
+        "title": "HBDIS017720"
+      },
+      "2-AMINOADIPIC 2-OXOADIPIC ACIDURIA",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019724&label=Disease",
+        "title": "HBDIS019724"
+      },
+      "Alpha ketoadipic aciduria",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027044&label=Disease",
+        "title": "HBDIS027044"
+      },
+      "Alpha-aminoadipic aciduria",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002266&label=Disease",
+        "title": "HBDIS002266"
+      },
+      "Pain, Postoperative",
+      "0.00119173719564964",
+      "0.00857614368854565"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006507&label=Disease",
+        "title": "HBDIS006507"
+      },
+      "Petit mal status",
+      "0.000976787262601973",
+      "0.00757247989735943"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007324&label=Disease",
+        "title": "HBDIS007324"
+      },
+      "Grand Mal Status Epilepticus",
+      "0.00090155806097189",
+      "0.00726600941727154"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008710&label=Disease",
+        "title": "HBDIS008710"
+      },
+      "Complex Partial Status Epilepticus",
+      "0.000737496061216675",
+      "0.0063499313086922"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011343&label=Disease",
+        "title": "HBDIS011343"
+      },
+      "Status Epilepticus, Subclinical",
+      "0.000759947227898622",
+      "0.00650159958586414"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011344&label=Disease",
+        "title": "HBDIS011344"
+      },
+      "Non-Convulsive Status Epilepticus",
+      "0.000805837103863079",
+      "0.0067143283431822"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011345&label=Disease",
+        "title": "HBDIS011345"
+      },
+      "Simple Partial Status Epilepticus",
+      "0.000737496061216675",
+      "0.0063499313086922"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001313&label=Disease",
+        "title": "HBDIS001313"
+      },
+      "Hemopericardium",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002387&label=Disease",
+        "title": "HBDIS002387"
+      },
+      "Photosensitivity Disorders",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005408&label=Disease",
+        "title": "HBDIS005408"
+      },
+      "BLV Infections",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006091&label=Disease",
+        "title": "HBDIS006091"
+      },
+      "Ischemic enteritis",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006813&label=Disease",
+        "title": "HBDIS006813"
+      },
+      "Tuberculous ascites",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007294&label=Disease",
+        "title": "HBDIS007294"
+      },
+      "Parainfluenza Virus Infections",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007457&label=Disease",
+        "title": "HBDIS007457"
+      },
+      "Hamartomatous polyp",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008155&label=Disease",
+        "title": "HBDIS008155"
+      },
+      "Pulmonary melioidosis",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008556&label=Disease",
+        "title": "HBDIS008556"
+      },
+      "Congestive Ophthalmopathy",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008908&label=Disease",
+        "title": "HBDIS008908"
+      },
+      "Non-bacterial prostatitis",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009135&label=Disease",
+        "title": "HBDIS009135"
+      },
+      "Neurogenic pain",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010303&label=Disease",
+        "title": "HBDIS010303"
+      },
+      "Allergy to metal",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013187&label=Disease",
+        "title": "HBDIS013187"
+      },
+      "Gastric Xanthoma",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013998&label=Disease",
+        "title": "HBDIS013998"
+      },
+      "Thyroid Angiosarcoma",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014515&label=Disease",
+        "title": "HBDIS014515"
+      },
+      "Osteoarticular pain",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014578&label=Disease",
+        "title": "HBDIS014578"
+      },
+      "Myopathic Ophthalmopathy",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019018&label=Disease",
+        "title": "HBDIS019018"
+      },
+      "Bladder hyperplasia",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026908&label=Disease",
+        "title": "HBDIS026908"
+      },
+      "Oral Intraepithelial Neoplasia",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027961&label=Disease",
+        "title": "HBDIS027961"
+      },
+      "distal bile duct cancer",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000699&label=Target",
+        "title": "HBTAR000699"
+      },
+      "CHRM1",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT00636",
+          "title": "SymMap:SMTT00636"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00038"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001679&label=Target",
+        "title": "HBTAR001679"
+      },
+      "GRIA2",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT01464",
+          "title": "SymMap:SMTT01464"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR03216"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003295&label=Target",
+        "title": "HBTAR003295"
+      },
+      "PTGS2",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT02777",
+          "title": "SymMap:SMTT02777"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00094"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000706&label=Target",
+        "title": "HBTAR000706"
+      },
+      "CHRNA2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00284"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000031&label=Target",
+        "title": "HBTAR000031"
+      },
+      "ACHE",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00165"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001471&label=Target",
+        "title": "HBTAR001471"
+      },
+      "GABRA1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00309"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001277&label=Target",
+        "title": "HBTAR001277"
+      },
+      "ESR1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00046"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000702&label=Target",
+        "title": "HBTAR000702"
+      },
+      "CHRM3",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00016"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000093&label=Target",
+        "title": "HBTAR000093"
+      },
+      "ADRA1B",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00216"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001096&label=Target",
+        "title": "HBTAR001096"
+      },
+      "DPP4",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00332"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002372&label=Target",
+        "title": "HBTAR002372"
+      },
+      "LYZ",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR01172"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003223&label=Target",
+        "title": "HBTAR003223"
+      },
+      "PRSS1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02928"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000700&label=Target",
+        "title": "HBTAR000700"
+      },
+      "CHRM2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00210"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id"
+    ],
+    [
+      "HBIN014406",
+      "ACETIC ACID,BORNYL ESTER",
+      "ZINC00404304; acetic acid [(1R,2R,4R)-1,7,7-trimethyl-2-norbornanyl] ester; [(1R,4R,6R)-1,7,7-trimethyl-6-bicyclo[2.2.1]heptanyl] acetate; bicyclo[2.2.1]heptan-2-ol, 1,7,7-trimethyl-, acetate; [(1R,2R,4R)-1,7,7-trimethylnorbornan-2-yl] acetate; [(1R,4R,6R)-1,7,7-trimethyl-6-bicyclo[2.2.1]heptanyl] ethanoate; InChI=1/C12H20O2/c1-8(13)14-10-7-9-5-6-12(10,4)11(9,2)3/h9-10H,5-7H2,1-4H",
+      "C12H20O2",
+      "196.29",
+      "67.15061585",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "76-49-3"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT03420",
+        "title": "SMIT03420"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL000923"
+      }
+    ]
+  ]
+}

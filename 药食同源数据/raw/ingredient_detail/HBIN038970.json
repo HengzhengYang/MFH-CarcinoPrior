@@ -1,0 +1,581 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000229&label=Herb",
+        "title": "HERB000229"
+      },
+      "BAI LAI SHI JU",
+      "NA",
+      "Bailai’s Chrysanthemum",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Baileya multiradiata"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001357&label=Herb",
+        "title": "HERB001357"
+      },
+      "DONG GUA ZI",
+      "冬瓜子",
+      "Benincasae Semen",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001489&label=Herb",
+        "title": "HERB001489"
+      },
+      "DUO BIAN HUA BAI LAI SHI JU",
+      "NA",
+      "Manyradiate Bailai’s Chrysanthemum",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Baileya pleniradiata"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001801&label=Herb",
+        "title": "HERB001801"
+      },
+      "GAN SONG",
+      "甘松",
+      "rdostachys Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix seu Rhizoma rdostachyos"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002002&label=Herb",
+        "title": "HERB002002"
+      },
+      "GUANG HUO XIANG",
+      "广藿香",
+      "Pogostemon Cablin (Blanco) Benth.",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002644&label=Herb",
+        "title": "HERB002644"
+      },
+      "HUO XIANG",
+      "霍香",
+      "Wrinkled Gianthyssop",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Agastache rugosus"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003725&label=Herb",
+        "title": "HERB003725"
+      },
+      "MAN JING ZI",
+      "蔓荆子",
+      "Shrub Chastetree Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Viticis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003806&label=Herb",
+        "title": "HERB003806"
+      },
+      "MAO PAO TONG",
+      "毛泡桐",
+      "Royal Paulownia",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Paulownia tomentosa"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004327&label=Herb",
+        "title": "HERB004327"
+      },
+      "PAO TONG GUO",
+      "泡桐果",
+      "Fructus Paulowniae fortunei",
+      "NA"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004961&label=Herb",
+        "title": "HERB004961"
+      },
+      "SHAO BIAN HUA BAI LAI SHI JU",
+      "NA",
+      "Fewradiate Bailai’s Chrysanthemum",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Baileya pauciradiata"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005101&label=Herb",
+        "title": "HERB005101"
+      },
+      "SHI YE GAN SONG",
+      "匙叶甘松",
+      "Spoonleaf Nardostachys",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Nardostachys jatamansi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005861&label=Herb",
+        "title": "HERB005861"
+      },
+      "XI NAN MAO WEI SHU",
+      "西南猫尾树",
+      "Stipulate Dolichandrone",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Dolichandrone stipulata"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006844&label=Herb",
+        "title": "HERB006844"
+      },
+      "YUN NAN SHI ZI",
+      "云南石梓",
+      "Malay Bushbeech",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Gmelina arborea"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "Epipaulownin; (1R,3aR,4S,6aS)-1,4-bis(1,3-benzodioxol-5-yl)-3,3a,4,6-tetrahydro-1H-furo[3,4-c]furan-6a-ol; 13040-46-5; ACon1_001000; 1H,3H-Furo(3,4-c)furan-3a(4H)-ol, 1,4-bis(1,3-benzodioxol-5-yl)dihydro-, (1alpha,3aalpha,4alpha,6aalpha)-; ZINC05037439; MEGxp0_001306"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001683&label=Disease",
+        "title": "HBDIS001683"
+      },
+      "Lens Subluxation",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001814&label=Disease",
+        "title": "HBDIS001814"
+      },
+      "Lymphoma, Mixed-Cell",
+      "0.0015038784233022",
+      "0.00990856799135117"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002460&label=Disease",
+        "title": "HBDIS002460"
+      },
+      "Preexcitation Syndrome",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002759&label=Disease",
+        "title": "HBDIS002759"
+      },
+      "Sinus Thrombosis, Intracranial",
+      "0.00110812094348583",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003212&label=Disease",
+        "title": "HBDIS003212"
+      },
+      "Diffuse Mixed-Cell Lymphoma",
+      "0.0015038784233022",
+      "0.00990856799135117"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003412&label=Disease",
+        "title": "HBDIS003412"
+      },
+      "Leishmaniasis, New World",
+      "0.000791514959632737",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006159&label=Disease",
+        "title": "HBDIS006159"
+      },
+      "Hyperosmolality",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006383&label=Disease",
+        "title": "HBDIS006383"
+      },
+      "Hepatic methionine adenosyltransferase deficiency",
+      "0.00102896944752256",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007682&label=Disease",
+        "title": "HBDIS007682"
+      },
+      "Cerebral venous sinus thrombosis",
+      "0.00118727243944911",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007696&label=Disease",
+        "title": "HBDIS007696"
+      },
+      "Drug-induced depressive state",
+      "0.00102896944752256",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008533&label=Disease",
+        "title": "HBDIS008533"
+      },
+      "Selenium measurement",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010225&label=Disease",
+        "title": "HBDIS010225"
+      },
+      "Ventricular preexcitation",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011918&label=Disease",
+        "title": "HBDIS011918"
+      },
+      "Subcutaneous hemorrhage",
+      "0.00110812094348583",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012443&label=Disease",
+        "title": "HBDIS012443"
+      },
+      "Vitamin B 6 Deficiency",
+      "0.000712363463669464",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013551&label=Disease",
+        "title": "HBDIS013551"
+      },
+      "Abnormality of amino acid metabolism",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014528&label=Disease",
+        "title": "HBDIS014528"
+      },
+      "Deficiency of acetyl-CoA acetyltransferase",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017257&label=Disease",
+        "title": "HBDIS017257"
+      },
+      "Biconcave vertebral bodies",
+      "0.00110812094348583",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017258&label=Disease",
+        "title": "HBDIS017258"
+      },
+      "Methioninuria",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019040&label=Disease",
+        "title": "HBDIS019040"
+      },
+      "Homocysteine measurement",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019141&label=Disease",
+        "title": "HBDIS019141"
+      },
+      "Arthrosclerosis",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020626&label=Disease",
+        "title": "HBDIS020626"
+      },
+      "HYPERHOMOCYSTEINEMIA, THROMBOTIC, CBS-RELATED",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021566&label=Disease",
+        "title": "HBDIS021566"
+      },
+      "Homocystinuria, Pyridoxine-Responsive",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022127&label=Disease",
+        "title": "HBDIS022127"
+      },
+      "OTOFACIOCERVICAL SYNDROME 1",
+      "0.000870666455596011",
+      "0.00707658671810716"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022216&label=Disease",
+        "title": "HBDIS022216"
+      },
+      "Hyperhomocystinemia",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023437&label=Disease",
+        "title": "HBDIS023437"
+      },
+      "HOMOCYSTINURIA, PYRIDOXINE-NONRESPONSIVE",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025315&label=Disease",
+        "title": "HBDIS025315"
+      },
+      "Hypermethioninemia",
+      "0.00102896944752256",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027280&label=Disease",
+        "title": "HBDIS027280"
+      },
+      "Generalized osteoporosis",
+      "0.000870666455596011",
+      "0.00707658671810716"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000543&label=Target",
+        "title": "HBTAR000543"
+      },
+      "CBS",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/7334/",
+          "title": "TCMID:7334"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00118"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN038970",
+      "paulownin",
+      "Epipaulownin; (1R,3aR,4S,6aS)-1,4-bis(1,3-benzodioxol-5-yl)-3,3a,4,6-tetrahydro-1H-furo[3,4-c]furan-6a-ol; 13040-46-5; ACon1_001000; 1H,3H-Furo(3,4-c)furan-3a(4H)-ol, 1,4-bis(1,3-benzodioxol-5-yl)dihydro-, (1alpha,3aalpha,4alpha,6aalpha)-; ZINC05037439; MEGxp0_001306",
+      "C20H18O7",
+      "C1C2C(OCC2(C(O1)C3=CC4=C(C=C3)OCO4)O)C5=CC6=C(C=C5)OCO6",
+      "370.35",
+      "4.95093244",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "13040-46-5"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT00825",
+        "title": "SMIT00825"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/16722/",
+        "title": "16722"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL011922"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "2010"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/3084131",
+        "title": "3084131"
+      }
+    ]
+  ]
+}

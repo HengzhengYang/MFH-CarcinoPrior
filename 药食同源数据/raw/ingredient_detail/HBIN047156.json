@@ -1,0 +1,492 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002640&label=Herb",
+        "title": "HERB002640"
+      },
+      "HUO MA REN",
+      "火麻仁",
+      "Hemp Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Canbis"
+      },
+      "Fructus Canbis"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003288&label=Herb",
+        "title": "HERB003288"
+      },
+      "LEI GONG TENG",
+      "雷公藤",
+      "root of common htreewingnut",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "radix tripterygii wilfordii"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "methyl 10-hydroxy-2-(hydroxymethyl)-4a,6a,6b,9,9,12a-hexamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-2-carboxylate; AC1NT191; triptodihydroxy acid methyl ester"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000280&label=Disease",
+        "title": "HBDIS000280"
+      },
+      "Auditory Perceptual Disorders",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003299&label=Disease",
+        "title": "HBDIS003299"
+      },
+      "Epilepsy, Frontal Lobe",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004501&label=Disease",
+        "title": "HBDIS004501"
+      },
+      "Familial benign neonatal epilepsy",
+      "0.00102896944752256",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005837&label=Disease",
+        "title": "HBDIS005837"
+      },
+      "Ring Chromosome 20 Syndrome",
+      "0.000237454487889822",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006621&label=Disease",
+        "title": "HBDIS006621"
+      },
+      "ACTH Deficiency, Isolated",
+      "0.000712363463669464",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008307&label=Disease",
+        "title": "HBDIS008307"
+      },
+      "Milium Cyst",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008591&label=Disease",
+        "title": "HBDIS008591"
+      },
+      "Familial Epilepsies",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008685&label=Disease",
+        "title": "HBDIS008685"
+      },
+      "Dystonia, Diurnal",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008692&label=Disease",
+        "title": "HBDIS008692"
+      },
+      "Frontal Epilepsy, Benign, Childhood",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008696&label=Disease",
+        "title": "HBDIS008696"
+      },
+      "Epilepsy, Supplementary Motor",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008697&label=Disease",
+        "title": "HBDIS008697"
+      },
+      "Epilepsy, Cingulate",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008698&label=Disease",
+        "title": "HBDIS008698"
+      },
+      "Epilepsy, Opercular",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008707&label=Disease",
+        "title": "HBDIS008707"
+      },
+      "Nocturnal epilepsy",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011336&label=Disease",
+        "title": "HBDIS011336"
+      },
+      "Long Sleeper Syndrome",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011337&label=Disease",
+        "title": "HBDIS011337"
+      },
+      "Short Sleeper Syndrome",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011338&label=Disease",
+        "title": "HBDIS011338"
+      },
+      "Sleep-Related Neurogenic Tachypnea",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011339&label=Disease",
+        "title": "HBDIS011339"
+      },
+      "Subwakefullness Syndrome",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011396&label=Disease",
+        "title": "HBDIS011396"
+      },
+      "Epilepsy, Anterior Fronto-Polar",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011397&label=Disease",
+        "title": "HBDIS011397"
+      },
+      "Epilepsy, Orbito-Frontal",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013531&label=Disease",
+        "title": "HBDIS013531"
+      },
+      "Minimal Brain Dysfunction",
+      "0.00142472692733892",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015368&label=Disease",
+        "title": "HBDIS015368"
+      },
+      "Epilepsy, Nocturnal Frontal Lobe, Type 4",
+      "0.000237454487889822",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015643&label=Disease",
+        "title": "HBDIS015643"
+      },
+      "Epilepsy, Nocturnal Frontal Lobe, Type 1",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016891&label=Disease",
+        "title": "HBDIS016891"
+      },
+      "EPILEPSY, BENIGN NEONATAL, 2",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017025&label=Disease",
+        "title": "HBDIS017025"
+      },
+      "Epilepsy, Nocturnal Frontal Lobe, Type 3",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017545&label=Disease",
+        "title": "HBDIS017545"
+      },
+      "Epilepsy, Partial, with Variable Foci",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017814&label=Disease",
+        "title": "HBDIS017814"
+      },
+      "TOBACCO ADDICTION, SUSCEPTIBILITY TO (finding)",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018472&label=Disease",
+        "title": "HBDIS018472"
+      },
+      "Paroxysmal kinesigenic choreoathetosis",
+      "0.000870666455596011",
+      "0.00707658671810716"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019137&label=Disease",
+        "title": "HBDIS019137"
+      },
+      "Benign Rolandic Epilepsy",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022022&label=Disease",
+        "title": "HBDIS022022"
+      },
+      "Autosomal Dominant Nocturnal Frontal Lobe Epilepsy",
+      "0.00102896944752256",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022853&label=Disease",
+        "title": "HBDIS022853"
+      },
+      "Benign Familial Convulsion",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025287&label=Disease",
+        "title": "HBDIS025287"
+      },
+      "Sleep Wake Disorders",
+      "0.000870666455596011",
+      "0.00707658671810716"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025325&label=Disease",
+        "title": "HBDIS025325"
+      },
+      "Idiopathic partial epilepsy",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026449&label=Disease",
+        "title": "HBDIS026449"
+      },
+      "Juvenile Absence Epilepsy",
+      "0.000870666455596011",
+      "0.00707658671810716"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027149&label=Disease",
+        "title": "HBDIS027149"
+      },
+      "Gaming disorder",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000708&label=Target",
+        "title": "HBTAR000708"
+      },
+      "CHRNA4",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1090/",
+          "title": "TCMID:1090"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001692&label=Target",
+        "title": "HBTAR001692"
+      },
+      "NR3C1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00308"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000233&label=Target",
+        "title": "HBTAR000233"
+      },
+      "AR",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00048"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id"
+    ],
+    [
+      "HBIN047156",
+      "Triptodihydroxy acid methyl ester",
+      "methyl 10-hydroxy-2-(hydroxymethyl)-4a,6a,6b,9,9,12a-hexamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-2-carboxylate; AC1NT191; triptodihydroxy acid methyl ester",
+      "C31H50O4",
+      "CC1(C2CCC3(C(C2(CCC1O)C)CC=C4C3(CCC5(C4CC(CC5)(CO)C(=O)OC)C)C)C)C",
+      "486.81",
+      "15.75614613",
+      {
+        "link": "https://www.symmap.org/detail/SMIT00994",
+        "title": "SMIT00994"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/21981/",
+        "title": "21981"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL003230"
+      }
+    ]
+  ]
+}

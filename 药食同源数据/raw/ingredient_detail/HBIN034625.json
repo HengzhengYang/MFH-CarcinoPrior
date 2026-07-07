@@ -1,0 +1,705 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001990&label=Herb",
+        "title": "HERB001990"
+      },
+      "GUANG BU DING GONG TENG",
+      "NA",
+      "Expanse Erycibe",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Erycibe expansa"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002040&label=Herb",
+        "title": "HERB002040"
+      },
+      "GUANG ZAO",
+      "广枣",
+      "fruit of Axillary choerospondias",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Choerospondiatis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002258&label=Herb",
+        "title": "HERB002258"
+      },
+      "HONG CHE ZHOU CAO",
+      "红车轴草",
+      "Red Clover",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Trifolium pratense"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002560&label=Herb",
+        "title": "HERB002560"
+      },
+      "HUANG QI",
+      "黄芪",
+      "root of Membranous Milkvetch",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Astragali"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003646&label=Herb",
+        "title": "HERB003646"
+      },
+      "MA DAO SI WO CI DOU",
+      "NA",
+      "Madagascar Swartzia",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Swartzia madagascariensis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003908&label=Herb",
+        "title": "HERB003908"
+      },
+      "MENG GU HUANG QI",
+      "蒙古黄芪",
+      "Mongolian Milkvetch",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Astragalus mongholicus"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005249&label=Herb",
+        "title": "HERB005249"
+      },
+      "SI TE WEN HUANG TAN",
+      "NA",
+      "Stevenson Rosewood",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Dalbergia stevensonii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005698&label=Herb",
+        "title": "HERB005698"
+      },
+      "WU CI KE YA SHU",
+      "NA",
+      "Angelin-tree",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Andira inermis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006511&label=Herb",
+        "title": "HERB006511"
+      },
+      "YI BIAN HUANG TAN",
+      "一边黄檀",
+      "Variable Rosewood",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Dalbergia variabilis"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NA"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000468&label=Disease",
+        "title": "HBDIS000468"
+      },
+      "Cardiomyopathy, Dilated",
+      "0.000980042507605103",
+      "0.00759403013541311"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000879&label=Disease",
+        "title": "HBDIS000879"
+      },
+      "Eclampsia",
+      "0.00021792506392738",
+      "0.00275596833846444"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001000&label=Disease",
+        "title": "HBDIS001000"
+      },
+      "Exanthema",
+      "0.00028559198044787",
+      "0.00334107576459105"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001351&label=Disease",
+        "title": "HBDIS001351"
+      },
+      "Hernia",
+      "7.65012083995543e-05",
+      "0.00127965203400148"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001381&label=Disease",
+        "title": "HBDIS001381"
+      },
+      "Histiocytosis, Langerhans-Cell",
+      "5.59505152340722e-05",
+      "0.00101297144377467"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001738&label=Disease",
+        "title": "HBDIS001738"
+      },
+      "Leydig cell hyperplasia",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002927&label=Disease",
+        "title": "HBDIS002927"
+      },
+      "Thecoma",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004497&label=Disease",
+        "title": "HBDIS004497"
+      },
+      "BLEPHAROPHIMOSIS, PTOSIS, AND EPICANTHUS INVERSUS (disorder)",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005996&label=Disease",
+        "title": "HBDIS005996"
+      },
+      "Leydig cell agenesis",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012157&label=Disease",
+        "title": "HBDIS012157"
+      },
+      "Leydig Cell Hypoplasia",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017535&label=Disease",
+        "title": "HBDIS017535"
+      },
+      "ATAXIA-TELANGIECTASIA-LIKE DISORDER",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017738&label=Disease",
+        "title": "HBDIS017738"
+      },
+      "Precocious puberty in males",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019263&label=Disease",
+        "title": "HBDIS019263"
+      },
+      "Leydig Cell Hypoplasia, Type II",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019323&label=Disease",
+        "title": "HBDIS019323"
+      },
+      "Leydig Cell Adenoma, Somatic, with Male-Limited Precocious Puberty",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020138&label=Disease",
+        "title": "HBDIS020138"
+      },
+      "Intersex Conditions",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020468&label=Disease",
+        "title": "HBDIS020468"
+      },
+      "Oestrogen receptor positive breast cancer",
+      "0.00102009129745686",
+      "0.00783171445767915"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021456&label=Disease",
+        "title": "HBDIS021456"
+      },
+      "46,XY Sex Reversal 3",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021987&label=Disease",
+        "title": "HBDIS021987"
+      },
+      "Luteinizing Hormone Resistance, Female",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022083&label=Disease",
+        "title": "HBDIS022083"
+      },
+      "46,XY Disorder of Sex Development Due To LH Defects",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022987&label=Disease",
+        "title": "HBDIS022987"
+      },
+      "Ataxia-Telangiectasisa-Like Disorder 1",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023231&label=Disease",
+        "title": "HBDIS023231"
+      },
+      "LEYDIG HYPOPLASIA, TYPE I",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024471&label=Disease",
+        "title": "HBDIS024471"
+      },
+      "Hyoplasia of the Leydig cells",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024627&label=Disease",
+        "title": "HBDIS024627"
+      },
+      "Incomplete male pseudohermaphroditism",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026859&label=Disease",
+        "title": "HBDIS026859"
+      },
+      "Peripheral precocious puberty",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027778&label=Disease",
+        "title": "HBDIS027778"
+      },
+      "Theca cell tumor of ovary",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027946&label=Disease",
+        "title": "HBDIS027946"
+      },
+      "estrogen receptor-negative breast cancer",
+      "0.000550808700476793",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000251&label=Disease",
+        "title": "HBDIS000251"
+      },
+      "Neurogenic arthropathy",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002360&label=Disease",
+        "title": "HBDIS002360"
+      },
+      "Periostitis",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003709&label=Disease",
+        "title": "HBDIS003709"
+      },
+      "Disuse osteoporosis",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005637&label=Disease",
+        "title": "HBDIS005637"
+      },
+      "Hepatic osteodystrophy",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006304&label=Disease",
+        "title": "HBDIS006304"
+      },
+      "Hyperphosphatasemia with bone disease",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006344&label=Disease",
+        "title": "HBDIS006344"
+      },
+      "Hydroxyprolinemia",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007595&label=Disease",
+        "title": "HBDIS007595"
+      },
+      "Odontogenic myxoma",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008624&label=Disease",
+        "title": "HBDIS008624"
+      },
+      "Calcium deficiency",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009434&label=Disease",
+        "title": "HBDIS009434"
+      },
+      "Familial expansile osteolysis",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011391&label=Disease",
+        "title": "HBDIS011391"
+      },
+      "Carotid Ulcer",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011392&label=Disease",
+        "title": "HBDIS011392"
+      },
+      "Common Carotid Artery Stenosis",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011393&label=Disease",
+        "title": "HBDIS011393"
+      },
+      "External Carotid Artery Stenosis",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011736&label=Disease",
+        "title": "HBDIS011736"
+      },
+      "Visual Pathway Glioma",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011802&label=Disease",
+        "title": "HBDIS011802"
+      },
+      "Bacterial diarrhoea",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012359&label=Disease",
+        "title": "HBDIS012359"
+      },
+      "Monckeberg Medial Calcific Sclerosis",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012518&label=Disease",
+        "title": "HBDIS012518"
+      },
+      "Hydroxyprolinuria",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012601&label=Disease",
+        "title": "HBDIS012601"
+      },
+      "Arterial fibrosis",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013235&label=Disease",
+        "title": "HBDIS013235"
+      },
+      "Resorption of apex of tooth root",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013450&label=Disease",
+        "title": "HBDIS013450"
+      },
+      "Pyrophosphate arthritis",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015076&label=Disease",
+        "title": "HBDIS015076"
+      },
+      "Cranial hyperostosis",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015806&label=Disease",
+        "title": "HBDIS015806"
+      },
+      "Elevated serum acid phosphatase",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021253&label=Disease",
+        "title": "HBDIS021253"
+      },
+      "GATA2 Deficiency",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022048&label=Disease",
+        "title": "HBDIS022048"
+      },
+      "Peri-implant mucositis",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002317&label=Target",
+        "title": "HBTAR002317"
+      },
+      "LHCGR",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1369/",
+          "title": "TCMID:1369"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002809&label=Target",
+        "title": "HBTAR002809"
+      },
+      "TNFRSF11B",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/4906/",
+          "title": "TCMID:4906"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Molecule smile",
+      "SymMap id",
+      "TCMID id"
+    ],
+    [
+      "HBIN034625",
+      "(?)-medicarpin",
+      "COC1=CC2=C(C=C1)C3COC4=C(C3O2)C=CC(=C4)O",
+      {
+        "link": "https://www.symmap.org/detail/SMIT16445",
+        "title": "SMIT16445"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/13631/",
+        "title": "13631"
+      }
+    ]
+  ]
+}

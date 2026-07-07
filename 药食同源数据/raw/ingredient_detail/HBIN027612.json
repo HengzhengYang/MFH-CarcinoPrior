@@ -1,0 +1,214 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000186&label=Herb",
+        "title": "HERB000186"
+      },
+      "BAI GUO",
+      "白果",
+      "Ginkgo seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Ginkgo"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004469&label=Herb",
+        "title": "HERB004469"
+      },
+      "QIAN NIU ZI",
+      "牵牛子",
+      "Pharbitis seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Pharbitidis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006657&label=Herb",
+        "title": "HERB006657"
+      },
+      "YING XING GUO",
+      "银杏果",
+      "Ginkgo Seed",
+      "NA"
+    ]
+  ],
+  "Ingredient_alias": [
+    "SPBio_000302; Spectrum_000628; Pgr-iv; Activol GA; G7645_SIGMA; NSC 14190; Spectrum5_000027; KBio2_006244; 2beta,4alpha,7-Trihydroxy-1-methyl-8-methylene-4aalpha,4bbeta-gibb-3-ene-1alpha,10beta-dicarboxylic acid 1,4a-lactone; KBioSS_001108; BCBcMAP01_000012; ACon0_000224; KBio1_001188; Prestwick2_000965; SMP1_000136; DivK1c_006244; (3S,3aS,4S,4aS,6S,8aR,8bR,11S)-6,11-dihydroxy-3-methyl-12-methylene-2-oxo-4a,6-ethano-3,8b-prop-1-enoperhydroindeno(1,2-b)furan-4-carboxylic acid; KBio3_002181; Gibrescol; Ryzup; KBio2_003676; Prestwick0_000965; BSPBio_002961; MEGxm0_000440; Spectrum4_001444; (1alpha,2beta,4aalpha,4bbeta,10beta)-2,4a,7-Trihydroxy-1-methyl-8-methylenegibb-3-ene-1,10-dicarboxylic acid 1,4a-lactone; NCGC00091033-01; 16202-20-3; HSDB 712; 2beta,4alpha,7-Trihydroxy-1-methylene-4aalpha,4bbeta-gibb-3-ene-1alpha,10beta-dicarboxylic acid 1,4a-lactone; CCRIS 4820; SpecPlus_000148; PS49_SUPELCO; 2,4alpha,7-Trihydroxy-1-methyl-8-methylenegibb-3-ene-1,10 beta-dicarboxylic acid 1,4alpha-lactone; KBio2_001108; EINECS 201-001-0; 58915-44-9; Prestwick1_000965; 48870_FLUKA; Spectrum2_000311; BSPBio_000969; 1405-96-5; Acide gibberellique [ISO-French]; BRN 0054346; 2,4a,7-Trihydroxy-1-methyl-8-methylenegibb-3-ene-1,10-dicarboxylic acid 1,4a-lactone; BPBio1_001067; SPBio_002890; Gibb-3-ene-1,10-dicarboxylic acid, 2,4a,7-trihydroxy-1-methyl-8-methylene-, 1,4a-lactone, (1alpha,2beta,4aalpha,4bbeta,10beta)-; Acide gibberellique; EPA Pesticide Chemical Code 043801; 48880_FLUKA; Caswell No."
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000173&label=Target",
+        "title": "HBTAR000173"
+      },
+      "AMY2A",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/6980/",
+          "title": "TCMID:6980"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00622"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001470&label=Target",
+        "title": "HBTAR001470"
+      },
+      "GABPB1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/10476/",
+          "title": "TCMID:10476"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR006044&label=Target",
+        "title": "HBTAR006044"
+      },
+      "NOXA1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11412/",
+          "title": "TCMID:11412"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN027612",
+      "gibberellin",
+      "SPBio_000302; Spectrum_000628; Pgr-iv; Activol GA; G7645_SIGMA; NSC 14190; Spectrum5_000027; KBio2_006244; 2beta,4alpha,7-Trihydroxy-1-methyl-8-methylene-4aalpha,4bbeta-gibb-3-ene-1alpha,10beta-dicarboxylic acid 1,4a-lactone; KBioSS_001108; BCBcMAP01_000012; ACon0_000224; KBio1_001188; Prestwick2_000965; SMP1_000136; DivK1c_006244; (3S,3aS,4S,4aS,6S,8aR,8bR,11S)-6,11-dihydroxy-3-methyl-12-methylene-2-oxo-4a,6-ethano-3,8b-prop-1-enoperhydroindeno(1,2-b)furan-4-carboxylic acid; KBio3_002181; Gibrescol; Ryzup; KBio2_003676; Prestwick0_000965; BSPBio_002961; MEGxm0_000440; Spectrum4_001444; (1alpha,2beta,4aalpha,4bbeta,10beta)-2,4a,7-Trihydroxy-1-methyl-8-methylenegibb-3-ene-1,10-dicarboxylic acid 1,4a-lactone; NCGC00091033-01; 16202-20-3; HSDB 712; 2beta,4alpha,7-Trihydroxy-1-methylene-4aalpha,4bbeta-gibb-3-ene-1alpha,10beta-dicarboxylic acid 1,4a-lactone; CCRIS 4820; SpecPlus_000148; PS49_SUPELCO; 2,4alpha,7-Trihydroxy-1-methyl-8-methylenegibb-3-ene-1,10 beta-dicarboxylic acid 1,4alpha-lactone; KBio2_001108; EINECS 201-001-0; 58915-44-9; Prestwick1_000965; 48870_FLUKA; Spectrum2_000311; BSPBio_000969; 1405-96-5; Acide gibberellique [ISO-French]; BRN 0054346; 2,4a,7-Trihydroxy-1-methyl-8-methylenegibb-3-ene-1,10-dicarboxylic acid 1,4a-lactone; BPBio1_001067; SPBio_002890; Gibb-3-ene-1,10-dicarboxylic acid, 2,4a,7-trihydroxy-1-methyl-8-methylene-, 1,4a-lactone, (1alpha,2beta,4aalpha,4bbeta,10beta)-; Acide gibberellique; EPA Pesticide Chemical Code 043801; 48880_FLUKA; Caswell No.",
+      "C19H22O6",
+      "CC12C(C=CC3(C1C(C45C3CCC(C4)(C(=C)C5)O)C(=O)O)OC2=O)O",
+      "346.37",
+      "81.58681887",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "7121-55-3"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT07021",
+        "title": "SMIT07021"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/23128/",
+        "title": "23128"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL005236"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "4092"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/439551",
+        "title": "439551"
+      }
+    ]
+  ]
+}

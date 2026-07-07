@@ -1,0 +1,159 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003624&label=Herb",
+        "title": "HERB003624"
+      },
+      "LV SONG GUO",
+      "吕宋果",
+      "Ignat Poisonnut Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Strychnos ignatii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004102&label=Herb",
+        "title": "HERB004102"
+      },
+      "NAN SHA SHEN",
+      "南沙参",
+      "Fourleaf Ladybell Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Adenophorae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004914&label=Herb",
+        "title": "HERB004914"
+      },
+      "SHAN NAI",
+      "山柰",
+      "Galanga Resurrectionlily Rhizome",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Kaempferiae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "DTXSID7073222; ACMC-1B6YI; NSC-42171; AKOS009156585; SCHEMBL12113789; p-Vinylanisole; 4-VINYLANISOLE; SC-49808; CL-0053; 1-Methoxy-4-vinylbenzene; U255; FT-0618964; ST51055644; AK-46470; Anisole, p-vinyl- (8CI); MolPort-001-784-277; 4-toluenesulfonic acid methyl ester; ST2403450; TL8004484; 1-Methoxy-4-vinylbenzene #; AJ-29379; NSC 42171; SCHEMBL28436; CCRIS 4381; 637-69-4; Benzene, 1-ethenyl-4-methoxy-; p-methoxy-styrene; 4-Vinylanisole, 97%; KS-00000O6K; RTR-021928; 1-methoxy-4-vinyl-benzene; BB 0221046; 637M694; I14-7409; UAJRSHJHFRVGMG-UHFFFAOYSA-N; NSC 408326; LS-188188; A8772; 4-vinylanisol; 4-Methoxystyrene, stab. with 0.1% 4-tert-butylcatechol; MFCD00008619; NSC42171; 4-Methoxystyrene; TRA0047314; CTK3J3296; NSC-408326; AN-47016; AI3-05526; M0130; 2ISH8T4A6E; ZINC1675020; CJ-27322; NSC408326; p-Methoxystyrene; FT-0082960; 174166-EP2269995A1; 1-ethenyl-4-methoxybenzene; AC1L1ZQO; ANW-42653; para-methoxystyrene; 174166-EP2284165A1; EINECS 211-298-9; RP20142; AC1Q49KT; Q-200516; Anisole, p-vinyl-; TR-021928; Benzene, 1-ethenyl-4-methoxy- (9CI); KB-72684; InChI=1/C9H10O/c1-3-8-4-6-9(10-2)7-5-8/h3-7H,1H2,2H; UNII-2ISH8T4A6E"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN040338",
+      "p-methoxystyrene",
+      "DTXSID7073222; ACMC-1B6YI; NSC-42171; AKOS009156585; SCHEMBL12113789; p-Vinylanisole; 4-VINYLANISOLE; SC-49808; CL-0053; 1-Methoxy-4-vinylbenzene; U255; FT-0618964; ST51055644; AK-46470; Anisole, p-vinyl- (8CI); MolPort-001-784-277; 4-toluenesulfonic acid methyl ester; ST2403450; TL8004484; 1-Methoxy-4-vinylbenzene #; AJ-29379; NSC 42171; SCHEMBL28436; CCRIS 4381; 637-69-4; Benzene, 1-ethenyl-4-methoxy-; p-methoxy-styrene; 4-Vinylanisole, 97%; KS-00000O6K; RTR-021928; 1-methoxy-4-vinyl-benzene; BB 0221046; 637M694; I14-7409; UAJRSHJHFRVGMG-UHFFFAOYSA-N; NSC 408326; LS-188188; A8772; 4-vinylanisol; 4-Methoxystyrene, stab. with 0.1% 4-tert-butylcatechol; MFCD00008619; NSC42171; 4-Methoxystyrene; TRA0047314; CTK3J3296; NSC-408326; AN-47016; AI3-05526; M0130; 2ISH8T4A6E; ZINC1675020; CJ-27322; NSC408326; p-Methoxystyrene; FT-0082960; 174166-EP2269995A1; 1-ethenyl-4-methoxybenzene; AC1L1ZQO; ANW-42653; para-methoxystyrene; 174166-EP2284165A1; EINECS 211-298-9; RP20142; AC1Q49KT; Q-200516; Anisole, p-vinyl-; TR-021928; Benzene, 1-ethenyl-4-methoxy- (9CI); KB-72684; InChI=1/C9H10O/c1-3-8-4-6-9(10-2)7-5-8/h3-7H,1H2,2H; UNII-2ISH8T4A6E",
+      "C9H10O",
+      "COC1=CC=C(C=C1)C=C",
+      "134.17",
+      {
+        "link": "https://www.symmap.org/detail/SMIT16524",
+        "title": "SMIT16524"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/14089/",
+        "title": "14089"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/12507",
+        "title": "12507"
+      }
+    ]
+  ]
+}

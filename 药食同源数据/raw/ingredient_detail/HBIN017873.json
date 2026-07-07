@@ -1,0 +1,235 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000515&label=Herb",
+        "title": "HERB000515"
+      },
+      "BO LING HAO",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000523&label=Herb",
+        "title": "HERB000523"
+      },
+      "BO NIANG HAO",
+      "播娘蒿",
+      "Flixweed Tansymustard Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Descurainia sophia"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001614&label=Herb",
+        "title": "HERB001614"
+      },
+      "FAN MU GUA",
+      "番木瓜",
+      "Papaya Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Carica papaya"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002132&label=Herb",
+        "title": "HERB002132"
+      },
+      "HAN LIAN HUA",
+      "旱莲花",
+      "Common Nasturtium",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Tropaeolum majus"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002209&label=Herb",
+        "title": "HERB002209"
+      },
+      "HEI DOU",
+      "黑豆",
+      "Black bean",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Glycine Max"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002887&label=Herb",
+        "title": "HERB002887"
+      },
+      "JIE ZI",
+      "芥子",
+      "Mustard Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Sipis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004527&label=Herb",
+        "title": "HERB004527"
+      },
+      "QING MA ZI",
+      "苘麻子",
+      "Chingma Abutilon Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Abutili"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005519&label=Herb",
+        "title": "HERB005519"
+      },
+      "TING LI ZI",
+      "葶苈子",
+      "Lepidium seed, Descurainia seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Lepiddi seu Descurainiae"
+      },
+      "Semen Lepidii；Semen Descurainiae"
+    ]
+  ],
+  "Ingredient_alias": [
+    "CHEBI:17484; KBio1_001724; (isothiocyanatomethyl)-benzene; MFCD00004819; UNII-871J6YOR8Q; KBioGR_001358; I0224; LS-7216; Benzene, (isothiocyanatomethyl)-; TR-033289; Isothiocyanatomethyl)benzene; Benzyl mustard oil; NCGC00094982-03; Spectrum_001820; KSC250O3D; AC1Q7EX9; KS-00000V2U; FT-0622167; 622-78-6; KBio2_007457; NSC-118976; ZINC1529592; HMS1921P18; KBio2_004889; Spectrum2_000852; DSSTox_RID_75407; Isothiocyanic Acid Benzyl Ester; CTK1F0731; NSC-758206; AB 2 (VAN); SCHEMBL44145; DB-022613; F0001-1663; DSSTox_CID_155; CCG-35868; Urogran; Pharmakon1600-01503006; KS-00001PQO; SPECTRUM1503006; Isothiocyanotaomethylbenzene; Benzene, isothiocyanatomethyl-; Spectrum5_001837; isothiocyanatomethyl-benzene; CJ-23924; Benzyl-isothiocyanate; DTXSID0020155; AB 2; phenylmethyl isothiocyanate; BRN 0386135; isothiocyanato-methyl-benzene; OTAVA-BB 1055640; AS04379; Benzylsenfoel [German]; AC1L1DH3; NSC118976; SBB002731; Tromalyt; alpha-Isothiocyanato-Toluene; WLN: SCN1R; Tromacaps; (Isothiocyanatomethyl)benzene; DSSTox_GSID_20155; ST50214559; 871J6YOR8Q; 1-(isothiocyanatomethyl)benzene; NSC758206; (Isothiocyanatomethyl)benzene, 9CI; Benzyl isothio cyanate; QTL1_000013; SBI-0052749.P002; CCRIS 3145; MCULE-5989558191; Toluene, alpha -isothiocyanato-; STK399787; 58019-05-9; NCIMech_000859; Isothiocyanic acid, benzyl ester; SDCCGMLS-0066697.P001; Spectrum4_001059; BITC, 17; TIMTEC-BB SBB002731; benzyl isothio cyanate; SR-05000002381; NCGC00094982-01; (Isothiocyanatomethyl)benzene #; a-isothi"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN017873",
+      "benzyl isothiocyanate",
+      "CHEBI:17484; KBio1_001724; (isothiocyanatomethyl)-benzene; MFCD00004819; UNII-871J6YOR8Q; KBioGR_001358; I0224; LS-7216; Benzene, (isothiocyanatomethyl)-; TR-033289; Isothiocyanatomethyl)benzene; Benzyl mustard oil; NCGC00094982-03; Spectrum_001820; KSC250O3D; AC1Q7EX9; KS-00000V2U; FT-0622167; 622-78-6; KBio2_007457; NSC-118976; ZINC1529592; HMS1921P18; KBio2_004889; Spectrum2_000852; DSSTox_RID_75407; Isothiocyanic Acid Benzyl Ester; CTK1F0731; NSC-758206; AB 2 (VAN); SCHEMBL44145; DB-022613; F0001-1663; DSSTox_CID_155; CCG-35868; Urogran; Pharmakon1600-01503006; KS-00001PQO; SPECTRUM1503006; Isothiocyanotaomethylbenzene; Benzene, isothiocyanatomethyl-; Spectrum5_001837; isothiocyanatomethyl-benzene; CJ-23924; Benzyl-isothiocyanate; DTXSID0020155; AB 2; phenylmethyl isothiocyanate; BRN 0386135; isothiocyanato-methyl-benzene; OTAVA-BB 1055640; AS04379; Benzylsenfoel [German]; AC1L1DH3; NSC118976; SBB002731; Tromalyt; alpha-Isothiocyanato-Toluene; WLN: SCN1R; Tromacaps; (Isothiocyanatomethyl)benzene; DSSTox_GSID_20155; ST50214559; 871J6YOR8Q; 1-(isothiocyanatomethyl)benzene; NSC758206; (Isothiocyanatomethyl)benzene, 9CI; Benzyl isothio cyanate; QTL1_000013; SBI-0052749.P002; CCRIS 3145; MCULE-5989558191; Toluene, alpha -isothiocyanato-; STK399787; 58019-05-9; NCIMech_000859; Isothiocyanic acid, benzyl ester; SDCCGMLS-0066697.P001; Spectrum4_001059; BITC, 17; TIMTEC-BB SBB002731; benzyl isothio cyanate; SR-05000002381; NCGC00094982-01; (Isothiocyanatomethyl)benzene #; a-isothi",
+      "C8H7NS",
+      "C1=CC=C(C=C1)CN=C=S",
+      "149.21",
+      {
+        "link": "https://www.symmap.org/detail/SMIT14454",
+        "title": "SMIT14454"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/25190/",
+        "title": "25190"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "10179"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/2346",
+        "title": "2346"
+      }
+    ]
+  ]
+}

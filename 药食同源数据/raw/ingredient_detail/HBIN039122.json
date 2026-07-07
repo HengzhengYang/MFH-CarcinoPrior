@@ -1,0 +1,364 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002962&label=Herb",
+        "title": "HERB002962"
+      },
+      "JIN YIN HUA",
+      "金银花",
+      "Honeysuckle Flower",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Lonicerae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004218&label=Herb",
+        "title": "HERB004218"
+      },
+      "NIU XI",
+      "牛膝",
+      "root of Twotooth Achyranthes",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Achyranthis bidentatae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004350&label=Herb",
+        "title": "HERB004350"
+      },
+      "PI PA YE",
+      "枇杷叶",
+      "Loquat Leaf",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Folium Eriobotryae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006632&label=Herb",
+        "title": "HERB006632"
+      },
+      "YIN XING YE",
+      "银杏叶",
+      "Ginkgo Folium",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "BRN 1633505; (E)-pent-3-en-2-one; ZINC05227717; (3E)-pent-3-en-2-one; NSC 61468; 3-penten-2-one, (3E)-; AI3-37794; FEMA No. 3417; W341703_ALDRICH; 3-PENTEN-2-ONE (TRANS); 3-Penten-2-one, (E)-; 145017_ALDRICH; 3-01-00-02985 (Beilstein Handbook Reference); EINECS 210-888-3; InChI=1/C5H8O/c1-3-4-5(2)6/h3-4H,1-2H3/b4-3; 3102-33-8; (E)-3-Penten-2-one; 77042_FLUKA"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004118&label=Disease",
+        "title": "HBDIS004118"
+      },
+      "Malnutrition",
+      "0.000805248837504304",
+      "0.00671211879354838"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010267&label=Disease",
+        "title": "HBDIS010267"
+      },
+      "Guanidinoacetate methyltransferase deficiency",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016248&label=Disease",
+        "title": "HBDIS016248"
+      },
+      "Creatine deficiency, X-linked",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019351&label=Disease",
+        "title": "HBDIS019351"
+      },
+      "Arginine:Glycine Amidinotransferase Deficiency",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026558&label=Disease",
+        "title": "HBDIS026558"
+      },
+      "Reduced brain creatine level by MRS",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000474&label=Disease",
+        "title": "HBDIS000474"
+      },
+      "Carotid Body Paraganglioma",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000606&label=Disease",
+        "title": "HBDIS000606"
+      },
+      "Cluttering",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000938&label=Disease",
+        "title": "HBDIS000938"
+      },
+      "Enterobacteriaceae Infections",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002420&label=Disease",
+        "title": "HBDIS002420"
+      },
+      "Pneumocephalus",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005306&label=Disease",
+        "title": "HBDIS005306"
+      },
+      "Peroneal muscle weakness",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006359&label=Disease",
+        "title": "HBDIS006359"
+      },
+      "Sarcosinemia",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008070&label=Disease",
+        "title": "HBDIS008070"
+      },
+      "Succinate-coenzyme Q reductase deficiency",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010549&label=Disease",
+        "title": "HBDIS010549"
+      },
+      "physical symptom",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014498&label=Disease",
+        "title": "HBDIS014498"
+      },
+      "Malignant Paraganglionic Neoplasm",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017095&label=Disease",
+        "title": "HBDIS017095"
+      },
+      "Mitochondrial Complex II Deficiency",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023713&label=Disease",
+        "title": "HBDIS023713"
+      },
+      "Infantile sensorineural hearing impairment",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024455&label=Disease",
+        "title": "HBDIS024455"
+      },
+      "Hypersarcosinuria",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001516&label=Target",
+        "title": "HBTAR001516"
+      },
+      "GATM",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT01348",
+          "title": "SymMap:SMTT01348"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR03553"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003224&label=Target",
+        "title": "HBTAR003224"
+      },
+      "PRSS3",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR03952"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN039122",
+      "pent-3-en-2-one",
+      "BRN 1633505; (E)-pent-3-en-2-one; ZINC05227717; (3E)-pent-3-en-2-one; NSC 61468; 3-penten-2-one, (3E)-; AI3-37794; FEMA No. 3417; W341703_ALDRICH; 3-PENTEN-2-ONE (TRANS); 3-Penten-2-one, (E)-; 145017_ALDRICH; 3-01-00-02985 (Beilstein Handbook Reference); EINECS 210-888-3; InChI=1/C5H8O/c1-3-4-5(2)6/h3-4H,1-2H3/b4-3; 3102-33-8; (E)-3-Penten-2-one; 77042_FLUKA",
+      "C5H8O",
+      "CC=CC(=O)C",
+      "84.12",
+      "50.2041941",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "3102-33-8"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT05225",
+        "title": "SMIT05225"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL003091"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/637920",
+        "title": "637920"
+      }
+    ]
+  ]
+}

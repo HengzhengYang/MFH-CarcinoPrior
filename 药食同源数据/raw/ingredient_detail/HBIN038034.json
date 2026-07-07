@@ -1,0 +1,241 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001378&label=Herb",
+        "title": "HERB001378"
+      },
+      "DOU KOU",
+      "豆蔻",
+      "Round Cardamon Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Amomi Rotundus"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003174&label=Herb",
+        "title": "HERB003174"
+      },
+      "KU XING REN",
+      "苦杏仁",
+      "bitter Apricot seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen armeniacae amarum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003348&label=Herb",
+        "title": "HERB003348"
+      },
+      "LI ZHI HE",
+      "荔枝核",
+      "Litchi seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Litchi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005412&label=Herb",
+        "title": "HERB005412"
+      },
+      "TAO REN",
+      "桃仁",
+      "Peach Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Persicae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006310&label=Herb",
+        "title": "HERB006310"
+      },
+      "YA DAN ZI",
+      "鸦胆子",
+      "Java Brucea Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Bruceae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006568&label=Herb",
+        "title": "HERB006568"
+      },
+      "YI YI REN",
+      "薏苡仁",
+      "seed of Jobstears",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "semen coicis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006860&label=Herb",
+        "title": "HERB006860"
+      },
+      "YUN ZHI",
+      "云芝",
+      "Coriolus versicolor",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Polysaccharidum Versicolor"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB007114&label=Herb",
+        "title": "HERB007114"
+      },
+      "ZHU MA GEN",
+      "苎麻根",
+      "Ramine root ",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Boehmeriae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "GLYCERYL TRIOLEATE; 122-32-7; T7752_SIGMA; Glycerol triolein; Estol 1433; Aldo TO; Glycerin trioleate; 1,2,3-tri-(9Z-octadecenoyl)-sn-glycerol; propane-1,2,3-triyl (9Z,9'Z,9''Z)tris-octadec-9-enoate; Olein, tri-; 9-Octadecenoic-9,10-t2 acid, 1,2,3-propanetriyl ester, (Z,Z,Z)- (9CI); 9-Octadecenoic acid, 1,2,3-propanetriyl ester; 9-octadecenoic acid, 1,2,3-propanetriyl ester, (9Z,9'Z,9''Z)-; LMGL03010250; Oleic acid triglyceride; Glycerol trioleate; 9-Octadecenoic acid (9Z)-, 1,2,3-propanetriyl ester; 1,2,3-Tri(cis-9-octadecenoyl)glycerol; Glyceryl-1,2,3-trioleate; TG(18:1(9Z)/18:1(9Z)/18:1(9Z)); 124330-00-3; Oleic triglyceride; Oleyl triglyceride; Radia 7363; Trioleoylglyceride; 92860_FLUKA; Kemester 1000; Triglyceride OOO; EINECS 204-534-7; Triolein, [9,10-3H(N)]-; Emery oleic acid ester 2230; Emery 2423; Actor LO 1; Glycerol, tri(cis-9-octadecenoate); 9-Octadecenoic acid (Z)-, 1,2,3-propanetriyl ester; Raoline; Edenor NHTi-G; 41755-78-6; 24016-60-2; Emerest 2423; sn-Glyceryl trioleate; Trioleoylglycerol; HSDB 5594; Kaolube 190; 1,2,3-Propanetriyl trioleate; T7140_SIGMA; 1,2,3-Propanetriol tri(9-octandecenoate); Triolein"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN038034",
+      "Olein",
+      "GLYCERYL TRIOLEATE; 122-32-7; T7752_SIGMA; Glycerol triolein; Estol 1433; Aldo TO; Glycerin trioleate; 1,2,3-tri-(9Z-octadecenoyl)-sn-glycerol; propane-1,2,3-triyl (9Z,9'Z,9''Z)tris-octadec-9-enoate; Olein, tri-; 9-Octadecenoic-9,10-t2 acid, 1,2,3-propanetriyl ester, (Z,Z,Z)- (9CI); 9-Octadecenoic acid, 1,2,3-propanetriyl ester; 9-octadecenoic acid, 1,2,3-propanetriyl ester, (9Z,9'Z,9''Z)-; LMGL03010250; Oleic acid triglyceride; Glycerol trioleate; 9-Octadecenoic acid (9Z)-, 1,2,3-propanetriyl ester; 1,2,3-Tri(cis-9-octadecenoyl)glycerol; Glyceryl-1,2,3-trioleate; TG(18:1(9Z)/18:1(9Z)/18:1(9Z)); 124330-00-3; Oleic triglyceride; Oleyl triglyceride; Radia 7363; Trioleoylglyceride; 92860_FLUKA; Kemester 1000; Triglyceride OOO; EINECS 204-534-7; Triolein, [9,10-3H(N)]-; Emery oleic acid ester 2230; Emery 2423; Actor LO 1; Glycerol, tri(cis-9-octadecenoate); 9-Octadecenoic acid (Z)-, 1,2,3-propanetriyl ester; Raoline; Edenor NHTi-G; 41755-78-6; 24016-60-2; Emerest 2423; sn-Glyceryl trioleate; Trioleoylglycerol; HSDB 5594; Kaolube 190; 1,2,3-Propanetriyl trioleate; T7140_SIGMA; 1,2,3-Propanetriol tri(9-octandecenoate); Triolein",
+      "C57H104O6",
+      "CCCCCCCCC=CCCCCCCCC(=O)OCC(COC(=O)CCCCCCCC=CCCCCCCCC)OC(=O)CCCCCCCC=CCCCCCCCC",
+      "885.43",
+      "27.27093323",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "122-32-7"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT02896",
+        "title": "SMIT02896"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL000256"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/5497163",
+        "title": "5497163"
+      }
+    ]
+  ]
+}

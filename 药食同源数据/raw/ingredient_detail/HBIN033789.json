@@ -1,0 +1,196 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000570&label=Herb",
+        "title": "HERB000570"
+      },
+      "CAN SHA",
+      "蚕沙",
+      "Bombyx Mori L.",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001915&label=Herb",
+        "title": "HERB001915"
+      },
+      "GOU QI ZI",
+      "枸杞子",
+      "fruit of Chinese Wolfberry",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Lycii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001981&label=Herb",
+        "title": "HERB001981"
+      },
+      "GUAN YE JIN SI TAO",
+      "贯叶金丝桃",
+      "Herbahypericiperforati",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002276&label=Herb",
+        "title": "HERB002276"
+      },
+      "HONG HUA",
+      "红花",
+      "Safflower",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Carthami"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004093&label=Herb",
+        "title": "HERB004093"
+      },
+      "NAN HE SHI",
+      "南鹤虱",
+      "Fructus Carotae",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "(1R,4R)-4-[(1E,3E,5E,7E,9E,11E,13E,15E,17E)-18-[(4S)-4-hydroxy-2,6,6-trimethyl-1-cyclohexenyl]-3,7,12,16-tetramethyloctadeca-1,3,5,7,9,11,13,15,17-nonaenyl]-3,5,5-trimethylcyclohex-2-en-1-ol; 95507_FLUKA; (3R,3'R,6S)-4,5-DIDEHYDRO-5,6-DIHYDRO-BETA,BETA-CAROTENE-3,3'-DIOL; (1R,4R)-4-[(1E,3E,5E,7E,9E,11E,13E,15E,17E)-18-[(4S)-4-hydroxy-2,6,6-trimethyl-1-cyclohexenyl]-3,7,12,16-tetramethyl-octadeca-1,3,5,7,9,11,13,15,17-nonaenyl]-3,5,5-trimethyl-cyclohex-2-en-1-ol; (3R,3'R)-BETA,BETA-CAROTENE-3,3'-DIOL, LUTEIN; alpha-Carotene-3,3'-diol; (1R,4R)-4-[(1E,3E,5E,7E,9E,11E,13E,15E,17E)-18-[(4S)-4-hydroxy-2,6,6-trimethyl-1-cyclohexenyl]-3,7,12,16-tetramethyloctadeca-1,3,5,7,9,11,13,15,17-nonaenyl]-3,5,5-trimethyl-1-cyclohex-2-enol; X6250_SIGMA; beta, epsilon-carotene; beta, epsilon-carotene-3,3&#8242;-diol"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN033789",
+      "LUT",
+      "(1R,4R)-4-[(1E,3E,5E,7E,9E,11E,13E,15E,17E)-18-[(4S)-4-hydroxy-2,6,6-trimethyl-1-cyclohexenyl]-3,7,12,16-tetramethyloctadeca-1,3,5,7,9,11,13,15,17-nonaenyl]-3,5,5-trimethylcyclohex-2-en-1-ol; 95507_FLUKA; (3R,3'R,6S)-4,5-DIDEHYDRO-5,6-DIHYDRO-BETA,BETA-CAROTENE-3,3'-DIOL; (1R,4R)-4-[(1E,3E,5E,7E,9E,11E,13E,15E,17E)-18-[(4S)-4-hydroxy-2,6,6-trimethyl-1-cyclohexenyl]-3,7,12,16-tetramethyl-octadeca-1,3,5,7,9,11,13,15,17-nonaenyl]-3,5,5-trimethyl-cyclohex-2-en-1-ol; (3R,3'R)-BETA,BETA-CAROTENE-3,3'-DIOL, LUTEIN; alpha-Carotene-3,3'-diol; (1R,4R)-4-[(1E,3E,5E,7E,9E,11E,13E,15E,17E)-18-[(4S)-4-hydroxy-2,6,6-trimethyl-1-cyclohexenyl]-3,7,12,16-tetramethyloctadeca-1,3,5,7,9,11,13,15,17-nonaenyl]-3,5,5-trimethyl-1-cyclohex-2-enol; X6250_SIGMA; beta, epsilon-carotene; beta, epsilon-carotene-3,3&#8242;-diol",
+      "C40H56O2",
+      "CC1=C(C(CC(C1)O)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2C(=CC(CC2(C)C)O)C)C)C",
+      "568.87",
+      "15.74236581",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "127-40-2"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT04931",
+        "title": "SMIT04931"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL002742"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/448437",
+        "title": "448437"
+      }
+    ]
+  ]
+}

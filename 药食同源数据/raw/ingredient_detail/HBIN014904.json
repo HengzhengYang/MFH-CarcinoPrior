@@ -1,0 +1,144 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004853&label=Herb",
+        "title": "HERB004853"
+      },
+      "SHA REN",
+      "砂仁",
+      "Villous Amomum Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Amomi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005977&label=Herb",
+        "title": "HERB005977"
+      },
+      "XIAN HE CAO",
+      "仙鹤草",
+      "all - grss of Hairyvein Agrimonia",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Agrimoniae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "MolPort-035-705-790; Aglimonolide 6-O-beta-D-glucoside; (3S)-8-HYDROXY-3-[2-(4-METHOXYPHENYL)ETHYL]-6-{[(2S,3R,4S,5S,6R)-3,4,5-TRIHYDROXY-6-(HYDROXYMETHYL)OXAN-2-YL]OXY}-3,4-DIHYDRO-2-BENZOPYRAN-1-ONE; Agrimonolide-6-O-glucopyranoside; Agrimonolide-6-O-beta-D-glucopyranoside; (3S)-8-hydroxy-3-[2-(4-methoxyphenyl)ethyl]-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3,4-dihydroisochromen-1-one; DTXSID20155122; BG01759949; agrimonolide-6-o-beta-d-glucopyranoside; 1H-2-Benzopyran-1-one, 6-(beta-D-glucopyranosyloxy)-3,4-dihydro-8-hydroxy-3-(2-(4-methoxyphenyl)ethyl)-, (S)-; AC1L2Y67; W1312; C24H28O10; AKOS032948205; Agrimonolide 6-O-glucoside; ZINC31417663; A-6-GP; 126223-29-8"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN014904",
+      "agrimonolide-6-o-β-d-glucopyranoside",
+      "MolPort-035-705-790; Aglimonolide 6-O-beta-D-glucoside; (3S)-8-HYDROXY-3-[2-(4-METHOXYPHENYL)ETHYL]-6-{[(2S,3R,4S,5S,6R)-3,4,5-TRIHYDROXY-6-(HYDROXYMETHYL)OXAN-2-YL]OXY}-3,4-DIHYDRO-2-BENZOPYRAN-1-ONE; Agrimonolide-6-O-glucopyranoside; Agrimonolide-6-O-beta-D-glucopyranoside; (3S)-8-hydroxy-3-[2-(4-methoxyphenyl)ethyl]-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3,4-dihydroisochromen-1-one; DTXSID20155122; BG01759949; agrimonolide-6-o-beta-d-glucopyranoside; 1H-2-Benzopyran-1-one, 6-(beta-D-glucopyranosyloxy)-3,4-dihydro-8-hydroxy-3-(2-(4-methoxyphenyl)ethyl)-, (S)-; AC1L2Y67; W1312; C24H28O10; AKOS032948205; Agrimonolide 6-O-glucoside; ZINC31417663; A-6-GP; 126223-29-8",
+      "C24H28O10",
+      "COC1=CC=C(C=C1)CCC2CC3=C(C(=CC(=C3)OC4C(C(C(C(O4)CO)O)O)O)O)C(=O)O2",
+      "476.5",
+      {
+        "link": "https://www.symmap.org/detail/SMIT14193",
+        "title": "SMIT14193"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/30117/",
+        "title": "30117"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/133561827",
+        "title": "133561827"
+      }
+    ]
+  ]
+}

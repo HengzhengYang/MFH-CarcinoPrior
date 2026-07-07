@@ -1,0 +1,612 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000192&label=Herb",
+        "title": "HERB000192"
+      },
+      "BAI HE",
+      "百合",
+      "Bulb of Greenish Lily",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Bulbus Lilii "
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000281&label=Herb",
+        "title": "HERB000281"
+      },
+      "BAI TOU WENG",
+      "白头翁",
+      "Root of Chinese Pulsatilla",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Pulsatillae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000586&label=Herb",
+        "title": "HERB000586"
+      },
+      "CAO BEI MU",
+      "草贝母",
+      "Indian Iphigenia",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Iphigenia indica"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001992&label=Herb",
+        "title": "HERB001992"
+      },
+      "GUANG CI GU",
+      "光慈姑",
+      "Edible Tulip",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Tulipa edulis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002738&label=Herb",
+        "title": "HERB002738"
+      },
+      "JIA DU XIAN CAI",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002749&label=Herb",
+        "title": "HERB002749"
+      },
+      "JIA LAN",
+      "NA",
+      "Lovely Gloriosa",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Gloriosa superba"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003322&label=Herb",
+        "title": "HERB003322"
+      },
+      "LI LU",
+      "藜芦",
+      "Black Falsehellebore Equivalent plant: Veratrum grandiflorum",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Veratrum nigrum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004559&label=Herb",
+        "title": "HERB004559"
+      },
+      "QIU SHUI XIAN",
+      "秋水仙",
+      "Meadow Saffron",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Colchicum autumnale"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005622&label=Herb",
+        "title": "HERB005622"
+      },
+      "WAN QU TIAN NAN XING",
+      "弯曲天南星",
+      "Curvatura Jackinthepulpit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Arisaema curvatum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006160&label=Herb",
+        "title": "HERB006160"
+      },
+      "XIAO XUAN CAO GEN",
+      "小萱草根",
+      "Small Yellow Daylily",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Hemerocallis minor"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NSC 32992; NSC 624672; N-[(7S)-1,2,10-trimethoxy-9-oxo-3-[[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)-2-tetrahydropyranyl]oxy]-6,7-dihydro-5H-benzo[d]heptalen-7-yl]acetamide; EINECS 207-513-0; N-[(7S)-9-keto-1,2,10-trimethoxy-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-methylol-tetrahydropyran-2-yl]oxy-6,7-dihydro-5H-benzo[d]heptalen-7-yl]acetamide; N-[(7S)-1,2,10-trimethoxy-9-oxo-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-6,7-dihydro-5H-benzo[d]heptalen-7-yl]ethanamide; BRN 0072204; N-[(7S)-1,2,10-trimethoxy-9-oxo-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydropyran-2-yl]oxy-6,7-dihydro-5H-benzo[d]heptalen-7-yl]acetamide; N-[(7S)-1,2,10-trimethoxy-9-oxo-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-6,7-dihydro-5H-benzo[d]heptalen-7-yl]acetamide"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000828&label=Disease",
+        "title": "HBDIS000828"
+      },
+      "Drug toxicity",
+      "0.00013048113281101",
+      "0.00189676011883239"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001000&label=Disease",
+        "title": "HBDIS001000"
+      },
+      "Exanthema",
+      "0.000847189890068287",
+      "0.00698254827915905"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001339&label=Disease",
+        "title": "HBDIS001339"
+      },
+      "Hepatitis, Toxic",
+      "0.00134587097119278",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001979&label=Disease",
+        "title": "HBDIS001979"
+      },
+      "Mucocutaneous Lymph Node Syndrome",
+      "0.00141616370071848",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002338&label=Disease",
+        "title": "HBDIS002338"
+      },
+      "Peptic Ulcer",
+      "0.000249234928556867",
+      "0.00301537311622048"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002339&label=Disease",
+        "title": "HBDIS002339"
+      },
+      "Peptic Ulcer Hemorrhage",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003042&label=Disease",
+        "title": "HBDIS003042"
+      },
+      "Adverse reaction to drug",
+      "0.000133618173632158",
+      "0.00192945449853022"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003671&label=Disease",
+        "title": "HBDIS003671"
+      },
+      "Disease of diaphragm",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003816&label=Disease",
+        "title": "HBDIS003816"
+      },
+      "Malignant neoplasm of brain",
+      "0.00098658150610647",
+      "0.00763113145031483"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004475&label=Disease",
+        "title": "HBDIS004475"
+      },
+      "Adult Non-Hodgkin Lymphoma",
+      "0.00149865512873596",
+      "0.00990785817435814"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004477&label=Disease",
+        "title": "HBDIS004477"
+      },
+      "Childhood Non-Hodgkin Lymphoma",
+      "0.00149865512873596",
+      "0.00990785817435814"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005381&label=Disease",
+        "title": "HBDIS005381"
+      },
+      "Autoimmune Chronic Hepatitis",
+      "0.000567123642353323",
+      "0.00533990910995702"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006055&label=Disease",
+        "title": "HBDIS006055"
+      },
+      "Acute gastrointestinal hemorrhage",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009213&label=Disease",
+        "title": "HBDIS009213"
+      },
+      "Gastrointestinal symptom",
+      "6.63354576835303e-05",
+      "0.00115157378144287"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011067&label=Disease",
+        "title": "HBDIS011067"
+      },
+      "Coumarin Resistance",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012086&label=Disease",
+        "title": "HBDIS012086"
+      },
+      "Upper gastrointestinal symptoms",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012615&label=Disease",
+        "title": "HBDIS012615"
+      },
+      "Gastroduodenal haemorrhage",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012895&label=Disease",
+        "title": "HBDIS012895"
+      },
+      "Hepatitis, Drug-Induced",
+      "0.00140601398464755",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019231&label=Disease",
+        "title": "HBDIS019231"
+      },
+      "Acute kidney injury",
+      "0.000486107086229029",
+      "0.00479280553389632"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019408&label=Disease",
+        "title": "HBDIS019408"
+      },
+      "Coumarin Sensitivity",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021921&label=Disease",
+        "title": "HBDIS021921"
+      },
+      "Drug-Induced Acute Liver Injury",
+      "0.00135580486236927",
+      "0.00931202694682019"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022813&label=Disease",
+        "title": "HBDIS022813"
+      },
+      "CYP2C9 polymorphism",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025942&label=Disease",
+        "title": "HBDIS025942"
+      },
+      "Chemically-Induced Liver Toxicity",
+      "0.00134587097119278",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027777&label=Disease",
+        "title": "HBDIS027777"
+      },
+      "Autoimmune hepatitis",
+      "0.000439327205525953",
+      "0.00451720936710985"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005382&label=Disease",
+        "title": "HBDIS005382"
+      },
+      "Halothane Hepatitis",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006893&label=Disease",
+        "title": "HBDIS006893"
+      },
+      "Infection by Polymorphus",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009984&label=Disease",
+        "title": "HBDIS009984"
+      },
+      "Hepatitis, Chronic, Drug-Induced",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010200&label=Disease",
+        "title": "HBDIS010200"
+      },
+      "Binge Drinking",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011762&label=Disease",
+        "title": "HBDIS011762"
+      },
+      "respiratory system cancer",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014228&label=Disease",
+        "title": "HBDIS014228"
+      },
+      "Alcoholic liver damage",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021957&label=Disease",
+        "title": "HBDIS021957"
+      },
+      "Familial Osteochondritis Dissecans",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025510&label=Disease",
+        "title": "HBDIS025510"
+      },
+      "Chronic alcoholic liver disease",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026335&label=Disease",
+        "title": "HBDIS026335"
+      },
+      "SPERMATOGENIC FAILURE 15",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026337&label=Disease",
+        "title": "HBDIS026337"
+      },
+      "PREMATURE OVARIAN FAILURE 12",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000958&label=Target",
+        "title": "HBTAR000958"
+      },
+      "CYP2C9",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1442/",
+          "title": "TCMID:1442"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR03937"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000961&label=Target",
+        "title": "HBTAR000961"
+      },
+      "CYP2E1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11153/",
+          "title": "TCMID:11153"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN021261",
+      "colchicoside",
+      "NSC 32992; NSC 624672; N-[(7S)-1,2,10-trimethoxy-9-oxo-3-[[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)-2-tetrahydropyranyl]oxy]-6,7-dihydro-5H-benzo[d]heptalen-7-yl]acetamide; EINECS 207-513-0; N-[(7S)-9-keto-1,2,10-trimethoxy-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-methylol-tetrahydropyran-2-yl]oxy-6,7-dihydro-5H-benzo[d]heptalen-7-yl]acetamide; N-[(7S)-1,2,10-trimethoxy-9-oxo-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-6,7-dihydro-5H-benzo[d]heptalen-7-yl]ethanamide; BRN 0072204; N-[(7S)-1,2,10-trimethoxy-9-oxo-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydropyran-2-yl]oxy-6,7-dihydro-5H-benzo[d]heptalen-7-yl]acetamide; N-[(7S)-1,2,10-trimethoxy-9-oxo-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-6,7-dihydro-5H-benzo[d]heptalen-7-yl]acetamide",
+      "C27H33NO11",
+      "CC(=O)NC1CCC2=CC(=C(C(=C2C3=CC=C(C(=O)C=C13)OC)OC)OC)OC4C(C(C(C(O4)CO)O)O)O",
+      "547.55",
+      "11.73275495",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "477-29-2"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT00763",
+        "title": "SMIT00763"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/3912/",
+        "title": "3912"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL009457"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "5536"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/24721008",
+        "title": "24721008"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000161&label=Herb",
+        "title": "HERB000161"
+      },
+      "BAI BIAN DOU",
+      "白扁豆",
+      "White Hyacinth Bean",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Lablab Album"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000186&label=Herb",
+        "title": "HERB000186"
+      },
+      "BAI GUO",
+      "白果",
+      "Ginkgo seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Ginkgo"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000187&label=Herb",
+        "title": "HERB000187"
+      },
+      "BAI GUO GEN",
+      "白果根",
+      "Ginkgo Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Ginkgo biloba"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000189&label=Herb",
+        "title": "HERB000189"
+      },
+      "BAI GUO YE",
+      "白果叶",
+      "Ginkgo Leaf",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Ginkgo biloba"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006632&label=Herb",
+        "title": "HERB006632"
+      },
+      "YIN XING YE",
+      "银杏叶",
+      "Ginkgo Folium",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "ginkgolide j; AKOS015963173; BC215523; AC-19601; Ginkgolide J; 107438-79-9"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000153&label=Disease",
+        "title": "HBDIS000153"
+      },
+      "Anemia, Megaloblastic",
+      "0.0015038784233022",
+      "0.00990856799135117"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000981&label=Disease",
+        "title": "HBDIS000981"
+      },
+      "Erythromelalgia",
+      "0.000791514959632737",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003118&label=Disease",
+        "title": "HBDIS003118"
+      },
+      "Vitamin B 12 Deficiency",
+      "0.00142472692733892",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003374&label=Disease",
+        "title": "HBDIS003374"
+      },
+      "Aneurysm, Mycotic",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008049&label=Disease",
+        "title": "HBDIS008049"
+      },
+      "Transcobalamin II deficiency",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022500&label=Disease",
+        "title": "HBDIS022500"
+      },
+      "Otitis media in children",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022764&label=Disease",
+        "title": "HBDIS022764"
+      },
+      "Protanomaly",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003116&label=Target",
+        "title": "HBTAR003116"
+      },
+      "PPBP",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8551/",
+          "title": "TCMID:8551"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN027686",
+      "ginkgolide J",
+      "ginkgolide j; AKOS015963173; BC215523; AC-19601; Ginkgolide J; 107438-79-9",
+      "C20H24O10",
+      "CC1C(=O)OC2C1(C34C(=O)OC5C3(C2)C6(C(C5O)C(C)(C)C)C(C(=O)OC6O4)O)O",
+      "424.4",
+      "44.83632412",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "107438-79-9"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT12464",
+        "title": "SMIT12464"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/8406/",
+        "title": "8406"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL011588"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "19106"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/138114095",
+        "title": "138114095"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,2577 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000887&label=Herb",
+        "title": "HERB000887"
+      },
+      "CHUAN XIONG",
+      "川芎",
+      "Chuanxiong rhizome, Szechuan lovage root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix chuanxiong；Rhizoma Chuanxiong"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003582&label=Herb",
+        "title": "HERB003582"
+      },
+      "LUO HAN GUO",
+      "罗汉果",
+      "Grosvenor Momordica Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Momordicae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003658&label=Herb",
+        "title": "HERB003658"
+      },
+      "MA HUANG",
+      "麻黄",
+      "Ephedra",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Ephedrae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004950&label=Herb",
+        "title": "HERB004950"
+      },
+      "SHAN ZHU YU",
+      "山茱萸",
+      "Asiatic Cornelian Cherry Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Corni"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "methyl furan-2-carboxylate; 2-(Methoxycarbonyl)furan; ZINC00388192; 2-Furancarboxylic acid, methyl ester; 5-18-06-00103 (Beilstein Handbook Reference); W270318_ALDRICH; Methyl furoate; 129852_ALDRICH; 611-13-2; 2-Furoic acid methyl ester; Methyl 2-furoate; 2-furancarboxylic acid methyl ester; FEMA No. 2703; AI3-23585; 48050_FLUKA; 2-Furoic acid, methyl ester; NSC 35551; BRN 0111110; Pyromucic acid methyl ester; CCRIS 2158; EINECS 210-254-6; Furoic acid, methyl ester; Methyl 2-furylcarboxylate; furan-2-carboxylic acid methyl ester; AIDS018154; Methyl pyromucate; NSC35551; AIDS-018154; Methyl 2-furancarboxylate"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000140&label=Disease",
+        "title": "HBDIS000140"
+      },
+      "Anemia",
+      "3.86810874479872e-05",
+      "0.000765772539213894"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000240&label=Disease",
+        "title": "HBDIS000240"
+      },
+      "Congenital arteriovenous malformation",
+      "0.00114262568666453",
+      "0.00839955097486763"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000270&label=Disease",
+        "title": "HBDIS000270"
+      },
+      "Ataxia Telangiectasia",
+      "1.43005538839198e-06",
+      "5.64837854511955e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000271&label=Disease",
+        "title": "HBDIS000271"
+      },
+      "Ataxias, Hereditary",
+      "5.42681971781881e-05",
+      "0.000989229533093977"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000336&label=Disease",
+        "title": "HBDIS000336"
+      },
+      "Bladder neck obstruction",
+      "0.000212475374051532",
+      "0.00270167788475528"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000356&label=Disease",
+        "title": "HBDIS000356"
+      },
+      "Bloom Syndrome",
+      "0.000967576621725526",
+      "0.00751948195701591"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000414&label=Disease",
+        "title": "HBDIS000414"
+      },
+      "Burkitt Lymphoma",
+      "0.000347024899733008",
+      "0.00381516103121155"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000445&label=Disease",
+        "title": "HBDIS000445"
+      },
+      "Malignant neoplasm of larynx",
+      "7.3460430357338e-05",
+      "0.00124271588909949"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000496&label=Disease",
+        "title": "HBDIS000496"
+      },
+      "Intracranial Aneurysm",
+      "6.3395867596242e-05",
+      "0.00111388191836544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000503&label=Disease",
+        "title": "HBDIS000503"
+      },
+      "Cerebral Infarction",
+      "0.000822902522956393",
+      "0.00682458570200762"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000510&label=Disease",
+        "title": "HBDIS000510"
+      },
+      "Malignant tumor of cervix",
+      "0.000323356740491886",
+      "0.00361660154445422"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000706&label=Disease",
+        "title": "HBDIS000706"
+      },
+      "Cystic Fibrosis",
+      "0.00143054391840124",
+      "0.00955797031024794"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000725&label=Disease",
+        "title": "HBDIS000725"
+      },
+      "Dejerine-Sottas Disease (disorder)",
+      "0.00142256802688602",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000745&label=Disease",
+        "title": "HBDIS000745"
+      },
+      "Dentigerous Cyst",
+      "3.44649948828151e-05",
+      "0.000701643378923478"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000947&label=Disease",
+        "title": "HBDIS000947"
+      },
+      "Eperythrozoonosis",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001038&label=Disease",
+        "title": "HBDIS001038"
+      },
+      "Fanconi Anemia",
+      "0.000165297678929982",
+      "0.00223996582016456"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001074&label=Disease",
+        "title": "HBDIS001074"
+      },
+      "Fibrosarcoma",
+      "3.03163170615987e-06",
+      "0.000103971859233161"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001262&label=Disease",
+        "title": "HBDIS001262"
+      },
+      "Heart Diseases",
+      "0.000390193735917709",
+      "0.00416146285661426"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001283&label=Disease",
+        "title": "HBDIS001283"
+      },
+      "Hemangioma",
+      "3.76097761524922e-05",
+      "0.000748679019067328"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001333&label=Disease",
+        "title": "HBDIS001333"
+      },
+      "Hepatitis",
+      "0.000677658027585311",
+      "0.00602094892037976"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001334&label=Disease",
+        "title": "HBDIS001334"
+      },
+      "Hepatitis A",
+      "0.000216266773415826",
+      "0.00273834487532988"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001557&label=Disease",
+        "title": "HBDIS001557"
+      },
+      "Intermittent Claudication",
+      "0.00019133131773813",
+      "0.00249987195539996"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001574&label=Disease",
+        "title": "HBDIS001574"
+      },
+      "Irritable Bowel Syndrome",
+      "0.000203965795714214",
+      "0.0026215158572753"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001586&label=Disease",
+        "title": "HBDIS001586"
+      },
+      "Jaundice, Obstructive",
+      "0.000198257358363497",
+      "0.00256640347363496"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001618&label=Disease",
+        "title": "HBDIS001618"
+      },
+      "Kidney Failure, Acute",
+      "0.00127080856436272",
+      "0.00889439863038247"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001681&label=Disease",
+        "title": "HBDIS001681"
+      },
+      "Leishmaniasis, Visceral",
+      "0.00149721974334008",
+      "0.00990103554076407"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001694&label=Disease",
+        "title": "HBDIS001694"
+      },
+      "leukemia",
+      "0.00117775706574103",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001772&label=Disease",
+        "title": "HBDIS001772"
+      },
+      "Liver neoplasms",
+      "0.000306134877902087",
+      "0.00352107762993153"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001792&label=Disease",
+        "title": "HBDIS001792"
+      },
+      "Lupus Erythematosus, Systemic",
+      "0.000563522936976093",
+      "0.00531394030640149"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001810&label=Disease",
+        "title": "HBDIS001810"
+      },
+      "Lymphoma",
+      "0.000361127314331244",
+      "0.00392592406229929"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001842&label=Disease",
+        "title": "HBDIS001842"
+      },
+      "Primary Malignant Liver Neoplasm",
+      "0.000140321963046067",
+      "0.00200027859510033"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001882&label=Disease",
+        "title": "HBDIS001882"
+      },
+      "Medulloblastoma",
+      "0.00127650756680779",
+      "0.0089301039897425"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001908&label=Disease",
+        "title": "HBDIS001908"
+      },
+      "Meningioma",
+      "0.000720098367655493",
+      "0.00624199439413348"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001934&label=Disease",
+        "title": "HBDIS001934"
+      },
+      "Mesothelioma",
+      "0.000442436153962509",
+      "0.00454058420461629"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001960&label=Disease",
+        "title": "HBDIS001960"
+      },
+      "Mixed Salivary Gland Tumor",
+      "0.00129641203778692",
+      "0.00903813706283841"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001990&label=Disease",
+        "title": "HBDIS001990"
+      },
+      "Multiple Myeloma",
+      "0.000534305459234291",
+      "0.00514652335595811"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002011&label=Disease",
+        "title": "HBDIS002011"
+      },
+      "Mycobacterium Infections",
+      "0.00131408430497574",
+      "0.00913528725152257"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002025&label=Disease",
+        "title": "HBDIS002025"
+      },
+      "Myeloproliferative disease",
+      "0.00012048898149377",
+      "0.00178793134115707"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002103&label=Disease",
+        "title": "HBDIS002103"
+      },
+      "Neuralgia",
+      "0.000930152501233237",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002163&label=Disease",
+        "title": "HBDIS002163"
+      },
+      "Odontogenic Cysts",
+      "4.05709186752355e-05",
+      "0.000793703828990076"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002224&label=Disease",
+        "title": "HBDIS002224"
+      },
+      "Osteopenia",
+      "0.00146771612736851",
+      "0.00974626413602169"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002228&label=Disease",
+        "title": "HBDIS002228"
+      },
+      "Osteoporosis, Postmenopausal",
+      "1.07314786755849e-05",
+      "0.000283888744373857"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002230&label=Disease",
+        "title": "HBDIS002230"
+      },
+      "Osteosarcoma",
+      "0.00103121027780295",
+      "0.00785315815203827"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002276&label=Disease",
+        "title": "HBDIS002276"
+      },
+      "Pancreatic Neoplasm",
+      "3.33047103378274e-05",
+      "0.00068343065702399"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002336&label=Disease",
+        "title": "HBDIS002336"
+      },
+      "Peyronie Disease",
+      "2.9273754137289e-07",
+      "1.51175416029717e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002356&label=Disease",
+        "title": "HBDIS002356"
+      },
+      "Periodontal Diseases",
+      "9.35099057876858e-05",
+      "0.00147834784848219"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002358&label=Disease",
+        "title": "HBDIS002358"
+      },
+      "Periodontitis",
+      "0.000735949762188805",
+      "0.00634035647073213"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002381&label=Disease",
+        "title": "HBDIS002381"
+      },
+      "Pheochromocytoma",
+      "0.000113319440105159",
+      "0.00170606544472399"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002435&label=Disease",
+        "title": "HBDIS002435"
+      },
+      "Polycystic Ovary Syndrome",
+      "6.44937054832505e-05",
+      "0.00112774272607108"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002488&label=Disease",
+        "title": "HBDIS002488"
+      },
+      "Prostatic Neoplasms",
+      "0.000739684075684802",
+      "0.00636483410138664"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002497&label=Disease",
+        "title": "HBDIS002497"
+      },
+      "Prune Belly Syndrome",
+      "0.000308004984796881",
+      "0.00353637970516871"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002566&label=Disease",
+        "title": "HBDIS002566"
+      },
+      "Radicular Cyst",
+      "0.000184527333579906",
+      "0.00243183635807907"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002614&label=Disease",
+        "title": "HBDIS002614"
+      },
+      "Retinal Diseases",
+      "0.000835843789111841",
+      "0.0069033151991612"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002634&label=Disease",
+        "title": "HBDIS002634"
+      },
+      "Rhabdomyosarcoma",
+      "0.000406228670492809",
+      "0.00425807753393972"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002700&label=Disease",
+        "title": "HBDIS002700"
+      },
+      "Systemic Scleroderma",
+      "6.18759948203228e-05",
+      "0.00109371231580942"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002714&label=Disease",
+        "title": "HBDIS002714"
+      },
+      "Age-related cataract",
+      "0.000334617819462797",
+      "0.00371266089479841"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002720&label=Disease",
+        "title": "HBDIS002720"
+      },
+      "Septicemia",
+      "0.000169545305840851",
+      "0.00228325239619853"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002797&label=Disease",
+        "title": "HBDIS002797"
+      },
+      "Spermatic Cord Torsion",
+      "1.91237680693496e-05",
+      "0.000445635522698181"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002841&label=Disease",
+        "title": "HBDIS002841"
+      },
+      "Gastric ulcer",
+      "0.00090745772178291",
+      "0.00730486195573669"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002864&label=Disease",
+        "title": "HBDIS002864"
+      },
+      "Subarachnoid Hemorrhage",
+      "0.000349473022255681",
+      "0.00383562897604842"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002873&label=Disease",
+        "title": "HBDIS002873"
+      },
+      "Sudden infant death syndrome",
+      "0.000878107297015581",
+      "0.0071132750356448"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003051&label=Disease",
+        "title": "HBDIS003051"
+      },
+      "Ureteral obstruction",
+      "0.000134396752951953",
+      "0.00193736131097685"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003086&label=Disease",
+        "title": "HBDIS003086"
+      },
+      "Varicocele",
+      "0.000431183480898185",
+      "0.00445320264716136"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003087&label=Disease",
+        "title": "HBDIS003087"
+      },
+      "Varicose Ulcer",
+      "7.41700996281081e-05",
+      "0.00125201337472843"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003089&label=Disease",
+        "title": "HBDIS003089"
+      },
+      "Vascular Diseases",
+      "0.000857705438884677",
+      "0.00704093683404013"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003098&label=Disease",
+        "title": "HBDIS003098"
+      },
+      "Ventricular Fibrillation",
+      "0.000325625795347236",
+      "0.00363760005380795"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003200&label=Disease",
+        "title": "HBDIS003200"
+      },
+      "Ichthyosis, X-Linked",
+      "2.06880705131346e-05",
+      "0.000473768500434862"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003207&label=Disease",
+        "title": "HBDIS003207"
+      },
+      "Diffuse Large B-Cell Lymphoma",
+      "7.10401624068857e-05",
+      "0.00121276756252738"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003289&label=Disease",
+        "title": "HBDIS003289"
+      },
+      "Encephalitozoonosis",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003440&label=Disease",
+        "title": "HBDIS003440"
+      },
+      "Ataxia, Spinocerebellar",
+      "0.000647784954662812",
+      "0.00581567863082046"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003511&label=Disease",
+        "title": "HBDIS003511"
+      },
+      "Small cell carcinoma of lung",
+      "5.8406648332476e-05",
+      "0.00104751595358772"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003563&label=Disease",
+        "title": "HBDIS003563"
+      },
+      "Oral Cavity Carcinoma",
+      "8.87811949940777e-06",
+      "0.000244811356562547"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003581&label=Disease",
+        "title": "HBDIS003581"
+      },
+      "Renal fibrosis",
+      "0.000428270720752106",
+      "0.00443162410505197"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003597&label=Disease",
+        "title": "HBDIS003597"
+      },
+      "Myocardial Ischemia",
+      "0.00118185504378661",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003648&label=Disease",
+        "title": "HBDIS003648"
+      },
+      "Esophageal carcinoma",
+      "0.000120700438159903",
+      "0.00179078913369217"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003736&label=Disease",
+        "title": "HBDIS003736"
+      },
+      "Linear atrophy",
+      "0.00104537932359693",
+      "0.00793848796527011"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003758&label=Disease",
+        "title": "HBDIS003758"
+      },
+      "Malignant neoplasm of tongue",
+      "0.00098290143669708",
+      "0.0076109010277242"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003826&label=Disease",
+        "title": "HBDIS003826"
+      },
+      "Secondary malignant neoplasm of bone",
+      "0.000629644786729885",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004046&label=Disease",
+        "title": "HBDIS004046"
+      },
+      "Intervertebral disc disorder",
+      "0.000892723375779218",
+      "0.00720947042487113"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004047&label=Disease",
+        "title": "HBDIS004047"
+      },
+      "Intervertebral Disc Degeneration",
+      "8.16634204375125e-05",
+      "0.0013346871064347"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004158&label=Disease",
+        "title": "HBDIS004158"
+      },
+      "Cicatrix, Hypertrophic",
+      "0.0012788565961694",
+      "0.00894143455944132"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004191&label=Disease",
+        "title": "HBDIS004191"
+      },
+      "Agenesis of corpus callosum",
+      "0.000486761544373889",
+      "0.00479632107162305"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004369&label=Disease",
+        "title": "HBDIS004369"
+      },
+      "Hepatoblastoma",
+      "0.000232784985855799",
+      "0.00289284480542698"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004428&label=Disease",
+        "title": "HBDIS004428"
+      },
+      "Cholangiocarcinoma",
+      "0.00126512606816441",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004476&label=Disease",
+        "title": "HBDIS004476"
+      },
+      "Childhood Rhabdomyosarcoma",
+      "0.00032083332943432",
+      "0.00359375008337025"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004478&label=Disease",
+        "title": "HBDIS004478"
+      },
+      "Adult Soft Tissue Sarcoma",
+      "0.00104537932359693",
+      "0.00793848796527011"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004483&label=Disease",
+        "title": "HBDIS004483"
+      },
+      "Adult Liver Carcinoma",
+      "0.000190160569925377",
+      "0.00248762003328205"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004486&label=Disease",
+        "title": "HBDIS004486"
+      },
+      "Lip and Oral Cavity Carcinoma",
+      "0.000888931420614873",
+      "0.00718550700527808"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004488&label=Disease",
+        "title": "HBDIS004488"
+      },
+      "Childhood Soft Tissue Sarcoma",
+      "0.0011097402432066",
+      "0.00820640818320359"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004657&label=Disease",
+        "title": "HBDIS004657"
+      },
+      "Lesion of brain",
+      "0.00142256802688602",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004718&label=Disease",
+        "title": "HBDIS004718"
+      },
+      "Meningitic respiration",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004786&label=Disease",
+        "title": "HBDIS004786"
+      },
+      "Abnormal behavior",
+      "4.80568204179304e-05",
+      "0.000902385908580349"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005472&label=Disease",
+        "title": "HBDIS005472"
+      },
+      "Sepsis",
+      "0.000292649522653895",
+      "0.00340261240360091"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005473&label=Disease",
+        "title": "HBDIS005473"
+      },
+      "Carcinoma, Lewis Lung",
+      "0.00144105646425623",
+      "0.00961058856120026"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005502&label=Disease",
+        "title": "HBDIS005502"
+      },
+      "Cerebellar degeneration",
+      "0.000102120414821426",
+      "0.00157939329577518"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005814&label=Disease",
+        "title": "HBDIS005814"
+      },
+      "Turcot syndrome (disorder)",
+      "0.000282482741181503",
+      "0.00331481476512999"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005913&label=Disease",
+        "title": "HBDIS005913"
+      },
+      "Nevus comedonicus",
+      "4.7172143866557e-05",
+      "0.000890056205067673"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006551&label=Disease",
+        "title": "HBDIS006551"
+      },
+      "Rhegmatogenous retinal detachment",
+      "3.40063479263506e-07",
+      "1.71509545761491e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006785&label=Disease",
+        "title": "HBDIS006785"
+      },
+      "Chronic mountain sickness",
+      "5.25797146031181e-08",
+      "3.49380691027202e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006953&label=Disease",
+        "title": "HBDIS006953"
+      },
+      "Non-small cell lung cancer stage I",
+      "0.000400946747718928",
+      "0.00421569408736071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006956&label=Disease",
+        "title": "HBDIS006956"
+      },
+      "Childhood Medulloblastoma",
+      "0.000920887186632881",
+      "0.00738846095661518"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006975&label=Disease",
+        "title": "HBDIS006975"
+      },
+      "Adult Fibrosarcoma",
+      "2.46409224546203e-06",
+      "8.7968806125381e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007013&label=Disease",
+        "title": "HBDIS007013"
+      },
+      "Adult Burkitt Lymphoma",
+      "0.000216266773415826",
+      "0.00273834487532988"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007040&label=Disease",
+        "title": "HBDIS007040"
+      },
+      "Adult Medulloblastoma",
+      "0.000888931420614873",
+      "0.00718550700527808"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007043&label=Disease",
+        "title": "HBDIS007043"
+      },
+      "Childhood Burkitt Lymphoma",
+      "0.000219868650359961",
+      "0.00277454588113974"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007055&label=Disease",
+        "title": "HBDIS007055"
+      },
+      "Liver and Intrahepatic Biliary Tract Carcinoma",
+      "0.000199980776625764",
+      "0.00258324543854746"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007070&label=Disease",
+        "title": "HBDIS007070"
+      },
+      "Adult Rhabdomyosarcoma",
+      "0.000307109735803341",
+      "0.00352892928745877"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007175&label=Disease",
+        "title": "HBDIS007175"
+      },
+      "Squamous cell carcinoma of oropharynx",
+      "0.000937280984188005",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007297&label=Disease",
+        "title": "HBDIS007297"
+      },
+      "Cervix carcinoma",
+      "0.000474850025986174",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007354&label=Disease",
+        "title": "HBDIS007354"
+      },
+      "Anastomosis",
+      "0.0011097402432066",
+      "0.00820640818320359"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007422&label=Disease",
+        "title": "HBDIS007422"
+      },
+      "Tumor necrosis",
+      "0.000119273897558507",
+      "0.00177306121214519"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007854&label=Disease",
+        "title": "HBDIS007854"
+      },
+      "Dissection of aorta",
+      "0.000738463941067597",
+      "0.00635716423473482"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007884&label=Disease",
+        "title": "HBDIS007884"
+      },
+      "Lateral developmental cyst of jaw",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008072&label=Disease",
+        "title": "HBDIS008072"
+      },
+      "Depletion of mitochondrial DNA",
+      "6.58390451293868e-05",
+      "0.00114632159708417"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008291&label=Disease",
+        "title": "HBDIS008291"
+      },
+      "Malignant neoplasm of liver",
+      "0.000405947435867696",
+      "0.00425648761076138"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008521&label=Disease",
+        "title": "HBDIS008521"
+      },
+      "Ischemic cardiomyopathy",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008534&label=Disease",
+        "title": "HBDIS008534"
+      },
+      "Helicobacter pylori (H. pylori) infection in conditions classified elsewhere and of unspecified site",
+      "0.0004959607178665",
+      "0.00486369418975007"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008573&label=Disease",
+        "title": "HBDIS008573"
+      },
+      "Endotoxemia",
+      "0.000212703867657413",
+      "0.00270373272407595"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008744&label=Disease",
+        "title": "HBDIS008744"
+      },
+      "Spinal cord stroke",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008919&label=Disease",
+        "title": "HBDIS008919"
+      },
+      "Asthenozoospermia",
+      "0.000473184689980412",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009057&label=Disease",
+        "title": "HBDIS009057"
+      },
+      "Avascular Necrosis of Femur Head",
+      "0.00020530539671146",
+      "0.00263206234763029"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009430&label=Disease",
+        "title": "HBDIS009430"
+      },
+      "Osteoglophonic dwarfism",
+      "0.000410905144565695",
+      "0.00429684772380447"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010154&label=Disease",
+        "title": "HBDIS010154"
+      },
+      "Ewings sarcoma",
+      "0.000287254951056314",
+      "0.00335563026508038"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010211&label=Disease",
+        "title": "HBDIS010211"
+      },
+      "Tongue Carcinoma",
+      "0.00101390477022411",
+      "0.00779060405450613"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010411&label=Disease",
+        "title": "HBDIS010411"
+      },
+      "Carcinoma of larynx",
+      "0.000177596053126125",
+      "0.00236424682146407"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010448&label=Disease",
+        "title": "HBDIS010448"
+      },
+      "Leukemogenesis",
+      "5.9026401812479e-05",
+      "0.00105617090460383"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010503&label=Disease",
+        "title": "HBDIS010503"
+      },
+      "Hashimoto Disease",
+      "8.84451544291179e-05",
+      "0.00141563112426041"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010522&label=Disease",
+        "title": "HBDIS010522"
+      },
+      "Stage III Colorectal Cancer",
+      "7.85205964322153e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010794&label=Disease",
+        "title": "HBDIS010794"
+      },
+      "Middle Cerebral Artery Occlusion",
+      "0.000566909677627713",
+      "0.0053388125879469"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010795&label=Disease",
+        "title": "HBDIS010795"
+      },
+      "Infarction, Middle Cerebral Artery",
+      "0.00109347368090652",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010810&label=Disease",
+        "title": "HBDIS010810"
+      },
+      "Malignant neoplasm of kidney",
+      "0.000566909677627713",
+      "0.0053388125879469"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011458&label=Disease",
+        "title": "HBDIS011458"
+      },
+      "Dentatorubral-Pallidoluysian Atrophy",
+      "0.000334617819462797",
+      "0.00371266089479841"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011597&label=Disease",
+        "title": "HBDIS011597"
+      },
+      "Hypoxia-Ischemia, Brain",
+      "0.000381391788632489",
+      "0.00409354989089308"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011753&label=Disease",
+        "title": "HBDIS011753"
+      },
+      "Malignant Pleural Mesothelioma",
+      "0.000177596053126125",
+      "0.00236424682146407"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011870&label=Disease",
+        "title": "HBDIS011870"
+      },
+      "Perinatal brain damage",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012277&label=Disease",
+        "title": "HBDIS012277"
+      },
+      "Pelvic Organ Prolapse",
+      "0.000635307591772327",
+      "0.00573087920717739"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012368&label=Disease",
+        "title": "HBDIS012368"
+      },
+      "Cerebral Ischemia",
+      "0.000574712470930022",
+      "0.005393632702863"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012582&label=Disease",
+        "title": "HBDIS012582"
+      },
+      "Drug Resistant Epilepsy",
+      "0.00138594047994058",
+      "0.00947002062044083"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012954&label=Disease",
+        "title": "HBDIS012954"
+      },
+      "Chromophobe Renal Cell Carcinoma",
+      "1.81356323005524e-05",
+      "0.000427675228376311"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013032&label=Disease",
+        "title": "HBDIS013032"
+      },
+      "Mild cognitive disorder",
+      "0.000174466958887248",
+      "0.00233131784769084"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013280&label=Disease",
+        "title": "HBDIS013280"
+      },
+      "Primary Effusion Lymphoma",
+      "0.00129641203778692",
+      "0.00903813706283841"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013292&label=Disease",
+        "title": "HBDIS013292"
+      },
+      "Chronic myeloproliferative disorder",
+      "0.000127950993014278",
+      "0.00186955447600717"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013651&label=Disease",
+        "title": "HBDIS013651"
+      },
+      "Cervical Squamous Intraepithelial Neoplasia",
+      "0.00050594772885475",
+      "0.00493514051555272"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013665&label=Disease",
+        "title": "HBDIS013665"
+      },
+      "Childhood Leukemia",
+      "0.000553656115309804",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014080&label=Disease",
+        "title": "HBDIS014080"
+      },
+      "Renal carcinoma",
+      "0.000550239227998681",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014359&label=Disease",
+        "title": "HBDIS014359"
+      },
+      "Hepatocarcinogenesis",
+      "0.00129370382173948",
+      "0.00902493027725773"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014367&label=Disease",
+        "title": "HBDIS014367"
+      },
+      "Mammary Tumorigenesis",
+      "0.0012098042356119",
+      "0.00867916620609313"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014419&label=Disease",
+        "title": "HBDIS014419"
+      },
+      "Tumor Angiogenesis",
+      "0.0012313765435541",
+      "0.00879418391081722"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014683&label=Disease",
+        "title": "HBDIS014683"
+      },
+      "androgen independent prostate cancer",
+      "0.00142256802688602",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014814&label=Disease",
+        "title": "HBDIS014814"
+      },
+      "Keratocystic Odontogenic Tumor",
+      "0.000112421330322951",
+      "0.00169724283401568"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014872&label=Disease",
+        "title": "HBDIS014872"
+      },
+      "Severe Sepsis",
+      "0.00138594047994058",
+      "0.00947002062044083"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014908&label=Disease",
+        "title": "HBDIS014908"
+      },
+      "Painful Bladder Syndrome",
+      "0.000308004984796881",
+      "0.00353637970516871"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014948&label=Disease",
+        "title": "HBDIS014948"
+      },
+      "Progression of non-small cell lung cancer",
+      "0.000462503966510378",
+      "0.00468792488293922"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015738&label=Disease",
+        "title": "HBDIS015738"
+      },
+      "Bulbo-Spinal Atrophy, X-Linked",
+      "0.000622949597623769",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016564&label=Disease",
+        "title": "HBDIS016564"
+      },
+      "Resistance to Insulin-Like Growth Factor I",
+      "0.000117756049683215",
+      "0.0017559988128607"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016834&label=Disease",
+        "title": "HBDIS016834"
+      },
+      "ECTRODACTYLY, ECTODERMAL DYSPLASIA, AND CLEFT LIP/PALATE SYNDROME 1",
+      "0.00061071103033071",
+      "0.00564327143841128"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017323&label=Disease",
+        "title": "HBDIS017323"
+      },
+      "FRIEDREICH ATAXIA 1",
+      "0.000673097554285243",
+      "0.00599017337415093"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018380&label=Disease",
+        "title": "HBDIS018380"
+      },
+      "Pterygium Of Conjunctiva And Cornea",
+      "0.0011928337846224",
+      "0.00858117206758542"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018490&label=Disease",
+        "title": "HBDIS018490"
+      },
+      "End stage cardiac failure",
+      "0.000282482741181503",
+      "0.00331481476512999"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018922&label=Disease",
+        "title": "HBDIS018922"
+      },
+      "Influenza A",
+      "0.000349473022255681",
+      "0.00383562897604842"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019164&label=Disease",
+        "title": "HBDIS019164"
+      },
+      "Chronic thromboembolic pulmonary hypertension",
+      "0.000212475374051532",
+      "0.00270167788475528"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019427&label=Disease",
+        "title": "HBDIS019427"
+      },
+      "Hepatoblastoma Caused By Somatic Mutation",
+      "0.000528389895710865",
+      "0.00510330832073014"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019671&label=Disease",
+        "title": "HBDIS019671"
+      },
+      "Steroid Sulfatase Deficiency Disease",
+      "1.64463757798876e-05",
+      "0.000396299689030451"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020428&label=Disease",
+        "title": "HBDIS020428"
+      },
+      "Mechanical Allodynia",
+      "0.000171374332928861",
+      "0.00230239413597691"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020492&label=Disease",
+        "title": "HBDIS020492"
+      },
+      "Limb ischemia",
+      "0.00131408430497574",
+      "0.00913528725152257"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020570&label=Disease",
+        "title": "HBDIS020570"
+      },
+      "Stage III Colorectal Cancer AJCC v7",
+      "7.41700996281081e-05",
+      "0.00125201337472843"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021005&label=Disease",
+        "title": "HBDIS021005"
+      },
+      "Botryoid odontogenic cyst",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021411&label=Disease",
+        "title": "HBDIS021411"
+      },
+      "FANCONI ANEMIA, COMPLEMENTATION GROUP A (disorder)",
+      "0.000119273897558507",
+      "0.00177306121214519"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021951&label=Disease",
+        "title": "HBDIS021951"
+      },
+      "intracranial glioma",
+      "0.000462503966510378",
+      "0.00468792488293922"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022091&label=Disease",
+        "title": "HBDIS022091"
+      },
+      "Infection",
+      "0.000398158387431257",
+      "0.00419533532243324"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022633&label=Disease",
+        "title": "HBDIS022633"
+      },
+      "Pre-renal acute kidney injury",
+      "0.000227180910856313",
+      "0.00284115296944695"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022678&label=Disease",
+        "title": "HBDIS022678"
+      },
+      "Peripheral neuropathy due to and following chemotherapy",
+      "0.000258052669789376",
+      "0.00309450172646423"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022919&label=Disease",
+        "title": "HBDIS022919"
+      },
+      "Non-Metastatic Childhood Soft Tissue Sarcoma",
+      "0.00102958317329278",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025310&label=Disease",
+        "title": "HBDIS025310"
+      },
+      "cervical cancer",
+      "0.000409859181568175",
+      "0.00428954057637089"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026832&label=Disease",
+        "title": "HBDIS026832"
+      },
+      "Pterygium of eye",
+      "0.0011928337846224",
+      "0.00858117206758542"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026891&label=Disease",
+        "title": "HBDIS026891"
+      },
+      "Chronic rhinosinusitis with nasal polyps",
+      "0.00126141803762272",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026981&label=Disease",
+        "title": "HBDIS026981"
+      },
+      "Fatty Liver Disease",
+      "0.00113364316409815",
+      "0.00835312433206194"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027282&label=Disease",
+        "title": "HBDIS027282"
+      },
+      "Adrenal Gland Pheochromocytoma",
+      "0.000188837977359445",
+      "0.00247541130972041"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027404&label=Disease",
+        "title": "HBDIS027404"
+      },
+      "Reoviral infection",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027792&label=Disease",
+        "title": "HBDIS027792"
+      },
+      "Postoperative cognitive dysfunction",
+      "0.000420984075085317",
+      "0.00437585334217057"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007889&label=Disease",
+        "title": "HBDIS007889"
+      },
+      "Eosinophilic esophagitis",
+      "0.00131408430497574",
+      "0.00913528725152257"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017720&label=Disease",
+        "title": "HBDIS017720"
+      },
+      "2-AMINOADIPIC 2-OXOADIPIC ACIDURIA",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019724&label=Disease",
+        "title": "HBDIS019724"
+      },
+      "Alpha ketoadipic aciduria",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021847&label=Disease",
+        "title": "HBDIS021847"
+      },
+      "CHARCOT-MARIE-TOOTH DISEASE, AXONAL, TYPE 2Q",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027044&label=Disease",
+        "title": "HBDIS027044"
+      },
+      "Alpha-aminoadipic aciduria",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000260&label=Disease",
+        "title": "HBDIS000260"
+      },
+      "Asphyxia",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000457&label=Disease",
+        "title": "HBDIS000457"
+      },
+      "Mucinous Adenocarcinoma",
+      "0.00107732463509142",
+      "0.00812093940214385"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000475&label=Disease",
+        "title": "HBDIS000475"
+      },
+      "Carotid Stenosis",
+      "0.000738463941067597",
+      "0.00635716423473482"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000656&label=Disease",
+        "title": "HBDIS000656"
+      },
+      "Contracture of joint",
+      "6.58390451293868e-05",
+      "0.00114632159708417"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000672&label=Disease",
+        "title": "HBDIS000672"
+      },
+      "Coronary Vessel Anomalies",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000711&label=Disease",
+        "title": "HBDIS000711"
+      },
+      "Phyllodes Tumor",
+      "0.000391108942938643",
+      "0.00416687266935112"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001285&label=Disease",
+        "title": "HBDIS001285"
+      },
+      "hemangiopericytoma",
+      "5.06583465784341e-05",
+      "0.000940629205680345"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001376&label=Disease",
+        "title": "HBDIS001376"
+      },
+      "Von Hippel-Lindau Syndrome",
+      "0.00131408430497574",
+      "0.00913528725152257"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001836&label=Disease",
+        "title": "HBDIS001836"
+      },
+      "Malaria, Cerebral",
+      "0.000937280984188005",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001890&label=Disease",
+        "title": "HBDIS001890"
+      },
+      "Melanoma, Experimental",
+      "2.62358351692729e-05",
+      "0.000568464459370495"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002347&label=Disease",
+        "title": "HBDIS002347"
+      },
+      "Periapical Periodontitis",
+      "0.000400946747718928",
+      "0.00421569408736071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002436&label=Disease",
+        "title": "HBDIS002436"
+      },
+      "Polycythemia",
+      "0.000282482741181503",
+      "0.00331481476512999"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002767&label=Disease",
+        "title": "HBDIS002767"
+      },
+      "Skin Diseases, Infectious",
+      "0.000234716352930302",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003240&label=Disease",
+        "title": "HBDIS003240"
+      },
+      "Peripheral Vascular Diseases",
+      "0.00114262568666453",
+      "0.00839955097486763"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003515&label=Disease",
+        "title": "HBDIS003515"
+      },
+      "Obstructive nephropathy",
+      "0.000400946747718928",
+      "0.00421569408736071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003522&label=Disease",
+        "title": "HBDIS003522"
+      },
+      "Adenocarcinoma of rectum",
+      "0.00036231966514326",
+      "0.00393703673883121"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003547&label=Disease",
+        "title": "HBDIS003547"
+      },
+      "Renal abscess",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003685&label=Disease",
+        "title": "HBDIS003685"
+      },
+      "Idiopathic pulmonary hypertension",
+      "0.00117598050441028",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004045&label=Disease",
+        "title": "HBDIS004045"
+      },
+      "Cervical spondylosis with myelopathy",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004163&label=Disease",
+        "title": "HBDIS004163"
+      },
+      "Dermatitis, Phototoxic",
+      "0.000325625795347236",
+      "0.00363760005380795"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004416&label=Disease",
+        "title": "HBDIS004416"
+      },
+      "Adenocarcinoma, Clear Cell",
+      "0.00055131163165201",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004432&label=Disease",
+        "title": "HBDIS004432"
+      },
+      "Klatskin Tumor",
+      "9.71543365771676e-05",
+      "0.00152185627415215"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004460&label=Disease",
+        "title": "HBDIS004460"
+      },
+      "Hemangioblastoma",
+      "0.00024237349921496",
+      "0.00295307678714465"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004561&label=Disease",
+        "title": "HBDIS004561"
+      },
+      "Familial generalized lipodystrophy",
+      "9.71543365771676e-05",
+      "0.00152185627415215"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004968&label=Disease",
+        "title": "HBDIS004968"
+      },
+      "Retinal damage",
+      "4.38096481812327e-05",
+      "0.000841804175279702"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005016&label=Disease",
+        "title": "HBDIS005016"
+      },
+      "Disease Exacerbation",
+      "0.00114262568666453",
+      "0.00839955097486763"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005025&label=Disease",
+        "title": "HBDIS005025"
+      },
+      "Zinc deficiency",
+      "0.000381391788632489",
+      "0.00409354989089308"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005141&label=Disease",
+        "title": "HBDIS005141"
+      },
+      "Hemangioma of liver",
+      "4.50612988243684e-06",
+      "0.000142839996910087"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005146&label=Disease",
+        "title": "HBDIS005146"
+      },
+      "Acute mountain sickness",
+      "2.13702369486426e-05",
+      "0.000485297710700961"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005270&label=Disease",
+        "title": "HBDIS005270"
+      },
+      "Iron deficiency",
+      "0.00129641203778692",
+      "0.00903813706283841"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005627&label=Disease",
+        "title": "HBDIS005627"
+      },
+      "Rotator cuff syndrome",
+      "0.000117756049683215",
+      "0.0017559988128607"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005883&label=Disease",
+        "title": "HBDIS005883"
+      },
+      "Acyanotic congenital heart disease",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006028&label=Disease",
+        "title": "HBDIS006028"
+      },
+      "Persistent Hyperplastic Primary Vitreous",
+      "4.7172143866557e-05",
+      "0.000890056205067673"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006945&label=Disease",
+        "title": "HBDIS006945"
+      },
+      "Carcinoma breast stage IV",
+      "0.000448186971188494",
+      "0.00458384639873682"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007057&label=Disease",
+        "title": "HBDIS007057"
+      },
+      "Childhood Solid Neoplasm",
+      "0.00114262568666453",
+      "0.00839955097486763"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007150&label=Disease",
+        "title": "HBDIS007150"
+      },
+      "Adult Solid Neoplasm",
+      "0.00104537932359693",
+      "0.00793848796527011"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007189&label=Disease",
+        "title": "HBDIS007189"
+      },
+      "Adult Anaplastic Astrocytoma",
+      "0.000391108942938643",
+      "0.00416687266935112"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007306&label=Disease",
+        "title": "HBDIS007306"
+      },
+      "MYELOMA, ENDOTHELIAL",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007608&label=Disease",
+        "title": "HBDIS007608"
+      },
+      "Giant Cell Glioblastoma",
+      "0.000410905144565695",
+      "0.00429684772380447"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007844&label=Disease",
+        "title": "HBDIS007844"
+      },
+      "High altitude pulmonary hypertension",
+      "1.25249591895008e-06",
+      "5.06369021135103e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007958&label=Disease",
+        "title": "HBDIS007958"
+      },
+      "Eye disorder due to diabetes mellitus",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008398&label=Disease",
+        "title": "HBDIS008398"
+      },
+      "Secondary malignant neoplasm of peritoneum",
+      "0.000140321963046067",
+      "0.00200027859510033"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008512&label=Disease",
+        "title": "HBDIS008512"
+      },
+      "Trichoepithelioma",
+      "3.15979189724423e-05",
+      "0.00065622344413675"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010747&label=Disease",
+        "title": "HBDIS010747"
+      },
+      "Diabetic macular edema",
+      "0.000308004984796881",
+      "0.00353637970516871"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011053&label=Disease",
+        "title": "HBDIS011053"
+      },
+      "toe necrosis",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011140&label=Disease",
+        "title": "HBDIS011140"
+      },
+      "Cockayne Syndrome, Type II",
+      "3.74560145154383e-05",
+      "0.000746640628028293"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011153&label=Disease",
+        "title": "HBDIS011153"
+      },
+      "Cancer of Digestive System",
+      "0.000152340316838922",
+      "0.00212936198421473"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011420&label=Disease",
+        "title": "HBDIS011420"
+      },
+      "Multiple Hemangioblastomas",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012353&label=Disease",
+        "title": "HBDIS012353"
+      },
+      "Stromal Neoplasm",
+      "0.000325625795347236",
+      "0.00363760005380795"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012933&label=Disease",
+        "title": "HBDIS012933"
+      },
+      "Orthokeratinized odontogenic cyst",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013484&label=Disease",
+        "title": "HBDIS013484"
+      },
+      "Staphylococcus aureus infection",
+      "0.000112421330322951",
+      "0.00169724283401568"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013878&label=Disease",
+        "title": "HBDIS013878"
+      },
+      "Non-Hereditary Clear Cell Renal Cell Carcinoma",
+      "1.31303937545578e-05",
+      "0.000332199326614085"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013968&label=Disease",
+        "title": "HBDIS013968"
+      },
+      "Papillary renal cell carcinoma, sporadic",
+      "1.70015983789961e-05",
+      "0.000406944782760809"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014348&label=Disease",
+        "title": "HBDIS014348"
+      },
+      "Angiogenic Switch",
+      "0.000410905144565695",
+      "0.00429684772380447"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014421&label=Disease",
+        "title": "HBDIS014421"
+      },
+      "Tumor Expansion",
+      "8.75912339497551e-05",
+      "0.00140746062921055"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014423&label=Disease",
+        "title": "HBDIS014423"
+      },
+      "Tumor Promotion",
+      "0.0012788565961694",
+      "0.00894143455944132"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014531&label=Disease",
+        "title": "HBDIS014531"
+      },
+      "cancer angiogenesis",
+      "8.299432754808e-05",
+      "0.0013514082863086"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014804&label=Disease",
+        "title": "HBDIS014804"
+      },
+      "Hereditary Leiomyomatosis and Renal Cell Cancer",
+      "0.000171285769713335",
+      "0.00230163873697357"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016918&label=Disease",
+        "title": "HBDIS016918"
+      },
+      "Recurrent skin infections",
+      "0.000371795343222132",
+      "0.00401387706924814"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017519&label=Disease",
+        "title": "HBDIS017519"
+      },
+      "CRANIOSYNOSTOSIS, TYPE 2",
+      "1.31303937545578e-05",
+      "0.000332199326614085"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017764&label=Disease",
+        "title": "HBDIS017764"
+      },
+      "ABLEPHARON-MACROSTOMIA SYNDROME",
+      "6.18586055571027e-05",
+      "0.00109351050955011"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018611&label=Disease",
+        "title": "HBDIS018611"
+      },
+      "Epidermal growth factor receptor negative non-small cell lung cancer",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019233&label=Disease",
+        "title": "HBDIS019233"
+      },
+      "Extramedullary Hematopoiesis (disorder)",
+      "0.000123213531541936",
+      "0.0018179289216231"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021662&label=Disease",
+        "title": "HBDIS021662"
+      },
+      "Ovarian clear cell carcinoma",
+      "0.000420984075085317",
+      "0.00437585334217057"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025292&label=Disease",
+        "title": "HBDIS025292"
+      },
+      "Altitude Hypoxia",
+      "6.88218464738928e-06",
+      "0.000200144187341034"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025293&label=Disease",
+        "title": "HBDIS025293"
+      },
+      "Perihilar Cholangiocarcinoma",
+      "7.85205964322153e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025604&label=Disease",
+        "title": "HBDIS025604"
+      },
+      "Peritoneal dissemination",
+      "0.00109347368090652",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026906&label=Disease",
+        "title": "HBDIS026906"
+      },
+      "Hamster Melanoma",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027228&label=Disease",
+        "title": "HBDIS027228"
+      },
+      "Grade III Childhood Astrocytoma",
+      "0.000391108942938643",
+      "0.00416687266935112"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027430&label=Disease",
+        "title": "HBDIS027430"
+      },
+      "Temporomandibular joint osteoarthritis",
+      "5.42681971781881e-05",
+      "0.000989229533093977"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027835&label=Disease",
+        "title": "HBDIS027835"
+      },
+      "Blood Vessel Tumors",
+      "1.31303937545578e-05",
+      "0.000332199326614085"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027858&label=Disease",
+        "title": "HBDIS027858"
+      },
+      "metastatic intraocular melanoma",
+      "0.000123213531541936",
+      "0.0018179289216231"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS028144&label=Disease",
+        "title": "HBDIS028144"
+      },
+      "Chuvash erythrocytosis",
+      "1.13814774504853e-05",
+      "0.000297409794131695"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009721&label=Disease",
+        "title": "HBDIS009721"
+      },
+      "Disorder of psychological development",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023190&label=Disease",
+        "title": "HBDIS023190"
+      },
+      "DNA TOPOISOMERASE I, CAMPTOTHECIN-RESISTANT",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000517&label=Target",
+        "title": "HBTAR000517"
+      },
+      "CASP3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/5709/",
+          "title": "TCMID:5709"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001810&label=Target",
+        "title": "HBTAR001810"
+      },
+      "HIF1A",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/10870/",
+          "title": "TCMID:10870"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004153&label=Target",
+        "title": "HBTAR004153"
+      },
+      "TOP1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/225/",
+          "title": "TCMID:225"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR01293"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007269&label=Target",
+        "title": "HBTAR007269"
+      },
+      "SETD2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9021/",
+          "title": "TCMID:9021"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN048362",
+      "WLN: T5OJ BVO1",
+      "methyl furan-2-carboxylate; 2-(Methoxycarbonyl)furan; ZINC00388192; 2-Furancarboxylic acid, methyl ester; 5-18-06-00103 (Beilstein Handbook Reference); W270318_ALDRICH; Methyl furoate; 129852_ALDRICH; 611-13-2; 2-Furoic acid methyl ester; Methyl 2-furoate; 2-furancarboxylic acid methyl ester; FEMA No. 2703; AI3-23585; 48050_FLUKA; 2-Furoic acid, methyl ester; NSC 35551; BRN 0111110; Pyromucic acid methyl ester; CCRIS 2158; EINECS 210-254-6; Furoic acid, methyl ester; Methyl 2-furylcarboxylate; furan-2-carboxylic acid methyl ester; AIDS018154; Methyl pyromucate; NSC35551; AIDS-018154; Methyl 2-furancarboxylate",
+      "C6H6O3",
+      "COC(=O)C1=CC=CO1",
+      "126.11",
+      "49.40603481",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "611-13-2"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT04464",
+        "title": "SMIT04464"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL002167"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/11902",
+        "title": "11902"
+      }
+    ]
+  ]
+}

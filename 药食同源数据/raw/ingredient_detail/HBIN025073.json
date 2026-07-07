@@ -1,0 +1,709 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000472&label=Herb",
+        "title": "HERB000472"
+      },
+      "BIAN XU",
+      "萹蓄",
+      "all-grass of common knotgrass",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Polygoni Avicularis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000638&label=Herb",
+        "title": "HERB000638"
+      },
+      "CHAI HU",
+      "柴胡",
+      "root of Chinese Thorowax",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Bupleuri"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000881&label=Herb",
+        "title": "HERB000881"
+      },
+      "CHUAN WU",
+      "川乌",
+      "root of Common Monkshood",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Aconiti"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001211&label=Herb",
+        "title": "HERB001211"
+      },
+      "DANG SHEN",
+      "党参",
+      "root Pilose Asiabell",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Codonopsis pilosulae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004042&label=Herb",
+        "title": "HERB004042"
+      },
+      "MU JING ZI",
+      "牡荆子",
+      "Viticis Canbifoliae Fructus",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004783&label=Herb",
+        "title": "HERB004783"
+      },
+      "SAN QI",
+      "三七",
+      "Sanchi",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Notoginseng"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004834&label=Herb",
+        "title": "HERB004834"
+      },
+      "SANG YE",
+      "桑叶",
+      "Mulberry Leaf",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Folium Mori"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005900&label=Herb",
+        "title": "HERB005900"
+      },
+      "XI YANG SHEN",
+      "西洋参",
+      "American Ginseng",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Pacis quinquefolii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006006&label=Herb",
+        "title": "HERB006006"
+      },
+      "XIAN ZE LAN",
+      "线泽兰",
+      "Glandulous Eupatorium",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Eupatorium glandulosum"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "CHEMBL451983; CHEBI:4789; NSC603929; C09005; 1-(7-Methoxy-2,2-dimethyl-2H-1-benzopyran-6-yl)ethanone; Ketone, 7-methoxy-2,2-dimethyl-2H-1-benzopyran-6-yl methyl; 20628-09-5; encecalin; 4CN-1599; SCHEMBL4310132; WXVLCNREBFDEKS-UHFFFAOYSA-N; AKOS032948499; NSC-603929; 1-(7-methoxy-2,2-dimethyl-2h-chromen-6-yl)ethanone; ZINC897924; Isolated from Asteraceae plants; Encecaline; NSC 603929; 1-(7-methoxy-2,2-dimethyl-chromen-6-yl)ethanone; ACon1_002222; 1-(7-methoxy-2,2-dimethylchromen-6-yl)ethanone; Encecalin (methyleupatoriochromene); Ethanone,1-(7-methoxy-2,2-dimethyl-2H-1-benzopyran-6-yl)-; W1949; AC1Q5GA2; 6-acetyl-7-methoxy-2,2-dimethylchromene; 1-(7-methoxy-2,2-dimethyl-6-chromenyl)ethanone; MolPort-001-742-371; AC1L3FTK; CTK8D7503; MEGxp0_001567; NP-009521; MCULE-1012949526"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026227&label=Disease",
+        "title": "HBDIS026227"
+      },
+      "AMELOGENESIS IMPERFECTA, TYPE IJ",
+      "0.000474908975779642",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020102&label=Disease",
+        "title": "HBDIS020102"
+      },
+      "Neurogenic bladder dysfunction",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013928&label=Disease",
+        "title": "HBDIS013928"
+      },
+      "Prostate Lymphoma",
+      "0.000949629987902281",
+      "0.00741290816385172"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002814&label=Target",
+        "title": "HBTAR002814"
+      },
+      "OPRM1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00299"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003763&label=Target",
+        "title": "HBTAR003763"
+      },
+      "SLC6A4",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00290"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000699&label=Target",
+        "title": "HBTAR000699"
+      },
+      "CHRM1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00038"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000703&label=Target",
+        "title": "HBTAR000703"
+      },
+      "CHRM4",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00154"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001096&label=Target",
+        "title": "HBTAR001096"
+      },
+      "DPP4",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00332"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003629&label=Target",
+        "title": "HBTAR003629"
+      },
+      "SCN5A",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00070"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002737&label=Target",
+        "title": "HBTAR002737"
+      },
+      "NOS2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00003"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003583&label=Target",
+        "title": "HBTAR003583"
+      },
+      "RXRA",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00158"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000549&label=Target",
+        "title": "HBTAR000549"
+      },
+      "CCNA2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR03025"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003295&label=Target",
+        "title": "HBTAR003295"
+      },
+      "PTGS2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00094"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000099&label=Target",
+        "title": "HBTAR000099"
+      },
+      "ADRB2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00261"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001277&label=Target",
+        "title": "HBTAR001277"
+      },
+      "ESR1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00046"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003294&label=Target",
+        "title": "HBTAR003294"
+      },
+      "PTGS1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00006"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000702&label=Target",
+        "title": "HBTAR000702"
+      },
+      "CHRM3",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00016"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000092&label=Target",
+        "title": "HBTAR000092"
+      },
+      "ADRA1D",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00191"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000233&label=Target",
+        "title": "HBTAR000233"
+      },
+      "AR",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00048"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001094&label=Target",
+        "title": "HBTAR001094"
+      },
+      "DPEP1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00499"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000093&label=Target",
+        "title": "HBTAR000093"
+      },
+      "ADRA1B",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00216"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000095&label=Target",
+        "title": "HBTAR000095"
+      },
+      "ADRA2A",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00105"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001105&label=Target",
+        "title": "HBTAR001105"
+      },
+      "DRD1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00007"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000634&label=Target",
+        "title": "HBTAR000634"
+      },
+      "CDK2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00482"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000710&label=Target",
+        "title": "HBTAR000710"
+      },
+      "CHRNA7",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00581"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002900&label=Target",
+        "title": "HBTAR002900"
+      },
+      "PDE3A",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00172"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003761&label=Target",
+        "title": "HBTAR003761"
+      },
+      "SLC6A2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00186"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003762&label=Target",
+        "title": "HBTAR003762"
+      },
+      "SLC6A3",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00239"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000096&label=Target",
+        "title": "HBTAR000096"
+      },
+      "ADRA2B",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00214"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000704&label=Target",
+        "title": "HBTAR000704"
+      },
+      "CHRM5",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00087"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003005&label=Target",
+        "title": "HBTAR003005"
+      },
+      "PIM1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02966"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000700&label=Target",
+        "title": "HBTAR000700"
+      },
+      "CHRM2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00210"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001471&label=Target",
+        "title": "HBTAR001471"
+      },
+      "GABRA1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00309"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001679&label=Target",
+        "title": "HBTAR001679"
+      },
+      "GRIA2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR03216"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000460&label=Target",
+        "title": "HBTAR000460"
+      },
+      "CA2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00117"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN025073",
+      "Encecalin",
+      "CHEMBL451983; CHEBI:4789; NSC603929; C09005; 1-(7-Methoxy-2,2-dimethyl-2H-1-benzopyran-6-yl)ethanone; Ketone, 7-methoxy-2,2-dimethyl-2H-1-benzopyran-6-yl methyl; 20628-09-5; encecalin; 4CN-1599; SCHEMBL4310132; WXVLCNREBFDEKS-UHFFFAOYSA-N; AKOS032948499; NSC-603929; 1-(7-methoxy-2,2-dimethyl-2h-chromen-6-yl)ethanone; ZINC897924; Isolated from Asteraceae plants; Encecaline; NSC 603929; 1-(7-methoxy-2,2-dimethyl-chromen-6-yl)ethanone; ACon1_002222; 1-(7-methoxy-2,2-dimethylchromen-6-yl)ethanone; Encecalin (methyleupatoriochromene); Ethanone,1-(7-methoxy-2,2-dimethyl-2H-1-benzopyran-6-yl)-; W1949; AC1Q5GA2; 6-acetyl-7-methoxy-2,2-dimethylchromene; 1-(7-methoxy-2,2-dimethyl-6-chromenyl)ethanone; MolPort-001-742-371; AC1L3FTK; CTK8D7503; MEGxp0_001567; NP-009521; MCULE-1012949526",
+      "C14H16O3",
+      "CC(=O)C1=C(C=C2C(=C1)C=CC(O2)(C)C)OC",
+      "232.27",
+      "21.35551258",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "20628-09-5"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT06511",
+        "title": "SMIT06511"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/6795/",
+        "title": "6795"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL004623"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "22525"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/114703",
+        "title": "114703"
+      }
+    ]
+  ]
+}

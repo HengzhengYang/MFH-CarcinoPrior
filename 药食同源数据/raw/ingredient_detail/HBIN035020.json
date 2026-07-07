@@ -1,0 +1,174 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002938&label=Herb",
+        "title": "HERB002938"
+      },
+      "JIN QIAN KU YE CAO",
+      "金钱苦叶草",
+      "Goldsaxifrage Herb",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Chrysosplenium grayanum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004242&label=Herb",
+        "title": "HERB004242"
+      },
+      "NV ZHEN ZI",
+      "女贞子",
+      "fruit of Glossy privet",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Ligustri lucidi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005017&label=Herb",
+        "title": "HERB005017"
+      },
+      "SHENG JIANG",
+      "生姜",
+      "Fresh Ginger",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Zingiberis Recens"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005628&label=Herb",
+        "title": "HERB005628"
+      },
+      "WAN SHOU JU",
+      "万寿菊",
+      "Aztec Marigold",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Tagetes erecta"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "3,5-Dihydroxy-4-methoxybenzoic acid methyl ester; Benzoic acid, 3,5-dihydroxy-4-methoxy-, methyl ester; AC1NSYID; FCH837428; FT-0699716; ZINC14775842; SCHEMBL2728130; Methyl-4-O-methylgallate; ACM24093810; CHEMBL491990; AKOS006283782; CTK0J5233; DTXSID20415758; MFCD00017195; 24093-81-0; AK550949; M2794; methyl 3,5-dihydroxy-4-methoxybenzoate; Benzoic acid,3,5-dihydroxy-4-methoxy,methyl ester"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN035020",
+      "methyl-4-o-methylgallate",
+      "3,5-Dihydroxy-4-methoxybenzoic acid methyl ester; Benzoic acid, 3,5-dihydroxy-4-methoxy-, methyl ester; AC1NSYID; FCH837428; FT-0699716; ZINC14775842; SCHEMBL2728130; Methyl-4-O-methylgallate; ACM24093810; CHEMBL491990; AKOS006283782; CTK0J5233; DTXSID20415758; MFCD00017195; 24093-81-0; AK550949; M2794; methyl 3,5-dihydroxy-4-methoxybenzoate; Benzoic acid,3,5-dihydroxy-4-methoxy,methyl ester",
+      "C9H10O5",
+      "COC1=C(C=C(C=C1O)C(=O)OC)O",
+      "198.17",
+      {
+        "link": "https://www.symmap.org/detail/SMIT16676",
+        "title": "SMIT16676"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/14594/",
+        "title": "14594"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/5319726",
+        "title": "5319726"
+      }
+    ]
+  ]
+}

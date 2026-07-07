@@ -1,0 +1,189 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004971&label=Herb",
+        "title": "HERB004971"
+      },
+      "SHE CHUANG ZI",
+      "蛇床子",
+      "Common Cnidium Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Cnidii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005788&label=Herb",
+        "title": "HERB005788"
+      },
+      "XI AO TANG SONG CAO",
+      "NA",
+      "Low Meadowrue",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Thalictrum minus"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006191&label=Herb",
+        "title": "HERB006191"
+      },
+      "XIE BAI",
+      "薤白",
+      "bulb of longstamen onion",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Bulbus Allii Macrostemi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006351&label=Herb",
+        "title": "HERB006351"
+      },
+      "YAN GUO CAO",
+      "烟锅草",
+      "East-Asia Low Meadowrue",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Thalictrum thunbergii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006805&label=Herb",
+        "title": "HERB006805"
+      },
+      "YUE GUI XIAO BO",
+      "月桂小波",
+      "Laurel-like Barberry",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Berberis laurina"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "Thalicberine, O-methyl-; Thalmidine; CHEBI:38; (+)-O-Methylthalicberine; O-Methylthalicberine; ZINC30726936; 6,7,7',12-Tetramethoxy-2,2'-dimethylthalicberan; (3s,21s)-10,14,15,26-tetramethoxy-4,20-dimethyl-12,28-dioxa-4,20-diazaheptacyclo[27.2.2.17,11.113,17.123,27.03,8.021,35]hexatriaconta-1(31),7(36),8,10,13(35),14,16,23(34),24,26,29,32-dodecaene(non-preferred name); AC1Q58EL; Thalicberan, 6,7,7',12-tetramethoxy-2,2'-dimethyl-; THALICBERINE, O-METHYL; AC1L2OCG; LS-149267; 25161-55-1; 5096-71-9; C09590; NSC 269189; 1361-58-6; Thalicberan, 6,7,7',12-tetramethoxy-2,2'-dimethyl- (9CI)"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN038127",
+      "(+)-o-methylthalicberine",
+      "Thalicberine, O-methyl-; Thalmidine; CHEBI:38; (+)-O-Methylthalicberine; O-Methylthalicberine; ZINC30726936; 6,7,7',12-Tetramethoxy-2,2'-dimethylthalicberan; (3s,21s)-10,14,15,26-tetramethoxy-4,20-dimethyl-12,28-dioxa-4,20-diazaheptacyclo[27.2.2.17,11.113,17.123,27.03,8.021,35]hexatriaconta-1(31),7(36),8,10,13(35),14,16,23(34),24,26,29,32-dodecaene(non-preferred name); AC1Q58EL; Thalicberan, 6,7,7',12-tetramethoxy-2,2'-dimethyl-; THALICBERINE, O-METHYL; AC1L2OCG; LS-149267; 25161-55-1; 5096-71-9; C09590; NSC 269189; 1361-58-6; Thalicberan, 6,7,7',12-tetramethoxy-2,2'-dimethyl- (9CI)",
+      "C38H42N2O6",
+      "CN1CCC2=CC3=C(C=C2C1CC4=CC=C(C=C4)OC5=C(C=CC(=C5)CC6C7=C(O3)C(=C(C=C7CCN6C)OC)OC)OC)OC",
+      "622.7",
+      {
+        "link": "https://www.symmap.org/detail/SMIT16721",
+        "title": "SMIT16721"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/14748/",
+        "title": "14748"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/100230",
+        "title": "100230"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,974 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001915&label=Herb",
+        "title": "HERB001915"
+      },
+      "GOU QI ZI",
+      "枸杞子",
+      "fruit of Chinese Wolfberry",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Lycii"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NA"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000028&label=Disease",
+        "title": "HBDIS000028"
+      },
+      "Acidosis, Respiratory",
+      "0.00102896944752256",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000276&label=Disease",
+        "title": "HBDIS000276"
+      },
+      "Atrial Flutter",
+      "0.000712363463669464",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000362&label=Disease",
+        "title": "HBDIS000362"
+      },
+      "Body Temperature Changes",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000412&label=Disease",
+        "title": "HBDIS000412"
+      },
+      "Bundle-Branch Block",
+      "0.000712363463669464",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001266&label=Disease",
+        "title": "HBDIS001266"
+      },
+      "Heart Function Tests",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001589&label=Disease",
+        "title": "HBDIS001589"
+      },
+      "Jervell-Lange Nielsen Syndrome",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001665&label=Disease",
+        "title": "HBDIS001665"
+      },
+      "Left Bundle-Branch Block",
+      "0.0015038784233022",
+      "0.00990856799135117"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002321&label=Disease",
+        "title": "HBDIS002321"
+      },
+      "Paroxysmal ventricular tachycardia",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002653&label=Disease",
+        "title": "HBDIS002653"
+      },
+      "Romano-Ward Syndrome",
+      "0.00118727243944911",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003093&label=Disease",
+        "title": "HBDIS003093"
+      },
+      "Vasovagal syncope",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003177&label=Disease",
+        "title": "HBDIS003177"
+      },
+      "Bradyarrhythmia (disorder)",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003321&label=Disease",
+        "title": "HBDIS003321"
+      },
+      "Sinus bradycardia",
+      "0.00110812094348583",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003324&label=Disease",
+        "title": "HBDIS003324"
+      },
+      "First degree atrioventricular block",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003974&label=Disease",
+        "title": "HBDIS003974"
+      },
+      "Trifascicular block",
+      "0.00118727243944911",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003975&label=Disease",
+        "title": "HBDIS003975"
+      },
+      "Other specified conduction disorders",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004567&label=Disease",
+        "title": "HBDIS004567"
+      },
+      "Bradycardia-tachycardia syndrome",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004731&label=Disease",
+        "title": "HBDIS004731"
+      },
+      "Ventricular escape rhythm",
+      "0.000474908975779642",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005716&label=Disease",
+        "title": "HBDIS005716"
+      },
+      "Nodal rhythm disorder",
+      "0.000712363463669464",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005718&label=Disease",
+        "title": "HBDIS005718"
+      },
+      "Left anterior fascicular block",
+      "0.000237454487889822",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005719&label=Disease",
+        "title": "HBDIS005719"
+      },
+      "Left posterior fascicular block",
+      "0.000237454487889822",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006174&label=Disease",
+        "title": "HBDIS006174"
+      },
+      "Keshan disease",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007829&label=Disease",
+        "title": "HBDIS007829"
+      },
+      "Premature Cardiac Complex",
+      "0.000237454487889822",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007832&label=Disease",
+        "title": "HBDIS007832"
+      },
+      "Induced ventricular tachycardia",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007834&label=Disease",
+        "title": "HBDIS007834"
+      },
+      "Familial sick sinus syndrome",
+      "0.000237454487889822",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007835&label=Disease",
+        "title": "HBDIS007835"
+      },
+      "Paroxysmal familial ventricular fibrillation",
+      "0.00102896944752256",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007869&label=Disease",
+        "title": "HBDIS007869"
+      },
+      "Neurally mediated syncope",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008207&label=Disease",
+        "title": "HBDIS008207"
+      },
+      "Ventricular tachycardia, polymorphic",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008438&label=Disease",
+        "title": "HBDIS008438"
+      },
+      "Other specified cardiac arrhythmias",
+      "0.000712363463669464",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009289&label=Disease",
+        "title": "HBDIS009289"
+      },
+      "Supraventricular arrhythmia",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009292&label=Disease",
+        "title": "HBDIS009292"
+      },
+      "P wave duration (observable entity)",
+      "0.000712363463669464",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009835&label=Disease",
+        "title": "HBDIS009835"
+      },
+      "ST segment elevation (finding)",
+      "0.00118727243944911",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009995&label=Disease",
+        "title": "HBDIS009995"
+      },
+      "Atrial standstill",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010096&label=Disease",
+        "title": "HBDIS010096"
+      },
+      "Atrial tachycardia",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010591&label=Disease",
+        "title": "HBDIS010591"
+      },
+      "Lenegre's disease",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010901&label=Disease",
+        "title": "HBDIS010901"
+      },
+      "Disorder characterized by fever",
+      "0.000712363463669464",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011015&label=Disease",
+        "title": "HBDIS011015"
+      },
+      "psychiatric hospitalization",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011034&label=Disease",
+        "title": "HBDIS011034"
+      },
+      "sick sinus",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011063&label=Disease",
+        "title": "HBDIS011063"
+      },
+      "Non-sustained ventricular tachycardia",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011349&label=Disease",
+        "title": "HBDIS011349"
+      },
+      "Syncopal Episode",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012012&label=Disease",
+        "title": "HBDIS012012"
+      },
+      "Electrocardiogram change",
+      "0.00110812094348583",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012609&label=Disease",
+        "title": "HBDIS012609"
+      },
+      "Near sudden infant death syndrome",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012715&label=Disease",
+        "title": "HBDIS012715"
+      },
+      "Congenital long QT syndrome",
+      "0.0015038784233022",
+      "0.00990856799135117"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014156&label=Disease",
+        "title": "HBDIS014156"
+      },
+      "Ectopic rhythm",
+      "0.000791514959632737",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014548&label=Disease",
+        "title": "HBDIS014548"
+      },
+      "Prolonged QTc interval",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014672&label=Disease",
+        "title": "HBDIS014672"
+      },
+      "Electrocardiography",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014767&label=Disease",
+        "title": "HBDIS014767"
+      },
+      "Disorder of electrolytes",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014924&label=Disease",
+        "title": "HBDIS014924"
+      },
+      "Brugada ECG Pattern",
+      "0.000237454487889822",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015012&label=Disease",
+        "title": "HBDIS015012"
+      },
+      "Non dystrophic myotonia",
+      "0.000237454487889822",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015106&label=Disease",
+        "title": "HBDIS015106"
+      },
+      "CARDIOMYOPATHY, DILATED, 1E",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015632&label=Disease",
+        "title": "HBDIS015632"
+      },
+      "SICK SINUS SYNDROME 1, AUTOSOMAL RECESSIVE",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015684&label=Disease",
+        "title": "HBDIS015684"
+      },
+      "LONG QT SYNDROME 3, ACQUIRED, SUSCEPTIBILITY TO (finding)",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015685&label=Disease",
+        "title": "HBDIS015685"
+      },
+      "CARDIOMYOPATHY, FAMILIAL, WITH CONDUCTION DISTURBANCE",
+      "0.000237454487889822",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015751&label=Disease",
+        "title": "HBDIS015751"
+      },
+      "Abnormal T-wave",
+      "0.00102896944752256",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016049&label=Disease",
+        "title": "HBDIS016049"
+      },
+      "ATRIAL FIBRILLATION, FAMILIAL, 1 (disorder)",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017533&label=Disease",
+        "title": "HBDIS017533"
+      },
+      "ARRHYTHMOGENIC RIGHT VENTRICULAR DYSPLASIA, FAMILIAL, 5 (disorder)",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017607&label=Disease",
+        "title": "HBDIS017607"
+      },
+      "LONG QT SYNDROME 3",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017920&label=Disease",
+        "title": "HBDIS017920"
+      },
+      "Heart Block, Nonprogressive",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017921&label=Disease",
+        "title": "HBDIS017921"
+      },
+      "Cardiac Conduction Defect, Nonprogressive",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018520&label=Disease",
+        "title": "HBDIS018520"
+      },
+      "Hereditary bundle branch system defect",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018642&label=Disease",
+        "title": "HBDIS018642"
+      },
+      "Sinus Bradycardia, CTCAE",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018644&label=Disease",
+        "title": "HBDIS018644"
+      },
+      "Prolonged QTc Interval, CTCAE",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018929&label=Disease",
+        "title": "HBDIS018929"
+      },
+      "Right ventricular cardiomyopathy",
+      "0.00102896944752256",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018947&label=Disease",
+        "title": "HBDIS018947"
+      },
+      "continuous electrocardiogram sinus bradycardia (finding)",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018953&label=Disease",
+        "title": "HBDIS018953"
+      },
+      "preterm contractions",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018979&label=Disease",
+        "title": "HBDIS018979"
+      },
+      "electrocardiogram - left anterior hemiblock",
+      "0.000237454487889822",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018980&label=Disease",
+        "title": "HBDIS018980"
+      },
+      "electrocardiogram left posterior hemiblock (finding)",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019169&label=Disease",
+        "title": "HBDIS019169"
+      },
+      "Prothrombin G20210A mutation",
+      "0.00142472692733892",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019568&label=Disease",
+        "title": "HBDIS019568"
+      },
+      "LONG QT SYNDROME 9 (disorder)",
+      "0.000237454487889822",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019700&label=Disease",
+        "title": "HBDIS019700"
+      },
+      "Sudden arrhythmic death syndrome",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019723&label=Disease",
+        "title": "HBDIS019723"
+      },
+      "Acquired long QT syndrome",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019767&label=Disease",
+        "title": "HBDIS019767"
+      },
+      "CARDIAC CONDUCTION DEFECT, NONSPECIFIC (disorder)",
+      "0.000791514959632737",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020146&label=Disease",
+        "title": "HBDIS020146"
+      },
+      "Sudden unexpected nocturnal death syndrome",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020292&label=Disease",
+        "title": "HBDIS020292"
+      },
+      "Long QT syndrome type 3",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020351&label=Disease",
+        "title": "HBDIS020351"
+      },
+      "Amelogenesis imperfecta nephrocalcinosis",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020690&label=Disease",
+        "title": "HBDIS020690"
+      },
+      "EARLY REPOLARIZATION ASSOCIATED WITH VENTRICULAR FIBRILLATION",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020722&label=Disease",
+        "title": "HBDIS020722"
+      },
+      "Long Qt Syndrome 2",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020827&label=Disease",
+        "title": "HBDIS020827"
+      },
+      "ATRIAL FIBRILLATION, FAMILIAL, 10",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020839&label=Disease",
+        "title": "HBDIS020839"
+      },
+      "Early severe fetal akinesia sequence",
+      "0.000870666455596011",
+      "0.00707658671810716"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021112&label=Disease",
+        "title": "HBDIS021112"
+      },
+      "LONG QT SYNDROME 2/3, DIGENIC",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021113&label=Disease",
+        "title": "HBDIS021113"
+      },
+      "LONG QT SYNDROME 3/6, DIGENIC Disorder",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022043&label=Disease",
+        "title": "HBDIS022043"
+      },
+      "Cardiac channelopathy",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022147&label=Disease",
+        "title": "HBDIS022147"
+      },
+      "AV Block First Degree by ECG Finding",
+      "0.00142472692733892",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022262&label=Disease",
+        "title": "HBDIS022262"
+      },
+      "Apneic episodes in infancy",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022462&label=Disease",
+        "title": "HBDIS022462"
+      },
+      "Sudden Unexplained Infant Death",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023307&label=Disease",
+        "title": "HBDIS023307"
+      },
+      "ATRIAL STANDSTILL 1, DIGENIC",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023465&label=Disease",
+        "title": "HBDIS023465"
+      },
+      "VENTRICULAR FIBRILLATION DURING MYOCARDIAL INFARCTION, SUSCEPTIBILITY TO",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024834&label=Disease",
+        "title": "HBDIS024834"
+      },
+      "Reduced systolic function",
+      "0.000474908975779642",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025184&label=Disease",
+        "title": "HBDIS025184"
+      },
+      "Abnormality of prenatal development or birth",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026550&label=Disease",
+        "title": "HBDIS026550"
+      },
+      "Complete heart block with broad QRS complexes",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026662&label=Disease",
+        "title": "HBDIS026662"
+      },
+      "Abnormal cardiac exercise stress test",
+      "0.000791514959632737",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027272&label=Disease",
+        "title": "HBDIS027272"
+      },
+      "Long QT Syndrome 1",
+      "0.00118727243944911",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027310&label=Disease",
+        "title": "HBDIS027310"
+      },
+      "Brugada Syndrome 1",
+      "0.000791514959632737",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027353&label=Disease",
+        "title": "HBDIS027353"
+      },
+      "ATRIAL STANDSTILL 1",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003629&label=Target",
+        "title": "HBTAR003629"
+      },
+      "SCN5A",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT03005",
+          "title": "SymMap:SMTT03005"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00070"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Molecule weight",
+      "OB score",
+      "SymMap id",
+      "TCMSP id"
+    ],
+    [
+      "HBIN040343",
+      "p-Nitrobenzoic acid octadecyl ester",
+      "419.67",
+      "4.68773443",
+      {
+        "link": "https://www.symmap.org/detail/SMIT10774",
+        "title": "SMIT10774"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL009683"
+      }
+    ]
+  ]
+}

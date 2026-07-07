@@ -1,0 +1,189 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000884&label=Herb",
+        "title": "HERB000884"
+      },
+      "CHUAN XIN LIAN",
+      "穿心莲",
+      "all-grass of Common Androgrphis",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba andrographitis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001244&label=Herb",
+        "title": "HERB001244"
+      },
+      "DI ER CAO",
+      "地耳草",
+      "all - grass of Japanese St. Johnswort",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Hyperici Japonici"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002247&label=Herb",
+        "title": "HERB002247"
+      },
+      "HENG LI DI ER CAO",
+      "横沥地耳草",
+      "Henry StJohn’swort",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Hypericum henryi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005485&label=Herb",
+        "title": "HERB005485"
+      },
+      "TIAN ZHU HUANG",
+      "天竺黄",
+      "Chinese schinzostachyum Tabasheer",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Concretio Silicea Bambusae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB007046&label=Herb",
+        "title": "HERB007046"
+      },
+      "ZHI ZI",
+      "栀子",
+      "fruit of Cape Jasmine",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Gardeniae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "1,5-dihydroxy-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyxanthen-9-one; 1,5-dihydroxyxanthone-6-o-beta-d-glucoside; 1,5-Dihydroxy-6-(beta-D-glucopyranosyloxy)xanthone; AC1NSUSA"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN001662",
+      "1,5-dihydroxyxanthone-6-o-β-d-glucoside",
+      "1,5-dihydroxy-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyxanthen-9-one; 1,5-dihydroxyxanthone-6-o-beta-d-glucoside; 1,5-Dihydroxy-6-(beta-D-glucopyranosyloxy)xanthone; AC1NSUSA",
+      "C19H18O10",
+      "C1=CC(=C2C(=C1)OC3=C(C2=O)C=CC(=C3O)OC4C(C(C(C(O4)CO)O)O)O)O",
+      "406.3",
+      {
+        "link": "https://www.symmap.org/detail/SMIT15140",
+        "title": "SMIT15140"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/25863/",
+        "title": "25863"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/5316845",
+        "title": "5316845"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,528 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001512&label=Herb",
+        "title": "HERB001512"
+      },
+      "DUO HUA XIAO BO",
+      "多花小波",
+      "Free-flowering Barberry",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Berberis floribunda"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001915&label=Herb",
+        "title": "HERB001915"
+      },
+      "GOU QI ZI",
+      "枸杞子",
+      "fruit of Chinese Wolfberry",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Lycii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001969&label=Herb",
+        "title": "HERB001969"
+      },
+      "GUAN HUANG BO",
+      "关黄柏",
+      "Phellodendri Amurensis Cortex",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002002&label=Herb",
+        "title": "HERB002002"
+      },
+      "GUANG HUO XIANG",
+      "广藿香",
+      "Pogostemon Cablin (Blanco) Benth.",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002540&label=Herb",
+        "title": "HERB002540"
+      },
+      "HUANG LIAN",
+      "黄连",
+      "rhizome of Chinese Goldthread",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Coptidis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002563&label=Herb",
+        "title": "HERB002563"
+      },
+      "HUANG QIN",
+      "黄芩",
+      "root of Baikal skullcap",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Scutellariae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004114&label=Herb",
+        "title": "HERB004114"
+      },
+      "NAN TIAN ZHU YE",
+      "南天竹叶",
+      "Common Nandina Leaf",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Nandina domestica"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004218&label=Herb",
+        "title": "HERB004218"
+      },
+      "NIU XI",
+      "牛膝",
+      "root of Twotooth Achyranthes",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Achyranthis bidentatae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004770&label=Herb",
+        "title": "HERB004770"
+      },
+      "SAN JIAO YE HUANG LIAN",
+      "三角叶黄连",
+      "Deltoid Goldthread",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Coptis deltoidea"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004809&label=Herb",
+        "title": "HERB004809"
+      },
+      "SAN YE HUANG LIAN",
+      "三叶黄连",
+      "Three-leaf Goldthread",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Coptis trifolia"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "SMR000232286; AK199153; BDBM50986; 16,17-DIMETHOXY-5,7-DIOXA-1??-AZAPENTACYCLO[11.8.0.0_,__.0?,?.0_?,_?]HENICOSA-1(13),2,4(8),9,11,14(19),15,17-OCTAEN-1-YLIUM; SC-81909; ZINC6017816; CTK5C8375; FT-0688286; Epiberberine; DTXSID90218854; 16,17-DIMETHOXY-5,7-DIOXA-1??-AZAPENTACYCLO[11.8.0.0(3),(1)(1).0?,?.0(1)?,(1)?]HENICOSA-1(13),2,4(8),9,11,14(19),15,17-OCTAEN-1-YLIUM; MolPort-039-052-346; HMS3358O04; AKOS025149077; GNF-Pf-2355; 8,9-Dimethoxy-11,12-dihydro-[1,3]dioxolo[4,5-h]isoquinolino[2,1-b]isoquinolin-13-ium; epiberberine ; NCGC00247623-01; CHEMBL1197637; N2453; HMS2229E04; 6873/9/2; MLS000563434; Benz(a)-1,3-benzodioxolo(4,5-g)quinolizinium, 11,12-dihydro-8,9-dimethoxy-; AC1L4ODP; HY-N0226; cid_160876; AC1Q701H"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR005869&label=Target",
+        "title": "HBTAR005869"
+      },
+      "NCOA2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR03276"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000549&label=Target",
+        "title": "HBTAR000549"
+      },
+      "CCNA2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR03025"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000031&label=Target",
+        "title": "HBTAR000031"
+      },
+      "ACHE",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00165"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001277&label=Target",
+        "title": "HBTAR001277"
+      },
+      "ESR1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00046"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003005&label=Target",
+        "title": "HBTAR003005"
+      },
+      "PIM1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02966"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003583&label=Target",
+        "title": "HBTAR003583"
+      },
+      "RXRA",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00158"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002192&label=Target",
+        "title": "HBTAR002192"
+      },
+      "KCNH2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00037"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000634&label=Target",
+        "title": "HBTAR000634"
+      },
+      "CDK2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00482"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003223&label=Target",
+        "title": "HBTAR003223"
+      },
+      "PRSS1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02928"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR006052&label=Target",
+        "title": "HBTAR006052"
+      },
+      "PDE10A",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR03868"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003112&label=Target",
+        "title": "HBTAR003112"
+      },
+      "PPARG",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00078"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001278&label=Target",
+        "title": "HBTAR001278"
+      },
+      "ESR2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00307"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000686&label=Target",
+        "title": "HBTAR000686"
+      },
+      "CHEK1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00647"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000874&label=Target",
+        "title": "HBTAR000874"
+      },
+      "MAPK14",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00402"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002737&label=Target",
+        "title": "HBTAR002737"
+      },
+      "NOS2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00003"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003295&label=Target",
+        "title": "HBTAR003295"
+      },
+      "PTGS2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00094"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000233&label=Target",
+        "title": "HBTAR000233"
+      },
+      "AR",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00048"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001710&label=Target",
+        "title": "HBTAR001710"
+      },
+      "GSK3B",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00422"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001096&label=Target",
+        "title": "HBTAR001096"
+      },
+      "DPP4",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00332"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN025268",
+      "epiberberine",
+      "SMR000232286; AK199153; BDBM50986; 16,17-DIMETHOXY-5,7-DIOXA-1??-AZAPENTACYCLO[11.8.0.0_,__.0?,?.0_?,_?]HENICOSA-1(13),2,4(8),9,11,14(19),15,17-OCTAEN-1-YLIUM; SC-81909; ZINC6017816; CTK5C8375; FT-0688286; Epiberberine; DTXSID90218854; 16,17-DIMETHOXY-5,7-DIOXA-1??-AZAPENTACYCLO[11.8.0.0(3),(1)(1).0?,?.0(1)?,(1)?]HENICOSA-1(13),2,4(8),9,11,14(19),15,17-OCTAEN-1-YLIUM; MolPort-039-052-346; HMS3358O04; AKOS025149077; GNF-Pf-2355; 8,9-Dimethoxy-11,12-dihydro-[1,3]dioxolo[4,5-h]isoquinolino[2,1-b]isoquinolin-13-ium; epiberberine ; NCGC00247623-01; CHEMBL1197637; N2453; HMS2229E04; 6873/9/2; MLS000563434; Benz(a)-1,3-benzodioxolo(4,5-g)quinolizinium, 11,12-dihydro-8,9-dimethoxy-; AC1L4ODP; HY-N0226; cid_160876; AC1Q701H",
+      "C20H18NO4+",
+      "COC1=C(C=C2C(=C1)CC[N+]3=C2C=C4C=CC5=C(C4=C3)OCO5)OC",
+      "336.4",
+      "43.09233228",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "6873/9/2"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT00171",
+        "title": "SMIT00171"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/6834/",
+        "title": "6834"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL002897"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "4608"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/160876",
+        "title": "160876"
+      }
+    ]
+  ]
+}

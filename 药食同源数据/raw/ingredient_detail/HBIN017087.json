@@ -1,0 +1,201 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001871&label=Herb",
+        "title": "HERB001871"
+      },
+      "GE BI TIAN MEN",
+      "戈壁天门冬",
+      "Desertliving Asparagus",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Asparagus gobicus"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005041&label=Herb",
+        "title": "HERB005041"
+      },
+      "SHI DIAO BAI",
+      "石刁柏",
+      "Curinary Asparagus",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Asparagus officinalis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005434&label=Herb",
+        "title": "HERB005434"
+      },
+      "TIAN DONG",
+      "天冬",
+      "Cochinchinese Asparagus Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Asparagi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005547&label=Herb",
+        "title": "HERB005547"
+      },
+      "TU BAI BU",
+      "土百部",
+      "Fernlike Asparagus",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Asparagus filicinus"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006070&label=Herb",
+        "title": "HERB006070"
+      },
+      "XIAO BAI BU",
+      "小百部",
+      "Officinal Asparagus",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Asparagus officinalis"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "aspafilioside a"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN017087",
+      "Aspafilioside A",
+      "aspafilioside a",
+      "C38H62O12",
+      "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(CO8)O)O)O)O)O)C)C)C)OC1",
+      "710.89",
+      "16.77451607",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "72947-73-0"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT05900",
+        "title": "SMIT05900"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/1860/",
+        "title": "1860"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL003898"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/44445743",
+        "title": "44445743"
+      }
+    ]
+  ]
+}

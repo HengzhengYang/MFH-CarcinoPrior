@@ -1,0 +1,186 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001074&label=Herb",
+        "title": "HERB001074"
+      },
+      "DA JI",
+      "大蓟",
+      "all-grass of Thistle",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Cirsii Japonici"
+      },
+      "Radix Cirsii Japonici",
+      "Herba seu Radix Cirsii japonici"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001309&label=Herb",
+        "title": "HERB001309"
+      },
+      "DING XIANG",
+      "丁香",
+      "Clove",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Caryophylli"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002035&label=Herb",
+        "title": "HERB002035"
+      },
+      "GUANG YE SHUI SU",
+      "光叶水苏",
+      "NA",
+      "NA"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002052&label=Herb",
+        "title": "HERB002052"
+      },
+      "GUI JIAN YU",
+      "鬼箭羽",
+      "twig of Winged Euonymus",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Ramulus Euonymi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002563&label=Herb",
+        "title": "HERB002563"
+      },
+      "HUANG QIN",
+      "黄芩",
+      "root of Baikal skullcap",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Scutellariae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "m-Anisaldehyde, purum, >=97.0% (GC); I01-4009; ZINC1676373; ANW-33168; STK397887; Metamethoxybenzaldehyde; 3-Anisaldehyde; DSSTox_RID_80235; AS02843; SBB040264; m-anis-aldehyde; Benzaldehyde, 3-methoxy-; m-Anisaldehyde, 97%; 3-Methoxy benzaldehyde; CS-W007346; CJ-27391; ACMC-1B21O; A832179; 3-(methyloxy)benzaldehyde; EINECS 209-712-8; PubChem13614; DSSTox_CID_24447; AZ0001-0362; 3-methyoxybenzaldehyde; ANISALDEHYDE, 3-; KSC269I4L; 591-31-1; CCRIS 960; TIMTEC-BB SBB040264; CAS-591-31-1; M-ANISALDEHYDE; LABOTEST-BB LT03330903; OTAVA-BB 1180630; ST50213433; PS-3206; LABOTEST-BB LT00933048; AKOS BBS-00003247; CJ-06203; 591M311; m-Anisaldehyde, 8CI; 3-methoxybenzaldehyd; (3-methoxyphenyl)methanone; AKOS000119666; NSC43794; Q-8231; TR-020523; 3-methoxybenzaldhyde; DTXSID5044447; InChI=1/C8H8O2/c1-10-8-4-2-3-7(5-8)6-9/h2-6H,1H; m-Anisic aldehyde; AC-2427; 4-08-00-00241 (Beilstein Handbook Reference); 3-methyoxy-benzaldehyde; CHEMBL22585; m-Methoxybenzaldehyde; NCGC00255778-01; m-Anisaldehyde, analytical standard; AM87084; TRA0045938; m-Anisaldehyde, >=97%; MolPort-000-871-236; BRN 0606013; NSC-43794; UNII-8ZAO7S0IVH; NSC 43794; SC-25539; AB00318; DB-024443; EBD2541; RP20265; 3-Methoxybenzaldehyde; 3-Methoxy-benzaldehyde; meta-methoxybenzaldehyde; ACT07000; 3-Methoxybezaldehyde; AJ-29441; FT-0615983; DSSTox_GSID_44447; A0478; STR00150; Tox21_302136; META-ANISALDEHYDE; AI3-52556; MCULE-4954380096; AC1L1XMU; LS-20019; WMPDAIZRQDCGFH-UHFFFAOYSA-N; m-Methoxy benzaldehyde; J-521677; AN-14"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN035601",
+      "m-methoxybenzaldehyde",
+      "m-Anisaldehyde, purum, >=97.0% (GC); I01-4009; ZINC1676373; ANW-33168; STK397887; Metamethoxybenzaldehyde; 3-Anisaldehyde; DSSTox_RID_80235; AS02843; SBB040264; m-anis-aldehyde; Benzaldehyde, 3-methoxy-; m-Anisaldehyde, 97%; 3-Methoxy benzaldehyde; CS-W007346; CJ-27391; ACMC-1B21O; A832179; 3-(methyloxy)benzaldehyde; EINECS 209-712-8; PubChem13614; DSSTox_CID_24447; AZ0001-0362; 3-methyoxybenzaldehyde; ANISALDEHYDE, 3-; KSC269I4L; 591-31-1; CCRIS 960; TIMTEC-BB SBB040264; CAS-591-31-1; M-ANISALDEHYDE; LABOTEST-BB LT03330903; OTAVA-BB 1180630; ST50213433; PS-3206; LABOTEST-BB LT00933048; AKOS BBS-00003247; CJ-06203; 591M311; m-Anisaldehyde, 8CI; 3-methoxybenzaldehyd; (3-methoxyphenyl)methanone; AKOS000119666; NSC43794; Q-8231; TR-020523; 3-methoxybenzaldhyde; DTXSID5044447; InChI=1/C8H8O2/c1-10-8-4-2-3-7(5-8)6-9/h2-6H,1H; m-Anisic aldehyde; AC-2427; 4-08-00-00241 (Beilstein Handbook Reference); 3-methyoxy-benzaldehyde; CHEMBL22585; m-Methoxybenzaldehyde; NCGC00255778-01; m-Anisaldehyde, analytical standard; AM87084; TRA0045938; m-Anisaldehyde, >=97%; MolPort-000-871-236; BRN 0606013; NSC-43794; UNII-8ZAO7S0IVH; NSC 43794; SC-25539; AB00318; DB-024443; EBD2541; RP20265; 3-Methoxybenzaldehyde; 3-Methoxy-benzaldehyde; meta-methoxybenzaldehyde; ACT07000; 3-Methoxybezaldehyde; AJ-29441; FT-0615983; DSSTox_GSID_44447; A0478; STR00150; Tox21_302136; META-ANISALDEHYDE; AI3-52556; MCULE-4954380096; AC1L1XMU; LS-20019; WMPDAIZRQDCGFH-UHFFFAOYSA-N; m-Methoxy benzaldehyde; J-521677; AN-14",
+      "C8H8O2",
+      "COC1=CC=CC(=C1)C=O",
+      "136.15",
+      {
+        "link": "https://www.symmap.org/detail/SMIT16483",
+        "title": "SMIT16483"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/13841/",
+        "title": "13841"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/11569",
+        "title": "11569"
+      }
+    ]
+  ]
+}

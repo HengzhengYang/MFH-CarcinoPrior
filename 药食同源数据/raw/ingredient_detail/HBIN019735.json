@@ -1,0 +1,1557 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000138&label=Herb",
+        "title": "HERB000138"
+      },
+      "BA JIAO HUI XIANG YOU",
+      "八角茴香油",
+      "Oleum Anisi Stellati",
+      "NA"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002022&label=Herb",
+        "title": "HERB002022"
+      },
+      "GUANG XI E ZHU",
+      "广西莪术",
+      "rhizome of Kwangsi Turmeric",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Curcumae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004950&label=Herb",
+        "title": "HERB004950"
+      },
+      "SHAN ZHU YU",
+      "山茱萸",
+      "Asiatic Cornelian Cherry Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Corni"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005132&label=Herb",
+        "title": "HERB005132"
+      },
+      "SHU QU CAO",
+      "鼠曲草",
+      "Gphalii Affinis Herba",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006586&label=Herb",
+        "title": "HERB006586"
+      },
+      "YIN CHEN",
+      "茵陈",
+      "Virgate Wormwood Herb",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Artemisiae Scopariae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006718&label=Herb",
+        "title": "HERB006718"
+      },
+      "YU JIN",
+      "郁金",
+      "Tuber - root of Common Turmeric",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Curcumae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "Bicyclo[4.1.0]hept-3-ene, 3,7,7(or 4,7,7)-trimethyl-; ACMC-1ADO8; 4,7,7-trimethylbicyclo[4.1.0]hept-3-ene; Delta-3-Carene; 3-Norcarene, 3,7,7-trimethyl-; Tox21_302632; CHEBI:35661; AN-18424; delta(sup 3)-Carene; SBB060476; DELTA3-Carene; FCH1117427; 3-delta-Carene; 3-Carene, 90%; DTXSID4047462; EINECS 236-719-3; 3,7,7(or 4,7,7)-Trimethylbicyclo(4.1.0)hept-3-ene; (+)-3-Carene; 3-Carene; BRN 1902766; 3-.delta.-Carene; 3,7,7-Trimethylbicyclo[4.1.0]hept-3-ene; AC1Q29W8; Bicyclo(4.1.0)hept-3-ene, 3,7,7(or 4,7,7)-trimethyl-; DB-063033; EN300-173315; .delta. 3-carene; 74806-04-5; W-110341; ST51046655; Monoterpenes; BQOFWKZOCNGFEC-UHFFFAOYSA-N; 3,7,7-Trimethylbicyclo[4.1.0]-3-heptene; 3-Carene, >=90%; DSSTox_RID_82362; AC1L1AAR; AKOS015840953; NCGC00256842-01; Delta-car-3-ene; Bicyclo[4.1.0]hept-3-ene, 3,7,7-trimethyl-, (1S)-; LS-43716; 3,7,7-trimethyl-bicyclo[4.1.0]hept-3-ene; (+)Car-3-ene; DSSTox_CID_27462; Carene; FT-0624500; 3-Carene, analytical standard; ANW-19700; MCULE-2811504753; MolPort-006-120-436; .DELTA.-caR-3-ene; TR-004700; NE10089; DSSTox_GSID_47462; Delta(3)-Carene; CHEMBL506854; Bicyclo[4.1.0]hept-3-ene, 3,7,7-trimethyl-; RTR-004700; 4,7,7-Trimethyl-3-norcarene; Bicyclo(4.1.0)hept-3-ene, 3,7,7-trimethyl-; (+-)-delta3-Carene; S-3-Carene; CAS-13466-78-9; 3,7,7-Trimethylbicyclo(4.1.0)hept-3-ene; (+-)-3-Carene; Delta 3 Carene 90 PF; 13466-78-9; alpha-Carene; CTK3J2995; 3-Karen [Czech]; LS-52533; I14-52597; Car-3-ene"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000111&label=Disease",
+        "title": "HBDIS000111"
+      },
+      "Alopecia",
+      "0.000869369506362702",
+      "0.00707658671810716"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000137&label=Disease",
+        "title": "HBDIS000137"
+      },
+      "Anaplasia",
+      "0.00124909368623685",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000207&label=Disease",
+        "title": "HBDIS000207"
+      },
+      "Aortic Aneurysm",
+      "0.000251871300381826",
+      "0.00303898419668811"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000239&label=Disease",
+        "title": "HBDIS000239"
+      },
+      "Arteriovenous fistula",
+      "3.95976770749536e-05",
+      "0.000779597912917299"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000242&label=Disease",
+        "title": "HBDIS000242"
+      },
+      "Arthralgia",
+      "0.000272371869905441",
+      "0.00322653745118781"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000367&label=Disease",
+        "title": "HBDIS000367"
+      },
+      "Bone Diseases",
+      "0.000489457362831548",
+      "0.00481481092025454"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000372&label=Disease",
+        "title": "HBDIS000372"
+      },
+      "Bone neoplasms",
+      "9.55607232194926e-05",
+      "0.00150311443454419"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000418&label=Disease",
+        "title": "HBDIS000418"
+      },
+      "Cachexia",
+      "0.000312972019817735",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000420&label=Disease",
+        "title": "HBDIS000420"
+      },
+      "Calcinosis",
+      "1.53503653217779e-05",
+      "0.000375378790185169"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000546&label=Disease",
+        "title": "HBDIS000546"
+      },
+      "Primary biliary cirrhosis",
+      "0.000869369506362702",
+      "0.00707658671810716"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000738&label=Disease",
+        "title": "HBDIS000738"
+      },
+      "Dental Calculus",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000749&label=Disease",
+        "title": "HBDIS000749"
+      },
+      "Dentinogenesis Imperfecta",
+      "5.45094605303951e-06",
+      "0.000166390250631692"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000818&label=Disease",
+        "title": "HBDIS000818"
+      },
+      "Diverticular disease of colon",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001075&label=Disease",
+        "title": "HBDIS001075"
+      },
+      "Fibrosis",
+      "0.000175783612027674",
+      "0.00234617427628486"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001164&label=Disease",
+        "title": "HBDIS001164"
+      },
+      "Angle Closure Glaucoma",
+      "3.29312327066387e-05",
+      "0.000677231038181073"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001165&label=Disease",
+        "title": "HBDIS001165"
+      },
+      "Primary angle-closure glaucoma",
+      "2.93975159550131e-05",
+      "0.000620890287739364"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001181&label=Disease",
+        "title": "HBDIS001181"
+      },
+      "Focal glomerulosclerosis",
+      "0.000318598398617309",
+      "0.00357416840144463"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001275&label=Disease",
+        "title": "HBDIS001275"
+      },
+      "Heart valve disease",
+      "3.11393125098924e-05",
+      "0.000648803975375208"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001374&label=Disease",
+        "title": "HBDIS001374"
+      },
+      "Hip Dislocation, Congenital",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001430&label=Disease",
+        "title": "HBDIS001430"
+      },
+      "Hyperesthesia",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001447&label=Disease",
+        "title": "HBDIS001447"
+      },
+      "Cortical Congenital Hyperostosis",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001597&label=Disease",
+        "title": "HBDIS001597"
+      },
+      "Keloid",
+      "0.000132639687290628",
+      "0.00191844844472759"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001774&label=Disease",
+        "title": "HBDIS001774"
+      },
+      "Lobstein Disease",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001793&label=Disease",
+        "title": "HBDIS001793"
+      },
+      "Lupus Nephritis",
+      "0.000999966655247249",
+      "0.00771205722611179"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002095&label=Disease",
+        "title": "HBDIS002095"
+      },
+      "Nephrotic Syndrome",
+      "0.000604052539050045",
+      "0.00559990653529494"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002139&label=Disease",
+        "title": "HBDIS002139"
+      },
+      "Nodule",
+      "0.000344537383283498",
+      "0.00379348237840522"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002208&label=Disease",
+        "title": "HBDIS002208"
+      },
+      "Osteoarthritis of hip",
+      "0.000111662943169276",
+      "0.00168824935917449"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002228&label=Disease",
+        "title": "HBDIS002228"
+      },
+      "Osteoporosis, Postmenopausal",
+      "0.00010670070262444",
+      "0.00162929582991472"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002347&label=Disease",
+        "title": "HBDIS002347"
+      },
+      "Periapical Periodontitis",
+      "4.06001499122943e-05",
+      "0.000794098657069642"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002668&label=Disease",
+        "title": "HBDIS002668"
+      },
+      "Sarcoidosis",
+      "0.000647609983832494",
+      "0.00581494666439401"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002917&label=Disease",
+        "title": "HBDIS002917"
+      },
+      "Tennis Elbow",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003070&label=Disease",
+        "title": "HBDIS003070"
+      },
+      "Uterine Fibroids",
+      "0.00122681372742696",
+      "0.00876749919268749"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003450&label=Disease",
+        "title": "HBDIS003450"
+      },
+      "Pancreatitis, Chronic",
+      "0.000619716177133492",
+      "0.00571207866233503"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003471&label=Disease",
+        "title": "HBDIS003471"
+      },
+      "Left Ventricular Hypertrophy",
+      "0.00068024047468793",
+      "0.00603760074683682"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003604&label=Disease",
+        "title": "HBDIS003604"
+      },
+      "Muscle Weakness",
+      "0.00101000391453112",
+      "0.00776460703299269"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003668&label=Disease",
+        "title": "HBDIS003668"
+      },
+      "Hypermobility syndrome",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004047&label=Disease",
+        "title": "HBDIS004047"
+      },
+      "Intervertebral Disc Degeneration",
+      "0.000415437274704412",
+      "0.00433253647764301"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004055&label=Disease",
+        "title": "HBDIS004055"
+      },
+      "Idiopathic osteoporosis",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004075&label=Disease",
+        "title": "HBDIS004075"
+      },
+      "Bilateral congenital dislocation of hip",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004500&label=Disease",
+        "title": "HBDIS004500"
+      },
+      "Congenital contractural arachnodactyly",
+      "0.00111842135188951",
+      "0.00826108746010635"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004502&label=Disease",
+        "title": "HBDIS004502"
+      },
+      "Ehlers-Danlos Syndrome, Autosomal Dominant, Type Unspecified",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004892&label=Disease",
+        "title": "HBDIS004892"
+      },
+      "Disturbance of consciousness",
+      "1.70420382347902e-06",
+      "6.51242627660595e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005009&label=Disease",
+        "title": "HBDIS005009"
+      },
+      "Congenital diaphragmatic hernia",
+      "0.00021792506392738",
+      "0.00275596833846444"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005280&label=Disease",
+        "title": "HBDIS005280"
+      },
+      "Fractures of the long bones",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005607&label=Disease",
+        "title": "HBDIS005607"
+      },
+      "Tumoral calcinosis",
+      "1.18542413015526e-05",
+      "0.000306906643351114"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005805&label=Disease",
+        "title": "HBDIS005805"
+      },
+      "Sclerosteosis",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005818&label=Disease",
+        "title": "HBDIS005818"
+      },
+      "Tricho-dento-osseous syndrome (disorder)",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006115&label=Disease",
+        "title": "HBDIS006115"
+      },
+      "Descending perineum syndrome",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006262&label=Disease",
+        "title": "HBDIS006262"
+      },
+      "Ehlers-Danlos Syndrome, Type IV",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006266&label=Disease",
+        "title": "HBDIS006266"
+      },
+      "EHLERS-DANLOS SYNDROME, ARTHROCHALASIA TYPE",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006275&label=Disease",
+        "title": "HBDIS006275"
+      },
+      "Osteogenesis imperfecta, dominant perinatal lethal",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006276&label=Disease",
+        "title": "HBDIS006276"
+      },
+      "Osteogenesis imperfecta, recessive perinatal lethal",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007554&label=Disease",
+        "title": "HBDIS007554"
+      },
+      "Pigmented Dermatofibrosarcoma Protuberans (Bednar Tumor)",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007600&label=Disease",
+        "title": "HBDIS007600"
+      },
+      "Anaplastic astrocytoma",
+      "0.000192976021188065",
+      "0.00251378430258694"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007759&label=Disease",
+        "title": "HBDIS007759"
+      },
+      "Glaucoma, Primary Open Angle",
+      "0.000562011334434073",
+      "0.00530242579573462"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007854&label=Disease",
+        "title": "HBDIS007854"
+      },
+      "Dissection of aorta",
+      "7.5122808248211e-05",
+      "0.00126391563555343"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007917&label=Disease",
+        "title": "HBDIS007917"
+      },
+      "Parastomal hernia",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009023&label=Disease",
+        "title": "HBDIS009023"
+      },
+      "Idiopathic osteoarthritis",
+      "1.9999333104945e-05",
+      "0.000461263741278804"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009079&label=Disease",
+        "title": "HBDIS009079"
+      },
+      "Hereditary Connective Tissue Disorder",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009230&label=Disease",
+        "title": "HBDIS009230"
+      },
+      "Beading of ribs",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009419&label=Disease",
+        "title": "HBDIS009419"
+      },
+      "Bruck syndrome",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009454&label=Disease",
+        "title": "HBDIS009454"
+      },
+      "Shagreen patch",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009850&label=Disease",
+        "title": "HBDIS009850"
+      },
+      "Microcalcification",
+      "1.02753465827411e-05",
+      "0.000274233378873101"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010284&label=Disease",
+        "title": "HBDIS010284"
+      },
+      "Long thorax",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010503&label=Disease",
+        "title": "HBDIS010503"
+      },
+      "Hashimoto Disease",
+      "0.000438331248127177",
+      "0.00450958971107761"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010583&label=Disease",
+        "title": "HBDIS010583"
+      },
+      "Benign bone neoplasm",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012043&label=Disease",
+        "title": "HBDIS012043"
+      },
+      "Aneurysm of ascending aorta",
+      "4.73668415643434e-06",
+      "0.000148830699471065"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013092&label=Disease",
+        "title": "HBDIS013092"
+      },
+      "Familial multiple trichoepitheliomata",
+      "0.000353409267893962",
+      "0.00386661594339449"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013105&label=Disease",
+        "title": "HBDIS013105"
+      },
+      "Dermatomyofibroma",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014080&label=Disease",
+        "title": "HBDIS014080"
+      },
+      "Renal carcinoma",
+      "0.00150740587459859",
+      "0.00992747865948147"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014133&label=Disease",
+        "title": "HBDIS014133"
+      },
+      "Cortical hyperostosis",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014148&label=Disease",
+        "title": "HBDIS014148"
+      },
+      "Cardiac fibrosis",
+      "0.000288273595287756",
+      "0.00336436022946607"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014611&label=Disease",
+        "title": "HBDIS014611"
+      },
+      "Tendinopathy",
+      "3.29312327066387e-05",
+      "0.000677231038181073"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014794&label=Disease",
+        "title": "HBDIS014794"
+      },
+      "Conventional Dermatofibrosarcoma Protuberans",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015198&label=Disease",
+        "title": "HBDIS015198"
+      },
+      "Osteogenesis imperfecta, Levin type",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015200&label=Disease",
+        "title": "HBDIS015200"
+      },
+      "Biconcave flattened vertebrae",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015201&label=Disease",
+        "title": "HBDIS015201"
+      },
+      "Femoral bowing present at birth, straightening with time",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015234&label=Disease",
+        "title": "HBDIS015234"
+      },
+      "Periosteal thickening of long tubular bones",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015293&label=Disease",
+        "title": "HBDIS015293"
+      },
+      "Premature osteoarthritis",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016023&label=Disease",
+        "title": "HBDIS016023"
+      },
+      "NIEMANN-PICK DISEASE, TYPE C2",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016689&label=Disease",
+        "title": "HBDIS016689"
+      },
+      "Bowing of limbs due to multiple fractures",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016828&label=Disease",
+        "title": "HBDIS016828"
+      },
+      "EDS VIIB",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016896&label=Disease",
+        "title": "HBDIS016896"
+      },
+      "OI-EDS Combined Syndrome",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016917&label=Disease",
+        "title": "HBDIS016917"
+      },
+      "Multiple prenatal fractures",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017583&label=Disease",
+        "title": "HBDIS017583"
+      },
+      "Malar prominence",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017608&label=Disease",
+        "title": "HBDIS017608"
+      },
+      "Brittle Bone Disorder",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017666&label=Disease",
+        "title": "HBDIS017666"
+      },
+      "Severe generalized osteoporosis",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017770&label=Disease",
+        "title": "HBDIS017770"
+      },
+      "Cranial asymmetry",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018359&label=Disease",
+        "title": "HBDIS018359"
+      },
+      "Craniofacial disproportion",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018757&label=Disease",
+        "title": "HBDIS018757"
+      },
+      "Tubulointerstitial fibrosis",
+      "0.000415437274704412",
+      "0.00433253647764301"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018847&label=Disease",
+        "title": "HBDIS018847"
+      },
+      "Crumpled long bones",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020220&label=Disease",
+        "title": "HBDIS020220"
+      },
+      "Osteogenesis imperfecta, type 5",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020512&label=Disease",
+        "title": "HBDIS020512"
+      },
+      "Pulmonary arterial hypertension",
+      "0.00065164493700279",
+      "0.00584452283293442"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020986&label=Disease",
+        "title": "HBDIS020986"
+      },
+      "Nonalcoholic Steatohepatitis",
+      "0.000787379759178707",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021954&label=Disease",
+        "title": "HBDIS021954"
+      },
+      "Neutrophilia (disorder)",
+      "0.000101851240273805",
+      "0.00157629656910648"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021967&label=Disease",
+        "title": "HBDIS021967"
+      },
+      "Metastatic Dermatofibrosarcoma Protuberans",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022066&label=Disease",
+        "title": "HBDIS022066"
+      },
+      "Early-Onset Glaucoma",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022680&label=Disease",
+        "title": "HBDIS022680"
+      },
+      "Skeletal malocclusion",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022716&label=Disease",
+        "title": "HBDIS022716"
+      },
+      "Keratoglobus",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022948&label=Disease",
+        "title": "HBDIS022948"
+      },
+      "Childhood Pilomyxoid Astrocytoma",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023179&label=Disease",
+        "title": "HBDIS023179"
+      },
+      "OSTEOGENESIS IMPERFECTA, TYPE III/IV",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023180&label=Disease",
+        "title": "HBDIS023180"
+      },
+      "OSTEOGENESIS IMPERFECTA, TYPE IIC",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023181&label=Disease",
+        "title": "HBDIS023181"
+      },
+      "OSTEOGENESIS IMPERFECTA, TYPE I, MILD",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023182&label=Disease",
+        "title": "HBDIS023182"
+      },
+      "BONE MINERAL DENSITY VARIATION QUANTITATIVE TRAIT LOCUS",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023781&label=Disease",
+        "title": "HBDIS023781"
+      },
+      "Absent ossification of calvaria",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023782&label=Disease",
+        "title": "HBDIS023782"
+      },
+      "Broad long bones",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023942&label=Disease",
+        "title": "HBDIS023942"
+      },
+      "Genital hernia",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024898&label=Disease",
+        "title": "HBDIS024898"
+      },
+      "Cortical thickening of long bone diaphyses",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024901&label=Disease",
+        "title": "HBDIS024901"
+      },
+      "Cortical irregularity",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025196&label=Disease",
+        "title": "HBDIS025196"
+      },
+      "Abnormality of subcutaneous fat tissue",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025938&label=Disease",
+        "title": "HBDIS025938"
+      },
+      "Dissection, Blood Vessel",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027042&label=Disease",
+        "title": "HBDIS027042"
+      },
+      "EHLERS-DANLOS SYNDROME, CLASSIC TYPE, 2",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027260&label=Disease",
+        "title": "HBDIS027260"
+      },
+      "EHLERS-DANLOS SYNDROME, ARTHROCHALASIA TYPE, 1",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027273&label=Disease",
+        "title": "HBDIS027273"
+      },
+      "Congenital Dysplasia Of The Hip",
+      "7.78921394613645e-05",
+      "0.00129785223195908"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027402&label=Disease",
+        "title": "HBDIS027402"
+      },
+      "EHLERS-DANLOS SYNDROME, CLASSIC TYPE, 1",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027728&label=Disease",
+        "title": "HBDIS027728"
+      },
+      "Ring chromosome 5 syndrome",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027946&label=Disease",
+        "title": "HBDIS027946"
+      },
+      "estrogen receptor-negative breast cancer",
+      "0.000550808700476793",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000970&label=Disease",
+        "title": "HBDIS000970"
+      },
+      "Giant Cell Epulis",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001424&label=Disease",
+        "title": "HBDIS001424"
+      },
+      "Hypercementosis",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002416&label=Disease",
+        "title": "HBDIS002416"
+      },
+      "Pleural Neoplasms",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004430&label=Disease",
+        "title": "HBDIS004430"
+      },
+      "Cystadenocarcinoma, Papillary",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005162&label=Disease",
+        "title": "HBDIS005162"
+      },
+      "Desquamative interstitial pneumonia",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005609&label=Disease",
+        "title": "HBDIS005609"
+      },
+      "Abnormal granulation tissue",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008759&label=Disease",
+        "title": "HBDIS008759"
+      },
+      "Tympanosclerosis",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008835&label=Disease",
+        "title": "HBDIS008835"
+      },
+      "Dentin dyspalsia, Shields type 2",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008890&label=Disease",
+        "title": "HBDIS008890"
+      },
+      "Microalbuminuric diabetic nephropathy",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009201&label=Disease",
+        "title": "HBDIS009201"
+      },
+      "Urine looks dark",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009855&label=Disease",
+        "title": "HBDIS009855"
+      },
+      "Calcific tendinitis",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011391&label=Disease",
+        "title": "HBDIS011391"
+      },
+      "Carotid Ulcer",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011392&label=Disease",
+        "title": "HBDIS011392"
+      },
+      "Common Carotid Artery Stenosis",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011393&label=Disease",
+        "title": "HBDIS011393"
+      },
+      "External Carotid Artery Stenosis",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012729&label=Disease",
+        "title": "HBDIS012729"
+      },
+      "Heart valve calcification",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012752&label=Disease",
+        "title": "HBDIS012752"
+      },
+      "Lupus anticoagulant measurement",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012791&label=Disease",
+        "title": "HBDIS012791"
+      },
+      "Low Grade Prostatic Intraepithelial Neoplasia",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014266&label=Disease",
+        "title": "HBDIS014266"
+      },
+      "Pulmonary Histiocytosis X",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014417&label=Disease",
+        "title": "HBDIS014417"
+      },
+      "Tumor-Associated Process",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014729&label=Disease",
+        "title": "HBDIS014729"
+      },
+      "Lipogranuloma",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017953&label=Disease",
+        "title": "HBDIS017953"
+      },
+      "Elliptocytosis 4",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020087&label=Disease",
+        "title": "HBDIS020087"
+      },
+      "Nonrheumatic aortic (valve) stenosis",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020214&label=Disease",
+        "title": "HBDIS020214"
+      },
+      "Dianzani autoimmune lymphoproliferative syndrome",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021062&label=Disease",
+        "title": "HBDIS021062"
+      },
+      "Well Differentiated Hepatocellular Carcinoma",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022808&label=Disease",
+        "title": "HBDIS022808"
+      },
+      "Enterovirus myocarditis",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022815&label=Disease",
+        "title": "HBDIS022815"
+      },
+      "Autoimmune demyelinating disease",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024943&label=Disease",
+        "title": "HBDIS024943"
+      },
+      "Chronic calcifying pancreatitis",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025486&label=Disease",
+        "title": "HBDIS025486"
+      },
+      "Decreased serum complement C4",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026460&label=Disease",
+        "title": "HBDIS026460"
+      },
+      "Lupus anticoagulant -- finding",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026506&label=Disease",
+        "title": "HBDIS026506"
+      },
+      "Central Nervous System Langerhans Cell Histiocytosis",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000776&label=Target",
+        "title": "HBTAR000776"
+      },
+      "COL1A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1875/",
+          "title": "TCMID:1875"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00731"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003881&label=Target",
+        "title": "HBTAR003881"
+      },
+      "SPP1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3628/",
+          "title": "TCMID:3628"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN019735",
+      "carene",
+      "Bicyclo[4.1.0]hept-3-ene, 3,7,7(or 4,7,7)-trimethyl-; ACMC-1ADO8; 4,7,7-trimethylbicyclo[4.1.0]hept-3-ene; Delta-3-Carene; 3-Norcarene, 3,7,7-trimethyl-; Tox21_302632; CHEBI:35661; AN-18424; delta(sup 3)-Carene; SBB060476; DELTA3-Carene; FCH1117427; 3-delta-Carene; 3-Carene, 90%; DTXSID4047462; EINECS 236-719-3; 3,7,7(or 4,7,7)-Trimethylbicyclo(4.1.0)hept-3-ene; (+)-3-Carene; 3-Carene; BRN 1902766; 3-.delta.-Carene; 3,7,7-Trimethylbicyclo[4.1.0]hept-3-ene; AC1Q29W8; Bicyclo(4.1.0)hept-3-ene, 3,7,7(or 4,7,7)-trimethyl-; DB-063033; EN300-173315; .delta. 3-carene; 74806-04-5; W-110341; ST51046655; Monoterpenes; BQOFWKZOCNGFEC-UHFFFAOYSA-N; 3,7,7-Trimethylbicyclo[4.1.0]-3-heptene; 3-Carene, >=90%; DSSTox_RID_82362; AC1L1AAR; AKOS015840953; NCGC00256842-01; Delta-car-3-ene; Bicyclo[4.1.0]hept-3-ene, 3,7,7-trimethyl-, (1S)-; LS-43716; 3,7,7-trimethyl-bicyclo[4.1.0]hept-3-ene; (+)Car-3-ene; DSSTox_CID_27462; Carene; FT-0624500; 3-Carene, analytical standard; ANW-19700; MCULE-2811504753; MolPort-006-120-436; .DELTA.-caR-3-ene; TR-004700; NE10089; DSSTox_GSID_47462; Delta(3)-Carene; CHEMBL506854; Bicyclo[4.1.0]hept-3-ene, 3,7,7-trimethyl-; RTR-004700; 4,7,7-Trimethyl-3-norcarene; Bicyclo(4.1.0)hept-3-ene, 3,7,7-trimethyl-; (+-)-delta3-Carene; S-3-Carene; CAS-13466-78-9; 3,7,7-Trimethylbicyclo(4.1.0)hept-3-ene; (+-)-3-Carene; Delta 3 Carene 90 PF; 13466-78-9; alpha-Carene; CTK3J2995; 3-Karen [Czech]; LS-52533; I14-52597; Car-3-ene",
+      "C10H16",
+      "CC1=CCC2C(C1)C2(C)C",
+      "136.23",
+      {
+        "link": "https://www.symmap.org/detail/SMIT02189",
+        "title": "SMIT02189"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/24574/",
+        "title": "24574"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "5892"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/442461",
+        "title": "442461"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001787&label=Herb",
+        "title": "HERB001787"
+      },
+      "GAN JIANG",
+      "干姜",
+      "Dried Ginger",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Zingiberis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002168&label=Herb",
+        "title": "HERB002168"
+      },
+      "HE HUA",
+      "荷花",
+      "Flos Nelumbinis Immaturus",
+      "NA"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002276&label=Herb",
+        "title": "HERB002276"
+      },
+      "HONG HUA",
+      "红花",
+      "Safflower",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Carthami"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "1-Cetene; TRA-0178189; AI3-06556; TR-021676; EC 211-105-8; MCULE-4969847612; DSSTox_RID_78380; MFCD00008991; NSC 60602; ACMC-1CH85; I14-19382; TL8004339; Cetene; DSSTox_GSID_27269; Tox21_202748; 1-Hexadecene, 94%  250ml; 113032-42-1; 1-Hexadecene; UNII-97T015M2UX; Alkenes, C14-18 .alpha.-; 6367AF; (3/4) A degrees I(c); ZINC59511024; 1-Hexadecene, analytical standard; CC-04595; LS-74871; Neodene 16; GQEZCXVZFLOKMC-UHFFFAOYSA-N; HSDB 5730; Cetylene; 629-73-2; Hexadec-1-ene; Hexadecene (mixed isomers); Pentadecane, methylene-; SC-52954; 120522-44-3; AC1Q2W1Q; 1-Hexadecene, technical grade, 92%; CHEMBL3182381; alpha-Hexadecylene; DTXSID1027269; Hexadecylene-1; alpha-Hexadecene; NSC60602; EINECS 248-131-4; 1-Hexadecene 10 microg/mL in Cyclohexane; 26952-14-7; ANW-34483; SBB008801; FT-0607883; 97T015M2UX; AC1L1ZI6; MolPort-001-787-067; .alpha.-Hexadecene; Hexadecene; CTK0D0541; Dialene 16; 1-Hexadecene, >=98.5%; DSSTox_CID_7269; ST51046154; C-28199; RTR-021676; CAS-629-73-2; KS-00000VB6; UNII-38H8547VP0 component GQEZCXVZFLOKMC-UHFFFAOYSA-N; NCGC00260296-01; EC 248-131-4; 1-n-Hexadecene; CHEBI:77507; 1-Hexadecene, puriss., >=99.0% (GC); S0346; NSC-60602; AKOS015902424; EINECS 211-105-8; ACM26952147; N-HEXADEC-1-ENE; Gulftene 16; 501012-99-3; Hexadecene-1; AN-22066"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN002580",
+      "1-hexadecene",
+      "1-Cetene; TRA-0178189; AI3-06556; TR-021676; EC 211-105-8; MCULE-4969847612; DSSTox_RID_78380; MFCD00008991; NSC 60602; ACMC-1CH85; I14-19382; TL8004339; Cetene; DSSTox_GSID_27269; Tox21_202748; 1-Hexadecene, 94%  250ml; 113032-42-1; 1-Hexadecene; UNII-97T015M2UX; Alkenes, C14-18 .alpha.-; 6367AF; (3/4) A degrees I(c); ZINC59511024; 1-Hexadecene, analytical standard; CC-04595; LS-74871; Neodene 16; GQEZCXVZFLOKMC-UHFFFAOYSA-N; HSDB 5730; Cetylene; 629-73-2; Hexadec-1-ene; Hexadecene (mixed isomers); Pentadecane, methylene-; SC-52954; 120522-44-3; AC1Q2W1Q; 1-Hexadecene, technical grade, 92%; CHEMBL3182381; alpha-Hexadecylene; DTXSID1027269; Hexadecylene-1; alpha-Hexadecene; NSC60602; EINECS 248-131-4; 1-Hexadecene 10 microg/mL in Cyclohexane; 26952-14-7; ANW-34483; SBB008801; FT-0607883; 97T015M2UX; AC1L1ZI6; MolPort-001-787-067; .alpha.-Hexadecene; Hexadecene; CTK0D0541; Dialene 16; 1-Hexadecene, >=98.5%; DSSTox_CID_7269; ST51046154; C-28199; RTR-021676; CAS-629-73-2; KS-00000VB6; UNII-38H8547VP0 component GQEZCXVZFLOKMC-UHFFFAOYSA-N; NCGC00260296-01; EC 248-131-4; 1-n-Hexadecene; CHEBI:77507; 1-Hexadecene, puriss., >=99.0% (GC); S0346; NSC-60602; AKOS015902424; EINECS 211-105-8; ACM26952147; N-HEXADEC-1-ENE; Gulftene 16; 501012-99-3; Hexadecene-1; AN-22066",
+      "C16H32",
+      "CCCCCCCCCCCCCCC=C",
+      "224.42",
+      {
+        "link": "https://www.symmap.org/detail/SMIT15746",
+        "title": "SMIT15746"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/9492/",
+        "title": "9492"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/12395",
+        "title": "12395"
+      }
+    ]
+  ]
+}

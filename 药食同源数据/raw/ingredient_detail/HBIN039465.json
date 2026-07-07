@@ -1,0 +1,251 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002887&label=Herb",
+        "title": "HERB002887"
+      },
+      "JIE ZI",
+      "芥子",
+      "Mustard Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Sipis"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "645-59-0; Phenylpropionitrile; ZINC01747831; 3-Phenylpropiononitrile; NSC16936; .beta.-Phenylpropionitrile; BRN 0636348; 4-09-00-01764 (Beilstein Handbook Reference); 3-Phenylpropionitrile; AI3-23733; BENZENEPROPANENITRILE; Hydrocinnamonitrile; Benzenepropionitrile; EINECS 211-447-8; Hydrocinnamique nitrile [French]; 171573_ALDRICH; NSC 16936; (2-Cyanoethyl)benzene; InChI=1/C9H9N/c10-8-4-7-9-5-2-1-3-6-9/h1-3,5-6H,4,7H; 2-Phenylethyl cyanide; 3-Phenylpropanenitrile"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006370&label=Disease",
+        "title": "HBDIS006370"
+      },
+      "Glutaric aciduria, type 1",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017720&label=Disease",
+        "title": "HBDIS017720"
+      },
+      "2-AMINOADIPIC 2-OXOADIPIC ACIDURIA",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019724&label=Disease",
+        "title": "HBDIS019724"
+      },
+      "Alpha ketoadipic aciduria",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021847&label=Disease",
+        "title": "HBDIS021847"
+      },
+      "CHARCOT-MARIE-TOOTH DISEASE, AXONAL, TYPE 2Q",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027044&label=Disease",
+        "title": "HBDIS027044"
+      },
+      "Alpha-aminoadipic aciduria",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003270&label=Disease",
+        "title": "HBDIS003270"
+      },
+      "Addictive Behavior",
+      "0.00147781673848436",
+      "0.00980265371805997"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008047&label=Disease",
+        "title": "HBDIS008047"
+      },
+      "Aromatic amino acid decarboxylase deficiency",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013271&label=Disease",
+        "title": "HBDIS013271"
+      },
+      "Deficiency of aromatic-L-amino-acid decarboxylase",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002403&label=Target",
+        "title": "HBTAR002403"
+      },
+      "MAOB",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT02025",
+          "title": "SymMap:SMTT02025"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00565"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003223&label=Target",
+        "title": "HBTAR003223"
+      },
+      "PRSS1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02928"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002372&label=Target",
+        "title": "HBTAR002372"
+      },
+      "LYZ",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR01172"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN039465",
+      "Phenethyl cyanide",
+      "645-59-0; Phenylpropionitrile; ZINC01747831; 3-Phenylpropiononitrile; NSC16936; .beta.-Phenylpropionitrile; BRN 0636348; 4-09-00-01764 (Beilstein Handbook Reference); 3-Phenylpropionitrile; AI3-23733; BENZENEPROPANENITRILE; Hydrocinnamonitrile; Benzenepropionitrile; EINECS 211-447-8; Hydrocinnamique nitrile [French]; 171573_ALDRICH; NSC 16936; (2-Cyanoethyl)benzene; InChI=1/C9H9N/c10-8-4-7-9-5-2-1-3-6-9/h1-3,5-6H,4,7H; 2-Phenylethyl cyanide; 3-Phenylpropanenitrile",
+      "C9H9N",
+      "C1=CC=C(C=C1)CCC#N",
+      "131.17",
+      "38.70080512",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "645-59-0"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT13737",
+        "title": "SMIT13737"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL013031"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/12581",
+        "title": "12581"
+      }
+    ]
+  ]
+}

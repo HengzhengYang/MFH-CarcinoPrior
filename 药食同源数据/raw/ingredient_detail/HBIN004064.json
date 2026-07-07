@@ -1,0 +1,210 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003851&label=Herb",
+        "title": "HERB003851"
+      },
+      "MEI HUA",
+      "梅花",
+      "Plum Flower",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Mume"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004692&label=Herb",
+        "title": "HERB004692"
+      },
+      "ROU CONG RONG",
+      "肉苁蓉",
+      "Desertliving Cistanche",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Cistanches"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004945&label=Herb",
+        "title": "HERB004945"
+      },
+      "SHAN ZHA",
+      "山楂",
+      "Chinese Hawthorn Equivalent plant: Crataegus pinnatifida var major",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Crataegus pinnatifida"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "MFCD00048819; D1203; ANW-26968; 2,3-Dimethylheptane, 98%; WBRFDUJXCLCKPX-UHFFFAOYSA-N; 2,3-Dimethyl heptane; LMFA11000611; ACM3074713; CTK1C4627; 2,3-DIMETHYLHHEPTANE; Heptane, 2,3-dimethyl-; 2,3-dimethylheptane; I14-48028; KB-16994; 3074-71-3; WBRFDUJXCLCKPX-UHFFFAOYSA-; FR-2239; FT-0609714; DB-080949; InChI=1/C9H20/c1-5-6-7-9(4)8(2)3/h8-9H,5-7H2,1-4H3; ACMC-209hii; AKOS015841812; TR-013180; AC1L1B06; C-53677; FCH1115667; J-018096"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003223&label=Target",
+        "title": "HBTAR003223"
+      },
+      "PRSS1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02928"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001096&label=Target",
+        "title": "HBTAR001096"
+      },
+      "DPP4",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00332"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000356&label=Target",
+        "title": "HBTAR000356"
+      },
+      "BCHE",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00559"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN004064",
+      "2,3-Dimethylheptane",
+      "MFCD00048819; D1203; ANW-26968; 2,3-Dimethylheptane, 98%; WBRFDUJXCLCKPX-UHFFFAOYSA-N; 2,3-Dimethyl heptane; LMFA11000611; ACM3074713; CTK1C4627; 2,3-DIMETHYLHHEPTANE; Heptane, 2,3-dimethyl-; 2,3-dimethylheptane; I14-48028; KB-16994; 3074-71-3; WBRFDUJXCLCKPX-UHFFFAOYSA-; FR-2239; FT-0609714; DB-080949; InChI=1/C9H20/c1-5-6-7-9(4)8(2)3/h8-9H,5-7H2,1-4H3; ACMC-209hii; AKOS015841812; TR-013180; AC1L1B06; C-53677; FCH1115667; J-018096",
+      "C9H20",
+      "CCCCC(C)C(C)C",
+      "128.26",
+      "35.12691421",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "3074-71-3"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT10090",
+        "title": "SMIT10090"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/6355/",
+        "title": "6355"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL008877"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/26375",
+        "title": "26375"
+      }
+    ]
+  ]
+}

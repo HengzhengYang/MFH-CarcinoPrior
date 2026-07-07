@@ -1,0 +1,144 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000305&label=Herb",
+        "title": "HERB000305"
+      },
+      "BAI ZHI",
+      "白芷",
+      "Dahurian Angelica Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Angelicae Dahuricae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000312&label=Herb",
+        "title": "HERB000312"
+      },
+      "BAN BIAN LIAN",
+      "半边莲",
+      "Chinese Lobelia Herb",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Lobeliae Chinensis"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "(2R,3R,4R,5R)-2-(Hydroxymethyl)-5-(4-hydroxyphenyl)pyrrolidine-3,4-diol; SCHEMBL13848027; 7E79EEAE-B5A3-481B-A039-B6DA9C270415; RADICAMINE B; 431981-75-8; CHEMBL466791; 3,4-Pyrrolidinediol, 2-(hydroxymethyl)-5-(4-hydroxyphenyl)-, (2S,3S,4S,5S)- (9CI)"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN041902",
+      "radicamine b",
+      "(2R,3R,4R,5R)-2-(Hydroxymethyl)-5-(4-hydroxyphenyl)pyrrolidine-3,4-diol; SCHEMBL13848027; 7E79EEAE-B5A3-481B-A039-B6DA9C270415; RADICAMINE B; 431981-75-8; CHEMBL466791; 3,4-Pyrrolidinediol, 2-(hydroxymethyl)-5-(4-hydroxyphenyl)-, (2S,3S,4S,5S)- (9CI)",
+      "C11H15NO4",
+      "C1=CC(=CC=C1C2C(C(C(N2)CO)O)O)O",
+      "225.24",
+      {
+        "link": "https://www.symmap.org/detail/SMIT17418",
+        "title": "SMIT17418"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/18510/",
+        "title": "18510"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/15953621",
+        "title": "15953621"
+      }
+    ]
+  ]
+}

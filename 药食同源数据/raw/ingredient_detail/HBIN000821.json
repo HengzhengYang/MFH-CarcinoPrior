@@ -1,0 +1,189 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000879&label=Herb",
+        "title": "HERB000879"
+      },
+      "CHUAN SHE GAN",
+      "川射干",
+      "Iridis Tectori Rhizoma",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001210&label=Herb",
+        "title": "HERB001210"
+      },
+      "DANG GUI",
+      "当归",
+      "root of Chinese Angelica",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Angelicae sinensis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001410&label=Herb",
+        "title": "HERB001410"
+      },
+      "DU ZHONG YE",
+      "杜仲叶",
+      "Eucommiae Folium",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004433&label=Herb",
+        "title": "HERB004433"
+      },
+      "QI LIN CAI",
+      "麒麟菜",
+      "Muriculate Eucheuma Frond",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Eucheuma muricatum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004945&label=Herb",
+        "title": "HERB004945"
+      },
+      "SHAN ZHA",
+      "山楂",
+      "Chinese Hawthorn Equivalent plant: Crataegus pinnatifida var major",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Crataegus pinnatifida"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "27621-EP2272832A1; DTXSID10178042; 22771-EP2305682A1; 27621-EP2275411A2; 22771-EP2287147A2; 30823-EP2308858A1; 22771-EP2274983A1; 27621-EP2298769A1; 30823-EP2311816A1; 22771-EP2308879A1; 27621-EP2292592A1; 22771-EP2295429A1; 27621-EP2295434A2; 2-methylbenzyl; 22771-EP2315502A1; 30823-EP2311817A1; 1,2-dimethyl-benzene; 25974-EP2378585A1; 22771-EP2275412A1; 2348-48-3; o-methylbenzyl; methylbenzyl; 2-Methylbenzyl radical; 25974-EP2314558A1; 27621-EP2298767A1; AC1L3AU6; 25974-EP2372804A1; 27621-EP2298743A1; 27621-EP2311830A1; 22771-EP2292606A1; 22771-EP2287164A1; 25974-EP2371810A1; 27621-EP2314587A1"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN000821",
+      "1,2-dimethylbenzene",
+      "27621-EP2272832A1; DTXSID10178042; 22771-EP2305682A1; 27621-EP2275411A2; 22771-EP2287147A2; 30823-EP2308858A1; 22771-EP2274983A1; 27621-EP2298769A1; 30823-EP2311816A1; 22771-EP2308879A1; 27621-EP2292592A1; 22771-EP2295429A1; 27621-EP2295434A2; 2-methylbenzyl; 22771-EP2315502A1; 30823-EP2311817A1; 1,2-dimethyl-benzene; 25974-EP2378585A1; 22771-EP2275412A1; 2348-48-3; o-methylbenzyl; methylbenzyl; 2-Methylbenzyl radical; 25974-EP2314558A1; 27621-EP2298767A1; AC1L3AU6; 25974-EP2372804A1; 27621-EP2298743A1; 27621-EP2311830A1; 22771-EP2292606A1; 22771-EP2287164A1; 25974-EP2371810A1; 27621-EP2314587A1",
+      "C8H9",
+      "CC1=CC=CC=C1[CH2]",
+      "105.16",
+      {
+        "link": "https://www.symmap.org/detail/SMIT15156",
+        "title": "SMIT15156"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/6317/",
+        "title": "6317"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/137549",
+        "title": "137549"
+      }
+    ]
+  ]
+}

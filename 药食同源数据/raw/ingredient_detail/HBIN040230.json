@@ -1,0 +1,227 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002876&label=Herb",
+        "title": "HERB002876"
+      },
+      "JIE GENG",
+      "桔梗",
+      "Platycodon Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Platycodi"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NA"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000385&label=Disease",
+        "title": "HBDIS000385"
+      },
+      "Brain Death",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003489&label=Disease",
+        "title": "HBDIS003489"
+      },
+      "Squamous cell carcinoma of lung",
+      "0.001452595672217",
+      "0.00966900123043067"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005647&label=Disease",
+        "title": "HBDIS005647"
+      },
+      "Saddle nose",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016258&label=Disease",
+        "title": "HBDIS016258"
+      },
+      "Ectodermal dysplasia, hypohidrotic, with immune deficiency",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018829&label=Disease",
+        "title": "HBDIS018829"
+      },
+      "Choreoathetosis, Hypothyroidism, And Neonatal Respiratory Distress",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019501&label=Disease",
+        "title": "HBDIS019501"
+      },
+      "Ectodermal Dysplasia, Anhidrotic, With T-Cell Immunodeficiency, Autosomal Dominant",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019502&label=Disease",
+        "title": "HBDIS019502"
+      },
+      "Aplasia of the sweat glands",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021071&label=Disease",
+        "title": "HBDIS021071"
+      },
+      "Severe Bronchopulmonary Dysplasia",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024423&label=Disease",
+        "title": "HBDIS024423"
+      },
+      "Defective production of NFKB1-dependent cytokines",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002707&label=Target",
+        "title": "HBTAR002707"
+      },
+      "NFKBIA",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9572/",
+          "title": "TCMID:9572"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003683&label=Target",
+        "title": "HBTAR003683"
+      },
+      "MAP2K4",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3869/",
+          "title": "TCMID:3869"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Molecule weight",
+      "OB score",
+      "SymMap id",
+      "TCMSP id"
+    ],
+    [
+      "HBIN040230",
+      "Platyeoside D",
+      "1533.8",
+      "7.571152606",
+      {
+        "link": "https://www.symmap.org/detail/SMIT07743",
+        "title": "SMIT07743"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL006064"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000267&label=Herb",
+        "title": "HERB000267"
+      },
+      "BAI SHAO",
+      "白芍",
+      "White peony root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Paeoniae Alba"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000305&label=Herb",
+        "title": "HERB000305"
+      },
+      "BAI ZHI",
+      "白芷",
+      "Dahurian Angelica Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Angelicae Dahuricae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001394&label=Herb",
+        "title": "HERB001394"
+      },
+      "DU HUO",
+      "独活",
+      "Doubleteeth Pubescent Angelica Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Angelicae Pubescentis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002714&label=Herb",
+        "title": "HERB002714"
+      },
+      "JI XUE TENG",
+      "鸡血藤",
+      "Suberect Spatholobus Stem",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Caulis Millettiae"
+      },
+      " Caulis spatholobi"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004055&label=Herb",
+        "title": "HERB004055"
+      },
+      "MU MIAN HUA",
+      "木棉花",
+      "Flower of Common Bombax",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Gossampini"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004242&label=Herb",
+        "title": "HERB004242"
+      },
+      "NV ZHEN ZI",
+      "女贞子",
+      "fruit of Glossy privet",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Ligustri lucidi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005017&label=Herb",
+        "title": "HERB005017"
+      },
+      "SHENG JIANG",
+      "生姜",
+      "Fresh Ginger",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Zingiberis Recens"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005471&label=Herb",
+        "title": "HERB005471"
+      },
+      "TIAN SHAN XUE LIAN",
+      "天山雪莲",
+      "Saussureae Involucratae Herba",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NSC8912; 61630_FLUKA; L4625_SIGMA; InChI=1/C14H28O2/c1-3-5-6-7-8-9-10-11-12-13-14(15)16-4-2/h3-13H2,1-2H; Ethyl laurate (natural); Lauric acid, ethyl ester (8CI); Lauric acid, ethyl ester; NSC83467; W244104_ALDRICH; dodecanoic acid ethyl ester; Ethyl dodecanoate; ethyllaurate; NCIOpen2_004797; EINECS 203-386-0; W244112_ALDRICH; ST5411002; Ethyl laurate; lauric acid ethyl ester; AI3-00645; Ethyl dodecylate; Dodecanoic acid, ethyl ester; NSC 83467; Ethyl laurinate; 106-33-2; FEMA No. 2441; DODECANOIC ACID,ETHYL ESTER"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003223&label=Target",
+        "title": "HBTAR003223"
+      },
+      "PRSS1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02928"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR005869&label=Target",
+        "title": "HBTAR005869"
+      },
+      "NCOA2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR03276"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000031&label=Target",
+        "title": "HBTAR000031"
+      },
+      "ACHE",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00165"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000460&label=Target",
+        "title": "HBTAR000460"
+      },
+      "CA2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00117"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000356&label=Target",
+        "title": "HBTAR000356"
+      },
+      "BCHE",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00559"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004789&label=Target",
+        "title": "HBTAR004789"
+      },
+      "NCOA1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR03279"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001096&label=Target",
+        "title": "HBTAR001096"
+      },
+      "DPP4",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00332"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002737&label=Target",
+        "title": "HBTAR002737"
+      },
+      "NOS2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00003"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN025940",
+      "Ethyllaurate",
+      "NSC8912; 61630_FLUKA; L4625_SIGMA; InChI=1/C14H28O2/c1-3-5-6-7-8-9-10-11-12-13-14(15)16-4-2/h3-13H2,1-2H; Ethyl laurate (natural); Lauric acid, ethyl ester (8CI); Lauric acid, ethyl ester; NSC83467; W244104_ALDRICH; dodecanoic acid ethyl ester; Ethyl dodecanoate; ethyllaurate; NCIOpen2_004797; EINECS 203-386-0; W244112_ALDRICH; ST5411002; Ethyl laurate; lauric acid ethyl ester; AI3-00645; Ethyl dodecylate; Dodecanoic acid, ethyl ester; NSC 83467; Ethyl laurinate; 106-33-2; FEMA No. 2441; DODECANOIC ACID,ETHYL ESTER",
+      "C14H28O2",
+      "CCCCCCCCCCCC(=O)OCC",
+      "228.37",
+      "17.74189481",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "106-33-2"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT03073",
+        "title": "SMIT03073"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/7454/",
+        "title": "7454"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL000477"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/7800",
+        "title": "7800"
+      }
+    ]
+  ]
+}

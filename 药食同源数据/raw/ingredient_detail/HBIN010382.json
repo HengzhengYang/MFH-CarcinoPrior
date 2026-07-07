@@ -1,0 +1,169 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001034&label=Herb",
+        "title": "HERB001034"
+      },
+      "DA FU PI",
+      "大腹皮",
+      "Areca Catechu L.",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003477&label=Herb",
+        "title": "HERB003477"
+      },
+      "LONG CHUAN HUA",
+      "龙船花",
+      "Chinese Ixora",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Ixora chinensis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005742&label=Herb",
+        "title": "HERB005742"
+      },
+      "WU MEI",
+      "乌梅",
+      "Smoked Plum",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Mume"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB007239&label=Herb",
+        "title": "HERB007239"
+      },
+      "ZI ZHU",
+      "紫珠",
+      "leaf of taiwan beautyberry",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Folium Callicarpae Nudiflorae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "4-ethyl-2-methoxy-phenol"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN010382",
+      "4-ethyl-2-methoxyphenol",
+      "4-ethyl-2-methoxy-phenol",
+      "C9H12O2",
+      "CCC1=CC(=C(C=C1)O)OC",
+      "152.19",
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/33384/",
+        "title": "33384"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/62465",
+        "title": "62465"
+      }
+    ]
+  ]
+}

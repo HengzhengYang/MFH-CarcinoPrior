@@ -1,0 +1,204 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000836&label=Herb",
+        "title": "HERB000836"
+      },
+      "CHOU WU TONG GEN",
+      "臭梧桐根",
+      "Harlequin Glorybower Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Clerodendron trichotomum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001787&label=Herb",
+        "title": "HERB001787"
+      },
+      "GAN JIANG",
+      "干姜",
+      "Dried Ginger",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Zingiberis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002046&label=Herb",
+        "title": "HERB002046"
+      },
+      "GUI DENG LONG",
+      "鬼灯笼",
+      "Redcalyx Glotybower",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Clerodendron fortunatum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002276&label=Herb",
+        "title": "HERB002276"
+      },
+      "HONG HUA",
+      "红花",
+      "Safflower",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Carthami"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003507&label=Herb",
+        "title": "HERB003507"
+      },
+      "LU BIAN QING",
+      "路边青",
+      "Manyflower Glorybower Leaf",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Clerodendron cyrtophyllum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005190&label=Herb",
+        "title": "HERB005190"
+      },
+      "SHUI SONG",
+      "水松",
+      "Fragile Codium Frond",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Codium fragile"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "(3S,8S,10R,13R)-17-[(5S)-5-ethyl-6-methylhept-6-en-2-yl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol; AC1O44LO"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN021127",
+      "clerosterol",
+      "(3S,8S,10R,13R)-17-[(5S)-5-ethyl-6-methylhept-6-en-2-yl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol; AC1O44LO",
+      "C29H48O",
+      "CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(=C)C",
+      "412.7",
+      {
+        "link": "https://www.symmap.org/detail/SMIT14718",
+        "title": "SMIT14718"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/3844/",
+        "title": "3844"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/5283638",
+        "title": "5283638"
+      }
+    ]
+  ]
+}

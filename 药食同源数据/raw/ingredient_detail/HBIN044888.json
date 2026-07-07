@@ -1,0 +1,226 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000192&label=Herb",
+        "title": "HERB000192"
+      },
+      "BAI HE",
+      "百合",
+      "Bulb of Greenish Lily",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Bulbus Lilii "
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000580&label=Herb",
+        "title": "HERB000580"
+      },
+      "CANG ER ZI",
+      "苍耳子",
+      "fruit of Siberian Cockleblur",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Xanthii sibirici"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000870&label=Herb",
+        "title": "HERB000870"
+      },
+      "CHUAN MU TONG",
+      "川木通",
+      "Armand Clematis Stem",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Caulis Clematidis Armandii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001556&label=Herb",
+        "title": "HERB001556"
+      },
+      "E BU SHI CAO",
+      "鹅不食草",
+      "Small Centipeda Herb",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Centipedae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001876&label=Herb",
+        "title": "HERB001876"
+      },
+      "GE HUA",
+      "葛花",
+      "flower bud of lobed kudzuvine",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "flos puerariae lobatae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003679&label=Herb",
+        "title": "HERB003679"
+      },
+      "MA QIAN ZI",
+      "马钱子",
+      "Nux Vomica",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Strychni"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005022&label=Herb",
+        "title": "HERB005022"
+      },
+      "SHENG MA",
+      "升麻",
+      "Largetrifoliolious Bugbane Rhizome",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Cimicifugae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "AIDS-398412; (2R,3R,4S,5S,6R)-2-[[(3S,8S,9S,10R,13R,14S,17R)-17-[(E,1R,4S)-4-ethyl-1,5-dimethyl-hex-2-enyl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-yl]oxy]-6-methylol-tetrahydropyran-3,4,5-triol; (2R,3R,4S,5S,6R)-2-[[(3S,8S,9S,10R,13R,14S,17R)-17-[(E,1R,4S)-4-ethyl-1,5-dimethylhex-2-enyl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-yl]oxy]-6-(hydroxymethyl)tetrahydropyran-3,4,5-triol; AIDS398412; (2R,3R,4S,5S,6R)-2-[[(3S,8S,9S,10R,13R,14S,17R)-17-[(E,2R,5S)-5-ethyl-6-methylhept-3-en-2-yl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-yl]oxy]-6-(hydroxymethyl)oxane-3,4,5-triol; (2R,3R,4S,5S,6R)-2-[[(3S,8S,9S,10R,13R,14S,17R)-17-[(E,2R,5S)-5-ethyl-6-methyl-hept-3-en-2-yl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-yl]oxy]-6-(hydroxymethyl)oxane-3,4,5-triol; (2R,3R,4S,5S,6R)-2-[[(3S,8S,9S,10R,13R,14S,17R)-17-[(E,1R,4S)-4-ethyl-1,5-dimethyl-hex-2-enyl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-yl]oxy]-6-(hydroxymethyl)tetrahydropyran-3,4,5-triol"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN044888",
+      "Stigmasta-5,22-dien-3-O-.beta.-D-glucopyranoside",
+      "AIDS-398412; (2R,3R,4S,5S,6R)-2-[[(3S,8S,9S,10R,13R,14S,17R)-17-[(E,1R,4S)-4-ethyl-1,5-dimethyl-hex-2-enyl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-yl]oxy]-6-methylol-tetrahydropyran-3,4,5-triol; (2R,3R,4S,5S,6R)-2-[[(3S,8S,9S,10R,13R,14S,17R)-17-[(E,1R,4S)-4-ethyl-1,5-dimethylhex-2-enyl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-yl]oxy]-6-(hydroxymethyl)tetrahydropyran-3,4,5-triol; AIDS398412; (2R,3R,4S,5S,6R)-2-[[(3S,8S,9S,10R,13R,14S,17R)-17-[(E,2R,5S)-5-ethyl-6-methylhept-3-en-2-yl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-yl]oxy]-6-(hydroxymethyl)oxane-3,4,5-triol; (2R,3R,4S,5S,6R)-2-[[(3S,8S,9S,10R,13R,14S,17R)-17-[(E,2R,5S)-5-ethyl-6-methyl-hept-3-en-2-yl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-yl]oxy]-6-(hydroxymethyl)oxane-3,4,5-triol; (2R,3R,4S,5S,6R)-2-[[(3S,8S,9S,10R,13R,14S,17R)-17-[(E,1R,4S)-4-ethyl-1,5-dimethyl-hex-2-enyl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-yl]oxy]-6-(hydroxymethyl)tetrahydropyran-3,4,5-triol",
+      "C35H58O6",
+      "CCC(C=CC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)OC5C(C(C(C(O5)CO)O)O)O)C)C)C(C)C",
+      "574.83",
+      "21.31817387",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "19716-26-8"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT09152",
+        "title": "SMIT09152"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL007777"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/6602508",
+        "title": "6602508"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001211&label=Herb",
+        "title": "HERB001211"
+      },
+      "DANG SHEN",
+      "党参",
+      "root Pilose Asiabell",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Codonopsis pilosulae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001246&label=Herb",
+        "title": "HERB001246"
+      },
+      "DI FENG PI",
+      "地枫皮",
+      "Difengpi Bark",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Cortex Illicii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001626&label=Herb",
+        "title": "HERB001626"
+      },
+      "FANG JI",
+      "防己",
+      "Root of Fourstamen Stephania",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Stephaniae Tetrandrae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NA"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN023260",
+      "demethylte trandrine",
+      "C37H40N2O6",
+      "CN1CCC2=CC(=C3C=C2C1CC4=CC=C(C=C4)OC5=C(C=CC(=C5)CC6C7=C(O3)C(=C(C=C7CCN6C)OC)O)OC)OC",
+      "608.7",
+      {
+        "link": "https://www.symmap.org/detail/SMIT02146",
+        "title": "SMIT02146"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/24464/",
+        "title": "24464"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "5047"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/321937",
+        "title": "321937"
+      }
+    ]
+  ]
+}

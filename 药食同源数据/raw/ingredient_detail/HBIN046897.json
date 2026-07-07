@@ -1,0 +1,206 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000887&label=Herb",
+        "title": "HERB000887"
+      },
+      "CHUAN XIONG",
+      "川芎",
+      "Chuanxiong rhizome, Szechuan lovage root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix chuanxiong；Rhizoma Chuanxiong"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000903&label=Herb",
+        "title": "HERB000903"
+      },
+      "CHUN PI",
+      "椿皮",
+      "Ailanthus bark, Tree of heaven bark",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Cortex Tooe Sinensis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001247&label=Herb",
+        "title": "HERB001247"
+      },
+      "DI FU ZI",
+      "地肤子",
+      "fruit of Belvedere",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Kochiae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001754&label=Herb",
+        "title": "HERB001754"
+      },
+      "FU PEN ZI",
+      "覆盆子",
+      "Rubi Fructus",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006033&label=Herb",
+        "title": "HERB006033"
+      },
+      "XIANG MAO",
+      "香茅",
+      "Cymbopon Citratus(D C.) Stapf",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "ZINC6920386; Tomatex; BC245597; ST24050238; Lauryl-Stearyl Alcohol; KS-000010TX; M980; LS-168614; 1-Triacontanol, >=98% (capillary GC); 1-Triacontanol (Melissyl alcohol) 100 ng/microL in Methyl-tert. butyl ether; AI3-20480; n-Triacontanol; ACMC-1AOYD; EINECS 209-794-5; LMFA05000006; ANW-33238; AN-21553; TR-020599; MolPort-003-939-655; W-105327; NSC 405588; Melissyl alcohol; Prosopol; Triacontanol-1; 1-Hydroxytriacontane; ACM28351055; Triacontanol; 593-50-0; 593T500; NSC 402492; NSC-402492; UNII-767RD0E90B; NSC-405588; FT-0608318; Myricyl alcohol; KB-161510; AS-14880; Nutron; 1-Triacontanol; C08392; Triacontyl alcohol; 1-Triacontanol, 96%; BG01729115; UNII-4MCU204619 component REZQBEBOWJAQKS-UHFFFAOYSA-N; ST51054120; SCHEMBL16858; MFCD00002963; TRA0006101; NSC402492; C30H62O; triacontanyl alcohol; SR-01000946625-1; NSC405588; SR-01000946625; CTK1A7104; AKOS015902949; 767RD0E90B; AC1Q7CQF; Triacontan-1-ol; 4CH-024695; Myricyl alcohol (VAN); AC1L2AU1; AX8060520; REZQBEBOWJAQKS-UHFFFAOYSA-N; AK116657; 67905-26-4 (aluminum salt); HMS3649O04; KSC207C0J; W2062; triacontanol ; DTXSID5029188; 28351-05-5; A832277; RTR-020599; miraculan; I14-1926; CHEBI:28409; CHEMBL1079147"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN046897",
+      "triacontanol",
+      "ZINC6920386; Tomatex; BC245597; ST24050238; Lauryl-Stearyl Alcohol; KS-000010TX; M980; LS-168614; 1-Triacontanol, >=98% (capillary GC); 1-Triacontanol (Melissyl alcohol) 100 ng/microL in Methyl-tert. butyl ether; AI3-20480; n-Triacontanol; ACMC-1AOYD; EINECS 209-794-5; LMFA05000006; ANW-33238; AN-21553; TR-020599; MolPort-003-939-655; W-105327; NSC 405588; Melissyl alcohol; Prosopol; Triacontanol-1; 1-Hydroxytriacontane; ACM28351055; Triacontanol; 593-50-0; 593T500; NSC 402492; NSC-402492; UNII-767RD0E90B; NSC-405588; FT-0608318; Myricyl alcohol; KB-161510; AS-14880; Nutron; 1-Triacontanol; C08392; Triacontyl alcohol; 1-Triacontanol, 96%; BG01729115; UNII-4MCU204619 component REZQBEBOWJAQKS-UHFFFAOYSA-N; ST51054120; SCHEMBL16858; MFCD00002963; TRA0006101; NSC402492; C30H62O; triacontanyl alcohol; SR-01000946625-1; NSC405588; SR-01000946625; CTK1A7104; AKOS015902949; 767RD0E90B; AC1Q7CQF; Triacontan-1-ol; 4CH-024695; Myricyl alcohol (VAN); AC1L2AU1; AX8060520; REZQBEBOWJAQKS-UHFFFAOYSA-N; AK116657; 67905-26-4 (aluminum salt); HMS3649O04; KSC207C0J; W2062; triacontanol ; DTXSID5029188; 28351-05-5; A832277; RTR-020599; miraculan; I14-1926; CHEBI:28409; CHEMBL1079147",
+      "C30H62O",
+      "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCO",
+      "438.81",
+      "11.19231694",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "178823-24-0"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT00075",
+        "title": "SMIT00075"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/24172/",
+        "title": "24172"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL000769"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "20813"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/68972",
+        "title": "68972"
+      }
+    ]
+  ]
+}

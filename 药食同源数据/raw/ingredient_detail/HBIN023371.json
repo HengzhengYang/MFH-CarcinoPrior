@@ -1,0 +1,211 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003039&label=Herb",
+        "title": "HERB003039"
+      },
+      "JU JU",
+      "菊苣",
+      "Chicory Herb",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Cichorii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003045&label=Herb",
+        "title": "HERB003045"
+      },
+      "JU QU",
+      "NA",
+      "Common Chicory",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Cichorium intybus"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006488&label=Herb",
+        "title": "HERB006488"
+      },
+      "YE TAI",
+      "椰泰",
+      "NA",
+      "NA"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006490&label=Herb",
+        "title": "HERB006490"
+      },
+      "YE WO JU",
+      "野莴苣",
+      "Prickly Lettuce",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Lactuca serriola"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006689&label=Herb",
+        "title": "HERB006689"
+      },
+      "YOU MU",
+      "柚木",
+      "Common Teak",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Tectona grandis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB007151&label=Herb",
+        "title": "HERB007151"
+      },
+      "ZI BAI PI",
+      "梓白皮",
+      "Ovate Catalpa Bast",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Catalpa ovata"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "2-(3-methylbut-2-enyl)-1,4-naphthoquinone; 2-(3-methylbut-2-enyl)naphthalene-1,4-dione; deoxylapachol; 3568-90-9; NSC123507; NSC 123507; 1,4-Naphthalenedione, 2-(3-methyl-2-butenyl)-; C10325"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN023371",
+      "Deoxylapachol",
+      "2-(3-methylbut-2-enyl)-1,4-naphthoquinone; 2-(3-methylbut-2-enyl)naphthalene-1,4-dione; deoxylapachol; 3568-90-9; NSC123507; NSC 123507; 1,4-Naphthalenedione, 2-(3-methyl-2-butenyl)-; C10325",
+      "C15H14O2",
+      "CC(=CCC1=CC(=O)C2=CC=CC=C2C1=O)C",
+      "226.27",
+      "24.37642426",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "3568-90-9"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT09805",
+        "title": "SMIT09805"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/5187/",
+        "title": "5187"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL008532"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/97448",
+        "title": "97448"
+      }
+    ]
+  ]
+}

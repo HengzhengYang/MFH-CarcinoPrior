@@ -1,0 +1,164 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000409&label=Herb",
+        "title": "HERB000409"
+      },
+      "BEI WU WEI ZI",
+      "北五味子",
+      "Schisandrae Chinensis Fructus",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000508&label=Herb",
+        "title": "HERB000508"
+      },
+      "BO HE",
+      "薄荷",
+      "Mentha, Peppermint",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "herba Menthae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000594&label=Herb",
+        "title": "HERB000594"
+      },
+      "CAO GUO",
+      "草果",
+      "Tsaoko",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus tsaoko"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "UNII-FNP3S9MG30; DTXSID9062437; U592; CHEMBL451328; AKOS015901935; 2-UNDECENAL; Undec-2(E)-enal; trans-2-Undecenal, >=95%, FG; 2-Undecenal, (2E)-; EINECS 219-564-6; ZINC1849946; RT-001337; trans-2-Undecen-1-al; EINECS 215-656-5; UNII-090E982ABR component PANBRUWVURLWGY-MDZDMXLPSA-N; ACM2463776; Aldehyde iso C-11; AN-20835; KB-176726; A817413; UNII-F851M0LYFD component PANBRUWVURLWGY-MDZDMXLPSA-N; AI3-36265; (2E)-UNDEC-2-ENOYL; FNP3S9MG30; (e)-2-undecen-1-al; ZINC585138973; 53448-07-0; 2-Undecenal, (E)-; (E)-2-undecenal; 2-Undecenal, E-; (2E)-undec-2-enal; 2-Undecenal, trans; FEMA 3423; MFCD00014680; 2(E)-Undecenal; AN-22318; (E)-Undec-2-enal; 2463-77-6; 2-UNDECENAL (HIGH TRANS); (2E)-2-Undecenal; trans-undec-2-enal; EINECS 258-559-3; trans-2-Undecenal; AN-40765; U0046; I14-13669; PANBRUWVURLWGY-MDZDMXLPSA-N; RT-004549; 2-Undecen-1-al; FEMA No. 3423; LMFA06000065; CHEBI:132843; AC1NR23M"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN046666",
+      "trans-2-undecenal",
+      "UNII-FNP3S9MG30; DTXSID9062437; U592; CHEMBL451328; AKOS015901935; 2-UNDECENAL; Undec-2(E)-enal; trans-2-Undecenal, >=95%, FG; 2-Undecenal, (2E)-; EINECS 219-564-6; ZINC1849946; RT-001337; trans-2-Undecen-1-al; EINECS 215-656-5; UNII-090E982ABR component PANBRUWVURLWGY-MDZDMXLPSA-N; ACM2463776; Aldehyde iso C-11; AN-20835; KB-176726; A817413; UNII-F851M0LYFD component PANBRUWVURLWGY-MDZDMXLPSA-N; AI3-36265; (2E)-UNDEC-2-ENOYL; FNP3S9MG30; (e)-2-undecen-1-al; ZINC585138973; 53448-07-0; 2-Undecenal, (E)-; (E)-2-undecenal; 2-Undecenal, E-; (2E)-undec-2-enal; 2-Undecenal, trans; FEMA 3423; MFCD00014680; 2(E)-Undecenal; AN-22318; (E)-Undec-2-enal; 2463-77-6; 2-UNDECENAL (HIGH TRANS); (2E)-2-Undecenal; trans-undec-2-enal; EINECS 258-559-3; trans-2-Undecenal; AN-40765; U0046; I14-13669; PANBRUWVURLWGY-MDZDMXLPSA-N; RT-004549; 2-Undecen-1-al; FEMA No. 3423; LMFA06000065; CHEBI:132843; AC1NR23M",
+      "C11H20O",
+      "CCCCCCCCC=CC=O",
+      "168.28",
+      {
+        "link": "https://www.symmap.org/detail/SMIT01919",
+        "title": "SMIT01919"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/23861/",
+        "title": "23861"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "434"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/5283356",
+        "title": "5283356"
+      }
+    ]
+  ]
+}

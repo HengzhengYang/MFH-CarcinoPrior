@@ -1,0 +1,288 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000066&label=Herb",
+        "title": "HERB000066"
+      },
+      "AI YE",
+      "艾叶",
+      "leaf of Argy Wormwood",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Folium Artemisiae Argyi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001092&label=Herb",
+        "title": "HERB001092"
+      },
+      "DA MA YE ZE LAN",
+      "大麻叶泽兰",
+      "Hemp-agrimony",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Eupatorium cannabinum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001787&label=Herb",
+        "title": "HERB001787"
+      },
+      "GAN JIANG",
+      "干姜",
+      "Dried Ginger",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Zingiberis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003399&label=Herb",
+        "title": "HERB003399"
+      },
+      "LIAO GAO BEN",
+      "辽藁本",
+      "Jehol Ligusticum",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Ligusticum jeholense"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003979&label=Herb",
+        "title": "HERB003979"
+      },
+      "MING DANG SHEN",
+      "明党参",
+      "Medicinal Changium",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Changium smyrnioides"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005017&label=Herb",
+        "title": "HERB005017"
+      },
+      "SHENG JIANG",
+      "生姜",
+      "Fresh Ginger",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Zingiberis Recens"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006784&label=Herb",
+        "title": "HERB006784"
+      },
+      "YUAN SUI",
+      "芫荽",
+      "Coriandri Sativi Herba",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "3,7-Dimethyl-1-propanoate(2Z)-2,6-Octadien-1-ol; FAS39QE02Z; 2,6-Octadien-1-ol, 3,7-dimethyl-, propanoate, (Z)-; DB-040664; ZINC1851030; LS-2982; 3,7-Dimethyl-2,6-octadien-1-yl propionate, cis-; CJ-30572; UNII-FAS39QE02Z; cis-3,7-Dimethyl-2,6-octadien-1-yl propanoate; cis-3,7-Dimethyl-2,6-octadien-1-yl propionate; EINECS 203-345-7; (2Z)-3,7-Dimethyl-2,6-octadienyl propionate #; (Z)-3,7-Dimethyl-2,6-octadienyl propanoate; AKOS015901976; Propionic acid, 3,7-dimethyl-2,6-octadien-1-yl ester; 3,7-Dimethyl-2,6-octadien-1-yl propanoate, cis-; I14-13371; 105-91-9; cis-3,7-Dimethyl-2,6-octadien-1-ol, propionate; FEMA No. 2777; Propionic acid, neryl ester; Nerylpropionate; SCHEMBL1532465; (Z)-3,7-dimethyl-2,6-octadien-1-yl propanoate; 3,7-Dimethyl-2,6-octadienyl propionate, (Z)-; Neryl propionate (natural); nerylpropionate; [(2Z)-3,7-dimethylocta-2,6-dienyl] propanoate; propanoic acid [(2Z)-3,7-dimethylocta-2,6-dienyl] ester; (2Z)-3,7-dimethylocta-2,6-dien-1-yl propanoate; propionic acid [(2Z)-3,7-dimethylocta-2,6-dienyl] ester; 3,7-Dimethyl-propanoate(2Z)-2,6-Octadien-1-ol; neryl propionate; 2,6-Octadien-1-ol, 3,7-dimethyl-, propanoate, (2Z)-; BYCHQEILESTMQU-XFXZXTDPSA-N; 3,7-Dimethyl-propanoate(Z)-2,6-Octadien-1-ol; (Z)-3,7-Dimethyl-2,6-octadienyl propionate; 3,7-Dimethyl-propionate(Z)-2,6-Octadien-1-ol; 2,6-Octadien-1-ol, 3,7-dimethyl-, 1-propanoate, (2Z)-; Neryl propanoate; FEMA 2777; LMFA07010976; 3,7-Dimethyl-2,6-octadienyl propanoate, (Z)-; 2,6-OCTADIEN-1-OL, 3,7-DIMETHYL-, PRO"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000031&label=Target",
+        "title": "HBTAR000031"
+      },
+      "ACHE",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00165"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003295&label=Target",
+        "title": "HBTAR003295"
+      },
+      "PTGS2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00094"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002737&label=Target",
+        "title": "HBTAR002737"
+      },
+      "NOS2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00003"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003761&label=Target",
+        "title": "HBTAR003761"
+      },
+      "SLC6A2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00186"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN036826",
+      "Neryl propionate",
+      "3,7-Dimethyl-1-propanoate(2Z)-2,6-Octadien-1-ol; FAS39QE02Z; 2,6-Octadien-1-ol, 3,7-dimethyl-, propanoate, (Z)-; DB-040664; ZINC1851030; LS-2982; 3,7-Dimethyl-2,6-octadien-1-yl propionate, cis-; CJ-30572; UNII-FAS39QE02Z; cis-3,7-Dimethyl-2,6-octadien-1-yl propanoate; cis-3,7-Dimethyl-2,6-octadien-1-yl propionate; EINECS 203-345-7; (2Z)-3,7-Dimethyl-2,6-octadienyl propionate #; (Z)-3,7-Dimethyl-2,6-octadienyl propanoate; AKOS015901976; Propionic acid, 3,7-dimethyl-2,6-octadien-1-yl ester; 3,7-Dimethyl-2,6-octadien-1-yl propanoate, cis-; I14-13371; 105-91-9; cis-3,7-Dimethyl-2,6-octadien-1-ol, propionate; FEMA No. 2777; Propionic acid, neryl ester; Nerylpropionate; SCHEMBL1532465; (Z)-3,7-dimethyl-2,6-octadien-1-yl propanoate; 3,7-Dimethyl-2,6-octadienyl propionate, (Z)-; Neryl propionate (natural); nerylpropionate; [(2Z)-3,7-dimethylocta-2,6-dienyl] propanoate; propanoic acid [(2Z)-3,7-dimethylocta-2,6-dienyl] ester; (2Z)-3,7-dimethylocta-2,6-dien-1-yl propanoate; propionic acid [(2Z)-3,7-dimethylocta-2,6-dienyl] ester; 3,7-Dimethyl-propanoate(2Z)-2,6-Octadien-1-ol; neryl propionate; 2,6-Octadien-1-ol, 3,7-dimethyl-, propanoate, (2Z)-; BYCHQEILESTMQU-XFXZXTDPSA-N; 3,7-Dimethyl-propanoate(Z)-2,6-Octadien-1-ol; (Z)-3,7-Dimethyl-2,6-octadienyl propionate; 3,7-Dimethyl-propionate(Z)-2,6-Octadien-1-ol; 2,6-Octadien-1-ol, 3,7-dimethyl-, 1-propanoate, (2Z)-; Neryl propanoate; FEMA 2777; LMFA07010976; 3,7-Dimethyl-2,6-octadienyl propanoate, (Z)-; 2,6-OCTADIEN-1-OL, 3,7-DIMETHYL-, PRO",
+      "C13H22O2",
+      "CCC(=O)OCC=C(C)CCC=C(C)C",
+      "210.31",
+      "36.64460123",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "105-91-9"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT04699",
+        "title": "SMIT04699"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/15506/",
+        "title": "15506"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL002472"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "2333"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/5365982",
+        "title": "5365982"
+      }
+    ]
+  ]
+}

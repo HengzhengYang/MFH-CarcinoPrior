@@ -1,0 +1,326 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000775&label=Herb",
+        "title": "HERB000775"
+      },
+      "CHEN PI",
+      "陈皮",
+      "Dried Tangerine Peel",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Pericarpium Citri Reticulatae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000786&label=Herb",
+        "title": "HERB000786"
+      },
+      "CHENG ZI",
+      "蛏子",
+      "Fragrant Citrus",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Citrus junos"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000787&label=Herb",
+        "title": "HERB000787"
+      },
+      "CHENG ZI HE",
+      "NA",
+      "Fragrant Citrus Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Citrus junos"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001744&label=Herb",
+        "title": "HERB001744"
+      },
+      "FU JU",
+      "福橘",
+      "Blessing Citrus Equivalent plant: Citrus erythrosa",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Citrus tangemna"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002405&label=Herb",
+        "title": "HERB002405"
+      },
+      "HU ZHANG",
+      "虎杖",
+      "rhizome of Gaint Knotweed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Polygoni cuspidati"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002483&label=Herb",
+        "title": "HERB002483"
+      },
+      "HUANG BAI",
+      "黄柏",
+      "Amur Corktree Equivalent plant: Phellodendron chinense , Phellodendron chinense var Glabriusculum, Phellodendron amurense var wilsonii",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Phellodendron amurense"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002489&label=Herb",
+        "title": "HERB002489"
+      },
+      "HUANG BO",
+      "黄柏",
+      "Phellodendron bark",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Cortex Phellodendri"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003027&label=Herb",
+        "title": "HERB003027"
+      },
+      "JU HE",
+      "橘核",
+      "Tangerine Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Citri Reticulatae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004412&label=Herb",
+        "title": "HERB004412"
+      },
+      "PU TAO YOU",
+      "葡萄柚",
+      "Grapefruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Citrus paradisi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004996&label=Herb",
+        "title": "HERB004996"
+      },
+      "SHEN HUANG DOU",
+      "神黄豆",
+      "Jointwood Senna",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Cassia nodosa"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006600&label=Herb",
+        "title": "HERB006600"
+      },
+      "YIN DU LIAN",
+      "印度莲?",
+      "Neem Tree",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Azadiractica indica"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB007034&label=Herb",
+        "title": "HERB007034"
+      },
+      "ZHI SHI",
+      "枳实",
+      "immature fruit of Seville orange",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Aurantii Immaturus"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB007110&label=Herb",
+        "title": "HERB007110"
+      },
+      "ZHU JU",
+      "NA",
+      "Red Orange",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Citrus erythrosa"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "CHEMBL500167; nomilin ; Nomilin; ZINC42803945"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN037208",
+      "nomilin",
+      "CHEMBL500167; nomilin ; Nomilin; ZINC42803945",
+      "C28H34O9",
+      "CC(=O)OC1CC(=O)OC(C2C1(C3CCC4(C(OC(=O)C5C4(C3(C(=O)C2)C)O5)C6=COC=C6)C)C)(C)C",
+      "514.56",
+      "17.76887777",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "1063-77-0"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT00512",
+        "title": "SMIT00512"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/15646/",
+        "title": "15646"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL002661"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "13350"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/137706495",
+        "title": "137706495"
+      }
+    ]
+  ]
+}

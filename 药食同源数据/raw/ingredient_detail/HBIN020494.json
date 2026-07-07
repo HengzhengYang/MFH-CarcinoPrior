@@ -1,0 +1,235 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001198&label=Herb",
+        "title": "HERB001198"
+      },
+      "DAN YE MAN JING",
+      "单叶蔓荆",
+      "Simpleleaf Shrub Chastetree",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Vitex rotundifolia [Syn. Vitex trifollia var. simplicifolia ]"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002515&label=Herb",
+        "title": "HERB002515"
+      },
+      "HUANG HUA HAO",
+      "黄花蒿",
+      "Sweet Wormwood Equivalent plant: Artemisia apiacea",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Artemisia annua"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003070&label=Herb",
+        "title": "HERB003070"
+      },
+      "JUE MING ZI",
+      "决明子",
+      "Cassia Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Cassiae"
+      },
+      "Semen Sene"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003526&label=Herb",
+        "title": "HERB003526"
+      },
+      "LU GEN",
+      "芦根",
+      "Reed rhizome ",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Phragmitis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003698&label=Herb",
+        "title": "HERB003698"
+      },
+      "MA WEI LIAN",
+      "马尾莲",
+      "root and rhizome of Manyleaf Meadowrue",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix et Rhizoma Thalictri"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003725&label=Herb",
+        "title": "HERB003725"
+      },
+      "MAN JING ZI",
+      "蔓荆子",
+      "Shrub Chastetree Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Viticis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004217&label=Herb",
+        "title": "HERB004217"
+      },
+      "NIU WEI HAO",
+      "牛尾蒿",
+      "Herba Artemisiae subdigitatae",
+      "NA"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004520&label=Herb",
+        "title": "HERB004520"
+      },
+      "QING HAO",
+      "青蒿",
+      "Sweet Wormwood Herb",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Artemisiae Annuae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "2-(3,4-dihydroxyphenyl)-5-hydroxy-3,6,7-trimethoxy-4H-chromen-4-one; MCULE-2089145810; 4H-1-Benzopyran-4-one,2-(3,4-dihydroxyphenyl)-5-hydroxy-3,6,7-trimethoxy-; chrysosplenol-D; ZINC6017650; chrysosplenol-d; NCGC00169741-01; AC1NQXFZ; 3',4',5,6,7-Pentahydroxy-3-methoxyflavone, derivative of; FT-0699378; SCHEMBL11133546; AKOS032948420; CHEMBL491366; 3',4',5-Trihydroxy-3,6,7-trimethoxyflavone; LMPK12112998; ACon1_001031; NP-001076; BRD-K10956860-001-01-3; Chrysosplenol D; BDBM50412281; 14965-20-9; 3,6,7-trimethylquercetagetin; C04552; 5,3',4'-Trihydroxy-3,6,7-trimethoxyflavone; 5,3',4'-trihydroxy 3,6,7-trimethylquercetagetin; MEGxp0_000419; MolPort-000-767-868; NCGC00169741-02!2-(3,4-dihydroxyphenyl)-5-hydroxy-3,6,7-trimethoxychromen-4-one; W1689; 2-(3,4-dihydroxyphenyl)-5-hydroxy-3,6,7-trimethoxychromen-4-one; 4CN-1402; Quercetagetin 3,6,7-Trimethyl ether; CHEBI:18016; Flavone, 3',4',5-trihydroxy-3,6,7-trimethoxy-"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN020494",
+      "chrysosplenol d",
+      "2-(3,4-dihydroxyphenyl)-5-hydroxy-3,6,7-trimethoxy-4H-chromen-4-one; MCULE-2089145810; 4H-1-Benzopyran-4-one,2-(3,4-dihydroxyphenyl)-5-hydroxy-3,6,7-trimethoxy-; chrysosplenol-D; ZINC6017650; chrysosplenol-d; NCGC00169741-01; AC1NQXFZ; 3',4',5,6,7-Pentahydroxy-3-methoxyflavone, derivative of; FT-0699378; SCHEMBL11133546; AKOS032948420; CHEMBL491366; 3',4',5-Trihydroxy-3,6,7-trimethoxyflavone; LMPK12112998; ACon1_001031; NP-001076; BRD-K10956860-001-01-3; Chrysosplenol D; BDBM50412281; 14965-20-9; 3,6,7-trimethylquercetagetin; C04552; 5,3',4'-Trihydroxy-3,6,7-trimethoxyflavone; 5,3',4'-trihydroxy 3,6,7-trimethylquercetagetin; MEGxp0_000419; MolPort-000-767-868; NCGC00169741-02!2-(3,4-dihydroxyphenyl)-5-hydroxy-3,6,7-trimethoxychromen-4-one; W1689; 2-(3,4-dihydroxyphenyl)-5-hydroxy-3,6,7-trimethoxychromen-4-one; 4CN-1402; Quercetagetin 3,6,7-Trimethyl ether; CHEBI:18016; Flavone, 3',4',5-trihydroxy-3,6,7-trimethoxy-",
+      "C18H16O8",
+      "COC1=C(C(=C2C(=C1)OC(=C(C2=O)OC)C3=CC(=C(C=C3)O)O)O)OC",
+      "360.3",
+      {
+        "link": "https://www.symmap.org/detail/SMIT14665",
+        "title": "SMIT14665"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/3624/",
+        "title": "3624"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "5720"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/5280699",
+        "title": "5280699"
+      }
+    ]
+  ]
+}

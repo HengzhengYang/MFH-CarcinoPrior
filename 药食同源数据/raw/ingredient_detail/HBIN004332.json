@@ -1,0 +1,229 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002370&label=Herb",
+        "title": "HERB002370"
+      },
+      "HU JI SHENG",
+      "槲寄生",
+      "Colored Mistletoe Herb",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Visci"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003031&label=Herb",
+        "title": "HERB003031"
+      },
+      "JU HUA",
+      "菊花",
+      "Chrysanthemum Flower",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Chrysanthemi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003565&label=Herb",
+        "title": "HERB003565"
+      },
+      "LUAN YE WA ER TENG",
+      "卵叶娃儿藤",
+      "Ovateleaf Tylophora Equivalent plant: Gerbera piloselloides, Cynanchum versicolor, Cynanchum atratum , Cynanchum ascyrifolium",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Tylophora ovata"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004694&label=Herb",
+        "title": "HERB004694"
+      },
+      "ROU GUI",
+      "肉桂",
+      "Cassia Bark",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Cortex Cinmomi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004973&label=Herb",
+        "title": "HERB004973"
+      },
+      "SHE GAN",
+      "射干",
+      "Blackberrylily Rhizome",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Belamcandae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005573&label=Herb",
+        "title": "HERB005573"
+      },
+      "TU MAO DONG QING",
+      "秃毛冬青",
+      "Glabrous Holly",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Ilex pubescens var. glaber"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006258&label=Herb",
+        "title": "HERB006258"
+      },
+      "XU CHANG QING",
+      "徐长卿",
+      "Paniculate Swallowwort Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Cynchi Paniculati"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "W-100356; NSC10883; Resorcinol, 4-acetyl-; KB-17586; AC1Q5ED3; AC1L1NR7; TC-067541; ACMC-209r36; NSC-10883; 2',4'-Dihydroxyacetophenone, 99%; 2,4,-dihydroxyacetophenone; AKOS 90593; 2',4'-DIHYDROXYACETOPHENONE; 1-(2,4-Dihydroxyphenyl)ethanone, 9CI; ST053782; SCHEMBL26357; 4-Acetylresorcinol; beta-Resacetophenone; 2,4-Dihydroxyacetophenone; SULYEHHGGXARJS-UHFFFAOYSA-N; NSC 10883; AN-15263; FS-3456; 1-Acetyl-2,4-dihydroxybenzene; ZB001051; 1-(2,4-Dihydroxyphenyl)ethanone; 2,4-dihydroxyacetophenone; 1,3-Dihydroxy-4-acetylbenzene; .beta.-Resacetophenone; Acetophenone, 2',4'-dihydroxy-; BC676988; BG00600671; AS01140; BIDD:ER0659; AB1002103; SC-07232; MFCD00002279; 4-Acetyl-1,3-benzenediol; NSC-37559; 2,4-Dihydroxy Acetophenone; EINECS 201-945-3; KSC448A9T; AC-1105; TRA0025245; DTXSID4058998; 2,4-DIHYDROOXYACETOPHENONE; ANW-39376; FT-0610122; 2'4'-dihydroxyacetophenone; Ethanone, 1-(2,4-dihydroxyphenyl)-; SBB040836; 1-(2,4-dihydroxy-phenyl)-ethanone; ST2414924; 89-84-9; STK084318; Resoacetophenone; RTC-067541; UC3V356VZC; F1995-0239; 4CN-0699; Resacetophenone; 2,4-dihydroxy actophenone; PubChem3375; 2',4'-Dihydroxyacetophenon; D0561; BBL012128; WLN: QR CQ DV1; 1-Acetyl-2,4-dihydroxybenzene; 4-Acetylresorcinol; Resacetophenone; BRN 1282505; BB_SC-6691; 2,4-dihyroxyacetophenone; MolPort-000-482-777; AKOS BBS-00004294; I01-2131; AC1Q1JHT; AK-50224; ZINC38028; C03663; InChI=1/C8H8O3/c1-5(9)7-3-2-6(10)4-8(7)11/h2-4,10-11H,1H; 1-(2,4-dihydroxyphenyl)ethan-1-one; CS-W008599; TL8005791; BD"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN004332",
+      "2,4-dihydroxy acetophenone",
+      "W-100356; NSC10883; Resorcinol, 4-acetyl-; KB-17586; AC1Q5ED3; AC1L1NR7; TC-067541; ACMC-209r36; NSC-10883; 2',4'-Dihydroxyacetophenone, 99%; 2,4,-dihydroxyacetophenone; AKOS 90593; 2',4'-DIHYDROXYACETOPHENONE; 1-(2,4-Dihydroxyphenyl)ethanone, 9CI; ST053782; SCHEMBL26357; 4-Acetylresorcinol; beta-Resacetophenone; 2,4-Dihydroxyacetophenone; SULYEHHGGXARJS-UHFFFAOYSA-N; NSC 10883; AN-15263; FS-3456; 1-Acetyl-2,4-dihydroxybenzene; ZB001051; 1-(2,4-Dihydroxyphenyl)ethanone; 2,4-dihydroxyacetophenone; 1,3-Dihydroxy-4-acetylbenzene; .beta.-Resacetophenone; Acetophenone, 2',4'-dihydroxy-; BC676988; BG00600671; AS01140; BIDD:ER0659; AB1002103; SC-07232; MFCD00002279; 4-Acetyl-1,3-benzenediol; NSC-37559; 2,4-Dihydroxy Acetophenone; EINECS 201-945-3; KSC448A9T; AC-1105; TRA0025245; DTXSID4058998; 2,4-DIHYDROOXYACETOPHENONE; ANW-39376; FT-0610122; 2'4'-dihydroxyacetophenone; Ethanone, 1-(2,4-dihydroxyphenyl)-; SBB040836; 1-(2,4-dihydroxy-phenyl)-ethanone; ST2414924; 89-84-9; STK084318; Resoacetophenone; RTC-067541; UC3V356VZC; F1995-0239; 4CN-0699; Resacetophenone; 2,4-dihydroxy actophenone; PubChem3375; 2',4'-Dihydroxyacetophenon; D0561; BBL012128; WLN: QR CQ DV1; 1-Acetyl-2,4-dihydroxybenzene; 4-Acetylresorcinol; Resacetophenone; BRN 1282505; BB_SC-6691; 2,4-dihyroxyacetophenone; MolPort-000-482-777; AKOS BBS-00004294; I01-2131; AC1Q1JHT; AK-50224; ZINC38028; C03663; InChI=1/C8H8O3/c1-5(9)7-3-2-6(10)4-8(7)11/h2-4,10-11H,1H; 1-(2,4-dihydroxyphenyl)ethan-1-one; CS-W008599; TL8005791; BD",
+      "C8H8O3",
+      "CC(=O)C1=C(C=C(C=C1)O)O",
+      "152.15",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "89-84-9"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT02375",
+        "title": "SMIT02375"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/24993/",
+        "title": "24993"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "8898"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/6990",
+        "title": "6990"
+      }
+    ]
+  ]
+}

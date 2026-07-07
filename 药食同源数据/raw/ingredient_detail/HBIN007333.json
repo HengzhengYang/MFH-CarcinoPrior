@@ -1,0 +1,317 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000884&label=Herb",
+        "title": "HERB000884"
+      },
+      "CHUAN XIN LIAN",
+      "穿心莲",
+      "all-grass of Common Androgrphis",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba andrographitis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002962&label=Herb",
+        "title": "HERB002962"
+      },
+      "JIN YIN HUA",
+      "金银花",
+      "Honeysuckle Flower",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Lonicerae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "3,4-dicaffeoylquinic acid"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000068&label=Disease",
+        "title": "HBDIS000068"
+      },
+      "Tumors of Adrenal Cortex",
+      "2.60642937708555e-05",
+      "0.000565573998880092"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000931&label=Disease",
+        "title": "HBDIS000931"
+      },
+      "Endometrial Neoplasms",
+      "0.000362393930698626",
+      "0.00393703673883121"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002596&label=Disease",
+        "title": "HBDIS002596"
+      },
+      "Respiratory Distress Syndrome, Adult",
+      "0.000701041786062747",
+      "0.00617870474418988"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003426&label=Disease",
+        "title": "HBDIS003426"
+      },
+      "Benign Neoplasm",
+      "0.00061578147124693",
+      "0.00568039054321356"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007959&label=Disease",
+        "title": "HBDIS007959"
+      },
+      "Complications of Diabetes Mellitus",
+      "0.000254390013385644",
+      "0.00306382012337489"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014006&label=Disease",
+        "title": "HBDIS014006"
+      },
+      "Papillary renal cell carcinoma type 2",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016342&label=Disease",
+        "title": "HBDIS016342"
+      },
+      "Hypoprebetalipoproteinemia, Acanthocytosis, Retinitis Pigmentosa, And Pallidal Degeneration",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020986&label=Disease",
+        "title": "HBDIS020986"
+      },
+      "Nonalcoholic Steatohepatitis",
+      "0.000787379759178707",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007958&label=Disease",
+        "title": "HBDIS007958"
+      },
+      "Eye disorder due to diabetes mellitus",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014103&label=Disease",
+        "title": "HBDIS014103"
+      },
+      "Grass allergy",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014305&label=Disease",
+        "title": "HBDIS014305"
+      },
+      "Diabetic macroangiopathy",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014374&label=Disease",
+        "title": "HBDIS014374"
+      },
+      "Potassium Deficiency Disorder",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015842&label=Disease",
+        "title": "HBDIS015842"
+      },
+      "HYPOPHOSPHATEMIC BONE DISEASE",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020084&label=Disease",
+        "title": "HBDIS020084"
+      },
+      "Age-related cortical cataract",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000148&label=Target",
+        "title": "HBTAR000148"
+      },
+      "AKR1B1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8912/",
+          "title": "TCMID:8912"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00288"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR008694&label=Target",
+        "title": "HBTAR008694"
+      },
+      "AKR1B10",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/7960/",
+          "title": "TCMID:7960"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN007333",
+      "3,4-Dicaffeoylquinic acid",
+      "3,4-dicaffeoylquinic acid",
+      "C25H24O12",
+      "C1C(C(C(CC1(C(=O)O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O)OC(=O)C=CC3=CC(=C(C=C3)O)O)O",
+      "516.45",
+      "1.709078457",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "14534-61-3"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT05203",
+        "title": "SMIT05203"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/40934/",
+        "title": "40934"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL003067"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "21404"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/10324242",
+        "title": "10324242"
+      }
+    ]
+  ]
+}

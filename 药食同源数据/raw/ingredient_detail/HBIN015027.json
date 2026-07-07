@@ -1,0 +1,279 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001355&label=Herb",
+        "title": "HERB001355"
+      },
+      "DONG GUA PI",
+      "冬瓜皮",
+      "Chinese Waxgourd Peel",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Exocarpium Benincasae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001410&label=Herb",
+        "title": "HERB001410"
+      },
+      "DU ZHONG YE",
+      "杜仲叶",
+      "Eucommiae Folium",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001924&label=Herb",
+        "title": "HERB001924"
+      },
+      "GOU TENG",
+      "钩藤",
+      "Gambir Plant",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Ramulus Uncariae cum Uncis"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "9078AF; ZINC53174616; MolPort-039-052-713; BDBM50030622; UNII-1E21YYE0UM; AC1LOQX5; 642-17-1; D03DMN; BG01065957; Oxayohimban-16-carboxylic acid, 16,17-didehydro-19-methyl-, methyl ester, (3beta,19alpha,20alpha)-; SCHEMBL563799; (7aS,8S,11aS,12aR)-8-Methyl-5,6,7a,8,11a,12,12a,13-octahydro-7H-9-oxa-6a,13-diaza-indeno[2,1-a]anthracene-11-carboxylic acid methyl ester; METHYL (1R,15S,16S,20S)-16-METHYL-17-OXA-3,13-DIAZAPENTACYCLO[11.8.0.0(2),(1)?.0?,?.0(1)?,(2)?]HENICOSA-2(10),4,6,8,18-PENTAENE-19-CARBOXYLATE; PDSP1_001665; 4H-Indolo(2,3-a)pyrano(3,4-g)quinolizine-1-carboxylic acid, 4a,5,7,8,13,13b,14,14a-octahydro-4-methyl-, methyl ester, (4S,4aS,13bR,14aS)-; CHEMBL122404; C21H24N2O3; 1E21YYE0UM; AKOS032948886"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001075&label=Disease",
+        "title": "HBDIS001075"
+      },
+      "Fibrosis",
+      "0.000175783612027674",
+      "0.00234617427628486"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001263&label=Disease",
+        "title": "HBDIS001263"
+      },
+      "Cardiomegaly",
+      "0.000330001527142058",
+      "0.00367398717178294"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001418&label=Disease",
+        "title": "HBDIS001418"
+      },
+      "Hyperalgesia",
+      "0.000970155619246832",
+      "0.0075352771802409"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009989&label=Disease",
+        "title": "HBDIS009989"
+      },
+      "Mood Disorders",
+      "0.00131139737307757",
+      "0.00911923562189083"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011216&label=Disease",
+        "title": "HBDIS011216"
+      },
+      "Learning Disabilities",
+      "4.58004777559986e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012058&label=Disease",
+        "title": "HBDIS012058"
+      },
+      "Stress induced hyperglycaemia",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014082&label=Disease",
+        "title": "HBDIS014082"
+      },
+      "Cardiac Hypertrophy",
+      "3.4773276545252e-05",
+      "0.000706572976715419"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020490&label=Disease",
+        "title": "HBDIS020490"
+      },
+      "Attention deficit hyperactivity disorder, combined type",
+      "7.51854628005448e-08",
+      "4.75535368823935e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011062&label=Disease",
+        "title": "HBDIS011062"
+      },
+      "vasomotor symptom",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000095&label=Target",
+        "title": "HBTAR000095"
+      },
+      "ADRA2A",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT00103",
+          "title": "SymMap:SMTT00103"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00105"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000097&label=Target",
+        "title": "HBTAR000097"
+      },
+      "ADRA2C",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2601/",
+          "title": "TCMID:2601"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00126"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN015027",
+      "akuammigine",
+      "9078AF; ZINC53174616; MolPort-039-052-713; BDBM50030622; UNII-1E21YYE0UM; AC1LOQX5; 642-17-1; D03DMN; BG01065957; Oxayohimban-16-carboxylic acid, 16,17-didehydro-19-methyl-, methyl ester, (3beta,19alpha,20alpha)-; SCHEMBL563799; (7aS,8S,11aS,12aR)-8-Methyl-5,6,7a,8,11a,12,12a,13-octahydro-7H-9-oxa-6a,13-diaza-indeno[2,1-a]anthracene-11-carboxylic acid methyl ester; METHYL (1R,15S,16S,20S)-16-METHYL-17-OXA-3,13-DIAZAPENTACYCLO[11.8.0.0(2),(1)?.0?,?.0(1)?,(2)?]HENICOSA-2(10),4,6,8,18-PENTAENE-19-CARBOXYLATE; PDSP1_001665; 4H-Indolo(2,3-a)pyrano(3,4-g)quinolizine-1-carboxylic acid, 4a,5,7,8,13,13b,14,14a-octahydro-4-methyl-, methyl ester, (4S,4aS,13bR,14aS)-; CHEMBL122404; C21H24N2O3; 1E21YYE0UM; AKOS032948886",
+      "C21H24N2O3",
+      "CC1C2CN3CCC4=C(C3CC2C(=CO1)C(=O)OC)NC5=CC=CC=C45",
+      "352.4",
+      {
+        "link": "https://www.symmap.org/detail/SMIT01841",
+        "title": "SMIT01841"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/23645/",
+        "title": "23645"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "7068"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/1268096",
+        "title": "1268096"
+      }
+    ]
+  ]
+}

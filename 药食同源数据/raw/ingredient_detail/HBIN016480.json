@@ -1,0 +1,179 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001798&label=Herb",
+        "title": "HERB001798"
+      },
+      "GAN QING TIE XIAN LIAN",
+      "甘青铁线莲",
+      "Tangut Clematis",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Clematis tangutica"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002002&label=Herb",
+        "title": "HERB002002"
+      },
+      "GUANG HUO XIANG",
+      "广藿香",
+      "Pogostemon Cablin (Blanco) Benth.",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004853&label=Herb",
+        "title": "HERB004853"
+      },
+      "SHA REN",
+      "砂仁",
+      "Villous Amomum Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Amomi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005977&label=Herb",
+        "title": "HERB005977"
+      },
+      "XIAN HE CAO",
+      "仙鹤草",
+      "all - grss of Hairyvein Agrimonia",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Agrimoniae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "CHEMBL487995; SR-05000002285; Galactosyl-7-apigenin; EINECS 209-430-5; 5-Hydroxy-2-(4-hydroxyphenyl)-7-(4,5,6-trihydroxy-3-(hydroxymethyl)(2-oxanyloxy))-4H-chromen-4-one; Cosemetin; 5-hydroxy-2-(4-hydroxyphenyl)-7-[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one; COSMOSIIN; 4H-1-Benzopyran-4-one, 7-(beta-D-glucopyranosyloxy)-5-hydroxy-2-(4-hydroxyphenyl)- (9CI); Apigenin, 7-beta-D-glucopyranoside; Apigenin 7-O-beta-D-glucopyranoside; 7-(beta-D-Glucopyranosyloxy)-5-hydroxy-2-(4-hydroxyphenyl)-4H-1-benzopyran-4-one; Cosmosiine; 7-O-(beta-D-Glucosyl)apigenin; Thalictiin; SR-05000002285-3; A831652; Cosmosioside; 23598-21-2; NSC 407303; Apigetrin; NCGC00163513-01; CCG-208379; 62532-75-6; 5-hydroxy-2-(4-hydroxyphenyl)-7-[[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)-2-oxanyl]oxy]-1-benzopyran-4-one; UNII-7OF2S66PCH; SR-05000002285-2; 5-hydroxy-2-(4-hydroxyphenyl)-7-[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydropyran-2-yl]oxy-chromen-4-one; AC1NUZ8G; Apigenin, 7-beta-D-galactopyranoside; 7-[(2S,3R,4S,5R,6R)-6-(hydroxymethyl)-3,4,5-tris(oxidanyl)oxan-2-yl]oxy-2-(4-hydroxyphenyl)-5-oxidanyl-chromen-4-one; 7OF2S66PCH; Cosmosiin (8CI)"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN016480",
+      "apigetrin",
+      "CHEMBL487995; SR-05000002285; Galactosyl-7-apigenin; EINECS 209-430-5; 5-Hydroxy-2-(4-hydroxyphenyl)-7-(4,5,6-trihydroxy-3-(hydroxymethyl)(2-oxanyloxy))-4H-chromen-4-one; Cosemetin; 5-hydroxy-2-(4-hydroxyphenyl)-7-[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one; COSMOSIIN; 4H-1-Benzopyran-4-one, 7-(beta-D-glucopyranosyloxy)-5-hydroxy-2-(4-hydroxyphenyl)- (9CI); Apigenin, 7-beta-D-glucopyranoside; Apigenin 7-O-beta-D-glucopyranoside; 7-(beta-D-Glucopyranosyloxy)-5-hydroxy-2-(4-hydroxyphenyl)-4H-1-benzopyran-4-one; Cosmosiine; 7-O-(beta-D-Glucosyl)apigenin; Thalictiin; SR-05000002285-3; A831652; Cosmosioside; 23598-21-2; NSC 407303; Apigetrin; NCGC00163513-01; CCG-208379; 62532-75-6; 5-hydroxy-2-(4-hydroxyphenyl)-7-[[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)-2-oxanyl]oxy]-1-benzopyran-4-one; UNII-7OF2S66PCH; SR-05000002285-2; 5-hydroxy-2-(4-hydroxyphenyl)-7-[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydropyran-2-yl]oxy-chromen-4-one; AC1NUZ8G; Apigenin, 7-beta-D-galactopyranoside; 7-[(2S,3R,4S,5R,6R)-6-(hydroxymethyl)-3,4,5-tris(oxidanyl)oxan-2-yl]oxy-2-(4-hydroxyphenyl)-5-oxidanyl-chromen-4-one; 7OF2S66PCH; Cosmosiin (8CI)",
+      "C21H20O10",
+      "C1=CC(=CC=C1C2=CC(=O)C3=C(C=C(C=C3O2)OC4C(C(C(C(O4)CO)O)O)O)O)O",
+      "432.4",
+      {
+        "link": "https://www.symmap.org/detail/SMIT19095",
+        "title": "SMIT19095"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/30618/",
+        "title": "30618"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "21625"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/12304093",
+        "title": "12304093"
+      }
+    ]
+  ]
+}

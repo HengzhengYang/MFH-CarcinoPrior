@@ -1,0 +1,213 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003282&label=Herb",
+        "title": "HERB003282"
+      },
+      "LE GE WANG GEN",
+      "了哥王根",
+      "Wikstroemiae Indicae Rasix",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003432&label=Herb",
+        "title": "HERB003432"
+      },
+      "LING MAO XIANG",
+      "灵猫香",
+      "Civet",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Viverra zibetha"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003482&label=Herb",
+        "title": "HERB003482"
+      },
+      "LONG KUI",
+      "龙葵",
+      "Solanum Nigrum Linn.",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003636&label=Herb",
+        "title": "HERB003636"
+      },
+      "MA BIAN CAO",
+      "马鞭草",
+      "European Verbe Herb",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Verbae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003953&label=Herb",
+        "title": "HERB003953"
+      },
+      "MIAN BI XIE",
+      "绵萆薢",
+      "Dioscoreae Septemlo Bae Rhizoma",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004316&label=Herb",
+        "title": "HERB004316"
+      },
+      "PANG DA HAI",
+      "胖大海",
+      "Boat-fruited Sterculia Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Sterculiae Lychnophorae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004719&label=Herb",
+        "title": "HERB004719"
+      },
+      "RU XIANG",
+      "乳香",
+      "Frankincense",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Resi oliani"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NA"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Molecule smile",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id"
+    ],
+    [
+      "HBIN017615",
+      "bassorin",
+      "CC(C)NC1=NC(=NC(=N1)N=[N+]=[N-])SC",
+      {
+        "link": "https://www.symmap.org/detail/SMIT01873",
+        "title": "SMIT01873"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/23740/",
+        "title": "23740"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "6425"
+      }
+    ]
+  ]
+}

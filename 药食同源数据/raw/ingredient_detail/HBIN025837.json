@@ -1,0 +1,644 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000134&label=Herb",
+        "title": "HERB000134"
+      },
+      "BA JI TIAN",
+      "巴戟天",
+      "Morindae Officilis Radix",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005017&label=Herb",
+        "title": "HERB005017"
+      },
+      "SHENG JIANG",
+      "生姜",
+      "Fresh Ginger",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Zingiberis Recens"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "7578-39-4; DIETHYL ETHER; 31683_FLUKA; 91238_FLUKA; Ethylether; Diethylaether; Alcohols, C8-22, ethoxylated; NSC 100036; RCRA waste no. U117; UN1155; 309966_ALDRICH; EINECS 200-467-2; 443549_SIAL; 31680_FLUKA; NSC100036; Amines, C20-22-alkyl, ethoxylated; Etere etilico; 24004_RIEDEL; 34942_RIEDEL; 69227-20-9; InChI=1/C4H10O/c1-3-5-4-2/h3-4H2,1-2H; Ethane, 1,1'-oxybis-; CHEBI:35702; WLN: 2O2; Ether, ethyl; Diaethylaether; Dwuetylowy eter [Polish]; 71011-10-4; (C14-C26) Alkyl alcohol ethoxylate; 676845_ALDRICH; 1,1'-Oxybisethane; 676837_SIAL; 68991-48-0; HSDB 70; 644528_ALDRICH; Aether; Linear (C8-C22) alkyl alcohol, ethoxylated; ZINC01657408; Ether ethylique [French]; Ethyl ether (8CI); Ether (JP15/USP); Ethyl oxide; 60-29-7; Ethyl ether, tech.; 31690_FLUKA; C13240; D01772; Anesthetic ether; 70131-58-7; Alcohols, C7-21, ethoxylated; (C16-C22) Alkyl alcohol, ethoxylate; 74446-43-8; Alcohols, C14-26, ethoxylated; Alcohols, C16-22, ethoxylated; 69013-19-0; Ether [JAN]; 346144_ALDRICH; 31671_FLUKA; Diethyl ether [Anaesthetics, volatile]; 31685_FLUKA; Diethyl ether or ethyl ether [UN1155]  [Flammable liquid]; 31700_FLUKA; Solvent ether; Ether ethylique; Ethoxyethane; Dwuetylowy eter; aether pro narcosi; Pronarcol; Ethyl ether; Diethyl oxide; 3-Oxapentane; 32203_RIEDEL; AI3-24233; Oxyde d'ethyle [French]; (C20-C22)Alkylamine diethoxylate; RCRA waste number U117; 472484_SIAL; Anaesthetic ether; Diaethylaether [German]; 309958_ALDRICH; 1,1'-oxydiethane; Anesthesia ether; 296082_ALDRIC"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000129&label=Disease",
+        "title": "HBDIS000129"
+      },
+      "Amnestic Disorder",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000608&label=Disease",
+        "title": "HBDIS000608"
+      },
+      "Cocaine intoxication",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001460&label=Disease",
+        "title": "HBDIS001460"
+      },
+      "Hypersomnia with Periodic Respiration",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002451&label=Disease",
+        "title": "HBDIS002451"
+      },
+      "Postoperative Complications",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003143&label=Disease",
+        "title": "HBDIS003143"
+      },
+      "Weil Disease",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003183&label=Disease",
+        "title": "HBDIS003183"
+      },
+      "Determination of Death",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004726&label=Disease",
+        "title": "HBDIS004726"
+      },
+      "Induced apnea",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004917&label=Disease",
+        "title": "HBDIS004917"
+      },
+      "Todd Paralysis",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005282&label=Disease",
+        "title": "HBDIS005282"
+      },
+      "Masseter Muscle Spasm",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006283&label=Disease",
+        "title": "HBDIS006283"
+      },
+      "Pseudocholinesterase deficiency",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006499&label=Disease",
+        "title": "HBDIS006499"
+      },
+      "Monoparesis",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007258&label=Disease",
+        "title": "HBDIS007258"
+      },
+      "Persian Gulf Syndrome",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007674&label=Disease",
+        "title": "HBDIS007674"
+      },
+      "Sleep Apnea, Mixed Central and Obstructive",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008161&label=Disease",
+        "title": "HBDIS008161"
+      },
+      "Lockjaw",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008524&label=Disease",
+        "title": "HBDIS008524"
+      },
+      "Organophosphorus Poisoning",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008554&label=Disease",
+        "title": "HBDIS008554"
+      },
+      "Cardiac Death",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008636&label=Disease",
+        "title": "HBDIS008636"
+      },
+      "Infestation by Demodex",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008668&label=Disease",
+        "title": "HBDIS008668"
+      },
+      "Subcortical Vascular Dementia",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009625&label=Disease",
+        "title": "HBDIS009625"
+      },
+      "Aluminum intoxication",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009826&label=Disease",
+        "title": "HBDIS009826"
+      },
+      "Prolonged neuromuscular block",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010001&label=Disease",
+        "title": "HBDIS010001"
+      },
+      "Fasciculation, Skeletal Muscle",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010133&label=Disease",
+        "title": "HBDIS010133"
+      },
+      "Blast cell proliferation",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010686&label=Disease",
+        "title": "HBDIS010686"
+      },
+      "Organophosphate poisoning",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011174&label=Disease",
+        "title": "HBDIS011174"
+      },
+      "Fasciculation, Benign",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011283&label=Disease",
+        "title": "HBDIS011283"
+      },
+      "Upper Extremity Paresis",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011284&label=Disease",
+        "title": "HBDIS011284"
+      },
+      "Lower Extremity Paresis",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011286&label=Disease",
+        "title": "HBDIS011286"
+      },
+      "Parkinson Disease, Secondary Vascular",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011287&label=Disease",
+        "title": "HBDIS011287"
+      },
+      "Atherosclerotic Parkinsonism",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012426&label=Disease",
+        "title": "HBDIS012426"
+      },
+      "Emergence Delirium",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013159&label=Disease",
+        "title": "HBDIS013159"
+      },
+      "Postoperative pneumonia",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013203&label=Disease",
+        "title": "HBDIS013203"
+      },
+      "Butyrylcholinesterase deficiency",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014162&label=Disease",
+        "title": "HBDIS014162"
+      },
+      "Attention deficit-hyperactivity",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014665&label=Disease",
+        "title": "HBDIS014665"
+      },
+      "Suxamethonium sensitivity",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017221&label=Disease",
+        "title": "HBDIS017221"
+      },
+      "Bamforth syndrome",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018386&label=Disease",
+        "title": "HBDIS018386"
+      },
+      "Apnea, Postanesthetic",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018387&label=Disease",
+        "title": "HBDIS018387"
+      },
+      "Butyrylcholinesterase Deficiency, Fluoride-Resistant, Japanese Type",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018689&label=Disease",
+        "title": "HBDIS018689"
+      },
+      "Hypothyroidism, Thyroidal, With Spiky Hair And Cleft Palate",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021466&label=Disease",
+        "title": "HBDIS021466"
+      },
+      "Organothiophosphonate Poisoning",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021467&label=Disease",
+        "title": "HBDIS021467"
+      },
+      "Organothiophosphate Poisoning",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021484&label=Disease",
+        "title": "HBDIS021484"
+      },
+      "Moderate dementia",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022738&label=Disease",
+        "title": "HBDIS022738"
+      },
+      "Infection by larvae of Trichinella spiralis",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022854&label=Disease",
+        "title": "HBDIS022854"
+      },
+      "BCHE, FLUORIDE 2 PHENOTYPE",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022855&label=Disease",
+        "title": "HBDIS022855"
+      },
+      "BCHE, J VARIANT PHENOTYPE",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022856&label=Disease",
+        "title": "HBDIS022856"
+      },
+      "BCHE, H VARIANT PHENOTYPE",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024970&label=Disease",
+        "title": "HBDIS024970"
+      },
+      "Respiratory failure requiring assisted ventilation",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006370&label=Disease",
+        "title": "HBDIS006370"
+      },
+      "Glutaric aciduria, type 1",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017720&label=Disease",
+        "title": "HBDIS017720"
+      },
+      "2-AMINOADIPIC 2-OXOADIPIC ACIDURIA",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019724&label=Disease",
+        "title": "HBDIS019724"
+      },
+      "Alpha ketoadipic aciduria",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021847&label=Disease",
+        "title": "HBDIS021847"
+      },
+      "CHARCOT-MARIE-TOOTH DISEASE, AXONAL, TYPE 2Q",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027044&label=Disease",
+        "title": "HBDIS027044"
+      },
+      "Alpha-aminoadipic aciduria",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000356&label=Target",
+        "title": "HBTAR000356"
+      },
+      "BCHE",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT00356",
+          "title": "SymMap:SMTT00356"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00559"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000077&label=Target",
+        "title": "HBTAR000077"
+      },
+      "ADH1A",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00729"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003224&label=Target",
+        "title": "HBTAR003224"
+      },
+      "PRSS3",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR03952"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN025837",
+      "Ether",
+      "7578-39-4; DIETHYL ETHER; 31683_FLUKA; 91238_FLUKA; Ethylether; Diethylaether; Alcohols, C8-22, ethoxylated; NSC 100036; RCRA waste no. U117; UN1155; 309966_ALDRICH; EINECS 200-467-2; 443549_SIAL; 31680_FLUKA; NSC100036; Amines, C20-22-alkyl, ethoxylated; Etere etilico; 24004_RIEDEL; 34942_RIEDEL; 69227-20-9; InChI=1/C4H10O/c1-3-5-4-2/h3-4H2,1-2H; Ethane, 1,1'-oxybis-; CHEBI:35702; WLN: 2O2; Ether, ethyl; Diaethylaether; Dwuetylowy eter [Polish]; 71011-10-4; (C14-C26) Alkyl alcohol ethoxylate; 676845_ALDRICH; 1,1'-Oxybisethane; 676837_SIAL; 68991-48-0; HSDB 70; 644528_ALDRICH; Aether; Linear (C8-C22) alkyl alcohol, ethoxylated; ZINC01657408; Ether ethylique [French]; Ethyl ether (8CI); Ether (JP15/USP); Ethyl oxide; 60-29-7; Ethyl ether, tech.; 31690_FLUKA; C13240; D01772; Anesthetic ether; 70131-58-7; Alcohols, C7-21, ethoxylated; (C16-C22) Alkyl alcohol, ethoxylate; 74446-43-8; Alcohols, C14-26, ethoxylated; Alcohols, C16-22, ethoxylated; 69013-19-0; Ether [JAN]; 346144_ALDRICH; 31671_FLUKA; Diethyl ether [Anaesthetics, volatile]; 31685_FLUKA; Diethyl ether or ethyl ether [UN1155]  [Flammable liquid]; 31700_FLUKA; Solvent ether; Ether ethylique; Ethoxyethane; Dwuetylowy eter; aether pro narcosi; Pronarcol; Ethyl ether; Diethyl oxide; 3-Oxapentane; 32203_RIEDEL; AI3-24233; Oxyde d'ethyle [French]; (C20-C22)Alkylamine diethoxylate; RCRA waste number U117; 472484_SIAL; Anaesthetic ether; Diaethylaether [German]; 309958_ALDRICH; 1,1'-oxydiethane; Anesthesia ether; 296082_ALDRIC",
+      "C4H10O",
+      "CCOCC",
+      "74.12",
+      "55.74552373",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "60-29-7"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT10666",
+        "title": "SMIT10666"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL009549"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/3283",
+        "title": "3283"
+      }
+    ]
+  ]
+}

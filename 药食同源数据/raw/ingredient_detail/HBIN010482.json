@@ -1,0 +1,831 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000741&label=Herb",
+        "title": "HERB000741"
+      },
+      "CHANG ZI MA QIAN",
+      "长籽马钱",
+      "Wallich Poisonnut",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Strychnos wallichiana"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003028&label=Herb",
+        "title": "HERB003028"
+      },
+      "JU HONG",
+      "橘红",
+      "Citri Exocarpium Rubrum",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003679&label=Herb",
+        "title": "HERB003679"
+      },
+      "MA QIAN ZI",
+      "马钱子",
+      "Nux Vomica",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Strychni"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "4-hydroxy-3-methoxystrychnine"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001264&label=Disease",
+        "title": "HBDIS001264"
+      },
+      "Heart failure",
+      "0.000335605259939642",
+      "0.00372204953288955"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001265&label=Disease",
+        "title": "HBDIS001265"
+      },
+      "Congestive heart failure",
+      "0.00062012663505724",
+      "0.00571463628974718"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020102&label=Disease",
+        "title": "HBDIS020102"
+      },
+      "Neurogenic bladder dysfunction",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013928&label=Disease",
+        "title": "HBDIS013928"
+      },
+      "Prostate Lymphoma",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000826&label=Disease",
+        "title": "HBDIS000826"
+      },
+      "Drug habituation",
+      "0.00151617330082449",
+      "0.00997301562762232"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000829&label=Disease",
+        "title": "HBDIS000829"
+      },
+      "Drug Use Disorders",
+      "0.000483985597055842",
+      "0.00477567859649376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001073&label=Disease",
+        "title": "HBDIS001073"
+      },
+      "Fibromyalgia",
+      "0.000922310277192555",
+      "0.00739700391021864"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001359&label=Disease",
+        "title": "HBDIS001359"
+      },
+      "Heroin Dependence",
+      "0.000462503966510378",
+      "0.00468792488293922"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001453&label=Disease",
+        "title": "HBDIS001453"
+      },
+      "Hyperphagia",
+      "0.000123213531541936",
+      "0.0018179289216231"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001503&label=Disease",
+        "title": "HBDIS001503"
+      },
+      "Hypotension, Orthostatic",
+      "0.000299376315415819",
+      "0.00346001448480061"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002195&label=Disease",
+        "title": "HBDIS002195"
+      },
+      "Organic Mental Disorders, Substance-Induced",
+      "0.00045194348495529",
+      "0.00461269428897953"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002868&label=Disease",
+        "title": "HBDIS002868"
+      },
+      "Substance Dependence",
+      "0.000878107297015581",
+      "0.0071132750356448"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003067&label=Disease",
+        "title": "HBDIS003067"
+      },
+      "Urticaria",
+      "0.00131408430497574",
+      "0.00913528725152257"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003392&label=Disease",
+        "title": "HBDIS003392"
+      },
+      "Epilepsy, Cryptogenic",
+      "0.00036231966514326",
+      "0.00393703673883121"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003443&label=Disease",
+        "title": "HBDIS003443"
+      },
+      "Withdrawal Symptoms",
+      "0.000751894163483278",
+      "0.00644705342278575"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005039&label=Disease",
+        "title": "HBDIS005039"
+      },
+      "Aura",
+      "0.000325625795347236",
+      "0.00363760005380795"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005080&label=Disease",
+        "title": "HBDIS005080"
+      },
+      "Substance-Related Disorders",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009972&label=Disease",
+        "title": "HBDIS009972"
+      },
+      "Opiate Addiction",
+      "0.000299376315415819",
+      "0.00346001448480061"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010488&label=Disease",
+        "title": "HBDIS010488"
+      },
+      "Cocaine Dependence",
+      "0.00136780148518349",
+      "0.00937832033829945"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010822&label=Disease",
+        "title": "HBDIS010822"
+      },
+      "Substance abuse problem",
+      "0.00122689179980963",
+      "0.00876749919268749"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011161&label=Disease",
+        "title": "HBDIS011161"
+      },
+      "Awakening Epilepsy",
+      "0.000325625795347236",
+      "0.00363760005380795"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026416&label=Disease",
+        "title": "HBDIS026416"
+      },
+      "Prescription Drug Abuse",
+      "0.00045194348495529",
+      "0.00461269428897953"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003103&label=Disease",
+        "title": "HBDIS003103"
+      },
+      "Vertigo",
+      "0.0014041960129801",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007848&label=Disease",
+        "title": "HBDIS007848"
+      },
+      "Critical lower limb ischemia",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010359&label=Disease",
+        "title": "HBDIS010359"
+      },
+      "Acute sciatica",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012445&label=Disease",
+        "title": "HBDIS012445"
+      },
+      "HIV-1-Associated Cognitive Motor Complex",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015636&label=Disease",
+        "title": "HBDIS015636"
+      },
+      "SCHIZOPHRENIA 12",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027671&label=Disease",
+        "title": "HBDIS027671"
+      },
+      "Opium Use",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003975&label=Disease",
+        "title": "HBDIS003975"
+      },
+      "Other specified conduction disorders",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004567&label=Disease",
+        "title": "HBDIS004567"
+      },
+      "Bradycardia-tachycardia syndrome",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005718&label=Disease",
+        "title": "HBDIS005718"
+      },
+      "Left anterior fascicular block",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005719&label=Disease",
+        "title": "HBDIS005719"
+      },
+      "Left posterior fascicular block",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007829&label=Disease",
+        "title": "HBDIS007829"
+      },
+      "Premature Cardiac Complex",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007834&label=Disease",
+        "title": "HBDIS007834"
+      },
+      "Familial sick sinus syndrome",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007869&label=Disease",
+        "title": "HBDIS007869"
+      },
+      "Neurally mediated syncope",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009995&label=Disease",
+        "title": "HBDIS009995"
+      },
+      "Atrial standstill",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010591&label=Disease",
+        "title": "HBDIS010591"
+      },
+      "Lenegre's disease",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011034&label=Disease",
+        "title": "HBDIS011034"
+      },
+      "sick sinus",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012609&label=Disease",
+        "title": "HBDIS012609"
+      },
+      "Near sudden infant death syndrome",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014924&label=Disease",
+        "title": "HBDIS014924"
+      },
+      "Brugada ECG Pattern",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015012&label=Disease",
+        "title": "HBDIS015012"
+      },
+      "Non dystrophic myotonia",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015106&label=Disease",
+        "title": "HBDIS015106"
+      },
+      "CARDIOMYOPATHY, DILATED, 1E",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015632&label=Disease",
+        "title": "HBDIS015632"
+      },
+      "SICK SINUS SYNDROME 1, AUTOSOMAL RECESSIVE",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015684&label=Disease",
+        "title": "HBDIS015684"
+      },
+      "LONG QT SYNDROME 3, ACQUIRED, SUSCEPTIBILITY TO (finding)",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015685&label=Disease",
+        "title": "HBDIS015685"
+      },
+      "CARDIOMYOPATHY, FAMILIAL, WITH CONDUCTION DISTURBANCE",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017533&label=Disease",
+        "title": "HBDIS017533"
+      },
+      "ARRHYTHMOGENIC RIGHT VENTRICULAR DYSPLASIA, FAMILIAL, 5 (disorder)",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017920&label=Disease",
+        "title": "HBDIS017920"
+      },
+      "Heart Block, Nonprogressive",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017921&label=Disease",
+        "title": "HBDIS017921"
+      },
+      "Cardiac Conduction Defect, Nonprogressive",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018953&label=Disease",
+        "title": "HBDIS018953"
+      },
+      "preterm contractions",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018979&label=Disease",
+        "title": "HBDIS018979"
+      },
+      "electrocardiogram - left anterior hemiblock",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018980&label=Disease",
+        "title": "HBDIS018980"
+      },
+      "electrocardiogram left posterior hemiblock (finding)",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019568&label=Disease",
+        "title": "HBDIS019568"
+      },
+      "LONG QT SYNDROME 9 (disorder)",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019700&label=Disease",
+        "title": "HBDIS019700"
+      },
+      "Sudden arrhythmic death syndrome",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020146&label=Disease",
+        "title": "HBDIS020146"
+      },
+      "Sudden unexpected nocturnal death syndrome",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020292&label=Disease",
+        "title": "HBDIS020292"
+      },
+      "Long QT syndrome type 3",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020827&label=Disease",
+        "title": "HBDIS020827"
+      },
+      "ATRIAL FIBRILLATION, FAMILIAL, 10",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021112&label=Disease",
+        "title": "HBDIS021112"
+      },
+      "LONG QT SYNDROME 2/3, DIGENIC",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021113&label=Disease",
+        "title": "HBDIS021113"
+      },
+      "LONG QT SYNDROME 3/6, DIGENIC Disorder",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022462&label=Disease",
+        "title": "HBDIS022462"
+      },
+      "Sudden Unexplained Infant Death",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023307&label=Disease",
+        "title": "HBDIS023307"
+      },
+      "ATRIAL STANDSTILL 1, DIGENIC",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023465&label=Disease",
+        "title": "HBDIS023465"
+      },
+      "VENTRICULAR FIBRILLATION DURING MYOCARDIAL INFARCTION, SUSCEPTIBILITY TO",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026550&label=Disease",
+        "title": "HBDIS026550"
+      },
+      "Complete heart block with broad QRS complexes",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027353&label=Disease",
+        "title": "HBDIS027353"
+      },
+      "ATRIAL STANDSTILL 1",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002811&label=Target",
+        "title": "HBTAR002811"
+      },
+      "OPRD1",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT02428",
+          "title": "SymMap:SMTT02428"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00163"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002814&label=Target",
+        "title": "HBTAR002814"
+      },
+      "OPRM1",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT02430",
+          "title": "SymMap:SMTT02430"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00299"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003629&label=Target",
+        "title": "HBTAR003629"
+      },
+      "SCN5A",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT03005",
+          "title": "SymMap:SMTT03005"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00070"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000233&label=Target",
+        "title": "HBTAR000233"
+      },
+      "AR",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00048"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001710&label=Target",
+        "title": "HBTAR001710"
+      },
+      "GSK3B",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00422"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000093&label=Target",
+        "title": "HBTAR000093"
+      },
+      "ADRA1B",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00216"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001277&label=Target",
+        "title": "HBTAR001277"
+      },
+      "ESR1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00046"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id"
+    ],
+    [
+      "HBIN010482",
+      "4-Hydroxy-3-methoxystrychnine",
+      "4-hydroxy-3-methoxystrychnine",
+      "C22H24N2O4",
+      "COC1=C(C2=C(C=C1)C34CCN5C3CC(C(=CCO)C5)C6=CCC(=O)N2C46)O",
+      "380.48",
+      "20.92618209",
+      {
+        "link": "https://www.symmap.org/detail/SMIT01040",
+        "title": "SMIT01040"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/10458/",
+        "title": "10458"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL003434"
+      }
+    ]
+  ]
+}

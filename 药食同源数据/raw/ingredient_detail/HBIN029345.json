@@ -1,0 +1,633 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001211&label=Herb",
+        "title": "HERB001211"
+      },
+      "DANG SHEN",
+      "党参",
+      "root Pilose Asiabell",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Codonopsis pilosulae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NA"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000037&label=Disease",
+        "title": "HBDIS000037"
+      },
+      "ACTH Syndrome, Ectopic",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000101&label=Disease",
+        "title": "HBDIS000101"
+      },
+      "Alcoholic Intoxication, Chronic",
+      "0.00136350089879835",
+      "0.00935516979832472"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000478&label=Disease",
+        "title": "HBDIS000478"
+      },
+      "Cat-Scratch Disease",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000504&label=Disease",
+        "title": "HBDIS000504"
+      },
+      "Brain Ischemia",
+      "0.000627623181638016",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000775&label=Disease",
+        "title": "HBDIS000775"
+      },
+      "Diabetes Mellitus, Experimental",
+      "0.00148902302894386",
+      "0.00985842690569413"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000832&label=Disease",
+        "title": "HBDIS000832"
+      },
+      "Muscular Dystrophy, Duchenne",
+      "0.000528741767144832",
+      "0.00510572385741683"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001168&label=Disease",
+        "title": "HBDIS001168"
+      },
+      "Glaucoma, Suspect",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001486&label=Disease",
+        "title": "HBDIS001486"
+      },
+      "Hypoglycemia",
+      "0.00079628923652057",
+      "0.00664850617255392"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001979&label=Disease",
+        "title": "HBDIS001979"
+      },
+      "Mucocutaneous Lymph Node Syndrome",
+      "0.000479006583502272",
+      "0.00473740145509097"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002064&label=Disease",
+        "title": "HBDIS002064"
+      },
+      "Nelson Syndrome",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002443&label=Disease",
+        "title": "HBDIS002443"
+      },
+      "polyps",
+      "0.000635580309784406",
+      "0.00573264910148231"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002661&label=Disease",
+        "title": "HBDIS002661"
+      },
+      "Sialolithiasis",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002765&label=Disease",
+        "title": "HBDIS002765"
+      },
+      "Dermatologic disorders",
+      "0.00149513811325164",
+      "0.0098883665337682"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003310&label=Disease",
+        "title": "HBDIS003310"
+      },
+      "Essential Hypertension",
+      "0.000888140810241905",
+      "0.00718147120269635"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003548&label=Disease",
+        "title": "HBDIS003548"
+      },
+      "Addisonian crisis",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003575&label=Disease",
+        "title": "HBDIS003575"
+      },
+      "Hypertensive Encephalopathy",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005053&label=Disease",
+        "title": "HBDIS005053"
+      },
+      "Alcohol withdrawal syndrome",
+      "2.36959516926384e-05",
+      "0.000525976563826522"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005059&label=Disease",
+        "title": "HBDIS005059"
+      },
+      "Caffeine related disorders",
+      "0.000573326746585555",
+      "0.00538377401025406"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005090&label=Disease",
+        "title": "HBDIS005090"
+      },
+      "emotional trauma",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005164&label=Disease",
+        "title": "HBDIS005164"
+      },
+      "Female Pseudohermaphroditism",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005410&label=Disease",
+        "title": "HBDIS005410"
+      },
+      "Dyslipidemias",
+      "0.000994966821971012",
+      "0.0076842326653106"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005831&label=Disease",
+        "title": "HBDIS005831"
+      },
+      "Fetal hydantoin syndrome",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006462&label=Disease",
+        "title": "HBDIS006462"
+      },
+      "Severe major depression with psychotic features",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006632&label=Disease",
+        "title": "HBDIS006632"
+      },
+      "Impaired glucose tolerance",
+      "0.00148292047554655",
+      "0.00982502829763158"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006656&label=Disease",
+        "title": "HBDIS006656"
+      },
+      "Iatrogenic Cushing's disease",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007023&label=Disease",
+        "title": "HBDIS007023"
+      },
+      "Endometrial neoplasm malignant metastatic",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007348&label=Disease",
+        "title": "HBDIS007348"
+      },
+      "Cushingoid facies",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008645&label=Disease",
+        "title": "HBDIS008645"
+      },
+      "High density lipoprotein measurement",
+      "0.00103022880402447",
+      "0.00784647080494434"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009276&label=Disease",
+        "title": "HBDIS009276"
+      },
+      "Serum HDL cholesterol measurement",
+      "0.000315778943762289",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009913&label=Disease",
+        "title": "HBDIS009913"
+      },
+      "Symptoms of stress",
+      "4.73668415643434e-06",
+      "0.000148830699471065"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010013&label=Disease",
+        "title": "HBDIS010013"
+      },
+      "Forgetful",
+      "0.000756591312161884",
+      "0.00647628451382022"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010172&label=Disease",
+        "title": "HBDIS010172"
+      },
+      "Squamous cell carcinoma of skin",
+      "0.000730689920227096",
+      "0.00630610568621933"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010333&label=Disease",
+        "title": "HBDIS010333"
+      },
+      "Serum testosterone level abnormal",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010712&label=Disease",
+        "title": "HBDIS010712"
+      },
+      "Acne",
+      "0.00012192575884155",
+      "0.00180417386830047"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010887&label=Disease",
+        "title": "HBDIS010887"
+      },
+      "Depression, psychotic",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011069&label=Disease",
+        "title": "HBDIS011069"
+      },
+      "Wound, non-healed",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012132&label=Disease",
+        "title": "HBDIS012132"
+      },
+      "Unrest",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013471&label=Disease",
+        "title": "HBDIS013471"
+      },
+      "Liver regeneration disorder",
+      "0.000521486369984579",
+      "0.00505342809332583"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014148&label=Disease",
+        "title": "HBDIS014148"
+      },
+      "Cardiac fibrosis",
+      "0.000288273595287756",
+      "0.00336436022946607"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014162&label=Disease",
+        "title": "HBDIS014162"
+      },
+      "Attention deficit-hyperactivity",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014298&label=Disease",
+        "title": "HBDIS014298"
+      },
+      "Aggressive reaction",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015894&label=Disease",
+        "title": "HBDIS015894"
+      },
+      "Pseudohermaphroditism, Female, With Hypokalemia, Due To Glucocorticoid Resistance",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015895&label=Disease",
+        "title": "HBDIS015895"
+      },
+      "BODY COMPOSITION, BENEFICIAL",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018105&label=Disease",
+        "title": "HBDIS018105"
+      },
+      "Frontal balding",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018589&label=Disease",
+        "title": "HBDIS018589"
+      },
+      "Paroxysmal nocturnal dyspnea",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020161&label=Disease",
+        "title": "HBDIS020161"
+      },
+      "Primary cortisol resistance",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020412&label=Disease",
+        "title": "HBDIS020412"
+      },
+      "46, XX Disorders of Sex Development",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022692&label=Disease",
+        "title": "HBDIS022692"
+      },
+      "Inflammatory dermatosis",
+      "0.00061578147124693",
+      "0.00568039054321356"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023210&label=Disease",
+        "title": "HBDIS023210"
+      },
+      "GLUCOCORTICOID RESISTANCE, CELLULAR",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024264&label=Disease",
+        "title": "HBDIS024264"
+      },
+      "Increased urinary cortisol level",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025584&label=Disease",
+        "title": "HBDIS025584"
+      },
+      "Persistent depressive disorder",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025928&label=Disease",
+        "title": "HBDIS025928"
+      },
+      "Hereditary glucocorticoid resistance",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015019&label=Disease",
+        "title": "HBDIS015019"
+      },
+      "Fatty acid oxidation defects",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001692&label=Target",
+        "title": "HBTAR001692"
+      },
+      "NR3C1",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT02379",
+          "title": "SymMap:SMTT02379"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00308"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003111&label=Target",
+        "title": "HBTAR003111"
+      },
+      "PPARD",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/12976/",
+          "title": "TCMID:12976"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00396"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN029345",
+      "Hexyl b-D-glucopyranoside",
+      "C12H24O6",
+      "CCCCCCOC1C(C(C(C(O1)CO)O)O)O",
+      "264.31",
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/9530/",
+        "title": "9530"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/181215",
+        "title": "181215"
+      }
+    ]
+  ]
+}

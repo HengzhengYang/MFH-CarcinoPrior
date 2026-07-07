@@ -1,0 +1,151 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003641&label=Herb",
+        "title": "HERB003641"
+      },
+      "MA CHI XIAN",
+      "马齿苋",
+      "all-grass of Purslane",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Portulacae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004938&label=Herb",
+        "title": "HERB004938"
+      },
+      "SHAN YAO",
+      "山药",
+      "Common Yam Rhizome",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Dioscoreae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "nchembio801-comp8; SPBio_001205; Spectrum3_000406; 51-61-6; cMAP_000036; KBio2_006628; Spectrum5_000945; DOPAMINE; KBio3_002867; 3-Hydroxtyramine; KBio3_002962; nchembio705-8; 4-(2-Aminoethyl)benzene-1,2-diol; 3, 4-Dihydroxyphenethylamine hydrochloride; 4-(2-aminoethyl)-pyrocatechol; 62-31-7 (HYDROCHLORIDE); Pyrocatechol, 4-(2-aminoethyl)-; Intropin {[as} hydrochloride]; NSC 173182; 4-(2-Aminoethyl)-1,2-bezenediol; KBioSS_001492; EINECS 200-110-0; cMAP_000065; Lopac-H-8502; KBio2_005052; KBioSS_002393; Dophamine; KBio2_004060; HSDB 3068; L-DOPAMINE; 4-(2-Aminoethyl)pyrocatechol; KW-3-060; BSPBio_001932; AIDS156129; KBioGR_002484; NCGC00096050-02; 3,4-Dihydroxyphenylethylamine; KBio2_004956; Spectrum2_001023; NSC169105 (HYDROCHLORIDE); Spectrum4_000525; (3H)-Dopamine; KBioGR_001129; 3-Hydroxytyramine; C03758; Dopamin; KBio2_007620; Dopaminum [INN-Latin]; m-Hydroxytyramine-; BPBio1_001123; Pyrocatechol, 4-(2-aminoethyl)- (8CI); alpha-(3,4-Dihydroxyphenyl)-beta-aminoethane; KBioGR_002388; Biomol-NT_000001; 2-(3,4-dihydroxyphenyl)ethylamine; Lopac0_000586; Hydroxytyramin; DivK1c_000780; 4-(2-Aminoethyl)catechol; 4-(2-Aminoethyl)-1,2-benzenediol; CHEBI:18243; 3,4-dihydroxyphenethylamine; 1,2-Benzenediol, 4-(2-aminoethyl)- (9CI); IDI1_000780; NCGC00015519-01; NSC173182; 1,2-Benzenediol, 4-(2-aminoethyl)-; 50444-17-2; Oprea1_088821; hydroxytyramine; SBB004044; NCGC00096050-01; .alpha.-(3,4-Dihydroxyphenyl)-.beta.-aminoethane; Spectrum_001012; Dopamine (USAN)(*hydrochloride*); KBio2_"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN032819",
+      "LDP",
+      "nchembio801-comp8; SPBio_001205; Spectrum3_000406; 51-61-6; cMAP_000036; KBio2_006628; Spectrum5_000945; DOPAMINE; KBio3_002867; 3-Hydroxtyramine; KBio3_002962; nchembio705-8; 4-(2-Aminoethyl)benzene-1,2-diol; 3, 4-Dihydroxyphenethylamine hydrochloride; 4-(2-aminoethyl)-pyrocatechol; 62-31-7 (HYDROCHLORIDE); Pyrocatechol, 4-(2-aminoethyl)-; Intropin {[as} hydrochloride]; NSC 173182; 4-(2-Aminoethyl)-1,2-bezenediol; KBioSS_001492; EINECS 200-110-0; cMAP_000065; Lopac-H-8502; KBio2_005052; KBioSS_002393; Dophamine; KBio2_004060; HSDB 3068; L-DOPAMINE; 4-(2-Aminoethyl)pyrocatechol; KW-3-060; BSPBio_001932; AIDS156129; KBioGR_002484; NCGC00096050-02; 3,4-Dihydroxyphenylethylamine; KBio2_004956; Spectrum2_001023; NSC169105 (HYDROCHLORIDE); Spectrum4_000525; (3H)-Dopamine; KBioGR_001129; 3-Hydroxytyramine; C03758; Dopamin; KBio2_007620; Dopaminum [INN-Latin]; m-Hydroxytyramine-; BPBio1_001123; Pyrocatechol, 4-(2-aminoethyl)- (8CI); alpha-(3,4-Dihydroxyphenyl)-beta-aminoethane; KBioGR_002388; Biomol-NT_000001; 2-(3,4-dihydroxyphenyl)ethylamine; Lopac0_000586; Hydroxytyramin; DivK1c_000780; 4-(2-Aminoethyl)catechol; 4-(2-Aminoethyl)-1,2-benzenediol; CHEBI:18243; 3,4-dihydroxyphenethylamine; 1,2-Benzenediol, 4-(2-aminoethyl)- (9CI); IDI1_000780; NCGC00015519-01; NSC173182; 1,2-Benzenediol, 4-(2-aminoethyl)-; 50444-17-2; Oprea1_088821; hydroxytyramine; SBB004044; NCGC00096050-01; .alpha.-(3,4-Dihydroxyphenyl)-.beta.-aminoethane; Spectrum_001012; Dopamine (USAN)(*hydrochloride*); KBio2_",
+      "C8H11NO2",
+      "C1=CC(=C(C=C1CCN)O)O",
+      "153.18",
+      "74.39949711",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "50444-17-2"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT07198",
+        "title": "SMIT07198"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL005442"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/681",
+        "title": "681"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001874&label=Herb",
+        "title": "HERB001874"
+      },
+      "GE GEN",
+      "葛根",
+      "root of lobed kudzuvine",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Puerariae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004449&label=Herb",
+        "title": "HERB004449"
+      },
+      "QIAN CENG TA",
+      "千层塔",
+      "Serrate Clubmoss",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Huperzia serrata [Syn. Lycopodium serratum ]"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005658&label=Herb",
+        "title": "HERB005658"
+      },
+      "WEI LING CAI",
+      "委陵菜",
+      "Chinese Cinquefoil",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Potentillae Chinensis"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NCGC00179379-02; NCGC00179379-01; 40856-73-3; FCH951677; Methylhydantoin-5-(L); Prestwick2_000860; Prestwick_215; SPBio_002800; (l)-5-methylhydantoin; HMS1570L21; CHEBI:94659; BRD-K56033645-001-01-8; VMAQYKGITHDWKL-REOHCLBHSA-N; (5S)-5-Methylhydantoin; Prestwick1_000860; BPBio1_000999; 5-methyl hydantoin; DTXSID70423560; ZINC1701819; Prestwick0_000860; L16M035; (S)-5-METHYLHYDANTOIN; SCHEMBL8110002; FT-0671818; HMS3714L21; (5S)-5-methylimidazolidine-2,4-dione; L-5-METHYLHYDANTOIN; ACM40856733; (S)-5-methylimidazolidine-2,4-dione; CJ-28736; AC1O4WGH; HMS2097N09; HMS2097L21; CCG-220860; BPBio1_000967; Prestwick3_000860; Prestwick3_000864; BSPBio_000879; BSPBio_000907"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN011811",
+      "5-methylhydantoin",
+      "NCGC00179379-02; NCGC00179379-01; 40856-73-3; FCH951677; Methylhydantoin-5-(L); Prestwick2_000860; Prestwick_215; SPBio_002800; (l)-5-methylhydantoin; HMS1570L21; CHEBI:94659; BRD-K56033645-001-01-8; VMAQYKGITHDWKL-REOHCLBHSA-N; (5S)-5-Methylhydantoin; Prestwick1_000860; BPBio1_000999; 5-methyl hydantoin; DTXSID70423560; ZINC1701819; Prestwick0_000860; L16M035; (S)-5-METHYLHYDANTOIN; SCHEMBL8110002; FT-0671818; HMS3714L21; (5S)-5-methylimidazolidine-2,4-dione; L-5-METHYLHYDANTOIN; ACM40856733; (S)-5-methylimidazolidine-2,4-dione; CJ-28736; AC1O4WGH; HMS2097N09; HMS2097L21; CCG-220860; BPBio1_000967; Prestwick3_000860; Prestwick3_000864; BSPBio_000879; BSPBio_000907",
+      "C4H6N2O2",
+      "CC1C(=O)NC(=O)N1",
+      "114.1",
+      {
+        "link": "https://www.symmap.org/detail/SMIT16640",
+        "title": "SMIT16640"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/31638/",
+        "title": "31638"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "7649"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/69216",
+        "title": "69216"
+      }
+    ]
+  ]
+}

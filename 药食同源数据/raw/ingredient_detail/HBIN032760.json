@@ -1,0 +1,179 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004883&label=Herb",
+        "title": "HERB004883"
+      },
+      "SHAN DOU GEN",
+      "山豆根",
+      "Vietmese Sophora Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Sophorae Tonkinensis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005259&label=Herb",
+        "title": "HERB005259"
+      },
+      "SONG JIE",
+      "松节",
+      "Knotty pine wood, Pine nodular branch",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Lignum Pini Nodi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006741&label=Herb",
+        "title": "HERB006741"
+      },
+      "YU XING CAO",
+      "鱼腥草",
+      "all-grass of Heartleaf Houttuynia",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Houttuyniae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006798&label=Herb",
+        "title": "HERB006798"
+      },
+      "YUAN ZHI",
+      "远志",
+      "Thinleaf Milkwort Equivalent plant: Polygala sibirica",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Polygala tenuifolia"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "AS-17277; C-12 lauric aldehyde; 4-01-00-03380 (Beilstein Handbook Reference); CS-W004301; AC1L1QH7; AN-22707; AC1Q2W09; AI3-02459; C-12 aldehyde, lauric; NSC-52196; LS-2876; KSC490K9P; 1-Dodecanal; J-520425; C42O120SEF; Lauric aldehyde, >=95%, stabilized, FCC, FG; Lauric aldehyde, analytical standard; MolPort-001-784-297; TRA0075485; LAUROYL HYDROLYZED COLLAGEN; BRN 1703917; FT-0625567; FEMA No. 2615; NSC 46128; Lauraldehyde; Dodecyl aldehyde; API0002468; Dodecylaldehyde; Duodecylic aldehyde; Lauric aldehyde (natural); FEMA 2615; I14-13648; C-30890; Aldehyde C12; D0979; U222; ST51046139; n-Dodecyl aldehyde; Dodecyl aldehyde, 92%; ZX-AT010639; OR6024; Dodecanaldehyde; EINECS 203-983-6; Lauraldehyde (8CI); SCHEMBL75196; Lauric aldehyde, natural, >=95%, FG; CTK3J0597; UNII-C42O120SEF; 112-54-9; MCULE-3814557174; CHEBI:27836; CHEMBL2228373; AKOS009158429; ZINC1529404; CC-27342; Laurylaldehyde; EC 203-983-6; TR-002448; n-Lauraldehyde; InChI=1/C12H24O/c1-2-3-4-5-6-7-8-9-10-11-12-13/h12H,2-11H2,1H; NSC55212; RTR-002448; J-002791; HFJRKMMYBMWEAD-UHFFFAOYSA-N; n-Dodecanal; Aldehyde C-12, lauric; NSC46128; n-Dodecylic aldehyde; ANW-42100; dodecylaldehyde, dodecanal, lauric aldehyde, lauraldehyde, aldehyde C12; MFCD00007017; Lauryl aldehyde; C02278; Laurinaldehyde; Lauric aldehyde; WLN: VH11; C12 aldehyde; NSC-55212; SBB059874; 1-Dodecyl aldehyde; LMFA06000071; RP24485; DTXSID6021589; ZINC585138964; KS-00000UME; NSC-46128; NSC52196; DODECANAL; DB-041098"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN032760",
+      "laurinaldehyde",
+      "AS-17277; C-12 lauric aldehyde; 4-01-00-03380 (Beilstein Handbook Reference); CS-W004301; AC1L1QH7; AN-22707; AC1Q2W09; AI3-02459; C-12 aldehyde, lauric; NSC-52196; LS-2876; KSC490K9P; 1-Dodecanal; J-520425; C42O120SEF; Lauric aldehyde, >=95%, stabilized, FCC, FG; Lauric aldehyde, analytical standard; MolPort-001-784-297; TRA0075485; LAUROYL HYDROLYZED COLLAGEN; BRN 1703917; FT-0625567; FEMA No. 2615; NSC 46128; Lauraldehyde; Dodecyl aldehyde; API0002468; Dodecylaldehyde; Duodecylic aldehyde; Lauric aldehyde (natural); FEMA 2615; I14-13648; C-30890; Aldehyde C12; D0979; U222; ST51046139; n-Dodecyl aldehyde; Dodecyl aldehyde, 92%; ZX-AT010639; OR6024; Dodecanaldehyde; EINECS 203-983-6; Lauraldehyde (8CI); SCHEMBL75196; Lauric aldehyde, natural, >=95%, FG; CTK3J0597; UNII-C42O120SEF; 112-54-9; MCULE-3814557174; CHEBI:27836; CHEMBL2228373; AKOS009158429; ZINC1529404; CC-27342; Laurylaldehyde; EC 203-983-6; TR-002448; n-Lauraldehyde; InChI=1/C12H24O/c1-2-3-4-5-6-7-8-9-10-11-12-13/h12H,2-11H2,1H; NSC55212; RTR-002448; J-002791; HFJRKMMYBMWEAD-UHFFFAOYSA-N; n-Dodecanal; Aldehyde C-12, lauric; NSC46128; n-Dodecylic aldehyde; ANW-42100; dodecylaldehyde, dodecanal, lauric aldehyde, lauraldehyde, aldehyde C12; MFCD00007017; Lauryl aldehyde; C02278; Laurinaldehyde; Lauric aldehyde; WLN: VH11; C12 aldehyde; NSC-55212; SBB059874; 1-Dodecyl aldehyde; LMFA06000071; RP24485; DTXSID6021589; ZINC585138964; KS-00000UME; NSC-46128; NSC52196; DODECANAL; DB-041098",
+      "C12H24O",
+      "CCCCCCCCCCCC=O",
+      "184.32",
+      {
+        "link": "https://www.symmap.org/detail/SMIT02055",
+        "title": "SMIT02055"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/24235/",
+        "title": "24235"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "3051"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/8194",
+        "title": "8194"
+      }
+    ]
+  ]
+}

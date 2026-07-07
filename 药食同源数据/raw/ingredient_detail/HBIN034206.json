@@ -1,0 +1,159 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002339&label=Herb",
+        "title": "HERB002339"
+      },
+      "HOU PO",
+      "厚朴",
+      "Officinal Magnolia Equivalent plant: Magnolia biloba",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Magnolia officinalis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002962&label=Herb",
+        "title": "HERB002962"
+      },
+      "JIN YIN HUA",
+      "金银花",
+      "Honeysuckle Flower",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Lonicerae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003528&label=Herb",
+        "title": "HERB003528"
+      },
+      "LU HUI",
+      "芦荟",
+      "Aloe",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Aloe"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "Magnesium, bis(2-(hydroxy-kappaO)propanoato-kappaO)-, (T-4)-; Magnesium L-lactate hydrate; 26867-84-5; Magnesium lactate; Bis(lactato)magnesium; 18917-93-6; Lactic acid, magnesium salt; Magnesium, bis(lactato)- (8CI); 4157-82-8; Di(lactato-O1,O2)magnesium; EINECS 242-671-4; Magnesium, bis(2-hydroxypropanoato-O(1),O(2))-, (T-4)- (9CI)"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN034206",
+      "magnesium lactate",
+      "Magnesium, bis(2-(hydroxy-kappaO)propanoato-kappaO)-, (T-4)-; Magnesium L-lactate hydrate; 26867-84-5; Magnesium lactate; Bis(lactato)magnesium; 18917-93-6; Lactic acid, magnesium salt; Magnesium, bis(lactato)- (8CI); 4157-82-8; Di(lactato-O1,O2)magnesium; EINECS 242-671-4; Magnesium, bis(2-hydroxypropanoato-O(1),O(2))-, (T-4)- (9CI)",
+      "C6H8MgO6-2",
+      "CC(C(=O)[O-])[O-].CC(C(=O)[O-])[O-].[Mg+2]",
+      "200.43",
+      {
+        "link": "https://www.symmap.org/detail/SMIT16407",
+        "title": "SMIT16407"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/13361/",
+        "title": "13361"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/44144458",
+        "title": "44144458"
+      }
+    ]
+  ]
+}

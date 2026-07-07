@@ -1,0 +1,196 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000090&label=Herb",
+        "title": "HERB000090"
+      },
+      "AN XI XIANG",
+      "安息香",
+      "Benzoin",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Benzoinum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002191&label=Herb",
+        "title": "HERB002191"
+      },
+      "HE YE",
+      "荷叶",
+      "Lotus leaf",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Folium Nelumbinis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003658&label=Herb",
+        "title": "HERB003658"
+      },
+      "MA HUANG",
+      "麻黄",
+      "Ephedra",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Ephedrae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004191&label=Herb",
+        "title": "HERB004191"
+      },
+      "NIU BANG ZI",
+      "牛蒡子",
+      "achene of Great Burdock",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Arctii lappae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004350&label=Herb",
+        "title": "HERB004350"
+      },
+      "PI PA YE",
+      "枇杷叶",
+      "Loquat Leaf",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Folium Eriobotryae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "[6]Annulene; Mineral naphtha; Bicarburet of hydrogen; NCGC00090744-01; Aromatic alkane; 71-43-2; Benzin (Obs.); 12553_FLUKA; Nitration benzene; RCRA waste number U019; 26181-88-4; (6)Annulene; Motor benzol; 154628_SIAL; Benzol diluent; Benzolo; BENZENE; Benzene [UN1114]  [Flammable liquid]; EINECS 200-753-7; RCRA waste no. U109; WLN: RH; Polystream; Benzolo [Italian]; Benzene, labeled with carbon-14 and tritium; NCGC00163890-02; Pyrobenzol; Fenzen [Czech]; Benzene, labeled with carbon-14; Coal naphtha; 68956-52-5; 174973-66-1; 32212_RIEDEL; InChI=1/C6H6/c1-2-4-6-5-3-1/h1-6; CHEBI:16716; Fenzen; UN 1114; Benzine (Obs.); 319953_SIAL; Benzol 90; CCRIS 70; Pyrobenzole; ghl.PD_Mitscher_leg0.503; Benzeen; Benzene-UL-14C; 676985_ALDRICH; Benzene + aniline combo; UN1114; c0142; 48503_SUPELCO; AI3-00808; BNZ; NSC67315; NCI-C55276; NSC 67315; Benzen [Polish]; Carbon oil; Caswell No. 077; Cyclohexatriene; 27271-55-2; Benzen; NCGC00163890-01; 322644_SIGMA; 12552_FLUKA; EPA Pesticide Chemical Code 008801; Phene; Benzene, pure; benzole; ST5214351; NCGC00090744-02; Benzolene; Benzene (including benzene from gasoline); 270709_ALDRICH; HSDB 35; Benzine; C01407; 401765_ALDRICH; 54682-86-9; Benzene-U-14C; Phenyl hydride; Benzeen [Dutch]; Benzin; 311855_SIGMA; 12540_FLUKA; Hydrocarbons, C4-8; benzol"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN042345",
+      "RNG",
+      "[6]Annulene; Mineral naphtha; Bicarburet of hydrogen; NCGC00090744-01; Aromatic alkane; 71-43-2; Benzin (Obs.); 12553_FLUKA; Nitration benzene; RCRA waste number U019; 26181-88-4; (6)Annulene; Motor benzol; 154628_SIAL; Benzol diluent; Benzolo; BENZENE; Benzene [UN1114]  [Flammable liquid]; EINECS 200-753-7; RCRA waste no. U109; WLN: RH; Polystream; Benzolo [Italian]; Benzene, labeled with carbon-14 and tritium; NCGC00163890-02; Pyrobenzol; Fenzen [Czech]; Benzene, labeled with carbon-14; Coal naphtha; 68956-52-5; 174973-66-1; 32212_RIEDEL; InChI=1/C6H6/c1-2-4-6-5-3-1/h1-6; CHEBI:16716; Fenzen; UN 1114; Benzine (Obs.); 319953_SIAL; Benzol 90; CCRIS 70; Pyrobenzole; ghl.PD_Mitscher_leg0.503; Benzeen; Benzene-UL-14C; 676985_ALDRICH; Benzene + aniline combo; UN1114; c0142; 48503_SUPELCO; AI3-00808; BNZ; NSC67315; NCI-C55276; NSC 67315; Benzen [Polish]; Carbon oil; Caswell No. 077; Cyclohexatriene; 27271-55-2; Benzen; NCGC00163890-01; 322644_SIGMA; 12552_FLUKA; EPA Pesticide Chemical Code 008801; Phene; Benzene, pure; benzole; ST5214351; NCGC00090744-02; Benzolene; Benzene (including benzene from gasoline); 270709_ALDRICH; HSDB 35; Benzine; C01407; 401765_ALDRICH; 54682-86-9; Benzene-U-14C; Phenyl hydride; Benzeen [Dutch]; Benzin; 311855_SIGMA; 12540_FLUKA; Hydrocarbons, C4-8; benzol",
+      "C6H6",
+      "C1=CC=CC=C1",
+      "78.11",
+      "29.10180994",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "27271-55-2"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT08699",
+        "title": "SMIT08699"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL007222"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/241",
+        "title": "241"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,563 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001074&label=Herb",
+        "title": "HERB001074"
+      },
+      "DA JI",
+      "大蓟",
+      "all-grass of Thistle",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Cirsii Japonici"
+      },
+      "Radix Cirsii Japonici",
+      "Herba seu Radix Cirsii japonici"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001309&label=Herb",
+        "title": "HERB001309"
+      },
+      "DING XIANG",
+      "丁香",
+      "Clove",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Caryophylli"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004052&label=Herb",
+        "title": "HERB004052"
+      },
+      "MU LI ROU",
+      "牡蛎肉",
+      "Oyster Meat",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Ostrea rivularis, Ostrea talienwhanensis, Ostrea gigas"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NA"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000285&label=Disease",
+        "title": "HBDIS000285"
+      },
+      "Autosome Abnormalities",
+      "0.00110812094348583",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000576&label=Disease",
+        "title": "HBDIS000576"
+      },
+      "Chromosome Aberrations",
+      "0.00110812094348583",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001154&label=Disease",
+        "title": "HBDIS001154"
+      },
+      "Gingival Diseases",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002295&label=Disease",
+        "title": "HBDIS002295"
+      },
+      "Progressive bulbar palsy",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002386&label=Disease",
+        "title": "HBDIS002386"
+      },
+      "Polymorphous light eruption",
+      "0.00118727243944911",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002417&label=Disease",
+        "title": "HBDIS002417"
+      },
+      "Pleural Rub",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002525&label=Disease",
+        "title": "HBDIS002525"
+      },
+      "Psychoses, Substance-Induced",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002601&label=Disease",
+        "title": "HBDIS002601"
+      },
+      "Respiratory Sounds",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002641&label=Disease",
+        "title": "HBDIS002641"
+      },
+      "Rhinitis, Allergic, Perennial",
+      "0.00142472692733892",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002644&label=Disease",
+        "title": "HBDIS002644"
+      },
+      "Rhonchi",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003106&label=Disease",
+        "title": "HBDIS003106"
+      },
+      "Vestibular Diseases",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003360&label=Disease",
+        "title": "HBDIS003360"
+      },
+      "Hemorrhagic cystitis",
+      "0.00118727243944911",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003712&label=Disease",
+        "title": "HBDIS003712"
+      },
+      "Mixed Cellularity Hodgkin Lymphoma",
+      "0.00110812094348583",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003713&label=Disease",
+        "title": "HBDIS003713"
+      },
+      "Hodgkin lymphoma, lymphocyte depletion",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003843&label=Disease",
+        "title": "HBDIS003843"
+      },
+      "Carcinoma in situ of prostate",
+      "0.000474908975779642",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004482&label=Disease",
+        "title": "HBDIS004482"
+      },
+      "Adult Brain Neoplasm",
+      "0.00102896944752256",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006132&label=Disease",
+        "title": "HBDIS006132"
+      },
+      "Cirrhosis, Cryptogenic",
+      "0.00118727243944911",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007200&label=Disease",
+        "title": "HBDIS007200"
+      },
+      "Adult Anaplastic Ependymoma",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007621&label=Disease",
+        "title": "HBDIS007621"
+      },
+      "HODGKIN'S AND NON-HODGKIN'S LYMPHOMA",
+      "0.00118727243944911",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007737&label=Disease",
+        "title": "HBDIS007737"
+      },
+      "Parafoveal telangiectasia",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007803&label=Disease",
+        "title": "HBDIS007803"
+      },
+      "Complicated pneumoconiosis",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008686&label=Disease",
+        "title": "HBDIS008686"
+      },
+      "Familial Tremor",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009418&label=Disease",
+        "title": "HBDIS009418"
+      },
+      "Osteoporosis with pseudoglioma",
+      "0.000791514959632737",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009550&label=Disease",
+        "title": "HBDIS009550"
+      },
+      "Infant, Extremely Low Birth Weight",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009909&label=Disease",
+        "title": "HBDIS009909"
+      },
+      "Influenza-like illness",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010479&label=Disease",
+        "title": "HBDIS010479"
+      },
+      "External Carotid Artery Diseases",
+      "0.000870666455596011",
+      "0.00707658671810716"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011112&label=Disease",
+        "title": "HBDIS011112"
+      },
+      "Internal Carotid Artery Diseases",
+      "0.000870666455596011",
+      "0.00707658671810716"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011113&label=Disease",
+        "title": "HBDIS011113"
+      },
+      "Arterial Diseases, Common Carotid",
+      "0.000870666455596011",
+      "0.00707658671810716"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011813&label=Disease",
+        "title": "HBDIS011813"
+      },
+      "premalignant lesion",
+      "0.0015038784233022",
+      "0.00990856799135117"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012159&label=Disease",
+        "title": "HBDIS012159"
+      },
+      "Distal colitis",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013016&label=Disease",
+        "title": "HBDIS013016"
+      },
+      "Lymphocyte Rich Classical Hodgkin Lymphoma",
+      "0.00102896944752256",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014293&label=Disease",
+        "title": "HBDIS014293"
+      },
+      "Ureteral Calculi",
+      "0.000474908975779642",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014995&label=Disease",
+        "title": "HBDIS014995"
+      },
+      "Slow acetylator due to N-acetyltransferase enzyme variant",
+      "0.0015038784233022",
+      "0.00990856799135117"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015539&label=Disease",
+        "title": "HBDIS015539"
+      },
+      "Cleft lip, isolated",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017735&label=Disease",
+        "title": "HBDIS017735"
+      },
+      "ADRENOCORTICAL CARCINOMA, HEREDITARY",
+      "0.000791514959632737",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018542&label=Disease",
+        "title": "HBDIS018542"
+      },
+      "Rat Cholangiofibrosis",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018773&label=Disease",
+        "title": "HBDIS018773"
+      },
+      "KALA-AZAR, SUSCEPTIBILITY TO, 2",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025358&label=Disease",
+        "title": "HBDIS025358"
+      },
+      "ROSE Cluster 1",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025567&label=Disease",
+        "title": "HBDIS025567"
+      },
+      "Childhood Anaplastic Ependymoma",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026862&label=Disease",
+        "title": "HBDIS026862"
+      },
+      "Telangiectasia of macula lutea",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026916&label=Disease",
+        "title": "HBDIS026916"
+      },
+      "Refractory Lymphoma",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027262&label=Disease",
+        "title": "HBDIS027262"
+      },
+      "Granulocytopenic disorder",
+      "0.000712363463669464",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027918&label=Disease",
+        "title": "HBDIS027918"
+      },
+      "Acute on chronic hepatitis B",
+      "0.0015038784233022",
+      "0.00990856799135117"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001724&label=Target",
+        "title": "HBTAR001724"
+      },
+      "GSTP1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9322/",
+          "title": "TCMID:9322"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00733"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN035333",
+      "methyl-n-pentyl ketone",
+      "C7H14O",
+      "CCCCCC(=O)C",
+      "114.19",
+      {
+        "link": "https://www.symmap.org/detail/SMIT16696",
+        "title": "SMIT16696"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/14660/",
+        "title": "14660"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/8051",
+        "title": "8051"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,2152 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003672&label=Herb",
+        "title": "HERB003672"
+      },
+      "MA LING SHU",
+      "马铃薯",
+      "Potato",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Solanum tuberosum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004242&label=Herb",
+        "title": "HERB004242"
+      },
+      "NV ZHEN ZI",
+      "女贞子",
+      "fruit of Glossy privet",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Ligustri lucidi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005017&label=Herb",
+        "title": "HERB005017"
+      },
+      "SHENG JIANG",
+      "生姜",
+      "Fresh Ginger",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Zingiberis Recens"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "2537-EP2371797A1; 1-Propanol, LR, >=99%; 2537-EP2311834A1; 2537-EP2308849A1; 2537-EP2272517A1; 27313-EP2281817A1; n-Propanol or propyl alcohol, normal [UN1274]  [Flammable liquid]; 2537-EP2305681A1; 1-Propanol, puriss. p.a., Reag. Ph. Eur., >=99.5% (GC); RL04721; 27313-EP2305642A2; 2537-EP2371814A1; BRN 1098242; Albacol; 27313-EP2305667A2; 2537-EP2371798A1; 2537-EP2305649A1; Propylowy alkohol [Polish]; Caswell No. 709A; 27313-EP2308838A1; 2537-EP2377510A1; J-505102; 28286-EP2314581A1; 1-hydroxypropan-2-yl; 28286-EP2295424A1; 2537-EP2269994A1; 27313-EP2287155A1; 2537-EP2280005A1; F0001-1829; 142583-61-7; Hydroxypropane; 27313-EP2308880A1; AKOS000249219; UNII-96F264O9SV; AC1L1AKQ; 28286-EP2295427A1; KSC356I6N; 1-Propanol, analytical standard; 28286-EP2305662A1; LS-3067; 1-Propanol, B&J Brand (product of Burdick & Jackson); 5VQ; 2537-EP2305647A1; 27313-EP2287158A1; n-Propyl alcohol; 2537-EP2272846A1; MCULE-6252105126; Propylol; 2537-EP2314576A1; 28286-EP2311801A1; 2537-EP2286795A1; MFCD00002941; normal propyl alcohol; InChI=1/C3H8O/c1-2-3-4/h4H,2-3H2,1H; 27313-EP2301919A1; 2537-EP2308857A1; KB-66585; 96F264O9SV; 1-Propanol, anhydrous; 2537-EP2289868A1; 2537-EP2308839A1; Propanole [German]; 33630-EP2298750A1; 1-Propanol, >=99%; 2537-EP2292612A2; 1-PROPONOL; Propanol-1; 2537-EP2298731A1; 2537-EP2308850A1; CHEMBL14687; 28286-EP2289881A1; 27313-EP2371797A1; 2537-EP2305673A1; 1-Propanol, Pharmaceutical Secondary Standard; Certified Reference Material; n-Propylalkohol; 27313-EP2298753"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000275&label=Disease",
+        "title": "HBDIS000275"
+      },
+      "Atrial Fibrillation",
+      "0.000480549950974388",
+      "0.00474839746461752"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000425&label=Disease",
+        "title": "HBDIS000425"
+      },
+      "Malignant Neoplasms",
+      "0.00101400881660518",
+      "0.00779138775172017"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002070&label=Disease",
+        "title": "HBDIS002070"
+      },
+      "Neoplasm Metastasis",
+      "0.000962202509805091",
+      "0.00748891934209337"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002073&label=Disease",
+        "title": "HBDIS002073"
+      },
+      "Neoplasms",
+      "2.14962203402496e-05",
+      "0.000487614888129452"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003513&label=Disease",
+        "title": "HBDIS003513"
+      },
+      "Migraine Disorders",
+      "3.30330417441712e-06",
+      "0.000111457747205956"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003765&label=Disease",
+        "title": "HBDIS003765"
+      },
+      "malignant neoplasm of lateral wall of oropharynx",
+      "0.000132264940278329",
+      "0.0019142243599626"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003766&label=Disease",
+        "title": "HBDIS003766"
+      },
+      "Malignant neoplasm of posterior wall of oropharynx",
+      "0.000132264940278329",
+      "0.0019142243599626"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004984&label=Disease",
+        "title": "HBDIS004984"
+      },
+      "Paroxysmal atrial fibrillation",
+      "0.00135058194731327",
+      "0.00928673440170711"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010418&label=Disease",
+        "title": "HBDIS010418"
+      },
+      "Carcinogenesis",
+      "0.000511638071705166",
+      "0.00498221337095001"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013434&label=Disease",
+        "title": "HBDIS013434"
+      },
+      "Primary malignant neoplasm",
+      "0.000978882206492167",
+      "0.00758631944752979"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020937&label=Disease",
+        "title": "HBDIS020937"
+      },
+      "Primary malignant neoplasm of lateral wall of oropharynx",
+      "0.000132264940278329",
+      "0.0019142243599626"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000234&label=Disease",
+        "title": "HBDIS000234"
+      },
+      "Cardiac Arrhythmia",
+      "5.08067617934656e-06",
+      "0.000157467375865916"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000659&label=Disease",
+        "title": "HBDIS000659"
+      },
+      "Febrile Convulsions",
+      "8.05049307865918e-05",
+      "0.00132041200545469"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000956&label=Disease",
+        "title": "HBDIS000956"
+      },
+      "Epilepsy",
+      "6.83160776944924e-09",
+      "5.90701337837774e-07"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000958&label=Disease",
+        "title": "HBDIS000958"
+      },
+      "Epilepsy, Generalized",
+      "1.88683926919216e-06",
+      "7.0857597045313e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000961&label=Disease",
+        "title": "HBDIS000961"
+      },
+      "Absence Epilepsy",
+      "0.000281763461407122",
+      "0.00331047104384065"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006512&label=Disease",
+        "title": "HBDIS006512"
+      },
+      "Idiopathic generalized epilepsy",
+      "1.50043462109226e-06",
+      "5.87553783052976e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009738&label=Disease",
+        "title": "HBDIS009738"
+      },
+      "Tonic - clonic seizures",
+      "1.28784996287899e-05",
+      "0.000327538547262955"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012582&label=Disease",
+        "title": "HBDIS012582"
+      },
+      "Drug Resistant Epilepsy",
+      "7.76110478883464e-05",
+      "0.0012944318379448"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022112&label=Disease",
+        "title": "HBDIS022112"
+      },
+      "Intellectual Disability",
+      "0.00123171381118937",
+      "0.00879650984693476"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024470&label=Disease",
+        "title": "HBDIS024470"
+      },
+      "Impaired visuospatial constructive cognition",
+      "2.81556082086379e-05",
+      "0.00060015781609829"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025983&label=Disease",
+        "title": "HBDIS025983"
+      },
+      "Childhood Absence Epilepsy",
+      "0.000168550064392193",
+      "0.00227318460707996"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026418&label=Disease",
+        "title": "HBDIS026418"
+      },
+      "Absence Seizures",
+      "1.67582262267082e-05",
+      "0.000402403358369254"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026654&label=Disease",
+        "title": "HBDIS026654"
+      },
+      "Limb myoclonus",
+      "0.00141972808640239",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026728&label=Disease",
+        "title": "HBDIS026728"
+      },
+      "Epileptic Syndromes",
+      "6.86346872024222e-07",
+      "3.08361616804075e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000962&label=Disease",
+        "title": "HBDIS000962"
+      },
+      "Epilepsy, Temporal Lobe",
+      "0.000383496244672927",
+      "0.00411151057542874"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001889&label=Disease",
+        "title": "HBDIS001889"
+      },
+      "melanoma",
+      "0.00113562258085867",
+      "0.00836566887885757"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002000&label=Disease",
+        "title": "HBDIS002000"
+      },
+      "Muscle Spasticity",
+      "0.000796703806474336",
+      "0.00665137264396486"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003052&label=Disease",
+        "title": "HBDIS003052"
+      },
+      "Ureterocele",
+      "9.34773946177003e-05",
+      "0.00147793234277648"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010420&label=Disease",
+        "title": "HBDIS010420"
+      },
+      "Cerebrovascular Occlusion",
+      "0.000781533448847588",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014663&label=Disease",
+        "title": "HBDIS014663"
+      },
+      "Glioblastoma Multiforme",
+      "0.000722807993154724",
+      "0.00625682415142519"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000269&label=Disease",
+        "title": "HBDIS000269"
+      },
+      "Ataxia",
+      "0.000188167302425766",
+      "0.00246925876069562"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000493&label=Disease",
+        "title": "HBDIS000493"
+      },
+      "Cerebellar Ataxia",
+      "3.79301389881977e-07",
+      "1.87853191546385e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000852&label=Disease",
+        "title": "HBDIS000852"
+      },
+      "Dyskinetic syndrome",
+      "0.000897950703336684",
+      "0.00724279999950364"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001997&label=Disease",
+        "title": "HBDIS001997"
+      },
+      "Muscle Hypertonia",
+      "0.000826416382996559",
+      "0.00684207382426507"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002030&label=Disease",
+        "title": "HBDIS002030"
+      },
+      "Myoclonus",
+      "2.4670408555916e-08",
+      "1.81607159108007e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002116&label=Disease",
+        "title": "HBDIS002116"
+      },
+      "Neurologic Manifestations",
+      "1.63539800526038e-05",
+      "0.000394453861900184"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003313&label=Disease",
+        "title": "HBDIS003313"
+      },
+      "Choreoathetosis",
+      "1.1812657385763e-06",
+      "4.8213284112029e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003440&label=Disease",
+        "title": "HBDIS003440"
+      },
+      "Ataxia, Spinocerebellar",
+      "0.00143143918722763",
+      "0.00956358160838941"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006511&label=Disease",
+        "title": "HBDIS006511"
+      },
+      "Epileptic drop attack",
+      "0.000345088693313434",
+      "0.00379881796147854"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006513&label=Disease",
+        "title": "HBDIS006513"
+      },
+      "Benign neonatal epilepsy",
+      "2.28968461397085e-09",
+      "2.25281718638031e-07"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006520&label=Disease",
+        "title": "HBDIS006520"
+      },
+      "Hemiplegic migraine",
+      "5.68858912893263e-08",
+      "3.74141444704898e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008673&label=Disease",
+        "title": "HBDIS008673"
+      },
+      "Chorea Acanthocytosis Syndrome",
+      "0.000191978843745355",
+      "0.0025067586505001"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008705&label=Disease",
+        "title": "HBDIS008705"
+      },
+      "Early infantile epileptic encephalopathy with suppression bursts",
+      "0.000222088602027781",
+      "0.00279559914958853"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009533&label=Disease",
+        "title": "HBDIS009533"
+      },
+      "Delayed speech and language development",
+      "9.56577157175274e-05",
+      "0.00150412693656703"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009845&label=Disease",
+        "title": "HBDIS009845"
+      },
+      "Abnormal coordination",
+      "0.0015130164477017",
+      "0.00995744975007474"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010013&label=Disease",
+        "title": "HBDIS010013"
+      },
+      "Forgetful",
+      "0.00124739044589599",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010042&label=Disease",
+        "title": "HBDIS010042"
+      },
+      "Epileptic encephalopathy",
+      "2.72724299036635e-08",
+      "1.98026118056221e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010442&label=Disease",
+        "title": "HBDIS010442"
+      },
+      "Diffuse cerebral atrophy",
+      "0.000306562651060309",
+      "0.0035249724658075"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010573&label=Disease",
+        "title": "HBDIS010573"
+      },
+      "Myokymia",
+      "3.18251513368595e-07",
+      "1.6215106751056e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010577&label=Disease",
+        "title": "HBDIS010577"
+      },
+      "Hypsarrhythmia",
+      "0.000177777982145354",
+      "0.00236546040061368"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011032&label=Disease",
+        "title": "HBDIS011032"
+      },
+      "Recurrent seizure",
+      "0.000887878910462896",
+      "0.00718014368355752"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014875&label=Disease",
+        "title": "HBDIS014875"
+      },
+      "Episodic ataxia type 1",
+      "2.58776554445559e-11",
+      "4.0584702312075e-09"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014883&label=Disease",
+        "title": "HBDIS014883"
+      },
+      "Episodic Ataxia",
+      "0.000340782775775845",
+      "0.00376162742887267"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014887&label=Disease",
+        "title": "HBDIS014887"
+      },
+      "Episodic ataxia type 2 (disorder)",
+      "0.000781533448847588",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015439&label=Disease",
+        "title": "HBDIS015439"
+      },
+      "Generalized tonic seizures",
+      "6.35431646903544e-06",
+      "0.000188117685462639"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015491&label=Disease",
+        "title": "HBDIS015491"
+      },
+      "Developmental regression",
+      "0.00106560602540956",
+      "0.00805126123573047"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016072&label=Disease",
+        "title": "HBDIS016072"
+      },
+      "Postural instability",
+      "7.03748822570313e-05",
+      "0.00120519648722288"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018472&label=Disease",
+        "title": "HBDIS018472"
+      },
+      "Paroxysmal kinesigenic choreoathetosis",
+      "1.63539800526038e-05",
+      "0.000394453861900184"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018737&label=Disease",
+        "title": "HBDIS018737"
+      },
+      "EEG with burst suppression",
+      "4.44908407039381e-05",
+      "0.000852449663711667"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021576&label=Disease",
+        "title": "HBDIS021576"
+      },
+      "Generalized Epilepsy with Febrile Seizures Plus",
+      "9.44736570220482e-08",
+      "5.78382131433335e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024164&label=Disease",
+        "title": "HBDIS024164"
+      },
+      "Absent thumbnail",
+      "0.00141972808640239",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024409&label=Disease",
+        "title": "HBDIS024409"
+      },
+      "Uni- and bilateral multifocal epileptiform discharges",
+      "0.00118672867247156",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024460&label=Disease",
+        "title": "HBDIS024460"
+      },
+      "EEG with spike-wave complexes",
+      "7.89844705913018e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024774&label=Disease",
+        "title": "HBDIS024774"
+      },
+      "Diffuse white matter abnormalities",
+      "0.000168550064392193",
+      "0.00227318460707996"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000960&label=Disease",
+        "title": "HBDIS000960"
+      },
+      "Myoclonic Epilepsy",
+      "8.99062315795112e-05",
+      "0.0014352829170399"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002832&label=Disease",
+        "title": "HBDIS002832"
+      },
+      "Status Epilepticus",
+      "3.67703346786015e-05",
+      "0.00073636946480116"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003314&label=Disease",
+        "title": "HBDIS003314"
+      },
+      "Encephalopathies",
+      "5.14662863858252e-06",
+      "0.000158939633464947"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007335&label=Disease",
+        "title": "HBDIS007335"
+      },
+      "Difficulty walking",
+      "0.000953216076361157",
+      "0.00742911623243021"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011327&label=Disease",
+        "title": "HBDIS011327"
+      },
+      "Seizures, Focal",
+      "0.000209752262770343",
+      "0.00267509019709408"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014919&label=Disease",
+        "title": "HBDIS014919"
+      },
+      "Channelopathies",
+      "8.43918943960174e-08",
+      "5.25507968326324e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025220&label=Disease",
+        "title": "HBDIS025220"
+      },
+      "Abnormality of vision",
+      "0.000113921766532268",
+      "0.00171251334591555"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001776&label=Disease",
+        "title": "HBDIS001776"
+      },
+      "Long QT Syndrome",
+      "5.04303107015546e-11",
+      "7.42430500720405e-09"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002653&label=Disease",
+        "title": "HBDIS002653"
+      },
+      "Romano-Ward Syndrome",
+      "4.44908407039381e-05",
+      "0.000852449663711667"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002873&label=Disease",
+        "title": "HBDIS002873"
+      },
+      "Sudden infant death syndrome",
+      "2.13328444085044e-05",
+      "0.000484769869661125"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002974&label=Disease",
+        "title": "HBDIS002974"
+      },
+      "Torsades de Pointes",
+      "0.000887878910462896",
+      "0.00718014368355752"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003098&label=Disease",
+        "title": "HBDIS003098"
+      },
+      "Ventricular Fibrillation",
+      "2.39099753669139e-05",
+      "0.000529423085165164"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012715&label=Disease",
+        "title": "HBDIS012715"
+      },
+      "Congenital long QT syndrome",
+      "9.34773946177003e-05",
+      "0.00147793234277648"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027272&label=Disease",
+        "title": "HBDIS027272"
+      },
+      "Long QT Syndrome 1",
+      "6.03271861355209e-07",
+      "2.76647452201793e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007833&label=Disease",
+        "title": "HBDIS007833"
+      },
+      "Lone atrial fibrillation",
+      "0.000109602179111168",
+      "0.00166439518554903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008676&label=Disease",
+        "title": "HBDIS008676"
+      },
+      "Benign Hereditary Chorea",
+      "0.00118672867247156",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016024&label=Disease",
+        "title": "HBDIS016024"
+      },
+      "Poor school performance",
+      "8.05049307865918e-05",
+      "0.00132041200545469"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004025&label=Disease",
+        "title": "HBDIS004025"
+      },
+      "Irregular Menstruation",
+      "0.000609722070500089",
+      "0.00563996307581316"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011462&label=Disease",
+        "title": "HBDIS011462"
+      },
+      "Unverricht-Lundborg Syndrome",
+      "5.41333003152549e-05",
+      "0.000987616914216006"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004794&label=Disease",
+        "title": "HBDIS004794"
+      },
+      "Bradykinesia",
+      "0.00148346332452665",
+      "0.00982822467668652"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014547&label=Disease",
+        "title": "HBDIS014547"
+      },
+      "Adverse Event Associated with Cardiac Arrhythmia",
+      "0.000306562651060309",
+      "0.0035249724658075"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012730&label=Disease",
+        "title": "HBDIS012730"
+      },
+      "Brugada Syndrome (disorder)",
+      "2.68333142725443e-06",
+      "9.41862795095247e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006514&label=Disease",
+        "title": "HBDIS006514"
+      },
+      "Juvenile Myoclonic Epilepsy",
+      "0.0001959499051329",
+      "0.00254242930180291"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000717&label=Disease",
+        "title": "HBDIS000717"
+      },
+      "Deafness",
+      "5.41333003152549e-05",
+      "0.000987616914216006"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015122&label=Disease",
+        "title": "HBDIS015122"
+      },
+      "Hemiplegic migraine, familial type 1",
+      "0.000781533448847588",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019101&label=Disease",
+        "title": "HBDIS019101"
+      },
+      "Familial migraine",
+      "0.000219767231667278",
+      "0.00277341357761028"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024120&label=Disease",
+        "title": "HBDIS024120"
+      },
+      "Neurodevelopmental delay",
+      "0.000416396454931308",
+      "0.00434038535073464"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001589&label=Disease",
+        "title": "HBDIS001589"
+      },
+      "Jervell-Lange Nielsen Syndrome",
+      "0.000609722070500089",
+      "0.00563996307581316"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007773&label=Disease",
+        "title": "HBDIS007773"
+      },
+      "Congenital deafness",
+      "4.91182226379057e-06",
+      "0.000153379418869535"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008590&label=Disease",
+        "title": "HBDIS008590"
+      },
+      "idiopathic epilepsy",
+      "2.58937910880135e-06",
+      "9.15763475157627e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008905&label=Disease",
+        "title": "HBDIS008905"
+      },
+      "Bladder outflow obstruction",
+      "1.01150319490649e-06",
+      "4.24842384064767e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000925&label=Disease",
+        "title": "HBDIS000925"
+      },
+      "Subacute Bacterial Endocarditis",
+      "1.63539800526038e-05",
+      "0.000394453861900184"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004094&label=Disease",
+        "title": "HBDIS004094"
+      },
+      "Convulsions in the newborn",
+      "5.90067039113193e-09",
+      "5.19415342231017e-07"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004501&label=Disease",
+        "title": "HBDIS004501"
+      },
+      "Familial benign neonatal epilepsy",
+      "3.18251513368595e-07",
+      "1.6215106751056e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004892&label=Disease",
+        "title": "HBDIS004892"
+      },
+      "Disturbance of consciousness",
+      "6.60434027768411e-05",
+      "0.001148941671388"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006516&label=Disease",
+        "title": "HBDIS006516"
+      },
+      "Early myoclonic encephalopathy",
+      "0.000781533448847588",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008570&label=Disease",
+        "title": "HBDIS008570"
+      },
+      "Epilepsy, Rolandic",
+      "1.69661565562151e-05",
+      "0.000406473208016762"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008638&label=Disease",
+        "title": "HBDIS008638"
+      },
+      "Dysesthesia",
+      "1.33806370453647e-06",
+      "5.34515262199764e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011166&label=Disease",
+        "title": "HBDIS011166"
+      },
+      "Infantile Severe Myoclonic Epilepsy",
+      "8.99062315795112e-05",
+      "0.0014352829170399"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011598&label=Disease",
+        "title": "HBDIS011598"
+      },
+      "Focal Clonic Seizures",
+      "1.47932266442749e-07",
+      "8.4855241526144e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012218&label=Disease",
+        "title": "HBDIS012218"
+      },
+      "Afebrile seizure",
+      "1.01150319490649e-06",
+      "4.24842384064767e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012576&label=Disease",
+        "title": "HBDIS012576"
+      },
+      "Dysphasia",
+      "0.000113107933307962",
+      "0.00170563781220492"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014767&label=Disease",
+        "title": "HBDIS014767"
+      },
+      "Disorder of electrolytes",
+      "0.000609722070500089",
+      "0.00563996307581316"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015189&label=Disease",
+        "title": "HBDIS015189"
+      },
+      "PAROXYSMAL EXTREME PAIN DISORDER",
+      "9.44736570220482e-08",
+      "5.78382131433335e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015750&label=Disease",
+        "title": "HBDIS015750"
+      },
+      "EPILEPTIC ENCEPHALOPATHY, EARLY INFANTILE, 2",
+      "6.46138992076887e-05",
+      "0.00112933117897241"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016001&label=Disease",
+        "title": "HBDIS016001"
+      },
+      "SEIZURES, BENIGN FAMILIAL INFANTILE, 3",
+      "2.21797115261607e-05",
+      "0.000500077306102979"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016891&label=Disease",
+        "title": "HBDIS016891"
+      },
+      "EPILEPSY, BENIGN NEONATAL, 2",
+      "4.24810155438944e-11",
+      "6.36300487805821e-09"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018641&label=Disease",
+        "title": "HBDIS018641"
+      },
+      "Memory Impairment, CTCAE 3.0",
+      "0.000504380933923929",
+      "0.00492458591080477"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019137&label=Disease",
+        "title": "HBDIS019137"
+      },
+      "Benign Rolandic Epilepsy",
+      "0.00141972808640239",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020848&label=Disease",
+        "title": "HBDIS020848"
+      },
+      "Seizures in the newborn, refractory",
+      "2.21797115261607e-05",
+      "0.000500077306102979"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021405&label=Disease",
+        "title": "HBDIS021405"
+      },
+      "EPILEPTIC ENCEPHALOPATHY, EARLY INFANTILE, 1",
+      "0.000781533448847588",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021488&label=Disease",
+        "title": "HBDIS021488"
+      },
+      "Migrating partial seizures in infancy",
+      "9.44736570220482e-08",
+      "5.78382131433335e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022022&label=Disease",
+        "title": "HBDIS022022"
+      },
+      "Autosomal Dominant Nocturnal Frontal Lobe Epilepsy",
+      "2.81556082086379e-05",
+      "0.00060015781609829"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022853&label=Disease",
+        "title": "HBDIS022853"
+      },
+      "Benign Familial Convulsion",
+      "4.24810155438944e-11",
+      "6.36300487805821e-09"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023021&label=Disease",
+        "title": "HBDIS023021"
+      },
+      "EPILEPTIC ENCEPHALOPATHY, EARLY INFANTILE, 21",
+      "0.000609722070500089",
+      "0.00563996307581316"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027394&label=Disease",
+        "title": "HBDIS027394"
+      },
+      "X-linked infantile spasms",
+      "0.000705357128252119",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027475&label=Disease",
+        "title": "HBDIS027475"
+      },
+      "Memory Impairment, CTCAE 5.0",
+      "0.000480207643392746",
+      "0.00474529503746559"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008591&label=Disease",
+        "title": "HBDIS008591"
+      },
+      "Familial Epilepsies",
+      "0.00141972808640239",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003503&label=Disease",
+        "title": "HBDIS003503"
+      },
+      "Seizure, Febrile, Simple",
+      "0.00141972808640239",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009238&label=Disease",
+        "title": "HBDIS009238"
+      },
+      "Tibial torsion",
+      "0.000781533448847588",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010502&label=Disease",
+        "title": "HBDIS010502"
+      },
+      "Inspiratory stridor",
+      "0.00032864276665129",
+      "0.00366324668563743"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014516&label=Disease",
+        "title": "HBDIS014516"
+      },
+      "Sudden unexplained death in epilepsy",
+      "0.000781533448847588",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016123&label=Disease",
+        "title": "HBDIS016123"
+      },
+      "Limited knee extension",
+      "0.000781533448847588",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024416&label=Disease",
+        "title": "HBDIS024416"
+      },
+      "Obtundation status",
+      "0.000973933273849935",
+      "0.00755712706413054"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024794&label=Disease",
+        "title": "HBDIS024794"
+      },
+      "Generalized cerebral atrophy/hypoplasia",
+      "0.00141972808640239",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025328&label=Disease",
+        "title": "HBDIS025328"
+      },
+      "Febrile infection related epilepsy syndrome",
+      "0.000458693334413315",
+      "0.00466123609051749"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027731&label=Disease",
+        "title": "HBDIS027731"
+      },
+      "Acute encephalopathy with biphasic seizures and late reduced diffusion",
+      "0.000458693334413315",
+      "0.00466123609051749"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025442&label=Disease",
+        "title": "HBDIS025442"
+      },
+      "Primary Caesarian section",
+      "0.000973933273849935",
+      "0.00755712706413054"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000078&label=Target",
+        "title": "HBTAR000078"
+      },
+      "ADH1B",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8438/",
+          "title": "TCMID:8438"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001244&label=Target",
+        "title": "HBTAR001244"
+      },
+      "EPHA4",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2120/",
+          "title": "TCMID:2120"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002172&label=Target",
+        "title": "HBTAR002172"
+      },
+      "KCNA1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/5874/",
+          "title": "TCMID:5874"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002173&label=Target",
+        "title": "HBTAR002173"
+      },
+      "KCNA2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/5848/",
+          "title": "TCMID:5848"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002174&label=Target",
+        "title": "HBTAR002174"
+      },
+      "KCNA3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3788/",
+          "title": "TCMID:3788"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002175&label=Target",
+        "title": "HBTAR002175"
+      },
+      "KCNA4",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11175/",
+          "title": "TCMID:11175"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002176&label=Target",
+        "title": "HBTAR002176"
+      },
+      "KCNA5",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11786/",
+          "title": "TCMID:11786"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002177&label=Target",
+        "title": "HBTAR002177"
+      },
+      "KCNA6",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9327/",
+          "title": "TCMID:9327"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002178&label=Target",
+        "title": "HBTAR002178"
+      },
+      "KCNA7",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8949/",
+          "title": "TCMID:8949"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002179&label=Target",
+        "title": "HBTAR002179"
+      },
+      "KCNA10",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/7841/",
+          "title": "TCMID:7841"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002180&label=Target",
+        "title": "HBTAR002180"
+      },
+      "KCNB1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/10889/",
+          "title": "TCMID:10889"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002181&label=Target",
+        "title": "HBTAR002181"
+      },
+      "KCNC1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/14796/",
+          "title": "TCMID:14796"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002182&label=Target",
+        "title": "HBTAR002182"
+      },
+      "KCNC2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11630/",
+          "title": "TCMID:11630"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002183&label=Target",
+        "title": "HBTAR002183"
+      },
+      "KCNC3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8002/",
+          "title": "TCMID:8002"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002184&label=Target",
+        "title": "HBTAR002184"
+      },
+      "KCNC4",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1944/",
+          "title": "TCMID:1944"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002185&label=Target",
+        "title": "HBTAR002185"
+      },
+      "KCND1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/4241/",
+          "title": "TCMID:4241"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002186&label=Target",
+        "title": "HBTAR002186"
+      },
+      "KCND2",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT01796",
+          "title": "SymMap:SMTT01796"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002187&label=Target",
+        "title": "HBTAR002187"
+      },
+      "KCND3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/5908/",
+          "title": "TCMID:5908"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002189&label=Target",
+        "title": "HBTAR002189"
+      },
+      "KCNF1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/6911/",
+          "title": "TCMID:6911"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002190&label=Target",
+        "title": "HBTAR002190"
+      },
+      "KCNG1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8498/",
+          "title": "TCMID:8498"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002207&label=Target",
+        "title": "HBTAR002207"
+      },
+      "KCNK1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11833/",
+          "title": "TCMID:11833"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002208&label=Target",
+        "title": "HBTAR002208"
+      },
+      "KCNK2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3295/",
+          "title": "TCMID:3295"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR03986"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002215&label=Target",
+        "title": "HBTAR002215"
+      },
+      "KCNQ1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2224/",
+          "title": "TCMID:2224"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002216&label=Target",
+        "title": "HBTAR002216"
+      },
+      "KCNQ2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8457/",
+          "title": "TCMID:8457"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002217&label=Target",
+        "title": "HBTAR002217"
+      },
+      "KCNQ3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2964/",
+          "title": "TCMID:2964"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002218&label=Target",
+        "title": "HBTAR002218"
+      },
+      "KCNS1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/7411/",
+          "title": "TCMID:7411"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002219&label=Target",
+        "title": "HBTAR002219"
+      },
+      "KCNS2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/12528/",
+          "title": "TCMID:12528"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002220&label=Target",
+        "title": "HBTAR002220"
+      },
+      "KCNS3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/12873/",
+          "title": "TCMID:12873"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002372&label=Target",
+        "title": "HBTAR002372"
+      },
+      "LYZ",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/5877/",
+          "title": "TCMID:5877"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR01172"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003173&label=Target",
+        "title": "HBTAR003173"
+      },
+      "PRKAR1A",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11216/",
+          "title": "TCMID:11216"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003174&label=Target",
+        "title": "HBTAR003174"
+      },
+      "PRKAR1B",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/13401/",
+          "title": "TCMID:13401"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003175&label=Target",
+        "title": "HBTAR003175"
+      },
+      "PRKAR2A",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3645/",
+          "title": "TCMID:3645"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003176&label=Target",
+        "title": "HBTAR003176"
+      },
+      "PRKAR2B",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/7804/",
+          "title": "TCMID:7804"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003624&label=Target",
+        "title": "HBTAR003624"
+      },
+      "SCN1A",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/10526/",
+          "title": "TCMID:10526"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003625&label=Target",
+        "title": "HBTAR003625"
+      },
+      "SCN2A",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11712/",
+          "title": "TCMID:11712"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003627&label=Target",
+        "title": "HBTAR003627"
+      },
+      "SCN4A",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/5300/",
+          "title": "TCMID:5300"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004277&label=Target",
+        "title": "HBTAR004277"
+      },
+      "UMPS",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2534/",
+          "title": "TCMID:2534"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR01786"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004787&label=Target",
+        "title": "HBTAR004787"
+      },
+      "KCNK5",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8202/",
+          "title": "TCMID:8202"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004946&label=Target",
+        "title": "HBTAR004946"
+      },
+      "CACNA1I",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3294/",
+          "title": "TCMID:3294"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004947&label=Target",
+        "title": "HBTAR004947"
+      },
+      "CACNA1H",
+      [
+        {
+          "link": "http://lifecenter.sgst.cn/hit/",
+          "title": "HIT:T0872"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00336"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR005055&label=Target",
+        "title": "HBTAR005055"
+      },
+      "KCNQ4",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/10990/",
+          "title": "TCMID:10990"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR005148&label=Target",
+        "title": "HBTAR005148"
+      },
+      "KCNB2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11376/",
+          "title": "TCMID:11376"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR005216&label=Target",
+        "title": "HBTAR005216"
+      },
+      "KCNK6",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8885/",
+          "title": "TCMID:8885"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR005617&label=Target",
+        "title": "HBTAR005617"
+      },
+      "KCNK7",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/4437/",
+          "title": "TCMID:4437"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR006087&label=Target",
+        "title": "HBTAR006087"
+      },
+      "PNPLA6",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1323/",
+          "title": "TCMID:1323"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007024&label=Target",
+        "title": "HBTAR007024"
+      },
+      "KCNG2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3694/",
+          "title": "TCMID:3694"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007104&label=Target",
+        "title": "HBTAR007104"
+      },
+      "KCNV1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/7880/",
+          "title": "TCMID:7880"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007442&label=Target",
+        "title": "HBTAR007442"
+      },
+      "KCNK4",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1971/",
+          "title": "TCMID:1971"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007878&label=Target",
+        "title": "HBTAR007878"
+      },
+      "KCNK10",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11473/",
+          "title": "TCMID:11473"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR008516&label=Target",
+        "title": "HBTAR008516"
+      },
+      "APOM",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/6009/",
+          "title": "TCMID:6009"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR008602&label=Target",
+        "title": "HBTAR008602"
+      },
+      "KCNQ5",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/12683/",
+          "title": "TCMID:12683"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR009927&label=Target",
+        "title": "HBTAR009927"
+      },
+      "KCNK16",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/321/",
+          "title": "TCMID:321"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010296&label=Target",
+        "title": "HBTAR010296"
+      },
+      "KCNK17",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11771/",
+          "title": "TCMID:11771"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010471&label=Target",
+        "title": "HBTAR010471"
+      },
+      "KCNG4",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9827/",
+          "title": "TCMID:9827"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR011070&label=Target",
+        "title": "HBTAR011070"
+      },
+      "CNBD2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/14910/",
+          "title": "TCMID:14910"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR011470&label=Target",
+        "title": "HBTAR011470"
+      },
+      "KCNV2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11207/",
+          "title": "TCMID:11207"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR011490&label=Target",
+        "title": "HBTAR011490"
+      },
+      "KCNG3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11441/",
+          "title": "TCMID:11441"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR011996&label=Target",
+        "title": "HBTAR011996"
+      },
+      "KCNK18",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3237/",
+          "title": "TCMID:3237"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR012174&label=Target",
+        "title": "HBTAR012174"
+      },
+      "PNPLA7",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2559/",
+          "title": "TCMID:2559"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR012185&label=Target",
+        "title": "HBTAR012185"
+      },
+      "CATSPER4",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11601/",
+          "title": "TCMID:11601"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN037499",
+      "n-propanol",
+      "2537-EP2371797A1; 1-Propanol, LR, >=99%; 2537-EP2311834A1; 2537-EP2308849A1; 2537-EP2272517A1; 27313-EP2281817A1; n-Propanol or propyl alcohol, normal [UN1274]  [Flammable liquid]; 2537-EP2305681A1; 1-Propanol, puriss. p.a., Reag. Ph. Eur., >=99.5% (GC); RL04721; 27313-EP2305642A2; 2537-EP2371814A1; BRN 1098242; Albacol; 27313-EP2305667A2; 2537-EP2371798A1; 2537-EP2305649A1; Propylowy alkohol [Polish]; Caswell No. 709A; 27313-EP2308838A1; 2537-EP2377510A1; J-505102; 28286-EP2314581A1; 1-hydroxypropan-2-yl; 28286-EP2295424A1; 2537-EP2269994A1; 27313-EP2287155A1; 2537-EP2280005A1; F0001-1829; 142583-61-7; Hydroxypropane; 27313-EP2308880A1; AKOS000249219; UNII-96F264O9SV; AC1L1AKQ; 28286-EP2295427A1; KSC356I6N; 1-Propanol, analytical standard; 28286-EP2305662A1; LS-3067; 1-Propanol, B&J Brand (product of Burdick & Jackson); 5VQ; 2537-EP2305647A1; 27313-EP2287158A1; n-Propyl alcohol; 2537-EP2272846A1; MCULE-6252105126; Propylol; 2537-EP2314576A1; 28286-EP2311801A1; 2537-EP2286795A1; MFCD00002941; normal propyl alcohol; InChI=1/C3H8O/c1-2-3-4/h4H,2-3H2,1H; 27313-EP2301919A1; 2537-EP2308857A1; KB-66585; 96F264O9SV; 1-Propanol, anhydrous; 2537-EP2289868A1; 2537-EP2308839A1; Propanole [German]; 33630-EP2298750A1; 1-Propanol, >=99%; 2537-EP2292612A2; 1-PROPONOL; Propanol-1; 2537-EP2298731A1; 2537-EP2308850A1; CHEMBL14687; 28286-EP2289881A1; 27313-EP2371797A1; 2537-EP2305673A1; 1-Propanol, Pharmaceutical Secondary Standard; Certified Reference Material; n-Propylalkohol; 27313-EP2298753",
+      "C3H8O",
+      "CCCO",
+      "60.1",
+      {
+        "link": "https://www.symmap.org/detail/SMIT17322",
+        "title": "SMIT17322"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/17902/",
+        "title": "17902"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/1031",
+        "title": "1031"
+      }
+    ]
+  ]
+}

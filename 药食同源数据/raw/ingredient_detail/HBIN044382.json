@@ -1,0 +1,224 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000168&label=Herb",
+        "title": "HERB000168"
+      },
+      "BAI CI HUA",
+      "白刺花",
+      "Vetchleaf Sophora",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Sophora viciifolia"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002472&label=Herb",
+        "title": "HERB002472"
+      },
+      "HUAI HUA",
+      "槐花",
+      "flower bud of Japanese pagodatree",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "flos Sophorae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003142&label=Herb",
+        "title": "HERB003142"
+      },
+      "KU DOU ZI",
+      "苦豆子",
+      "Foxtail-like Sophora",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Sophora alopecuroides"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003164&label=Herb",
+        "title": "HERB003164"
+      },
+      "KU SHEN",
+      "苦参",
+      "root of Lightyellow sophora",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Sophorae flavescentis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003851&label=Herb",
+        "title": "HERB003851"
+      },
+      "MEI HUA",
+      "梅花",
+      "Plum Flower",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Mume"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004093&label=Herb",
+        "title": "HERB004093"
+      },
+      "NAN HE SHI",
+      "南鹤虱",
+      "Fructus Carotae",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004883&label=Herb",
+        "title": "HERB004883"
+      },
+      "SHAN DOU GEN",
+      "山豆根",
+      "Vietmese Sophora Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Sophorae Tonkinensis"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "LMPK12140052; Sophoranochromene"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN044382",
+      "sophoranochromene",
+      "LMPK12140052; Sophoranochromene",
+      "C30H34O4",
+      "CC(=CCC1=CC(=CC2=C1OC(C=C2)(C)C)C3CC(=O)C4=C(O3)C(=C(C=C4)O)CC=C(C)C)C",
+      "458.6",
+      {
+        "link": "https://www.symmap.org/detail/SMIT01622",
+        "title": "SMIT01622"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/20079/",
+        "title": "20079"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "888"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/42607818",
+        "title": "42607818"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006714&label=Herb",
+        "title": "HERB006714"
+      },
+      "YU GAN ZI",
+      "余甘子",
+      "Emblic Leafflower Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Phyllanthi"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "(2S,3R,3aS,4R,4'S,5'R,6S,7aR)-3,4,4'-trihydroxy-3,5'-bis(hydroxymethyl)spiro[3a,4,5,6,7,7a-hexahydro-1-benzofuran-2,2'-oxane]-6-carboxylic acid; (2S,3R,3aS,4R,4'S,5'R,6S,7aR)-3,4,4'-trihydroxy-3,5'-bis(hydroxymethyl)-6-spiro[3a,4,5,6,7,7a-hexahydrobenzofuran-2,2'-tetrahydropyran]carboxylic acid; (2S,3R,3aS,4R,4'S,5'R,6S,7aR)-3,4,4'-trihydroxy-3,5'-dimethylol-spiro[3a,4,5,6,7,7a-hexahydrobenzofuran-2,2'-tetrahydropyran]-6-carboxylic acid"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001096&label=Target",
+        "title": "HBTAR001096"
+      },
+      "DPP4",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00332"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001277&label=Target",
+        "title": "HBTAR001277"
+      },
+      "ESR1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00046"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000460&label=Target",
+        "title": "HBTAR000460"
+      },
+      "CA2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00117"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000233&label=Target",
+        "title": "HBTAR000233"
+      },
+      "AR",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00048"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule weight",
+      "OB score",
+      "SymMap id",
+      "TCMSP id"
+    ],
+    [
+      "HBIN006627",
+      "(2S,3R,3aS,4R,4'S,5'R,6S,7aR)-3,4,4'-trihydroxy-3,5'-bis(hydroxymethyl)spiro[3a,4,5,6,7,7a-hexahydrobenzofuran-2,2'-tetrahydropyran]-6-carboxylic acid",
+      "(2S,3R,3aS,4R,4'S,5'R,6S,7aR)-3,4,4'-trihydroxy-3,5'-bis(hydroxymethyl)spiro[3a,4,5,6,7,7a-hexahydro-1-benzofuran-2,2'-oxane]-6-carboxylic acid; (2S,3R,3aS,4R,4'S,5'R,6S,7aR)-3,4,4'-trihydroxy-3,5'-bis(hydroxymethyl)-6-spiro[3a,4,5,6,7,7a-hexahydrobenzofuran-2,2'-tetrahydropyran]carboxylic acid; (2S,3R,3aS,4R,4'S,5'R,6S,7aR)-3,4,4'-trihydroxy-3,5'-dimethylol-spiro[3a,4,5,6,7,7a-hexahydrobenzofuran-2,2'-tetrahydropyran]-6-carboxylic acid",
+      "348.39",
+      "48.45627217",
+      {
+        "link": "https://www.symmap.org/detail/SMIT08361",
+        "title": "SMIT08361"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL006799"
+      }
+    ]
+  ]
+}

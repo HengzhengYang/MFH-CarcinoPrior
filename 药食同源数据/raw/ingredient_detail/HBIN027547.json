@@ -1,0 +1,258 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000242&label=Herb",
+        "title": "HERB000242"
+      },
+      "BAI MAO GEN",
+      "白茅根",
+      "Lalang Grass Rhizome",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Imperatae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000267&label=Herb",
+        "title": "HERB000267"
+      },
+      "BAI SHAO",
+      "白芍",
+      "White peony root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Paeoniae Alba"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000305&label=Herb",
+        "title": "HERB000305"
+      },
+      "BAI ZHI",
+      "白芷",
+      "Dahurian Angelica Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Angelicae Dahuricae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005017&label=Herb",
+        "title": "HERB005017"
+      },
+      "SHENG JIANG",
+      "生姜",
+      "Fresh Ginger",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Zingiberis Recens"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005782&label=Herb",
+        "title": "HERB005782"
+      },
+      "WU ZHU YU",
+      "吴茱萸",
+      "Medicil Evodia Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Evodiae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006773&label=Herb",
+        "title": "HERB006773"
+      },
+      "YUAN HUA",
+      "芫花",
+      "flower bud of Lilac Daphne",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Genkwa"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "Geranyl n-propanoate; (2E)-3,7-Dimethyl-2,6-octadienyl propionate; 27751-90-2; Geranyl propionate (natural); Geranyl propionate, natural; DTXSID8051540; SCHEMBL356537; BYCHQEILESTMQU-FMIVXFBMSA-N; 2,6-Octadien-1-ol, 3,7-dimethyl-, 1-propanoate, (2E)-; WE(8:2(2E,6E)(3Me,7Me)/3:0); FEMA No. 2517; Geranylpropionate; SCHEMBL356536; 6124AF; DSSTox_GSID_51540; Geranyl propionate, >95%, FCC, FG; Geranyl propanoate; AC1Q65TJ; EINECS 203-344-1; DB-040663; Geranyl propionate; W251712_ALDRICH; W251704_ALDRICH; 3,7-dimethylocta-2,6-dienyl propanoate; propanoic acid 3,7-dimethylocta-2,6-dienyl ester; Tox21_303994; CAS-105-90-8; Geranyl n-propionate; geranyl-n-propanoate; Trans-3,7-dimethyl-octa-2,6-dien-1-yl propanoate; 2,6-Octadien-1-ol, 3,7-dimethyl-, 1-propanoate; (E)-3,7-Dimethyl-2,6-octadienyl propionate; LMFA07010614; NSC 46138; 2,6-OCTADIEN-1-OL, 3,7-DIMETHYL-, PROPANOATE, (E)-; NSC46138; DSSTox_CID_30092; GERANYL PROPIONATE FCC; 3,7-Dimethyl-2,6-octadienyl propionate, (E)-; propanoic acid [(2E)-3,7-dimethylocta-2,6-dienyl] ester; 3,6-octadien-1-yl, propanoate; AC1NS88V; NCGC00357214-01; AKOS024319239; Propionic acid, geranyl ester; ST5410143; (E)-3,7-DIMETHYL-2,6-OCTADIEN-1-YL PROPIONATE; NSC-46138; LS-2773; J-525003; UNII-U9F1RPB24G; 3,7-dimethylocta-2,6-dien-1-yl propionate; propionic acid 3,7-dimethylocta-2,6-dienyl ester; (E)-3,7-Dimethyl-2,6-octadien-1-ol propionate; [(2E)-3,7-dimethylocta-2,6-dienyl] propanoate; 3,7-dimethylocta-2,6-dien-1-yl propanoate; ZINC1677808; 2,6-Oct"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003295&label=Target",
+        "title": "HBTAR003295"
+      },
+      "PTGS2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00094"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000031&label=Target",
+        "title": "HBTAR000031"
+      },
+      "ACHE",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00165"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002737&label=Target",
+        "title": "HBTAR002737"
+      },
+      "NOS2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00003"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN027547",
+      "geranyl propionate",
+      "Geranyl n-propanoate; (2E)-3,7-Dimethyl-2,6-octadienyl propionate; 27751-90-2; Geranyl propionate (natural); Geranyl propionate, natural; DTXSID8051540; SCHEMBL356537; BYCHQEILESTMQU-FMIVXFBMSA-N; 2,6-Octadien-1-ol, 3,7-dimethyl-, 1-propanoate, (2E)-; WE(8:2(2E,6E)(3Me,7Me)/3:0); FEMA No. 2517; Geranylpropionate; SCHEMBL356536; 6124AF; DSSTox_GSID_51540; Geranyl propionate, >95%, FCC, FG; Geranyl propanoate; AC1Q65TJ; EINECS 203-344-1; DB-040663; Geranyl propionate; W251712_ALDRICH; W251704_ALDRICH; 3,7-dimethylocta-2,6-dienyl propanoate; propanoic acid 3,7-dimethylocta-2,6-dienyl ester; Tox21_303994; CAS-105-90-8; Geranyl n-propionate; geranyl-n-propanoate; Trans-3,7-dimethyl-octa-2,6-dien-1-yl propanoate; 2,6-Octadien-1-ol, 3,7-dimethyl-, 1-propanoate; (E)-3,7-Dimethyl-2,6-octadienyl propionate; LMFA07010614; NSC 46138; 2,6-OCTADIEN-1-OL, 3,7-DIMETHYL-, PROPANOATE, (E)-; NSC46138; DSSTox_CID_30092; GERANYL PROPIONATE FCC; 3,7-Dimethyl-2,6-octadienyl propionate, (E)-; propanoic acid [(2E)-3,7-dimethylocta-2,6-dienyl] ester; 3,6-octadien-1-yl, propanoate; AC1NS88V; NCGC00357214-01; AKOS024319239; Propionic acid, geranyl ester; ST5410143; (E)-3,7-DIMETHYL-2,6-OCTADIEN-1-YL PROPIONATE; NSC-46138; LS-2773; J-525003; UNII-U9F1RPB24G; 3,7-dimethylocta-2,6-dien-1-yl propionate; propionic acid 3,7-dimethylocta-2,6-dienyl ester; (E)-3,7-Dimethyl-2,6-octadien-1-ol propionate; [(2E)-3,7-dimethylocta-2,6-dienyl] propanoate; 3,7-dimethylocta-2,6-dien-1-yl propanoate; ZINC1677808; 2,6-Oct",
+      "C13H22O2",
+      "CCC(=O)OCC=C(C)CCC=C(C)C",
+      "210.31",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "105-90-8"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT02144",
+        "title": "SMIT02144"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/24453/",
+        "title": "24453"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL003962"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "4112"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/5355853",
+        "title": "5355853"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000508&label=Herb",
+        "title": "HERB000508"
+      },
+      "BO HE",
+      "薄荷",
+      "Mentha, Peppermint",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "herba Menthae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000510&label=Herb",
+        "title": "HERB000510"
+      },
+      "BO HE YOU",
+      "薄荷油",
+      "Mentha canadaensis L.",
+      "NA"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000638&label=Herb",
+        "title": "HERB000638"
+      },
+      "CHAI HU",
+      "柴胡",
+      "root of Chinese Thorowax",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Bupleuri"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001410&label=Herb",
+        "title": "HERB001410"
+      },
+      "DU ZHONG YE",
+      "杜仲叶",
+      "Eucommiae Folium",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001924&label=Herb",
+        "title": "HERB001924"
+      },
+      "GOU TENG",
+      "钩藤",
+      "Gambir Plant",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Ramulus Uncariae cum Uncis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002420&label=Herb",
+        "title": "HERB002420"
+      },
+      "HUA GOU TENG",
+      "华钩藤",
+      "Chinese Gambirplant",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Uncaria sinensis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003658&label=Herb",
+        "title": "HERB003658"
+      },
+      "MA HUANG",
+      "麻黄",
+      "Ephedra",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Ephedrae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004177&label=Herb",
+        "title": "HERB004177"
+      },
+      "NING MENG AN YE",
+      "柠檬桉叶",
+      "Lemon Eucalyptus Leaf",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Eucalyptus citriodora"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004181&label=Herb",
+        "title": "HERB004181"
+      },
+      "NING MENG YE",
+      "柠檬叶",
+      "Lemon Leaf Equivalent plant: Citrus limonia",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Citrus limon"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005017&label=Herb",
+        "title": "HERB005017"
+      },
+      "SHENG JIANG",
+      "生姜",
+      "Fresh Ginger",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Zingiberis Recens"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "59770_FLUKA; ZINC02558675; (1R,2S,5R)-2-isopropenyl-5-methyl-1-cyclohexanol; W296236_ALDRICH; W296228_ALDRICH; ZINC12153978; 50373-36-9; I28003_ALDRICH; 439061_ALDRICH; (1)-(1alpha,2beta,5alpha)-5-Methyl-2-(1-methylvinyl)cyclohexan-1-ol; EINECS 256-557-7; (?)-Neoisoisopulegol; SCHEMBL8818931; (&#8722;)-Isopulegol; 59905-53-2; (1R,2S,5R)-2-isopropenyl-5-methyl-cyclohexan-1-ol; (1R,2S,5R)-2-Isopropenyl-5-methylcyclohexanol; NSC1263; (1R,3R,4S)-p-Menth-8-en-3-ol; Cyclohexanol, 5-methyl-2-(1-methylethenyl)-, (1R,2S,5R)-rel-; isopulegol; (1R,2S,5R)-5-methyl-2-prop-1-en-2-ylcyclohexan-1-ol; (1R,2S,5R)-5-methyl-2-prop-1-en-2-yl-cyclohexan-1-ol"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026227&label=Disease",
+        "title": "HBDIS026227"
+      },
+      "AMELOGENESIS IMPERFECTA, TYPE IJ",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000699&label=Target",
+        "title": "HBTAR000699"
+      },
+      "CHRM1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00038"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001471&label=Target",
+        "title": "HBTAR001471"
+      },
+      "GABRA1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00309"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001096&label=Target",
+        "title": "HBTAR001096"
+      },
+      "DPP4",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00332"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003223&label=Target",
+        "title": "HBTAR003223"
+      },
+      "PRSS1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02928"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000031&label=Target",
+        "title": "HBTAR000031"
+      },
+      "ACHE",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00165"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000700&label=Target",
+        "title": "HBTAR000700"
+      },
+      "CHRM2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00210"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN031089",
+      "ISOPULEGOL",
+      "59770_FLUKA; ZINC02558675; (1R,2S,5R)-2-isopropenyl-5-methyl-1-cyclohexanol; W296236_ALDRICH; W296228_ALDRICH; ZINC12153978; 50373-36-9; I28003_ALDRICH; 439061_ALDRICH; (1)-(1alpha,2beta,5alpha)-5-Methyl-2-(1-methylvinyl)cyclohexan-1-ol; EINECS 256-557-7; (?)-Neoisoisopulegol; SCHEMBL8818931; (&#8722;)-Isopulegol; 59905-53-2; (1R,2S,5R)-2-isopropenyl-5-methyl-cyclohexan-1-ol; (1R,2S,5R)-2-Isopropenyl-5-methylcyclohexanol; NSC1263; (1R,3R,4S)-p-Menth-8-en-3-ol; Cyclohexanol, 5-methyl-2-(1-methylethenyl)-, (1R,2S,5R)-rel-; isopulegol; (1R,2S,5R)-5-methyl-2-prop-1-en-2-ylcyclohexan-1-ol; (1R,2S,5R)-5-methyl-2-prop-1-en-2-yl-cyclohexan-1-ol",
+      "C10H18O",
+      "CC1CCC(C(C1)O)C(=C)C",
+      "154.25",
+      "50.72008819",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "50373-36-9"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT06551",
+        "title": "SMIT06551"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/11635/",
+        "title": "11635"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL004671"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/11126484",
+        "title": "11126484"
+      }
+    ]
+  ]
+}

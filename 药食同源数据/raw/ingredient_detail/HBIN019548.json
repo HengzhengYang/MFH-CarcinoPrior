@@ -1,0 +1,187 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000837&label=Herb",
+        "title": "HERB000837"
+      },
+      "CHU AI JU",
+      "NA",
+      "Feverfew",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Tanacetum parthenium"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002640&label=Herb",
+        "title": "HERB002640"
+      },
+      "HUO MA REN",
+      "火麻仁",
+      "Hemp Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Canbis"
+      },
+      "Fructus Canbis"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003288&label=Herb",
+        "title": "HERB003288"
+      },
+      "LEI GONG TENG",
+      "雷公藤",
+      "root of common htreewingnut",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "radix tripterygii wilfordii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005470&label=Herb",
+        "title": "HERB005470"
+      },
+      "TIAN SHAN SHI",
+      "NA",
+      "Hairyleaf Handelia",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Handelia trichophylla"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "4H-Bisoxireno(1,8a:2,3)azuleno(4,5-b)furan-2(3H)-one, octahydro-6-hydroxy-6,8a-dimethyl-3-methylene-; C09354; CHEMBL271164; Octahydro-6-hydroxy-6,8a-dimethyl-3-methylene-4H-bisoxireno(1,8a:2,3)azuleno(4,5-b)furan-2(3H)-one (3aS-(3aalpha,6alpha,6aS*,7abeta,7bbeta,8abeta,8balpha,8cbeta))-; AC1L9CDT; 4H-Bisoxireno(1,8a:2,3)azuleno(4,5-b)furan-2(3H)-one, octahydro-6-hydroxy-6,8a-dimethyl-3-methylene-, (3aS-(3aalpha,6alpha,6aS*,7abeta,7bbeta,8abeta,8balpha,8cbeta))-; canin; CHEBI:3356; 24959-84-0"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN019548",
+      "Canin",
+      "4H-Bisoxireno(1,8a:2,3)azuleno(4,5-b)furan-2(3H)-one, octahydro-6-hydroxy-6,8a-dimethyl-3-methylene-; C09354; CHEMBL271164; Octahydro-6-hydroxy-6,8a-dimethyl-3-methylene-4H-bisoxireno(1,8a:2,3)azuleno(4,5-b)furan-2(3H)-one (3aS-(3aalpha,6alpha,6aS*,7abeta,7bbeta,8abeta,8balpha,8cbeta))-; AC1L9CDT; 4H-Bisoxireno(1,8a:2,3)azuleno(4,5-b)furan-2(3H)-one, octahydro-6-hydroxy-6,8a-dimethyl-3-methylene-, (3aS-(3aalpha,6alpha,6aS*,7abeta,7bbeta,8abeta,8balpha,8cbeta))-; canin; CHEBI:3356; 24959-84-0",
+      "C15H18O5",
+      "CC1(CCC2C(C3C14C(O4)C5C3(O5)C)OC(=O)C2=C)O",
+      "278.3",
+      "77.4069579",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "24959-84-0"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT05322",
+        "title": "SMIT05322"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/3076/",
+        "title": "3076"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL003206"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/442175",
+        "title": "442175"
+      }
+    ]
+  ]
+}

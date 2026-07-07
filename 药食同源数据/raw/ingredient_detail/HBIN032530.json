@@ -1,0 +1,194 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002962&label=Herb",
+        "title": "HERB002962"
+      },
+      "JIN YIN HUA",
+      "金银花",
+      "Honeysuckle Flower",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Lonicerae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003205&label=Herb",
+        "title": "HERB003205"
+      },
+      "KUAN YE XIANG PU",
+      "宽叶香蒲",
+      "Broadleaf Cattail Pollen",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Typha latifolia"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003528&label=Herb",
+        "title": "HERB003528"
+      },
+      "LU HUI",
+      "芦荟",
+      "Aloe",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Aloe"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003757&label=Herb",
+        "title": "HERB003757"
+      },
+      "MAO DI HUANG",
+      "毛地黄",
+      "Common Foxglove Equivalent plant: Digitalis lanata",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Digitalis purpurea"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006315&label=Herb",
+        "title": "HERB006315"
+      },
+      "YA JIAO AI",
+      "鸭脚艾",
+      "Ghostplant Wormwood",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Artemisia lactiflora"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "AC1NSXGM; (2-penta-1,3-diynoxyspiro[6-oxabicyclo[3.1.0]hex-2-ene-4,6'-oxane]-3'-yl) 3-methylbutanoate"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN032530",
+      "lactiflorasyne",
+      "AC1NSXGM; (2-penta-1,3-diynoxyspiro[6-oxabicyclo[3.1.0]hex-2-ene-4,6'-oxane]-3'-yl) 3-methylbutanoate",
+      "C19H22O5",
+      "CC#CC#COC1=CC2(CCC(CO2)OC(=O)CC(C)C)C3C1O3",
+      "330.4",
+      {
+        "link": "https://www.symmap.org/detail/SMIT16235",
+        "title": "SMIT16235"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/12432/",
+        "title": "12432"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "3088"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/147110",
+        "title": "147110"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001758&label=Herb",
+        "title": "HERB001758"
+      },
+      "FU PING",
+      "浮萍",
+      "all-grass of Common Ducksmeat",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Spirodelae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002191&label=Herb",
+        "title": "HERB002191"
+      },
+      "HE YE",
+      "荷叶",
+      "Lotus leaf",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Folium Nelumbinis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002629&label=Herb",
+        "title": "HERB002629"
+      },
+      "HUI XIANG JING YE",
+      "茴香茎叶",
+      "Fennel Stem and Leaf",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Foeniculum vulgare"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002679&label=Herb",
+        "title": "HERB002679"
+      },
+      "JI LI",
+      "蒺藜",
+      "Puncturevine Caltrop Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Tribuli"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003378&label=Herb",
+        "title": "HERB003378"
+      },
+      "LIAN ZI XIN",
+      "莲子心",
+      "Lotus Plumule",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Plumula Nelumbinis"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "(2S,3S,4R,5R,6S)-6-{[2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4-oxo-4H-chromen-3-yl]oxy}-4,5-dihydroxy-3-{[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy}oxane-2-carboxylic acid; nelumboside; (2S,3S,4R,5R,6S)-6-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4-oxochromen-3-yl]oxy-4,5-dihydroxy-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxane-2-carboxylic acid; 3-[(4-O-beta-D-Glucopyranosyl-beta-D-glucopyranuronosyl)oxy]-3',4',5,7-tetrahydroxyflavone; (2S,3S,4R,5R,6S)-6-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4-oxo-chromen-3-yl]oxy-4,5-dihydroxy-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-oxane-2-carboxylic acid; (2S,3S,4R,5R,6S)-6-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4-keto-chromen-3-yl]oxy-4,5-dihydroxy-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-methylol-tetrahydropyran-2-yl]oxy-tetrahydropyran-2-carboxylic acid; (2S,3S,4R,5R,6S)-6-[[2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4-oxo-3-chromenyl]oxy]-4,5-dihydroxy-3-[[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)-2-tetrahydropyranyl]oxy]-2-tetrahydropyrancarboxylic acid; (2S,3S,4R,5R,6S)-6-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4-oxo-chromen-3-yl]oxy-4,5-dihydroxy-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydropyran-2-yl]oxy-tetrahydropyran-2-carboxylic acid"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN036528",
+      "Nelumboside",
+      "(2S,3S,4R,5R,6S)-6-{[2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4-oxo-4H-chromen-3-yl]oxy}-4,5-dihydroxy-3-{[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy}oxane-2-carboxylic acid; nelumboside; (2S,3S,4R,5R,6S)-6-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4-oxochromen-3-yl]oxy-4,5-dihydroxy-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxane-2-carboxylic acid; 3-[(4-O-beta-D-Glucopyranosyl-beta-D-glucopyranuronosyl)oxy]-3',4',5,7-tetrahydroxyflavone; (2S,3S,4R,5R,6S)-6-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4-oxo-chromen-3-yl]oxy-4,5-dihydroxy-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-oxane-2-carboxylic acid; (2S,3S,4R,5R,6S)-6-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4-keto-chromen-3-yl]oxy-4,5-dihydroxy-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-methylol-tetrahydropyran-2-yl]oxy-tetrahydropyran-2-carboxylic acid; (2S,3S,4R,5R,6S)-6-[[2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4-oxo-3-chromenyl]oxy]-4,5-dihydroxy-3-[[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)-2-tetrahydropyranyl]oxy]-2-tetrahydropyrancarboxylic acid; (2S,3S,4R,5R,6S)-6-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4-oxo-chromen-3-yl]oxy-4,5-dihydroxy-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydropyran-2-yl]oxy-tetrahydropyran-2-carboxylic acid",
+      "C27H28O18",
+      "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)C(=O)O)OC5C(C(C(C(O5)CO)O)O)O)O)O)O)O",
+      "640.5",
+      "4.464049483",
+      {
+        "link": "https://www.symmap.org/detail/SMIT10330",
+        "title": "SMIT10330"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/15317/",
+        "title": "15317"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL009163"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "2397"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/11968794",
+        "title": "11968794"
+      }
+    ]
+  ]
+}

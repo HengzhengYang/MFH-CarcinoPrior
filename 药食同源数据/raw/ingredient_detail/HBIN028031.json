@@ -1,0 +1,229 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000225&label=Herb",
+        "title": "HERB000225"
+      },
+      "BAI JIE ZI",
+      "白芥子",
+      "White Mustard Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Sinapis alba"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001372&label=Herb",
+        "title": "HERB001372"
+      },
+      "DOU BAN CAI",
+      "豆瓣菜",
+      "Watercress",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Nasturtium officinale"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001758&label=Herb",
+        "title": "HERB001758"
+      },
+      "FU PING",
+      "浮萍",
+      "all-grass of Common Ducksmeat",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Spirodelae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002191&label=Herb",
+        "title": "HERB002191"
+      },
+      "HE YE",
+      "荷叶",
+      "Lotus leaf",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Folium Nelumbinis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002209&label=Herb",
+        "title": "HERB002209"
+      },
+      "HEI DOU",
+      "黑豆",
+      "Black bean",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Glycine Max"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002219&label=Herb",
+        "title": "HERB002219"
+      },
+      "HEI JIE",
+      "NA",
+      "Black Mustard",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Brassica nigra"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002738&label=Herb",
+        "title": "HERB002738"
+      },
+      "JIA DU XIAN CAI",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002887&label=Herb",
+        "title": "HERB002887"
+      },
+      "JIE ZI",
+      "芥子",
+      "Mustard Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Sipis"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "D-Gluconic acid, potassium salt (1:1); Gluconsan; potassium 2,3,4,5,6-pentahydroxyhexanoate; A829206; kaliumgluconat; D-Gluconic acid, potassium salt (1:?); potassium 2,3,4,5,6-pentakis(oxidanyl)hexanoate; MCULE-8846702445; gluconic acid; 35087-77-5; 2,3,4,5,6-Pentahydroxyhexanoic acid potassium salt"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN028031",
+      "gluconicacid",
+      "D-Gluconic acid, potassium salt (1:1); Gluconsan; potassium 2,3,4,5,6-pentahydroxyhexanoate; A829206; kaliumgluconat; D-Gluconic acid, potassium salt (1:?); potassium 2,3,4,5,6-pentakis(oxidanyl)hexanoate; MCULE-8846702445; gluconic acid; 35087-77-5; 2,3,4,5,6-Pentahydroxyhexanoic acid potassium salt",
+      "C6H12O7(gluconic acid)",
+      "C(C(C(C(C(C(=O)O)O)O)O)O)O",
+      "196.16",
+      {
+        "link": "https://www.symmap.org/detail/SMIT15610",
+        "title": "SMIT15610"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/25698/",
+        "title": "25698"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/10690",
+        "title": "10690"
+      }
+    ]
+  ]
+}

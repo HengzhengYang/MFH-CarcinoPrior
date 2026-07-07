@@ -1,0 +1,169 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004694&label=Herb",
+        "title": "HERB004694"
+      },
+      "ROU GUI",
+      "肉桂",
+      "Cassia Bark",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Cortex Cinmomi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004973&label=Herb",
+        "title": "HERB004973"
+      },
+      "SHE GAN",
+      "射干",
+      "Blackberrylily Rhizome",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Belamcandae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006258&label=Herb",
+        "title": "HERB006258"
+      },
+      "XU CHANG QING",
+      "徐长卿",
+      "Paniculate Swallowwort Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Cynchi Paniculati"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "SPECTRUM300610; Acetophenone, 4'-hydroxy-3',5'-dimethoxy- (8CI); Phenol, 4-acetyl-2,6-dimethoxy; SpecPlus_000955; KBio2_005018; 4-Hydroksy-3',5'-dwumetoksyacetofenon; KBio2_007586; AC1Q5DJC; 4'-Hydroxy-3',5'-dimethoxyacetophenone, 97%; 4 inverted exclamation marka-Hydroxy-3 inverted exclamation marka,5 inverted exclamation marka-dimethoxyacetophenone; Acetosyringone; UNII-866P45Y84S; Spectrum5_000695; KS-00000ZW1; Acetophenone, 4'-hydroxy-3',5'-dimethoxy-; A5075; I01-8777; AC1Q47JK; Acetosyringon; SMR000112388; CCRIS 7286; KSC496O9N; KBio1_001995; AN-50981; BRD-K66643401-001-02-4; KBio3_002070; OJOBTAOGJIWAGB-UHFFFAOYSA-N; ANW-25533; Z2418193700; L910; ST093688; MolPort-001-759-184; BG01511402; CHEBI:2404; 478D388; SR-05000002436-1; BRN 1966119; 4-acetyl-2,6-dimethoxyphenol; SPBio_000418; InChI=1/C10H12O4/c1-6(11)7-4-8(13-2)10(12)9(5-7)14-3/h4-5,12H,1-3H; Acetosyringenin; DB-022069; Spectrum2_000429; K-6581; BSPBio_002850; 3',5'-Dimethoxy-4'-hydroxyacetophenone, 97%; Spectrum_001915; 1-acetyl-4-hydroxy-3,5-dimethoxybenzene; 3', 5'-dimethoxy-4'-hydroxyacetophenone; DivK1c_007051; KBioGR_002389; 1-(4-hydroxy-3,5-dimethoxy-phenyl)ethanone; 1-(4-Hydroxy-3,5-dimethoxyphenyl)ethanone; CHEMBL224146; 866P45Y84S; EINECS 219-610-5; KB-28748; ZINC156899; CTK3J6796; Spectrum4_001953; AKOS005258861; DTXSID2062454; CJ-01556; D2666; 3',5-Dimethoxy-4'-hydroxyacetophenone; bmse010032; CCG-39967; AB1004202; 3,5-Dimethoxy-4-hydroxyacetophenone; TR-011399; 1-(4-hydroxy-3,5-dimethoxyphenyl)ethan-"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN010464",
+      "4-hydroxy-3,5-dimethoxyacetophenone",
+      "SPECTRUM300610; Acetophenone, 4'-hydroxy-3',5'-dimethoxy- (8CI); Phenol, 4-acetyl-2,6-dimethoxy; SpecPlus_000955; KBio2_005018; 4-Hydroksy-3',5'-dwumetoksyacetofenon; KBio2_007586; AC1Q5DJC; 4'-Hydroxy-3',5'-dimethoxyacetophenone, 97%; 4 inverted exclamation marka-Hydroxy-3 inverted exclamation marka,5 inverted exclamation marka-dimethoxyacetophenone; Acetosyringone; UNII-866P45Y84S; Spectrum5_000695; KS-00000ZW1; Acetophenone, 4'-hydroxy-3',5'-dimethoxy-; A5075; I01-8777; AC1Q47JK; Acetosyringon; SMR000112388; CCRIS 7286; KSC496O9N; KBio1_001995; AN-50981; BRD-K66643401-001-02-4; KBio3_002070; OJOBTAOGJIWAGB-UHFFFAOYSA-N; ANW-25533; Z2418193700; L910; ST093688; MolPort-001-759-184; BG01511402; CHEBI:2404; 478D388; SR-05000002436-1; BRN 1966119; 4-acetyl-2,6-dimethoxyphenol; SPBio_000418; InChI=1/C10H12O4/c1-6(11)7-4-8(13-2)10(12)9(5-7)14-3/h4-5,12H,1-3H; Acetosyringenin; DB-022069; Spectrum2_000429; K-6581; BSPBio_002850; 3',5'-Dimethoxy-4'-hydroxyacetophenone, 97%; Spectrum_001915; 1-acetyl-4-hydroxy-3,5-dimethoxybenzene; 3', 5'-dimethoxy-4'-hydroxyacetophenone; DivK1c_007051; KBioGR_002389; 1-(4-hydroxy-3,5-dimethoxy-phenyl)ethanone; 1-(4-Hydroxy-3,5-dimethoxyphenyl)ethanone; CHEMBL224146; 866P45Y84S; EINECS 219-610-5; KB-28748; ZINC156899; CTK3J6796; Spectrum4_001953; AKOS005258861; DTXSID2062454; CJ-01556; D2666; 3',5-Dimethoxy-4'-hydroxyacetophenone; bmse010032; CCG-39967; AB1004202; 3,5-Dimethoxy-4-hydroxyacetophenone; TR-011399; 1-(4-hydroxy-3,5-dimethoxyphenyl)ethan-",
+      "C10H12O4",
+      "CC(=O)C1=CC(=C(C(=C1)OC)O)OC",
+      "196.2",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "2478-38-8"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT02288",
+        "title": "SMIT02288"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/24781/",
+        "title": "24781"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "7832"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/17198",
+        "title": "17198"
+      }
+    ]
+  ]
+}

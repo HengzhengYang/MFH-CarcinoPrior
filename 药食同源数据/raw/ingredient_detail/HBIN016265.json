@@ -1,0 +1,196 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000305&label=Herb",
+        "title": "HERB000305"
+      },
+      "BAI ZHI",
+      "白芷",
+      "Dahurian Angelica Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Angelicae Dahuricae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000775&label=Herb",
+        "title": "HERB000775"
+      },
+      "CHEN PI",
+      "陈皮",
+      "Dried Tangerine Peel",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Pericarpium Citri Reticulatae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004569&label=Herb",
+        "title": "HERB004569"
+      },
+      "QU MAI",
+      "瞿麦",
+      "all-grass of Lilac Pink",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "herba Dianthi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004849&label=Herb",
+        "title": "HERB004849"
+      },
+      "SHA JI",
+      "沙棘",
+      "fruit of seabuckthorn",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "fructus hippophae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006784&label=Herb",
+        "title": "HERB006784"
+      },
+      "YUAN SUI",
+      "芫荽",
+      "Coriandri Sativi Herba",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "Caswell No. 275A; Decyl alcohol; Alfol 10; Alfol 810; Dytol S-91; n-Nonylcarbinol; Sipol L10; 1-Decanol; DE1; FEMA No. 2365; EINECS 253-173-1; NCGC00163764-01; 85566-12-7; C 10 alcohol; 442539_SUPELCO; Alcohol C-10; BRN 1735221; LMFA05000062; Nacol 10-99; Royaltac; 30608_FLUKA; NSC 406313; EINECS 287-621-2; Sprout-Off; Emtrol 1630B; 70084-71-8; n-Decan-1-ol; Lorol 22; T-148 (VAN); WLN: Q10; DECYL, N- ALCOHOL; Epal 810; NSC406313; Capric alcohol; Tobacco sucker control agent 504; n-Decyl alcohol; 1-Decanol (natural); CHEBI:28903; 239763_ALDRICH; Fatty alcohol(C10); Royaltac-85; Conol 10N; CCRIS 654; Tobacco sucker control agent 148; Decanol (VAN); HSDB 1072; DECYL ALCOHOL (mixed isomers); EINECS 203-956-9; Kalcohl 10H; FEMA Number 2365; 36729-58-5; T 148; W236500_ALDRICH; C01633; Emtrol 1601; Alcohols, C8-10; Decanol; Royaltac M-2; Nonylcarbinol; AI3-02173; Alcohols, C9-11; InChI=1/C10H22O/c1-2-3-4-5-6-7-8-9-10-11/h11H,2-10H2,1H; Agent 504; Epal 10; DECYLALCOHOL; Contak; 4-01-00-01815 (Beilstein Handbook Reference); Primary decyl alcohol; EPA Pesticide Chemical Code 079038; n-Decatyl alcohol; Alcohols, C10-terpenoidal; Delete; 112-30-1; NCGC00163764-02; Decylic alcohol; C10 alcohol; Caprinic alcohol; 118374-94-0; DECAN-1-OL; 1-Hydroxydecane; Decanol (mixed isomers); 150584_ALDRICH; 66455-17-2; Kalcohl 1098; n-Decanol; T-148"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN016265",
+      "Antak",
+      "Caswell No. 275A; Decyl alcohol; Alfol 10; Alfol 810; Dytol S-91; n-Nonylcarbinol; Sipol L10; 1-Decanol; DE1; FEMA No. 2365; EINECS 253-173-1; NCGC00163764-01; 85566-12-7; C 10 alcohol; 442539_SUPELCO; Alcohol C-10; BRN 1735221; LMFA05000062; Nacol 10-99; Royaltac; 30608_FLUKA; NSC 406313; EINECS 287-621-2; Sprout-Off; Emtrol 1630B; 70084-71-8; n-Decan-1-ol; Lorol 22; T-148 (VAN); WLN: Q10; DECYL, N- ALCOHOL; Epal 810; NSC406313; Capric alcohol; Tobacco sucker control agent 504; n-Decyl alcohol; 1-Decanol (natural); CHEBI:28903; 239763_ALDRICH; Fatty alcohol(C10); Royaltac-85; Conol 10N; CCRIS 654; Tobacco sucker control agent 148; Decanol (VAN); HSDB 1072; DECYL ALCOHOL (mixed isomers); EINECS 203-956-9; Kalcohl 10H; FEMA Number 2365; 36729-58-5; T 148; W236500_ALDRICH; C01633; Emtrol 1601; Alcohols, C8-10; Decanol; Royaltac M-2; Nonylcarbinol; AI3-02173; Alcohols, C9-11; InChI=1/C10H22O/c1-2-3-4-5-6-7-8-9-10-11/h11H,2-10H2,1H; Agent 504; Epal 10; DECYLALCOHOL; Contak; 4-01-00-01815 (Beilstein Handbook Reference); Primary decyl alcohol; EPA Pesticide Chemical Code 079038; n-Decatyl alcohol; Alcohols, C10-terpenoidal; Delete; 112-30-1; NCGC00163764-02; Decylic alcohol; C10 alcohol; Caprinic alcohol; 118374-94-0; DECAN-1-OL; 1-Hydroxydecane; Decanol (mixed isomers); 150584_ALDRICH; 66455-17-2; Kalcohl 1098; n-Decanol; T-148",
+      "C10H22O",
+      "CCCCCCCCCCO",
+      "158.28",
+      "16.85194372",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "85566-12-7"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT05567",
+        "title": "SMIT05567"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL003508"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/8174",
+        "title": "8174"
+      }
+    ]
+  ]
+}

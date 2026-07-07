@@ -1,0 +1,151 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000432&label=Herb",
+        "title": "HERB000432"
+      },
+      "BI MA ZI",
+      "蓖麻子",
+      "Castor Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Ricini"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001211&label=Herb",
+        "title": "HERB001211"
+      },
+      "DANG SHEN",
+      "党参",
+      "root Pilose Asiabell",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Codonopsis pilosulae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "Prestwick_1041; BRN 0139222; SPBio_002696; NSC 409913; TimTec1_001989; NCGC00142397-01; CAS-524-40-3; Prestwick1_000678; ACon1_001266; 4-methoxy-1-methyl-2-oxo-pyridine-3-carbonitrile; Prestwick3_000678; NSC642604; 4-methoxy-1-methyl-2-oxo-3-pyridinecarbonitrile; AIDS-032122; Nicotinonitrile, 1,2-dihydro-4-methoxy-1-methyl-2-oxo-; C01526; 1,2-Dihydro-1-methyl-4-methoxy-2-oxo-3-pyridine carbonitrile; Ritsinin; Ricinine; CHEBI:18043; BPBio1_000853; NSC409913; 3-Pyridinecarbonitrile, 1,2-dihydro-4-methoxy-1-methyl-2-oxo- (9CI); BSPBio_000775; 4-methoxy-1-methyl-2-oxo-1,2-dihydropyridine-3-carbonitrile; 524-40-3; TNP00192; 4-methoxy-1-methyl-2-oxopyridine-3-carbonitrile; NCGC00016487-02; 2-keto-4-methoxy-1-methyl-nicotinonitrile; EINECS 208-359-7; Oprea1_847597; 5-22-07-00318 (Beilstein Handbook Reference); Prestwick0_000678; Prestwick2_000678; 3-Pyridinecarbonitrile, 1,2-dihydro-4-methoxy-1-methyl-2-oxo-; MEGxp0_000747; Ricidine; NCGC00016487-01; MLS001048969; Recinine; ZINC00113473; 1,2-dihydro-4-methoxy-1-methyl-2-oxo-3-pyridimecarbonitrile; ST024790; NSC 642604; 1,2-Dihydro-4-methoxy-1-methyl-2-oxonicotinonitrile; WLN: T6NVJ A1 CCN DO1; AIDS032122; SMR000386989"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN042313",
+      "Ricinin",
+      "Prestwick_1041; BRN 0139222; SPBio_002696; NSC 409913; TimTec1_001989; NCGC00142397-01; CAS-524-40-3; Prestwick1_000678; ACon1_001266; 4-methoxy-1-methyl-2-oxo-pyridine-3-carbonitrile; Prestwick3_000678; NSC642604; 4-methoxy-1-methyl-2-oxo-3-pyridinecarbonitrile; AIDS-032122; Nicotinonitrile, 1,2-dihydro-4-methoxy-1-methyl-2-oxo-; C01526; 1,2-Dihydro-1-methyl-4-methoxy-2-oxo-3-pyridine carbonitrile; Ritsinin; Ricinine; CHEBI:18043; BPBio1_000853; NSC409913; 3-Pyridinecarbonitrile, 1,2-dihydro-4-methoxy-1-methyl-2-oxo- (9CI); BSPBio_000775; 4-methoxy-1-methyl-2-oxo-1,2-dihydropyridine-3-carbonitrile; 524-40-3; TNP00192; 4-methoxy-1-methyl-2-oxopyridine-3-carbonitrile; NCGC00016487-02; 2-keto-4-methoxy-1-methyl-nicotinonitrile; EINECS 208-359-7; Oprea1_847597; 5-22-07-00318 (Beilstein Handbook Reference); Prestwick0_000678; Prestwick2_000678; 3-Pyridinecarbonitrile, 1,2-dihydro-4-methoxy-1-methyl-2-oxo-; MEGxp0_000747; Ricidine; NCGC00016487-01; MLS001048969; Recinine; ZINC00113473; 1,2-dihydro-4-methoxy-1-methyl-2-oxo-3-pyridimecarbonitrile; ST024790; NSC 642604; 1,2-Dihydro-4-methoxy-1-methyl-2-oxonicotinonitrile; WLN: T6NVJ A1 CCN DO1; AIDS032122; SMR000386989",
+      "C8H8N2O2",
+      "CN1C=CC(=C(C1=O)C#N)OC",
+      "164.16",
+      "26.26092383",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "524-40-3"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT09467",
+        "title": "SMIT09467"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL008142"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/10666",
+        "title": "10666"
+      }
+    ]
+  ]
+}

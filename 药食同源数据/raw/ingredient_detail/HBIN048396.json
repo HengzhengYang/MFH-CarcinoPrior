@@ -1,0 +1,461 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000237&label=Herb",
+        "title": "HERB000237"
+      },
+      "BAI LIAN",
+      "白蔹",
+      "root of Japanese Ampelopsis ",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Ampelopsis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000259&label=Herb",
+        "title": "HERB000259"
+      },
+      "BAI QU CAI",
+      "白屈菜",
+      "Chelidonii Herba",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001339&label=Herb",
+        "title": "HERB001339"
+      },
+      "DONG FANG GOU JI",
+      "东方狗脊",
+      "Oriental Chain Fern",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Woodwardia orientalis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001915&label=Herb",
+        "title": "HERB001915"
+      },
+      "GOU QI ZI",
+      "枸杞子",
+      "fruit of Chinese Wolfberry",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Lycii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002002&label=Herb",
+        "title": "HERB002002"
+      },
+      "GUANG HUO XIANG",
+      "广藿香",
+      "Pogostemon Cablin (Blanco) Benth.",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002483&label=Herb",
+        "title": "HERB002483"
+      },
+      "HUANG BAI",
+      "黄柏",
+      "Amur Corktree Equivalent plant: Phellodendron chinense , Phellodendron chinense var Glabriusculum, Phellodendron amurense var wilsonii",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Phellodendron amurense"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002489&label=Herb",
+        "title": "HERB002489"
+      },
+      "HUANG BO",
+      "黄柏",
+      "Phellodendron bark",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Cortex Phellodendri"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002540&label=Herb",
+        "title": "HERB002540"
+      },
+      "HUANG LIAN",
+      "黄连",
+      "rhizome of Chinese Goldthread",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Coptidis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003033&label=Herb",
+        "title": "HERB003033"
+      },
+      "JU HUA HUANG LIAN",
+      "菊花黄连",
+      "Yellowflower Corydalis",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Corydalis pallida"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB007182&label=Herb",
+        "title": "HERB007182"
+      },
+      "ZI HUA YU DENG CAO",
+      "紫花鱼灯草",
+      "Incised Corydalis",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Corydalis incisa"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "38763-29-0; Worenin; Woreninechloride; UNII-STF4A6F4EH; C17083; 24-METHYL-5,7,18,20-TETRAOXA-13??-AZAHEXACYCLO[11.11.0.0(2),(1)?.0?,?.0(1)?,(2)(3).0(1)?,(2)(1)]TETRACOSA-1(24),2,4(8),9,13,15,17(21),22-OCTAEN-13-YLIUM; CHEBI:80913; SCHEMBL2584351; AK608329; Worenine cation; FT-0701381; MolPort-039-339-206; AKOS030573603; ZINC12153738; Bis(1,3)benzodioxolo(5,6-a:5',6'-g)quinolizinium, 5,6-dihydro-14-methyl-; STF4A6F4EH; Worenine ion; 5,6-Dihydro-14-methylbis(1,3)benzodioxolo(5,6-a:5,6-g)quinolizinium; Worenine [MI]; Worenine"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000549&label=Target",
+        "title": "HBTAR000549"
+      },
+      "CCNA2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR03025"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003005&label=Target",
+        "title": "HBTAR003005"
+      },
+      "PIM1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02966"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003295&label=Target",
+        "title": "HBTAR003295"
+      },
+      "PTGS2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00094"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003112&label=Target",
+        "title": "HBTAR003112"
+      },
+      "PPARG",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00078"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000634&label=Target",
+        "title": "HBTAR000634"
+      },
+      "CDK2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00482"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000686&label=Target",
+        "title": "HBTAR000686"
+      },
+      "CHEK1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00647"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001277&label=Target",
+        "title": "HBTAR001277"
+      },
+      "ESR1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00046"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001278&label=Target",
+        "title": "HBTAR001278"
+      },
+      "ESR2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00307"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000031&label=Target",
+        "title": "HBTAR000031"
+      },
+      "ACHE",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00165"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001710&label=Target",
+        "title": "HBTAR001710"
+      },
+      "GSK3B",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00422"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002737&label=Target",
+        "title": "HBTAR002737"
+      },
+      "NOS2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00003"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000874&label=Target",
+        "title": "HBTAR000874"
+      },
+      "MAPK14",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00402"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003294&label=Target",
+        "title": "HBTAR003294"
+      },
+      "PTGS1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00006"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000233&label=Target",
+        "title": "HBTAR000233"
+      },
+      "AR",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00048"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN048396",
+      "worenine",
+      "38763-29-0; Worenin; Woreninechloride; UNII-STF4A6F4EH; C17083; 24-METHYL-5,7,18,20-TETRAOXA-13??-AZAHEXACYCLO[11.11.0.0(2),(1)?.0?,?.0(1)?,(2)(3).0(1)?,(2)(1)]TETRACOSA-1(24),2,4(8),9,13,15,17(21),22-OCTAEN-13-YLIUM; CHEBI:80913; SCHEMBL2584351; AK608329; Worenine cation; FT-0701381; MolPort-039-339-206; AKOS030573603; ZINC12153738; Bis(1,3)benzodioxolo(5,6-a:5',6'-g)quinolizinium, 5,6-dihydro-14-methyl-; STF4A6F4EH; Worenine ion; 5,6-Dihydro-14-methylbis(1,3)benzodioxolo(5,6-a:5,6-g)quinolizinium; Worenine [MI]; Worenine",
+      "C20H16NO4+",
+      "CC1=C2C3=CC4=C(C=C3CC[N+]2=CC5=CC6=C(C=C15)OCO6)OCO4",
+      "334.3",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "38763-29-0"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT01659",
+        "title": "SMIT01659"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/22716/",
+        "title": "22716"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL002668"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "102"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/20055073",
+        "title": "20055073"
+      }
+    ]
+  ]
+}

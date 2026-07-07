@@ -1,0 +1,171 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000305&label=Herb",
+        "title": "HERB000305"
+      },
+      "BAI ZHI",
+      "白芷",
+      "Dahurian Angelica Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Angelicae Dahuricae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001244&label=Herb",
+        "title": "HERB001244"
+      },
+      "DI ER CAO",
+      "地耳草",
+      "all - grass of Japanese St. Johnswort",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Hyperici Japonici"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006718&label=Herb",
+        "title": "HERB006718"
+      },
+      "YU JIN",
+      "郁金",
+      "Tuber - root of Common Turmeric",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Curcumae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "Acetic acid, dodecyl ester; Dodecyl alcohol, acetate; acetic acid dodecyl ester; D221953_ALDRICH; dodecyl ethanoate; Dodecanol acetate; 4-02-00-00170 (Beilstein Handbook Reference); 112-66-3; AI3-11595; 70808-58-1; AIDS-212986; Lauryl ethanoate; FEMA No. 2616; N-Dodecyl acetate; W261602_ALDRICH; Acetate C-12; acetic acid lauryl ester; Dodecanyl acetate; EINECS 203-995-1; Dodecan-1-yl acetate; BRN 1769711; n-Dodecyl ethanoate; Dodecyl acetate; AIDS212986; NSC 67366; WLN: 12OV1; NCIOpen2_003287; Dodecyl alcohol acetate; NSC67366; Dodecanyl ethanoate; 1-Dodecanol acetate"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN032764",
+      "Lauryl acetate",
+      "Acetic acid, dodecyl ester; Dodecyl alcohol, acetate; acetic acid dodecyl ester; D221953_ALDRICH; dodecyl ethanoate; Dodecanol acetate; 4-02-00-00170 (Beilstein Handbook Reference); 112-66-3; AI3-11595; 70808-58-1; AIDS-212986; Lauryl ethanoate; FEMA No. 2616; N-Dodecyl acetate; W261602_ALDRICH; Acetate C-12; acetic acid lauryl ester; Dodecanyl acetate; EINECS 203-995-1; Dodecan-1-yl acetate; BRN 1769711; n-Dodecyl ethanoate; Dodecyl acetate; AIDS212986; NSC 67366; WLN: 12OV1; NCIOpen2_003287; Dodecyl alcohol acetate; NSC67366; Dodecanyl ethanoate; 1-Dodecanol acetate",
+      "C14H28O2",
+      "CCCCCCCCCCCCOC(=O)C",
+      "228.37",
+      "16.09829939",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "70808-58-1"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT06227",
+        "title": "SMIT06227"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/33661/",
+        "title": "33661"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL004281"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/8205",
+        "title": "8205"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,1100 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003137&label=Herb",
+        "title": "HERB003137"
+      },
+      "KU DING CHA",
+      "苦丁茶",
+      "Ilicis Cornutae Folium Immayuri",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003840&label=Herb",
+        "title": "HERB003840"
+      },
+      "MEI GUI HUA",
+      "玫瑰花",
+      "Rose Flower",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Rosae Rugosae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003872&label=Herb",
+        "title": "HERB003872"
+      },
+      "MEI SHANG LU",
+      "美商陆",
+      "American Pokeweed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Phytolacca americana [Syn. Phytolacca decandra ]"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004129&label=Herb",
+        "title": "HERB004129"
+      },
+      "NAO YANG HUA",
+      "闹羊花",
+      "Yellow Azalea Flower",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Rhododendri Mollis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004950&label=Herb",
+        "title": "HERB004950"
+      },
+      "SHAN ZHU YU",
+      "山茱萸",
+      "Asiatic Cornelian Cherry Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Corni"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "ANW-18132; DSSTox_GSID_25469; Magnesium bis(3-methylbutan-1-olate); RTR-003692; 1973-EP2281899A2; 3-Methyl-1-butanol, ACS, 98.5% min.  500ml; EINECS 204-633-5; AC1Q7CHF; NSC-7905; Fermentation amyl alcohol; DTXSID3025469; 3-methyl-Butanol; UNII-DEM9NIT1J4; I0289; NSC 1029; Iso-amyl alcohol; KB-70935; isopentan-1-ol; ISOAMYLALCOHOL; LMFA05000108; 3-Methyl-1-butanol, SAJ first grade, >=96.0%; 3-METHYL-BUTAN-(1)-OL; 3-Methyl-1-butanol, anhydrous, >=99%; i-Amyl Alcohol; Alcool amilico [Italian]; Isoamyl alkohol; 74374-EP2308857A1; Iso-amylalkohol [German]; 3-Methyl-1-butanol, mixture of isomers; Isoamyl alcohol; QSPL 002; Isobutylcarbinol; Isopentyl alcohol; FEMA Number 2057; AI3-15288; 3-Metil-butanolo [Italian]; Z955123582; isoamyl-alcohol; 3-Methyl-1-butanol, LR, >=98%; Isoamyl alcohol (primary and secondary); 74374-EP2269986A1; D0V4EK; Huile de fusel; Isopentylalkohol; CHEMBL372396; AN-22920; Butanol, 3-methyl-; DEM9NIT1J4; Isopentanol; 3-Metil-butanolo; TRA-0206228; 1-Butanol, 3-methyl-; 3-Methyl-1-butanol, ReagentPlus(R), >=99%; isopentylalcohol; NSC1029; F0001-0367; DB02296; 123-51-3 (Parent); FEMA No. 2057; Butan-1-ol, 3-methyl; Isoamyl alcohol, primary; NATURAL ISOAMYL ALCOHOL - TECHNICAL GRADE; Isoamyl alkohol [Czech]; 3-Methyl-1-butanol, technical grade, 95%; ISOAMYL ALCOHOL, ACS; Isobutyl carbinol; Amylowy alkohol; UNII-2NK7O363Q6 component PHTQWCKDNZKARW-UHFFFAOYSA-N; Jsp001579; Alcool isoamylique [French]; NSC7905; 3-Methylbutanol, BioUltra, for molecular biology, >"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000100&label=Disease",
+        "title": "HBDIS000100"
+      },
+      "Alcoholic Intoxication",
+      "8.08899438957556e-05",
+      "0.00132465191136606"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000101&label=Disease",
+        "title": "HBDIS000101"
+      },
+      "Alcoholic Intoxication, Chronic",
+      "0.000195237380675402",
+      "0.00253611712468095"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000275&label=Disease",
+        "title": "HBDIS000275"
+      },
+      "Atrial Fibrillation",
+      "0.000694497681819138",
+      "0.00613666202084351"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000503&label=Disease",
+        "title": "HBDIS000503"
+      },
+      "Cerebral Infarction",
+      "0.000340456455519591",
+      "0.00375862877857084"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001045&label=Disease",
+        "title": "HBDIS001045"
+      },
+      "Fatty Liver",
+      "0.000723598004068834",
+      "0.00626321520313321"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001765&label=Disease",
+        "title": "HBDIS001765"
+      },
+      "Liver Cirrhosis",
+      "0.00140534258034706",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001769&label=Disease",
+        "title": "HBDIS001769"
+      },
+      "Liver diseases",
+      "0.00108632777687627",
+      "0.00817185385221151"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002057&label=Disease",
+        "title": "HBDIS002057"
+      },
+      "Nausea",
+      "0.000690486714941714",
+      "0.00610829648502337"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002606&label=Disease",
+        "title": "HBDIS002606"
+      },
+      "Restless Legs Syndrome",
+      "0.000311744446619872",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003357&label=Disease",
+        "title": "HBDIS003357"
+      },
+      "Hyperphosphatemia (disorder)",
+      "0.000119300495234326",
+      "0.00177323902345942"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003372&label=Disease",
+        "title": "HBDIS003372"
+      },
+      "Alcohol abuse",
+      "0.000720941938683136",
+      "0.00624711464225259"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003443&label=Disease",
+        "title": "HBDIS003443"
+      },
+      "Withdrawal Symptoms",
+      "2.62354584825432e-06",
+      "9.25690920562739e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003597&label=Disease",
+        "title": "HBDIS003597"
+      },
+      "Myocardial Ischemia",
+      "0.000491185877366766",
+      "0.00482668434858981"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003760&label=Disease",
+        "title": "HBDIS003760"
+      },
+      "Malignant neoplasm of anterior portion of floor of mouth",
+      "0.000949592407074851",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003762&label=Disease",
+        "title": "HBDIS003762"
+      },
+      "Malignant neoplasm of other specified parts of mouth",
+      "0.000949592407074851",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003765&label=Disease",
+        "title": "HBDIS003765"
+      },
+      "malignant neoplasm of lateral wall of oropharynx",
+      "0.00126597287025051",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003766&label=Disease",
+        "title": "HBDIS003766"
+      },
+      "Malignant neoplasm of posterior wall of oropharynx",
+      "0.00126597287025051",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003774&label=Disease",
+        "title": "HBDIS003774"
+      },
+      "Malignant neoplasm of other sites within the lip and oral cavity",
+      "0.000949592407074851",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004984&label=Disease",
+        "title": "HBDIS004984"
+      },
+      "Paroxysmal atrial fibrillation",
+      "0.00109852099262141",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005031&label=Disease",
+        "title": "HBDIS005031"
+      },
+      "Pancreatic carcinoma",
+      "0.000594443452165108",
+      "0.005537807998637"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006151&label=Disease",
+        "title": "HBDIS006151"
+      },
+      "Fibrosis of pancreas",
+      "0.000119300495234326",
+      "0.00177323902345942"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007177&label=Disease",
+        "title": "HBDIS007177"
+      },
+      "Squamous cell carcinoma of the hypopharynx",
+      "0.000241574310278329",
+      "0.00294529361305237"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007733&label=Disease",
+        "title": "HBDIS007733"
+      },
+      "Proliferative retinopathy",
+      "8.43979701132796e-05",
+      "0.00136964233638457"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007909&label=Disease",
+        "title": "HBDIS007909"
+      },
+      "Chronic liver disease",
+      "0.00113670010042931",
+      "0.00836837749500748"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008389&label=Disease",
+        "title": "HBDIS008389"
+      },
+      "Malignant neoplasm of pancreas",
+      "0.000574213999334439",
+      "0.00539039002999799"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008864&label=Disease",
+        "title": "HBDIS008864"
+      },
+      "Non-alcoholic Fatty Liver Disease",
+      "0.00117318744563306",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009488&label=Disease",
+        "title": "HBDIS009488"
+      },
+      "Neuropathy",
+      "0.00011323039177867",
+      "0.0017058809627766"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009751&label=Disease",
+        "title": "HBDIS009751"
+      },
+      "Malignant neoplasm of lateral floor of mouth",
+      "0.000949592407074851",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010201&label=Disease",
+        "title": "HBDIS010201"
+      },
+      "Drunk driving",
+      "0.000949592407074851",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010559&label=Disease",
+        "title": "HBDIS010559"
+      },
+      "alcohol flush reaction",
+      "0.00126597287025051",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010796&label=Disease",
+        "title": "HBDIS010796"
+      },
+      "Hyperuricemia",
+      "0.00104861147349369",
+      "0.00795443715025048"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010816&label=Disease",
+        "title": "HBDIS010816"
+      },
+      "ABUSE NEGLECT",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010957&label=Disease",
+        "title": "HBDIS010957"
+      },
+      "Chronic lung disease",
+      "0.00048698195638656",
+      "0.00479779966365625"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011828&label=Disease",
+        "title": "HBDIS011828"
+      },
+      "Malignant neoplasm of larnyx stage IV",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012275&label=Disease",
+        "title": "HBDIS012275"
+      },
+      "Enzyme inhibition disorder",
+      "1.48690702786218e-08",
+      "1.1681022468299e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013705&label=Disease",
+        "title": "HBDIS013705"
+      },
+      "Lymphoproliferative Disorder of the Skin",
+      "0.000165096706149864",
+      "0.00223743410480224"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014338&label=Disease",
+        "title": "HBDIS014338"
+      },
+      "Drug Dependence",
+      "0.00150901675266579",
+      "0.00993667400326002"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014670&label=Disease",
+        "title": "HBDIS014670"
+      },
+      "Cirrhosis",
+      "0.000703145537804443",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015718&label=Disease",
+        "title": "HBDIS015718"
+      },
+      "PARKINSON DISEASE, MITOCHONDRIAL (disorder)",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018396&label=Disease",
+        "title": "HBDIS018396"
+      },
+      "Premature coronary artery atherosclerosis",
+      "0.000229767951148846",
+      "0.00286314372788782"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018465&label=Disease",
+        "title": "HBDIS018465"
+      },
+      "Pancreatitis, Calcific",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019636&label=Disease",
+        "title": "HBDIS019636"
+      },
+      "Steatohepatitis",
+      "0.0015126778361437",
+      "0.009955796612432"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020937&label=Disease",
+        "title": "HBDIS020937"
+      },
+      "Primary malignant neoplasm of lateral wall of oropharynx",
+      "0.00126597287025051",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000695&label=Disease",
+        "title": "HBDIS000695"
+      },
+      "Cushing Syndrome",
+      "0.00048698195638656",
+      "0.00479779966365625"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001452&label=Disease",
+        "title": "HBDIS001452"
+      },
+      "Hyperparathyroidism, Secondary",
+      "0.00013673402475009",
+      "0.0019630253915077"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002532&label=Disease",
+        "title": "HBDIS002532"
+      },
+      "Precocious Puberty",
+      "0.000461944091917355",
+      "0.00468597448306513"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002672&label=Disease",
+        "title": "HBDIS002672"
+      },
+      "Sarcoma, Engelbreth-Holm-Swarm",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003120&label=Disease",
+        "title": "HBDIS003120"
+      },
+      "Vitamin D Deficiency",
+      "0.000650887488844568",
+      "0.00583951952938557"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003499&label=Disease",
+        "title": "HBDIS003499"
+      },
+      "Deep Vein Thrombosis",
+      "0.00126857929606925",
+      "0.00888214761783505"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008000&label=Disease",
+        "title": "HBDIS008000"
+      },
+      "Adrenal Cushing's syndrome",
+      "0.000398370818712644",
+      "0.00419645159059964"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009056&label=Disease",
+        "title": "HBDIS009056"
+      },
+      "Osteomalacia secondary to drug",
+      "0.00126597287025051",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009798&label=Disease",
+        "title": "HBDIS009798"
+      },
+      "ASSAY FOR TACROLIMUS",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010253&label=Disease",
+        "title": "HBDIS010253"
+      },
+      "Maternal hypertension",
+      "8.43979701132796e-05",
+      "0.00136964233638457"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011788&label=Disease",
+        "title": "HBDIS011788"
+      },
+      "hypertensive nephropathy",
+      "8.08899438957556e-05",
+      "0.00132465191136606"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011850&label=Disease",
+        "title": "HBDIS011850"
+      },
+      "Pregnancy associated hypertension",
+      "0.000964012891279906",
+      "0.00749980114329466"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011864&label=Disease",
+        "title": "HBDIS011864"
+      },
+      "21-hydroxylase deficiency",
+      "8.43979701132796e-05",
+      "0.00136964233638457"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017879&label=Disease",
+        "title": "HBDIS017879"
+      },
+      "CHROMATE RESISTANCE (disorder)",
+      "0.00126597287025051",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020503&label=Disease",
+        "title": "HBDIS020503"
+      },
+      "Heart failure with normal ejection fraction",
+      "6.75990080869605e-05",
+      "0.00116851253057677"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001203&label=Disease",
+        "title": "HBDIS001203"
+      },
+      "Hypertension, Goldblatt",
+      "0.00126597287025051",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002901&label=Disease",
+        "title": "HBDIS002901"
+      },
+      "Tachycardia, Ectopic Junctional",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003304&label=Disease",
+        "title": "HBDIS003304"
+      },
+      "Metabolic acidosis, NAG, acidifying salts",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003980&label=Disease",
+        "title": "HBDIS003980"
+      },
+      "Hyperplasia of renal artery",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004010&label=Disease",
+        "title": "HBDIS004010"
+      },
+      "Unilateral small kidney",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005686&label=Disease",
+        "title": "HBDIS005686"
+      },
+      "Low-renin essential hypertension",
+      "0.000949592407074851",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005687&label=Disease",
+        "title": "HBDIS005687"
+      },
+      "High-renin essential hypertension",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005688&label=Disease",
+        "title": "HBDIS005688"
+      },
+      "Endocrine hypertension",
+      "0.00126597287025051",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005693&label=Disease",
+        "title": "HBDIS005693"
+      },
+      "Acute coronary insufficiency",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006657&label=Disease",
+        "title": "HBDIS006657"
+      },
+      "Secondary hyperaldosteronism",
+      "0.00126597287025051",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007871&label=Disease",
+        "title": "HBDIS007871"
+      },
+      "Arteriovenous fistula stenosis",
+      "0.000949592407074851",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007932&label=Disease",
+        "title": "HBDIS007932"
+      },
+      "Pre-eclampsia added to pre-existing hypertension",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008891&label=Disease",
+        "title": "HBDIS008891"
+      },
+      "Proteinuric diabetic nephropathy",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009772&label=Disease",
+        "title": "HBDIS009772"
+      },
+      "hypertension complicated",
+      "0.00126597287025051",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009872&label=Disease",
+        "title": "HBDIS009872"
+      },
+      "Kidney crystallization",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010346&label=Disease",
+        "title": "HBDIS010346"
+      },
+      "Chronic depression",
+      "0.00126597287025051",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010436&label=Disease",
+        "title": "HBDIS010436"
+      },
+      "high renin hypertension",
+      "0.000949592407074851",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010937&label=Disease",
+        "title": "HBDIS010937"
+      },
+      "Hypertensive emergency",
+      "0.00126597287025051",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010938&label=Disease",
+        "title": "HBDIS010938"
+      },
+      "Hypertensive urgency",
+      "0.00126597287025051",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011466&label=Disease",
+        "title": "HBDIS011466"
+      },
+      "Carotid Artery, Internal, Dissection",
+      "0.00126597287025051",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012290&label=Disease",
+        "title": "HBDIS012290"
+      },
+      "Osteopenia periarticular",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012601&label=Disease",
+        "title": "HBDIS012601"
+      },
+      "Arterial fibrosis",
+      "0.000949592407074851",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013358&label=Disease",
+        "title": "HBDIS013358"
+      },
+      "Hypertension with albuminuria",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014154&label=Disease",
+        "title": "HBDIS014154"
+      },
+      "chronic glomerular disease",
+      "0.00126597287025051",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014316&label=Disease",
+        "title": "HBDIS014316"
+      },
+      "Post transplant erythrocytosis",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014320&label=Disease",
+        "title": "HBDIS014320"
+      },
+      "Stenosis of middle cerebral artery",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017941&label=Disease",
+        "title": "HBDIS017941"
+      },
+      "Brachydactyly with hypertension",
+      "0.000949592407074851",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018930&label=Disease",
+        "title": "HBDIS018930"
+      },
+      "Left atrial appendage thrombosis",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019549&label=Disease",
+        "title": "HBDIS019549"
+      },
+      "Renal Tubular Dysgenesis With Choanal Atresia And Athelia",
+      "0.00126597287025051",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019675&label=Disease",
+        "title": "HBDIS019675"
+      },
+      "Vestibulodynia",
+      "0.00126597287025051",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019926&label=Disease",
+        "title": "HBDIS019926"
+      },
+      "Hyperuricemic Nephropathy, Familial Juvenile 2",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020101&label=Disease",
+        "title": "HBDIS020101"
+      },
+      "Page kidney",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021968&label=Disease",
+        "title": "HBDIS021968"
+      },
+      "Hypocalvaria",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021979&label=Disease",
+        "title": "HBDIS021979"
+      },
+      "Renal hypoperfusion",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023259&label=Disease",
+        "title": "HBDIS023259"
+      },
+      "HYPERPRORENINEMIA, FAMILIAL",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025333&label=Disease",
+        "title": "HBDIS025333"
+      },
+      "Hypertensive cerebrovascular disease",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026587&label=Disease",
+        "title": "HBDIS026587"
+      },
+      "Endocapillary hypercellularity",
+      "0.00126597287025051",
+      "0.00887230256280801"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000078&label=Target",
+        "title": "HBTAR000078"
+      },
+      "ADH1B",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8438/",
+          "title": "TCMID:8438"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000081&label=Target",
+        "title": "HBTAR000081"
+      },
+      "ADH6",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/15138/",
+          "title": "TCMID:15138"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000964&label=Target",
+        "title": "HBTAR000964"
+      },
+      "CYP3A4",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/6016/",
+          "title": "TCMID:6016"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00621"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003436&label=Target",
+        "title": "HBTAR003436"
+      },
+      "REN",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9264/",
+          "title": "TCMID:9264"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN030411",
+      "isoamyl alcohol",
+      "ANW-18132; DSSTox_GSID_25469; Magnesium bis(3-methylbutan-1-olate); RTR-003692; 1973-EP2281899A2; 3-Methyl-1-butanol, ACS, 98.5% min.  500ml; EINECS 204-633-5; AC1Q7CHF; NSC-7905; Fermentation amyl alcohol; DTXSID3025469; 3-methyl-Butanol; UNII-DEM9NIT1J4; I0289; NSC 1029; Iso-amyl alcohol; KB-70935; isopentan-1-ol; ISOAMYLALCOHOL; LMFA05000108; 3-Methyl-1-butanol, SAJ first grade, >=96.0%; 3-METHYL-BUTAN-(1)-OL; 3-Methyl-1-butanol, anhydrous, >=99%; i-Amyl Alcohol; Alcool amilico [Italian]; Isoamyl alkohol; 74374-EP2308857A1; Iso-amylalkohol [German]; 3-Methyl-1-butanol, mixture of isomers; Isoamyl alcohol; QSPL 002; Isobutylcarbinol; Isopentyl alcohol; FEMA Number 2057; AI3-15288; 3-Metil-butanolo [Italian]; Z955123582; isoamyl-alcohol; 3-Methyl-1-butanol, LR, >=98%; Isoamyl alcohol (primary and secondary); 74374-EP2269986A1; D0V4EK; Huile de fusel; Isopentylalkohol; CHEMBL372396; AN-22920; Butanol, 3-methyl-; DEM9NIT1J4; Isopentanol; 3-Metil-butanolo; TRA-0206228; 1-Butanol, 3-methyl-; 3-Methyl-1-butanol, ReagentPlus(R), >=99%; isopentylalcohol; NSC1029; F0001-0367; DB02296; 123-51-3 (Parent); FEMA No. 2057; Butan-1-ol, 3-methyl; Isoamyl alcohol, primary; NATURAL ISOAMYL ALCOHOL - TECHNICAL GRADE; Isoamyl alkohol [Czech]; 3-Methyl-1-butanol, technical grade, 95%; ISOAMYL ALCOHOL, ACS; Isobutyl carbinol; Amylowy alkohol; UNII-2NK7O363Q6 component PHTQWCKDNZKARW-UHFFFAOYSA-N; Jsp001579; Alcool isoamylique [French]; NSC7905; 3-Methylbutanol, BioUltra, for molecular biology, >",
+      "C5H12O",
+      "CC(C)CCO",
+      "88.15",
+      {
+        "link": "https://www.symmap.org/detail/SMIT15975",
+        "title": "SMIT15975"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/11215/",
+        "title": "11215"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/31260",
+        "title": "31260"
+      }
+    ]
+  ]
+}

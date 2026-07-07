@@ -1,0 +1,238 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001171&label=Herb",
+        "title": "HERB001171"
+      },
+      "DAI DAI HUA",
+      "玳玳花",
+      "Citrus Aurantium",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001409&label=Herb",
+        "title": "HERB001409"
+      },
+      "DU ZHONG",
+      "杜仲",
+      "Eucommia bark",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Cortex Eucommiae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004159&label=Herb",
+        "title": "HERB004159"
+      },
+      "NI ZHAO MU JIANG ZI",
+      "泥沼木姜子",
+      "Sloughy Litse",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Litsea turfosa"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "dehydrodieugenol; 4433/8/3; 2,2'-Biphenyldiol, 5,5'-diallyl-3,3'-dimethoxy-; SCHEMBL5320878; 5,5'-Diallyl-3,3'-dimethoxy[1,1'-biphenyl]-2,2'-diol #; CTK1D7368; 2-(2-hydroxy-3-methoxy-5-prop-2-enylphenyl)-6-methoxy-4-prop-2-enylphenol; C10550; SR-01000500269-1; AC1Q79LE; AB00115914-01; SR-01000500269; AC1L4WB6; [1,1'-Biphenyl]-2,2'-diol, 3,3'-dimethoxy-5,5'-di-2-propenyl-; KETPSFSOGFKJJY-UHFFFAOYSA-N; 4433-08-3; 4-allyl-2-(5-allyl-2-hydroxy-3-methoxy-phenyl)-6-methoxy-phenol; 2-(2-hydroxy-3-methoxy-5-prop-2-enyl-phenyl)-6-methoxy-4-prop-2-enyl-phenol; CHEBI:4361; 4-allyl-2-(5-allyl-2-hydroxy-3-methoxyphenyl)-6-methoxyphenol; Bis-Eugenol; CHEMBL182629; DTXSID80196137"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008014&label=Disease",
+        "title": "HBDIS008014"
+      },
+      "Idiopathic hirsutism",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008927&label=Disease",
+        "title": "HBDIS008927"
+      },
+      "Female infertility associated with anovulation",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015085&label=Disease",
+        "title": "HBDIS015085"
+      },
+      "DIABETES MELLITUS, NONINSULIN-DEPENDENT, 1 (disorder)",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017037&label=Disease",
+        "title": "HBDIS017037"
+      },
+      "POLYCYSTIC OVARY SYNDROME, SUSCEPTIBILITY TO",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017781&label=Disease",
+        "title": "HBDIS017781"
+      },
+      "Snowflake vitreoretinal degeneration",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019750&label=Disease",
+        "title": "HBDIS019750"
+      },
+      "Hypopnea syndrome",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR006209&label=Target",
+        "title": "HBTAR006209"
+      },
+      "CAPN10",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3618/",
+          "title": "TCMID:3618"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN023017",
+      "Dehydrodieugenol",
+      "dehydrodieugenol; 4433/8/3; 2,2'-Biphenyldiol, 5,5'-diallyl-3,3'-dimethoxy-; SCHEMBL5320878; 5,5'-Diallyl-3,3'-dimethoxy[1,1'-biphenyl]-2,2'-diol #; CTK1D7368; 2-(2-hydroxy-3-methoxy-5-prop-2-enylphenyl)-6-methoxy-4-prop-2-enylphenol; C10550; SR-01000500269-1; AC1Q79LE; AB00115914-01; SR-01000500269; AC1L4WB6; [1,1'-Biphenyl]-2,2'-diol, 3,3'-dimethoxy-5,5'-di-2-propenyl-; KETPSFSOGFKJJY-UHFFFAOYSA-N; 4433-08-3; 4-allyl-2-(5-allyl-2-hydroxy-3-methoxy-phenyl)-6-methoxy-phenol; 2-(2-hydroxy-3-methoxy-5-prop-2-enyl-phenyl)-6-methoxy-4-prop-2-enyl-phenol; CHEBI:4361; 4-allyl-2-(5-allyl-2-hydroxy-3-methoxyphenyl)-6-methoxyphenol; Bis-Eugenol; CHEMBL182629; DTXSID80196137",
+      "C20H22O4",
+      "COC1=CC(=CC(=C1O)C2=C(C(=CC(=C2)CC=C)OC)O)CC=C",
+      "326.4",
+      "30.10301535",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "4433/8/3"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT10219",
+        "title": "SMIT10219"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/4905/",
+        "title": "4905"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL009030"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/165225",
+        "title": "165225"
+      }
+    ]
+  ]
+}

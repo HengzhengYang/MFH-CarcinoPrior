@@ -1,0 +1,189 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001171&label=Herb",
+        "title": "HERB001171"
+      },
+      "DAI DAI HUA",
+      "玳玳花",
+      "Citrus Aurantium",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001409&label=Herb",
+        "title": "HERB001409"
+      },
+      "DU ZHONG",
+      "杜仲",
+      "Eucommia bark",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Cortex Eucommiae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002554&label=Herb",
+        "title": "HERB002554"
+      },
+      "HUANG MING JIAO",
+      "黄明胶",
+      "Oxhide Gelatin",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Bos taurus domesticus"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005730&label=Herb",
+        "title": "HERB005730"
+      },
+      "WU LI",
+      "NA",
+      "Serpent-head",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Ophiocephalus argus"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006022&label=Herb",
+        "title": "HERB006022"
+      },
+      "XIANG GU",
+      "香菇",
+      "Elephant Bone",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Elephas maximus"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "CHEBI:88157; D-Proline, 3-hydroxy-, (3S)-; FCH951294; MolPort-003-984-002; AK315407; Procollagen trans-3-hydroxy-L-proline; SCHEMBL2025245; KB-49009; 3beta-Hydroxy-D-proline; (+)-cis-(2R,3S)-3-hydroxyproline; TC-167431; 3-HYDROXY-L-PROLINE; AKOS027323369; 118492-86-7; cis-3-Hydroxy-dl-proline; ZINC2516853; DB-070384; 4298/5/9; BJBUEDPLEOHJGE-IUYQGCFVSA-N; MFCD09996919; KS-000004K9; CTK7F3130; FT-0600254; AX8318524; 8555AH; (3S)-3-hydroxy-D-proline; (2R,3S)-3-hydroxypyrrolidine-2-carboxylic acid"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN008746",
+      "3-hydroxyproline",
+      "CHEBI:88157; D-Proline, 3-hydroxy-, (3S)-; FCH951294; MolPort-003-984-002; AK315407; Procollagen trans-3-hydroxy-L-proline; SCHEMBL2025245; KB-49009; 3beta-Hydroxy-D-proline; (+)-cis-(2R,3S)-3-hydroxyproline; TC-167431; 3-HYDROXY-L-PROLINE; AKOS027323369; 118492-86-7; cis-3-Hydroxy-dl-proline; ZINC2516853; DB-070384; 4298/5/9; BJBUEDPLEOHJGE-IUYQGCFVSA-N; MFCD09996919; KS-000004K9; CTK7F3130; FT-0600254; AX8318524; 8555AH; (3S)-3-hydroxy-D-proline; (2R,3S)-3-hydroxypyrrolidine-2-carboxylic acid",
+      "C5H9NO3",
+      "C1CNC(C1O)C(=O)O",
+      "131.13",
+      {
+        "link": "https://www.symmap.org/detail/SMIT15906",
+        "title": "SMIT15906"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/10659/",
+        "title": "10659"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/11137200",
+        "title": "11137200"
+      }
+    ]
+  ]
+}

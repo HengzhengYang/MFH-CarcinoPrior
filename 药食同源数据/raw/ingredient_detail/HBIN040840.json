@@ -1,0 +1,505 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004242&label=Herb",
+        "title": "HERB004242"
+      },
+      "NV ZHEN ZI",
+      "女贞子",
+      "fruit of Glossy privet",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Ligustri lucidi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005017&label=Herb",
+        "title": "HERB005017"
+      },
+      "SHENG JIANG",
+      "生姜",
+      "Fresh Ginger",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Zingiberis Recens"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005890&label=Herb",
+        "title": "HERB005890"
+      },
+      "XI XIANG CONG",
+      "西香葱",
+      "Chive-like",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Allium schoenoprasum"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "36833-66-6; UN1275; Propan-1-one; Propionaldehyde [UN1275]  [Flammable liquid]; Propionaldehyde, 97%  500ml; NSC 6493; ANW-18125; propanal; 6413-EP2287159A1; n-Propanal; Propionaldehyde [UN1275] [Flammable liquid]; MolPort-001-769-727; 1-Propanone; J-004931; Propanalaldehyde; ACMC-1BSLE; Methylacetaldehyde; Proprionaldehyde; AC1L19FP; EBD2219812; AN-22915; 6413-EP2377841A1; Propaldehyde; C2H5CHO; NCGC00258624-01; CAS-123-38-6; KS-00000UUT; Propionaldehyde; J-524059; C00479; 7052AF; WLN: VH2; Propanaldehyde; RP18245; CCRIS 2917; 6413-EP2371831A1; LS-679; Propylaldehyde; TR-003683; proprionaldhyde; DTXSID2021658; BDBM60952; CHEMBL275626; Propionaldehyde (Propanal); NCGC00091772-02; UN 1275; 123-38-6; S14-1443; propion aldehyde; Propionaldehyde, natural, >=98%, FG; Aldehyde propionique; ZINC895256; FEMA Number 2923; 1-Propanal; 6413-EP2272491A1; AC1Q2SOH; methyl acetaldehyde; A805061; EC 204-623-0; AI3-16114; Propylic aldehyde; 6413-EP2311802A1; 6413-EP2284157A1; NCI-C61029; Propyl aldehyde; DSSTox_GSID_21658; DSSTox_CID_1658; n-Propylal; Propionaldehyde, reagent grade, 97%; Propional; AMJ2B4M67V; NBBJYMSMWIIQGU-UHFFFAOYSA-N; Propionaldehyde, 97%; NSC-6493; 37632-EP2295407A1; I14-16097; NSC6493; 6413-EP2374783A1; 6413-EP2311803A1; C3H6O; STR01357; RTR-003683; n-Propionaldehyde; 1-oxopropan-2-yl; FT-0655858; 37632-EP2311802A1; LTBB001461; CHEBI:17153; 68219-61-4; 3-oxopropyl; DSSTox_RID_76270; STL264226; EINECS 204-623-0; Tox21_201071; 108797-EP2280002A1; SC-79769; Propionic alde"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001249&label=Disease",
+        "title": "HBDIS001249"
+      },
+      "Head and Neck Neoplasms",
+      "5.62755610379197e-05",
+      "0.00101747656710297"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001652&label=Disease",
+        "title": "HBDIS001652"
+      },
+      "Laryngeal neoplasm",
+      "0.000420179284980513",
+      "0.00437028023903846"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002376&label=Disease",
+        "title": "HBDIS002376"
+      },
+      "Pharyngeal Neoplasms",
+      "9.45588194423806e-06",
+      "0.000257241894154314"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003772&label=Disease",
+        "title": "HBDIS003772"
+      },
+      "Hypopharyngeal Cancer",
+      "0.000329734565571559",
+      "0.00367164675370985"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003773&label=Disease",
+        "title": "HBDIS003773"
+      },
+      "Malignant neoplasm of pharynx",
+      "0.000168890014460823",
+      "0.00227649693227415"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007054&label=Disease",
+        "title": "HBDIS007054"
+      },
+      "Malignant Head and Neck Neoplasm",
+      "0.000650323679523184",
+      "0.00583550819320324"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007092&label=Disease",
+        "title": "HBDIS007092"
+      },
+      "Squamous cell carcinoma of esophagus",
+      "0.00150546167514703",
+      "0.00991821914356666"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007177&label=Disease",
+        "title": "HBDIS007177"
+      },
+      "Squamous cell carcinoma of the hypopharynx",
+      "0.00141953614244784",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010816&label=Disease",
+        "title": "HBDIS010816"
+      },
+      "ABUSE NEGLECT",
+      "0.000712363463669463",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011828&label=Disease",
+        "title": "HBDIS011828"
+      },
+      "Malignant neoplasm of larnyx stage IV",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013617&label=Disease",
+        "title": "HBDIS013617"
+      },
+      "Atypical Ductal Breast Hyperplasia",
+      "0.0010028667429013",
+      "0.00772612073962197"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014042&label=Disease",
+        "title": "HBDIS014042"
+      },
+      "Hypopharyngeal Carcinoma",
+      "0.0013849980416834",
+      "0.00946510865307498"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015718&label=Disease",
+        "title": "HBDIS015718"
+      },
+      "PARKINSON DISEASE, MITOCHONDRIAL (disorder)",
+      "0.000712363463669463",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018465&label=Disease",
+        "title": "HBDIS018465"
+      },
+      "Pancreatitis, Calcific",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022695&label=Disease",
+        "title": "HBDIS022695"
+      },
+      "Head and Neck Carcinoma",
+      "0.000702372590370267",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000626&label=Disease",
+        "title": "HBDIS000626"
+      },
+      "Hereditary Nonpolyposis Colorectal Neoplasms",
+      "0.000329734565571559",
+      "0.00367164675370985"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001466&label=Disease",
+        "title": "HBDIS001466"
+      },
+      "Pulmonary Hypertension",
+      "0.000118247045594963",
+      "0.00176201936107281"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017966&label=Disease",
+        "title": "HBDIS017966"
+      },
+      "Aryl Hydrocarbon Hydroxylase Inducibility",
+      "0.000712363463669463",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003342&label=Disease",
+        "title": "HBDIS003342"
+      },
+      "Peripheral edema",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015366&label=Disease",
+        "title": "HBDIS015366"
+      },
+      "SPASTIC PARAPLEGIA 30, AUTOSOMAL RECESSIVE (disorder)",
+      "0.000712363463669463",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016505&label=Disease",
+        "title": "HBDIS016505"
+      },
+      "Developmental delay, mild",
+      "0.000712363463669463",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018157&label=Disease",
+        "title": "HBDIS018157"
+      },
+      "Cerebellar atrophy, progressive",
+      "0.000712363463669463",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021275&label=Disease",
+        "title": "HBDIS021275"
+      },
+      "NEUROPATHY, HEREDITARY SENSORY, TYPE IIC",
+      "0.000712363463669463",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021284&label=Disease",
+        "title": "HBDIS021284"
+      },
+      "MENTAL RETARDATION, AUTOSOMAL DOMINANT 9",
+      "0.000712363463669463",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023061&label=Disease",
+        "title": "HBDIS023061"
+      },
+      "MYOPIA 24, AUTOSOMAL DOMINANT",
+      "0.000712363463669463",
+      "0.00618862741680015"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000078&label=Target",
+        "title": "HBTAR000078"
+      },
+      "ADH1B",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8438/",
+          "title": "TCMID:8438"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000333&label=Target",
+        "title": "HBTAR000333"
+      },
+      "KIF1A",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8462/",
+          "title": "TCMID:8462"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000467&label=Target",
+        "title": "HBTAR000467"
+      },
+      "CA9",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/12923/",
+          "title": "TCMID:12923"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000948&label=Target",
+        "title": "HBTAR000948"
+      },
+      "CYP1A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2949/",
+          "title": "TCMID:2949"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003292&label=Target",
+        "title": "HBTAR003292"
+      },
+      "PTGIS",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/398/",
+          "title": "TCMID:398"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00761"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004819&label=Target",
+        "title": "HBTAR004819"
+      },
+      "B3GALT4",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/10930/",
+          "title": "TCMID:10930"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR008775&label=Target",
+        "title": "HBTAR008775"
+      },
+      "CEMIP",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/",
+          "title": "TCMID"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR011848&label=Target",
+        "title": "HBTAR011848"
+      },
+      "SLC39A5",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/13521/",
+          "title": "TCMID:13521"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR012155&label=Target",
+        "title": "HBTAR012155"
+      },
+      "SBSN",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/16300/",
+          "title": "TCMID:16300"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN040840",
+      "propionaldehyde",
+      "36833-66-6; UN1275; Propan-1-one; Propionaldehyde [UN1275]  [Flammable liquid]; Propionaldehyde, 97%  500ml; NSC 6493; ANW-18125; propanal; 6413-EP2287159A1; n-Propanal; Propionaldehyde [UN1275] [Flammable liquid]; MolPort-001-769-727; 1-Propanone; J-004931; Propanalaldehyde; ACMC-1BSLE; Methylacetaldehyde; Proprionaldehyde; AC1L19FP; EBD2219812; AN-22915; 6413-EP2377841A1; Propaldehyde; C2H5CHO; NCGC00258624-01; CAS-123-38-6; KS-00000UUT; Propionaldehyde; J-524059; C00479; 7052AF; WLN: VH2; Propanaldehyde; RP18245; CCRIS 2917; 6413-EP2371831A1; LS-679; Propylaldehyde; TR-003683; proprionaldhyde; DTXSID2021658; BDBM60952; CHEMBL275626; Propionaldehyde (Propanal); NCGC00091772-02; UN 1275; 123-38-6; S14-1443; propion aldehyde; Propionaldehyde, natural, >=98%, FG; Aldehyde propionique; ZINC895256; FEMA Number 2923; 1-Propanal; 6413-EP2272491A1; AC1Q2SOH; methyl acetaldehyde; A805061; EC 204-623-0; AI3-16114; Propylic aldehyde; 6413-EP2311802A1; 6413-EP2284157A1; NCI-C61029; Propyl aldehyde; DSSTox_GSID_21658; DSSTox_CID_1658; n-Propylal; Propionaldehyde, reagent grade, 97%; Propional; AMJ2B4M67V; NBBJYMSMWIIQGU-UHFFFAOYSA-N; Propionaldehyde, 97%; NSC-6493; 37632-EP2295407A1; I14-16097; NSC6493; 6413-EP2374783A1; 6413-EP2311803A1; C3H6O; STR01357; RTR-003683; n-Propionaldehyde; 1-oxopropan-2-yl; FT-0655858; 37632-EP2311802A1; LTBB001461; CHEBI:17153; 68219-61-4; 3-oxopropyl; DSSTox_RID_76270; STL264226; EINECS 204-623-0; Tox21_201071; 108797-EP2280002A1; SC-79769; Propionic alde",
+      "C3H6O",
+      "CCC=O",
+      "58.08",
+      {
+        "link": "https://www.symmap.org/detail/SMIT17326",
+        "title": "SMIT17326"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/17916/",
+        "title": "17916"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/527",
+        "title": "527"
+      }
+    ]
+  ]
+}

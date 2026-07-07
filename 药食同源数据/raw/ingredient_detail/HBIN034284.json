@@ -1,0 +1,659 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004938&label=Herb",
+        "title": "HERB004938"
+      },
+      "SHAN YAO",
+      "山药",
+      "Common Yam Rhizome",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Dioscoreae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005287&label=Herb",
+        "title": "HERB005287"
+      },
+      "SU HE XIANG",
+      "苏合香",
+      "Storax",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Styrax"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006733&label=Herb",
+        "title": "HERB006733"
+      },
+      "YU MI XU",
+      "玉米须",
+      "Corn stigma",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Stigma Maydis"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NA"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000057&label=Disease",
+        "title": "HBDIS000057"
+      },
+      "Adenoma",
+      "0.000454085614287831",
+      "0.00462850009053497"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001330&label=Disease",
+        "title": "HBDIS001330"
+      },
+      "Hepatic Encephalopathy",
+      "3.98913876489719e-07",
+      "1.95983777770284e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001702&label=Disease",
+        "title": "HBDIS001702"
+      },
+      "Acute lymphocytic leukemia",
+      "0.000454085614287831",
+      "0.00462850009053497"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001768&label=Disease",
+        "title": "HBDIS001768"
+      },
+      "Liver Cirrhosis, Experimental",
+      "0.000198555617392832",
+      "0.00256929616239984"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001772&label=Disease",
+        "title": "HBDIS001772"
+      },
+      "Liver neoplasms",
+      "0.000732911188778887",
+      "0.00631930155124444"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002276&label=Disease",
+        "title": "HBDIS002276"
+      },
+      "Pancreatic Neoplasm",
+      "0.000135585601967236",
+      "0.00195067790789858"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007280&label=Disease",
+        "title": "HBDIS007280"
+      },
+      "Glutamine measurement",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009775&label=Disease",
+        "title": "HBDIS009775"
+      },
+      "Dementia",
+      "0.000124022667630135",
+      "0.0018259827497288"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011850&label=Disease",
+        "title": "HBDIS011850"
+      },
+      "Pregnancy associated hypertension",
+      "0.000486107086229029",
+      "0.00479280553389632"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026759&label=Disease",
+        "title": "HBDIS026759"
+      },
+      "Habitual snoring",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000147&label=Disease",
+        "title": "HBDIS000147"
+      },
+      "Autoimmune hemolytic anemia",
+      "6.41276703756617e-05",
+      "0.00112349284357845"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000386&label=Disease",
+        "title": "HBDIS000386"
+      },
+      "Brain Diseases",
+      "0.00146745141179041",
+      "0.00974475632032831"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001979&label=Disease",
+        "title": "HBDIS001979"
+      },
+      "Mucocutaneous Lymph Node Syndrome",
+      "0.00141616370071848",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002028&label=Disease",
+        "title": "HBDIS002028"
+      },
+      "Myocarditis",
+      "0.000978091923384949",
+      "0.0075811595162912"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002193&label=Disease",
+        "title": "HBDIS002193"
+      },
+      "Delirium, Dementia, Amnestic, Cognitive Disorders",
+      "8.03640460624388e-05",
+      "0.00131933895016083"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002679&label=Disease",
+        "title": "HBDIS002679"
+      },
+      "Scarlet Fever",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003290&label=Disease",
+        "title": "HBDIS003290"
+      },
+      "Polycystic Kidney, Autosomal Dominant",
+      "0.000952840577390611",
+      "0.00742676910295254"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007728&label=Disease",
+        "title": "HBDIS007728"
+      },
+      "Infantile cataract",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008571&label=Disease",
+        "title": "HBDIS008571"
+      },
+      "Hematopoietic Neoplasms",
+      "0.00110923645243668",
+      "0.00820552570814749"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010738&label=Disease",
+        "title": "HBDIS010738"
+      },
+      "Villous adenoma of rectum",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012759&label=Disease",
+        "title": "HBDIS012759"
+      },
+      "Respiratory Failure",
+      "0.00122947332786176",
+      "0.00878202901483978"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013716&label=Disease",
+        "title": "HBDIS013716"
+      },
+      "Activated B-cell type diffuse large B-cell lymphoma",
+      "1.86164729335368e-05",
+      "0.000436366027216813"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025276&label=Disease",
+        "title": "HBDIS025276"
+      },
+      "Neurocognitive Disorders",
+      "7.55389630385636e-05",
+      "0.00126939280356166"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025988&label=Disease",
+        "title": "HBDIS025988"
+      },
+      "PATENT DUCTUS ARTERIOSUS 1",
+      "0.00074027801898494",
+      "0.00636894873717434"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026938&label=Disease",
+        "title": "HBDIS026938"
+      },
+      "Hamster Insulinoma",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000385&label=Disease",
+        "title": "HBDIS000385"
+      },
+      "Brain Death",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000438&label=Disease",
+        "title": "HBDIS000438"
+      },
+      "Carbon Monoxide Poisoning",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001307&label=Disease",
+        "title": "HBDIS001307"
+      },
+      "Hemoglobin SC Disease",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001311&label=Disease",
+        "title": "HBDIS001311"
+      },
+      "Hemolysis (disorder)",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003775&label=Disease",
+        "title": "HBDIS003775"
+      },
+      "Malignant neoplasm of upper third of esophagus",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003776&label=Disease",
+        "title": "HBDIS003776"
+      },
+      "Malignant neoplasm of middle third of esophagus",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003777&label=Disease",
+        "title": "HBDIS003777"
+      },
+      "Malignant neoplasm of lower third of esophagus",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003778&label=Disease",
+        "title": "HBDIS003778"
+      },
+      "Malignant neoplasm of other specified part of esophagus",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006737&label=Disease",
+        "title": "HBDIS006737"
+      },
+      "Indolent Systemic Mastocytosis",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006880&label=Disease",
+        "title": "HBDIS006880"
+      },
+      "Infection by Leishmania infantum",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007340&label=Disease",
+        "title": "HBDIS007340"
+      },
+      "Extravascular Hemolysis",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008406&label=Disease",
+        "title": "HBDIS008406"
+      },
+      "Carcinoma in situ of mouth",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008585&label=Disease",
+        "title": "HBDIS008585"
+      },
+      "Diffuse inflammation",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008632&label=Disease",
+        "title": "HBDIS008632"
+      },
+      "Toxic effect of carbon tetrachloride",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009752&label=Disease",
+        "title": "HBDIS009752"
+      },
+      "Malignant neoplasm of abdominal part of esophagus",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009772&label=Disease",
+        "title": "HBDIS009772"
+      },
+      "hypertension complicated",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009787&label=Disease",
+        "title": "HBDIS009787"
+      },
+      "Left atrial myxoma",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010745&label=Disease",
+        "title": "HBDIS010745"
+      },
+      "Proliferative diabetic retinopathy - quiescent",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013191&label=Disease",
+        "title": "HBDIS013191"
+      },
+      "Secondary Raynaud's phenomenon",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014228&label=Disease",
+        "title": "HBDIS014228"
+      },
+      "Alcoholic liver damage",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014600&label=Disease",
+        "title": "HBDIS014600"
+      },
+      "Delayed Graft Function",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015884&label=Disease",
+        "title": "HBDIS015884"
+      },
+      "Heme Oxygenase 1 Deficiency",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017741&label=Disease",
+        "title": "HBDIS017741"
+      },
+      "Antley-Bixler Syndrome with Disordered Steroidogenesis",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019119&label=Disease",
+        "title": "HBDIS019119"
+      },
+      "Pancreatitis, Graft",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026983&label=Disease",
+        "title": "HBDIS026983"
+      },
+      "Light induced retinopathy",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027684&label=Disease",
+        "title": "HBDIS027684"
+      },
+      "Sickle cell hepatopathy",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001586&label=Target",
+        "title": "HBTAR001586"
+      },
+      "GLS",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/5953/",
+          "title": "TCMID:5953"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001851&label=Target",
+        "title": "HBTAR001851"
+      },
+      "HMOX1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9480/",
+          "title": "TCMID:9480"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02132"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007157&label=Target",
+        "title": "HBTAR007157"
+      },
+      "GLS2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1929/",
+          "title": "TCMID:1929"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR03662"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Molecule smile",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id"
+    ],
+    [
+      "HBIN034284",
+      "maiyenic acid",
+      "C(=CC(=O)O)C(=O)O",
+      {
+        "link": "https://www.symmap.org/detail/SMIT02014",
+        "title": "SMIT02014"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/24121/",
+        "title": "24121"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "2819"
+      }
+    ]
+  ]
+}

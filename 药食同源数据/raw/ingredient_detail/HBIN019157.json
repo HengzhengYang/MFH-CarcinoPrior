@@ -1,0 +1,1300 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004021&label=Herb",
+        "title": "HERB004021"
+      },
+      "MU GUA",
+      "木瓜",
+      "fruit of Common Floweringquince",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Chaenomelis"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NA"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010750&label=Disease",
+        "title": "HBDIS010750"
+      },
+      "Cone Dystrophy",
+      "0.00138280299589495",
+      "0.00945523801054094"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012563&label=Disease",
+        "title": "HBDIS012563"
+      },
+      "Cardiomyopathy, Hypertrophic, Familial",
+      "1.80245001100965e-07",
+      "1.00492361265917e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006561&label=Disease",
+        "title": "HBDIS006561"
+      },
+      "Usher Syndrome",
+      "0.0001389503625655",
+      "0.00198640794204953"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007502&label=Disease",
+        "title": "HBDIS007502"
+      },
+      "Cystadenofibroma",
+      "0.000814591448881145",
+      "0.00677053257641875"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015405&label=Disease",
+        "title": "HBDIS015405"
+      },
+      "DEAFNESS, AUTOSOMAL RECESSIVE 48",
+      "3.95976770749536e-05",
+      "0.000779597912917299"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000469&label=Disease",
+        "title": "HBDIS000469"
+      },
+      "Hypertrophic Cardiomyopathy",
+      "5.36862671617152e-05",
+      "0.000982030209543934"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007826&label=Disease",
+        "title": "HBDIS007826"
+      },
+      "Familial dilated cardiomyopathy",
+      "0.000844102667985756",
+      "0.00696109122406242"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027177&label=Disease",
+        "title": "HBDIS027177"
+      },
+      "Hypertrophic obstructive cardiomyopathy",
+      "2.41506431074254e-06",
+      "8.65429110366621e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000470&label=Disease",
+        "title": "HBDIS000470"
+      },
+      "Restrictive cardiomyopathy",
+      "0.00127003892806409",
+      "0.00888958675272471"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008252&label=Disease",
+        "title": "HBDIS008252"
+      },
+      "Ventricular septal hypertrophy",
+      "0.000814591448881145",
+      "0.00677053257641875"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009837&label=Disease",
+        "title": "HBDIS009837"
+      },
+      "Inverted T wave",
+      "0.000235634474040181",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017588&label=Disease",
+        "title": "HBDIS017588"
+      },
+      "MEGALENCEPHALIC LEUKOENCEPHALOPATHY WITH SUBCORTICAL CYSTS",
+      "9.99725402284222e-06",
+      "0.00026846869041402"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000237&label=Disease",
+        "title": "HBDIS000237"
+      },
+      "Arteriosclerosis",
+      "0.000815845462536187",
+      "0.00677914348280722"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000273&label=Disease",
+        "title": "HBDIS000273"
+      },
+      "Atherosclerosis",
+      "0.000508120426501828",
+      "0.0049528054768853"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000194&label=Target",
+        "title": "HBTAR000194"
+      },
+      "APAF1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11820/",
+          "title": "TCMID:11820"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR03053"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000484&label=Target",
+        "title": "HBTAR000484"
+      },
+      "CALB1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3776/",
+          "title": "TCMID:3776"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000485&label=Target",
+        "title": "HBTAR000485"
+      },
+      "CALB2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1178/",
+          "title": "TCMID:1178"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000491&label=Target",
+        "title": "HBTAR000491"
+      },
+      "CALM1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/5604/",
+          "title": "TCMID:5604"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000493&label=Target",
+        "title": "HBTAR000493"
+      },
+      "CALML3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2580/",
+          "title": "TCMID:2580"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000545&label=Target",
+        "title": "HBTAR000545"
+      },
+      "CCK",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/656/",
+          "title": "TCMID:656"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000666&label=Target",
+        "title": "HBTAR000666"
+      },
+      "CETN1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2929/",
+          "title": "TCMID:2929"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000667&label=Target",
+        "title": "HBTAR000667"
+      },
+      "CETN2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9463/",
+          "title": "TCMID:9463"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000668&label=Target",
+        "title": "HBTAR000668"
+      },
+      "CETN3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/10024/",
+          "title": "TCMID:10024"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001737&label=Target",
+        "title": "HBTAR001737"
+      },
+      "GUCA1A",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2786/",
+          "title": "TCMID:2786"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001738&label=Target",
+        "title": "HBTAR001738"
+      },
+      "GUCA1B",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1132/",
+          "title": "TCMID:1132"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001883&label=Target",
+        "title": "HBTAR001883"
+      },
+      "HPCA",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/5173/",
+          "title": "TCMID:5173"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001907&label=Target",
+        "title": "HBTAR001907"
+      },
+      "HPCAL1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2931/",
+          "title": "TCMID:2931"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002464&label=Target",
+        "title": "HBTAR002464"
+      },
+      "MET",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/5416/",
+          "title": "TCMID:5416"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00349"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002610&label=Target",
+        "title": "HBTAR002610"
+      },
+      "MYL1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1509/",
+          "title": "TCMID:1509"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002611&label=Target",
+        "title": "HBTAR002611"
+      },
+      "MYL2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3864/",
+          "title": "TCMID:3864"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002612&label=Target",
+        "title": "HBTAR002612"
+      },
+      "MYL3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3682/",
+          "title": "TCMID:3682"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002613&label=Target",
+        "title": "HBTAR002613"
+      },
+      "MYL4",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/352/",
+          "title": "TCMID:352"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002614&label=Target",
+        "title": "HBTAR002614"
+      },
+      "MYL5",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/6313/",
+          "title": "TCMID:6313"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002615&label=Target",
+        "title": "HBTAR002615"
+      },
+      "MYL6",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/15857/",
+          "title": "TCMID:15857"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002798&label=Target",
+        "title": "HBTAR002798"
+      },
+      "OCM2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1352/",
+          "title": "TCMID:1352"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002846&label=Target",
+        "title": "HBTAR002846"
+      },
+      "PAFAH1B1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/7330/",
+          "title": "TCMID:7330"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003152&label=Target",
+        "title": "HBTAR003152"
+      },
+      "PPP3R1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2116/",
+          "title": "TCMID:2116"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003153&label=Target",
+        "title": "HBTAR003153"
+      },
+      "PPP3R2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/6892/",
+          "title": "TCMID:6892"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003338&label=Target",
+        "title": "HBTAR003338"
+      },
+      "PVALB",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1547/",
+          "title": "TCMID:1547"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003427&label=Target",
+        "title": "HBTAR003427"
+      },
+      "RCVRN",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/12974/",
+          "title": "TCMID:12974"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004050&label=Target",
+        "title": "HBTAR004050"
+      },
+      "TEP1",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT04076",
+          "title": "SymMap:SMTT04076"
+        },
+        {
+          "link": "http://lifecenter.sgst.cn/hit/",
+          "title": "HIT:T0080"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004141&label=Target",
+        "title": "HBTAR004141"
+      },
+      "TNNC2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9392/",
+          "title": "TCMID:9392"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004147&label=Target",
+        "title": "HBTAR004147"
+      },
+      "TNNC1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3172/",
+          "title": "TCMID:3172"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004325&label=Target",
+        "title": "HBTAR004325"
+      },
+      "VSNL1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/6776/",
+          "title": "TCMID:6776"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR005247&label=Target",
+        "title": "HBTAR005247"
+      },
+      "CABP1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11924/",
+          "title": "TCMID:11924"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR005336&label=Target",
+        "title": "HBTAR005336"
+      },
+      "GUCA1C",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/12065/",
+          "title": "TCMID:12065"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR005802&label=Target",
+        "title": "HBTAR005802"
+      },
+      "MYL9",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3410/",
+          "title": "TCMID:3410"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR005878&label=Target",
+        "title": "HBTAR005878"
+      },
+      "CIB2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9363/",
+          "title": "TCMID:9363"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR005879&label=Target",
+        "title": "HBTAR005879"
+      },
+      "CIB1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1281/",
+          "title": "TCMID:1281"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR005925&label=Target",
+        "title": "HBTAR005925"
+      },
+      "SCGN",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1155/",
+          "title": "TCMID:1155"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR005948&label=Target",
+        "title": "HBTAR005948"
+      },
+      "MYL12A",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/882/",
+          "title": "TCMID:882"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR005993&label=Target",
+        "title": "HBTAR005993"
+      },
+      "OGA",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/",
+          "title": "TCMID"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR006187&label=Target",
+        "title": "HBTAR006187"
+      },
+      "WDR5",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3964/",
+          "title": "TCMID:3964"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR006286&label=Target",
+        "title": "HBTAR006286"
+      },
+      "CHP1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/15028/",
+          "title": "TCMID:15028"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR006672&label=Target",
+        "title": "HBTAR006672"
+      },
+      "NCS1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3557/",
+          "title": "TCMID:3557"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007327&label=Target",
+        "title": "HBTAR007327"
+      },
+      "MYLPF",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/4314/",
+          "title": "TCMID:4314"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007394&label=Target",
+        "title": "HBTAR007394"
+      },
+      "KCNIP3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8058/",
+          "title": "TCMID:8058"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007395&label=Target",
+        "title": "HBTAR007395"
+      },
+      "KCNIP2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/4907/",
+          "title": "TCMID:4907"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007396&label=Target",
+        "title": "HBTAR007396"
+      },
+      "KCNIP1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/423/",
+          "title": "TCMID:423"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007693&label=Target",
+        "title": "HBTAR007693"
+      },
+      "HPCAL4",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3064/",
+          "title": "TCMID:3064"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007706&label=Target",
+        "title": "HBTAR007706"
+      },
+      "CABP2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/10419/",
+          "title": "TCMID:10419"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007819&label=Target",
+        "title": "HBTAR007819"
+      },
+      "CALML5",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/6607/",
+          "title": "TCMID:6607"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007909&label=Target",
+        "title": "HBTAR007909"
+      },
+      "NLE1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11456/",
+          "title": "TCMID:11456"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007948&label=Target",
+        "title": "HBTAR007948"
+      },
+      "WDR5B",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3670/",
+          "title": "TCMID:3670"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR008115&label=Target",
+        "title": "HBTAR008115"
+      },
+      "TESC",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/7453/",
+          "title": "TCMID:7453"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR008497&label=Target",
+        "title": "HBTAR008497"
+      },
+      "WSB2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/46/",
+          "title": "TCMID:46"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR008597&label=Target",
+        "title": "HBTAR008597"
+      },
+      "CABP5",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1060/",
+          "title": "TCMID:1060"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR008693&label=Target",
+        "title": "HBTAR008693"
+      },
+      "CABP4",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/7030/",
+          "title": "TCMID:7030"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR008993&label=Target",
+        "title": "HBTAR008993"
+      },
+      "MYL7",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3900/",
+          "title": "TCMID:3900"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR009086&label=Target",
+        "title": "HBTAR009086"
+      },
+      "CHP2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/13943/",
+          "title": "TCMID:13943"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR009248&label=Target",
+        "title": "HBTAR009248"
+      },
+      "EFCAB6",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/12568/",
+          "title": "TCMID:12568"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR009477&label=Target",
+        "title": "HBTAR009477"
+      },
+      "EFCAB1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/15017/",
+          "title": "TCMID:15017"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR009733&label=Target",
+        "title": "HBTAR009733"
+      },
+      "KCNIP4",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/6669/",
+          "title": "TCMID:6669"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR009742&label=Target",
+        "title": "HBTAR009742"
+      },
+      "WDR61",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/15010/",
+          "title": "TCMID:15010"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR009914&label=Target",
+        "title": "HBTAR009914"
+      },
+      "CALN1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/13635/",
+          "title": "TCMID:13635"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR009963&label=Target",
+        "title": "HBTAR009963"
+      },
+      "NCALD",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/7282/",
+          "title": "TCMID:7282"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010047&label=Target",
+        "title": "HBTAR010047"
+      },
+      "EFCAB2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/7012/",
+          "title": "TCMID:7012"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010084&label=Target",
+        "title": "HBTAR010084"
+      },
+      "EFCAB7",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/14186/",
+          "title": "TCMID:14186"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010322&label=Target",
+        "title": "HBTAR010322"
+      },
+      "EFCAB11",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/17125/",
+          "title": "TCMID:17125"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010421&label=Target",
+        "title": "HBTAR010421"
+      },
+      "CALML4",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/5460/",
+          "title": "TCMID:5460"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010481&label=Target",
+        "title": "HBTAR010481"
+      },
+      "MYL10",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9146/",
+          "title": "TCMID:9146"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010521&label=Target",
+        "title": "HBTAR010521"
+      },
+      "MYL12B",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/6025/",
+          "title": "TCMID:6025"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010704&label=Target",
+        "title": "HBTAR010704"
+      },
+      "CIB3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/7712/",
+          "title": "TCMID:7712"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010813&label=Target",
+        "title": "HBTAR010813"
+      },
+      "EFCAB13",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/16536/",
+          "title": "TCMID:16536"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010837&label=Target",
+        "title": "HBTAR010837"
+      },
+      "WDR88",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/14284/",
+          "title": "TCMID:14284"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010910&label=Target",
+        "title": "HBTAR010910"
+      },
+      "CIB4",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3133/",
+          "title": "TCMID:3133"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR011151&label=Target",
+        "title": "HBTAR011151"
+      },
+      "EFCAB3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/16653/",
+          "title": "TCMID:16653"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR011153&label=Target",
+        "title": "HBTAR011153"
+      },
+      "CFAP52",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/14091/",
+          "title": "TCMID:14091"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR011381&label=Target",
+        "title": "HBTAR011381"
+      },
+      "RHBDL3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/14366/",
+          "title": "TCMID:14366"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR011412&label=Target",
+        "title": "HBTAR011412"
+      },
+      "CALML6",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9998/",
+          "title": "TCMID:9998"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR011425&label=Target",
+        "title": "HBTAR011425"
+      },
+      "CABP7",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8222/",
+          "title": "TCMID:8222"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR011947&label=Target",
+        "title": "HBTAR011947"
+      },
+      "EFCAB9",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/15364/",
+          "title": "TCMID:15364"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR012159&label=Target",
+        "title": "HBTAR012159"
+      },
+      "SPATA21",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/16412/",
+          "title": "TCMID:16412"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR012449&label=Target",
+        "title": "HBTAR012449"
+      },
+      "OCM",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/5128/",
+          "title": "TCMID:5128"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN019157",
+      "Butyrolactone",
+      "C4H6O2",
+      "C1CC(=O)OC1",
+      "86.09",
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/33571/",
+        "title": "33571"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/7302",
+        "title": "7302"
+      }
+    ]
+  ]
+}

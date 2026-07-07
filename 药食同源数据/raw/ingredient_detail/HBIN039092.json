@@ -1,0 +1,502 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000415&label=Herb",
+        "title": "HERB000415"
+      },
+      "BI BA",
+      "荜茇",
+      "Piperis Longi Fructus",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002371&label=Herb",
+        "title": "HERB002371"
+      },
+      "HU JIAO",
+      "胡椒",
+      "Pepper Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Piperis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004938&label=Herb",
+        "title": "HERB004938"
+      },
+      "SHAN YAO",
+      "山药",
+      "Common Yam Rhizome",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Dioscoreae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004950&label=Herb",
+        "title": "HERB004950"
+      },
+      "SHAN ZHU YU",
+      "山茱萸",
+      "Asiatic Cornelian Cherry Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Corni"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "AIDS210374; 2,4-Decadienamide, N-(2-methylpropyl)-; (2E,4E)-N-isobutyldeca-2,4-dienamide; 4-04-00-00636 (Beilstein Handbook Reference); N-Isobutyldeca-trans-2-trans-4-dienamide; (E,E)-N-Isobutyl-2,4-decadienamide; 2,4-Decadienamide, N-(2-methylpropyl)-, (E,E)-; AI3-19560; Pellitorine; trans-Pellitorin; (2E,4E)-N-(2-methylpropyl)deca-2,4-dienamide; (E,E)-N-(2-Methylpropyl)-2,4-decadienamide; 2,4-DECADIENAMIDE, N-ISOBUTYL-, (E,E)-; MEGxp0_000048; N-(2-Methylpropyl)-2,4-Decadienamide; 2,4-Decadienamide, N-(2-methylpropyl)-, (2E,4E)-; 53608-76-7; BRN 1725967; Pellitorine (6CI); 109-26-2; N-Isobutyldeca-trans-2,trans-4-dienamide; AIDS-210374; 18836-52-7"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000746&label=Disease",
+        "title": "HBDIS000746"
+      },
+      "Dentin Dysplasia",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000766&label=Disease",
+        "title": "HBDIS000766"
+      },
+      "Dermatophytosis",
+      "0.00110812094348583",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002110&label=Disease",
+        "title": "HBDIS002110"
+      },
+      "Neurocirculatory Asthenia",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002240&label=Disease",
+        "title": "HBDIS002240"
+      },
+      "Other heart block",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002953&label=Disease",
+        "title": "HBDIS002953"
+      },
+      "Tinea",
+      "0.00118727243944911",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003582&label=Disease",
+        "title": "HBDIS003582"
+      },
+      "Fibrosis of mesentery",
+      "0.000237454487889822",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004489&label=Disease",
+        "title": "HBDIS004489"
+      },
+      "Carcinoma of unknown primary",
+      "0.000474908975779642",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004498&label=Disease",
+        "title": "HBDIS004498"
+      },
+      "BRACHYDACTYLY, TYPE D",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004655&label=Disease",
+        "title": "HBDIS004655"
+      },
+      "Recurrent depression",
+      "0.0015038784233022",
+      "0.00990856799135117"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004729&label=Disease",
+        "title": "HBDIS004729"
+      },
+      "Reflex bradycardia",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005042&label=Disease",
+        "title": "HBDIS005042"
+      },
+      "Polyposis, Gastric",
+      "0.000791514959632737",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005068&label=Disease",
+        "title": "HBDIS005068"
+      },
+      "Panic disorder without agoraphobia",
+      "0.000237454487889822",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005201&label=Disease",
+        "title": "HBDIS005201"
+      },
+      "Impairment of attention",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005732&label=Disease",
+        "title": "HBDIS005732"
+      },
+      "Aortocaval fistula",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006312&label=Disease",
+        "title": "HBDIS006312"
+      },
+      "Pseudohypoaldosteronism, Type I",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006731&label=Disease",
+        "title": "HBDIS006731"
+      },
+      "Qualitative abnormality of granulocyte",
+      "0.0015038784233022",
+      "0.00990856799135117"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006997&label=Disease",
+        "title": "HBDIS006997"
+      },
+      "Neuroblastoma recurrent",
+      "0.000870666455596011",
+      "0.00707658671810716"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007499&label=Disease",
+        "title": "HBDIS007499"
+      },
+      "Adenocarcinoid tumor",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011836&label=Disease",
+        "title": "HBDIS011836"
+      },
+      "Glaucoma and ocular hypertension",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012234&label=Disease",
+        "title": "HBDIS012234"
+      },
+      "Adult attention deficit hyperactivity disorder",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012661&label=Disease",
+        "title": "HBDIS012661"
+      },
+      "Aeromonas hydrophila infection",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013563&label=Disease",
+        "title": "HBDIS013563"
+      },
+      "Autoimmune vasculitis",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014503&label=Disease",
+        "title": "HBDIS014503"
+      },
+      "Orthostatic intolerance",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015428&label=Disease",
+        "title": "HBDIS015428"
+      },
+      "Familial neurocardiogenic syncope",
+      "0.00118727243944911",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020152&label=Disease",
+        "title": "HBDIS020152"
+      },
+      "Irritable heart",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020554&label=Disease",
+        "title": "HBDIS020554"
+      },
+      "Gastrointestinal Mixed Adenoneuroendocrine Carcinoma",
+      "0.000791514959632737",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023580&label=Disease",
+        "title": "HBDIS023580"
+      },
+      "Orthostatic tachycardia",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026111&label=Disease",
+        "title": "HBDIS026111"
+      },
+      "Neuroendocrine tumor G2 (NET G2)",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003761&label=Target",
+        "title": "HBTAR003761"
+      },
+      "SLC6A2",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT03193",
+          "title": "SymMap:SMTT03193"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00186"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000031&label=Target",
+        "title": "HBTAR000031"
+      },
+      "ACHE",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00165"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003112&label=Target",
+        "title": "HBTAR003112"
+      },
+      "PPARG",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00078"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002737&label=Target",
+        "title": "HBTAR002737"
+      },
+      "NOS2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00003"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000460&label=Target",
+        "title": "HBTAR000460"
+      },
+      "CA2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00117"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN039092",
+      "Pellitorin",
+      "AIDS210374; 2,4-Decadienamide, N-(2-methylpropyl)-; (2E,4E)-N-isobutyldeca-2,4-dienamide; 4-04-00-00636 (Beilstein Handbook Reference); N-Isobutyldeca-trans-2-trans-4-dienamide; (E,E)-N-Isobutyl-2,4-decadienamide; 2,4-Decadienamide, N-(2-methylpropyl)-, (E,E)-; AI3-19560; Pellitorine; trans-Pellitorin; (2E,4E)-N-(2-methylpropyl)deca-2,4-dienamide; (E,E)-N-(2-Methylpropyl)-2,4-decadienamide; 2,4-DECADIENAMIDE, N-ISOBUTYL-, (E,E)-; MEGxp0_000048; N-(2-Methylpropyl)-2,4-Decadienamide; 2,4-Decadienamide, N-(2-methylpropyl)-, (2E,4E)-; 53608-76-7; BRN 1725967; Pellitorine (6CI); 109-26-2; N-Isobutyldeca-trans-2,trans-4-dienamide; AIDS-210374; 18836-52-7",
+      "C14H25NO",
+      "CCCCCC=CC=CC(=O)NCC(C)C",
+      "223.35",
+      "23.80509944",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "109-26-2"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT04003",
+        "title": "SMIT04003"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL001618"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/5318516",
+        "title": "5318516"
+      }
+    ]
+  ]
+}

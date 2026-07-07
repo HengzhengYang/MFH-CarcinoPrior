@@ -1,0 +1,164 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000305&label=Herb",
+        "title": "HERB000305"
+      },
+      "BAI ZHI",
+      "白芷",
+      "Dahurian Angelica Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Angelicae Dahuricae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000311&label=Herb",
+        "title": "HERB000311"
+      },
+      "BAI ZI REN",
+      "柏子仁",
+      "seed of Chinese Arborvitae",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Biotae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000508&label=Herb",
+        "title": "HERB000508"
+      },
+      "BO HE",
+      "薄荷",
+      "Mentha, Peppermint",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "herba Menthae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "p-Menthane, cis-; KB-59767; ANW-33556; InChI=1/C10H20/c1-8(2)10-6-4-9(3)5-7-10/h8-10H,4-7H2,1-3H; p-Menthane, Z-; DTXSID9025530; Trans-1-isopropyl-4-methyl cyclohexane; cis-p-Menthan; trans-p-Menthane; CFJYNSNXFXLKNS-UHFFFAOYSA-N; 1-methyl-4-(propan-2-yl)cyclohexane; 1-Methyl-cis-4-isopropylcyclohexane; I14-21658; MFCD00043477; ST50827952; LS-2070; KB-61847; HSDB 5328; p-Menthane; trans-1-isopropyl-4-methylcyclohexane; ZINC100046406; p-Menthan; KB-48965; para-menthane; cis-1-isopropyl-4-methyl-cyclohexane; AKOS006229182; Cyclohexane, 1-methyl-4-(1-methylethyl)-; 1-ISOPROPYL-4-METHYLCYCLOHEXANE; TR-020930; p-Menthane, trans- (8CI); I0284; p-Menthane, cis- (8CI); Cis-1-isopropyl-4-methyl cyclohexane; Cyclohexane, cis-; 1-Methyl-4-(1-methylethyl)-cyclohexane; MolPort-002-501-921; LS-56953; CJ-28587; MFCD00070477; 1-iso-Propyl-4-methylcyclohexane; 1-methyl-4-isopropylcyclohexane; AKOS015838428; NSC 73979; Cyclohexane, 1-methyl-4-(1-methylethyl)-, trans-; W-100017; 1-Methyl-trans-4-isopropylcyclohexane; SBB008406; CTK8C5392; BG00300624; 1-Isopropyl-4-methyl-cyclohexane, cis; EC 202-790-4; NSC-73978; (1S,4S)-1-ISOPROPYL-4-METHYLCYCLOHEXANE; ZINC100020233; ZINC1699441; trans-1-Methyl-4-isopropylcyclohexane; 1-Isopropyl-4-methyl-cyclohexane, trans; CHEBI:25826; cis-menthane; Cyclohexane, 1-methyl-4-(1-methylethyl)-, cis-; AC1Q2QQI; Cyclohexane,1-methyl-4-(1-methylethyl)-; AK-63112; FCH917693; PARA-MENTHANE (2,2-D2); cis-1-methyl-4-(1-methylethyl)-cyclohexane; 99-82-1; J-010403; FT-06"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN034741",
+      "menthane",
+      "p-Menthane, cis-; KB-59767; ANW-33556; InChI=1/C10H20/c1-8(2)10-6-4-9(3)5-7-10/h8-10H,4-7H2,1-3H; p-Menthane, Z-; DTXSID9025530; Trans-1-isopropyl-4-methyl cyclohexane; cis-p-Menthan; trans-p-Menthane; CFJYNSNXFXLKNS-UHFFFAOYSA-N; 1-methyl-4-(propan-2-yl)cyclohexane; 1-Methyl-cis-4-isopropylcyclohexane; I14-21658; MFCD00043477; ST50827952; LS-2070; KB-61847; HSDB 5328; p-Menthane; trans-1-isopropyl-4-methylcyclohexane; ZINC100046406; p-Menthan; KB-48965; para-menthane; cis-1-isopropyl-4-methyl-cyclohexane; AKOS006229182; Cyclohexane, 1-methyl-4-(1-methylethyl)-; 1-ISOPROPYL-4-METHYLCYCLOHEXANE; TR-020930; p-Menthane, trans- (8CI); I0284; p-Menthane, cis- (8CI); Cis-1-isopropyl-4-methyl cyclohexane; Cyclohexane, cis-; 1-Methyl-4-(1-methylethyl)-cyclohexane; MolPort-002-501-921; LS-56953; CJ-28587; MFCD00070477; 1-iso-Propyl-4-methylcyclohexane; 1-methyl-4-isopropylcyclohexane; AKOS015838428; NSC 73979; Cyclohexane, 1-methyl-4-(1-methylethyl)-, trans-; W-100017; 1-Methyl-trans-4-isopropylcyclohexane; SBB008406; CTK8C5392; BG00300624; 1-Isopropyl-4-methyl-cyclohexane, cis; EC 202-790-4; NSC-73978; (1S,4S)-1-ISOPROPYL-4-METHYLCYCLOHEXANE; ZINC100020233; ZINC1699441; trans-1-Methyl-4-isopropylcyclohexane; 1-Isopropyl-4-methyl-cyclohexane, trans; CHEBI:25826; cis-menthane; Cyclohexane, 1-methyl-4-(1-methylethyl)-, cis-; AC1Q2QQI; Cyclohexane,1-methyl-4-(1-methylethyl)-; AK-63112; FCH917693; PARA-MENTHANE (2,2-D2); cis-1-methyl-4-(1-methylethyl)-cyclohexane; 99-82-1; J-010403; FT-06",
+      "C10H20",
+      "CC1CCC(CC1)C(C)C",
+      "140.27",
+      {
+        "link": "https://www.symmap.org/detail/SMIT01805",
+        "title": "SMIT01805"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/23561/",
+        "title": "23561"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "2763"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/7459",
+        "title": "7459"
+      }
+    ]
+  ]
+}

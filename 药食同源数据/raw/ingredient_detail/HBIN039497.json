@@ -1,0 +1,159 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004834&label=Herb",
+        "title": "HERB004834"
+      },
+      "SANG YE",
+      "桑叶",
+      "Mulberry Leaf",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Folium Mori"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005762&label=Herb",
+        "title": "HERB005762"
+      },
+      "WU WEI ZI",
+      "五味子",
+      "Chinese Magnoliavine Equivalent plant: Schisandra sphenanthera",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Schisandra chinensis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005900&label=Herb",
+        "title": "HERB005900"
+      },
+      "XI YANG SHEN",
+      "西洋参",
+      "American Ginseng",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Pacis quinquefolii"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "PubChem20843; 1-phenylpropan-2-one; AC1L1PB3; CHEMBL3800510; 2-Propanone, 1-phenyl- (8CI,9CI); Phenylacetone; BB_SC-9450; EINECS 203-144-4; SCHEMBL13341529; AKOS004905656; KB-160324; AI3-02938; 1-phenyl-propan-2-one; Phenylacetone, analytical standard; Dextroamphetamine Related Compound B, United States Pharmacopeia (USP) Reference Standard; Phenyl-2-propanone; BBL027835; I01-1989; CTK0H4858; NSC-9827; KB-219734; 1-Phenylpropane-2-one; ZINC1700205; ghl.PD_Mitscher_leg0.660; methylbenzyl ketone; FT-0608236; C15512; AK113850; (phenyl)acetone; NSC9827; DEA No. 8501; NSC 9827; Benzyl methyl ketone; phenyl acetone; 3-Phenyl-2-propanone; AN-5900; 1-Phenylacetone; MCULE-2102027204; UNII-O7IZH10V9Y; LS-123152; F0000-0002; 103-79-7; 136675-26-8; CHEBI:52052; 2-Propanone, 1-phenyl-; Methyl benzyl ketone; QCCDLTOVEPVEJK-UHFFFAOYSA-N; DTXSID1059280; BDBM50167968; Phenylmethyl methyl ketone; O7IZH10V9Y; InChI=1/C9H10O/c1-8(10)7-9-5-3-2-4-6-9/h2-6H,7H2,1H; 1-Phenyl-2-propanone; SCHEMBL43943; STL373560; 823270-75-3; Phenylacetone, 99%; A800807; BC250367"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN039497",
+      "phenyl-2-propanone",
+      "PubChem20843; 1-phenylpropan-2-one; AC1L1PB3; CHEMBL3800510; 2-Propanone, 1-phenyl- (8CI,9CI); Phenylacetone; BB_SC-9450; EINECS 203-144-4; SCHEMBL13341529; AKOS004905656; KB-160324; AI3-02938; 1-phenyl-propan-2-one; Phenylacetone, analytical standard; Dextroamphetamine Related Compound B, United States Pharmacopeia (USP) Reference Standard; Phenyl-2-propanone; BBL027835; I01-1989; CTK0H4858; NSC-9827; KB-219734; 1-Phenylpropane-2-one; ZINC1700205; ghl.PD_Mitscher_leg0.660; methylbenzyl ketone; FT-0608236; C15512; AK113850; (phenyl)acetone; NSC9827; DEA No. 8501; NSC 9827; Benzyl methyl ketone; phenyl acetone; 3-Phenyl-2-propanone; AN-5900; 1-Phenylacetone; MCULE-2102027204; UNII-O7IZH10V9Y; LS-123152; F0000-0002; 103-79-7; 136675-26-8; CHEBI:52052; 2-Propanone, 1-phenyl-; Methyl benzyl ketone; QCCDLTOVEPVEJK-UHFFFAOYSA-N; DTXSID1059280; BDBM50167968; Phenylmethyl methyl ketone; O7IZH10V9Y; InChI=1/C9H10O/c1-8(10)7-9-5-3-2-4-6-9/h2-6H,7H2,1H; 1-Phenyl-2-propanone; SCHEMBL43943; STL373560; 823270-75-3; Phenylacetone, 99%; A800807; BC250367",
+      "C9H10O",
+      "CC(=O)CC1=CC=CC=C1",
+      "134.17",
+      {
+        "link": "https://www.symmap.org/detail/SMIT17188",
+        "title": "SMIT17188"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/17115/",
+        "title": "17115"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/7678",
+        "title": "7678"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000887&label=Herb",
+        "title": "HERB000887"
+      },
+      "CHUAN XIONG",
+      "川芎",
+      "Chuanxiong rhizome, Szechuan lovage root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix chuanxiong；Rhizoma Chuanxiong"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001622&label=Herb",
+        "title": "HERB001622"
+      },
+      "FANG FENG",
+      "防风",
+      "root of Divaricate Saposhnikovia",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Saposhnikoviae divaricatae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001779&label=Herb",
+        "title": "HERB001779"
+      },
+      "GAN CAO",
+      "甘草",
+      "Root of Ural Licorice",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Glycyrrhizae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002424&label=Herb",
+        "title": "HERB002424"
+      },
+      "HUA JIAO",
+      "花椒",
+      "Pricklyash Peel",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Pericarpium Zanthoxyli"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002563&label=Herb",
+        "title": "HERB002563"
+      },
+      "HUANG QIN",
+      "黄芩",
+      "root of Baikal skullcap",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Scutellariae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003031&label=Herb",
+        "title": "HERB003031"
+      },
+      "JU HUA",
+      "菊花",
+      "Chrysanthemum Flower",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Chrysanthemi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004068&label=Herb",
+        "title": "HERB004068"
+      },
+      "MU ZEI",
+      "木贼",
+      "Common Scouring Rush Herb",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Equiseti Hiemalis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004469&label=Herb",
+        "title": "HERB004469"
+      },
+      "QIAN NIU ZI",
+      "牵牛子",
+      "Pharbitis seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Pharbitidis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004609&label=Herb",
+        "title": "HERB004609"
+      },
+      "REN SHEN",
+      "人参",
+      "Ginseng",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Ginseng"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004834&label=Herb",
+        "title": "HERB004834"
+      },
+      "SANG YE",
+      "桑叶",
+      "Mulberry Leaf",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Folium Mori"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006632&label=Herb",
+        "title": "HERB006632"
+      },
+      "YIN XING YE",
+      "银杏叶",
+      "Ginkgo Folium",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "HSDB 108; Oktan; CH3-[CH2]6-CH3; Normal octane; Octane, all isomers; InChI=1/C8H18/c1-3-5-7-8-6-4-2/h3-8H2,1-2H; NSC 9822; Oktanen; MG8; 74820_FLUKA; Ottani [Italian]; 111-65-9; Oktanen [Dutch]; c0044; 412236_ALDRICH; Oktan [Polish]; 74830_FLUKA; EINECS 203-892-1; octane; 50985-84-7; 31372-91-5; AI3-28789; 442698_SUPELCO; n-Oktan; 657042_ALDRICH; 296988_ALDRICH; n-octane; Octane Fraction; Ottani; LMFA11000002; C01387; CHEBI:17590; 74821_FLUKA; NSC9822; WLN: 8H; CPD-148; Heptane, methyl-"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN037715",
+      "OCT",
+      "HSDB 108; Oktan; CH3-[CH2]6-CH3; Normal octane; Octane, all isomers; InChI=1/C8H18/c1-3-5-7-8-6-4-2/h3-8H2,1-2H; NSC 9822; Oktanen; MG8; 74820_FLUKA; Ottani [Italian]; 111-65-9; Oktanen [Dutch]; c0044; 412236_ALDRICH; Oktan [Polish]; 74830_FLUKA; EINECS 203-892-1; octane; 50985-84-7; 31372-91-5; AI3-28789; 442698_SUPELCO; n-Oktan; 657042_ALDRICH; 296988_ALDRICH; n-octane; Octane Fraction; Ottani; LMFA11000002; C01387; CHEBI:17590; 74821_FLUKA; NSC9822; WLN: 8H; CPD-148; Heptane, methyl-",
+      "C8H18",
+      "CCCCCCCC",
+      "114.23",
+      "29.71597607",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "31372-91-5"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT04438",
+        "title": "SMIT04438"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL002137"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/356",
+        "title": "356"
+      }
+    ]
+  ]
+}

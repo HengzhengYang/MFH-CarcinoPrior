@@ -1,0 +1,175 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002044&label=Herb",
+        "title": "HERB002044"
+      },
+      "GUI BAN",
+      "龟板",
+      "Tortoise plastron",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Plastrum Testudinis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002045&label=Herb",
+        "title": "HERB002045"
+      },
+      "GUI BAN JIAO",
+      "龟板胶",
+      "Gelatin of Tortoise plastron",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Colla carapacis et plastri testudinis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005061&label=Herb",
+        "title": "HERB005061"
+      },
+      "SHI JUE MING",
+      "石决明",
+      "Sea-ear Shell",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Concha Haliotidis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005750&label=Herb",
+        "title": "HERB005750"
+      },
+      "WU SHAO SHE",
+      "乌梢蛇",
+      "Black-tail Snake",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Zaocys"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006993&label=Herb",
+        "title": "HERB006993"
+      },
+      "ZHI GUI BAN",
+      "制龟板",
+      "Prepared Tortoise plastron",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Plastrum Testudinis Praparata"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NA"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Molecule formula",
+      "Molecule smile",
+      "TCMID id"
+    ],
+    [
+      "HBIN021274",
+      "collagen",
+      "C18H18N4O4",
+      "CCCN(CC)C(=O)C1=CN=C2C(=C1)C=CC3=C2NC=C(C3=O)[N+](=O)[O-]",
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/24903/",
+        "title": "24903"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,788 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002144&label=Herb",
+        "title": "HERB002144"
+      },
+      "HAN XIU CAO",
+      "含羞草",
+      "Sensitive Plant",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Mimosa pudica"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004021&label=Herb",
+        "title": "HERB004021"
+      },
+      "MU GUA",
+      "木瓜",
+      "fruit of Common Floweringquince",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Chaenomelis"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NA"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000350&label=Disease",
+        "title": "HBDIS000350"
+      },
+      "Blood Coagulation Disorders",
+      "0.000264590174505585",
+      "0.0031560324350984"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000546&label=Disease",
+        "title": "HBDIS000546"
+      },
+      "Primary biliary cirrhosis",
+      "0.000869369506362702",
+      "0.00707658671810716"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000553&label=Disease",
+        "title": "HBDIS000553"
+      },
+      "Cholestasis",
+      "0.00074358422709739",
+      "0.00638791570154388"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000554&label=Disease",
+        "title": "HBDIS000554"
+      },
+      "Intrahepatic Cholestasis",
+      "1.53503653217779e-05",
+      "0.000375378790185169"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000606&label=Disease",
+        "title": "HBDIS000606"
+      },
+      "Cluttering",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000681&label=Disease",
+        "title": "HBDIS000681"
+      },
+      "Craniosynostosis",
+      "0.00100497901943395",
+      "0.00773531351777624"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000938&label=Disease",
+        "title": "HBDIS000938"
+      },
+      "Enterobacteriaceae Infections",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001047&label=Disease",
+        "title": "HBDIS001047"
+      },
+      "Arterial Fatty Streak",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001339&label=Disease",
+        "title": "HBDIS001339"
+      },
+      "Hepatitis, Toxic",
+      "0.000455060013600298",
+      "0.00463372106887441"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001345&label=Disease",
+        "title": "HBDIS001345"
+      },
+      "Hepatomegaly",
+      "0.00103531635367397",
+      "0.00787700087987813"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001425&label=Disease",
+        "title": "HBDIS001425"
+      },
+      "Hypercholesterolemia",
+      "0.00109210643990932",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001505&label=Disease",
+        "title": "HBDIS001505"
+      },
+      "Hypothyroidism",
+      "0.00141661942826693",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001520&label=Disease",
+        "title": "HBDIS001520"
+      },
+      "Immune System Diseases",
+      "0.000800762771557203",
+      "0.00668068514198784"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001583&label=Disease",
+        "title": "HBDIS001583"
+      },
+      "Icterus",
+      "0.000234591174848167",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001585&label=Disease",
+        "title": "HBDIS001585"
+      },
+      "Neonatal Jaundice",
+      "3.17032034808964e-06",
+      "0.000107755428876733"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001735&label=Disease",
+        "title": "HBDIS001735"
+      },
+      "Leukopenia",
+      "0.000841588477857902",
+      "0.00694259453937497"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001934&label=Disease",
+        "title": "HBDIS001934"
+      },
+      "Mesothelioma",
+      "0.00129995665182142",
+      "0.00905887271371535"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002028&label=Disease",
+        "title": "HBDIS002028"
+      },
+      "Myocarditis",
+      "0.000330001527142058",
+      "0.00367398717178294"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002127&label=Disease",
+        "title": "HBDIS002127"
+      },
+      "Neutropenia",
+      "0.000643587561572664",
+      "0.00578579020767717"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003854&label=Disease",
+        "title": "HBDIS003854"
+      },
+      "Lipid Metabolism Disorders",
+      "4.06001499122943e-05",
+      "0.000794098657069642"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004005&label=Disease",
+        "title": "HBDIS004005"
+      },
+      "Gastrointestinal tract vascular insufficiency",
+      "2.29315661541662e-05",
+      "0.000512844939631949"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005434&label=Disease",
+        "title": "HBDIS005434"
+      },
+      "Drug usage",
+      "0.00012192575884155",
+      "0.00180417386830047"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005725&label=Disease",
+        "title": "HBDIS005725"
+      },
+      "Atheroma",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005808&label=Disease",
+        "title": "HBDIS005808"
+      },
+      "Leri-Weill dyschondrosteosis",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006244&label=Disease",
+        "title": "HBDIS006244"
+      },
+      "Deficiency of steroid 21-monooxygenase",
+      "1.2969492333094e-05",
+      "0.000329241750979114"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006256&label=Disease",
+        "title": "HBDIS006256"
+      },
+      "Cholestasis of pregnancy",
+      "4.36827538871166e-05",
+      "0.000840657926413193"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008994&label=Disease",
+        "title": "HBDIS008994"
+      },
+      "Carney Complex",
+      "2.5262315500983e-05",
+      "0.000552089922993371"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009056&label=Disease",
+        "title": "HBDIS009056"
+      },
+      "Osteomalacia secondary to drug",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009409&label=Disease",
+        "title": "HBDIS009409"
+      },
+      "Langer Mesomelic Dysplasia Syndrome",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009767&label=Disease",
+        "title": "HBDIS009767"
+      },
+      "hiv-infection/aids",
+      "4.06001499122943e-05",
+      "0.000794098657069642"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010154&label=Disease",
+        "title": "HBDIS010154"
+      },
+      "Ewings sarcoma",
+      "0.000970155619246832",
+      "0.0075352771802409"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010414&label=Disease",
+        "title": "HBDIS010414"
+      },
+      "Overjet, Dental",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010453&label=Disease",
+        "title": "HBDIS010453"
+      },
+      "Tumor Initiation",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010549&label=Disease",
+        "title": "HBDIS010549"
+      },
+      "physical symptom",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011864&label=Disease",
+        "title": "HBDIS011864"
+      },
+      "21-hydroxylase deficiency",
+      "1.41348670065025e-05",
+      "0.000352365351443562"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012037&label=Disease",
+        "title": "HBDIS012037"
+      },
+      "Infection caused by Trichinella",
+      "0.000474871383048242",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012162&label=Disease",
+        "title": "HBDIS012162"
+      },
+      "Cholestatic liver disease",
+      "1.2969492333094e-05",
+      "0.000329241750979114"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012163&label=Disease",
+        "title": "HBDIS012163"
+      },
+      "Drug-Induced Liver Disease",
+      "0.000892864963487872",
+      "0.00721000543881497"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012895&label=Disease",
+        "title": "HBDIS012895"
+      },
+      "Hepatitis, Drug-Induced",
+      "0.000475548052213447",
+      "0.00471416400873683"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013284&label=Disease",
+        "title": "HBDIS013284"
+      },
+      "Precursor B-cell lymphoblastic leukemia",
+      "0.000864708007669067",
+      "0.00707658671810716"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013419&label=Disease",
+        "title": "HBDIS013419"
+      },
+      "Overbite",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013679&label=Disease",
+        "title": "HBDIS013679"
+      },
+      "Chronic Cancer Pain",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014423&label=Disease",
+        "title": "HBDIS014423"
+      },
+      "Tumor Promotion",
+      "0.000130822705272948",
+      "0.00189981454059365"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014595&label=Disease",
+        "title": "HBDIS014595"
+      },
+      "Newborn physiological jaundice",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014598&label=Disease",
+        "title": "HBDIS014598"
+      },
+      "Icterus Gravis Neonatorum",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015230&label=Disease",
+        "title": "HBDIS015230"
+      },
+      "AMYOTROPHY, HEREDITARY NEURALGIC",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016033&label=Disease",
+        "title": "HBDIS016033"
+      },
+      "Epidermolysis Bullosa Simplex Superficialis",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018891&label=Disease",
+        "title": "HBDIS018891"
+      },
+      "Vascular insufficiency of intestine",
+      "2.29315661541662e-05",
+      "0.000512844939631949"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019229&label=Disease",
+        "title": "HBDIS019229"
+      },
+      "Retinal angiomatous proliferation",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020408&label=Disease",
+        "title": "HBDIS020408"
+      },
+      "Plaque, Atherosclerotic",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020409&label=Disease",
+        "title": "HBDIS020409"
+      },
+      "Fibroatheroma",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020447&label=Disease",
+        "title": "HBDIS020447"
+      },
+      "Congenital adrenal hyperplasia due to 21 hydroxylase deficiency",
+      "1.1315412151482e-05",
+      "0.000296159120650574"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020893&label=Disease",
+        "title": "HBDIS020893"
+      },
+      "Hormone-dependent prostate cancer",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021921&label=Disease",
+        "title": "HBDIS021921"
+      },
+      "Drug-Induced Acute Liver Injury",
+      "0.000458443359426323",
+      "0.00466060052873452"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025940&label=Disease",
+        "title": "HBDIS025940"
+      },
+      "Chemical and Drug Induced Liver Injury",
+      "0.000588589395534066",
+      "0.00549569317144945"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025942&label=Disease",
+        "title": "HBDIS025942"
+      },
+      "Chemically-Induced Liver Toxicity",
+      "0.000455060013600298",
+      "0.00463372106887441"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026865&label=Disease",
+        "title": "HBDIS026865"
+      },
+      "Stage III Hepatocellular Carcinoma AJCC v7",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027422&label=Disease",
+        "title": "HBDIS027422"
+      },
+      "CSSSI",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007981&label=Disease",
+        "title": "HBDIS007981"
+      },
+      "Hypoparathyroidism - autosomal dominant",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008269&label=Disease",
+        "title": "HBDIS008269"
+      },
+      "Liver hyperplasia",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009616&label=Disease",
+        "title": "HBDIS009616"
+      },
+      "X-linked agammaglobulinemia with growth hormone deficiency",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011630&label=Disease",
+        "title": "HBDIS011630"
+      },
+      "KLEEFSTRA SYNDROME 1",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011800&label=Disease",
+        "title": "HBDIS011800"
+      },
+      "caruncle",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014313&label=Disease",
+        "title": "HBDIS014313"
+      },
+      "Acute lymphoblastic leukemia recurrent",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025391&label=Disease",
+        "title": "HBDIS025391"
+      },
+      "Refractory Childhood Acute Lymphoblastic Leukemia",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026060&label=Disease",
+        "title": "HBDIS026060"
+      },
+      "Refractory Adult Acute Lymphoblastic Leukemia",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026849&label=Disease",
+        "title": "HBDIS026849"
+      },
+      "Refractory Acute Lymphoblastic Leukemia",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027304&label=Disease",
+        "title": "HBDIS027304"
+      },
+      "Kleefstra syndrome",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027410&label=Disease",
+        "title": "HBDIS027410"
+      },
+      "B-cell aplasia",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004913&label=Target",
+        "title": "HBTAR004913"
+      },
+      "NR1I2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/10285/",
+          "title": "TCMID:10285"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00371"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR005548&label=Target",
+        "title": "HBTAR005548"
+      },
+      "NR1I3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3716/",
+          "title": "TCMID:3716"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN030526",
+      "Isobutyl phthalate",
+      "C16H22O4- C6H4[CO2CH2CH(CH3)2]2",
+      "CC(C)COC(=O)C1=CC=CC=C1C(=O)OCC(C)C",
+      "278.34",
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/33506/",
+        "title": "33506"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/6782",
+        "title": "6782"
+      }
+    ]
+  ]
+}

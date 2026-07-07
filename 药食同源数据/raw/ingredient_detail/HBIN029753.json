@@ -1,0 +1,5045 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002050&label=Herb",
+        "title": "HERB002050"
+      },
+      "GUI JIA",
+      "龟甲",
+      "Tortoise Shell",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Carapax et Plastrum Testudinis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002111&label=Herb",
+        "title": "HERB002111"
+      },
+      "HAI SHEN",
+      "海参",
+      "Sea Cucumber",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Holothuria leucospilota"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004692&label=Herb",
+        "title": "HERB004692"
+      },
+      "ROU CONG RONG",
+      "肉苁蓉",
+      "Desertliving Cistanche",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Cistanches"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NA"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000840&label=Disease",
+        "title": "HBDIS000840"
+      },
+      "Dwarfism",
+      "5.45372805407715e-06",
+      "0.000166460447567359"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001354&label=Disease",
+        "title": "HBDIS001354"
+      },
+      "Hernia, Inguinal",
+      "4.44133259268874e-06",
+      "0.000141289872944442"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001944&label=Disease",
+        "title": "HBDIS001944"
+      },
+      "Micrognathism",
+      "1.57008903057835e-10",
+      "2.07059681763066e-08"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002095&label=Disease",
+        "title": "HBDIS002095"
+      },
+      "Nephrotic Syndrome",
+      "7.96678085950659e-06",
+      "0.000224589235577851"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003401&label=Disease",
+        "title": "HBDIS003401"
+      },
+      "Joint laxity",
+      "3.23654268431794e-06",
+      "0.000109551125048391"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004098&label=Disease",
+        "title": "HBDIS004098"
+      },
+      "Atrophic scar",
+      "3.89489901342508e-13",
+      "8.80636442686227e-11"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005286&label=Disease",
+        "title": "HBDIS005286"
+      },
+      "Microdontia (disorder)",
+      "0.000209262934114966",
+      "0.00266989299732698"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005334&label=Disease",
+        "title": "HBDIS005334"
+      },
+      "Hyperextensible skin",
+      "3.09748157013628e-07",
+      "1.58472242855134e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005340&label=Disease",
+        "title": "HBDIS005340"
+      },
+      "Fragile skin",
+      "6.2572091715672e-13",
+      "1.36262383607413e-10"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008497&label=Disease",
+        "title": "HBDIS008497"
+      },
+      "Short stature",
+      "8.16196903843785e-07",
+      "3.55652813528209e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009146&label=Disease",
+        "title": "HBDIS009146"
+      },
+      "Increased tendency to bruise",
+      "5.43220457412571e-08",
+      "3.59381383131859e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013436&label=Disease",
+        "title": "HBDIS013436"
+      },
+      "Congenital exomphalos",
+      "0.000359687685826785",
+      "0.00391348993799121"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020115&label=Disease",
+        "title": "HBDIS020115"
+      },
+      "Short Stature, CTCAE",
+      "3.25961732941444e-06",
+      "0.000110225360213992"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021783&label=Disease",
+        "title": "HBDIS021783"
+      },
+      "Joint hyperflexibility",
+      "3.09786481271943e-10",
+      "3.80662606532032e-08"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000454&label=Disease",
+        "title": "HBDIS000454"
+      },
+      "Noninfiltrating Intraductal Carcinoma",
+      "0.00124090875136178",
+      "0.00884589044757347"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000477&label=Disease",
+        "title": "HBDIS000477"
+      },
+      "Cartilage Diseases",
+      "0.000370677159508481",
+      "0.00400656355359849"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001597&label=Disease",
+        "title": "HBDIS001597"
+      },
+      "Keloid",
+      "6.50867803219708e-06",
+      "0.000191774176660942"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002035&label=Disease",
+        "title": "HBDIS002035"
+      },
+      "Myopia",
+      "3.1704358789898e-12",
+      "6.00510274032732e-10"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002207&label=Disease",
+        "title": "HBDIS002207"
+      },
+      "Degenerative polyarthritis",
+      "0.00136924133771243",
+      "0.00938728275443761"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002208&label=Disease",
+        "title": "HBDIS002208"
+      },
+      "Osteoarthritis of hip",
+      "2.98984348587019e-07",
+      "1.53781890432453e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002212&label=Disease",
+        "title": "HBDIS002212"
+      },
+      "Osteochondrodysplasias",
+      "1.56466241833975e-07",
+      "8.89928846604811e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004635&label=Disease",
+        "title": "HBDIS004635"
+      },
+      "Frontal bossing",
+      "1.17343377354735e-06",
+      "4.79407001306261e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004712&label=Disease",
+        "title": "HBDIS004712"
+      },
+      "Waddling gait",
+      "0.000422178475264472",
+      "0.00438538002935515"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005216&label=Disease",
+        "title": "HBDIS005216"
+      },
+      "Hip joint varus deformity - observation",
+      "4.77237832680966e-06",
+      "0.000149821611195246"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008141&label=Disease",
+        "title": "HBDIS008141"
+      },
+      "Chondrodysplasia",
+      "1.71270643616581e-07",
+      "9.6199065548469e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009058&label=Disease",
+        "title": "HBDIS009058"
+      },
+      "Skeletal dysplasia",
+      "6.50867803219708e-06",
+      "0.000191774176660942"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009063&label=Disease",
+        "title": "HBDIS009063"
+      },
+      "Pseudoachondroplasia",
+      "9.71445931277766e-10",
+      "1.05376252945573e-07"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009066&label=Disease",
+        "title": "HBDIS009066"
+      },
+      "Cervical Disc Degenerative Disorder",
+      "3.42194176234715e-06",
+      "0.000114570703527575"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009398&label=Disease",
+        "title": "HBDIS009398"
+      },
+      "Spondyloepimetaphyseal disorder",
+      "1.71272329792874e-11",
+      "2.79396464252335e-09"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010054&label=Disease",
+        "title": "HBDIS010054"
+      },
+      "Genu varum",
+      "8.13804345029846e-07",
+      "3.5470587103052e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010697&label=Disease",
+        "title": "HBDIS010697"
+      },
+      "Strudwick syndrome",
+      "0.000105004566231446",
+      "0.00161016208860349"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012338&label=Disease",
+        "title": "HBDIS012338"
+      },
+      "Disproportionate short stature",
+      "1.78189723442991e-09",
+      "1.80592586547038e-07"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014096&label=Disease",
+        "title": "HBDIS014096"
+      },
+      "hearing impairment",
+      "4.11001898740377e-06",
+      "0.000132808950608566"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015913&label=Disease",
+        "title": "HBDIS015913"
+      },
+      "Irregular vertebral endplates",
+      "2.99317350374904e-09",
+      "2.85382736313397e-07"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016126&label=Disease",
+        "title": "HBDIS016126"
+      },
+      "Platyspondyly",
+      "1.58405693828693e-13",
+      "3.84671053363353e-11"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017672&label=Disease",
+        "title": "HBDIS017672"
+      },
+      "Femoral bowing",
+      "3.1164931494508e-05",
+      "0.000649314001558957"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019737&label=Disease",
+        "title": "HBDIS019737"
+      },
+      "Kashin-Beck Disease",
+      "9.67271369941335e-05",
+      "0.00151714065100522"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020614&label=Disease",
+        "title": "HBDIS020614"
+      },
+      "Mild short stature",
+      "4.1677028261231e-09",
+      "3.82650485417485e-07"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023770&label=Disease",
+        "title": "HBDIS023770"
+      },
+      "Abnormality of epiphysis morphology",
+      "7.09294026033505e-06",
+      "0.00020503241194375"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023802&label=Disease",
+        "title": "HBDIS023802"
+      },
+      "Abnormality of bone mineral density",
+      "0.000272734485682754",
+      "0.00322824248229776"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000010&label=Disease",
+        "title": "HBDIS000010"
+      },
+      "Multiple congenital anomalies",
+      "0.000406565586788963",
+      "0.0042605919485799"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000118&label=Disease",
+        "title": "HBDIS000118"
+      },
+      "Amblyopia",
+      "3.43118015312612e-06",
+      "0.000114840698302875"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000228&label=Disease",
+        "title": "HBDIS000228"
+      },
+      "Arachnodactyly",
+      "0.000263075118495651",
+      "0.003142421338524"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000242&label=Disease",
+        "title": "HBDIS000242"
+      },
+      "Arthralgia",
+      "8.61326416601099e-05",
+      "0.00139016669893414"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000359&label=Disease",
+        "title": "HBDIS000359"
+      },
+      "Body Height",
+      "0.000566591258834317",
+      "0.00533624658441878"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000595&label=Disease",
+        "title": "HBDIS000595"
+      },
+      "Cleft Palate",
+      "0.000227720239771843",
+      "0.00284568228304609"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000651&label=Disease",
+        "title": "HBDIS000651"
+      },
+      "Connective Tissue Diseases",
+      "1.11436346377587e-13",
+      "2.78045879390971e-11"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000845&label=Disease",
+        "title": "HBDIS000845"
+      },
+      "Dyschondroplasias",
+      "0.000488757030739573",
+      "0.00480977881765013"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000883&label=Disease",
+        "title": "HBDIS000883"
+      },
+      "Ectopia Lentis",
+      "4.98850919274849e-07",
+      "2.36287355599915e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001163&label=Disease",
+        "title": "HBDIS001163"
+      },
+      "Glaucoma",
+      "0.000168676430602623",
+      "0.00227475956457146"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001164&label=Disease",
+        "title": "HBDIS001164"
+      },
+      "Angle Closure Glaucoma",
+      "0.00013571290520684",
+      "0.00195175367210341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001165&label=Disease",
+        "title": "HBDIS001165"
+      },
+      "Primary angle-closure glaucoma",
+      "0.000103729808613961",
+      "0.00159680489759946"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001258&label=Disease",
+        "title": "HBDIS001258"
+      },
+      "Sensorineural Hearing Loss (disorder)",
+      "0.000142436226066054",
+      "0.00202192949028152"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001462&label=Disease",
+        "title": "HBDIS001462"
+      },
+      "Orbital separation excessive",
+      "3.99691458629042e-07",
+      "1.96317525028328e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001899&label=Disease",
+        "title": "HBDIS001899"
+      },
+      "Melnick-Needles Syndrome",
+      "0.000319289611328551",
+      "0.00357961306717121"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001945&label=Disease",
+        "title": "HBDIS001945"
+      },
+      "Micromelia",
+      "8.62065918271907e-08",
+      "5.35076065047607e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001947&label=Disease",
+        "title": "HBDIS001947"
+      },
+      "Microstomia",
+      "4.89782058314695e-07",
+      "2.32672077203884e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001989&label=Disease",
+        "title": "HBDIS001989"
+      },
+      "Multiple Epiphyseal Dysplasia",
+      "1.93305515397463e-07",
+      "1.06512776275506e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002391&label=Disease",
+        "title": "HBDIS002391"
+      },
+      "Pierre Robin Syndrome",
+      "0.000628542915665298",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002599&label=Disease",
+        "title": "HBDIS002599"
+      },
+      "Respiratory Insufficiency",
+      "0.000162226516378948",
+      "0.00220597875516564"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002613&label=Disease",
+        "title": "HBDIS002613"
+      },
+      "Retinal Detachment",
+      "3.64008141432062e-10",
+      "4.39675506190047e-08"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002818&label=Disease",
+        "title": "HBDIS002818"
+      },
+      "Spondyloepiphyseal Dysplasia",
+      "0.000628542915665298",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003414&label=Disease",
+        "title": "HBDIS003414"
+      },
+      "Cataract",
+      "1.63217570376232e-09",
+      "1.67068870703912e-07"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003558&label=Disease",
+        "title": "HBDIS003558"
+      },
+      "Premature Birth",
+      "8.72085045389678e-05",
+      "0.00140231982588997"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003948&label=Disease",
+        "title": "HBDIS003948"
+      },
+      "Vitreous degeneration",
+      "0.000136792307218043",
+      "0.00196353043855567"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004042&label=Disease",
+        "title": "HBDIS004042"
+      },
+      "Osteoarthrosis, localized, not specified whether primary or secondary",
+      "0.000791531118403858",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004046&label=Disease",
+        "title": "HBDIS004046"
+      },
+      "Intervertebral disc disorder",
+      "1.59525129592956e-06",
+      "6.17516749623573e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004262&label=Disease",
+        "title": "HBDIS004262"
+      },
+      "Triglycerides measurement",
+      "0.000429333794150394",
+      "0.00443895008023297"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004282&label=Disease",
+        "title": "HBDIS004282"
+      },
+      "Waist-Hip Ratio",
+      "0.000214312277788766",
+      "0.00271897824433391"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004671&label=Disease",
+        "title": "HBDIS004671"
+      },
+      "Lumbar disc disease",
+      "8.03122076818186e-06",
+      "0.000226191396970884"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005215&label=Disease",
+        "title": "HBDIS005215"
+      },
+      "Coxa valga",
+      "0.00048832021130722",
+      "0.00480824311961475"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005234&label=Disease",
+        "title": "HBDIS005234"
+      },
+      "Round face",
+      "7.22733949563188e-05",
+      "0.00122742109373808"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005284&label=Disease",
+        "title": "HBDIS005284"
+      },
+      "Hypoplasia of the maxilla",
+      "0.00040160948723409",
+      "0.00422023105706668"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005625&label=Disease",
+        "title": "HBDIS005625"
+      },
+      "Degeneration of lumbar intervertebral disc",
+      "1.2816696876809e-05",
+      "0.000326345698001091"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005766&label=Disease",
+        "title": "HBDIS005766"
+      },
+      "Marshall syndrome",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005776&label=Disease",
+        "title": "HBDIS005776"
+      },
+      "Stickler syndrome (disorder)",
+      "3.97163900157076e-10",
+      "4.75557241658488e-08"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005794&label=Disease",
+        "title": "HBDIS005794"
+      },
+      "Fibrochondrogenesis",
+      "0.000136792307218043",
+      "0.00196353043855567"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006070&label=Disease",
+        "title": "HBDIS006070"
+      },
+      "Glossoptosis",
+      "3.12396084184375e-07",
+      "1.59590373181162e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006568&label=Disease",
+        "title": "HBDIS006568"
+      },
+      "Severe myopia",
+      "3.62329186521669e-05",
+      "0.000728502119992973"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008197&label=Disease",
+        "title": "HBDIS008197"
+      },
+      "Vitreoretinal degeneration",
+      "7.53983994706811e-08",
+      "4.76662435016315e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008226&label=Disease",
+        "title": "HBDIS008226"
+      },
+      "Congenital keratoglobus",
+      "7.04383279283624e-05",
+      "0.00120618144563497"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008275&label=Disease",
+        "title": "HBDIS008275"
+      },
+      "Congenital hypoplasia of femur",
+      "2.57983335151485e-06",
+      "9.12866600042429e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008618&label=Disease",
+        "title": "HBDIS008618"
+      },
+      "Epiphyseal dysplasia",
+      "1.1855078559665e-10",
+      "1.60568377211908e-08"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009005&label=Disease",
+        "title": "HBDIS009005"
+      },
+      "Flexion contracture of proximal interphalangeal joint",
+      "0.000264269637129683",
+      "0.00315257557985731"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009102&label=Disease",
+        "title": "HBDIS009102"
+      },
+      "Downward slant of palpebral fissure",
+      "6.22087392577428e-06",
+      "0.000184790197870443"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009227&label=Disease",
+        "title": "HBDIS009227"
+      },
+      "Short ribs",
+      "0.000363031782365912",
+      "0.00394268916476535"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009228&label=Disease",
+        "title": "HBDIS009228"
+      },
+      "Thin rib",
+      "0.000979147405216253",
+      "0.00758798228965531"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009377&label=Disease",
+        "title": "HBDIS009377"
+      },
+      "Dysmorphic features",
+      "0.000527299484345743",
+      "0.00509718335640798"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009426&label=Disease",
+        "title": "HBDIS009426"
+      },
+      "Van Buchem disease",
+      "0.000427100171491043",
+      "0.0044226942719679"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010258&label=Disease",
+        "title": "HBDIS010258"
+      },
+      "Narrow sacrosciatic notch",
+      "0.000940699671665961",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010292&label=Disease",
+        "title": "HBDIS010292"
+      },
+      "Knee joint valgus deformity",
+      "3.72421039875118e-05",
+      "0.000743105621759172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014147&label=Disease",
+        "title": "HBDIS014147"
+      },
+      "Calcification of falx cerebri",
+      "0.000674914393519434",
+      "0.00600389779813197"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015578&label=Disease",
+        "title": "HBDIS015578"
+      },
+      "Thoracic hypoplasia",
+      "0.000979147405216253",
+      "0.00758798228965531"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015579&label=Disease",
+        "title": "HBDIS015579"
+      },
+      "Posterior rib cupping",
+      "0.000451943484955289",
+      "0.00461269428897953"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015872&label=Disease",
+        "title": "HBDIS015872"
+      },
+      "Hyaloideoretinal degeneration of Wagner",
+      "0.000451943484955289",
+      "0.00461269428897953"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016280&label=Disease",
+        "title": "HBDIS016280"
+      },
+      "Anterior rib cupping",
+      "1.66395937953949e-05",
+      "0.000400134327491623"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016314&label=Disease",
+        "title": "HBDIS016314"
+      },
+      "Hypoplastic scapulae",
+      "0.000159962012764294",
+      "0.00218241903748112"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016463&label=Disease",
+        "title": "HBDIS016463"
+      },
+      "Pierre Robin syndrome with fetal chondrodysplasia",
+      "3.04563024976558e-07",
+      "1.56289864748667e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016604&label=Disease",
+        "title": "HBDIS016604"
+      },
+      "Nasal bridge wide",
+      "0.000332947759472579",
+      "0.00369850460296004"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016928&label=Disease",
+        "title": "HBDIS016928"
+      },
+      "Flat face",
+      "4.1533285722837e-06",
+      "0.000133782529049819"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016929&label=Disease",
+        "title": "HBDIS016929"
+      },
+      "Midface retrusion",
+      "3.38914802562688e-06",
+      "0.000113776116022704"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017080&label=Disease",
+        "title": "HBDIS017080"
+      },
+      "Short long bone",
+      "8.92012085558146e-05",
+      "0.00142576257979026"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017083&label=Disease",
+        "title": "HBDIS017083"
+      },
+      "Protuberant abdomen",
+      "0.000488757030739573",
+      "0.00480977881765013"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017507&label=Disease",
+        "title": "HBDIS017507"
+      },
+      "STICKLER SYNDROME, TYPE II (disorder)",
+      "1.21224812609425e-06",
+      "4.92694678278099e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017508&label=Disease",
+        "title": "HBDIS017508"
+      },
+      "Malar flattening",
+      "4.91932177672234e-10",
+      "5.7565522202849e-08"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017509&label=Disease",
+        "title": "HBDIS017509"
+      },
+      "Long fingers",
+      "0.000628542915665298",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017667&label=Disease",
+        "title": "HBDIS017667"
+      },
+      "Hypoplastic ischia",
+      "6.4092880031004e-05",
+      "0.00112349284357845"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017828&label=Disease",
+        "title": "HBDIS017828"
+      },
+      "Hypoplastic ilia",
+      "1.3654683753138e-06",
+      "5.4321418940012e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018185&label=Disease",
+        "title": "HBDIS018185"
+      },
+      "Bell-shaped thorax",
+      "0.000427100171491043",
+      "0.0044226942719679"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018284&label=Disease",
+        "title": "HBDIS018284"
+      },
+      "Wide anterior fontanel",
+      "3.45966809456644e-05",
+      "0.000703779057283758"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018333&label=Disease",
+        "title": "HBDIS018333"
+      },
+      "Rhizomelia",
+      "0.000183895478061385",
+      "0.00242603878990892"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018712&label=Disease",
+        "title": "HBDIS018712"
+      },
+      "Cakut",
+      "0.000454490549601653",
+      "0.00463161196755579"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018901&label=Disease",
+        "title": "HBDIS018901"
+      },
+      "Stickler syndrome, type 1",
+      "1.0170169901177e-08",
+      "8.3683992440557e-07"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019807&label=Disease",
+        "title": "HBDIS019807"
+      },
+      "Dumbbell-shaped long bone",
+      "0.000272372366309991",
+      "0.00322653745118781"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020027&label=Disease",
+        "title": "HBDIS020027"
+      },
+      "Refractory Cytopenia of Childhood",
+      "0.00056113804296939",
+      "0.00529882821462799"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021641&label=Disease",
+        "title": "HBDIS021641"
+      },
+      "Spondyloepiphyseal Dysplasia Tarda, X-Linked",
+      "0.000272734485682754",
+      "0.00322824248229776"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022594&label=Disease",
+        "title": "HBDIS022594"
+      },
+      "Disorder of Achilles tendon",
+      "1.92088719949804e-06",
+      "7.1816772908201e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023631&label=Disease",
+        "title": "HBDIS023631"
+      },
+      "Hypoplasia of the zygomatic bone",
+      "0.000488757030739573",
+      "0.00480977881765013"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023782&label=Disease",
+        "title": "HBDIS023782"
+      },
+      "Broad long bones",
+      "2.97088570878996e-08",
+      "2.13273562725564e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024855&label=Disease",
+        "title": "HBDIS024855"
+      },
+      "Irregular distal femoral epiphysis",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025005&label=Disease",
+        "title": "HBDIS025005"
+      },
+      "Abnormal vitreous humor morphology",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025228&label=Disease",
+        "title": "HBDIS025228"
+      },
+      "Hearing abnormality",
+      "0.000319289611328551",
+      "0.00357961306717121"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025517&label=Disease",
+        "title": "HBDIS025517"
+      },
+      "Periodic Fever, Aphthous Stomatitis, Pharyngitis, Adenitis Syndrome",
+      "0.00124871969762282",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027184&label=Disease",
+        "title": "HBDIS027184"
+      },
+      "Schwartz-Jampel Syndrome, Type 1",
+      "0.00013061074945143",
+      "0.00189805847370237"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027721&label=Disease",
+        "title": "HBDIS027721"
+      },
+      "Familial thoracic aortic aneurysm and aortic dissection",
+      "1.56338002653469e-12",
+      "3.14922188850085e-10"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001255&label=Disease",
+        "title": "HBDIS001255"
+      },
+      "Conductive hearing loss",
+      "0.000431772964179131",
+      "0.00445805362385776"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001617&label=Disease",
+        "title": "HBDIS001617"
+      },
+      "Kidney Diseases",
+      "6.07515745735423e-05",
+      "0.00107913024606074"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001619&label=Disease",
+        "title": "HBDIS001619"
+      },
+      "Kidney Failure, Chronic",
+      "0.000131043912222482",
+      "0.00190264843618086"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001637&label=Disease",
+        "title": "HBDIS001637"
+      },
+      "Kyphosis deformity of spine",
+      "3.13182931632549e-05",
+      "0.000651875992478352"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001778&label=Disease",
+        "title": "HBDIS001778"
+      },
+      "Lordosis",
+      "1.43306661796823e-07",
+      "8.26254168885671e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002764&label=Disease",
+        "title": "HBDIS002764"
+      },
+      "Skin Abnormalities",
+      "0.000326808388540034",
+      "0.00364926095016822"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003367&label=Disease",
+        "title": "HBDIS003367"
+      },
+      "Chondromalacia",
+      "0.00124871969762282",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004047&label=Disease",
+        "title": "HBDIS004047"
+      },
+      "Intervertebral Disc Degeneration",
+      "6.26977533775896e-05",
+      "0.00110388609422916"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004076&label=Disease",
+        "title": "HBDIS004076"
+      },
+      "Congenital pectus carinatum",
+      "1.69024642982799e-05",
+      "0.000405227741990453"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004109&label=Disease",
+        "title": "HBDIS004109"
+      },
+      "Joint stiffness",
+      "0.000253533163320954",
+      "0.00305629959941004"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005421&label=Disease",
+        "title": "HBDIS005421"
+      },
+      "Mandibulofacial Dysostosis",
+      "8.21255747813011e-09",
+      "6.93936885831964e-07"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007376&label=Disease",
+        "title": "HBDIS007376"
+      },
+      "Flexion contracture",
+      "0.000670932155413882",
+      "0.00597775399896689"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009509&label=Disease",
+        "title": "HBDIS009509"
+      },
+      "Sensorineural hearing loss, bilateral",
+      "0.000164280050239372",
+      "0.00222902705764751"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014223&label=Disease",
+        "title": "HBDIS014223"
+      },
+      "Exostoses",
+      "0.00130969998564311",
+      "0.00910979633364641"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014549&label=Disease",
+        "title": "HBDIS014549"
+      },
+      "Chronic Kidney Diseases",
+      "6.28202670809605e-05",
+      "0.00110564485575991"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014650&label=Disease",
+        "title": "HBDIS014650"
+      },
+      "Familial (FPAH)",
+      "0.000587968227089242",
+      "0.00549066756905815"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014694&label=Disease",
+        "title": "HBDIS014694"
+      },
+      "Sensory hearing loss",
+      "8.29111035277112e-05",
+      "0.00135097447490766"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015293&label=Disease",
+        "title": "HBDIS015293"
+      },
+      "Premature osteoarthritis",
+      "1.66395937953949e-05",
+      "0.000400134327491623"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015523&label=Disease",
+        "title": "HBDIS015523"
+      },
+      "Short metacarpal",
+      "0.000523906370551263",
+      "0.00507241606838328"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015602&label=Disease",
+        "title": "HBDIS015602"
+      },
+      "Gross motor development delay",
+      "0.000443533090060384",
+      "0.00454761458451442"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016680&label=Disease",
+        "title": "HBDIS016680"
+      },
+      "Flared metaphysis",
+      "0.000628542915665298",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017138&label=Disease",
+        "title": "HBDIS017138"
+      },
+      "Megaepiphyseal dwarfism",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017312&label=Disease",
+        "title": "HBDIS017312"
+      },
+      "Beaking of vertebral bodies",
+      "6.4092880031004e-05",
+      "0.00112349284357845"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017614&label=Disease",
+        "title": "HBDIS017614"
+      },
+      "Enlarged joints",
+      "0.000940699671665961",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017867&label=Disease",
+        "title": "HBDIS017867"
+      },
+      "Stickler syndrome, type 3",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018172&label=Disease",
+        "title": "HBDIS018172"
+      },
+      "Hypoplastic pubic bone",
+      "0.00124871969762282",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019070&label=Disease",
+        "title": "HBDIS019070"
+      },
+      "Chronic kidney disease stage 5",
+      "6.69476144800349e-05",
+      "0.00116050602420722"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024317&label=Disease",
+        "title": "HBDIS024317"
+      },
+      "Submucous cleft soft palate",
+      "1.66395937953949e-05",
+      "0.000400134327491623"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026836&label=Disease",
+        "title": "HBDIS026836"
+      },
+      "Otospondylomegaepiphyseal dysplasia",
+      "0.000136792307218043",
+      "0.00196353043855567"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012277&label=Disease",
+        "title": "HBDIS012277"
+      },
+      "Pelvic Organ Prolapse",
+      "6.66175154513844e-05",
+      "0.00115580956961496"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000663&label=Disease",
+        "title": "HBDIS000663"
+      },
+      "Corneal dystrophy",
+      "7.78799680855775e-05",
+      "0.00129785223195908"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001463&label=Disease",
+        "title": "HBDIS001463"
+      },
+      "Hypertensive disease",
+      "0.000560255486515765",
+      "0.00529204953953052"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008307&label=Disease",
+        "title": "HBDIS008307"
+      },
+      "Milium Cyst",
+      "0.000193285662482545",
+      "0.00251583221682544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008601&label=Disease",
+        "title": "HBDIS008601"
+      },
+      "Corneal erosion",
+      "1.72080873394874e-08",
+      "1.32658934171454e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021157&label=Disease",
+        "title": "HBDIS021157"
+      },
+      "NAIL DISORDER, NONSYNDROMIC CONGENITAL, 4",
+      "0.000272372366309991",
+      "0.00322653745118781"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022214&label=Disease",
+        "title": "HBDIS022214"
+      },
+      "Scarring alopecia of scalp",
+      "8.29111035277112e-05",
+      "0.00135097447490766"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022712&label=Disease",
+        "title": "HBDIS022712"
+      },
+      "Skin Erosion",
+      "0.000213467262446052",
+      "0.00271143219483041"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024791&label=Disease",
+        "title": "HBDIS024791"
+      },
+      "Late-onset muscular dystrophy",
+      "0.00124871969762282",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000011&label=Disease",
+        "title": "HBDIS000011"
+      },
+      "Spontaneous abortion",
+      "2.0732352540111e-10",
+      "2.65658048959429e-08"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000014&label=Disease",
+        "title": "HBDIS000014"
+      },
+      "Abortion, Tubal",
+      "2.15169120664703e-08",
+      "1.61270322253517e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000165&label=Disease",
+        "title": "HBDIS000165"
+      },
+      "Aneurysm",
+      "2.42692313893708e-07",
+      "1.29065434274583e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000166&label=Disease",
+        "title": "HBDIS000166"
+      },
+      "Aneurysm, Dissecting",
+      "4.17411390417504e-05",
+      "0.00081197927137827"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000350&label=Disease",
+        "title": "HBDIS000350"
+      },
+      "Blood Coagulation Disorders",
+      "0.000500293844774182",
+      "0.00489686434695469"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000590&label=Disease",
+        "title": "HBDIS000590"
+      },
+      "Cicatrization",
+      "3.53062006909693e-05",
+      "0.000714558600537861"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000601&label=Disease",
+        "title": "HBDIS000601"
+      },
+      "Congenital clubfoot",
+      "9.82293759473905e-06",
+      "0.000264466051717346"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000655&label=Disease",
+        "title": "HBDIS000655"
+      },
+      "Contracture",
+      "3.28723956482182e-05",
+      "0.000676355703631681"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000767&label=Disease",
+        "title": "HBDIS000767"
+      },
+      "Scleroderma",
+      "7.704711808317e-05",
+      "0.0012864054164293"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000818&label=Disease",
+        "title": "HBDIS000818"
+      },
+      "Diverticular disease of colon",
+      "0.000451943484955289",
+      "0.00461269428897953"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000890&label=Disease",
+        "title": "HBDIS000890"
+      },
+      "Ehlers-Danlos Syndrome",
+      "2.25685420870619e-11",
+      "3.58641200897892e-09"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001082&label=Disease",
+        "title": "HBDIS001082"
+      },
+      "Flatfoot",
+      "2.47059147432504e-05",
+      "0.00054279621112459"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001275&label=Disease",
+        "title": "HBDIS001275"
+      },
+      "Heart valve disease",
+      "0.000118898294003001",
+      "0.00176821627696729"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001353&label=Disease",
+        "title": "HBDIS001353"
+      },
+      "Hernia, Femoral",
+      "0.00013061074945143",
+      "0.00189805847370237"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001374&label=Disease",
+        "title": "HBDIS001374"
+      },
+      "Hip Dislocation, Congenital",
+      "0.000674914393519434",
+      "0.00600389779813197"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001447&label=Disease",
+        "title": "HBDIS001447"
+      },
+      "Cortical Congenital Hyperostosis",
+      "0.000451943484955289",
+      "0.00461269428897953"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001466&label=Disease",
+        "title": "HBDIS001466"
+      },
+      "Pulmonary Hypertension",
+      "0.000455715564511117",
+      "0.00463849238913997"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001672&label=Disease",
+        "title": "HBDIS001672"
+      },
+      "Legg-Calve-Perthes Disease",
+      "6.22221191584668e-05",
+      "0.00109784049211976"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001768&label=Disease",
+        "title": "HBDIS001768"
+      },
+      "Liver Cirrhosis, Experimental",
+      "7.93533614581649e-06",
+      "0.000223942792602176"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001774&label=Disease",
+        "title": "HBDIS001774"
+      },
+      "Lobstein Disease",
+      "1.66395937953949e-05",
+      "0.000400134327491623"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001846&label=Disease",
+        "title": "HBDIS001846"
+      },
+      "Malocclusion",
+      "0.00087173374666301",
+      "0.00708269357224784"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001859&label=Disease",
+        "title": "HBDIS001859"
+      },
+      "Marfan Syndrome",
+      "0.000801701605565549",
+      "0.00668764078283742"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001957&label=Disease",
+        "title": "HBDIS001957"
+      },
+      "Mitral Valve Prolapse Syndrome",
+      "3.42621529473152e-07",
+      "1.72668927353442e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002216&label=Disease",
+        "title": "HBDIS002216"
+      },
+      "Osteogenesis Imperfecta",
+      "6.51141283258677e-06",
+      "0.000191841890568376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002229&label=Disease",
+        "title": "HBDIS002229"
+      },
+      "Osteoporosis, Senile",
+      "0.00137432042858714",
+      "0.00941483809973441"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002430&label=Disease",
+        "title": "HBDIS002430"
+      },
+      "Pneumothorax",
+      "3.11053331612518e-06",
+      "0.000106130039883435"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002702&label=Disease",
+        "title": "HBDIS002702"
+      },
+      "Scoliosis, unspecified",
+      "8.92114226671512e-07",
+      "3.82876399719526e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002917&label=Disease",
+        "title": "HBDIS002917"
+      },
+      "Tennis Elbow",
+      "0.000272372366309991",
+      "0.00322653745118781"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002998&label=Disease",
+        "title": "HBDIS002998"
+      },
+      "Tricuspid Valve Prolapse",
+      "4.83072234810776e-05",
+      "0.000906364541209338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003044&label=Disease",
+        "title": "HBDIS003044"
+      },
+      "Erythema",
+      "4.91731448931244e-05",
+      "0.000919412271009071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003096&label=Disease",
+        "title": "HBDIS003096"
+      },
+      "Venous Insufficiency",
+      "2.57983335151485e-06",
+      "9.12866600042429e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003186&label=Disease",
+        "title": "HBDIS003186"
+      },
+      "Epidermolysis Bullosa Dystrophica",
+      "1.90174028068176e-06",
+      "7.12979844986886e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003223&label=Disease",
+        "title": "HBDIS003223"
+      },
+      "Spina Bifida Occulta",
+      "3.16197782820664e-05",
+      "0.00065654571638737"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004502&label=Disease",
+        "title": "HBDIS004502"
+      },
+      "Ehlers-Danlos Syndrome, Autosomal Dominant, Type Unspecified",
+      "3.04563024976558e-07",
+      "1.56289864748667e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004631&label=Disease",
+        "title": "HBDIS004631"
+      },
+      "Acrocyanosis",
+      "0.000319289611328551",
+      "0.00357961306717121"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004892&label=Disease",
+        "title": "HBDIS004892"
+      },
+      "Disturbance of consciousness",
+      "4.45164741246299e-06",
+      "0.000141536171947026"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005296&label=Disease",
+        "title": "HBDIS005296"
+      },
+      "Convex nasal ridge",
+      "0.000561300214937824",
+      "0.00529950108712313"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005336&label=Disease",
+        "title": "HBDIS005336"
+      },
+      "Petechiae of skin",
+      "0.000309913237351252",
+      "0.00355227280852608"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005935&label=Disease",
+        "title": "HBDIS005935"
+      },
+      "Open Bite",
+      "2.65460557672302e-06",
+      "9.3334949121329e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006023&label=Disease",
+        "title": "HBDIS006023"
+      },
+      "Microcornea",
+      "2.21708881547142e-05",
+      "0.000500019929076022"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006262&label=Disease",
+        "title": "HBDIS006262"
+      },
+      "Ehlers-Danlos Syndrome, Type IV",
+      "3.01568834204417e-06",
+      "0.000103497691772094"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006266&label=Disease",
+        "title": "HBDIS006266"
+      },
+      "EHLERS-DANLOS SYNDROME, ARTHROCHALASIA TYPE",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006275&label=Disease",
+        "title": "HBDIS006275"
+      },
+      "Osteogenesis imperfecta, dominant perinatal lethal",
+      "3.01568834204417e-06",
+      "0.000103497691772094"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006276&label=Disease",
+        "title": "HBDIS006276"
+      },
+      "Osteogenesis imperfecta, recessive perinatal lethal",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006278&label=Disease",
+        "title": "HBDIS006278"
+      },
+      "Osteogenesis imperfecta type IV (disorder)",
+      "4.83072234810776e-05",
+      "0.000906364541209338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007346&label=Disease",
+        "title": "HBDIS007346"
+      },
+      "Papule",
+      "0.00123545088227875",
+      "0.00881897361572416"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009023&label=Disease",
+        "title": "HBDIS009023"
+      },
+      "Idiopathic osteoarthritis",
+      "0.000600553110603887",
+      "0.0055760512623432"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009079&label=Disease",
+        "title": "HBDIS009079"
+      },
+      "Hereditary Connective Tissue Disorder",
+      "1.3720541597956e-07",
+      "7.96307300850181e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009140&label=Disease",
+        "title": "HBDIS009140"
+      },
+      "Thin skin",
+      "1.55680630885789e-08",
+      "1.21637073494243e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009230&label=Disease",
+        "title": "HBDIS009230"
+      },
+      "Beading of ribs",
+      "0.000451943484955289",
+      "0.00461269428897953"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009454&label=Disease",
+        "title": "HBDIS009454"
+      },
+      "Shagreen patch",
+      "1.66395937953949e-05",
+      "0.000400134327491623"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010014&label=Disease",
+        "title": "HBDIS010014"
+      },
+      "Blue sclera",
+      "1.35404952603717e-07",
+      "7.87370590238779e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010284&label=Disease",
+        "title": "HBDIS010284"
+      },
+      "Long thorax",
+      "1.66395937953949e-05",
+      "0.000400134327491623"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011280&label=Disease",
+        "title": "HBDIS011280"
+      },
+      "Post-Traumatic Osteoporosis",
+      "0.000684842293673418",
+      "0.00606726195097245"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012043&label=Disease",
+        "title": "HBDIS012043"
+      },
+      "Aneurysm of ascending aorta",
+      "3.61709117843053e-05",
+      "0.00072739409853969"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012336&label=Disease",
+        "title": "HBDIS012336"
+      },
+      "Abnormality of the tongue",
+      "0.000193285662482545",
+      "0.00251583221682544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012576&label=Disease",
+        "title": "HBDIS012576"
+      },
+      "Dysphasia",
+      "0.000454490549601653",
+      "0.00463161196755579"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013225&label=Disease",
+        "title": "HBDIS013225"
+      },
+      "Nonspecific interstitial pneumonia",
+      "7.63814507362128e-07",
+      "3.36382380196333e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013550&label=Disease",
+        "title": "HBDIS013550"
+      },
+      "Hip Dysplasia",
+      "3.32231851378945e-08",
+      "2.34921489074483e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014226&label=Disease",
+        "title": "HBDIS014226"
+      },
+      "Avascular necrosis of the capital femoral epiphysis",
+      "0.000370677159508481",
+      "0.00400656355359849"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014300&label=Disease",
+        "title": "HBDIS014300"
+      },
+      "Bleeding tendency",
+      "1.71270643616581e-07",
+      "9.6199065548469e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014339&label=Disease",
+        "title": "HBDIS014339"
+      },
+      "Diverticulosis",
+      "0.000111355120760955",
+      "0.00168601722660838"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014414&label=Disease",
+        "title": "HBDIS014414"
+      },
+      "Skin Papule",
+      "0.00110671935019079",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015200&label=Disease",
+        "title": "HBDIS015200"
+      },
+      "Biconcave flattened vertebrae",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015201&label=Disease",
+        "title": "HBDIS015201"
+      },
+      "Femoral bowing present at birth, straightening with time",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015362&label=Disease",
+        "title": "HBDIS015362"
+      },
+      "Triangular face",
+      "3.72421039875118e-05",
+      "0.000743105621759172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015566&label=Disease",
+        "title": "HBDIS015566"
+      },
+      "High, narrow palate",
+      "0.000589257967497643",
+      "0.00549966762656541"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015573&label=Disease",
+        "title": "HBDIS015573"
+      },
+      "Narrow face",
+      "0.000878004617152723",
+      "0.0071132750356448"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016106&label=Disease",
+        "title": "HBDIS016106"
+      },
+      "Soft skin",
+      "1.09643222489689e-05",
+      "0.000288918853040204"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016143&label=Disease",
+        "title": "HBDIS016143"
+      },
+      "Range of joint movement increased",
+      "0.000628542915665298",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016335&label=Disease",
+        "title": "HBDIS016335"
+      },
+      "Autoimmune Lymphoproliferative Syndrome Type 2B",
+      "1.90174028068176e-06",
+      "7.12979844986886e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016658&label=Disease",
+        "title": "HBDIS016658"
+      },
+      "Disproportionate short-limb short stature",
+      "6.22221191584668e-05",
+      "0.00109784049211976"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016688&label=Disease",
+        "title": "HBDIS016688"
+      },
+      "Neonatal short-limb short stature",
+      "3.53062006909693e-05",
+      "0.000714558600537861"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016689&label=Disease",
+        "title": "HBDIS016689"
+      },
+      "Bowing of limbs due to multiple fractures",
+      "0.000272372366309991",
+      "0.00322653745118781"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016828&label=Disease",
+        "title": "HBDIS016828"
+      },
+      "EDS VIIB",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016917&label=Disease",
+        "title": "HBDIS016917"
+      },
+      "Multiple prenatal fractures",
+      "0.00124871969762282",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017257&label=Disease",
+        "title": "HBDIS017257"
+      },
+      "Biconcave vertebral bodies",
+      "0.000105004566231446",
+      "0.00161016208860349"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017401&label=Disease",
+        "title": "HBDIS017401"
+      },
+      "Trichohepatoenteric Syndrome",
+      "0.000100626388706602",
+      "0.00156288545516247"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017583&label=Disease",
+        "title": "HBDIS017583"
+      },
+      "Malar prominence",
+      "1.66395937953949e-05",
+      "0.000400134327491623"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017666&label=Disease",
+        "title": "HBDIS017666"
+      },
+      "Severe generalized osteoporosis",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018359&label=Disease",
+        "title": "HBDIS018359"
+      },
+      "Craniofacial disproportion",
+      "0.00124871969762282",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018847&label=Disease",
+        "title": "HBDIS018847"
+      },
+      "Crumpled long bones",
+      "0.000674914393519434",
+      "0.00600389779813197"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021431&label=Disease",
+        "title": "HBDIS021431"
+      },
+      "Hiatal Hernia",
+      "4.79136674108489e-05",
+      "0.000900209250812977"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021473&label=Disease",
+        "title": "HBDIS021473"
+      },
+      "Retrognathia",
+      "6.84549787583576e-06",
+      "0.000199454693033386"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022182&label=Disease",
+        "title": "HBDIS022182"
+      },
+      "Increased fracture rate",
+      "0.000768305282027422",
+      "0.00655312834134381"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022545&label=Disease",
+        "title": "HBDIS022545"
+      },
+      "Early Pregnancy Loss",
+      "2.15169120664703e-08",
+      "1.61270322253517e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022716&label=Disease",
+        "title": "HBDIS022716"
+      },
+      "Keratoglobus",
+      "1.04511981531142e-05",
+      "0.000277699865330713"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023781&label=Disease",
+        "title": "HBDIS023781"
+      },
+      "Absent ossification of calvaria",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023872&label=Disease",
+        "title": "HBDIS023872"
+      },
+      "Atypical scarring of skin",
+      "0.00116984386351558",
+      "0.00855150093610389"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023896&label=Disease",
+        "title": "HBDIS023896"
+      },
+      "Abnormality of the gingiva",
+      "4.83072234810776e-05",
+      "0.000906364541209338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023942&label=Disease",
+        "title": "HBDIS023942"
+      },
+      "Genital hernia",
+      "3.04563024976558e-07",
+      "1.56289864748667e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023959&label=Disease",
+        "title": "HBDIS023959"
+      },
+      "Hypoplasia of the ear cartilage",
+      "3.53062006909693e-05",
+      "0.000714558600537861"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024505&label=Disease",
+        "title": "HBDIS024505"
+      },
+      "Aplasia/Hypoplasia of the abdominal wall musculature",
+      "3.61709117843053e-05",
+      "0.00072739409853969"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024561&label=Disease",
+        "title": "HBDIS024561"
+      },
+      "Reduced number of teeth",
+      "3.16197782820664e-05",
+      "0.00065654571638737"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024952&label=Disease",
+        "title": "HBDIS024952"
+      },
+      "Abnormal nasal morphology",
+      "3.61709117843053e-05",
+      "0.00072739409853969"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025196&label=Disease",
+        "title": "HBDIS025196"
+      },
+      "Abnormality of subcutaneous fat tissue",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027042&label=Disease",
+        "title": "HBDIS027042"
+      },
+      "EHLERS-DANLOS SYNDROME, CLASSIC TYPE, 2",
+      "2.00132460399448e-09",
+      "1.99939831545692e-07"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027260&label=Disease",
+        "title": "HBDIS027260"
+      },
+      "EHLERS-DANLOS SYNDROME, ARTHROCHALASIA TYPE, 1",
+      "0.000136792307218043",
+      "0.00196353043855567"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027273&label=Disease",
+        "title": "HBDIS027273"
+      },
+      "Congenital Dysplasia Of The Hip",
+      "0.000112118950766404",
+      "0.00169388224322801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027402&label=Disease",
+        "title": "HBDIS027402"
+      },
+      "EHLERS-DANLOS SYNDROME, CLASSIC TYPE, 1",
+      "9.95464879431046e-09",
+      "8.21214214223149e-07"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027442&label=Disease",
+        "title": "HBDIS027442"
+      },
+      "Miscarriage",
+      "4.10266406209598e-05",
+      "0.000800656907197885"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027756&label=Disease",
+        "title": "HBDIS027756"
+      },
+      "Juvenile angiofibroma",
+      "0.000151712162634537",
+      "0.00212224876324925"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000496&label=Disease",
+        "title": "HBDIS000496"
+      },
+      "Intracranial Aneurysm",
+      "0.00114251908640493",
+      "0.00839955097486763"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004503&label=Disease",
+        "title": "HBDIS004503"
+      },
+      "Achondrogenesis type 2",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010012&label=Disease",
+        "title": "HBDIS010012"
+      },
+      "Hypochondrogenesis",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016104&label=Disease",
+        "title": "HBDIS016104"
+      },
+      "Hyperextensibility of the finger joints",
+      "0.000159962012764294",
+      "0.00218241903748112"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002965&label=Disease",
+        "title": "HBDIS002965"
+      },
+      "Tonometry",
+      "0.000264269637129683",
+      "0.00315257557985731"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024369&label=Disease",
+        "title": "HBDIS024369"
+      },
+      "Narrow internal auditory canal",
+      "6.4092880031004e-05",
+      "0.00112349284357845"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000368&label=Disease",
+        "title": "HBDIS000368"
+      },
+      "Bone Diseases, Developmental",
+      "0.000111115493296851",
+      "0.00168321257137341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000920&label=Disease",
+        "title": "HBDIS000920"
+      },
+      "Enchondromatosis",
+      "0.000427100171491043",
+      "0.0044226942719679"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003898&label=Disease",
+        "title": "HBDIS003898"
+      },
+      "Retinal lattice degeneration",
+      "0.000136792307218043",
+      "0.00196353043855567"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004519&label=Disease",
+        "title": "HBDIS004519"
+      },
+      "Diastrophic dysplasia",
+      "1.85075164608666e-06",
+      "6.97307060603755e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006260&label=Disease",
+        "title": "HBDIS006260"
+      },
+      "Ehlers-Danlos syndrome type 2",
+      "2.00132460399448e-09",
+      "1.99939831545692e-07"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009115&label=Disease",
+        "title": "HBDIS009115"
+      },
+      "Posterior Vitreous Detachment",
+      "0.00124871969762282",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009403&label=Disease",
+        "title": "HBDIS009403"
+      },
+      "Spondylometaphyseal dysplasia, 'corner fracture' type",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009441&label=Disease",
+        "title": "HBDIS009441"
+      },
+      "Epidermolysis bullosa, pretibial",
+      "0.000136792307218043",
+      "0.00196353043855567"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009889&label=Disease",
+        "title": "HBDIS009889"
+      },
+      "Bilateral cataracts (disorder)",
+      "0.000243143156037877",
+      "0.00295969046506074"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015418&label=Disease",
+        "title": "HBDIS015418"
+      },
+      "Generalized joint laxity",
+      "0.00143362615141459",
+      "0.00957670970942251"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016318&label=Disease",
+        "title": "HBDIS016318"
+      },
+      "Hypoplasia of the odontoid process",
+      "0.000427100171491043",
+      "0.0044226942719679"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016458&label=Disease",
+        "title": "HBDIS016458"
+      },
+      "C1-C2 subluxation",
+      "0.000136792307218043",
+      "0.00196353043855567"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017381&label=Disease",
+        "title": "HBDIS017381"
+      },
+      "Limitation of joint mobility",
+      "0.00130359242100493",
+      "0.00908105826398939"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024497&label=Disease",
+        "title": "HBDIS024497"
+      },
+      "Hyperextensibility at elbow",
+      "0.00124871969762282",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001603&label=Disease",
+        "title": "HBDIS001603"
+      },
+      "Keratoconus",
+      "7.52348088933727e-05",
+      "0.00126546176977493"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003979&label=Disease",
+        "title": "HBDIS003979"
+      },
+      "Rupture of artery",
+      "0.000451943484955289",
+      "0.00461269428897953"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006259&label=Disease",
+        "title": "HBDIS006259"
+      },
+      "Ehlers-Danlos syndrome type 1",
+      "1.21224812609425e-06",
+      "4.92694678278099e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007686&label=Disease",
+        "title": "HBDIS007686"
+      },
+      "Vertebral Artery Dissection",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011874&label=Disease",
+        "title": "HBDIS011874"
+      },
+      "Arteriopathic disease",
+      "0.00040160948723409",
+      "0.00422023105706668"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015459&label=Disease",
+        "title": "HBDIS015459"
+      },
+      "Dermal translucency",
+      "3.53062006909693e-05",
+      "0.000714558600537861"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015613&label=Disease",
+        "title": "HBDIS015613"
+      },
+      "Narrow nasal ridge",
+      "3.53062006909693e-05",
+      "0.000714558600537861"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016107&label=Disease",
+        "title": "HBDIS016107"
+      },
+      "Molluscoid pseudotumors",
+      "3.01568834204417e-06",
+      "0.000103497691772094"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016831&label=Disease",
+        "title": "HBDIS016831"
+      },
+      "Cigarette-paper scars",
+      "3.01568834204417e-06",
+      "0.000103497691772094"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017133&label=Disease",
+        "title": "HBDIS017133"
+      },
+      "Protruding ear",
+      "0.000465692731828747",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017421&label=Disease",
+        "title": "HBDIS017421"
+      },
+      "Slender finger",
+      "0.000159962012764294",
+      "0.00218241903748112"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019662&label=Disease",
+        "title": "HBDIS019662"
+      },
+      "Saccular Aneurysm",
+      "0.000451943484955289",
+      "0.00461269428897953"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000509&label=Disease",
+        "title": "HBDIS000509"
+      },
+      "Cerebrovascular Disorders",
+      "0.00033793409545496",
+      "0.00374003452645528"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001296&label=Disease",
+        "title": "HBDIS001296"
+      },
+      "Hematuria",
+      "1.26200247814194e-07",
+      "7.41317781556117e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005754&label=Disease",
+        "title": "HBDIS005754"
+      },
+      "X-linked hydrocephalus syndrome",
+      "1.44926024820666e-09",
+      "1.50206095593994e-07"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006010&label=Disease",
+        "title": "HBDIS006010"
+      },
+      "Schizencephaly",
+      "0.000940699671665961",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007310&label=Disease",
+        "title": "HBDIS007310"
+      },
+      "Congenital porencephaly",
+      "0.000940699671665961",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008884&label=Disease",
+        "title": "HBDIS008884"
+      },
+      "Thin basement membrane disease",
+      "6.88699260082938e-12",
+      "1.22054185140178e-09"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015692&label=Disease",
+        "title": "HBDIS015692"
+      },
+      "Cerebral Autosomal Recessive Arteriopathy with Subcortical Infarcts and Leukoencephalopathy",
+      "0.000940699671665961",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017710&label=Disease",
+        "title": "HBDIS017710"
+      },
+      "ARTERIAL TORTUOSITY SYNDROME",
+      "1.61970464261171e-06",
+      "6.25019557938134e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018410&label=Disease",
+        "title": "HBDIS018410"
+      },
+      "PORENCEPHALY, FAMILIAL",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019237&label=Disease",
+        "title": "HBDIS019237"
+      },
+      "Angiopathy, Hereditary, With Nephropathy, Aneurysms, And Muscle Cramps",
+      "0.000136792307218043",
+      "0.00196353043855567"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020461&label=Disease",
+        "title": "HBDIS020461"
+      },
+      "Cerebral Hemorrhage",
+      "8.4606759777669e-06",
+      "0.000235540669080555"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021379&label=Disease",
+        "title": "HBDIS021379"
+      },
+      "HEMORRHAGE, INTRACEREBRAL, SUSCEPTIBILITY TO",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022050&label=Disease",
+        "title": "HBDIS022050"
+      },
+      "Post-traumatic Porencephaly",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025522&label=Disease",
+        "title": "HBDIS025522"
+      },
+      "Porencephaly",
+      "0.000940699671665961",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025527&label=Disease",
+        "title": "HBDIS025527"
+      },
+      "Developmental Porencephaly",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027381&label=Disease",
+        "title": "HBDIS027381"
+      },
+      "Porencephaly, Type 1, Autosomal Dominant",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000810&label=Disease",
+        "title": "HBDIS000810"
+      },
+      "Disseminated Intravascular Coagulation",
+      "0.000488676983713878",
+      "0.00480923627426015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002088&label=Disease",
+        "title": "HBDIS002088"
+      },
+      "Hereditary nephritis",
+      "1.3720541597956e-07",
+      "7.96307300850181e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002495&label=Disease",
+        "title": "HBDIS002495"
+      },
+      "Proteinuria",
+      "0.000307296983460425",
+      "0.00353082440436884"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005128&label=Disease",
+        "title": "HBDIS005128"
+      },
+      "Benign hematuria",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005213&label=Disease",
+        "title": "HBDIS005213"
+      },
+      "Lenticonus",
+      "0.000451943484955289",
+      "0.00461269428897953"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005261&label=Disease",
+        "title": "HBDIS005261"
+      },
+      "Microscopic hematuria",
+      "9.50253831297354e-07",
+      "4.03633552931514e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005380&label=Disease",
+        "title": "HBDIS005380"
+      },
+      "Hematuria, Benign Familial",
+      "1.66395937953949e-05",
+      "0.000400134327491623"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008195&label=Disease",
+        "title": "HBDIS008195"
+      },
+      "Anterior lenticonus",
+      "3.04563024976558e-07",
+      "1.56289864748667e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009494&label=Disease",
+        "title": "HBDIS009494"
+      },
+      "Thickening of glomerular basement membrane",
+      "6.00166782700042e-06",
+      "0.000179383875891573"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013422&label=Disease",
+        "title": "HBDIS013422"
+      },
+      "Familial hematuria",
+      "7.17486576655824e-06",
+      "0.000206828868859242"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014579&label=Disease",
+        "title": "HBDIS014579"
+      },
+      "Andersen Syndrome",
+      "0.000427100171491043",
+      "0.0044226942719679"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014604&label=Disease",
+        "title": "HBDIS014604"
+      },
+      "Alport Syndrome",
+      "6.23661310900498e-06",
+      "0.000185178997613759"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014605&label=Disease",
+        "title": "HBDIS014605"
+      },
+      "Alport Syndrome, X-Linked",
+      "9.50253831297354e-07",
+      "4.03633552931514e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014606&label=Disease",
+        "title": "HBDIS014606"
+      },
+      "Alport Syndrome, Autosomal Dominant",
+      "1.21224812609425e-06",
+      "4.92694678278099e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014607&label=Disease",
+        "title": "HBDIS014607"
+      },
+      "Alport Syndrome, Autosomal Recessive",
+      "6.89607255154209e-08",
+      "4.41646941560271e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014962&label=Disease",
+        "title": "HBDIS014962"
+      },
+      "Thin glomerular basement membrane disease",
+      "3.04563024976558e-07",
+      "1.56289864748667e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020261&label=Disease",
+        "title": "HBDIS020261"
+      },
+      "Alport syndrome, dominant type",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020262&label=Disease",
+        "title": "HBDIS020262"
+      },
+      "Alport syndrome, recessive type",
+      "0.000136792307218043",
+      "0.00196353043855567"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021126&label=Disease",
+        "title": "HBDIS021126"
+      },
+      "Thin glomerular basement membrane",
+      "0.000136792307218043",
+      "0.00196353043855567"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021171&label=Disease",
+        "title": "HBDIS021171"
+      },
+      "Diffuse glomerular basement membrane lamellation",
+      "3.04563024976558e-07",
+      "1.56289864748667e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023480&label=Disease",
+        "title": "HBDIS023480"
+      },
+      "Glomerulocystic kidney disease",
+      "0.00124871969762282",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023864&label=Disease",
+        "title": "HBDIS023864"
+      },
+      "High-frequency sensorineural hearing impairment",
+      "0.000272372366309991",
+      "0.00322653745118781"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026850&label=Disease",
+        "title": "HBDIS026850"
+      },
+      "Glomerulopathy Assessment",
+      "0.000454490549601653",
+      "0.00463161196755579"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS028001&label=Disease",
+        "title": "HBDIS028001"
+      },
+      "ALPORT SYNDROME 3, AUTOSOMAL DOMINANT",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS028003&label=Disease",
+        "title": "HBDIS028003"
+      },
+      "ALPORT SYNDROME 2, AUTOSOMAL RECESSIVE",
+      "0.000136792307218043",
+      "0.00196353043855567"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003411&label=Disease",
+        "title": "HBDIS003411"
+      },
+      "Leiomyoma, Epithelioid",
+      "0.000272372366309991",
+      "0.00322653745118781"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004396&label=Disease",
+        "title": "HBDIS004396"
+      },
+      "Leiomyomatosis",
+      "0.000159962012764294",
+      "0.00218241903748112"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015808&label=Disease",
+        "title": "HBDIS015808"
+      },
+      "Leiomyomatosis, esophageal and vulval, with nephropathy",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024821&label=Disease",
+        "title": "HBDIS024821"
+      },
+      "Diffuse leiomyomatosis",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001351&label=Disease",
+        "title": "HBDIS001351"
+      },
+      "Hernia",
+      "0.000946230167584344",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016542&label=Disease",
+        "title": "HBDIS016542"
+      },
+      "Soft, doughy skin",
+      "0.000940699671665961",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025816&label=Disease",
+        "title": "HBDIS025816"
+      },
+      "Ehlers-Danlos syndrome classic type",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026105&label=Disease",
+        "title": "HBDIS026105"
+      },
+      "Subcutaneous spheroids",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005566&label=Disease",
+        "title": "HBDIS005566"
+      },
+      "Keratosis pilaris",
+      "0.000427100171491043",
+      "0.0044226942719679"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009002&label=Disease",
+        "title": "HBDIS009002"
+      },
+      "Flexion contracture - elbow",
+      "0.000600553110603887",
+      "0.0055760512623432"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009039&label=Disease",
+        "title": "HBDIS009039"
+      },
+      "Ullrich congenital muscular dystrophy 1",
+      "5.35081190179155e-08",
+      "3.5459814188675e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009859&label=Disease",
+        "title": "HBDIS009859"
+      },
+      "Diaphragmatic paresis",
+      "0.00124871969762282",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014649&label=Disease",
+        "title": "HBDIS014649"
+      },
+      "Myosclerosis",
+      "0.000136792307218043",
+      "0.00196353043855567"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015260&label=Disease",
+        "title": "HBDIS015260"
+      },
+      "BETHLEM MYOPATHY 1",
+      "4.45164741246299e-06",
+      "0.000141536171947026"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016727&label=Disease",
+        "title": "HBDIS016727"
+      },
+      "Slender build",
+      "0.000555841526328492",
+      "0.00525957475967109"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016758&label=Disease",
+        "title": "HBDIS016758"
+      },
+      "Muscle fiber necrosis",
+      "0.000674914393519434",
+      "0.00600389779813197"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016759&label=Disease",
+        "title": "HBDIS016759"
+      },
+      "Distal joint laxity",
+      "0.000136792307218043",
+      "0.00196353043855567"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016760&label=Disease",
+        "title": "HBDIS016760"
+      },
+      "Hyperextensibility at wrists",
+      "0.000451943484955289",
+      "0.00461269428897953"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016761&label=Disease",
+        "title": "HBDIS016761"
+      },
+      "Increased laxity of ankles",
+      "0.000451943484955289",
+      "0.00461269428897953"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016762&label=Disease",
+        "title": "HBDIS016762"
+      },
+      "Increased laxity of fingers",
+      "0.000272372366309991",
+      "0.00322653745118781"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020603&label=Disease",
+        "title": "HBDIS020603"
+      },
+      "KELOID FORMATION",
+      "0.000136792307218043",
+      "0.00196353043855567"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020639&label=Disease",
+        "title": "HBDIS020639"
+      },
+      "Long toe",
+      "0.000370677159508481",
+      "0.00400656355359849"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020918&label=Disease",
+        "title": "HBDIS020918"
+      },
+      "Recurrent lower respiratory tract infection",
+      "0.000427100171491043",
+      "0.0044226942719679"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023557&label=Disease",
+        "title": "HBDIS023557"
+      },
+      "Reduced muscle collagen VI",
+      "0.000272372366309991",
+      "0.00322653745118781"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023895&label=Disease",
+        "title": "HBDIS023895"
+      },
+      "Abnormal palate morphology",
+      "0.000979147405216253",
+      "0.00758798228965531"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025825&label=Disease",
+        "title": "HBDIS025825"
+      },
+      "ULLRICH CONGENITAL MUSCULAR DYSTROPHY 1, AUTOSOMAL DOMINANT",
+      "0.000136792307218043",
+      "0.00196353043855567"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027326&label=Disease",
+        "title": "HBDIS027326"
+      },
+      "Ullrich congenital muscular dystrophy",
+      "1.04511981531142e-05",
+      "0.000277699865330713"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003179&label=Disease",
+        "title": "HBDIS003179"
+      },
+      "Cockayne-Touraine Disease",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003185&label=Disease",
+        "title": "HBDIS003185"
+      },
+      "Epidermolysis Bullosa Acquisita",
+      "0.00108261782052797",
+      "0.00814991056453641"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005121&label=Disease",
+        "title": "HBDIS005121"
+      },
+      "Boerhaave syndrome",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006584&label=Disease",
+        "title": "HBDIS006584"
+      },
+      "Madarosis of eyelid",
+      "0.000136792307218043",
+      "0.00196353043855567"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013091&label=Disease",
+        "title": "HBDIS013091"
+      },
+      "Epidermolysis Bullosa Pruriginosa",
+      "4.58004777559985e-05",
+      "0.00087087415598376"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018744&label=Disease",
+        "title": "HBDIS018744"
+      },
+      "Mitten deformity",
+      "0.000940699671665961",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019274&label=Disease",
+        "title": "HBDIS019274"
+      },
+      "Epidermolysis Bullosa Dystrophica, Autosomal Recessive, Localisata Variant",
+      "0.000136792307218043",
+      "0.00196353043855567"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019275&label=Disease",
+        "title": "HBDIS019275"
+      },
+      "Epidermolysis Bullosa Dystrophica Inversa, Autosomal Recessive",
+      "0.000136792307218043",
+      "0.00196353043855567"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026415&label=Disease",
+        "title": "HBDIS026415"
+      },
+      "Loss of eyelashes",
+      "0.000136792307218043",
+      "0.00196353043855567"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006703&label=Disease",
+        "title": "HBDIS006703"
+      },
+      "alpha^0^ Thalassemia",
+      "0.00013061074945143",
+      "0.00189805847370237"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009606&label=Disease",
+        "title": "HBDIS009606"
+      },
+      "Homozygous alpha thalassemia",
+      "8.29111035277112e-05",
+      "0.00135097447490766"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012303&label=Disease",
+        "title": "HBDIS012303"
+      },
+      "Asthma chronic",
+      "0.00130969998564311",
+      "0.00910979633364641"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016322&label=Disease",
+        "title": "HBDIS016322"
+      },
+      "Irregular epiphyses",
+      "0.000105004566231446",
+      "0.00161016208860349"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016355&label=Disease",
+        "title": "HBDIS016355"
+      },
+      "Small epiphyses",
+      "8.29111035277112e-05",
+      "0.00135097447490766"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020907&label=Disease",
+        "title": "HBDIS020907"
+      },
+      "Hemoglobin H Disease",
+      "0.000427100171491043",
+      "0.0044226942719679"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024783&label=Disease",
+        "title": "HBDIS024783"
+      },
+      "Cerebellar medulloblastoma",
+      "6.4092880031004e-05",
+      "0.00112349284357845"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025105&label=Disease",
+        "title": "HBDIS025105"
+      },
+      "Abnormality of the knee",
+      "0.000940699671665961",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022031&label=Disease",
+        "title": "HBDIS022031"
+      },
+      "Oculoskeletal dysplasia",
+      "0.000136792307218043",
+      "0.00196353043855567"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000317&label=Disease",
+        "title": "HBDIS000317"
+      },
+      "Bernard-Soulier Syndrome",
+      "0.000137249904147765",
+      "0.00196752222835428"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000492&label=Disease",
+        "title": "HBDIS000492"
+      },
+      "Cephalhematoma due to birth trauma",
+      "0.000940699671665961",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000670&label=Disease",
+        "title": "HBDIS000670"
+      },
+      "Coronary Thrombosis",
+      "0.00130969998564311",
+      "0.00910979633364641"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000968&label=Disease",
+        "title": "HBDIS000968"
+      },
+      "Epistaxis",
+      "8.38156849487964e-05",
+      "0.00136223878960656"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001140&label=Disease",
+        "title": "HBDIS001140"
+      },
+      "Gastrointestinal Hemorrhage",
+      "0.000735960068578143",
+      "0.00634041168727372"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001155&label=Disease",
+        "title": "HBDIS001155"
+      },
+      "Gingival Hemorrhage",
+      "0.000183895478061385",
+      "0.00242603878990892"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002536&label=Disease",
+        "title": "HBDIS002536"
+      },
+      "Pulmonary Embolism",
+      "0.00110671935019079",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002939&label=Disease",
+        "title": "HBDIS002939"
+      },
+      "Thrombosis",
+      "2.6956951587213e-06",
+      "9.45570110637175e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003097&label=Disease",
+        "title": "HBDIS003097"
+      },
+      "Venous Thrombosis",
+      "0.000768305282027422",
+      "0.00655312834134381"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003543&label=Disease",
+        "title": "HBDIS003543"
+      },
+      "Primary Raynaud Phenomenon",
+      "0.000272372366309991",
+      "0.00322653745118781"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006771&label=Disease",
+        "title": "HBDIS006771"
+      },
+      "Dysfibrinogenemia, Congenital",
+      "2.97088570878996e-08",
+      "2.13273562725564e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010162&label=Disease",
+        "title": "HBDIS010162"
+      },
+      "Hypofibrinogenemia",
+      "1.9581226324995e-05",
+      "0.00045391227897955"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010355&label=Disease",
+        "title": "HBDIS010355"
+      },
+      "Factor V Leiden mutation",
+      "0.000154291435754826",
+      "0.00214973953978172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010489&label=Disease",
+        "title": "HBDIS010489"
+      },
+      "Activated Protein C Resistance",
+      "0.000123812643528405",
+      "0.00182314747940976"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012586&label=Disease",
+        "title": "HBDIS012586"
+      },
+      "Acquired haemophilia",
+      "0.000674914393519434",
+      "0.00600389779813197"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012848&label=Disease",
+        "title": "HBDIS012848"
+      },
+      "Dysfibrinogenemia",
+      "6.36806584014123e-07",
+      "2.89284825464042e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018994&label=Disease",
+        "title": "HBDIS018994"
+      },
+      "cephalohematoma",
+      "0.000940699671665961",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026411&label=Disease",
+        "title": "HBDIS026411"
+      },
+      "Fibrinogen Deficiency",
+      "1.14536228807152e-05",
+      "0.000298960959865823"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000078&label=Disease",
+        "title": "HBDIS000078"
+      },
+      "Afibrinogenemia",
+      "2.48365468067607e-05",
+      "0.00054470445119682"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003654&label=Disease",
+        "title": "HBDIS003654"
+      },
+      "Joint swelling",
+      "0.00119274893566018",
+      "0.00858117206758542"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004769&label=Disease",
+        "title": "HBDIS004769"
+      },
+      "Intermenstrual heavy bleeding",
+      "1.66395937953949e-05",
+      "0.000400134327491623"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009615&label=Disease",
+        "title": "HBDIS009615"
+      },
+      "Hypodysfibrinogenemia",
+      "6.89607255154209e-08",
+      "4.41646941560271e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013536&label=Disease",
+        "title": "HBDIS013536"
+      },
+      "fibrinogen activity",
+      "0.000193285662482545",
+      "0.00251583221682544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014554&label=Disease",
+        "title": "HBDIS014554"
+      },
+      "Fibrinogen, CTCAE",
+      "0.000193285662482545",
+      "0.00251583221682544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019174&label=Disease",
+        "title": "HBDIS019174"
+      },
+      "Congenital hypofibrinogenemia",
+      "6.00166782700042e-06",
+      "0.000179383875891573"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021402&label=Disease",
+        "title": "HBDIS021402"
+      },
+      "Complement Factor I (C3 inactivator) deficiency",
+      "6.00166782700042e-06",
+      "0.000179383875891573"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001157&label=Disease",
+        "title": "HBDIS001157"
+      },
+      "Gingival Hypertrophy",
+      "0.000940699671665961",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003838&label=Disease",
+        "title": "HBDIS003838"
+      },
+      "Hemangioma of retina",
+      "0.000272372366309991",
+      "0.00322653745118781"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010101&label=Disease",
+        "title": "HBDIS010101"
+      },
+      "Fistula of branchial cleft",
+      "0.000674914393519434",
+      "0.00600389779813197"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019435&label=Disease",
+        "title": "HBDIS019435"
+      },
+      "Leukodystrophy, Hypomyelinating, with Hypodontia and Hypogonadotropic Hypogonadism",
+      "1.21224812609425e-06",
+      "4.92694678278099e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024400&label=Disease",
+        "title": "HBDIS024400"
+      },
+      "Short face",
+      "0.000451943484955289",
+      "0.00461269428897953"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025065&label=Disease",
+        "title": "HBDIS025065"
+      },
+      "CNS hypomyelination",
+      "0.000427100171491043",
+      "0.0044226942719679"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000435&label=Target",
+        "title": "HBTAR000435"
+      },
+      "C1S",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11980/",
+          "title": "TCMID:11980"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000776&label=Target",
+        "title": "HBTAR000776"
+      },
+      "COL1A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1875/",
+          "title": "TCMID:1875"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00731"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000777&label=Target",
+        "title": "HBTAR000777"
+      },
+      "COL1A2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/5189/",
+          "title": "TCMID:5189"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02936"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000778&label=Target",
+        "title": "HBTAR000778"
+      },
+      "COL2A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11544/",
+          "title": "TCMID:11544"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02884"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000779&label=Target",
+        "title": "HBTAR000779"
+      },
+      "COL3A1",
+      [
+        {
+          "link": "http://lifecenter.sgst.cn/hit/",
+          "title": "HIT:T0344"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02885"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000780&label=Target",
+        "title": "HBTAR000780"
+      },
+      "COL4A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2984/",
+          "title": "TCMID:2984"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000781&label=Target",
+        "title": "HBTAR000781"
+      },
+      "COL4A2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1545/",
+          "title": "TCMID:1545"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000782&label=Target",
+        "title": "HBTAR000782"
+      },
+      "COL4A3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9381/",
+          "title": "TCMID:9381"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000783&label=Target",
+        "title": "HBTAR000783"
+      },
+      "COL4A4",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/6636/",
+          "title": "TCMID:6636"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000784&label=Target",
+        "title": "HBTAR000784"
+      },
+      "COL4A5",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/10001/",
+          "title": "TCMID:10001"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000785&label=Target",
+        "title": "HBTAR000785"
+      },
+      "COL4A6",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9018/",
+          "title": "TCMID:9018"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000786&label=Target",
+        "title": "HBTAR000786"
+      },
+      "COL5A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2492/",
+          "title": "TCMID:2492"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000787&label=Target",
+        "title": "HBTAR000787"
+      },
+      "COL5A2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/603/",
+          "title": "TCMID:603"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000788&label=Target",
+        "title": "HBTAR000788"
+      },
+      "COL6A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/182/",
+          "title": "TCMID:182"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000790&label=Target",
+        "title": "HBTAR000790"
+      },
+      "COL6A3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/6807/",
+          "title": "TCMID:6807"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000791&label=Target",
+        "title": "HBTAR000791"
+      },
+      "COL7A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1455/",
+          "title": "TCMID:1455"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000792&label=Target",
+        "title": "HBTAR000792"
+      },
+      "COL9A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/13583/",
+          "title": "TCMID:13583"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000793&label=Target",
+        "title": "HBTAR000793"
+      },
+      "COL9A2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/4695/",
+          "title": "TCMID:4695"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000794&label=Target",
+        "title": "HBTAR000794"
+      },
+      "COL9A3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/5933/",
+          "title": "TCMID:5933"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000795&label=Target",
+        "title": "HBTAR000795"
+      },
+      "COL10A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/5490/",
+          "title": "TCMID:5490"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000796&label=Target",
+        "title": "HBTAR000796"
+      },
+      "COL11A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/257/",
+          "title": "TCMID:257"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000797&label=Target",
+        "title": "HBTAR000797"
+      },
+      "COL11A2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/16049/",
+          "title": "TCMID:16049"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000801&label=Target",
+        "title": "HBTAR000801"
+      },
+      "COL16A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3442/",
+          "title": "TCMID:3442"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000802&label=Target",
+        "title": "HBTAR000802"
+      },
+      "COL17A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/12497/",
+          "title": "TCMID:12497"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001301&label=Target",
+        "title": "HBTAR001301"
+      },
+      "F2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2323/",
+          "title": "TCMID:2323"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001367&label=Target",
+        "title": "HBTAR001367"
+      },
+      "FGA",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9955/",
+          "title": "TCMID:9955"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001368&label=Target",
+        "title": "HBTAR001368"
+      },
+      "FGB",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1881/",
+          "title": "TCMID:1881"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001387&label=Target",
+        "title": "HBTAR001387"
+      },
+      "FGG",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2562/",
+          "title": "TCMID:2562"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001423&label=Target",
+        "title": "HBTAR001423"
+      },
+      "FN1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/6438/",
+          "title": "TCMID:6438"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002127&label=Target",
+        "title": "HBTAR002127"
+      },
+      "ITGA1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8637/",
+          "title": "TCMID:8637"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002128&label=Target",
+        "title": "HBTAR002128"
+      },
+      "ITGA2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/6041/",
+          "title": "TCMID:6041"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002507&label=Target",
+        "title": "HBTAR002507"
+      },
+      "MMP1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8585/",
+          "title": "TCMID:8585"
+        },
+        {
+          "link": "https://www.symmap.org/detail/SMTT02132",
+          "title": "SymMap:SMTT02132"
+        },
+        {
+          "link": "http://lifecenter.sgst.cn/hit/",
+          "title": "HIT:T0086"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00353"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002783&label=Target",
+        "title": "HBTAR002783"
+      },
+      "DDR2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8085/",
+          "title": "TCMID:8085"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002839&label=Target",
+        "title": "HBTAR002839"
+      },
+      "P4HA1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/13573/",
+          "title": "TCMID:13573"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR03837"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003087&label=Target",
+        "title": "HBTAR003087"
+      },
+      "POLR2B",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/7500/",
+          "title": "TCMID:7500"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003088&label=Target",
+        "title": "HBTAR003088"
+      },
+      "POLR2C",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/6570/",
+          "title": "TCMID:6570"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003089&label=Target",
+        "title": "HBTAR003089"
+      },
+      "POLR2D",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/7105/",
+          "title": "TCMID:7105"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003090&label=Target",
+        "title": "HBTAR003090"
+      },
+      "POLR2E",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/15072/",
+          "title": "TCMID:15072"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003091&label=Target",
+        "title": "HBTAR003091"
+      },
+      "POLR2F",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1388/",
+          "title": "TCMID:1388"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003092&label=Target",
+        "title": "HBTAR003092"
+      },
+      "POLR2G",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/12510/",
+          "title": "TCMID:12510"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003093&label=Target",
+        "title": "HBTAR003093"
+      },
+      "POLR2I",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11657/",
+          "title": "TCMID:11657"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003094&label=Target",
+        "title": "HBTAR003094"
+      },
+      "POLR2J",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2533/",
+          "title": "TCMID:2533"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003095&label=Target",
+        "title": "HBTAR003095"
+      },
+      "POLR2K",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/12811/",
+          "title": "TCMID:12811"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003096&label=Target",
+        "title": "HBTAR003096"
+      },
+      "POLR2L",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/4544/",
+          "title": "TCMID:4544"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003214&label=Target",
+        "title": "HBTAR003214"
+      },
+      "PRODH",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9014/",
+          "title": "TCMID:9014"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003225&label=Target",
+        "title": "HBTAR003225"
+      },
+      "MASP1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/619/",
+          "title": "TCMID:619"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003347&label=Target",
+        "title": "HBTAR003347"
+      },
+      "PYCR1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2617/",
+          "title": "TCMID:2617"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR03739"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003872&label=Target",
+        "title": "HBTAR003872"
+      },
+      "SPARC",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/10960/",
+          "title": "TCMID:10960"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004016&label=Target",
+        "title": "HBTAR004016"
+      },
+      "TCEA1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/10207/",
+          "title": "TCMID:10207"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004017&label=Target",
+        "title": "HBTAR004017"
+      },
+      "TCEA2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1169/",
+          "title": "TCMID:1169"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004018&label=Target",
+        "title": "HBTAR004018"
+      },
+      "TCEA3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/14745/",
+          "title": "TCMID:14745"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004019&label=Target",
+        "title": "HBTAR004019"
+      },
+      "ELOC",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/",
+          "title": "TCMID"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004020&label=Target",
+        "title": "HBTAR004020"
+      },
+      "ELOB",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/15955/",
+          "title": "TCMID:15955"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004278&label=Target",
+        "title": "HBTAR004278"
+      },
+      "COL14A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/846/",
+          "title": "TCMID:846"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004314&label=Target",
+        "title": "HBTAR004314"
+      },
+      "VHL",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9520/",
+          "title": "TCMID:9520"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004327&label=Target",
+        "title": "HBTAR004327"
+      },
+      "VWF",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2089/",
+          "title": "TCMID:2089"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004607&label=Target",
+        "title": "HBTAR004607"
+      },
+      "COLQ",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/4945/",
+          "title": "TCMID:4945"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004968&label=Target",
+        "title": "HBTAR004968"
+      },
+      "P4HA2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/12821/",
+          "title": "TCMID:12821"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR03697"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR005222&label=Target",
+        "title": "HBTAR005222"
+      },
+      "MED26",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/14984/",
+          "title": "TCMID:14984"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR005281&label=Target",
+        "title": "HBTAR005281"
+      },
+      "POLR1C",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/6588/",
+          "title": "TCMID:6588"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR006010&label=Target",
+        "title": "HBTAR006010"
+      },
+      "MASP2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1502/",
+          "title": "TCMID:1502"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR006205&label=Target",
+        "title": "HBTAR006205"
+      },
+      "POLR3A",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/13305/",
+          "title": "TCMID:13305"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR006894&label=Target",
+        "title": "HBTAR006894"
+      },
+      "POLR1A",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/4752/",
+          "title": "TCMID:4752"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR006962&label=Target",
+        "title": "HBTAR006962"
+      },
+      "UBXN7",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/14536/",
+          "title": "TCMID:14536"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007400&label=Target",
+        "title": "HBTAR007400"
+      },
+      "POLR1H",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/",
+          "title": "TCMID"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007422&label=Target",
+        "title": "HBTAR007422"
+      },
+      "COL5A3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3760/",
+          "title": "TCMID:3760"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007518&label=Target",
+        "title": "HBTAR007518"
+      },
+      "POLR1D",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/186/",
+          "title": "TCMID:186"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007797&label=Target",
+        "title": "HBTAR007797"
+      },
+      "POLR3K",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8483/",
+          "title": "TCMID:8483"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR008401&label=Target",
+        "title": "HBTAR008401"
+      },
+      "POLR3B",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8938/",
+          "title": "TCMID:8938"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR008909&label=Target",
+        "title": "HBTAR008909"
+      },
+      "COL20A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/5020/",
+          "title": "TCMID:5020"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR008999&label=Target",
+        "title": "HBTAR008999"
+      },
+      "PRODH2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/17427/",
+          "title": "TCMID:17427"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR009264&label=Target",
+        "title": "HBTAR009264"
+      },
+      "VWA1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9959/",
+          "title": "TCMID:9959"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR009316&label=Target",
+        "title": "HBTAR009316"
+      },
+      "PYCR3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/15073/",
+          "title": "TCMID:15073"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010012&label=Target",
+        "title": "HBTAR010012"
+      },
+      "POLR1B",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1473/",
+          "title": "TCMID:1473"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010107&label=Target",
+        "title": "HBTAR010107"
+      },
+      "COL25A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2075/",
+          "title": "TCMID:2075"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010251&label=Target",
+        "title": "HBTAR010251"
+      },
+      "COL27A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1111/",
+          "title": "TCMID:1111"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010394&label=Target",
+        "title": "HBTAR010394"
+      },
+      "COL23A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8576/",
+          "title": "TCMID:8576"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010553&label=Target",
+        "title": "HBTAR010553"
+      },
+      "L3HYPDH",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/14409/",
+          "title": "TCMID:14409"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010861&label=Target",
+        "title": "HBTAR010861"
+      },
+      "TCEANC2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/14079/",
+          "title": "TCMID:14079"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010936&label=Target",
+        "title": "HBTAR010936"
+      },
+      "COL6A6",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/7829/",
+          "title": "TCMID:7829"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR011466&label=Target",
+        "title": "HBTAR011466"
+      },
+      "COL22A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11126/",
+          "title": "TCMID:11126"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR011505&label=Target",
+        "title": "HBTAR011505"
+      },
+      "POLR3H",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/10141/",
+          "title": "TCMID:10141"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR011773&label=Target",
+        "title": "HBTAR011773"
+      },
+      "COL24A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/7450/",
+          "title": "TCMID:7450"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR011781&label=Target",
+        "title": "HBTAR011781"
+      },
+      "COL6A5",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/15427/",
+          "title": "TCMID:15427"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR011838&label=Target",
+        "title": "HBTAR011838"
+      },
+      "P4HA3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2499/",
+          "title": "TCMID:2499"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR012389&label=Target",
+        "title": "HBTAR012389"
+      },
+      "POLR2J3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/4506/",
+          "title": "TCMID:4506"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN029753",
+      "Hydroxyproline",
+      "C5H9NO3",
+      "C1C(CNC1C(=O)O)O",
+      "131.13",
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/33336/",
+        "title": "33336"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/5810",
+        "title": "5810"
+      }
+    ]
+  ]
+}

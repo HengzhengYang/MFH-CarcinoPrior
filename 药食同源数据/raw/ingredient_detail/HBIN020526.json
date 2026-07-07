@@ -1,0 +1,616 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004401&label=Herb",
+        "title": "HERB004401"
+      },
+      "PU GONG YING",
+      "蒲公英",
+      "Mongolian Dandelion",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Taraxacum mongolicum"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NA"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000114&label=Disease",
+        "title": "HBDIS000114"
+      },
+      "Altitude Sickness",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000146&label=Disease",
+        "title": "HBDIS000146"
+      },
+      "Anemia, Hemolytic, Acquired",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000154&label=Disease",
+        "title": "HBDIS000154"
+      },
+      "Anemia, Microangiopathic",
+      "0.00102896944752256",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000385&label=Disease",
+        "title": "HBDIS000385"
+      },
+      "Brain Death",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000438&label=Disease",
+        "title": "HBDIS000438"
+      },
+      "Carbon Monoxide Poisoning",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000798&label=Disease",
+        "title": "HBDIS000798"
+      },
+      "Pathological Dilatation",
+      "0.000712363463669464",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000806&label=Disease",
+        "title": "HBDIS000806"
+      },
+      "Iron Metabolism Disorders",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001307&label=Disease",
+        "title": "HBDIS001307"
+      },
+      "Hemoglobin SC Disease",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001311&label=Disease",
+        "title": "HBDIS001311"
+      },
+      "Hemolysis (disorder)",
+      "0.000474908975779642",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001764&label=Disease",
+        "title": "HBDIS001764"
+      },
+      "Liver Abscess, Amebic",
+      "0.0015038784233022",
+      "0.00990856799135117"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002457&label=Disease",
+        "title": "HBDIS002457"
+      },
+      "Poxviridae Infections",
+      "0.000791514959632737",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002753&label=Disease",
+        "title": "HBDIS002753"
+      },
+      "Siderosis",
+      "0.0015038784233022",
+      "0.00990856799135117"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003405&label=Disease",
+        "title": "HBDIS003405"
+      },
+      "Ileal Pouches",
+      "0.000791514959632737",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003500&label=Disease",
+        "title": "HBDIS003500"
+      },
+      "Primary dysmenorrhea",
+      "0.00102896944752256",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003740&label=Disease",
+        "title": "HBDIS003740"
+      },
+      "Viral gastroenteritis",
+      "0.000791514959632737",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003775&label=Disease",
+        "title": "HBDIS003775"
+      },
+      "Malignant neoplasm of upper third of esophagus",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003776&label=Disease",
+        "title": "HBDIS003776"
+      },
+      "Malignant neoplasm of middle third of esophagus",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003777&label=Disease",
+        "title": "HBDIS003777"
+      },
+      "Malignant neoplasm of lower third of esophagus",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003778&label=Disease",
+        "title": "HBDIS003778"
+      },
+      "Malignant neoplasm of other specified part of esophagus",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004105&label=Disease",
+        "title": "HBDIS004105"
+      },
+      "Retinal ischemia",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004600&label=Disease",
+        "title": "HBDIS004600"
+      },
+      "Centriacinar Emphysema",
+      "0.00102896944752256",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005662&label=Disease",
+        "title": "HBDIS005662"
+      },
+      "Panacinar Emphysema",
+      "0.000870666455596011",
+      "0.00707658671810716"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006731&label=Disease",
+        "title": "HBDIS006731"
+      },
+      "Qualitative abnormality of granulocyte",
+      "0.0015038784233022",
+      "0.00990856799135117"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006737&label=Disease",
+        "title": "HBDIS006737"
+      },
+      "Indolent Systemic Mastocytosis",
+      "0.000474908975779642",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006880&label=Disease",
+        "title": "HBDIS006880"
+      },
+      "Infection by Leishmania infantum",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007340&label=Disease",
+        "title": "HBDIS007340"
+      },
+      "Extravascular Hemolysis",
+      "0.000474908975779642",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008406&label=Disease",
+        "title": "HBDIS008406"
+      },
+      "Carcinoma in situ of mouth",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008585&label=Disease",
+        "title": "HBDIS008585"
+      },
+      "Diffuse inflammation",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008632&label=Disease",
+        "title": "HBDIS008632"
+      },
+      "Toxic effect of carbon tetrachloride",
+      "0.000474908975779642",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008859&label=Disease",
+        "title": "HBDIS008859"
+      },
+      "Postoperative ileus",
+      "0.00110812094348583",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009752&label=Disease",
+        "title": "HBDIS009752"
+      },
+      "Malignant neoplasm of abdominal part of esophagus",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009772&label=Disease",
+        "title": "HBDIS009772"
+      },
+      "hypertension complicated",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009787&label=Disease",
+        "title": "HBDIS009787"
+      },
+      "Left atrial myxoma",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010479&label=Disease",
+        "title": "HBDIS010479"
+      },
+      "External Carotid Artery Diseases",
+      "0.000870666455596011",
+      "0.00707658671810716"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010745&label=Disease",
+        "title": "HBDIS010745"
+      },
+      "Proliferative diabetic retinopathy - quiescent",
+      "0.000474908975779642",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011112&label=Disease",
+        "title": "HBDIS011112"
+      },
+      "Internal Carotid Artery Diseases",
+      "0.000870666455596011",
+      "0.00707658671810716"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011113&label=Disease",
+        "title": "HBDIS011113"
+      },
+      "Arterial Diseases, Common Carotid",
+      "0.000870666455596011",
+      "0.00707658671810716"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011444&label=Disease",
+        "title": "HBDIS011444"
+      },
+      "Carbamoyl-Phosphate Synthase I Deficiency Disease",
+      "0.00142472692733892",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011506&label=Disease",
+        "title": "HBDIS011506"
+      },
+      "Vasospasm, Intracranial",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012664&label=Disease",
+        "title": "HBDIS012664"
+      },
+      "Aggressive Systemic Mastocytosis",
+      "0.000791514959632737",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012827&label=Disease",
+        "title": "HBDIS012827"
+      },
+      "Ileus",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012858&label=Disease",
+        "title": "HBDIS012858"
+      },
+      "Stenosis",
+      "0.00142472692733892",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013191&label=Disease",
+        "title": "HBDIS013191"
+      },
+      "Secondary Raynaud's phenomenon",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014228&label=Disease",
+        "title": "HBDIS014228"
+      },
+      "Alcoholic liver damage",
+      "0.000474908975779642",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014427&label=Disease",
+        "title": "HBDIS014427"
+      },
+      "Undifferentiated Neuroblastoma",
+      "0.000791514959632737",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014600&label=Disease",
+        "title": "HBDIS014600"
+      },
+      "Delayed Graft Function",
+      "0.000474908975779642",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015884&label=Disease",
+        "title": "HBDIS015884"
+      },
+      "Heme Oxygenase 1 Deficiency",
+      "0.000237454487889822",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017741&label=Disease",
+        "title": "HBDIS017741"
+      },
+      "Antley-Bixler Syndrome with Disordered Steroidogenesis",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019119&label=Disease",
+        "title": "HBDIS019119"
+      },
+      "Pancreatitis, Graft",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019127&label=Disease",
+        "title": "HBDIS019127"
+      },
+      "Focal Emphysema",
+      "0.000870666455596011",
+      "0.00707658671810716"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026623&label=Disease",
+        "title": "HBDIS026623"
+      },
+      "Thin-cap fibroatheroma",
+      "0.000791514959632737",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026983&label=Disease",
+        "title": "HBDIS026983"
+      },
+      "Light induced retinopathy",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027684&label=Disease",
+        "title": "HBDIS027684"
+      },
+      "Sickle cell hepatopathy",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001851&label=Target",
+        "title": "HBTAR001851"
+      },
+      "HMOX1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9480/",
+          "title": "TCMID:9480"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02132"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN020526",
+      "cichoric acid",
+      "C22H18O12",
+      "C1=CC(=C(C=C1C=CC(=O)OC(C(C(=O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O)C(=O)O)O)O",
+      "474.4",
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/33208/",
+        "title": "33208"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/5281764",
+        "title": "5281764"
+      }
+    ]
+  ]
+}

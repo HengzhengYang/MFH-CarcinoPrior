@@ -1,0 +1,394 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000222&label=Herb",
+        "title": "HERB000222"
+      },
+      "BAI JIAO XIANG",
+      "白胶香",
+      "Beautiful Sweetgum Resin",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Resina Liquidambaris"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001164&label=Herb",
+        "title": "HERB001164"
+      },
+      "DA ZAO",
+      "大枣",
+      "Jujube Chinese date",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Zizyphi Jujubae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004060&label=Herb",
+        "title": "HERB004060"
+      },
+      "MU TONG",
+      "木通",
+      "Akebia, Clematis stem",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Caulis Aristolochiae seu Clematis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004469&label=Herb",
+        "title": "HERB004469"
+      },
+      "QIAN NIU ZI",
+      "牵牛子",
+      "Pharbitis seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Pharbitidis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005287&label=Herb",
+        "title": "HERB005287"
+      },
+      "SU HE XIANG",
+      "苏合香",
+      "Storax",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Styrax"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005288&label=Herb",
+        "title": "HERB005288"
+      },
+      "SU HE XIANG YOU",
+      "苏合香油",
+      "Storax oil",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Oleum Storax"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "3-OXOOLEANOLIC ACID; MFCD09752411; BDBM50346613; AKOS032948921; 8016AH; 6785-78-0; 3-oxo-olean-12-en-28-oic acid; 17990-42-0; Oleanonic acid/3-Oxo-olean-12-en-28-oic acid; 990O420; 3-Oxoolean-12-en-28-oic Acid; (4AS,6AS,6BR,8AR,12AR,12BR,14BS)-2,2,6A,6B,9,9,12A-HEPTAMETHYL-10-OXO-3,4,5,6,7,8,8A,11,12,12B,13,14B-DODECAHYDRO-1H-PICENE-4A-CARBOXYLIC ACID; 4CN-2712; SC-98263; Q-100212; BG01745017; D02KKU; SCHEMBL246220; Olean-12-en-28-oic acid, 3-oxo-; HY-N1487; ZINC13558220; MolPort-020-005-912; 3-Oxo-olean-12-en28-saure; CHEMBL470029; CS-5795"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001678&label=Disease",
+        "title": "HBDIS001678"
+      },
+      "Leishmaniasis",
+      "0.000184279569324136",
+      "0.00242997712865706"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001880&label=Disease",
+        "title": "HBDIS001880"
+      },
+      "Mediastinal Neoplasms",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003800&label=Disease",
+        "title": "HBDIS003800"
+      },
+      "Malignant tumor of mediastinum",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004220&label=Disease",
+        "title": "HBDIS004220"
+      },
+      "Eosinophil count procedure",
+      "0.00106094206557849",
+      "0.00802907174552057"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004473&label=Disease",
+        "title": "HBDIS004473"
+      },
+      "Adult Hodgkin Lymphoma",
+      "0.000631595480255978",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004487&label=Disease",
+        "title": "HBDIS004487"
+      },
+      "Childhood Hodgkin Lymphoma",
+      "0.000627623181638016",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016853&label=Disease",
+        "title": "HBDIS016853"
+      },
+      "INSULIN RESISTANCE, SUSCEPTIBILITY TO",
+      "0.000316593452942628",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018626&label=Disease",
+        "title": "HBDIS018626"
+      },
+      "Precursor T-Cell Lymphoblastic Leukemia-Lymphoma",
+      "0.00146468800081742",
+      "0.00973126849850221"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026079&label=Disease",
+        "title": "HBDIS026079"
+      },
+      "Diffuse Glioma",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006943&label=Disease",
+        "title": "HBDIS006943"
+      },
+      "Breast cancer stage II",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026538&label=Disease",
+        "title": "HBDIS026538"
+      },
+      "Vitamin D Dependent Rickets 2",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026822&label=Disease",
+        "title": "HBDIS026822"
+      },
+      "Stage II Breast Cancer AJCC v6 and v7",
+      "0.00142427581456212",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026965&label=Disease",
+        "title": "HBDIS026965"
+      },
+      "Anatomic Stage II Breast Cancer AJCC v8",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026973&label=Disease",
+        "title": "HBDIS026973"
+      },
+      "Prognostic Stage II Breast Cancer AJCC v8",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003306&label=Target",
+        "title": "HBTAR003306"
+      },
+      "PTPN1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3927/",
+          "title": "TCMID:3927"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003307&label=Target",
+        "title": "HBTAR003307"
+      },
+      "PTPN2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/12110/",
+          "title": "TCMID:12110"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000233&label=Target",
+        "title": "HBTAR000233"
+      },
+      "AR",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00048"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001692&label=Target",
+        "title": "HBTAR001692"
+      },
+      "NR3C1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00308"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN038023",
+      "oleanonic acid",
+      "3-OXOOLEANOLIC ACID; MFCD09752411; BDBM50346613; AKOS032948921; 8016AH; 6785-78-0; 3-oxo-olean-12-en-28-oic acid; 17990-42-0; Oleanonic acid/3-Oxo-olean-12-en-28-oic acid; 990O420; 3-Oxoolean-12-en-28-oic Acid; (4AS,6AS,6BR,8AR,12AR,12BR,14BS)-2,2,6A,6B,9,9,12A-HEPTAMETHYL-10-OXO-3,4,5,6,7,8,8A,11,12,12B,13,14B-DODECAHYDRO-1H-PICENE-4A-CARBOXYLIC ACID; 4CN-2712; SC-98263; Q-100212; BG01745017; D02KKU; SCHEMBL246220; Olean-12-en-28-oic acid, 3-oxo-; HY-N1487; ZINC13558220; MolPort-020-005-912; 3-Oxo-olean-12-en28-saure; CHEMBL470029; CS-5795",
+      "C30H46O3",
+      "CC1(CCC2(CCC3(C(=CCC4C3(CCC5C4(CCC(=O)C5(C)C)C)C)C2C1)C)C(=O)O)C",
+      "454.68",
+      "21.55063146",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "17990-42-0"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT00543",
+        "title": "SMIT00543"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/23692/",
+        "title": "23692"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL003776"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/12313704",
+        "title": "12313704"
+      }
+    ]
+  ]
+}

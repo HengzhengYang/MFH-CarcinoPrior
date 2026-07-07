@@ -1,0 +1,171 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001779&label=Herb",
+        "title": "HERB001779"
+      },
+      "GAN CAO",
+      "甘草",
+      "Root of Ural Licorice",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Glycyrrhizae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004883&label=Herb",
+        "title": "HERB004883"
+      },
+      "SHAN DOU GEN",
+      "山豆根",
+      "Vietmese Sophora Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Sophorae Tonkinensis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB007046&label=Herb",
+        "title": "HERB007046"
+      },
+      "ZHI ZI",
+      "栀子",
+      "fruit of Cape Jasmine",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Gardeniae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "4',7-Dihydroxyflavone; SPECTRUM1500721; FLAVONE, 4',7-DIHYDROXY-; 7,4'- dihydroxyflavone; NCGC00096029-01; ST5309369; ZINC00057658; 7-hydroxy-2-(4-hydroxyphenyl)-4-chromenone; 2196-14-7; 4H-1-Benzopyran-4-one, 7-hydroxy-2-(4-hydroxyphenyl)-; 7-hydroxy-2-(4-hydroxyphenyl)chromen-4-one; KBioGR_001900; Spectrum4_001280; C12123; 5-18-04-00083 (Beilstein Handbook Reference); BRN 0224356; 7-hydroxy-2-(4-hydroxyphenyl)chromone"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN012928",
+      "7,4'-Dihydroxyflavone",
+      "4',7-Dihydroxyflavone; SPECTRUM1500721; FLAVONE, 4',7-DIHYDROXY-; 7,4'- dihydroxyflavone; NCGC00096029-01; ST5309369; ZINC00057658; 7-hydroxy-2-(4-hydroxyphenyl)-4-chromenone; 2196-14-7; 4H-1-Benzopyran-4-one, 7-hydroxy-2-(4-hydroxyphenyl)-; 7-hydroxy-2-(4-hydroxyphenyl)chromen-4-one; KBioGR_001900; Spectrum4_001280; C12123; 5-18-04-00083 (Beilstein Handbook Reference); BRN 0224356; 7-hydroxy-2-(4-hydroxyphenyl)chromone",
+      "C15H10O4",
+      "C1=CC(=C(C=C1O)O)C2=CC(=O)C3=C(O2)C=C(C=C3)O",
+      "254.24",
+      "19.18271171",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "2196-14-7"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT05700",
+        "title": "SMIT05700"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL003662"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "12280"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/10015943",
+        "title": "10015943"
+      }
+    ]
+  ]
+}

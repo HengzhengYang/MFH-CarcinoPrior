@@ -1,0 +1,234 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001787&label=Herb",
+        "title": "HERB001787"
+      },
+      "GAN JIANG",
+      "干姜",
+      "Dried Ginger",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Zingiberis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002168&label=Herb",
+        "title": "HERB002168"
+      },
+      "HE HUA",
+      "荷花",
+      "Flos Nelumbinis Immaturus",
+      "NA"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002276&label=Herb",
+        "title": "HERB002276"
+      },
+      "HONG HUA",
+      "红花",
+      "Safflower",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Carthami"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003608&label=Herb",
+        "title": "HERB003608"
+      },
+      "LUO XIN FU",
+      "落新妇",
+      "Ch inese Astilbe",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Astilbe chinensis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003960&label=Herb",
+        "title": "HERB003960"
+      },
+      "MIAN MA",
+      "棉麻",
+      "Male-fern",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Dryopteris filix- mas"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004187&label=Herb",
+        "title": "HERB004187"
+      },
+      "NIU BANG GEN",
+      "牛蒡根",
+      "Great Burdock Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Arctium lappa"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006087&label=Herb",
+        "title": "HERB006087"
+      },
+      "XIAO GUO QIANG WEI GEN",
+      "小果蔷薇根",
+      "Smallfruit Rose",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rosa cymosa"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006292&label=Herb",
+        "title": "HERB006292"
+      },
+      "XUE LIAN",
+      "雪莲",
+      "Snow Lotus",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Saussurea involucrata"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "C-28207; S0347; Hexahydroaplotaxene; EINECS 229-825-6; FT-0607874; alpha olefins (petroleum), C10 cut; CTK1A2786; LMFA11000318; CC-04579; NSC 77132; AI3-36483; alpha-Olefin wax; KB-65151; 67774-72-5; AKOS015912747; 1-HEPTADECENE; P33057D09T; 67774-73-6; NSC-77132; CHEBI:64502; ACMC-1B58L; 6765-39-5; ZINC59201194; UNII-P33057D09T; MFCD00009000; 1-Heptadecene, 98%; alpha olefins (petroleum), (C11-C12) cut; alpha olefins (petroleum), (C11-C14) cut; AC1L2LWJ; alpha olefins (petroleum), (C15-C20) cut; AC1Q2W2S; NSC77132; C>10 alpha-Alkenes; Alkenes, C>10 .alpha.-; DB-055053; TR-022717; alpha olefins (petroleum), (C18-C20) cut; HEPTADECENE; I14-47310; EINECS 265-207-2; Heptadecene (Related); Alkenes, C>10 alpha-; AN-21270; ADOBXTDBFNCOBN-UHFFFAOYSA-N; heptadec-1-ene; 26266-05-7; SBB008785; heptadecen; 64743-02-8; EINECS 247-567-2; 1-Heptadecene"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN002570",
+      "1-heptadecene",
+      "C-28207; S0347; Hexahydroaplotaxene; EINECS 229-825-6; FT-0607874; alpha olefins (petroleum), C10 cut; CTK1A2786; LMFA11000318; CC-04579; NSC 77132; AI3-36483; alpha-Olefin wax; KB-65151; 67774-72-5; AKOS015912747; 1-HEPTADECENE; P33057D09T; 67774-73-6; NSC-77132; CHEBI:64502; ACMC-1B58L; 6765-39-5; ZINC59201194; UNII-P33057D09T; MFCD00009000; 1-Heptadecene, 98%; alpha olefins (petroleum), (C11-C12) cut; alpha olefins (petroleum), (C11-C14) cut; AC1L2LWJ; alpha olefins (petroleum), (C15-C20) cut; AC1Q2W2S; NSC77132; C>10 alpha-Alkenes; Alkenes, C>10 .alpha.-; DB-055053; TR-022717; alpha olefins (petroleum), (C18-C20) cut; HEPTADECENE; I14-47310; EINECS 265-207-2; Heptadecene (Related); Alkenes, C>10 alpha-; AN-21270; ADOBXTDBFNCOBN-UHFFFAOYSA-N; heptadec-1-ene; 26266-05-7; SBB008785; heptadecen; 64743-02-8; EINECS 247-567-2; 1-Heptadecene",
+      "C17H34",
+      "CCCCCCCCCCCCCCCC=C",
+      "238.5",
+      {
+        "link": "https://www.symmap.org/detail/SMIT15723",
+        "title": "SMIT15723"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/9384/",
+        "title": "9384"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "9202"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/23217",
+        "title": "23217"
+      }
+    ]
+  ]
+}

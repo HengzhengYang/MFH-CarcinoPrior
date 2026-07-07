@@ -1,0 +1,199 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004694&label=Herb",
+        "title": "HERB004694"
+      },
+      "ROU GUI",
+      "肉桂",
+      "Cassia Bark",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Cortex Cinmomi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004734&label=Herb",
+        "title": "HERB004734"
+      },
+      "RUI REN",
+      "蕤仁",
+      "Hedge Prinsepia Nut",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Nux Prinsepiae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004973&label=Herb",
+        "title": "HERB004973"
+      },
+      "SHE GAN",
+      "射干",
+      "Blackberrylily Rhizome",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Belamcandae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006258&label=Herb",
+        "title": "HERB006258"
+      },
+      "XU CHANG QING",
+      "徐长卿",
+      "Paniculate Swallowwort Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Cynchi Paniculati"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006280&label=Herb",
+        "title": "HERB006280"
+      },
+      "XUAN SHEN",
+      "玄参",
+      "Figwort Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Scrophulariae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "RP19573; 4-hydroxy-2-methoxyphenyl; ZLC0026; BB_SC-6850; 4CN-1025; CS-D1677; M0122; m-Methoxyphenol; CAS-150-19-6; DTXSID0022012; 88189-EP2305648A1; HXB7441U87; NSC-21735; LABOTEST-BB LTBB002880; BDBM36297; 88189-EP2298750A1; 1-HYROXY-4-METHOXYBENZENE; LS-104768; 3-Methoxyphenol, analytical standard; KSC177G7R; m-methoxy-phenol; NSC 21735; METHOXYPHENOL, PARA-; AK105946; 3-methyloxyphenol; FT-0616005; AN-44011; SC-27007; ST2410764; META-METHOXYPHENOL; Resorcinol monomethyl ether; ZINC389516; Phenol, 3-methoxy-; AKOS000120300; InChI=1/C7H8O2/c1-9-7-4-2-3-6(8)5-7/h2-5,8H,1H; PARAGOS 500026; ANW-21265; AI3-00796; m-Guaiacol; Jsp002861; KS-00000V0W; AC1Q4E80; TR-006122; 3-Hydroxyanisole; CHEMBL57891; BG01496812; CHEBI:52678; ASHGTJPOSUFTGB-UHFFFAOYSA-N; DSSTox_CID_2012; DB-002515; AKOS AKM01253; SCHEMBL12015261; SC-06352; 3-Methoxyphenol, 96%; 88189-EP2269977A2; AC1L1S44; STL141067; ZB011737; m-Hydroxyanisol; 3-(methyloxy)phenol; MCULE-7145223398; 88189-EP2270006A1; BBL009702; NSC21735; NCGC00357098-01; 1-Hydroxy-3-methoxybenzene; SBB060932; LABOTEST-BB LTBB001936; ST51047026; OTAVA-BB 1366571; 3-METHOXYPHENOL; PubChem13577; L543; CK1184; METHOXYPHENOL(P-); UNII-HXB7441U87; 3-methoxy phenol; AS00218; MFCD00002267; KS-00000UG4; m-Hydroxyanisole; DSSTox_GSID_22012; I01-7331; zlchem 218; SCHEMBL28256; Tox21_303820; PARA METHOXY PHENOL; EINECS 205-754-6; 150-19-6; AJ-20809; 3-METHOXY-PHENOL; AC-18515; X-1701; Phenol, m-methoxy-; Resorcinol methyl ether; HYDROXYANISOLE-4; 88189-EP2277"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN008847",
+      "3-methoxyphenol",
+      "RP19573; 4-hydroxy-2-methoxyphenyl; ZLC0026; BB_SC-6850; 4CN-1025; CS-D1677; M0122; m-Methoxyphenol; CAS-150-19-6; DTXSID0022012; 88189-EP2305648A1; HXB7441U87; NSC-21735; LABOTEST-BB LTBB002880; BDBM36297; 88189-EP2298750A1; 1-HYROXY-4-METHOXYBENZENE; LS-104768; 3-Methoxyphenol, analytical standard; KSC177G7R; m-methoxy-phenol; NSC 21735; METHOXYPHENOL, PARA-; AK105946; 3-methyloxyphenol; FT-0616005; AN-44011; SC-27007; ST2410764; META-METHOXYPHENOL; Resorcinol monomethyl ether; ZINC389516; Phenol, 3-methoxy-; AKOS000120300; InChI=1/C7H8O2/c1-9-7-4-2-3-6(8)5-7/h2-5,8H,1H; PARAGOS 500026; ANW-21265; AI3-00796; m-Guaiacol; Jsp002861; KS-00000V0W; AC1Q4E80; TR-006122; 3-Hydroxyanisole; CHEMBL57891; BG01496812; CHEBI:52678; ASHGTJPOSUFTGB-UHFFFAOYSA-N; DSSTox_CID_2012; DB-002515; AKOS AKM01253; SCHEMBL12015261; SC-06352; 3-Methoxyphenol, 96%; 88189-EP2269977A2; AC1L1S44; STL141067; ZB011737; m-Hydroxyanisol; 3-(methyloxy)phenol; MCULE-7145223398; 88189-EP2270006A1; BBL009702; NSC21735; NCGC00357098-01; 1-Hydroxy-3-methoxybenzene; SBB060932; LABOTEST-BB LTBB001936; ST51047026; OTAVA-BB 1366571; 3-METHOXYPHENOL; PubChem13577; L543; CK1184; METHOXYPHENOL(P-); UNII-HXB7441U87; 3-methoxy phenol; AS00218; MFCD00002267; KS-00000UG4; m-Hydroxyanisole; DSSTox_GSID_22012; I01-7331; zlchem 218; SCHEMBL28256; Tox21_303820; PARA METHOXY PHENOL; EINECS 205-754-6; 150-19-6; AJ-20809; 3-METHOXY-PHENOL; AC-18515; X-1701; Phenol, m-methoxy-; Resorcinol methyl ether; HYDROXYANISOLE-4; 88189-EP2277",
+      "C7H8O2",
+      "COC1=CC=CC(=C1)O",
+      "124.14",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "150-19-6"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT01858",
+        "title": "SMIT01858"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/23693/",
+        "title": "23693"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "8052"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/9007",
+        "title": "9007"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000178&label=Herb",
+        "title": "HERB000178"
+      },
+      "BAI FAN DOU",
+      "白饭豆",
+      "Kidney Bean",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Phaseolus vulgaris"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001355&label=Herb",
+        "title": "HERB001355"
+      },
+      "DONG GUA PI",
+      "冬瓜皮",
+      "Chinese Waxgourd Peel",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Exocarpium Benincasae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001779&label=Herb",
+        "title": "HERB001779"
+      },
+      "GAN CAO",
+      "甘草",
+      "Root of Ural Licorice",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Glycyrrhizae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004267&label=Herb",
+        "title": "HERB004267"
+      },
+      "OU YA GAN CAO",
+      "欧亚甘草",
+      "Typical Licorice",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Glycyrrhiza glabra var. typica"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "CHEMBL465812; UNII-3A9F71823M; Phaseollinisoflavan; AC1L4R8F; CHEBI:109; 3A9F71823M; LMPK12080014; 6-(7-hydroxychroman-3-yl)-2,2-dimethyl-2H-chromen-5-ol; DTXSID60193326; (3R)-2',2'-dimethyl-3,4-dihydro-2H,2'H-3,6'-bichromene-5',7-diol; (3R)-3,4-Dihydro-2',2'-dimethyl-3,6'-bi[2H-1-benzopyran]-5',7-diol; C10515; 40323-57-7; AC1Q7BE7; Phaseollin (isoflavan); (-)-Phaseollinisoflavan; 6-[(3R)-7-hydroxy-3,4-dihydro-2H-chromen-3-yl]-2,2-dimethylchromen-5-ol; (3,6'-Bi-2H-1-benzopyran)-5',7-diol, 3,4-dihydro-2',2'-dimethyl-, (R)-; (3,6'-bi-2h-1-benzopyran)-5',7-diol, 3,4-dihydro-2',2'-dimethyl-,(r)-"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN039416",
+      "phaseollinisoflavan",
+      "CHEMBL465812; UNII-3A9F71823M; Phaseollinisoflavan; AC1L4R8F; CHEBI:109; 3A9F71823M; LMPK12080014; 6-(7-hydroxychroman-3-yl)-2,2-dimethyl-2H-chromen-5-ol; DTXSID60193326; (3R)-2',2'-dimethyl-3,4-dihydro-2H,2'H-3,6'-bichromene-5',7-diol; (3R)-3,4-Dihydro-2',2'-dimethyl-3,6'-bi[2H-1-benzopyran]-5',7-diol; C10515; 40323-57-7; AC1Q7BE7; Phaseollin (isoflavan); (-)-Phaseollinisoflavan; 6-[(3R)-7-hydroxy-3,4-dihydro-2H-chromen-3-yl]-2,2-dimethylchromen-5-ol; (3,6'-Bi-2H-1-benzopyran)-5',7-diol, 3,4-dihydro-2',2'-dimethyl-, (R)-; (3,6'-bi-2h-1-benzopyran)-5',7-diol, 3,4-dihydro-2',2'-dimethyl-,(r)-",
+      "C20H20O4",
+      "CC1(C=CC2=C(O1)C=CC(=C2O)C3CC4=C(C=C(C=C4)O)OC3)C",
+      "324.4",
+      {
+        "link": "https://www.symmap.org/detail/SMIT17155",
+        "title": "SMIT17155"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/17035/",
+        "title": "17035"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/162412",
+        "title": "162412"
+      }
+    ]
+  ]
+}

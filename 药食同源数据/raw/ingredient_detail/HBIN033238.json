@@ -1,0 +1,169 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001235&label=Herb",
+        "title": "HERB001235"
+      },
+      "DENG XIN CAO",
+      "灯心草",
+      "pith of Common Rush",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Medulla Junci"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001271&label=Herb",
+        "title": "HERB001271"
+      },
+      "DI YU",
+      "地榆",
+      "Root of Garden Burnet",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Sanguisorbae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001734&label=Herb",
+        "title": "HERB001734"
+      },
+      "FO SHOU",
+      "佛手",
+      "Finger Citron",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Citri sarcodactylis"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "HMS501D13; MolPort-003-665-736; AC1L1EFT; 5-18-03-00199 (Beilstein Handbook Reference); ACMC-1AM7E; C-10266; A827593; BSPBio_003016; CTK4J0961; NCGC00254844-01; HMS1921E18; Coumarin derivative, 2a; KBio2_003291; AI3-36094; LS-55181; CC-20975; 5,7-Dimethoxy-2H-1-benzo-pyran-2-one; Citropten, analytical standard; AK167951; 5,7-Dimethoxy-2-benzopyrone; DB-051575; DivK1c_000391; CAS-487-06-9; NSC217987; FT-0619848; SR-05000002446-1; NINDS_000391; ST50319835; Spectrum_000243; Tox21_300942; InChI=1/C11H10O4/c1-13-7-5-9(14-2)8-3-4-11(12)15-10(8)6-7/h3-6H,1-2H3; DTXSID1041421; Limettin; NCGC00094841-02; MCULE-8767481325; TC-168439; AQ-358/43417403; NCGC00178344-01; SMR000112321; OR345352; MLS002703744; SDCCGMLS-0066597.P001; KB-73158; IDI1_000391; 5,7-dimethoxy-coumarin; NSC102793; 2H-1-Benzopyran-2-one, 5,7-dimethoxy-; 9155AF; CHEMBL481049; 5,7-Dimethoxy-2H-1-benzopyran-2-one; Spectrum5_001348; SCHEMBL516577; DSSTox_CID_21421; 5,7-Dimethoxy-2H-chromen-2-one; citropten; EINECS 207-646-4; I14-52904; MLS002472928; DSSTox_GSID_41421; CCG-40277; HMS2268I06; NXJCRELRQHZBQA-UHFFFAOYSA-; NSC 102793; KBioGR_001222; AKOS015915990; KBio2_000723; 487D069; KBio2_005859; Spectrum3_001398; CHEBI:113528; BRD-K78612426-001-02-6; COUMARIN, 5,7-DIMETHOXY-; AN-45243; Citraptene; NCGC00094841-03; Spectrum2_000814; 5, 7-Dimethoxycoumarin; NCGC00094841-01; 5,7-dimethoxychromen-2-one; Spectrum4_000781; BDBM93217; KBio3_002236; NSC-102793; JWE1QQ247N; Limetin; 5,7-Dimethyloxy-2H-1-benzopyran-2-one; CCRIS 35"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN033238",
+      "limettin",
+      "HMS501D13; MolPort-003-665-736; AC1L1EFT; 5-18-03-00199 (Beilstein Handbook Reference); ACMC-1AM7E; C-10266; A827593; BSPBio_003016; CTK4J0961; NCGC00254844-01; HMS1921E18; Coumarin derivative, 2a; KBio2_003291; AI3-36094; LS-55181; CC-20975; 5,7-Dimethoxy-2H-1-benzo-pyran-2-one; Citropten, analytical standard; AK167951; 5,7-Dimethoxy-2-benzopyrone; DB-051575; DivK1c_000391; CAS-487-06-9; NSC217987; FT-0619848; SR-05000002446-1; NINDS_000391; ST50319835; Spectrum_000243; Tox21_300942; InChI=1/C11H10O4/c1-13-7-5-9(14-2)8-3-4-11(12)15-10(8)6-7/h3-6H,1-2H3; DTXSID1041421; Limettin; NCGC00094841-02; MCULE-8767481325; TC-168439; AQ-358/43417403; NCGC00178344-01; SMR000112321; OR345352; MLS002703744; SDCCGMLS-0066597.P001; KB-73158; IDI1_000391; 5,7-dimethoxy-coumarin; NSC102793; 2H-1-Benzopyran-2-one, 5,7-dimethoxy-; 9155AF; CHEMBL481049; 5,7-Dimethoxy-2H-1-benzopyran-2-one; Spectrum5_001348; SCHEMBL516577; DSSTox_CID_21421; 5,7-Dimethoxy-2H-chromen-2-one; citropten; EINECS 207-646-4; I14-52904; MLS002472928; DSSTox_GSID_41421; CCG-40277; HMS2268I06; NXJCRELRQHZBQA-UHFFFAOYSA-; NSC 102793; KBioGR_001222; AKOS015915990; KBio2_000723; 487D069; KBio2_005859; Spectrum3_001398; CHEBI:113528; BRD-K78612426-001-02-6; COUMARIN, 5,7-DIMETHOXY-; AN-45243; Citraptene; NCGC00094841-03; Spectrum2_000814; 5, 7-Dimethoxycoumarin; NCGC00094841-01; 5,7-dimethoxychromen-2-one; Spectrum4_000781; BDBM93217; KBio3_002236; NSC-102793; JWE1QQ247N; Limetin; 5,7-Dimethyloxy-2H-1-benzopyran-2-one; CCRIS 35",
+      "C11H10O4",
+      "COC1=CC2=C(C=CC(=O)O2)C(=C1)OC",
+      "206.19",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "487-06-9"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT01741",
+        "title": "SMIT01741"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/23420/",
+        "title": "23420"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "2966"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/2775",
+        "title": "2775"
+      }
+    ]
+  ]
+}

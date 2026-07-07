@@ -1,0 +1,375 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000508&label=Herb",
+        "title": "HERB000508"
+      },
+      "BO HE",
+      "薄荷",
+      "Mentha, Peppermint",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "herba Menthae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000777&label=Herb",
+        "title": "HERB000777"
+      },
+      "CHEN XIANG",
+      "沉香",
+      "Oily wood of Agalloch Eaglewood",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Lignum Aquilariae Resitum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001246&label=Herb",
+        "title": "HERB001246"
+      },
+      "DI FENG PI",
+      "地枫皮",
+      "Difengpi Bark",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Cortex Illicii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001754&label=Herb",
+        "title": "HERB001754"
+      },
+      "FU PEN ZI",
+      "覆盆子",
+      "Rubi Fructus",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002342&label=Herb",
+        "title": "HERB002342"
+      },
+      "HOU PU",
+      "厚朴",
+      "bark of Officil magnolia",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Cortex Magnoliae officilis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002371&label=Herb",
+        "title": "HERB002371"
+      },
+      "HU JIAO",
+      "胡椒",
+      "Pepper Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Piperis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002424&label=Herb",
+        "title": "HERB002424"
+      },
+      "HUA JIAO",
+      "花椒",
+      "Pricklyash Peel",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Pericarpium Zanthoxyli"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003658&label=Herb",
+        "title": "HERB003658"
+      },
+      "MA HUANG",
+      "麻黄",
+      "Ephedra",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Ephedrae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004719&label=Herb",
+        "title": "HERB004719"
+      },
+      "RU XIANG",
+      "乳香",
+      "Frankincense",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Resi oliani"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005731&label=Herb",
+        "title": "HERB005731"
+      },
+      "WU LIAN MEI",
+      "乌敛莓",
+      "Cayratiae Japonicae Herba",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005767&label=Herb",
+        "title": "HERB005767"
+      },
+      "WU YAO",
+      "乌药",
+      "Combined Spicebush Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Linderae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006633&label=Herb",
+        "title": "HERB006633"
+      },
+      "YIN YANG HUO",
+      "淫羊藿",
+      "Epimrdii Herba",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "2-Cyclohexen-1-one, 3-methyl-6-(1-methylethyl)-, (6R)-; (R)-6-(Isopropyl)-3-methylcyclohex-2-en-1-one; EINECS 224-957-0; (6R)-6-isopropyl-3-methyl-cyclohex-2-en-1-one; (6R)-3-methyl-6-propan-2-ylcyclohex-2-en-1-one; 4573-50-6; (6R)-3-methyl-6-propan-2-yl-cyclohex-2-en-1-one"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026227&label=Disease",
+        "title": "HBDIS026227"
+      },
+      "AMELOGENESIS IMPERFECTA, TYPE IJ",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001471&label=Target",
+        "title": "HBTAR001471"
+      },
+      "GABRA1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00309"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000700&label=Target",
+        "title": "HBTAR000700"
+      },
+      "CHRM2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00210"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001096&label=Target",
+        "title": "HBTAR001096"
+      },
+      "DPP4",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00332"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000233&label=Target",
+        "title": "HBTAR000233"
+      },
+      "AR",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00048"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003223&label=Target",
+        "title": "HBTAR003223"
+      },
+      "PRSS1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02928"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN012772",
+      "(6R)-6-isopropyl-3-methyl-1-cyclohex-2-enone",
+      "2-Cyclohexen-1-one, 3-methyl-6-(1-methylethyl)-, (6R)-; (R)-6-(Isopropyl)-3-methylcyclohex-2-en-1-one; EINECS 224-957-0; (6R)-6-isopropyl-3-methyl-cyclohex-2-en-1-one; (6R)-3-methyl-6-propan-2-ylcyclohex-2-en-1-one; 4573-50-6; (6R)-3-methyl-6-propan-2-yl-cyclohex-2-en-1-one",
+      "C10H16O",
+      "CC1=CC(=O)C(CC1)C(C)C",
+      "152.23",
+      "53.87781814",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "4573-50-6"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT02853",
+        "title": "SMIT02853"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL000205"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/107561",
+        "title": "107561"
+      }
+    ]
+  ]
+}

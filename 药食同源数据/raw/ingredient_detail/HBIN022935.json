@@ -1,0 +1,181 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000197&label=Herb",
+        "title": "HERB000197"
+      },
+      "BAI HUA CAI ZI",
+      "白花菜子",
+      "Semen Cleomis",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000247&label=Herb",
+        "title": "HERB000247"
+      },
+      "BAI MAO XIA KU CAO",
+      "白毛夏枯草",
+      "all - grass of Decumbent Bugle",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herha Ajugae Ciliatae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002560&label=Herb",
+        "title": "HERB002560"
+      },
+      "HUANG QI",
+      "黄芪",
+      "root of Membranous Milkvetch",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Astragali"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003232&label=Herb",
+        "title": "HERB003232"
+      },
+      "LA JIAO",
+      "辣椒",
+      "Hot pepper",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "fructus Capsici"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "(2S,3R,5R,10R,13R,17S)-17-[(2R)-2,3-dihydroxy-5-(1-hydroxyethyl)-6-methylhept-6-en-2-yl]-2,3,14-trihydroxy-10,13-dimethyl-2,3,4,5,9,11,12,15,16,17-decahydro-1H-cyclopenta[a]phenanthren-6-one; AC1NSU9D; decumbesterone a"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN022935",
+      "decumbesterone A",
+      "(2S,3R,5R,10R,13R,17S)-17-[(2R)-2,3-dihydroxy-5-(1-hydroxyethyl)-6-methylhept-6-en-2-yl]-2,3,14-trihydroxy-10,13-dimethyl-2,3,4,5,9,11,12,15,16,17-decahydro-1H-cyclopenta[a]phenanthren-6-one; AC1NSU9D; decumbesterone a",
+      "C29H46O7",
+      "CC(C(CC(C(C)(C1CCC2(C1(CCC3C2=CC(=O)C4C3(CC(C(C4)O)O)C)C)O)O)O)C(=C)C)O",
+      "506.7",
+      "4.305345412",
+      {
+        "link": "https://www.symmap.org/detail/SMIT09934",
+        "title": "SMIT09934"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/4859/",
+        "title": "4859"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL008696"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/100975967",
+        "title": "100975967"
+      }
+    ]
+  ]
+}

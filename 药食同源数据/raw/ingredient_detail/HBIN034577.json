@@ -1,0 +1,171 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000810&label=Herb",
+        "title": "HERB000810"
+      },
+      "CHI YE MEI DENG MU",
+      "驰野美登木",
+      "Serrate-leaved Mayten",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Maytenus serrata"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003028&label=Herb",
+        "title": "HERB003028"
+      },
+      "JU HONG",
+      "橘红",
+      "Citri Exocarpium Rubrum",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003679&label=Herb",
+        "title": "HERB003679"
+      },
+      "MA QIAN ZI",
+      "马钱子",
+      "Nux Vomica",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Strychni"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "BACCHARINOL (B800157K385 AND F351); maytanbutacine; NSC269756; Baccharin B4; NSC-269756; Verrucarin A,3'-epoxy-4'8-dihydroxy-7'-(1-hydroxyethyl)-; Verrucarin A,3'-epoxy-4',8-dihydroxy-7'-[(1R)-1-hydroxyethyl]-, (2'S,3'R,4'S,7'R,8R)-; Baccharinol B4; Baccharinoid B 4; 63783-94-8; SCHEMBL8527174; Baccharinol; MLS002703043"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN034577",
+      "Maytanbutacine",
+      "BACCHARINOL (B800157K385 AND F351); maytanbutacine; NSC269756; Baccharin B4; NSC-269756; Verrucarin A,3'-epoxy-4'8-dihydroxy-7'-(1-hydroxyethyl)-; Verrucarin A,3'-epoxy-4',8-dihydroxy-7'-[(1R)-1-hydroxyethyl]-, (2'S,3'R,4'S,7'R,8R)-; Baccharinol B4; Baccharinoid B 4; 63783-94-8; SCHEMBL8527174; Baccharinol; MLS002703043",
+      "C29H38O11",
+      "CC1=CC2C3(CC1O)COC(=O)C4C(O4)(C(COC(C=CC=CC(=O)OC5C3(C6(CO6)C(C5)O2)C)C(C)O)O)C",
+      "562.6",
+      "9.583496752",
+      {
+        "link": "https://www.symmap.org/detail/SMIT05493",
+        "title": "SMIT05493"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/13611/",
+        "title": "13611"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL003420"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "2795"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/101307863",
+        "title": "101307863"
+      }
+    ]
+  ]
+}

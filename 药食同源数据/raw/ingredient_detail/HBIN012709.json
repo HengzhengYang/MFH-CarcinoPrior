@@ -1,0 +1,131 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001164&label=Herb",
+        "title": "HERB001164"
+      },
+      "DA ZAO",
+      "大枣",
+      "Jujube Chinese date",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Zizyphi Jujubae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "(1S,4aS,7aS)-7-(hydroxymethyl)-1-[[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(E)-3-(4-hydroxyphenyl)-1-oxoprop-2-enoxy]methyl]-2-tetrahydropyranyl]oxymethyl]-2-tetrahydropyranyl]oxy]-1,4a,5,7a-tetrahydrocyclopenta[d]pyran; 6''-O-p-Coumaroylgenipingentiobioside; (1S,4aS,7aS)-7-methylol-1-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(E)-3-(4-hydroxyphenyl)acryloyl]oxymethyl]tetrahydropyran-2-yl]oxymethyl]tetrahydropyran-2-yl]oxy-1,4a,5,7a-tetrahydrocyclopenta[d]pyran-4-carboxylic ac; methyl (1S,4aS,7aS)-7-(hydroxymethyl)-1-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(E)-3-(4-hydroxyphenyl)prop-2-enoyl]oxymethyl]oxan-2-yl]oxymethyl]oxan-2-yl]oxy-1,4a,5,7a-tetrahydrocyclopenta[d]pyran-4-carboxylate; methyl (1S,4aS,7aS)-7-(hydroxymethyl)-1-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(E)-3-(4-hydroxyphenyl)prop-2-enoyl]oxymethyl]tetrahydropyran-2-yl]oxymethyl]tetrahydropyran-2-yl]oxy-1,4a,5,7a-tetrahydrocyclopenta[d]pyr"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN012709",
+      "6'-O-p-Coumaroylgenipingentiobioside",
+      "(1S,4aS,7aS)-7-(hydroxymethyl)-1-[[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(E)-3-(4-hydroxyphenyl)-1-oxoprop-2-enoxy]methyl]-2-tetrahydropyranyl]oxymethyl]-2-tetrahydropyranyl]oxy]-1,4a,5,7a-tetrahydrocyclopenta[d]pyran; 6''-O-p-Coumaroylgenipingentiobioside; (1S,4aS,7aS)-7-methylol-1-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(E)-3-(4-hydroxyphenyl)acryloyl]oxymethyl]tetrahydropyran-2-yl]oxymethyl]tetrahydropyran-2-yl]oxy-1,4a,5,7a-tetrahydrocyclopenta[d]pyran-4-carboxylic ac; methyl (1S,4aS,7aS)-7-(hydroxymethyl)-1-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(E)-3-(4-hydroxyphenyl)prop-2-enoyl]oxymethyl]oxan-2-yl]oxymethyl]oxan-2-yl]oxy-1,4a,5,7a-tetrahydrocyclopenta[d]pyran-4-carboxylate; methyl (1S,4aS,7aS)-7-(hydroxymethyl)-1-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(E)-3-(4-hydroxyphenyl)prop-2-enoyl]oxymethyl]tetrahydropyran-2-yl]oxymethyl]tetrahydropyran-2-yl]oxy-1,4a,5,7a-tetrahydrocyclopenta[d]pyr",
+      "C32H40O17",
+      "COC(=O)C1=COC(C2C1CC=C2CO)OC3C(C(C(C(O3)COC4C(C(C(C(O4)COC(=O)C=CC5=CC=C(C=C5)O)O)O)O)O)O)O",
+      "696.6",
+      "20.8843037",
+      {
+        "link": "https://www.symmap.org/detail/SMIT13683",
+        "title": "SMIT13683"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL012972"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/6324973",
+        "title": "6324973"
+      }
+    ]
+  ]
+}

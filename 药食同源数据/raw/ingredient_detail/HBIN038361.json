@@ -1,0 +1,1584 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004021&label=Herb",
+        "title": "HERB004021"
+      },
+      "MU GUA",
+      "木瓜",
+      "fruit of Common Floweringquince",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Chaenomelis"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NA"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000471&label=Disease",
+        "title": "HBDIS000471"
+      },
+      "Cardiovascular Diseases",
+      "0.00144264303838503",
+      "0.00961728922010015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006155&label=Disease",
+        "title": "HBDIS006155"
+      },
+      "Storage disease",
+      "0.00021742198127432",
+      "0.00275095005280253"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019636&label=Disease",
+        "title": "HBDIS019636"
+      },
+      "Steatohepatitis",
+      "0.000350589020558551",
+      "0.00384483913291743"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021149&label=Disease",
+        "title": "HBDIS021149"
+      },
+      "Central nervous system degeneration",
+      "6.63354576835303e-05",
+      "0.00115157378144287"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000268&label=Disease",
+        "title": "HBDIS000268"
+      },
+      "Astrocytoma",
+      "0.000426778566037081",
+      "0.00442052159562175"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000283&label=Disease",
+        "title": "HBDIS000283"
+      },
+      "Autoimmune Diseases",
+      "0.000278184973024601",
+      "0.0032770006526639"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000669&label=Disease",
+        "title": "HBDIS000669"
+      },
+      "Coronary heart disease",
+      "9.36652472734941e-05",
+      "0.00148054475594867"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001062&label=Disease",
+        "title": "HBDIS001062"
+      },
+      "Fever",
+      "0.000395054274154654",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001548&label=Disease",
+        "title": "HBDIS001548"
+      },
+      "Inflammatory Bowel Diseases",
+      "0.00131671711843588",
+      "0.00915170189113076"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001574&label=Disease",
+        "title": "HBDIS001574"
+      },
+      "Irritable Bowel Syndrome",
+      "0.00131077060104851",
+      "0.00911687007183364"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001787&label=Disease",
+        "title": "HBDIS001787"
+      },
+      "Lung Neoplasms",
+      "0.000375082736228846",
+      "0.00404036076776378"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001792&label=Disease",
+        "title": "HBDIS001792"
+      },
+      "Lupus Erythematosus, Systemic",
+      "0.00010401049034903",
+      "0.00160018045602113"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001889&label=Disease",
+        "title": "HBDIS001889"
+      },
+      "melanoma",
+      "0.000287207093760713",
+      "0.00335534502826501"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001992&label=Disease",
+        "title": "HBDIS001992"
+      },
+      "Multiple Sclerosis",
+      "0.000328147823105213",
+      "0.00365937015347104"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003204&label=Disease",
+        "title": "HBDIS003204"
+      },
+      "B-Cell Lymphomas",
+      "9.73318247450582e-05",
+      "0.00152428218165552"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010466&label=Disease",
+        "title": "HBDIS010466"
+      },
+      "Infective cystitis",
+      "0.000729982028471031",
+      "0.00630345850949216"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012795&label=Disease",
+        "title": "HBDIS012795"
+      },
+      "Squamous cell carcinoma of the head and neck",
+      "0.000279880381637343",
+      "0.00329394347038239"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013245&label=Disease",
+        "title": "HBDIS013245"
+      },
+      "Inflammatory disorder",
+      "0.000852835829582842",
+      "0.00701694247149638"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018581&label=Disease",
+        "title": "HBDIS018581"
+      },
+      "Coronary Artery Disease",
+      "1.58999363690388e-05",
+      "0.000385853544313967"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022692&label=Disease",
+        "title": "HBDIS022692"
+      },
+      "Inflammatory dermatosis",
+      "0.000683849835993603",
+      "0.00606148726408336"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001341&label=Disease",
+        "title": "HBDIS001341"
+      },
+      "Hepatitis C",
+      "0.000100190595956092",
+      "0.00155773516140138"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001695&label=Disease",
+        "title": "HBDIS001695"
+      },
+      "Chronic Lymphocytic Leukemia",
+      "0.000366118488221865",
+      "0.00396720635453409"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001810&label=Disease",
+        "title": "HBDIS001810"
+      },
+      "Lymphoma",
+      "0.00110188266441658",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002011&label=Disease",
+        "title": "HBDIS002011"
+      },
+      "Mycobacterium Infections",
+      "0.000650312622460208",
+      "0.00583548714038919"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003111&label=Disease",
+        "title": "HBDIS003111"
+      },
+      "Virus Diseases",
+      "0.000218761365724927",
+      "0.00276404915208467"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003207&label=Disease",
+        "title": "HBDIS003207"
+      },
+      "Diffuse Large B-Cell Lymphoma",
+      "1.3933319172113e-05",
+      "0.00034874418064314"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007240&label=Disease",
+        "title": "HBDIS007240"
+      },
+      "Aplasia Cutis Congenita",
+      "0.000621847951551981",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009847&label=Disease",
+        "title": "HBDIS009847"
+      },
+      "Recurrent tumor",
+      "0.000349298437312784",
+      "0.00383406385336839"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013435&label=Disease",
+        "title": "HBDIS013435"
+      },
+      "Primary malignant neoplasm of lung",
+      "0.00144422440947674",
+      "0.00962637750458911"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013591&label=Disease",
+        "title": "HBDIS013591"
+      },
+      "Adult Diffuse Large B-Cell Lymphoma",
+      "1.08512185007681e-05",
+      "0.000286287571661513"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013593&label=Disease",
+        "title": "HBDIS013593"
+      },
+      "Adult Lymphoma",
+      "0.000799258152965642",
+      "0.00667063916353839"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013667&label=Disease",
+        "title": "HBDIS013667"
+      },
+      "Childhood Lymphoma",
+      "0.000799258152965642",
+      "0.00667063916353839"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018473&label=Disease",
+        "title": "HBDIS018473"
+      },
+      "B-CELL MALIGNANCY, LOW-GRADE",
+      "0.00150127667783243",
+      "0.00990856799135117"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020986&label=Disease",
+        "title": "HBDIS020986"
+      },
+      "Nonalcoholic Steatohepatitis",
+      "0.00025660150929275",
+      "0.00308485993167087"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021628&label=Disease",
+        "title": "HBDIS021628"
+      },
+      "Triple Negative Breast Neoplasms",
+      "0.000528054360635814",
+      "0.0051015862562581"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022091&label=Disease",
+        "title": "HBDIS022091"
+      },
+      "Infection",
+      "8.40599774116844e-07",
+      "3.64256959512729e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026981&label=Disease",
+        "title": "HBDIS026981"
+      },
+      "Fatty Liver Disease",
+      "0.000679537895995339",
+      "0.0060337113934644"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027834&label=Disease",
+        "title": "HBDIS027834"
+      },
+      "Triple-Negative Breast Carcinoma",
+      "0.00104874466780905",
+      "0.00795536803594656"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001335&label=Disease",
+        "title": "HBDIS001335"
+      },
+      "Hepatitis B",
+      "1.01863820174117e-06",
+      "4.2746868124809e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001391&label=Disease",
+        "title": "HBDIS001391"
+      },
+      "Hodgkin Disease",
+      "9.38824885252325e-05",
+      "0.00148360798191436"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001549&label=Disease",
+        "title": "HBDIS001549"
+      },
+      "Influenza",
+      "3.90024117002608e-05",
+      "0.000770913109571852"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001713&label=Disease",
+        "title": "HBDIS001713"
+      },
+      "Myeloid Leukemia, Chronic",
+      "0.000241226586924651",
+      "0.00294176904694951"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001910&label=Disease",
+        "title": "HBDIS001910"
+      },
+      "Meningitis",
+      "0.000850703221324688",
+      "0.00700358080282703"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003205&label=Disease",
+        "title": "HBDIS003205"
+      },
+      "High Grade Lymphoma (neoplasm)",
+      "0.00117426068329212",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003216&label=Disease",
+        "title": "HBDIS003216"
+      },
+      "T-Cell Lymphoma",
+      "0.000427238204941862",
+      "0.00442304706732793"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003239&label=Disease",
+        "title": "HBDIS003239"
+      },
+      "Lymphoma, AIDS-Related",
+      "1.14840947501662e-05",
+      "0.000299282345016329"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004473&label=Disease",
+        "title": "HBDIS004473"
+      },
+      "Adult Hodgkin Lymphoma",
+      "0.000736911010921689",
+      "0.00634763902640926"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004487&label=Disease",
+        "title": "HBDIS004487"
+      },
+      "Childhood Hodgkin Lymphoma",
+      "0.000723349041141562",
+      "0.00626129344845046"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009823&label=Disease",
+        "title": "HBDIS009823"
+      },
+      "Mediastinal lymphadenopathy",
+      "4.44908407039381e-05",
+      "0.000852449663711667"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013716&label=Disease",
+        "title": "HBDIS013716"
+      },
+      "Activated B-cell type diffuse large B-cell lymphoma",
+      "0.000457924094976982",
+      "0.0046560458976468"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013874&label=Disease",
+        "title": "HBDIS013874"
+      },
+      "Nodular Lymphocyte Predominant Hodgkin Lymphoma",
+      "0.00102473708216471",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014029&label=Disease",
+        "title": "HBDIS014029"
+      },
+      "Marginal Zone B-Cell Lymphoma",
+      "5.90613233895064e-05",
+      "0.0010566845274661"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014624&label=Disease",
+        "title": "HBDIS014624"
+      },
+      "Malignant transformation",
+      "0.00137336287882114",
+      "0.0094086349224455"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016764&label=Disease",
+        "title": "HBDIS016764"
+      },
+      "Familial primary gastric lymphoma",
+      "0.000609793406323199",
+      "0.00564037554602926"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027817&label=Disease",
+        "title": "HBDIS027817"
+      },
+      "High grade glioma",
+      "0.000779401542300304",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000462&label=Disease",
+        "title": "HBDIS000462"
+      },
+      "Squamous cell carcinoma",
+      "0.000862594126637958",
+      "0.0070696764210571"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001784&label=Disease",
+        "title": "HBDIS001784"
+      },
+      "Lung diseases",
+      "0.000339778230103046",
+      "0.00375240120119817"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006432&label=Disease",
+        "title": "HBDIS006432"
+      },
+      "Endometrioma",
+      "0.00113433399374753",
+      "0.0083576379299534"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021512&label=Disease",
+        "title": "HBDIS021512"
+      },
+      "Juvenile arthritis",
+      "0.000276797908489372",
+      "0.00326505160868784"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025568&label=Disease",
+        "title": "HBDIS025568"
+      },
+      "Childhood Astrocytoma",
+      "0.000143952180216626",
+      "0.00203934547424997"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000404&label=Disease",
+        "title": "HBDIS000404"
+      },
+      "Bronchitis",
+      "0.0013368815242099",
+      "0.00925552232066778"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000984&label=Disease",
+        "title": "HBDIS000984"
+      },
+      "Escherichia coli Infections",
+      "0.00050201988881906",
+      "0.00490686115784152"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001115&label=Disease",
+        "title": "HBDIS001115"
+      },
+      "Fuchs' heterochromic cyclitis",
+      "0.00118672867247156",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001652&label=Disease",
+        "title": "HBDIS001652"
+      },
+      "Laryngeal neoplasm",
+      "0.00117426068329212",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001885&label=Disease",
+        "title": "HBDIS001885"
+      },
+      "Megakaryocytic hyperplasia",
+      "0.000458693334413315",
+      "0.00466123609051749"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004486&label=Disease",
+        "title": "HBDIS004486"
+      },
+      "Lip and Oral Cavity Carcinoma",
+      "0.0015123669548595",
+      "0.00995398638105118"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014444&label=Disease",
+        "title": "HBDIS014444"
+      },
+      "Chronic Airflow Obstruction",
+      "0.000457924094976982",
+      "0.0046560458976468"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019106&label=Disease",
+        "title": "HBDIS019106"
+      },
+      "Oropharyngeal Carcinoma",
+      "0.000940393314334487",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025533&label=Disease",
+        "title": "HBDIS025533"
+      },
+      "Necrotizing enterocolitis in fetus OR newborn",
+      "0.000209752262770343",
+      "0.00267509019709408"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010382&label=Disease",
+        "title": "HBDIS010382"
+      },
+      "Esophageal dysplasia",
+      "0.00141972808640239",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014964&label=Disease",
+        "title": "HBDIS014964"
+      },
+      "CML progression",
+      "0.000705357128252119",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020461&label=Disease",
+        "title": "HBDIS020461"
+      },
+      "Cerebral Hemorrhage",
+      "0.000156307834647609",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005662&label=Disease",
+        "title": "HBDIS005662"
+      },
+      "Panacinar Emphysema",
+      "0.00118672867247156",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019127&label=Disease",
+        "title": "HBDIS019127"
+      },
+      "Focal Emphysema",
+      "0.00118672867247156",
+      "0.00855279454615903"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000031&label=Target",
+        "title": "HBTAR000031"
+      },
+      "ACHE",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9751/",
+          "title": "TCMID:9751"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00165"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000205&label=Target",
+        "title": "HBTAR000205"
+      },
+      "BIRC3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/4688/",
+          "title": "TCMID:4688"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000361&label=Target",
+        "title": "HBTAR000361"
+      },
+      "BCL2A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8913/",
+          "title": "TCMID:8913"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000365&label=Target",
+        "title": "HBTAR000365"
+      },
+      "BCL6",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/549/",
+          "title": "TCMID:549"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000425&label=Target",
+        "title": "HBTAR000425"
+      },
+      "BTG1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/10674/",
+          "title": "TCMID:10674"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000809&label=Target",
+        "title": "HBTAR000809"
+      },
+      "MAP3K8",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/613/",
+          "title": "TCMID:613"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000916&label=Target",
+        "title": "HBTAR000916"
+      },
+      "CTH",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/370/",
+          "title": "TCMID:370"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR03190"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001015&label=Target",
+        "title": "HBTAR001015"
+      },
+      "GADD45A",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8835/",
+          "title": "TCMID:8835"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001188&label=Target",
+        "title": "HBTAR001188"
+      },
+      "EGR3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2668/",
+          "title": "TCMID:2668"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001253&label=Target",
+        "title": "HBTAR001253"
+      },
+      "EPHX1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/13338/",
+          "title": "TCMID:13338"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001291&label=Target",
+        "title": "HBTAR001291"
+      },
+      "EVI2A",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/13673/",
+          "title": "TCMID:13673"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001815&label=Target",
+        "title": "HBTAR001815"
+      },
+      "HIVEP2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11264/",
+          "title": "TCMID:11264"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001851&label=Target",
+        "title": "HBTAR001851"
+      },
+      "HMOX1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9480/",
+          "title": "TCMID:9480"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02132"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001996&label=Target",
+        "title": "HBTAR001996"
+      },
+      "IFIT2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/13267/",
+          "title": "TCMID:13267"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001997&label=Target",
+        "title": "HBTAR001997"
+      },
+      "IFIT1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2647/",
+          "title": "TCMID:2647"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001998&label=Target",
+        "title": "HBTAR001998"
+      },
+      "IFIT3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/12048/",
+          "title": "TCMID:12048"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002014&label=Target",
+        "title": "HBTAR002014"
+      },
+      "IFNGR2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/6853/",
+          "title": "TCMID:6853"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002060&label=Target",
+        "title": "HBTAR002060"
+      },
+      "CXCL8",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/",
+          "title": "TCMID"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002326&label=Target",
+        "title": "HBTAR002326"
+      },
+      "LIPA",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2333/",
+          "title": "TCMID:2333"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002378&label=Target",
+        "title": "HBTAR002378"
+      },
+      "MXD1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/13467/",
+          "title": "TCMID:13467"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002439&label=Target",
+        "title": "HBTAR002439"
+      },
+      "DNAJB9",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/5684/",
+          "title": "TCMID:5684"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002651&label=Target",
+        "title": "HBTAR002651"
+      },
+      "NCF2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/5645/",
+          "title": "TCMID:5645"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002680&label=Target",
+        "title": "HBTAR002680"
+      },
+      "NEDD9",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9063/",
+          "title": "TCMID:9063"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002701&label=Target",
+        "title": "HBTAR002701"
+      },
+      "NFIB",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11432/",
+          "title": "TCMID:11432"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002707&label=Target",
+        "title": "HBTAR002707"
+      },
+      "NFKBIA",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9572/",
+          "title": "TCMID:9572"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003059&label=Target",
+        "title": "HBTAR003059"
+      },
+      "PMAIP1",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT04003",
+          "title": "SymMap:SMTT04003"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003212&label=Target",
+        "title": "HBTAR003212"
+      },
+      "PRNP",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8402/",
+          "title": "TCMID:8402"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003286&label=Target",
+        "title": "HBTAR003286"
+      },
+      "PTGER2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/10072/",
+          "title": "TCMID:10072"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003435&label=Target",
+        "title": "HBTAR003435"
+      },
+      "RELB",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2597/",
+          "title": "TCMID:2597"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004143&label=Target",
+        "title": "HBTAR004143"
+      },
+      "TNFAIP3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/7492/",
+          "title": "TCMID:7492"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004355&label=Target",
+        "title": "HBTAR004355"
+      },
+      "XBP1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/595/",
+          "title": "TCMID:595"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004506&label=Target",
+        "title": "HBTAR004506"
+      },
+      "CXCR4",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/682/",
+          "title": "TCMID:682"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00352"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004706&label=Target",
+        "title": "HBTAR004706"
+      },
+      "LIPF",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8770/",
+          "title": "TCMID:8770"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004807&label=Target",
+        "title": "HBTAR004807"
+      },
+      "STX11",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8867/",
+          "title": "TCMID:8867"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR006284&label=Target",
+        "title": "HBTAR006284"
+      },
+      "FILIP1L",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8884/",
+          "title": "TCMID:8884"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR006294&label=Target",
+        "title": "HBTAR006294"
+      },
+      "USP18",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/5040/",
+          "title": "TCMID:5040"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR006585&label=Target",
+        "title": "HBTAR006585"
+      },
+      "DENND5A",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/6460/",
+          "title": "TCMID:6460"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR006800&label=Target",
+        "title": "HBTAR006800"
+      },
+      "SLC7A11",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/13418/",
+          "title": "TCMID:13418"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR006888&label=Target",
+        "title": "HBTAR006888"
+      },
+      "ABHD14A",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/14797/",
+          "title": "TCMID:14797"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007530&label=Target",
+        "title": "HBTAR007530"
+      },
+      "ABHD5",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/982/",
+          "title": "TCMID:982"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007584&label=Target",
+        "title": "HBTAR007584"
+      },
+      "HERC5",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/4709/",
+          "title": "TCMID:4709"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007682&label=Target",
+        "title": "HBTAR007682"
+      },
+      "PPME1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/7167/",
+          "title": "TCMID:7167"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007809&label=Target",
+        "title": "HBTAR007809"
+      },
+      "RAB8B",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11539/",
+          "title": "TCMID:11539"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007889&label=Target",
+        "title": "HBTAR007889"
+      },
+      "SLC38A2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/6929/",
+          "title": "TCMID:6929"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR008047&label=Target",
+        "title": "HBTAR008047"
+      },
+      "ZCCHC2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/4550/",
+          "title": "TCMID:4550"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR008288&label=Target",
+        "title": "HBTAR008288"
+      },
+      "ABHD10",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/14782/",
+          "title": "TCMID:14782"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR008623&label=Target",
+        "title": "HBTAR008623"
+      },
+      "ZC3HAV1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/7111/",
+          "title": "TCMID:7111"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR008753&label=Target",
+        "title": "HBTAR008753"
+      },
+      "PELI1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/7304/",
+          "title": "TCMID:7304"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR009070&label=Target",
+        "title": "HBTAR009070"
+      },
+      "ABHD4",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11842/",
+          "title": "TCMID:11842"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR009379&label=Target",
+        "title": "HBTAR009379"
+      },
+      "ELOVL6",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/7957/",
+          "title": "TCMID:7957"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR009879&label=Target",
+        "title": "HBTAR009879"
+      },
+      "ABHD11",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/13256/",
+          "title": "TCMID:13256"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR009908&label=Target",
+        "title": "HBTAR009908"
+      },
+      "SESN2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/4669/",
+          "title": "TCMID:4669"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010171&label=Target",
+        "title": "HBTAR010171"
+      },
+      "ABHD14B",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/6456/",
+          "title": "TCMID:6456"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010461&label=Target",
+        "title": "HBTAR010461"
+      },
+      "HNRNPLL",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/",
+          "title": "TCMID"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR011080&label=Target",
+        "title": "HBTAR011080"
+      },
+      "LIPJ",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/9246/",
+          "title": "TCMID:9246"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR011730&label=Target",
+        "title": "HBTAR011730"
+      },
+      "SERHL2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/14022/",
+          "title": "TCMID:14022"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR011921&label=Target",
+        "title": "HBTAR011921"
+      },
+      "RNF149",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1784/",
+          "title": "TCMID:1784"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR012043&label=Target",
+        "title": "HBTAR012043"
+      },
+      "LIPM",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3587/",
+          "title": "TCMID:3587"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR012411&label=Target",
+        "title": "HBTAR012411"
+      },
+      "LIPK",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8688/",
+          "title": "TCMID:8688"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR012412&label=Target",
+        "title": "HBTAR012412"
+      },
+      "LIPN",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/13393/",
+          "title": "TCMID:13393"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN038361",
+      "Ortho-xylene",
+      "C6H4(CH3)2",
+      "CC1=CC=CC=C1C",
+      "106.16",
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/37681/",
+        "title": "37681"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/7237",
+        "title": "7237"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000881&label=Herb",
+        "title": "HERB000881"
+      },
+      "CHUAN WU",
+      "川乌",
+      "root of Common Monkshood",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Aconiti"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001211&label=Herb",
+        "title": "HERB001211"
+      },
+      "DANG SHEN",
+      "党参",
+      "root Pilose Asiabell",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Codonopsis pilosulae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004834&label=Herb",
+        "title": "HERB004834"
+      },
+      "SANG YE",
+      "桑叶",
+      "Mulberry Leaf",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Folium Mori"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005900&label=Herb",
+        "title": "HERB005900"
+      },
+      "XI YANG SHEN",
+      "西洋参",
+      "American Ginseng",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Pacis quinquefolii"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "O0033; ANW-16237; AI3-01979; Octanoic acid methyl ester (FAME MIX); BB_SC-7043; MolPort-003-927-941; Caprylic acid methyl ester; 2-Bromo-2-ethylbutanoyl chloride; formyl octanoate; 4-02-00-00986 (Beilstein Handbook Reference); Methyl octanoate, analytical standard; Tox21_300557; J10159; ZX-AT015579; OCTANOIC ACID, METHYL ESTER; I14-2604; UNII-7MO740X6QL; n-Caprylic acid methyl ester; DB-003612; DSSTox_RID_78230; WE(1:0/8:0); RTR-002223; CHEBI:87432; NCGC00163978-01; Methyl octanoate, 99%; FEMA No. 2728; Methyl caprylate (natural); 7MO740X6QL; KSC492C0H; CTK3J2103; Methyl octanoate, certified reference material, TraceCERT(R); RP22201; 111-11-5; MCULE-9368782203; NSC3710; STL146582; n-Octanoic Acid Methyl Ester; CAS-111-11-5; OR40509; HSDB 5544; J-519982; Methyl octylate; ST2419613; C-03808; Methyl octanoate, 99%, FG; AX8030176; NCGC00163978-02; A802294; LS-97987; ST51046743; EC 203-835-0; Methyl caprylate;Methyl n-octanoate; MFCD00009551; AK116912; Methyl caprylate; TR-002223; BB_SC-07043; S0306; Methyl ester octanoic acid; Methyl caprylate, United States Pharmacopeia (USP) Reference Standard; DTXSID2026864; DSSTox_GSID_26864; EINECS 203-835-0; J-803002; BRN 1752270; KB-48665; ZINC1666990; BBL011470; octanoic acid methyl; CHEMBL3183908; ACMC-1C2SC; SCHEMBL27416; SBB060592; NSC 3710; Uniphat A20; AC1Q5ZYO; Methyl ester of octanoic acid; DSSTox_CID_6864; Methyl n-octanoate; AKOS005721017; CC-30729; NCGC00259021-01; Tox21_201470; AN-22642; Caprylic acid, methyl ester; LMFA0701044"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN035133",
+      "methyl caprylate",
+      "O0033; ANW-16237; AI3-01979; Octanoic acid methyl ester (FAME MIX); BB_SC-7043; MolPort-003-927-941; Caprylic acid methyl ester; 2-Bromo-2-ethylbutanoyl chloride; formyl octanoate; 4-02-00-00986 (Beilstein Handbook Reference); Methyl octanoate, analytical standard; Tox21_300557; J10159; ZX-AT015579; OCTANOIC ACID, METHYL ESTER; I14-2604; UNII-7MO740X6QL; n-Caprylic acid methyl ester; DB-003612; DSSTox_RID_78230; WE(1:0/8:0); RTR-002223; CHEBI:87432; NCGC00163978-01; Methyl octanoate, 99%; FEMA No. 2728; Methyl caprylate (natural); 7MO740X6QL; KSC492C0H; CTK3J2103; Methyl octanoate, certified reference material, TraceCERT(R); RP22201; 111-11-5; MCULE-9368782203; NSC3710; STL146582; n-Octanoic Acid Methyl Ester; CAS-111-11-5; OR40509; HSDB 5544; J-519982; Methyl octylate; ST2419613; C-03808; Methyl octanoate, 99%, FG; AX8030176; NCGC00163978-02; A802294; LS-97987; ST51046743; EC 203-835-0; Methyl caprylate;Methyl n-octanoate; MFCD00009551; AK116912; Methyl caprylate; TR-002223; BB_SC-07043; S0306; Methyl ester octanoic acid; Methyl caprylate, United States Pharmacopeia (USP) Reference Standard; DTXSID2026864; DSSTox_GSID_26864; EINECS 203-835-0; J-803002; BRN 1752270; KB-48665; ZINC1666990; BBL011470; octanoic acid methyl; CHEMBL3183908; ACMC-1C2SC; SCHEMBL27416; SBB060592; NSC 3710; Uniphat A20; AC1Q5ZYO; Methyl ester of octanoic acid; DSSTox_CID_6864; Methyl n-octanoate; AKOS005721017; CC-30729; NCGC00259021-01; Tox21_201470; AN-22642; Caprylic acid, methyl ester; LMFA0701044",
+      "C9H18O2",
+      "CCCCCCCC(=O)OC",
+      "158.24",
+      {
+        "link": "https://www.symmap.org/detail/SMIT16553",
+        "title": "SMIT16553"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/14208/",
+        "title": "14208"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/8091",
+        "title": "8091"
+      }
+    ]
+  ]
+}

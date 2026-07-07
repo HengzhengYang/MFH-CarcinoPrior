@@ -1,0 +1,830 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000632&label=Herb",
+        "title": "HERB000632"
+      },
+      "CHA YE",
+      "茶叶",
+      "Common Tea",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Camellia sinensis [Syn. Thea sinensis]"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003306&label=Herb",
+        "title": "HERB003306"
+      },
+      "LI CHUN HUA",
+      "丽春花",
+      "Corn Poppy",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Papaver commutatum [Syn. Papaver rhoeas ]"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004853&label=Herb",
+        "title": "HERB004853"
+      },
+      "SHA REN",
+      "砂仁",
+      "Villous Amomum Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Amomi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005228&label=Herb",
+        "title": "HERB005228"
+      },
+      "SI JI QING",
+      "四季青",
+      "Purpleflower Holly Leaf",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Folium Llicis Chinensis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006331&label=Herb",
+        "title": "HERB006331"
+      },
+      "YA PIAN",
+      "鸦片",
+      "Opium",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Papaver somniferum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006652&label=Herb",
+        "title": "HERB006652"
+      },
+      "YING SU",
+      "罂粟",
+      "Opium Poppy",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Papaver somniferum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006653&label=Herb",
+        "title": "HERB006653"
+      },
+      "YING SU KE",
+      "罂粟壳",
+      "poppy capsule",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "pericarpium papaveris"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006771&label=Herb",
+        "title": "HERB006771"
+      },
+      "YUAN HU",
+      "元胡",
+      "root of corydalis",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Corydalis"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NA"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000206&label=Disease",
+        "title": "HBDIS000206"
+      },
+      "Separation Anxiety Disorder",
+      "0.000870666455596011",
+      "0.00707658671810716"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001329&label=Disease",
+        "title": "HBDIS001329"
+      },
+      "Hepatic Coma",
+      "0.00110812094348583",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002066&label=Disease",
+        "title": "HBDIS002066"
+      },
+      "Neonatal Abstinence Syndrome",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002176&label=Disease",
+        "title": "HBDIS002176"
+      },
+      "Opioid abuse",
+      "0.00110812094348583",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002177&label=Disease",
+        "title": "HBDIS002177"
+      },
+      "Opioid withdrawal",
+      "0.00118727243944911",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002525&label=Disease",
+        "title": "HBDIS002525"
+      },
+      "Psychoses, Substance-Induced",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002881&label=Disease",
+        "title": "HBDIS002881"
+      },
+      "Neuralgia, Supraorbital",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003107&label=Disease",
+        "title": "HBDIS003107"
+      },
+      "Neuralgia, Vidian",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003422&label=Disease",
+        "title": "HBDIS003422"
+      },
+      "Mucopolysaccharidosis, MPS-IV-A",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003487&label=Disease",
+        "title": "HBDIS003487"
+      },
+      "Somatization",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003500&label=Disease",
+        "title": "HBDIS003500"
+      },
+      "Primary dysmenorrhea",
+      "0.00102896944752256",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003564&label=Disease",
+        "title": "HBDIS003564"
+      },
+      "Central nervous system depression (disorder)",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004588&label=Disease",
+        "title": "HBDIS004588"
+      },
+      "Hemiballismus",
+      "0.000712363463669464",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004672&label=Disease",
+        "title": "HBDIS004672"
+      },
+      "Oral pain",
+      "0.000712363463669464",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004760&label=Disease",
+        "title": "HBDIS004760"
+      },
+      "Asterixis",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004810&label=Disease",
+        "title": "HBDIS004810"
+      },
+      "Algophobia",
+      "0.000474908975779642",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004857&label=Disease",
+        "title": "HBDIS004857"
+      },
+      "Neuralgia, Atypical",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004858&label=Disease",
+        "title": "HBDIS004858"
+      },
+      "Neuralgia, Stump",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005085&label=Disease",
+        "title": "HBDIS005085"
+      },
+      "Dyschezia",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005560&label=Disease",
+        "title": "HBDIS005560"
+      },
+      "Prurigo nodularis",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006921&label=Disease",
+        "title": "HBDIS006921"
+      },
+      "Psychological addiction",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006922&label=Disease",
+        "title": "HBDIS006922"
+      },
+      "Physical addiction",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006931&label=Disease",
+        "title": "HBDIS006931"
+      },
+      "Radicular pain",
+      "0.00142472692733892",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007848&label=Disease",
+        "title": "HBDIS007848"
+      },
+      "Critical lower limb ischemia",
+      "0.000237454487889822",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008177&label=Disease",
+        "title": "HBDIS008177"
+      },
+      "Neuropathy due to human immunodeficiency virus",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008444&label=Disease",
+        "title": "HBDIS008444"
+      },
+      "Irritable bowel syndrome with diarrhea",
+      "0.00102896944752256",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008859&label=Disease",
+        "title": "HBDIS008859"
+      },
+      "Postoperative ileus",
+      "0.00110812094348583",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009133&label=Disease",
+        "title": "HBDIS009133"
+      },
+      "Neuralgia, Perineal",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009134&label=Disease",
+        "title": "HBDIS009134"
+      },
+      "Neuralgia, Iliohypogastric Nerve",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009528&label=Disease",
+        "title": "HBDIS009528"
+      },
+      "Oral Dyskinesia",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009644&label=Disease",
+        "title": "HBDIS009644"
+      },
+      "Labor Pain",
+      "0.000870666455596011",
+      "0.00707658671810716"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009838&label=Disease",
+        "title": "HBDIS009838"
+      },
+      "Postoperative Nausea",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009839&label=Disease",
+        "title": "HBDIS009839"
+      },
+      "Vomiting, Postoperative",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010359&label=Disease",
+        "title": "HBDIS010359"
+      },
+      "Acute sciatica",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010483&label=Disease",
+        "title": "HBDIS010483"
+      },
+      "Morphine Abuse",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010556&label=Disease",
+        "title": "HBDIS010556"
+      },
+      "Gastrointestinal dysfunction",
+      "0.00110812094348583",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011191&label=Disease",
+        "title": "HBDIS011191"
+      },
+      "Fulminant Hepatic Failure with Cerebral Edema",
+      "0.00102896944752256",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011192&label=Disease",
+        "title": "HBDIS011192"
+      },
+      "Hepatic Stupor",
+      "0.00102896944752256",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011266&label=Disease",
+        "title": "HBDIS011266"
+      },
+      "Neuralgia, Ilioinguinal",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011267&label=Disease",
+        "title": "HBDIS011267"
+      },
+      "Nerve Pain",
+      "0.00142472692733892",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011268&label=Disease",
+        "title": "HBDIS011268"
+      },
+      "Paroxysmal Nerve Pain",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011562&label=Disease",
+        "title": "HBDIS011562"
+      },
+      "Ballismus",
+      "0.000474908975779642",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012068&label=Disease",
+        "title": "HBDIS012068"
+      },
+      "Endometriosis related pain",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012074&label=Disease",
+        "title": "HBDIS012074"
+      },
+      "Arthritic pain",
+      "0.00102896944752256",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012445&label=Disease",
+        "title": "HBDIS012445"
+      },
+      "HIV-1-Associated Cognitive Motor Complex",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012683&label=Disease",
+        "title": "HBDIS012683"
+      },
+      "Breakthrough Pain",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012814&label=Disease",
+        "title": "HBDIS012814"
+      },
+      "Colonic Inertia",
+      "0.000474908975779642",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013304&label=Disease",
+        "title": "HBDIS013304"
+      },
+      "Chronic pain syndrome",
+      "0.000712363463669464",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014468&label=Disease",
+        "title": "HBDIS014468"
+      },
+      "Narcotic Dependence",
+      "0.000474908975779642",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015636&label=Disease",
+        "title": "HBDIS015636"
+      },
+      "SCHIZOPHRENIA 12",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018892&label=Disease",
+        "title": "HBDIS018892"
+      },
+      "Bowel dysfunction",
+      "0.00118727243944911",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018977&label=Disease",
+        "title": "HBDIS018977"
+      },
+      "Acute postoperative pain",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020895&label=Disease",
+        "title": "HBDIS020895"
+      },
+      "Opioid-Induced Constipation",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020940&label=Disease",
+        "title": "HBDIS020940"
+      },
+      "Widespread Chronic Pain",
+      "0.00142472692733892",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021074&label=Disease",
+        "title": "HBDIS021074"
+      },
+      "Neonatal Opiate Withdrawal Syndrome",
+      "0.000474908975779642",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026424&label=Disease",
+        "title": "HBDIS026424"
+      },
+      "Arthritis Pain",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026444&label=Disease",
+        "title": "HBDIS026444"
+      },
+      "Adolescent Obesity",
+      "0.00142472692733892",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026488&label=Disease",
+        "title": "HBDIS026488"
+      },
+      "Opioid use disorder",
+      "0.00142472692733892",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026729&label=Disease",
+        "title": "HBDIS026729"
+      },
+      "Food Addiction",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026735&label=Disease",
+        "title": "HBDIS026735"
+      },
+      "Heroin Smoking",
+      "0.000712363463669464",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027263&label=Disease",
+        "title": "HBDIS027263"
+      },
+      "Opiate Abuse",
+      "0.000870666455596011",
+      "0.00707658671810716"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027605&label=Disease",
+        "title": "HBDIS027605"
+      },
+      "Taq1A POLYMORPHISM",
+      "0.000712363463669464",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027671&label=Disease",
+        "title": "HBDIS027671"
+      },
+      "Opium Use",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027968&label=Disease",
+        "title": "HBDIS027968"
+      },
+      "Opioid Overdose",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002814&label=Target",
+        "title": "HBTAR002814"
+      },
+      "OPRM1",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT02430",
+          "title": "SymMap:SMTT02430"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00299"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN046259",
+      "thebaine",
+      "C19H21NO3",
+      "CN1CCC23C4C(=CC=C2C1CC5=C3C(=C(C=C5)OC)O4)OC",
+      "311.4",
+      {
+        "link": "https://www.symmap.org/detail/SMIT01643",
+        "title": "SMIT01643"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/21276/",
+        "title": "21276"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "502"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/5324289",
+        "title": "5324289"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004453&label=Herb",
+        "title": "HERB004453"
+      },
+      "QIAN HU",
+      "前胡",
+      "root of Grand Hogfennel",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "radix Peucedani"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005319&label=Herb",
+        "title": "HERB005319"
+      },
+      "SUAN ZAO REN",
+      "酸枣仁",
+      "Spine Date Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Ziziphi Spinosae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006819&label=Herb",
+        "title": "HERB006819"
+      },
+      "YUE XIAN DA JI",
+      "月腺大戟",
+      "Ebracteolate Euphorbia Equivalent plant: Euphorbia fischeriana",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Euphorbia ebracteolata"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "AC1NSUZQ; 1-[3-[[3-acetyl-2-hydroxy-4-methoxy-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]methyl]-2,4-dihydroxy-6-methoxyphenyl]ethanone"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "SymMap id",
+      "TCMID id"
+    ],
+    [
+      "HBIN024769",
+      "ebractelatinoside b",
+      "AC1NSUZQ; 1-[3-[[3-acetyl-2-hydroxy-4-methoxy-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]methyl]-2,4-dihydroxy-6-methoxyphenyl]ethanone",
+      "C25H30O13",
+      "CC(=O)C1=C(C(=C(C=C1OC)O)CC2=C(C=C(C(=C2O)C(=O)C)OC)OC3C(C(C(C(O3)CO)O)O)O)O",
+      {
+        "link": "https://www.symmap.org/detail/SMIT15213",
+        "title": "SMIT15213"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/6666/",
+        "title": "6666"
+      }
+    ]
+  ]
+}

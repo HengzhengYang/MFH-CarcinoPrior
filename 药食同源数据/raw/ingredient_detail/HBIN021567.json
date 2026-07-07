@@ -1,0 +1,174 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000554&label=Herb",
+        "title": "HERB000554"
+      },
+      "BU ZU ZHI",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001355&label=Herb",
+        "title": "HERB001355"
+      },
+      "DONG GUA PI",
+      "冬瓜皮",
+      "Chinese Waxgourd Peel",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Exocarpium Benincasae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001410&label=Herb",
+        "title": "HERB001410"
+      },
+      "DU ZHONG YE",
+      "杜仲叶",
+      "Eucommiae Folium",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001924&label=Herb",
+        "title": "HERB001924"
+      },
+      "GOU TENG",
+      "钩藤",
+      "Gambir Plant",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Ramulus Uncariae cum Uncis"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "AC1MHD3Z; Corynantheine; ZINC85909641; BRN 0096586; Hirsuteine; D09CKI; (16E)-16,17,18,19-Tetradehydro-17-methoxycorynan-16-carboxylic acid methyl ester; 17,18-Secoyohimban-16-carboxylic acid, 16,17,18,19-tetradehydro-17-methoxy-, methyl ester, (E)-; SCHEMBL3084853; MolPort-039-338-502; Indolo[2,3-a]quinolizine-2-acetic acid, 3-ethenyl-1,2,3,4,6,7,12,12b-octahydro-.alpha.-(methoxymethylene)-, methyl ester, (.alpha.E,2S,3R,12bS)-; methyl (Z)-2-[(2S,3R,12bS)-3-ethenyl-1,2,3,4,6,7,12,12b-octahydroindolo[2,3-a]quinolizin-2-yl]-3-methoxyprop-2-enoate; methyl (Z)-2-[(2S,3R,12bS)-3-vinyl-1,2,3,4,6,7,12,12b-octahydroindolo[2,3-a]quinolizin-2-yl]-3-methoxy-prop-2-enoate; LS-144745"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN021567",
+      "corynantheine",
+      "AC1MHD3Z; Corynantheine; ZINC85909641; BRN 0096586; Hirsuteine; D09CKI; (16E)-16,17,18,19-Tetradehydro-17-methoxycorynan-16-carboxylic acid methyl ester; 17,18-Secoyohimban-16-carboxylic acid, 16,17,18,19-tetradehydro-17-methoxy-, methyl ester, (E)-; SCHEMBL3084853; MolPort-039-338-502; Indolo[2,3-a]quinolizine-2-acetic acid, 3-ethenyl-1,2,3,4,6,7,12,12b-octahydro-.alpha.-(methoxymethylene)-, methyl ester, (.alpha.E,2S,3R,12bS)-; methyl (Z)-2-[(2S,3R,12bS)-3-ethenyl-1,2,3,4,6,7,12,12b-octahydroindolo[2,3-a]quinolizin-2-yl]-3-methoxyprop-2-enoate; methyl (Z)-2-[(2S,3R,12bS)-3-vinyl-1,2,3,4,6,7,12,12b-octahydroindolo[2,3-a]quinolizin-2-yl]-3-methoxy-prop-2-enoate; LS-144745",
+      "C22H26N2O3",
+      "COC=C(C1CC2C3=C(CCN2CC1C=C)C4=CC=CC=C4N3)C(=O)OC",
+      "366.5",
+      {
+        "link": "https://www.symmap.org/detail/SMIT01352",
+        "title": "SMIT01352"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/4114/",
+        "title": "4114"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "5471"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/133613122",
+        "title": "133613122"
+      }
+    ]
+  ]
+}

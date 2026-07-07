@@ -1,0 +1,220 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001448&label=Herb",
+        "title": "HERB001448"
+      },
+      "DUAN XUE LIU",
+      "断血流",
+      "Clinopodium Herb",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Clinopodii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001915&label=Herb",
+        "title": "HERB001915"
+      },
+      "GOU QI ZI",
+      "枸杞子",
+      "fruit of Chinese Wolfberry",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Lycii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004783&label=Herb",
+        "title": "HERB004783"
+      },
+      "SAN QI",
+      "三七",
+      "Sanchi",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Notoginseng"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005782&label=Herb",
+        "title": "HERB005782"
+      },
+      "WU ZHU YU",
+      "吴茱萸",
+      "Medicil Evodia Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Evodiae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "17-(5,6-dimethylheptan-2-yl)-4,10,13,14-tetramethyl-1,2,3,4,5,6,7,8,12,15,16,17-dodecahydrocyclopenta[a]phenanthren-3-ol; 14-(5,6-dimethylheptan-2-yl)-2,6,11,15-tetramethyltetracyclo[8.7.0.0;{2,7}.0;{11,15}]heptadec-1(17)-en-5-ol; 1-(5,6-DIMETHYLHEPTAN-2-YL)-3A,6,9A,11A-TETRAMETHYL-1H,2H,3H,3BH,4H,5H,5AH,6H,7H,8H,9H,11H-CYCLOPENTA[A]PHENANTHREN-7-OL; (3beta,4alpha,5alpha,14alpha,24xi)-4,14,24-Trimethylcholest-9(11)-en-3-ol; AC1NSYIS"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002971&label=Target",
+        "title": "HBTAR002971"
+      },
+      "PGR",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00209"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000233&label=Target",
+        "title": "HBTAR000233"
+      },
+      "AR",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00048"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001277&label=Target",
+        "title": "HBTAR001277"
+      },
+      "ESR1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00046"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN004438",
+      "24-methyl-31-norlanost-9(11)-enol",
+      "17-(5,6-dimethylheptan-2-yl)-4,10,13,14-tetramethyl-1,2,3,4,5,6,7,8,12,15,16,17-dodecahydrocyclopenta[a]phenanthren-3-ol; 14-(5,6-dimethylheptan-2-yl)-2,6,11,15-tetramethyltetracyclo[8.7.0.0;{2,7}.0;{11,15}]heptadec-1(17)-en-5-ol; 1-(5,6-DIMETHYLHEPTAN-2-YL)-3A,6,9A,11A-TETRAMETHYL-1H,2H,3H,3BH,4H,5H,5AH,6H,7H,8H,9H,11H-CYCLOPENTA[A]PHENANTHREN-7-OL; (3beta,4alpha,5alpha,14alpha,24xi)-4,14,24-Trimethylcholest-9(11)-en-3-ol; AC1NSYIS",
+      "C30H52O",
+      "CC1C2CCC3C(=CCC4(C3(CCC4C(C)CCC(C)C(C)C)C)C)C2(CCC1O)C",
+      "428.7",
+      "37.9996853",
+      {
+        "link": "https://www.symmap.org/detail/SMIT00545",
+        "title": "SMIT00545"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/14617/",
+        "title": "14617"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL003994"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/5319735",
+        "title": "5319735"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003232&label=Herb",
+        "title": "HERB003232"
+      },
+      "LA JIAO",
+      "辣椒",
+      "Hot pepper",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "fructus Capsici"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003582&label=Herb",
+        "title": "HERB003582"
+      },
+      "LUO HAN GUO",
+      "罗汉果",
+      "Grosvenor Momordica Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Momordicae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006784&label=Herb",
+        "title": "HERB006784"
+      },
+      "YUAN SUI",
+      "芫荽",
+      "Coriandri Sativi Herba",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "InChI=1/C8H16O2/c1-3-5-6-7(4-2)8(9)10/h7H,3-6H2,1-2H3,(H,9,10; 72377-05-0; (2S)-2-ethylhexanoic acid; Hexanoic acid, 2-ethyl-, (S)-; (+)-2-Ethylhexanoic acid; InChI=1/C8H16O2/c1-3-5-6-7(4-2)8(9)10/h7H,3-6H2,1-2H3,(H,9,10)/t7-/m0/s"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026227&label=Disease",
+        "title": "HBDIS026227"
+      },
+      "AMELOGENESIS IMPERFECTA, TYPE IJ",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006445&label=Disease",
+        "title": "HBDIS006445"
+      },
+      "Postpartum cardiomyopathy",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006906&label=Disease",
+        "title": "HBDIS006906"
+      },
+      "Early fontanel closure",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018111&label=Disease",
+        "title": "HBDIS018111"
+      },
+      "NEURONAL CEROID LIPOFUSCINOSIS DUE TO CATHEPSIN D DEFICIENCY",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018112&label=Disease",
+        "title": "HBDIS018112"
+      },
+      "Neuronal Ceroid Lipofuscinosis, Congenital",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018505&label=Disease",
+        "title": "HBDIS018505"
+      },
+      "CEROID LIPOFUSCINOSIS, NEURONAL, 2",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019217&label=Disease",
+        "title": "HBDIS019217"
+      },
+      "Kounis Syndrome",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026004&label=Disease",
+        "title": "HBDIS026004"
+      },
+      "FIGO Stage III Ovarian Cancer",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000927&label=Target",
+        "title": "HBTAR000927"
+      },
+      "CTSD",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT00838",
+          "title": "SymMap:SMTT00838"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00363"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000700&label=Target",
+        "title": "HBTAR000700"
+      },
+      "CHRM2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00210"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003223&label=Target",
+        "title": "HBTAR003223"
+      },
+      "PRSS1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02928"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001096&label=Target",
+        "title": "HBTAR001096"
+      },
+      "DPP4",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00332"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001471&label=Target",
+        "title": "HBTAR001471"
+      },
+      "GABRA1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00309"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN042697",
+      "(S)-2-Ethylhexanoic acid",
+      "InChI=1/C8H16O2/c1-3-5-6-7(4-2)8(9)10/h7H,3-6H2,1-2H3,(H,9,10; 72377-05-0; (2S)-2-ethylhexanoic acid; Hexanoic acid, 2-ethyl-, (S)-; (+)-2-Ethylhexanoic acid; InChI=1/C8H16O2/c1-3-5-6-7(4-2)8(9)10/h7H,3-6H2,1-2H3,(H,9,10)/t7-/m0/s",
+      "C8H16O2",
+      "CCCCC(CC)C(=O)O",
+      "144.21",
+      "54.32503315",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "72377-05-0"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT09911",
+        "title": "SMIT09911"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL008669"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/135309",
+        "title": "135309"
+      }
+    ]
+  ]
+}

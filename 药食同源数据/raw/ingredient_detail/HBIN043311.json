@@ -1,0 +1,622 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003432&label=Herb",
+        "title": "HERB003432"
+      },
+      "LING MAO XIANG",
+      "灵猫香",
+      "Civet",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Viverra zibetha"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005429&label=Herb",
+        "title": "HERB005429"
+      },
+      "TIAN CAI",
+      "甜菜",
+      "Common Beet",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Beta vulgaris"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005485&label=Herb",
+        "title": "HERB005485"
+      },
+      "TIAN ZHU HUANG",
+      "天竺黄",
+      "Chinese schinzostachyum Tabasheer",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Concretio Silicea Bambusae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB007046&label=Herb",
+        "title": "HERB007046"
+      },
+      "ZHI ZI",
+      "栀子",
+      "fruit of Cape Jasmine",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Gardeniae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "CJ-04509; HMS3371O13; 3-METHYLINDOLE; Tox21_112537_1; FEMA No. 3019; Skatol; CG-0502; M-3898; ANW-37674; 3-methyl-1H-indol; NCGC00167540-01; CCG-214598; MolPort-001-759-337; 3-Methylindole, 99%  5g; 9W945B5H7R; tryptophan side-chain; SCHEMBL5396; LS-3093; 005M627; AC1Q1HQS; LS-83248; MLS001332537; SMR000677925; 1H-Indole, 3-methyl-; Z1245537978; EINECS 201-471-7; CHEMBL1329793; CHEBI:9171; 3-methylindole (skatole); DSSTox_RID_76320; UNII-9W945B5H7R; FT-0616165; ACMC-1BL1R; b-Methylindole; NSC 122024; SC-06903; NCGC00167540-03; MLS001332538; 3-Metlylindole; KS-000005VA; ZB015145; AN-767; InChI=1/C9H9N/c1-7-6-10-9-5-3-2-4-8(7)9/h2-6,10H,1H; CAS-83-34-1; ST45021440; AJ-24279; S-1349; DSSTox_CID_1775; A15835; 3-Methyl-4,5-benzopyrrole; ZLC0090; Tox21_112537; I01-2935; KB-32829; AKOS005254880; CS-W007355; AC-13010; beta-Methylindole; 3-MI; TC-020189; 3-methyl indole; PubChem7505; AM1199; AP-065/40182778; ZINC897468; NSC122024; zlchem 272; NSC-122024; MFCD00005627; DTXSID8021775; TL8005477; CTK3E8486; ACT03544; BR-68243; Skatole, >=98%; C08313; RTC-020189; M0347; CCRIS 8961; RP19970; ZFRKQXVRDFCRJG-UHFFFAOYSA-N; Skatole; Indole, 3-methyl-; 3-Methyl-1H-indole; 83-34-1; KB-236492; 3-Methylindole, analytical standard; KSC448I8N; WLN: T56 BMJ D1; ST24028575; TRA-0175731; STK033388; MCULE-8593828076; DSSTox_GSID_21775; HMS2233B05; Scatole; .beta.-Methylindole; AI3-24372; SBB055975; AC1L1N6V; HSDB 3511; AK-68243; bmse000516"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000142&label=Disease",
+        "title": "HBDIS000142"
+      },
+      "Aplastic Anemia",
+      "0.00132331549408957",
+      "0.00918246019023808"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000241&label=Disease",
+        "title": "HBDIS000241"
+      },
+      "Arteritis",
+      "0.00126597287025051",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000760&label=Disease",
+        "title": "HBDIS000760"
+      },
+      "Drug Eruptions",
+      "4.98887172906805e-05",
+      "0.000929122993446013"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001075&label=Disease",
+        "title": "HBDIS001075"
+      },
+      "Fibrosis",
+      "0.00103631209886087",
+      "0.00788273889130104"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001736&label=Disease",
+        "title": "HBDIS001736"
+      },
+      "Leukoplakia",
+      "0.000259833463242006",
+      "0.00311037067633654"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001737&label=Disease",
+        "title": "HBDIS001737"
+      },
+      "Leukoplakia, Oral",
+      "0.00051267222699233",
+      "0.00498853437290288"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001766&label=Disease",
+        "title": "HBDIS001766"
+      },
+      "Liver Cirrhosis, Alcoholic",
+      "0.000375730538303955",
+      "0.00404548299535021"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001770&label=Disease",
+        "title": "HBDIS001770"
+      },
+      "Alcoholic Liver Diseases",
+      "0.000987827320999247",
+      "0.00763669515968851"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001773&label=Disease",
+        "title": "HBDIS001773"
+      },
+      "Liver Neoplasms, Experimental",
+      "2.03189641343472e-06",
+      "7.52580063154628e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001787&label=Disease",
+        "title": "HBDIS001787"
+      },
+      "Lung Neoplasms",
+      "8.12911062641677e-05",
+      "0.00132974328179197"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002153&label=Disease",
+        "title": "HBDIS002153"
+      },
+      "Occupational Diseases",
+      "1.42581105831094e-05",
+      "0.000354561498517971"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002189&label=Disease",
+        "title": "HBDIS002189"
+      },
+      "Oral Submucous Fibrosis",
+      "0.000278751587451838",
+      "0.00328224261035452"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002338&label=Disease",
+        "title": "HBDIS002338"
+      },
+      "Peptic Ulcer",
+      "0.000495472921666191",
+      "0.0048598521495105"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002423&label=Disease",
+        "title": "HBDIS002423"
+      },
+      "Pneumonia",
+      "0.000982014321220303",
+      "0.00760625527759184"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003773&label=Disease",
+        "title": "HBDIS003773"
+      },
+      "Malignant neoplasm of pharynx",
+      "2.83421680287418e-05",
+      "0.00060347709184588"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004134&label=Disease",
+        "title": "HBDIS004134"
+      },
+      "Porphyria Cutanea Tarda",
+      "2.437341704429e-05",
+      "0.000537409909144867"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005525&label=Disease",
+        "title": "HBDIS005525"
+      },
+      "Carcinoma, Small Cell",
+      "0.000827129513841622",
+      "0.00684663629562137"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006069&label=Disease",
+        "title": "HBDIS006069"
+      },
+      "Actinic cheilitis",
+      "0.00013673402475009",
+      "0.0019630253915077"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006688&label=Disease",
+        "title": "HBDIS006688"
+      },
+      "Acquired aplastic anemia",
+      "0.000115126695166014",
+      "0.00172714911978437"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007054&label=Disease",
+        "title": "HBDIS007054"
+      },
+      "Malignant Head and Neck Neoplasm",
+      "0.000486626640019185",
+      "0.00479576772674285"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007909&label=Disease",
+        "title": "HBDIS007909"
+      },
+      "Chronic liver disease",
+      "0.00113670010042931",
+      "0.00836837749500748"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008914&label=Disease",
+        "title": "HBDIS008914"
+      },
+      "Primary spermatogenic failure",
+      "0.00126597287025051",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008962&label=Disease",
+        "title": "HBDIS008962"
+      },
+      "Morbilliform Drug Reaction",
+      "2.07030305130254e-05",
+      "0.000473835728312164"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010421&label=Disease",
+        "title": "HBDIS010421"
+      },
+      "Chemical Carcinogenesis",
+      "0.000141276871212834",
+      "0.0020104532123495"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013301&label=Disease",
+        "title": "HBDIS013301"
+      },
+      "Single tumor",
+      "0.00011102677532258",
+      "0.00168245476760207"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013746&label=Disease",
+        "title": "HBDIS013746"
+      },
+      "Gastric Cardia Carcinoma",
+      "1.73311983669015e-05",
+      "0.00041208755721761"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014082&label=Disease",
+        "title": "HBDIS014082"
+      },
+      "Cardiac Hypertrophy",
+      "0.000207035464842149",
+      "0.0026474768717726"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014173&label=Disease",
+        "title": "HBDIS014173"
+      },
+      "Vascular lesions",
+      "0.00035374562589197",
+      "0.00386835235766466"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014261&label=Disease",
+        "title": "HBDIS014261"
+      },
+      "Micronuclei, Chromosome-Defective",
+      "1.89797832693066e-05",
+      "0.000443226202787319"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014262&label=Disease",
+        "title": "HBDIS014262"
+      },
+      "Micronuclei, Genotoxicant-Induced",
+      "1.89797832693066e-05",
+      "0.000443226202787319"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017966&label=Disease",
+        "title": "HBDIS017966"
+      },
+      "Aryl Hydrocarbon Hydroxylase Inducibility",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022695&label=Disease",
+        "title": "HBDIS022695"
+      },
+      "Head and Neck Carcinoma",
+      "0.000516764349241848",
+      "0.00502081101047619"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002132&label=Disease",
+        "title": "HBDIS002132"
+      },
+      "Nicotine Dependence",
+      "0.00079451964962445",
+      "0.00663610061476543"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001343&label=Disease",
+        "title": "HBDIS001343"
+      },
+      "Hepatoma, Morris",
+      "0.000207035464842149",
+      "0.0026474768717726"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001344&label=Disease",
+        "title": "HBDIS001344"
+      },
+      "Hepatoma, Novikoff",
+      "0.000201535862552503",
+      "0.00259792763468876"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003397&label=Disease",
+        "title": "HBDIS003397"
+      },
+      "Experimental Hepatoma",
+      "0.000170081628253227",
+      "0.00228873465369564"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005382&label=Disease",
+        "title": "HBDIS005382"
+      },
+      "Halothane Hepatitis",
+      "0.000949592407074851",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006893&label=Disease",
+        "title": "HBDIS006893"
+      },
+      "Infection by Polymorphus",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009984&label=Disease",
+        "title": "HBDIS009984"
+      },
+      "Hepatitis, Chronic, Drug-Induced",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010200&label=Disease",
+        "title": "HBDIS010200"
+      },
+      "Binge Drinking",
+      "0.000949592407074851",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011762&label=Disease",
+        "title": "HBDIS011762"
+      },
+      "respiratory system cancer",
+      "0.000949592407074851",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025510&label=Disease",
+        "title": "HBDIS025510"
+      },
+      "Chronic alcoholic liver disease",
+      "0.000949592407074851",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026335&label=Disease",
+        "title": "HBDIS026335"
+      },
+      "SPERMATOGENIC FAILURE 15",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026337&label=Disease",
+        "title": "HBDIS026337"
+      },
+      "PREMATURE OVARIAN FAILURE 12",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000948&label=Target",
+        "title": "HBTAR000948"
+      },
+      "CYP1A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2949/",
+          "title": "TCMID:2949"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000954&label=Target",
+        "title": "HBTAR000954"
+      },
+      "CYP2A13",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1743/",
+          "title": "TCMID:1743"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000961&label=Target",
+        "title": "HBTAR000961"
+      },
+      "CYP2E1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11153/",
+          "title": "TCMID:11153"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000962&label=Target",
+        "title": "HBTAR000962"
+      },
+      "CYP2F1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/10801/",
+          "title": "TCMID:10801"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN043311",
+      "scatole",
+      "CJ-04509; HMS3371O13; 3-METHYLINDOLE; Tox21_112537_1; FEMA No. 3019; Skatol; CG-0502; M-3898; ANW-37674; 3-methyl-1H-indol; NCGC00167540-01; CCG-214598; MolPort-001-759-337; 3-Methylindole, 99%  5g; 9W945B5H7R; tryptophan side-chain; SCHEMBL5396; LS-3093; 005M627; AC1Q1HQS; LS-83248; MLS001332537; SMR000677925; 1H-Indole, 3-methyl-; Z1245537978; EINECS 201-471-7; CHEMBL1329793; CHEBI:9171; 3-methylindole (skatole); DSSTox_RID_76320; UNII-9W945B5H7R; FT-0616165; ACMC-1BL1R; b-Methylindole; NSC 122024; SC-06903; NCGC00167540-03; MLS001332538; 3-Metlylindole; KS-000005VA; ZB015145; AN-767; InChI=1/C9H9N/c1-7-6-10-9-5-3-2-4-8(7)9/h2-6,10H,1H; CAS-83-34-1; ST45021440; AJ-24279; S-1349; DSSTox_CID_1775; A15835; 3-Methyl-4,5-benzopyrrole; ZLC0090; Tox21_112537; I01-2935; KB-32829; AKOS005254880; CS-W007355; AC-13010; beta-Methylindole; 3-MI; TC-020189; 3-methyl indole; PubChem7505; AM1199; AP-065/40182778; ZINC897468; NSC122024; zlchem 272; NSC-122024; MFCD00005627; DTXSID8021775; TL8005477; CTK3E8486; ACT03544; BR-68243; Skatole, >=98%; C08313; RTC-020189; M0347; CCRIS 8961; RP19970; ZFRKQXVRDFCRJG-UHFFFAOYSA-N; Skatole; Indole, 3-methyl-; 3-Methyl-1H-indole; 83-34-1; KB-236492; 3-Methylindole, analytical standard; KSC448I8N; WLN: T56 BMJ D1; ST24028575; TRA-0175731; STK033388; MCULE-8593828076; DSSTox_GSID_21775; HMS2233B05; Scatole; .beta.-Methylindole; AI3-24372; SBB055975; AC1L1N6V; HSDB 3511; AK-68243; bmse000516",
+      "C9H9N",
+      "CC1=CNC2=CC=CC=C12",
+      "131.17",
+      {
+        "link": "https://www.symmap.org/detail/SMIT17621",
+        "title": "SMIT17621"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/19444/",
+        "title": "19444"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/6736",
+        "title": "6736"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,620 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001088&label=Herb",
+        "title": "HERB001088"
+      },
+      "DA MA DOU LING",
+      "大马兜铃",
+      "Maxima Dutchmanspipe",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Aristolochia maxima"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002305&label=Herb",
+        "title": "HERB002305"
+      },
+      "HONG NAN PI",
+      "红南皮",
+      "Red Nanmu Bark",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Machilus thunbergii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003924&label=Herb",
+        "title": "HERB003924"
+      },
+      "MI HOU TAO GEN",
+      "猕猴桃根",
+      "Actinidia Chinensis Planch",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004693&label=Herb",
+        "title": "HERB004693"
+      },
+      "ROU DOU KOU",
+      "肉豆蔻",
+      "Nutmeg",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Myristicae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006525&label=Herb",
+        "title": "HERB006525"
+      },
+      "YI KOU KE MEI",
+      "NA",
+      "Coco-plum",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Chrysobalanus icaco"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "BDBM50303150; LicarinA; 2680-81-1; MolPort-044-723-191; trans-2,3-dihydro-2-(4-hydroxy-3-methoxyphenyl)-7-methoxy-3-methyl-5-(E)-propenylbenzofuran; (-)-Licarin A; (+)(-)-trans-Dehydrodiisoeugenol; Phenol,4-[(2R,3R)-2,3-dihydro-7-methoxy-3-methyl-5-(1E)-1-propen-1-yl-2-benzofuranyl]-2-methoxy-,rel-; 51020-86-1; licarin a; 2-methoxy-4-[(2S,3S)-7-methoxy-3-methyl-5-[(E)-prop-1-enyl]-2,3-dihydrobenzofuran-2-yl]phenol; SCHEMBL2871105; Phenol, 4-((2R,3R)-2,3-dihydro-7-methoxy-3-methyl-5-(1E)-1-propenyl-2-benzofuranyl)-2-methoxy-; 2-methoxy-4-[(2R,3R)-7-methoxy-3-methyl-5-[(E)-prop-1-enyl]-2,3-dihydro-1-benzofuran-2-yl]phenol; trans-2,3-dihydro-2-(4-hydroxy-3-methoxyphenyl)-7-methoxy-3-methyl-5-(E)-propenylbenzofurane; 2-methoxy-4-[(2S,3S)-7-methoxy-3-methyl-5-[(E)-prop-1-enyl]-2,3-dihydro-1-benzofuran-2-yl]phenol; 2,3-Dihydro-2beta-guaiacyl-3alpha-methyl-5-(1-propenyl)-7-methoxybenzofuran; CHEMBL259731; C10650; NSC 370989; ITDOFWOJEDZPCF-OTBILJLCSA-N; (+)-licarin A; AC1O5X53; licarine A; ZINC900152"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026227&label=Disease",
+        "title": "HBDIS026227"
+      },
+      "AMELOGENESIS IMPERFECTA, TYPE IJ",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000336&label=Disease",
+        "title": "HBDIS000336"
+      },
+      "Bladder neck obstruction",
+      "0.000589584905688519",
+      "0.00550165070535431"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004250&label=Disease",
+        "title": "HBDIS004250"
+      },
+      "Low density lipoprotein cholesterol measurement",
+      "0.0011090081868101",
+      "0.00820552570814749"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004718&label=Disease",
+        "title": "HBDIS004718"
+      },
+      "Meningitic respiration",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007884&label=Disease",
+        "title": "HBDIS007884"
+      },
+      "Lateral developmental cyst of jaw",
+      "0.00063321196770619",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008744&label=Disease",
+        "title": "HBDIS008744"
+      },
+      "Spinal cord stroke",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027404&label=Disease",
+        "title": "HBDIS027404"
+      },
+      "Reoviral infection",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000517&label=Target",
+        "title": "HBTAR000517"
+      },
+      "CASP3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/5709/",
+          "title": "TCMID:5709"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003005&label=Target",
+        "title": "HBTAR003005"
+      },
+      "PIM1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02966"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000686&label=Target",
+        "title": "HBTAR000686"
+      },
+      "CHEK1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00647"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001710&label=Target",
+        "title": "HBTAR001710"
+      },
+      "GSK3B",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00422"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000233&label=Target",
+        "title": "HBTAR000233"
+      },
+      "AR",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00048"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000874&label=Target",
+        "title": "HBTAR000874"
+      },
+      "MAPK14",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00402"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000031&label=Target",
+        "title": "HBTAR000031"
+      },
+      "ACHE",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00165"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001278&label=Target",
+        "title": "HBTAR001278"
+      },
+      "ESR2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00307"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003294&label=Target",
+        "title": "HBTAR003294"
+      },
+      "PTGS1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00006"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000704&label=Target",
+        "title": "HBTAR000704"
+      },
+      "CHRM5",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00087"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003584&label=Target",
+        "title": "HBTAR003584"
+      },
+      "RXRB",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00789"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003629&label=Target",
+        "title": "HBTAR003629"
+      },
+      "SCN5A",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00070"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002737&label=Target",
+        "title": "HBTAR002737"
+      },
+      "NOS2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00003"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003223&label=Target",
+        "title": "HBTAR003223"
+      },
+      "PRSS1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02928"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003583&label=Target",
+        "title": "HBTAR003583"
+      },
+      "RXRA",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00158"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000634&label=Target",
+        "title": "HBTAR000634"
+      },
+      "CDK2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00482"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000702&label=Target",
+        "title": "HBTAR000702"
+      },
+      "CHRM3",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00016"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000699&label=Target",
+        "title": "HBTAR000699"
+      },
+      "CHRM1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00038"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002192&label=Target",
+        "title": "HBTAR002192"
+      },
+      "KCNH2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00037"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003763&label=Target",
+        "title": "HBTAR003763"
+      },
+      "SLC6A4",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00290"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001277&label=Target",
+        "title": "HBTAR001277"
+      },
+      "ESR1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00046"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000549&label=Target",
+        "title": "HBTAR000549"
+      },
+      "CCNA2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR03025"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003112&label=Target",
+        "title": "HBTAR003112"
+      },
+      "PPARG",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00078"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000093&label=Target",
+        "title": "HBTAR000093"
+      },
+      "ADRA1B",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00216"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000099&label=Target",
+        "title": "HBTAR000099"
+      },
+      "ADRB2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00261"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003295&label=Target",
+        "title": "HBTAR003295"
+      },
+      "PTGS2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00094"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001096&label=Target",
+        "title": "HBTAR001096"
+      },
+      "DPP4",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00332"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN033070",
+      "Licarin A",
+      "BDBM50303150; LicarinA; 2680-81-1; MolPort-044-723-191; trans-2,3-dihydro-2-(4-hydroxy-3-methoxyphenyl)-7-methoxy-3-methyl-5-(E)-propenylbenzofuran; (-)-Licarin A; (+)(-)-trans-Dehydrodiisoeugenol; Phenol,4-[(2R,3R)-2,3-dihydro-7-methoxy-3-methyl-5-(1E)-1-propen-1-yl-2-benzofuranyl]-2-methoxy-,rel-; 51020-86-1; licarin a; 2-methoxy-4-[(2S,3S)-7-methoxy-3-methyl-5-[(E)-prop-1-enyl]-2,3-dihydrobenzofuran-2-yl]phenol; SCHEMBL2871105; Phenol, 4-((2R,3R)-2,3-dihydro-7-methoxy-3-methyl-5-(1E)-1-propenyl-2-benzofuranyl)-2-methoxy-; 2-methoxy-4-[(2R,3R)-7-methoxy-3-methyl-5-[(E)-prop-1-enyl]-2,3-dihydro-1-benzofuran-2-yl]phenol; trans-2,3-dihydro-2-(4-hydroxy-3-methoxyphenyl)-7-methoxy-3-methyl-5-(E)-propenylbenzofurane; 2-methoxy-4-[(2S,3S)-7-methoxy-3-methyl-5-[(E)-prop-1-enyl]-2,3-dihydro-1-benzofuran-2-yl]phenol; 2,3-Dihydro-2beta-guaiacyl-3alpha-methyl-5-(1-propenyl)-7-methoxybenzofuran; CHEMBL259731; C10650; NSC 370989; ITDOFWOJEDZPCF-OTBILJLCSA-N; (+)-licarin A; AC1O5X53; licarine A; ZINC900152",
+      "C20H22O4",
+      "CC=CC1=CC2=C(C(=C1)OC)OC(C2C)C3=CC(=C(C=C3)O)OC",
+      "326.39",
+      "9.751827265",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "51020-86-1"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT10408",
+        "title": "SMIT10408"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/12743/",
+        "title": "12743"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL009248"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "14283"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/6442393",
+        "title": "6442393"
+      }
+    ]
+  ]
+}

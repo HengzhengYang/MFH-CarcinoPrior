@@ -1,0 +1,178 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000400&label=Herb",
+        "title": "HERB000400"
+      },
+      "BEI MU",
+      "贝母",
+      "Bulb of Fritillary",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Bulbus Fritillariae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003526&label=Herb",
+        "title": "HERB003526"
+      },
+      "LU GEN",
+      "芦根",
+      "Reed rhizome ",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Phragmitis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004366&label=Herb",
+        "title": "HERB004366"
+      },
+      "PING BEI MU",
+      "平贝母",
+      "Ussuri Fritillary Bulb",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Bulbus Fritillariae Ussuriensis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004578&label=Herb",
+        "title": "HERB004578"
+      },
+      "QUAN SHEN",
+      "拳参",
+      "rhizome of Bistort",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Bistortae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005548&label=Herb",
+        "title": "HERB005548"
+      },
+      "TU BEI MU",
+      "土贝母",
+      "Paniculate Bolbostemma",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Bolbostemmae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NA"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Molecule smile",
+      "SymMap id",
+      "TCMID id"
+    ],
+    [
+      "HBIN031268",
+      "isosteroidal alkaloids",
+      "Not Available",
+      {
+        "link": "https://www.symmap.org/detail/SMIT18789",
+        "title": "SMIT18789"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/25162/",
+        "title": "25162"
+      }
+    ]
+  ]
+}

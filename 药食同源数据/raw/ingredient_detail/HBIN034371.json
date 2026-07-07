@@ -1,0 +1,159 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002472&label=Herb",
+        "title": "HERB002472"
+      },
+      "HUAI HUA",
+      "槐花",
+      "flower bud of Japanese pagodatree",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "flos Sophorae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003071&label=Herb",
+        "title": "HERB003071"
+      },
+      "JUN QIAN ZI",
+      "君迁子",
+      "Dateplum Persimmon",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Diospyros lotus"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003164&label=Herb",
+        "title": "HERB003164"
+      },
+      "KU SHEN",
+      "苦参",
+      "root of Lightyellow sophora",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Sophorae flavescentis"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "8,8'-Dihydroxy-6,6'-dimethyl-2,2'-binaphthalene-1,1',4,4'-tetrone; [2,2'-Binaphthalene]-1,1',4,4'-tetrone, 8,8'-dihydroxy-6,6'-dimethyl-; AKOS030531657; AC1L50DQ; (2,2)-Binaphthalene-1,1,4,4-tetrone, 8,8-dihydroxy-6,6-dimethyl-; 8-hydroxy-2-(8-hydroxy-6-methyl-1,4-dioxo-2-naphthyl)-6-methyl-naphthalene-1,4-dione; (2,2')-Binaphthalene-1,1',4,4'-tetrone, 8,8'-dihydroxy-6,6'-dimethyl-; 8,8'-Dihydroxy-6,6'-dimethyl-[2,2'-binaphthalene]-1,1',4,4'-tetraone; Mamegakinone; CTK4D6479; SCHEMBL11919739; AC1Q6MZ4; 8,8'-Dihydroxy-6,6'-dimethyl-(2,2')-binaphthalene-1,1',4,4'-tetrone; FMQQGWMGTKBWHR-UHFFFAOYSA-N; 17734-93-9; AK556425; 8-hydroxy-2-(8-hydroxy-6-methyl-1,4-dioxonaphthalen-2-yl)-6-methylnaphthalene-1,4-dione; DTXSID70170289"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN034371",
+      "mamegakinone",
+      "8,8'-Dihydroxy-6,6'-dimethyl-2,2'-binaphthalene-1,1',4,4'-tetrone; [2,2'-Binaphthalene]-1,1',4,4'-tetrone, 8,8'-dihydroxy-6,6'-dimethyl-; AKOS030531657; AC1L50DQ; (2,2)-Binaphthalene-1,1,4,4-tetrone, 8,8-dihydroxy-6,6-dimethyl-; 8-hydroxy-2-(8-hydroxy-6-methyl-1,4-dioxo-2-naphthyl)-6-methyl-naphthalene-1,4-dione; (2,2')-Binaphthalene-1,1',4,4'-tetrone, 8,8'-dihydroxy-6,6'-dimethyl-; 8,8'-Dihydroxy-6,6'-dimethyl-[2,2'-binaphthalene]-1,1',4,4'-tetraone; Mamegakinone; CTK4D6479; SCHEMBL11919739; AC1Q6MZ4; 8,8'-Dihydroxy-6,6'-dimethyl-(2,2')-binaphthalene-1,1',4,4'-tetrone; FMQQGWMGTKBWHR-UHFFFAOYSA-N; 17734-93-9; AK556425; 8-hydroxy-2-(8-hydroxy-6-methyl-1,4-dioxonaphthalen-2-yl)-6-methylnaphthalene-1,4-dione; DTXSID70170289",
+      "C22H14O6",
+      "CC1=CC2=C(C(=C1)O)C(=O)C(=CC2=O)C3=CC(=O)C4=C(C3=O)C(=CC(=C4)C)O",
+      "374.3",
+      {
+        "link": "https://www.symmap.org/detail/SMIT16423",
+        "title": "SMIT16423"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/13456/",
+        "title": "13456"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/167673",
+        "title": "167673"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000607&label=Herb",
+        "title": "HERB000607"
+      },
+      "CAO WU YE",
+      "草乌叶",
+      "Kusnezoff Monkshood Leaf",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Folium Aconiti Kusnezoffii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000849&label=Herb",
+        "title": "HERB000849"
+      },
+      "CHUAN BEI MU",
+      "川贝母",
+      "Bulb of Tendrilleaf Fritillary",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Bulbus Fritillariae Cirrhosae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001616&label=Herb",
+        "title": "HERB001616"
+      },
+      "FAN QIE",
+      "番茄",
+      "Tomato",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Lycopersicon esculentum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002198&label=Herb",
+        "title": "HERB002198"
+      },
+      "HEI BAI HE",
+      "黑百合",
+      "Kamchatka Fritillary",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fritillaria camtschatcensis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002560&label=Herb",
+        "title": "HERB002560"
+      },
+      "HUANG QI",
+      "黄芪",
+      "root of Membranous Milkvetch",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Astragali"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002926&label=Herb",
+        "title": "HERB002926"
+      },
+      "JIN LIAN HUA",
+      "金莲花",
+      "flower of Chinese Globeflower",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Trollii chinensis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003232&label=Herb",
+        "title": "HERB003232"
+      },
+      "LA JIAO",
+      "辣椒",
+      "Hot pepper",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "fructus Capsici"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003322&label=Herb",
+        "title": "HERB003322"
+      },
+      "LI LU",
+      "藜芦",
+      "Black Falsehellebore Equivalent plant: Veratrum grandiflorum",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Veratrum nigrum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003482&label=Herb",
+        "title": "HERB003482"
+      },
+      "LONG KUI",
+      "龙葵",
+      "Solanum Nigrum Linn.",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003672&label=Herb",
+        "title": "HERB003672"
+      },
+      "MA LING SHU",
+      "马铃薯",
+      "Potato",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Solanum tuberosum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003826&label=Herb",
+        "title": "HERB003826"
+      },
+      "MAO YE LI LU",
+      "毛叶藜芦",
+      "Largeflower Falsehellebore",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Veratrum grandiflorum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004500&label=Herb",
+        "title": "HERB004500"
+      },
+      "QIE GEN",
+      "茄根",
+      "root of Garden Eggplant",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Solani melongee"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "alpha-solanine; NSC35611; Solanine, hydrochloride; NSC-35611"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001277&label=Target",
+        "title": "HBTAR001277"
+      },
+      "ESR1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00046"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000233&label=Target",
+        "title": "HBTAR000233"
+      },
+      "AR",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00048"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN044303",
+      "solanine",
+      "alpha-solanine; NSC35611; Solanine, hydrochloride; NSC-35611",
+      "C45H73NO15",
+      "CC1CCC2C(C3C(N2C1)CC4C3(CCC5C4CC=C6C5(CCC(C6)OC7C(C(C(C(O7)CO)O)OC8C(C(C(C(O8)CO)O)O)O)OC9C(C(C(C(O9)C)O)O)O)C)C)C.Cl",
+      "868.06",
+      "21.63216565",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "20562-02-1"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT00741",
+        "title": "SMIT00741"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/20044/",
+        "title": "20044"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL008735"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "919"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/54605356",
+        "title": "54605356"
+      }
+    ]
+  ]
+}

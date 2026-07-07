@@ -1,0 +1,151 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000305&label=Herb",
+        "title": "HERB000305"
+      },
+      "BAI ZHI",
+      "白芷",
+      "Dahurian Angelica Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Angelicae Dahuricae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003837&label=Herb",
+        "title": "HERB003837"
+      },
+      "MAO ZHUA CAO",
+      "猫爪草",
+      "Catclaw Buttercup Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Ranunculi Terti"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "BRN 0907645; succinic acid diethyl ester; NSC8875; Butanedioic acid, diethyl ester; Butanedioic acid, di-C8-26-alkyl esters; 123-25-1; 68989-32-2; ST5214529; Diethyl succinate; 112402_ALDRICH; 14100_FLUKA; Succinic acid, diethyl ester; Diethyl ethanedicarboxylate; InChI=1/C8H14O4/c1-3-11-7(9)5-6-8(10)12-4-2/h3-6H2,1-2H; NSC 8875; 4-02-00-01914 (Beilstein Handbook Reference); butanedioic acid diethyl ester; FEMA No. 2377; EINECS 204-612-0; (C8-C26) Alkylalcohol succinate diester; W237701_ALDRICH; AI3-00682; Diethylester kyseliny jantarove [Czech]; ZINC01648294; 07429_FLUKA; WLN: 2OV2VO2; Diethyl butanedioate"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN025988",
+      "Ethyl succinate",
+      "BRN 0907645; succinic acid diethyl ester; NSC8875; Butanedioic acid, diethyl ester; Butanedioic acid, di-C8-26-alkyl esters; 123-25-1; 68989-32-2; ST5214529; Diethyl succinate; 112402_ALDRICH; 14100_FLUKA; Succinic acid, diethyl ester; Diethyl ethanedicarboxylate; InChI=1/C8H14O4/c1-3-11-7(9)5-6-8(10)12-4-2/h3-6H2,1-2H; NSC 8875; 4-02-00-01914 (Beilstein Handbook Reference); butanedioic acid diethyl ester; FEMA No. 2377; EINECS 204-612-0; (C8-C26) Alkylalcohol succinate diester; W237701_ALDRICH; AI3-00682; Diethylester kyseliny jantarove [Czech]; ZINC01648294; 07429_FLUKA; WLN: 2OV2VO2; Diethyl butanedioate",
+      "C8H14O4",
+      "CCOC(=O)CCC(=O)OCC",
+      "174.19",
+      "15.95952642",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "68989-32-2"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT12243",
+        "title": "SMIT12243"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL011321"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/31249",
+        "title": "31249"
+      }
+    ]
+  ]
+}

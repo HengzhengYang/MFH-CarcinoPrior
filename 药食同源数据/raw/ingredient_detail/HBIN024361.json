@@ -1,0 +1,256 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000554&label=Herb",
+        "title": "HERB000554"
+      },
+      "BU ZU ZHI",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001779&label=Herb",
+        "title": "HERB001779"
+      },
+      "GAN CAO",
+      "甘草",
+      "Root of Ural Licorice",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Glycyrrhizae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001783&label=Herb",
+        "title": "HERB001783"
+      },
+      "GAN DI HUANG",
+      "干地黄",
+      "Adhesive Rehmannia Dried Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rehmannia glutinosa [Syn. Rehmannia glutinosa f. huechingensis]"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003636&label=Herb",
+        "title": "HERB003636"
+      },
+      "MA BIAN CAO",
+      "马鞭草",
+      "European Verbe Herb",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Verbae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004093&label=Herb",
+        "title": "HERB004093"
+      },
+      "NAN HE SHI",
+      "南鹤虱",
+      "Fructus Carotae",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004479&label=Herb",
+        "title": "HERB004479"
+      },
+      "QIANG HUO",
+      "羌活",
+      "Root and rhizome of Incised Notoptergium",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix et Rhizoma Notopterygii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004883&label=Herb",
+        "title": "HERB004883"
+      },
+      "SHAN DOU GEN",
+      "山豆根",
+      "Vietmese Sophora Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Sophorae Tonkinensis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005569&label=Herb",
+        "title": "HERB005569"
+      },
+      "TU JING PI",
+      "土荆皮",
+      "Pseudolaricis Cortex",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB007160&label=Herb",
+        "title": "HERB007160"
+      },
+      "ZI CAO",
+      "紫草",
+      "Arnebia Root Gromwell Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Arnebiae seu Lithospermi"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "docosyl (E)-3-(3,4-dihydroxyphenyl)prop-2-enoate; ST24046665; DOCOSYL (2E)-3-(3,4-DIHYDROXYPHENYL)PROP-2-ENOATE; MolPort-023-298-972; ZINC73220104; AKOS022184902; 2-Propenoic acid,3-(3,4-dihydroxyphenyl)-, docosyl ester, (2E)-; 3,4-Dihydroxycinnamic acid docosyl ester; Docosyl caffeate, analytical standard; W2091; docosyl caffeate; 28593-92-2; 3,4-Dihydroxybenzeneacrylic acid docosyl ester; CHEMBL1933863; SCHEMBL883452; 9375AF; AK104300; Docosyl 3-(3,4-dihydroxyphenyl)acrylate; Caffeic acid docosyl ester; 50432-89-8; AC1NSUY6"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN024361",
+      "Docosyl caffeate",
+      "docosyl (E)-3-(3,4-dihydroxyphenyl)prop-2-enoate; ST24046665; DOCOSYL (2E)-3-(3,4-DIHYDROXYPHENYL)PROP-2-ENOATE; MolPort-023-298-972; ZINC73220104; AKOS022184902; 2-Propenoic acid,3-(3,4-dihydroxyphenyl)-, docosyl ester, (2E)-; 3,4-Dihydroxycinnamic acid docosyl ester; Docosyl caffeate, analytical standard; W2091; docosyl caffeate; 28593-92-2; 3,4-Dihydroxybenzeneacrylic acid docosyl ester; CHEMBL1933863; SCHEMBL883452; 9375AF; AK104300; Docosyl 3-(3,4-dihydroxyphenyl)acrylate; Caffeic acid docosyl ester; 50432-89-8; AC1NSUY6",
+      "C31H52O4",
+      "CCCCCCCCCCCCCCCCCCCCCCOC(=O)C=CC1=CC(=C(C=C1)O)O",
+      "488.74",
+      "3.138542399",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "28593-92-2"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT06760",
+        "title": "SMIT06760"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/6538/",
+        "title": "6538"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL004921"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/5316952",
+        "title": "5316952"
+      }
+    ]
+  ]
+}

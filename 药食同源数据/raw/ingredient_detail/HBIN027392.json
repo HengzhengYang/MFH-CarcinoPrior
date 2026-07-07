@@ -1,0 +1,205 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000310&label=Herb",
+        "title": "HERB000310"
+      },
+      "BAI ZHU SHU",
+      "白竹鼠",
+      "CommonGaultheria",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Gaultheria leucocarpa var. cumingiana"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001279&label=Herb",
+        "title": "HERB001279"
+      },
+      "DIAN BAI ZHU SHU",
+      "滇白珠树",
+      "Yunnan Gaultheria",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Gaultheria yunnanensis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001628&label=Herb",
+        "title": "HERB001628"
+      },
+      "FANG XIANG BAI ZHU",
+      "芳香白珠",
+      "Fragrant Gaultheria",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Gaultheria fragrantissima"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004896&label=Herb",
+        "title": "HERB004896"
+      },
+      "SHAN HU LAN",
+      "珊瑚蓝",
+      "Faber Galeola",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Galeola faberi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005237&label=Herb",
+        "title": "HERB005237"
+      },
+      "SI LIE BAI ZHU",
+      "NA",
+      "Four Sepals Gaultheria",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Gaultheria tetramera"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005451&label=Herb",
+        "title": "HERB005451"
+      },
+      "TIAN MA",
+      "天麻",
+      "Tall Gastrodia",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Gastrodia elata"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005670&label=Herb",
+        "title": "HERB005670"
+      },
+      "WEI YE BAI ZHU",
+      "NA",
+      "Long Acuminate Leaves Gaultheria",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Gaultheria griffithiana"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NA"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Molecule formula",
+      "Molecule smile",
+      "TCMID id"
+    ],
+    [
+      "HBIN027392",
+      "gaultheroside a",
+      "C27H36O12",
+      "COC1=CC(=CC(=C1O)OC)C2C(C(CC3=CC(=C(C(=C23)OC)O)OC)CO)COC4C(C(C(CO4)O)O)O",
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/8241/",
+        "title": "8241"
+      }
+    ]
+  ]
+}

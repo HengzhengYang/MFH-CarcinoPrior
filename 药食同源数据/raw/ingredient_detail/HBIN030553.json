@@ -1,0 +1,164 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000192&label=Herb",
+        "title": "HERB000192"
+      },
+      "BAI HE",
+      "百合",
+      "Bulb of Greenish Lily",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Bulbus Lilii "
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000293&label=Herb",
+        "title": "HERB000293"
+      },
+      "BAI YAO ZI",
+      "白药子",
+      "Radix Stephaniae Cepharanthae.",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000338&label=Herb",
+        "title": "HERB000338"
+      },
+      "BAN ZHI LIAN",
+      "半枝莲",
+      "all - grass of Barbed Skullcap",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Scutellariae barbatae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "2569-76-8; LMPK12140667; iso-carthamidin; SCHEMBL476381"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN030553",
+      "isocarthamidin",
+      "2569-76-8; LMPK12140667; iso-carthamidin; SCHEMBL476381",
+      "C15H12O6",
+      "C1C(OC2=C(C1=O)C(=CC(=C2O)O)O)C3=CC=C(C=C3)O",
+      "288.25",
+      {
+        "link": "https://www.symmap.org/detail/SMIT01863",
+        "title": "SMIT01863"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/23706/",
+        "title": "23706"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "3507"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/42608117",
+        "title": "42608117"
+      }
+    ]
+  ]
+}

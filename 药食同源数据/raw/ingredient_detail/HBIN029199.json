@@ -1,0 +1,149 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000580&label=Herb",
+        "title": "HERB000580"
+      },
+      "CANG ER ZI",
+      "苍耳子",
+      "fruit of Siberian Cockleblur",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Xanthii sibirici"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000775&label=Herb",
+        "title": "HERB000775"
+      },
+      "CHEN PI",
+      "陈皮",
+      "Dried Tangerine Peel",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Pericarpium Citri Reticulatae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "ZINC6920436; Chalcone, 2',3,4'-trihydroxy-4,6'-dimethoxy-, 4'-(6-O-(6-deoxy-alpha-L-mannopyranosyl)-beta-D-glucopyranoside); Hesperidin methylchalcone; 1-(4-((6-O-(6-Deoxy-alpha-L-mannopyranosyl)-beta-D-glucopyranosyl)oxy)-2-hydroxy-6-methoxyphenyl)-3-(3-hydroxy-4-methoxyphenyl)prop-2-en-1-one; A-L-mannopyranosyl)-; BB_NC-0496; STK801860; AC1O5LWE; SC-20154; (E)-1-[4-[[6-O-(6-Deoxy-; (E)-3-(3-hydroxy-4-methoxyphenyl)-1-[2-hydroxy-6-methoxy-4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxymethyl]oxan-2-yl]oxyphenyl]prop-2-en-1-one; SCHEMBL3452314; 24292-52-2; 4T2GVA922X; LS-52926; Hesperidin methyl chalcone; 6775AF; 25429-20-3; UNII-4T2GVA922X; EINECS 246-128-2; A817194; (E)-3-(3-hydroxy-4-methoxyphenyl)-1-[2-hydroxy-6-methoxy-4-[[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyl-2-oxanyl]oxymethyl]-2-oxanyl]oxy]phenyl]-2-propen-1-one; (E)-1-(4-((6-O-(6-Deoxy-alpha-L-mannopyranosyl)-beta-D-glucopyranosyl)oxy)-2-hydroxy-6-methoxyphenyl)-3-(3-hydroxy-4-methoxyphenyl)-2-propen-1-one; AKOS015895097; A-D-glucopyranosyl]oxy]-2-hydroxy-6-methoxyphenyl]-3-(3-hydroxy-4-methoxyphenyl)-2-propen-1-one; 2-Propen-1-one, 1-(4-((6-O-(6-deoxy-alpha-L-mannopyranosyl)-beta-D-glucopyranosyl)oxy)-2-hydroxy-6-methoxyphenyl)-3-(3-hydroxy-4-methoxyphenyl)-, (2E)-; 3-hydroxy-4-[(2E)-3-(3-hydroxy-4-methoxyphenyl)prop-2-enoyl]-5-methoxyphenyl 6-O-(6-deoxy-alpha-L-mannopyranosyl)-beta-D-glucopyranoside; (E)-1-[2-methoxy-4-[(2S,"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN029199",
+      "hesperidin methyl chalcone",
+      "ZINC6920436; Chalcone, 2',3,4'-trihydroxy-4,6'-dimethoxy-, 4'-(6-O-(6-deoxy-alpha-L-mannopyranosyl)-beta-D-glucopyranoside); Hesperidin methylchalcone; 1-(4-((6-O-(6-Deoxy-alpha-L-mannopyranosyl)-beta-D-glucopyranosyl)oxy)-2-hydroxy-6-methoxyphenyl)-3-(3-hydroxy-4-methoxyphenyl)prop-2-en-1-one; A-L-mannopyranosyl)-; BB_NC-0496; STK801860; AC1O5LWE; SC-20154; (E)-1-[4-[[6-O-(6-Deoxy-; (E)-3-(3-hydroxy-4-methoxyphenyl)-1-[2-hydroxy-6-methoxy-4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxymethyl]oxan-2-yl]oxyphenyl]prop-2-en-1-one; SCHEMBL3452314; 24292-52-2; 4T2GVA922X; LS-52926; Hesperidin methyl chalcone; 6775AF; 25429-20-3; UNII-4T2GVA922X; EINECS 246-128-2; A817194; (E)-3-(3-hydroxy-4-methoxyphenyl)-1-[2-hydroxy-6-methoxy-4-[[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyl-2-oxanyl]oxymethyl]-2-oxanyl]oxy]phenyl]-2-propen-1-one; (E)-1-(4-((6-O-(6-Deoxy-alpha-L-mannopyranosyl)-beta-D-glucopyranosyl)oxy)-2-hydroxy-6-methoxyphenyl)-3-(3-hydroxy-4-methoxyphenyl)-2-propen-1-one; AKOS015895097; A-D-glucopyranosyl]oxy]-2-hydroxy-6-methoxyphenyl]-3-(3-hydroxy-4-methoxyphenyl)-2-propen-1-one; 2-Propen-1-one, 1-(4-((6-O-(6-deoxy-alpha-L-mannopyranosyl)-beta-D-glucopyranosyl)oxy)-2-hydroxy-6-methoxyphenyl)-3-(3-hydroxy-4-methoxyphenyl)-, (2E)-; 3-hydroxy-4-[(2E)-3-(3-hydroxy-4-methoxyphenyl)prop-2-enoyl]-5-methoxyphenyl 6-O-(6-deoxy-alpha-L-mannopyranosyl)-beta-D-glucopyranoside; (E)-1-[2-methoxy-4-[(2S,",
+      "C29H36O15",
+      "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=CC(=C(C(=C3)OC)C(=O)C=CC4=CC(=C(C=C4)OC)O)O)O)O)O)O)O)O",
+      "624.6",
+      {
+        "link": "https://www.symmap.org/detail/SMIT18336",
+        "title": "SMIT18336"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/23332/",
+        "title": "23332"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "3767"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/6436550",
+        "title": "6436550"
+      }
+    ]
+  ]
+}

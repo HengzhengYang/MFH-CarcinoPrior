@@ -1,0 +1,2556 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000838&label=Herb",
+        "title": "HERB000838"
+      },
+      "CHU BAI PI",
+      "樗白皮",
+      "Tree of Heaven Ailanthus Bast",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Ailanthus altissima"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003159&label=Herb",
+        "title": "HERB003159"
+      },
+      "KU MU",
+      "苦木",
+      "Indian Quassiawood",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Picrasma quassioides [Syn. Picrasma ailanthoides]"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003169&label=Herb",
+        "title": "HERB003169"
+      },
+      "KU SHU PI",
+      "苦树皮",
+      "Indian Quassiawood Bark",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Picrasma quassioides [Syn. Picrasma ailanthoides]"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003888&label=Herb",
+        "title": "HERB003888"
+      },
+      "MEI ZHOU KU MU",
+      "美洲苦木",
+      "Surinam Quassia",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Quassia amara"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004849&label=Herb",
+        "title": "HERB004849"
+      },
+      "SHA JI",
+      "沙棘",
+      "fruit of seabuckthorn",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "fructus hippophae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "Picrasa-2,12-diene-1,11,16-trione, 2,12-dimethoxy-; 1405-17-0; LMPR01060018; quassin; (3AS,6aR,7aS,8S,11aS,11bS,11cS)-1,3a,4,5,6a,7,7a,8,11,11a,11b,11c-dodecahydro-2,10-dimethoxy-3,8,11a,11c-tetramethyldibenzo(de,g)chromene-1,5,11-trione; C08778; 76-78-8; Quassine; 2,12-Dimethoxypicrasa-2,12-diene-1,11,16-trione; EINECS 200-985-9; AIDS026399; NSC 36342; AIDS-026399"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000006&label=Disease",
+        "title": "HBDIS000006"
+      },
+      "Abdominal Pain",
+      "0.0010734686588728",
+      "0.00809704471169138"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000189&label=Disease",
+        "title": "HBDIS000189"
+      },
+      "Anorexia Nervosa",
+      "0.000498168520064125",
+      "0.00488157467369316"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000204&label=Disease",
+        "title": "HBDIS000204"
+      },
+      "Anxiety",
+      "0.000268505191228836",
+      "0.00318945867108063"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000205&label=Disease",
+        "title": "HBDIS000205"
+      },
+      "Anxiety Disorders",
+      "0.000149846674844007",
+      "0.00210183110143978"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000283&label=Disease",
+        "title": "HBDIS000283"
+      },
+      "Autoimmune Diseases",
+      "0.00109727000036341",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000288&label=Disease",
+        "title": "HBDIS000288"
+      },
+      "Azoospermia",
+      "0.000580136411562605",
+      "0.00543497879942177"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000308&label=Disease",
+        "title": "HBDIS000308"
+      },
+      "Mental disorders",
+      "0.000107671987065242",
+      "0.00164100931479037"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000329&label=Disease",
+        "title": "HBDIS000329"
+      },
+      "Bipolar Disorder",
+      "0.000352025830380098",
+      "0.00385741292329952"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000341&label=Disease",
+        "title": "HBDIS000341"
+      },
+      "Oral paracoccidioidomycosis",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000469&label=Disease",
+        "title": "HBDIS000469"
+      },
+      "Hypertrophic Cardiomyopathy",
+      "3.44352633697895e-05",
+      "0.000701429313150403"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000471&label=Disease",
+        "title": "HBDIS000471"
+      },
+      "Cardiovascular Diseases",
+      "0.00126147380120315",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000503&label=Disease",
+        "title": "HBDIS000503"
+      },
+      "Cerebral Infarction",
+      "8.80416323328955e-05",
+      "0.00141217335389502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000607&label=Disease",
+        "title": "HBDIS000607"
+      },
+      "Cocaine Abuse",
+      "0.000224083867542162",
+      "0.00281060145775213"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000668&label=Disease",
+        "title": "HBDIS000668"
+      },
+      "Coronary Arteriosclerosis",
+      "0.000507997626561024",
+      "0.00495181482632392"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000669&label=Disease",
+        "title": "HBDIS000669"
+      },
+      "Coronary heart disease",
+      "0.000829530508077533",
+      "0.00686085575068096"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000711&label=Disease",
+        "title": "HBDIS000711"
+      },
+      "Phyllodes Tumor",
+      "0.000118304016213486",
+      "0.00176253850469464"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000752&label=Disease",
+        "title": "HBDIS000752"
+      },
+      "Mental Depression",
+      "0.000788302245286096",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000756&label=Disease",
+        "title": "HBDIS000756"
+      },
+      "Depressive disorder",
+      "0.0012203420647134",
+      "0.00873351222469949"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000830&label=Disease",
+        "title": "HBDIS000830"
+      },
+      "Dry Eye Syndromes",
+      "0.000327707565024798",
+      "0.00365668773499556"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000871&label=Disease",
+        "title": "HBDIS000871"
+      },
+      "Eating Disorders",
+      "5.90689779289349e-07",
+      "2.7184524330483e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000879&label=Disease",
+        "title": "HBDIS000879"
+      },
+      "Eclampsia",
+      "0.000647392016223785",
+      "0.00581329202052841"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000916&label=Disease",
+        "title": "HBDIS000916"
+      },
+      "Encephalomyelitis",
+      "0.000165789882579314",
+      "0.00224405897146796"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000933&label=Disease",
+        "title": "HBDIS000933"
+      },
+      "Endometriosis",
+      "0.000426600720798561",
+      "0.00441877594983266"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000944&label=Disease",
+        "title": "HBDIS000944"
+      },
+      "Eosinophilia",
+      "0.00127734183240363",
+      "0.00893507307719563"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000962&label=Disease",
+        "title": "HBDIS000962"
+      },
+      "Epilepsy, Temporal Lobe",
+      "0.00149865512873596",
+      "0.00990785817435814"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001045&label=Disease",
+        "title": "HBDIS001045"
+      },
+      "Fatty Liver",
+      "0.000189013884590909",
+      "0.00247541130972041"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001073&label=Disease",
+        "title": "HBDIS001073"
+      },
+      "Fibromyalgia",
+      "0.000280257068324319",
+      "0.00329730336829236"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001162&label=Disease",
+        "title": "HBDIS001162"
+      },
+      "Chronic desquamative gingivitis",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001209&label=Disease",
+        "title": "HBDIS001209"
+      },
+      "Gonorrhea",
+      "0.000718296187121247",
+      "0.00622852496827198"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001228&label=Disease",
+        "title": "HBDIS001228"
+      },
+      "Guillain-Barre Syndrome",
+      "1.19335792652409e-06",
+      "4.86089203558411e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001230&label=Disease",
+        "title": "HBDIS001230"
+      },
+      "Gynecomastia",
+      "0.000167027701826857",
+      "0.002258454088763"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001264&label=Disease",
+        "title": "HBDIS001264"
+      },
+      "Heart failure",
+      "0.000786277496368408",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001265&label=Disease",
+        "title": "HBDIS001265"
+      },
+      "Congestive heart failure",
+      "0.00125870336093696",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001333&label=Disease",
+        "title": "HBDIS001333"
+      },
+      "Hepatitis",
+      "7.21832076347057e-05",
+      "0.00122638598613494"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001365&label=Disease",
+        "title": "HBDIS001365"
+      },
+      "Herpes Simplex Infections",
+      "7.21832076347057e-05",
+      "0.00122638598613494"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001403&label=Disease",
+        "title": "HBDIS001403"
+      },
+      "Hunger",
+      "6.41276703756617e-05",
+      "0.00112349284357845"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001418&label=Disease",
+        "title": "HBDIS001418"
+      },
+      "Hyperalgesia",
+      "3.01061591786541e-05",
+      "0.000632318068278482"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001425&label=Disease",
+        "title": "HBDIS001425"
+      },
+      "Hypercholesterolemia",
+      "3.59655065707945e-05",
+      "0.000724249845112788"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001426&label=Disease",
+        "title": "HBDIS001426"
+      },
+      "Hypercholesterolemia, Familial",
+      "0.000573611751390871",
+      "0.00538569982436807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001432&label=Disease",
+        "title": "HBDIS001432"
+      },
+      "Hyperglycemia",
+      "0.00037131075874082",
+      "0.00401116070795963"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001493&label=Disease",
+        "title": "HBDIS001493"
+      },
+      "Hyponatremia",
+      "0.0001532191582991",
+      "0.00213922258001268"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001543&label=Disease",
+        "title": "HBDIS001543"
+      },
+      "Infertility",
+      "6.85804865557386e-05",
+      "0.00118140058437249"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001619&label=Disease",
+        "title": "HBDIS001619"
+      },
+      "Kidney Failure, Chronic",
+      "0.000140661620639598",
+      "0.0020041520672107"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001698&label=Disease",
+        "title": "HBDIS001698"
+      },
+      "Acute Erythroblastic Leukemia",
+      "0.00124851258212791",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001750&label=Disease",
+        "title": "HBDIS001750"
+      },
+      "Lipodystrophy",
+      "3.85003792113689e-06",
+      "0.000126098264259321"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001818&label=Disease",
+        "title": "HBDIS001818"
+      },
+      "Lymphopenia",
+      "0.000654318346040635",
+      "0.00586351523761104"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001904&label=Disease",
+        "title": "HBDIS001904"
+      },
+      "Multiple Endocrine Neoplasia Type 2a",
+      "6.63354576835303e-05",
+      "0.00115157378144287"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001935&label=Disease",
+        "title": "HBDIS001935"
+      },
+      "Metabolic Diseases",
+      "0.000250160670399543",
+      "0.00302199751496651"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001979&label=Disease",
+        "title": "HBDIS001979"
+      },
+      "Mucocutaneous Lymph Node Syndrome",
+      "0.00141616370071848",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001992&label=Disease",
+        "title": "HBDIS001992"
+      },
+      "Multiple Sclerosis",
+      "0.0011459736486224",
+      "0.00841931429372959"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002007&label=Disease",
+        "title": "HBDIS002007"
+      },
+      "Musculoskeletal Pain",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002026&label=Disease",
+        "title": "HBDIS002026"
+      },
+      "Myocardial Infarction",
+      "0.00136393821884406",
+      "0.0093577305704866"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002095&label=Disease",
+        "title": "HBDIS002095"
+      },
+      "Nephrotic Syndrome",
+      "1.47761426984218e-05",
+      "0.000364486891927132"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002168&label=Disease",
+        "title": "HBDIS002168"
+      },
+      "Oligospermia",
+      "0.000450802202274381",
+      "0.0046072092278673"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002263&label=Disease",
+        "title": "HBDIS002263"
+      },
+      "Pain",
+      "0.000909545601217785",
+      "0.00731862720093819"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002423&label=Disease",
+        "title": "HBDIS002423"
+      },
+      "Pneumonia",
+      "0.000257779269531852",
+      "0.00309224232649244"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002442&label=Disease",
+        "title": "HBDIS002442"
+      },
+      "Adenomatous Polyposis Coli",
+      "6.23723290890288e-05",
+      "0.00109912168869488"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002469&label=Disease",
+        "title": "HBDIS002469"
+      },
+      "Atrial Premature Complexes",
+      "0.000405782775612256",
+      "0.00425502357476202"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002532&label=Disease",
+        "title": "HBDIS002532"
+      },
+      "Precocious Puberty",
+      "0.000232319842174348",
+      "0.00288848593407179"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002605&label=Disease",
+        "title": "HBDIS002605"
+      },
+      "Respiratory Tract Infections",
+      "0.000411281754176759",
+      "0.00429880429557403"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002765&label=Disease",
+        "title": "HBDIS002765"
+      },
+      "Dermatologic disorders",
+      "5.76418826119022e-05",
+      "0.00103696458401406"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002779&label=Disease",
+        "title": "HBDIS002779"
+      },
+      "Sleep disturbances",
+      "0.00110923645243668",
+      "0.00820552570814749"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002849&label=Disease",
+        "title": "HBDIS002849"
+      },
+      "Post-Traumatic Stress Disorder",
+      "1.81505932842504e-05",
+      "0.000427976638608509"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002852&label=Disease",
+        "title": "HBDIS002852"
+      },
+      "Stress, Psychological",
+      "2.35175985059191e-06",
+      "8.47372280013582e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002855&label=Disease",
+        "title": "HBDIS002855"
+      },
+      "Cerebrovascular accident",
+      "0.00111249790162891",
+      "0.00822415735627683"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003024&label=Disease",
+        "title": "HBDIS003024"
+      },
+      "Tuberculosis, Pulmonary",
+      "0.00140601398464755",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003032&label=Disease",
+        "title": "HBDIS003032"
+      },
+      "Turner Syndrome",
+      "0.00034266072270552",
+      "0.0037763793994358"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003041&label=Disease",
+        "title": "HBDIS003041"
+      },
+      "Unipolar Depression",
+      "6.38782405791463e-05",
+      "0.00112150776929881"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003061&label=Disease",
+        "title": "HBDIS003061"
+      },
+      "Urinary tract infection",
+      "0.000554257101488727",
+      "0.00525190897674797"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003089&label=Disease",
+        "title": "HBDIS003089"
+      },
+      "Vascular Diseases",
+      "9.18551994716298e-05",
+      "0.00145876718631535"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003131&label=Disease",
+        "title": "HBDIS003131"
+      },
+      "Vomiting",
+      "0.00119182762380324",
+      "0.00857641508004499"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003270&label=Disease",
+        "title": "HBDIS003270"
+      },
+      "Addictive Behavior",
+      "1.11230112903548e-05",
+      "0.000292375884946869"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003319&label=Disease",
+        "title": "HBDIS003319"
+      },
+      "Liver Failure",
+      "0.00113644179313805",
+      "0.00836769292068426"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003384&label=Disease",
+        "title": "HBDIS003384"
+      },
+      "Depressive Symptoms",
+      "1.81505932842504e-05",
+      "0.000427976638608509"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003523&label=Disease",
+        "title": "HBDIS003523"
+      },
+      "Lumbar spondylosis",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003736&label=Disease",
+        "title": "HBDIS003736"
+      },
+      "Linear atrophy",
+      "0.000317922818665189",
+      "0.00356936013289624"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003843&label=Disease",
+        "title": "HBDIS003843"
+      },
+      "Carcinoma in situ of prostate",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003852&label=Disease",
+        "title": "HBDIS003852"
+      },
+      "Hyperestrogenism",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004001&label=Disease",
+        "title": "HBDIS004001"
+      },
+      "Arthralgia of temporomandibular joint",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004019&label=Disease",
+        "title": "HBDIS004019"
+      },
+      "Prolapse of female genital organs",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004023&label=Disease",
+        "title": "HBDIS004023"
+      },
+      "Polyp of vagina",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004382&label=Disease",
+        "title": "HBDIS004382"
+      },
+      "Giant Cell Tumor of Bone",
+      "0.000149859650169285",
+      "0.00210183110143978"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004407&label=Disease",
+        "title": "HBDIS004407"
+      },
+      "Adrenal Cortical Adenoma",
+      "0.000289452425413158",
+      "0.00337223620965339"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004547&label=Disease",
+        "title": "HBDIS004547"
+      },
+      "Hyperparathyroidism, Primary",
+      "0.000156615723481748",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004576&label=Disease",
+        "title": "HBDIS004576"
+      },
+      "Depression, Postpartum",
+      "2.31234581206553e-08",
+      "1.71617271169075e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004831&label=Disease",
+        "title": "HBDIS004831"
+      },
+      "Memory impairment",
+      "0.000121093115949738",
+      "0.00179548535524612"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004856&label=Disease",
+        "title": "HBDIS004856"
+      },
+      "Visceral Pain",
+      "4.97164229887648e-05",
+      "0.000927690707927419"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005009&label=Disease",
+        "title": "HBDIS005009"
+      },
+      "Congenital diaphragmatic hernia",
+      "0.000647392016223785",
+      "0.00581329202052841"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005410&label=Disease",
+        "title": "HBDIS005410"
+      },
+      "Dyslipidemias",
+      "3.12699357443392e-05",
+      "0.000651000721951252"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005462&label=Disease",
+        "title": "HBDIS005462"
+      },
+      "Systemic Inflammatory Response Syndrome",
+      "0.000405782775612256",
+      "0.00425502357476202"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005649&label=Disease",
+        "title": "HBDIS005649"
+      },
+      "Degenerative spondylolisthesis",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006404&label=Disease",
+        "title": "HBDIS006404"
+      },
+      "Nephritic syndrome",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006432&label=Disease",
+        "title": "HBDIS006432"
+      },
+      "Endometrioma",
+      "7.56534077883046e-06",
+      "0.000215773107557237"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006615&label=Disease",
+        "title": "HBDIS006615"
+      },
+      "Somatotropin deficiency",
+      "0.000262308800834636",
+      "0.00313443732097962"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006632&label=Disease",
+        "title": "HBDIS006632"
+      },
+      "Impaired glucose tolerance",
+      "5.69360695566874e-05",
+      "0.00102708046168532"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006941&label=Disease",
+        "title": "HBDIS006941"
+      },
+      "Malignant neoplasm of colon stage IV",
+      "0.000115352528495791",
+      "0.00172943721237209"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006945&label=Disease",
+        "title": "HBDIS006945"
+      },
+      "Carcinoma breast stage IV",
+      "4.73398671725281e-05",
+      "0.000892278213818722"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007204&label=Disease",
+        "title": "HBDIS007204"
+      },
+      "Grade III Meningioma",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007526&label=Disease",
+        "title": "HBDIS007526"
+      },
+      "Inflammatory carcinoma",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007560&label=Disease",
+        "title": "HBDIS007560"
+      },
+      "Cellular leiomyoma",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007561&label=Disease",
+        "title": "HBDIS007561"
+      },
+      "Bizarre leiomyoma",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007694&label=Disease",
+        "title": "HBDIS007694"
+      },
+      "Impaired cognition",
+      "0.00104996620816635",
+      "0.00796157103679691"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007701&label=Disease",
+        "title": "HBDIS007701"
+      },
+      "Mixed anxiety and depressive disorder",
+      "0.000220021293197782",
+      "0.00277582003069705"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007886&label=Disease",
+        "title": "HBDIS007886"
+      },
+      "Hypertrophy of parotid gland",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008202&label=Disease",
+        "title": "HBDIS008202"
+      },
+      "Depressed mood",
+      "0.000744554757620209",
+      "0.00639457461238417"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008320&label=Disease",
+        "title": "HBDIS008320"
+      },
+      "Neuromuscular hamartoma",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008345&label=Disease",
+        "title": "HBDIS008345"
+      },
+      "Immature Ovarian Teratoma",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008592&label=Disease",
+        "title": "HBDIS008592"
+      },
+      "Carcinoid tumor, malignant",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008864&label=Disease",
+        "title": "HBDIS008864"
+      },
+      "Non-alcoholic Fatty Liver Disease",
+      "0.000308925338262825",
+      "0.00354243228259671"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009276&label=Disease",
+        "title": "HBDIS009276"
+      },
+      "Serum HDL cholesterol measurement",
+      "0.000936187574722747",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009298&label=Disease",
+        "title": "HBDIS009298"
+      },
+      "Anovulatory (finding)",
+      "4.97164229887648e-05",
+      "0.000927690707927419"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009400&label=Disease",
+        "title": "HBDIS009400"
+      },
+      "Progressive pseudorheumatoid dysplasia",
+      "6.19750341522064e-08",
+      "4.02620757576935e-06"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009744&label=Disease",
+        "title": "HBDIS009744"
+      },
+      "Vulval intraepithelial neoplasia grade 2",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009800&label=Disease",
+        "title": "HBDIS009800"
+      },
+      "Chronic active hepatitis",
+      "6.42278601235498e-07",
+      "2.9131974710001e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009815&label=Disease",
+        "title": "HBDIS009815"
+      },
+      "Postpartum psychosis",
+      "3.4187720352225e-06",
+      "0.000114498238967736"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009816&label=Disease",
+        "title": "HBDIS009816"
+      },
+      "Sleep Apnea, Obstructive",
+      "3.19823912137784e-05",
+      "0.000662215571194198"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009848&label=Disease",
+        "title": "HBDIS009848"
+      },
+      "Osteoporotic Fractures",
+      "0.0001532191582991",
+      "0.00213922258001268"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009855&label=Disease",
+        "title": "HBDIS009855"
+      },
+      "Calcific tendinitis",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009963&label=Disease",
+        "title": "HBDIS009963"
+      },
+      "Pervasive Development Disorder",
+      "0.00126769604106417",
+      "0.00887802113296761"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009970&label=Disease",
+        "title": "HBDIS009970"
+      },
+      "Metabolic Syndrome X",
+      "0.000395111082442155",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009989&label=Disease",
+        "title": "HBDIS009989"
+      },
+      "Mood Disorders",
+      "4.73398671725281e-05",
+      "0.000892278213818722"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010013&label=Disease",
+        "title": "HBDIS010013"
+      },
+      "Forgetful",
+      "2.07236062387596e-05",
+      "0.000473990395144733"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010145&label=Disease",
+        "title": "HBDIS010145"
+      },
+      "MALE GENITAL ABNORMALITIES",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010503&label=Disease",
+        "title": "HBDIS010503"
+      },
+      "Hashimoto Disease",
+      "0.00129674150906528",
+      "0.00903881830098162"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010519&label=Disease",
+        "title": "HBDIS010519"
+      },
+      "Refractory cancer",
+      "0.000439327205525953",
+      "0.00451720936710985"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010712&label=Disease",
+        "title": "HBDIS010712"
+      },
+      "Acne",
+      "0.000363113287493598",
+      "0.00394268916476535"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010794&label=Disease",
+        "title": "HBDIS010794"
+      },
+      "Middle Cerebral Artery Occlusion",
+      "6.01581314943146e-05",
+      "0.00107102788481837"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010804&label=Disease",
+        "title": "HBDIS010804"
+      },
+      "Postsurgical menopause",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010932&label=Disease",
+        "title": "HBDIS010932"
+      },
+      "Hyperlipoproteinemia Type IIa",
+      "0.000560672090401947",
+      "0.00529494024231845"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011002&label=Disease",
+        "title": "HBDIS011002"
+      },
+      "Postobstructive pneumonia",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011839&label=Disease",
+        "title": "HBDIS011839"
+      },
+      "Sleep Disorders",
+      "0.00146745141179041",
+      "0.00974475632032831"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011850&label=Disease",
+        "title": "HBDIS011850"
+      },
+      "Pregnancy associated hypertension",
+      "0.000486107086229029",
+      "0.00479280553389632"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012168&label=Disease",
+        "title": "HBDIS012168"
+      },
+      "Split ends",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012269&label=Disease",
+        "title": "HBDIS012269"
+      },
+      "Sarcopenia",
+      "0.000373560186129259",
+      "0.00403055918738161"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012385&label=Disease",
+        "title": "HBDIS012385"
+      },
+      "Cerebral Aneurysm",
+      "5.1663352690699e-05",
+      "0.000954563481002084"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012464&label=Disease",
+        "title": "HBDIS012464"
+      },
+      "Vascular inflammations",
+      "0.0013959002245124",
+      "0.00952463113262101"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012469&label=Disease",
+        "title": "HBDIS012469"
+      },
+      "Ischemic stroke",
+      "0.000372538908990238",
+      "0.00402080855505979"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012559&label=Disease",
+        "title": "HBDIS012559"
+      },
+      "Hurthle Cell Tumor",
+      "0.000232319842174348",
+      "0.00288848593407179"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012686&label=Disease",
+        "title": "HBDIS012686"
+      },
+      "Heart Failure, Systolic",
+      "3.71323454322846e-05",
+      "0.000741627632262669"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012705&label=Disease",
+        "title": "HBDIS012705"
+      },
+      "Posterior Tibial Tendon Dysfunction",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012728&label=Disease",
+        "title": "HBDIS012728"
+      },
+      "Autoimmune nephritis",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012853&label=Disease",
+        "title": "HBDIS012853"
+      },
+      "Eccrine ductal carcinoma",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012979&label=Disease",
+        "title": "HBDIS012979"
+      },
+      "Large cell calcifying Sertoli cell tumor",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012992&label=Disease",
+        "title": "HBDIS012992"
+      },
+      "Benign cystic nephroma",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013025&label=Disease",
+        "title": "HBDIS013025"
+      },
+      "Major Depressive Disorder",
+      "0.000359177386250235",
+      "0.00390858711062914"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013164&label=Disease",
+        "title": "HBDIS013164"
+      },
+      "Lipoatrophy",
+      "0.000146537205044287",
+      "0.00206600814475689"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013186&label=Disease",
+        "title": "HBDIS013186"
+      },
+      "Metastasis from malignant tumor of prostate",
+      "0.00142634936677321",
+      "0.00953568486820373"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013311&label=Disease",
+        "title": "HBDIS013311"
+      },
+      "Primary malignant neoplasm of ovary and other uterine adnexa",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013346&label=Disease",
+        "title": "HBDIS013346"
+      },
+      "Salivary duct carcinoma",
+      "3.5483895827605e-05",
+      "0.00071732124524221"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013447&label=Disease",
+        "title": "HBDIS013447"
+      },
+      "Eosinophilic disorder",
+      "0.00102957265730035",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013556&label=Disease",
+        "title": "HBDIS013556"
+      },
+      "Tubular breast carcinoma",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013637&label=Disease",
+        "title": "HBDIS013637"
+      },
+      "Calcifying Fibrous Pseudotumor",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013665&label=Disease",
+        "title": "HBDIS013665"
+      },
+      "Childhood Leukemia",
+      "0.00115379300520148",
+      "0.00846471592175076"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013810&label=Disease",
+        "title": "HBDIS013810"
+      },
+      "Invasive Ductal and Lobular Carcinoma",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013901&label=Disease",
+        "title": "HBDIS013901"
+      },
+      "Ovarian Transitional Cell Carcinoma",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013966&label=Disease",
+        "title": "HBDIS013966"
+      },
+      "Sporadic Breast Carcinoma",
+      "0.000439327205525953",
+      "0.00451720936710985"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014078&label=Disease",
+        "title": "HBDIS014078"
+      },
+      "Oncocytic Neoplasm",
+      "7.08627510403032e-05",
+      "0.00121063135866323"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014253&label=Disease",
+        "title": "HBDIS014253"
+      },
+      "Adolescent Gynecomastia",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014343&label=Disease",
+        "title": "HBDIS014343"
+      },
+      "Oxyphilic Adenoma",
+      "9.04606347235436e-05",
+      "0.00144172853493941"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014345&label=Disease",
+        "title": "HBDIS014345"
+      },
+      "Autism Spectrum Disorders",
+      "0.000295031160564228",
+      "0.00342363442467888"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014351&label=Disease",
+        "title": "HBDIS014351"
+      },
+      "Breast Carcinoma with Choriocarcinomatous Features",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014391&label=Disease",
+        "title": "HBDIS014391"
+      },
+      "Serous Endometrial Intraepithelial Carcinoma",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014683&label=Disease",
+        "title": "HBDIS014683"
+      },
+      "androgen independent prostate cancer",
+      "0.000433644727292503",
+      "0.00447162278919384"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014772&label=Disease",
+        "title": "HBDIS014772"
+      },
+      "Neonatal Deformity",
+      "5.10856412126794e-06",
+      "0.000158009632582764"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018446&label=Disease",
+        "title": "HBDIS018446"
+      },
+      "Marked delay in bone age",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018554&label=Disease",
+        "title": "HBDIS018554"
+      },
+      "Intravenous bisphosphonates",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018581&label=Disease",
+        "title": "HBDIS018581"
+      },
+      "Coronary Artery Disease",
+      "0.00103046268723859",
+      "0.00784789522205718"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018619&label=Disease",
+        "title": "HBDIS018619"
+      },
+      "Aromatase deficiency",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018650&label=Disease",
+        "title": "HBDIS018650"
+      },
+      "Oculorespiratory syndrome",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018820&label=Disease",
+        "title": "HBDIS018820"
+      },
+      "Alzheimer Disease 12",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018893&label=Disease",
+        "title": "HBDIS018893"
+      },
+      "Regurgitation",
+      "4.59344370775178e-05",
+      "0.000873006200377566"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018944&label=Disease",
+        "title": "HBDIS018944"
+      },
+      "Adenosarcoma of the uterus",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018982&label=Disease",
+        "title": "HBDIS018982"
+      },
+      "malignant neoplasm of breast stage I",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019050&label=Disease",
+        "title": "HBDIS019050"
+      },
+      "Bulimia Nervosa",
+      "7.31822451852395e-05",
+      "0.00123958606159693"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019057&label=Disease",
+        "title": "HBDIS019057"
+      },
+      "Idiopathic gynecomastia",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019070&label=Disease",
+        "title": "HBDIS019070"
+      },
+      "Chronic kidney disease stage 5",
+      "7.72370789743339e-05",
+      "0.0012892217301566"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019514&label=Disease",
+        "title": "HBDIS019514"
+      },
+      "Congenital Disorder Of Glycosylation, Type In",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019603&label=Disease",
+        "title": "HBDIS019603"
+      },
+      "Metastatic Lobular Breast Carcinoma",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019636&label=Disease",
+        "title": "HBDIS019636"
+      },
+      "Steatohepatitis",
+      "0.000400247894679829",
+      "0.00421240632066229"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019702&label=Disease",
+        "title": "HBDIS019702"
+      },
+      "Henoch-Schonlein purpura nephritis",
+      "9.50042008047702e-06",
+      "0.000258046694021872"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020159&label=Disease",
+        "title": "HBDIS020159"
+      },
+      "Premature ovarian failure, familial",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020542&label=Disease",
+        "title": "HBDIS020542"
+      },
+      "Multifocal breast carcinoma",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020544&label=Disease",
+        "title": "HBDIS020544"
+      },
+      "Early-Stage Breast Carcinoma",
+      "0.000280257068324319",
+      "0.00329730336829236"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021418&label=Disease",
+        "title": "HBDIS021418"
+      },
+      "FANCONI ANEMIA, COMPLEMENTATION GROUP M",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021472&label=Disease",
+        "title": "HBDIS021472"
+      },
+      "Dentofacial Deformities",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021628&label=Disease",
+        "title": "HBDIS021628"
+      },
+      "Triple Negative Breast Neoplasms",
+      "0.000943396260711998",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021954&label=Disease",
+        "title": "HBDIS021954"
+      },
+      "Neutrophilia (disorder)",
+      "0.000303521856306769",
+      "0.00349671616769005"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022148&label=Disease",
+        "title": "HBDIS022148"
+      },
+      "Pathergy reaction",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022638&label=Disease",
+        "title": "HBDIS022638"
+      },
+      "Narrowing",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022719&label=Disease",
+        "title": "HBDIS022719"
+      },
+      "Memory dysfunction",
+      "7.79328986482913e-05",
+      "0.00129817619297909"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022811&label=Disease",
+        "title": "HBDIS022811"
+      },
+      "HER-2 protein overexpression",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023193&label=Disease",
+        "title": "HBDIS023193"
+      },
+      "ESTROGEN RECEPTOR MUTANT, TEMPERATURE-SENSITIVE",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023629&label=Disease",
+        "title": "HBDIS023629"
+      },
+      "Elevated tissue non-specific alkaline phosphatase",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025284&label=Disease",
+        "title": "HBDIS025284"
+      },
+      "Right-Sided Breast Neoplasms",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025309&label=Disease",
+        "title": "HBDIS025309"
+      },
+      "Multiple endocrine neoplasia Type 2",
+      "4.59344370775178e-05",
+      "0.000873006200377566"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025577&label=Disease",
+        "title": "HBDIS025577"
+      },
+      "Immunoglobulin G4-Related Disease",
+      "8.78806996115583e-05",
+      "0.00141051745470986"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025959&label=Disease",
+        "title": "HBDIS025959"
+      },
+      "Facet joint arthrosis",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026014&label=Disease",
+        "title": "HBDIS026014"
+      },
+      "Perinatal depression in mother",
+      "3.4187720352225e-06",
+      "0.000114498238967736"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026483&label=Disease",
+        "title": "HBDIS026483"
+      },
+      "Perimyocarditis",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026963&label=Disease",
+        "title": "HBDIS026963"
+      },
+      "Anatomic Stage I Breast Cancer AJCC v8",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026970&label=Disease",
+        "title": "HBDIS026970"
+      },
+      "Prognostic Stage I Breast Cancer AJCC v8",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027150&label=Disease",
+        "title": "HBDIS027150"
+      },
+      "Postmenopausal osteopenia",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027442&label=Disease",
+        "title": "HBDIS027442"
+      },
+      "Miscarriage",
+      "2.51236372480919e-05",
+      "0.000549756812230304"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027834&label=Disease",
+        "title": "HBDIS027834"
+      },
+      "Triple-Negative Breast Carcinoma",
+      "0.000819091903531678",
+      "0.00679937340825055"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027918&label=Disease",
+        "title": "HBDIS027918"
+      },
+      "Acute on chronic hepatitis B",
+      "6.42258959688057e-06",
+      "0.000189764968432585"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027949&label=Disease",
+        "title": "HBDIS027949"
+      },
+      "HER2-negative breast cancer",
+      "1.06469091084242e-06",
+      "4.43208156401427e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000376&label=Disease",
+        "title": "HBDIS000376"
+      },
+      "Borderline Personality Disorder",
+      "0.000541536836584689",
+      "0.00519543211027014"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000695&label=Disease",
+        "title": "HBDIS000695"
+      },
+      "Cushing Syndrome",
+      "0.00024495077970143",
+      "0.00297609779597493"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000957&label=Disease",
+        "title": "HBDIS000957"
+      },
+      "Epilepsies, Partial",
+      "4.78067824670429e-05",
+      "0.00089855015895317"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001168&label=Disease",
+        "title": "HBDIS001168"
+      },
+      "Glaucoma, Suspect",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001417&label=Disease",
+        "title": "HBDIS001417"
+      },
+      "Hyperaldosteronism",
+      "0.000101152136096637",
+      "0.00156959123805772"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002064&label=Disease",
+        "title": "HBDIS002064"
+      },
+      "Nelson Syndrome",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002333&label=Disease",
+        "title": "HBDIS002333"
+      },
+      "Pemphigus Vulgaris",
+      "0.000185121584606867",
+      "0.00243784259410709"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002661&label=Disease",
+        "title": "HBDIS002661"
+      },
+      "Sialolithiasis",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003076&label=Disease",
+        "title": "HBDIS003076"
+      },
+      "Uveitis",
+      "0.00074027801898494",
+      "0.00636894873717434"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003548&label=Disease",
+        "title": "HBDIS003548"
+      },
+      "Addisonian crisis",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003555&label=Disease",
+        "title": "HBDIS003555"
+      },
+      "Atrophic condition of skin",
+      "0.000160049339765247",
+      "0.00218304616548521"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003575&label=Disease",
+        "title": "HBDIS003575"
+      },
+      "Hypertensive Encephalopathy",
+      "2.25532580465346e-07",
+      "1.21276267283191e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005090&label=Disease",
+        "title": "HBDIS005090"
+      },
+      "emotional trauma",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006244&label=Disease",
+        "title": "HBDIS006244"
+      },
+      "Deficiency of steroid 21-monooxygenase",
+      "3.88181258810653e-05",
+      "0.000767822283110421"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006656&label=Disease",
+        "title": "HBDIS006656"
+      },
+      "Iatrogenic Cushing's disease",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007348&label=Disease",
+        "title": "HBDIS007348"
+      },
+      "Cushingoid facies",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007800&label=Disease",
+        "title": "HBDIS007800"
+      },
+      "High altitude pulmonary edema",
+      "4.05412312219631e-05",
+      "0.000793496832210512"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008000&label=Disease",
+        "title": "HBDIS008000"
+      },
+      "Adrenal Cushing's syndrome",
+      "0.000200262789272368",
+      "0.00258585296622218"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009913&label=Disease",
+        "title": "HBDIS009913"
+      },
+      "Symptoms of stress",
+      "1.41905537694824e-05",
+      "0.000353360693837661"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010333&label=Disease",
+        "title": "HBDIS010333"
+      },
+      "Serum testosterone level abnormal",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010760&label=Disease",
+        "title": "HBDIS010760"
+      },
+      "Chronic central serous chorioretinopathy",
+      "2.47981083592209e-06",
+      "8.83561782283389e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011069&label=Disease",
+        "title": "HBDIS011069"
+      },
+      "Wound, non-healed",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011864&label=Disease",
+        "title": "HBDIS011864"
+      },
+      "21-hydroxylase deficiency",
+      "4.23016555029939e-05",
+      "0.000819390814606777"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012102&label=Disease",
+        "title": "HBDIS012102"
+      },
+      "Decreased circulating aldosterone level",
+      "3.94452864427574e-06",
+      "0.000128399369101073"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012132&label=Disease",
+        "title": "HBDIS012132"
+      },
+      "Unrest",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012264&label=Disease",
+        "title": "HBDIS012264"
+      },
+      "social stress",
+      "3.22990129584853e-05",
+      "0.000666827980089114"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014148&label=Disease",
+        "title": "HBDIS014148"
+      },
+      "Cardiac fibrosis",
+      "0.000855099082918953",
+      "0.00702712852457242"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015893&label=Disease",
+        "title": "HBDIS015893"
+      },
+      "Glucocorticoid Receptor Deficiency",
+      "0.00013048113281101",
+      "0.00189676011883239"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015894&label=Disease",
+        "title": "HBDIS015894"
+      },
+      "Pseudohermaphroditism, Female, With Hypokalemia, Due To Glucocorticoid Resistance",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015895&label=Disease",
+        "title": "HBDIS015895"
+      },
+      "BODY COMPOSITION, BENEFICIAL",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018105&label=Disease",
+        "title": "HBDIS018105"
+      },
+      "Frontal balding",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018589&label=Disease",
+        "title": "HBDIS018589"
+      },
+      "Paroxysmal nocturnal dyspnea",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018920&label=Disease",
+        "title": "HBDIS018920"
+      },
+      "Adrenal hyperplasia, bilateral",
+      "2.47981083592209e-06",
+      "8.83561782283389e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020161&label=Disease",
+        "title": "HBDIS020161"
+      },
+      "Primary cortisol resistance",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020412&label=Disease",
+        "title": "HBDIS020412"
+      },
+      "46, XX Disorders of Sex Development",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020447&label=Disease",
+        "title": "HBDIS020447"
+      },
+      "Congenital adrenal hyperplasia due to 21 hydroxylase deficiency",
+      "3.38727830190105e-05",
+      "0.000692397956271884"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022759&label=Disease",
+        "title": "HBDIS022759"
+      },
+      "Apparent mineralocorticoid excess",
+      "7.13583370420941e-06",
+      "0.000205951948484724"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023210&label=Disease",
+        "title": "HBDIS023210"
+      },
+      "GLUCOCORTICOID RESISTANCE, CELLULAR",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023535&label=Disease",
+        "title": "HBDIS023535"
+      },
+      "Inflammatory abnormality of the eye",
+      "0.000101152136096637",
+      "0.00156959123805772"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025584&label=Disease",
+        "title": "HBDIS025584"
+      },
+      "Persistent depressive disorder",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025928&label=Disease",
+        "title": "HBDIS025928"
+      },
+      "Hereditary glucocorticoid resistance",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004781&label=Disease",
+        "title": "HBDIS004781"
+      },
+      "Labile affect",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009742&label=Disease",
+        "title": "HBDIS009742"
+      },
+      "Hepatic fibrosis and cirrhosis",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010201&label=Disease",
+        "title": "HBDIS010201"
+      },
+      "Drunk driving",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010397&label=Disease",
+        "title": "HBDIS010397"
+      },
+      "Moderate depression",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017054&label=Disease",
+        "title": "HBDIS017054"
+      },
+      "Hypertension, Early-Onset, Autosomal Dominant, with Severe Exacerbation in Pregnancy",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022556&label=Disease",
+        "title": "HBDIS022556"
+      },
+      "Familial hyperaldosteronism type 1",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027851&label=Disease",
+        "title": "HBDIS027851"
+      },
+      "Moderate Hepatic Insufficiency",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001277&label=Target",
+        "title": "HBTAR001277"
+      },
+      "ESR1",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT01141",
+          "title": "SymMap:SMTT01141"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00046"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001692&label=Target",
+        "title": "HBTAR001692"
+      },
+      "NR3C1",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT02379",
+          "title": "SymMap:SMTT02379"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00308"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002504&label=Target",
+        "title": "HBTAR002504"
+      },
+      "NR3C2",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT02380",
+          "title": "SymMap:SMTT02380"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00252"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000233&label=Target",
+        "title": "HBTAR000233"
+      },
+      "AR",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00048"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN041471",
+      "Quassin",
+      "Picrasa-2,12-diene-1,11,16-trione, 2,12-dimethoxy-; 1405-17-0; LMPR01060018; quassin; (3AS,6aR,7aS,8S,11aS,11bS,11cS)-1,3a,4,5,6a,7,7a,8,11,11a,11b,11c-dodecahydro-2,10-dimethoxy-3,8,11a,11c-tetramethyldibenzo(de,g)chromene-1,5,11-trione; C08778; 76-78-8; Quassine; 2,12-Dimethoxypicrasa-2,12-diene-1,11,16-trione; EINECS 200-985-9; AIDS026399; NSC 36342; AIDS-026399",
+      "C22H28O6",
+      "CC1C=C(C(=O)C2(C1CC3C4(C2C(=O)C(=C(C4CC(=O)O3)C)OC)C)C)OC",
+      "388.45",
+      "16.70705876",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "76-78-8"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT11332",
+        "title": "SMIT11332"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/18285/",
+        "title": "18285"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL010273"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "1429"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/138113588",
+        "title": "138113588"
+      }
+    ]
+  ]
+}

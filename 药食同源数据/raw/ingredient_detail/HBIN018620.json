@@ -1,0 +1,231 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000415&label=Herb",
+        "title": "HERB000415"
+      },
+      "BI BA",
+      "荜茇",
+      "Piperis Longi Fructus",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001579&label=Herb",
+        "title": "HERB001579"
+      },
+      "E ZHU",
+      "莪术",
+      "Zedoray Rhizome",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Curcumae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002189&label=Herb",
+        "title": "HERB002189"
+      },
+      "HE TAO REN",
+      "核桃仁",
+      "English Walnut Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Juglandis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002840&label=Herb",
+        "title": "HERB002840"
+      },
+      "JIANG HUANG",
+      "姜黄",
+      "rhizome of Common Turmeric",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Curcumae longae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004336&label=Herb",
+        "title": "HERB004336"
+      },
+      "PENG E ZHU",
+      "蓬莪术",
+      "Curcuma zedoaria Rosc",
+      "NA"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005335&label=Herb",
+        "title": "HERB005335"
+      },
+      "SUO LUO ZI",
+      "娑罗子",
+      "Buckeye Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Aesculi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006718&label=Herb",
+        "title": "HERB006718"
+      },
+      "YU JIN",
+      "郁金",
+      "Tuber - root of Common Turmeric",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Curcumae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "C17743; MolPort-001-742-514; MEGxp0_001762; InChI=1/C19H16O4/c20-16-7-1-14(2-8-16)5-11-18(22)13-19(23)12-6-15-3-9-17(21)10-4-15/h1-13,20-22H/b11-5+,12-6+,18-13; SMR001397224; MCULE-7789528500; MLS002473127; (1E,4Z,6E)-5-hydroxy-1,7-bis(4-hydroxyphenyl)hepta-1,4,6-trien-3-one; 1,4,6-Heptatrien-3-one, 5-hydroxy-1,7-bis(4-hydroxyphenyl)-,(1E,4Z,6E)-; NCGC00179852-01; bis demethoxy curcumin; 1,7-Bis(4-hydroxyphenyl)-5-hydroxyhepta-1,4,6-trien-3-one; NP-010021; ZINC100067315; VUF-9014; HMS2224E08; AC1NT56O; CHEMBL131770; ACon1_002080; BDBM50145907; (1E,4Z,6E)-1,7-Bis(4-hydroxyphenyl)-5-hydroxy-1,4,6-heptatriene-3-one; 52328-96-8; SCHEMBL609967; p,p-hydroxy-curucumin"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN018620",
+      "bisdemethoxycurcumin",
+      "C17743; MolPort-001-742-514; MEGxp0_001762; InChI=1/C19H16O4/c20-16-7-1-14(2-8-16)5-11-18(22)13-19(23)12-6-15-3-9-17(21)10-4-15/h1-13,20-22H/b11-5+,12-6+,18-13; SMR001397224; MCULE-7789528500; MLS002473127; (1E,4Z,6E)-5-hydroxy-1,7-bis(4-hydroxyphenyl)hepta-1,4,6-trien-3-one; 1,4,6-Heptatrien-3-one, 5-hydroxy-1,7-bis(4-hydroxyphenyl)-,(1E,4Z,6E)-; NCGC00179852-01; bis demethoxy curcumin; 1,7-Bis(4-hydroxyphenyl)-5-hydroxyhepta-1,4,6-trien-3-one; NP-010021; ZINC100067315; VUF-9014; HMS2224E08; AC1NT56O; CHEMBL131770; ACon1_002080; BDBM50145907; (1E,4Z,6E)-1,7-Bis(4-hydroxyphenyl)-5-hydroxy-1,4,6-heptatriene-3-one; 52328-96-8; SCHEMBL609967; p,p-hydroxy-curucumin",
+      "C19H16O4",
+      "C1=CC(=CC=C1C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O",
+      "308.33",
+      "77.38200887",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "24939-16-0"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT00431",
+        "title": "SMIT00431"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/37836/",
+        "title": "37836"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL000940"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "6181"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/5315472",
+        "title": "5315472"
+      }
+    ]
+  ]
+}

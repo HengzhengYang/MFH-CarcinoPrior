@@ -1,0 +1,365 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001355&label=Herb",
+        "title": "HERB001355"
+      },
+      "DONG GUA PI",
+      "冬瓜皮",
+      "Chinese Waxgourd Peel",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Exocarpium Benincasae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001410&label=Herb",
+        "title": "HERB001410"
+      },
+      "DU ZHONG YE",
+      "杜仲叶",
+      "Eucommiae Folium",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001924&label=Herb",
+        "title": "HERB001924"
+      },
+      "GOU TENG",
+      "钩藤",
+      "Gambir Plant",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Ramulus Uncariae cum Uncis"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "CHEMBL295234; 3H-Pyrido(3,4-b)indole, 4,9-dihydro-1-methyl-; Harmalan; 525-41-7; BJRYQXFFBCGJRM-UHFFFAOYSA-N; 1-Methyl-3,4-dihydro-2H-.beta.-carboline; SCHEMBL141724; 1-methyl-3,4-dihydrobeta-carboline; Dihydroharman; 1-Methyl-3,4-dihydro-beta-carboline; TC-166607; HMS3561H09; 2H-Pyrido[3,4-b]indole, 3,4-dihydro-1-methyl-; AC1NSUKB; BDBM50136493; ZINC13130932; 4,9-Dihydro-1-methyl-3H-Pyrido(3,4-b)indole; HMS2270L19; AKOS006282713; SCHEMBL4986696; 1-Methyl-4,9-dihydro-3H-beta-carboline; TRA0052609; harman e; 1-methyl-3,4-dihydro-2H-pyrido[3,4-b]indole; NCGC00245167-01; CTK8C5609; MolPort-001-825-653; 1-methyl-4,9-dihydro-3H-pyrido[3,4-b]indole; 1-methyl-3H,4H,9H-pyrido[3,4-b]indole; ACMC-1AST1; REGID_for_CID_5316718; Oprea1_558389; 3H-Pyrido[3,4-b]indole, 4,9-dihydro-1-methyl-; ST50984240; 1-METHYL-2H,3H,4H-PYRIDO[3,4-B]INDOLE; NCGC00245167-02; 3,4-Dihydro-1-methyl-2H-Pyrido[3,4-b]indole; AC1Q2PFX; MCULE-2765797747; MLS001048999; STOCK1N-03946; BG00602238; 4,9-Dihydro-1-methyl-3H-pyrido[3,4-b]indole, 9CI; SMR000387013; A827586; BAS 00654954"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000204&label=Disease",
+        "title": "HBDIS000204"
+      },
+      "Anxiety",
+      "0.000268505191228836",
+      "0.00318945867108063"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000329&label=Disease",
+        "title": "HBDIS000329"
+      },
+      "Bipolar Disorder",
+      "0.000352025830380098",
+      "0.00385741292329952"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002976&label=Disease",
+        "title": "HBDIS002976"
+      },
+      "Gilles de la Tourette syndrome",
+      "0.000389506170465135",
+      "0.0041569951174396"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004829&label=Disease",
+        "title": "HBDIS004829"
+      },
+      "Hallucinosis",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007304&label=Disease",
+        "title": "HBDIS007304"
+      },
+      "major affective disorder",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009963&label=Disease",
+        "title": "HBDIS009963"
+      },
+      "Pervasive Development Disorder",
+      "0.00126769604106417",
+      "0.00887802113296761"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010797&label=Disease",
+        "title": "HBDIS010797"
+      },
+      "Auditory and visual hallucinations",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015801&label=Disease",
+        "title": "HBDIS015801"
+      },
+      "MAJOR AFFECTIVE DISORDER 2",
+      "0.000405782775612256",
+      "0.00425502357476202"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016859&label=Disease",
+        "title": "HBDIS016859"
+      },
+      "MAJOR AFFECTIVE DISORDER 1",
+      "0.000317922818665189",
+      "0.00356936013289624"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018869&label=Disease",
+        "title": "HBDIS018869"
+      },
+      "MAJOR AFFECTIVE DISORDER 4",
+      "0.0003130856709696",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018870&label=Disease",
+        "title": "HBDIS018870"
+      },
+      "MAJOR AFFECTIVE DISORDER 6",
+      "0.0003130856709696",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019627&label=Disease",
+        "title": "HBDIS019627"
+      },
+      "MAJOR AFFECTIVE DISORDER 7",
+      "0.000200262789272368",
+      "0.00258585296622218"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019628&label=Disease",
+        "title": "HBDIS019628"
+      },
+      "MAJOR AFFECTIVE DISORDER 8",
+      "0.000196422003710472",
+      "0.00254643108038208"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019629&label=Disease",
+        "title": "HBDIS019629"
+      },
+      "MAJOR AFFECTIVE DISORDER 9",
+      "0.000196422003710472",
+      "0.00254643108038208"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000129&label=Disease",
+        "title": "HBDIS000129"
+      },
+      "Amnestic Disorder",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001430&label=Disease",
+        "title": "HBDIS001430"
+      },
+      "Hyperesthesia",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004728&label=Disease",
+        "title": "HBDIS004728"
+      },
+      "Vagal autonomic bradycardia",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS028171&label=Disease",
+        "title": "HBDIS028171"
+      },
+      "Cyclin-dependent kinase-like 5 deficiency",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001963&label=Target",
+        "title": "HBTAR001963"
+      },
+      "HTR2C",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/13119/",
+          "title": "TCMID:13119"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001968&label=Target",
+        "title": "HBTAR001968"
+      },
+      "HTR7",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/787/",
+          "title": "TCMID:787"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR006249&label=Target",
+        "title": "HBTAR006249"
+      },
+      "NISCH",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8513/",
+          "title": "TCMID:8513"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN028802",
+      "harmane",
+      "CHEMBL295234; 3H-Pyrido(3,4-b)indole, 4,9-dihydro-1-methyl-; Harmalan; 525-41-7; BJRYQXFFBCGJRM-UHFFFAOYSA-N; 1-Methyl-3,4-dihydro-2H-.beta.-carboline; SCHEMBL141724; 1-methyl-3,4-dihydrobeta-carboline; Dihydroharman; 1-Methyl-3,4-dihydro-beta-carboline; TC-166607; HMS3561H09; 2H-Pyrido[3,4-b]indole, 3,4-dihydro-1-methyl-; AC1NSUKB; BDBM50136493; ZINC13130932; 4,9-Dihydro-1-methyl-3H-Pyrido(3,4-b)indole; HMS2270L19; AKOS006282713; SCHEMBL4986696; 1-Methyl-4,9-dihydro-3H-beta-carboline; TRA0052609; harman e; 1-methyl-3,4-dihydro-2H-pyrido[3,4-b]indole; NCGC00245167-01; CTK8C5609; MolPort-001-825-653; 1-methyl-4,9-dihydro-3H-pyrido[3,4-b]indole; 1-methyl-3H,4H,9H-pyrido[3,4-b]indole; ACMC-1AST1; REGID_for_CID_5316718; Oprea1_558389; 3H-Pyrido[3,4-b]indole, 4,9-dihydro-1-methyl-; ST50984240; 1-METHYL-2H,3H,4H-PYRIDO[3,4-B]INDOLE; NCGC00245167-02; 3,4-Dihydro-1-methyl-2H-Pyrido[3,4-b]indole; AC1Q2PFX; MCULE-2765797747; MLS001048999; STOCK1N-03946; BG00602238; 4,9-Dihydro-1-methyl-3H-pyrido[3,4-b]indole, 9CI; SMR000387013; A827586; BAS 00654954",
+      "C12H10N2",
+      "CC1=NC=CC2=C1NC3=CC=CC=C23",
+      "182.22",
+      {
+        "link": "https://www.symmap.org/detail/SMIT01855",
+        "title": "SMIT01855"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/23683/",
+        "title": "23683"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "3859"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/5281404",
+        "title": "5281404"
+      }
+    ]
+  ]
+}

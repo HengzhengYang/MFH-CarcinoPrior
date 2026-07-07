@@ -1,0 +1,159 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001171&label=Herb",
+        "title": "HERB001171"
+      },
+      "DAI DAI HUA",
+      "玳玳花",
+      "Citrus Aurantium",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001409&label=Herb",
+        "title": "HERB001409"
+      },
+      "DU ZHONG",
+      "杜仲",
+      "Eucommia bark",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Cortex Eucommiae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006598&label=Herb",
+        "title": "HERB006598"
+      },
+      "YIN DU JIU LI XIANG",
+      "印度九里香",
+      "Indian Common Jasminorange",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Murraya koenigii"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "D-Glucose, 6-O-alpha-D-glucopyranosyl-; SCHEMBL121179; (2R,3S,4R,5R)-2,3,4,5-tetrahydroxy-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyhexanal; AC1NUSON; 67I334IX2M; EINECS 207-879-1; I14-99654; AKOS030528584; AK550826; KB-270222; UNII-67I334IX2M; ZINC100150292; FT-0621290; MolPort-006-111-481; (2R,3S,4R,5R)-2,3,4,5-Tetrahydroxy-6-(((2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydro-2H-pyran-2-yl)oxy)hexanal"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN030923",
+      "isomaltose",
+      "D-Glucose, 6-O-alpha-D-glucopyranosyl-; SCHEMBL121179; (2R,3S,4R,5R)-2,3,4,5-tetrahydroxy-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyhexanal; AC1NUSON; 67I334IX2M; EINECS 207-879-1; I14-99654; AKOS030528584; AK550826; KB-270222; UNII-67I334IX2M; ZINC100150292; FT-0621290; MolPort-006-111-481; (2R,3S,4R,5R)-2,3,4,5-Tetrahydroxy-6-(((2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydro-2H-pyran-2-yl)oxy)hexanal",
+      "C12H22O11",
+      "C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)O)O)O)O)O)O)O)O",
+      "342.3",
+      {
+        "link": "https://www.symmap.org/detail/SMIT16046",
+        "title": "SMIT16046"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/11520/",
+        "title": "11520"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/133612057",
+        "title": "133612057"
+      }
+    ]
+  ]
+}

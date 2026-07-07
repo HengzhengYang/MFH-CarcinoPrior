@@ -1,0 +1,508 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002319&label=Herb",
+        "title": "HERB002319"
+      },
+      "HONG SHEN",
+      "红参",
+      "Red Ginseng",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Ginseng Rubra"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004004&label=Herb",
+        "title": "HERB004004"
+      },
+      "MO YAO",
+      "没药",
+      "Myrrh",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Resi myrrhae"
+      },
+      "Myrrha"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004609&label=Herb",
+        "title": "HERB004609"
+      },
+      "REN SHEN",
+      "人参",
+      "Ginseng",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Ginseng"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004616&label=Herb",
+        "title": "HERB004616"
+      },
+      "REN SHEN YE",
+      "人参叶",
+      "Ginseng Leaf",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Folium Ginseng"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005900&label=Herb",
+        "title": "HERB005900"
+      },
+      "XI YANG SHEN",
+      "西洋参",
+      "American Ginseng",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Pacis quinquefolii"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "MolPort-019-999-714; CS-3834; (2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-[[(3S,5R,6S,8R,9R,10R,12R,13R,14R,17S)-4,4,8,10,14-pentamethyl-17-[(2S)-6-methyl-2-oxidanyl-hept-5-en-2-yl]-3,12-bis(oxidanyl)-2,3,5,6,7,9,11,12,13,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-6-yl]oxy]oxane-3,4,5-; 20(S)-Ginsenoside Rh1; MFCD09951797; Ginsenoside Rh1, analytical standard; AKOS025311542; Ginsenoside Rh1; Ginsenoside Rg1 metabolite; (3beta,6alpha,12beta)-3,12,20-Trihydroxydammar-24-en-6-yl-beta-D-glucopyranoside; ginsenoside-rh1; ginsenoside- Rh1; 20(R)-Ginsenoside-Rh1; HY-N0604; Q-100729; 63223-86-9; A834283; BDBM50023447; 20(R)-ginsenoside Rh1; ZINC49852137; (2R,3R,4S,5S,6R)-2-{[(1S,3AR,3BR,5S,5AR,7S,9AR,9BR,11R,11AR)-7,11-DIHYDROXY-1-[(2S)-2-HYDROXY-6-METHYLHEPT-5-EN-2-YL]-3A,3B,6,6,9A-PENTAMETHYL-DODECAHYDRO-1H-CYCLOPENTA[A]PHENANTHREN-5-YL]OXY}-6-(HYDROXYMETHYL)OXANE-3,4,5-TRIOL; C36H62O9; O581; BIDD:ER0183; CHEMBL466844; (2R,3R,4S,5S,6R)-2-[[(3S,5R,6S,8R,9R,10R,12R,13R,14R,17S)-3,12-dihydroxy-17-[(2S)-2-hydroxy-6-methylhept-5-en-2-yl]-4,4,8,10,14-pentamethyl-2,3,5,6,7,9,11,12,13,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-6-yl]oxy]-6-(hydroxymethyl)oxane-3,4,5-triol"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000175&label=Disease",
+        "title": "HBDIS000175"
+      },
+      "Epithelioid hemangioma of skin",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000562&label=Disease",
+        "title": "HBDIS000562"
+      },
+      "Chondromatosis, Synovial",
+      "0.00110812094348583",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000777&label=Disease",
+        "title": "HBDIS000777"
+      },
+      "Lipoatrophic Diabetes Mellitus",
+      "0.000791514959632737",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000938&label=Disease",
+        "title": "HBDIS000938"
+      },
+      "Enterobacteriaceae Infections",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001076&label=Disease",
+        "title": "HBDIS001076"
+      },
+      "Osteitis Fibrosa Disseminata",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002210&label=Disease",
+        "title": "HBDIS002210"
+      },
+      "Osteoblastoma",
+      "0.0015038784233022",
+      "0.00990856799135117"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002214&label=Disease",
+        "title": "HBDIS002214"
+      },
+      "Synovial osteochondromatosis",
+      "0.00110812094348583",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002220&label=Disease",
+        "title": "HBDIS002220"
+      },
+      "Osteoid osteoma",
+      "0.000316605983853095",
+      "0.00355772936313536"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002853&label=Disease",
+        "title": "HBDIS002853"
+      },
+      "Stricture of artery",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003362&label=Disease",
+        "title": "HBDIS003362"
+      },
+      "Chronic cholecystitis",
+      "0.00110812094348583",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004300&label=Disease",
+        "title": "HBDIS004300"
+      },
+      "Histiocytoid hemangioma",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005034&label=Disease",
+        "title": "HBDIS005034"
+      },
+      "Growth hormone excess",
+      "0.0015038784233022",
+      "0.00990856799135117"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005378&label=Disease",
+        "title": "HBDIS005378"
+      },
+      "Endometriosis of pelvis",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006082&label=Disease",
+        "title": "HBDIS006082"
+      },
+      "Gastroparesis with diabetes mellitus",
+      "0.0015038784233022",
+      "0.00990856799135117"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007658&label=Disease",
+        "title": "HBDIS007658"
+      },
+      "Familial Alzheimer's disease of early onset",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007698&label=Disease",
+        "title": "HBDIS007698"
+      },
+      "Cycloid psychosis",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008724&label=Disease",
+        "title": "HBDIS008724"
+      },
+      "Trigeminal Neuralgia, Idiopathic",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008725&label=Disease",
+        "title": "HBDIS008725"
+      },
+      "Secondary Trigeminal Neuralgia",
+      "0.000949817951559285",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009677&label=Disease",
+        "title": "HBDIS009677"
+      },
+      "Chondrogenic Neoplasm",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010583&label=Disease",
+        "title": "HBDIS010583"
+      },
+      "Benign bone neoplasm",
+      "0.000474908975779642",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013627&label=Disease",
+        "title": "HBDIS013627"
+      },
+      "Bone Epithelioid Hemangioma",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014548&label=Disease",
+        "title": "HBDIS014548"
+      },
+      "Prolonged QTc interval",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015615&label=Disease",
+        "title": "HBDIS015615"
+      },
+      "Loss of subcutaneous adipose tissue in limbs",
+      "0.000712363463669464",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018527&label=Disease",
+        "title": "HBDIS018527"
+      },
+      "Aberrant Crypt Foci",
+      "0.000554060471742916",
+      "0.0052513085166807"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018644&label=Disease",
+        "title": "HBDIS018644"
+      },
+      "Prolonged QTc Interval, CTCAE",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019047&label=Disease",
+        "title": "HBDIS019047"
+      },
+      "Skeletal muscle hypertrophy",
+      "0.00126642393541238",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022599&label=Disease",
+        "title": "HBDIS022599"
+      },
+      "Pseudomyogenic (epithelioid sarcoma-like) hemangioendothelioma",
+      "0.000712363463669464",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024253&label=Disease",
+        "title": "HBDIS024253"
+      },
+      "Abnormality of skeletal muscle fiber size",
+      "0.000474908975779642",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025246&label=Disease",
+        "title": "HBDIS025246"
+      },
+      "Abnormal oral cavity morphology",
+      "0.000870666455596011",
+      "0.00707658671810716"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026930&label=Disease",
+        "title": "HBDIS026930"
+      },
+      "Rainbow Trout Hepatoma",
+      "0.000395757479816369",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027678&label=Disease",
+        "title": "HBDIS027678"
+      },
+      "Fibrocystic Dysplasia of Bone",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027679&label=Disease",
+        "title": "HBDIS027679"
+      },
+      "Fibrocartilaginous Dysplasia of Bone",
+      "7.91514959632737e-05",
+      "0.0013043890731196"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001429&label=Target",
+        "title": "HBTAR001429"
+      },
+      "FOS",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/13272/",
+          "title": "TCMID:13272"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN027762",
+      "ginsenoside-Rh1",
+      "MolPort-019-999-714; CS-3834; (2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-[[(3S,5R,6S,8R,9R,10R,12R,13R,14R,17S)-4,4,8,10,14-pentamethyl-17-[(2S)-6-methyl-2-oxidanyl-hept-5-en-2-yl]-3,12-bis(oxidanyl)-2,3,5,6,7,9,11,12,13,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-6-yl]oxy]oxane-3,4,5-; 20(S)-Ginsenoside Rh1; MFCD09951797; Ginsenoside Rh1, analytical standard; AKOS025311542; Ginsenoside Rh1; Ginsenoside Rg1 metabolite; (3beta,6alpha,12beta)-3,12,20-Trihydroxydammar-24-en-6-yl-beta-D-glucopyranoside; ginsenoside-rh1; ginsenoside- Rh1; 20(R)-Ginsenoside-Rh1; HY-N0604; Q-100729; 63223-86-9; A834283; BDBM50023447; 20(R)-ginsenoside Rh1; ZINC49852137; (2R,3R,4S,5S,6R)-2-{[(1S,3AR,3BR,5S,5AR,7S,9AR,9BR,11R,11AR)-7,11-DIHYDROXY-1-[(2S)-2-HYDROXY-6-METHYLHEPT-5-EN-2-YL]-3A,3B,6,6,9A-PENTAMETHYL-DODECAHYDRO-1H-CYCLOPENTA[A]PHENANTHREN-5-YL]OXY}-6-(HYDROXYMETHYL)OXANE-3,4,5-TRIOL; C36H62O9; O581; BIDD:ER0183; CHEMBL466844; (2R,3R,4S,5S,6R)-2-[[(3S,5R,6S,8R,9R,10R,12R,13R,14R,17S)-3,12-dihydroxy-17-[(2S)-2-hydroxy-6-methylhept-5-en-2-yl]-4,4,8,10,14-pentamethyl-2,3,5,6,7,9,11,12,13,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-6-yl]oxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
+      "C36H62O9",
+      "CC(=CCCC(C)(C1CCC2(C1C(CC3C2(CC(C4C3(CCC(C4(C)C)O)C)OC5C(C(C(C(O5)CO)O)O)O)C)O)C)O)C",
+      "638.87",
+      "3.858921997",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "63223-86-9"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT07062",
+        "title": "SMIT07062"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/25707/",
+        "title": "25707"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL005279"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "18238"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/21599923",
+        "title": "21599923"
+      }
+    ]
+  ]
+}

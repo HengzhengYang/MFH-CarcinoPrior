@@ -1,0 +1,181 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001069&label=Herb",
+        "title": "HERB001069"
+      },
+      "DA HUANG",
+      "大黄",
+      "root and rhziome of Sorrel Rhubarb",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix et Rhizoma Rhei"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002194&label=Herb",
+        "title": "HERB002194"
+      },
+      "HE ZI",
+      "诃子",
+      "Medicine Termilia Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Chebulae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006714&label=Herb",
+        "title": "HERB006714"
+      },
+      "YU GAN ZI",
+      "余甘子",
+      "Emblic Leafflower Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Phyllanthi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006905&label=Herb",
+        "title": "HERB006905"
+      },
+      "ZE QI",
+      "泽漆",
+      "Euphorbiae Helioscopiae Herba",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "beta-D-Glucopyranose, 1-(3,4,5-trihydroxybenzoate); 1-Galloyl-glucose; 1-O-(3,4,5-trihydroxybenzoyl)-beta-D-glucopyranose; 1-galloyl-beta-D-glucose; 13405-60-2; 1-Galloylglucose; [(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydropyran-2-yl] 3,4,5-trihydroxybenzoate; .beta.-Glucogallin; .beta.-D-Glucogallin; 1-Galloyl-beta-glucose; .beta.-D-Glucopyranose, 1-(3,4,5-trihydroxybenzoate); CHEBI:15834; [(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] 3,4,5-trihydroxybenzoate; C01158; 3,4,5-trihydroxybenzoic acid [(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)-2-tetrahydropyranyl] ester; 1-O-Galloyl-.beta.-D-glucose; AIDS085620; .beta.-D-Glucose, 1-gallate; 1-Galloyl-.beta.-glucose; D-Glucose 1-(3,4,5-trihydroxybenzoate); 1-O-Galloyl-beta-D-glucose; AIDS-085620; Glucopyranose, 1-gallate, .beta.-D-; 554-37-0; 3,4,5-trihydroxybenzoic acid [(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-methylol-tetrahydropyran-2-yl] ester"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN018130",
+      "beta-Glucogallin",
+      "beta-D-Glucopyranose, 1-(3,4,5-trihydroxybenzoate); 1-Galloyl-glucose; 1-O-(3,4,5-trihydroxybenzoyl)-beta-D-glucopyranose; 1-galloyl-beta-D-glucose; 13405-60-2; 1-Galloylglucose; [(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydropyran-2-yl] 3,4,5-trihydroxybenzoate; .beta.-Glucogallin; .beta.-D-Glucogallin; 1-Galloyl-beta-glucose; .beta.-D-Glucopyranose, 1-(3,4,5-trihydroxybenzoate); CHEBI:15834; [(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] 3,4,5-trihydroxybenzoate; C01158; 3,4,5-trihydroxybenzoic acid [(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)-2-tetrahydropyranyl] ester; 1-O-Galloyl-.beta.-D-glucose; AIDS085620; .beta.-D-Glucose, 1-gallate; 1-Galloyl-.beta.-glucose; D-Glucose 1-(3,4,5-trihydroxybenzoate); 1-O-Galloyl-beta-D-glucose; AIDS-085620; Glucopyranose, 1-gallate, .beta.-D-; 554-37-0; 3,4,5-trihydroxybenzoic acid [(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-methylol-tetrahydropyran-2-yl] ester",
+      "C13H16O10",
+      "C1=C(C=C(C(=C1O)O)O)C(=O)OC2C(C(C(C(O2)CO)O)O)O",
+      "332.26",
+      "17.89039791",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "554-37-0"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT08387",
+        "title": "SMIT08387"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL006832"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/124021",
+        "title": "124021"
+      }
+    ]
+  ]
+}

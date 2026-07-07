@@ -1,0 +1,1360 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000741&label=Herb",
+        "title": "HERB000741"
+      },
+      "CHANG ZI MA QIAN",
+      "长籽马钱",
+      "Wallich Poisonnut",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Strychnos wallichiana"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002472&label=Herb",
+        "title": "HERB002472"
+      },
+      "HUAI HUA",
+      "槐花",
+      "flower bud of Japanese pagodatree",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "flos Sophorae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003028&label=Herb",
+        "title": "HERB003028"
+      },
+      "JU HONG",
+      "橘红",
+      "Citri Exocarpium Rubrum",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003164&label=Herb",
+        "title": "HERB003164"
+      },
+      "KU SHEN",
+      "苦参",
+      "root of Lightyellow sophora",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Sophorae flavescentis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003679&label=Herb",
+        "title": "HERB003679"
+      },
+      "MA QIAN ZI",
+      "马钱子",
+      "Nux Vomica",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Strychni"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB007056&label=Herb",
+        "title": "HERB007056"
+      },
+      "ZHONG FEI MA QIAN",
+      "NA",
+      "Central-African Poisonnut",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Strychnos icaja"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "4-Hydroxystrychnidin-10-one; 4-Hydroxystrychnine; Strychnidin-10-one, 4-hydroxy- (9CI); (11S,18S,20R,21R,22S)-6-HYDROXY-12-OXA-8,17-DIAZAHEPTACYCLO[15.5.2.0(1),(1)?.0(2),?.0?,(2)(2).0(1)(1),(2)(1).0(1)?,(2)?]TETRACOSA-2,4,6,14-TETRAEN-9-ONE; Strychnidin-10-one, 4-hydroxy-; Strychnine, 4-hydroxy-; LS-147137; AC1L4QB3; 22595-26-2"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000099&label=Disease",
+        "title": "HBDIS000099"
+      },
+      "Alcohol Withdrawal Delirium",
+      "2.88548459934998e-05",
+      "0.00061182182197467"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000100&label=Disease",
+        "title": "HBDIS000100"
+      },
+      "Alcoholic Intoxication",
+      "0.000134496547115569",
+      "0.00193748536558663"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000101&label=Disease",
+        "title": "HBDIS000101"
+      },
+      "Alcoholic Intoxication, Chronic",
+      "0.000474670416670578",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000411&label=Disease",
+        "title": "HBDIS000411"
+      },
+      "Bulimia",
+      "0.000198257358363497",
+      "0.00256640347363496"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000577&label=Disease",
+        "title": "HBDIS000577"
+      },
+      "Congenital chromosomal disease",
+      "0.000939478179508361",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000602&label=Disease",
+        "title": "HBDIS000602"
+      },
+      "Cluster A personality disorder",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000607&label=Disease",
+        "title": "HBDIS000607"
+      },
+      "Cocaine Abuse",
+      "0.000738463941067597",
+      "0.00635716423473482"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000825&label=Disease",
+        "title": "HBDIS000825"
+      },
+      "Drug abuse",
+      "0.000168317973573672",
+      "0.00227073911735473"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000826&label=Disease",
+        "title": "HBDIS000826"
+      },
+      "Drug habituation",
+      "1.88422595560872e-05",
+      "0.00044083184319455"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000829&label=Disease",
+        "title": "HBDIS000829"
+      },
+      "Drug Use Disorders",
+      "3.34523219915753e-06",
+      "0.000112651317146087"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000871&label=Disease",
+        "title": "HBDIS000871"
+      },
+      "Eating Disorders",
+      "0.000698886931862244",
+      "0.00616408720684162"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001359&label=Disease",
+        "title": "HBDIS001359"
+      },
+      "Heroin Dependence",
+      "3.12301886402692e-06",
+      "0.000106469278662042"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001525&label=Disease",
+        "title": "HBDIS001525"
+      },
+      "Disruptive, Impulse Control, and Conduct Disorders",
+      "0.000184527333579906",
+      "0.00243183635807907"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001580&label=Disease",
+        "title": "HBDIS001580"
+      },
+      "Jacksonian Seizure",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001967&label=Disease",
+        "title": "HBDIS001967"
+      },
+      "Morphine Dependence",
+      "8.75912339497551e-05",
+      "0.00140746062921055"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002057&label=Disease",
+        "title": "HBDIS002057"
+      },
+      "Nausea",
+      "0.00114262568666453",
+      "0.00839955097486763"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002103&label=Disease",
+        "title": "HBDIS002103"
+      },
+      "Neuralgia",
+      "0.000930152501233237",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002132&label=Disease",
+        "title": "HBDIS002132"
+      },
+      "Nicotine Dependence",
+      "0.00131408430497574",
+      "0.00913528725152257"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002133&label=Disease",
+        "title": "HBDIS002133"
+      },
+      "Nicotine withdrawal",
+      "3.44649948828151e-05",
+      "0.000701643378923478"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002150&label=Disease",
+        "title": "HBDIS002150"
+      },
+      "Obsessive-Compulsive Disorder",
+      "0.00112612426433888",
+      "0.00830607347904101"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002195&label=Disease",
+        "title": "HBDIS002195"
+      },
+      "Organic Mental Disorders, Substance-Induced",
+      "3.01568834204417e-06",
+      "0.000103497691772094"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002324&label=Disease",
+        "title": "HBDIS002324"
+      },
+      "Gambling, Pathological",
+      "3.44649948828151e-05",
+      "0.000701643378923478"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002524&label=Disease",
+        "title": "HBDIS002524"
+      },
+      "Psychoses, Drug",
+      "2.88548459934998e-05",
+      "0.00061182182197467"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002686&label=Disease",
+        "title": "HBDIS002686"
+      },
+      "Schizoid Personality Disorder",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002852&label=Disease",
+        "title": "HBDIS002852"
+      },
+      "Stress, Psychological",
+      "2.3056409271553e-05",
+      "0.000515069165891274"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002868&label=Disease",
+        "title": "HBDIS002868"
+      },
+      "Substance Dependence",
+      "8.242076484486e-06",
+      "0.000230932334002682"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002869&label=Disease",
+        "title": "HBDIS002869"
+      },
+      "Substance Use Disorders",
+      "2.10710375377928e-05",
+      "0.000479976145574294"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002870&label=Disease",
+        "title": "HBDIS002870"
+      },
+      "Substance Withdrawal Syndrome",
+      "0.00036231966514326",
+      "0.00393703673883121"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002960&label=Disease",
+        "title": "HBDIS002960"
+      },
+      "Tobacco Dependence",
+      "5.80016365412393e-05",
+      "0.00104168894711356"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003041&label=Disease",
+        "title": "HBDIS003041"
+      },
+      "Unipolar Depression",
+      "0.000601232030617672",
+      "0.00557956642751232"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003244&label=Disease",
+        "title": "HBDIS003244"
+      },
+      "Foot Ulcer",
+      "2.62358351692729e-05",
+      "0.000568464459370495"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003270&label=Disease",
+        "title": "HBDIS003270"
+      },
+      "Addictive Behavior",
+      "0.000107564223089567",
+      "0.00163977507413395"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003372&label=Disease",
+        "title": "HBDIS003372"
+      },
+      "Alcohol abuse",
+      "0.0011928337846224",
+      "0.00858117206758542"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003388&label=Disease",
+        "title": "HBDIS003388"
+      },
+      "Drug Withdrawal Symptoms",
+      "0.000198257358363497",
+      "0.00256640347363496"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003443&label=Disease",
+        "title": "HBDIS003443"
+      },
+      "Withdrawal Symptoms",
+      "6.51681941284234e-06",
+      "0.000191976348834187"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003465&label=Disease",
+        "title": "HBDIS003465"
+      },
+      "Conduct Disorder",
+      "5.42681971781881e-05",
+      "0.000989229533093977"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003520&label=Disease",
+        "title": "HBDIS003520"
+      },
+      "Complex partial seizures",
+      "0.00102958317329278",
+      "0.00784328763450966"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003677&label=Disease",
+        "title": "HBDIS003677"
+      },
+      "Lingual-Facial-Buccal Dyskinesia",
+      "2.62358351692729e-05",
+      "0.000568464459370495"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003881&label=Disease",
+        "title": "HBDIS003881"
+      },
+      "Migraine with Aura",
+      "0.00036231966514326",
+      "0.00393703673883121"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004588&label=Disease",
+        "title": "HBDIS004588"
+      },
+      "Hemiballismus",
+      "4.50612988243684e-06",
+      "0.000142839996910087"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004760&label=Disease",
+        "title": "HBDIS004760"
+      },
+      "Asterixis",
+      "2.6294084983438e-06",
+      "9.2647067781645e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004783&label=Disease",
+        "title": "HBDIS004783"
+      },
+      "Dysphoric mood",
+      "2.62358351692729e-05",
+      "0.000568464459370495"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004916&label=Disease",
+        "title": "HBDIS004916"
+      },
+      "Clonic Seizures",
+      "0.000751894163483278",
+      "0.00644705342278575"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005058&label=Disease",
+        "title": "HBDIS005058"
+      },
+      "Amphetamine-Related Disorders",
+      "0.000266074576800791",
+      "0.00316709745175547"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005061&label=Disease",
+        "title": "HBDIS005061"
+      },
+      "Cocaine-Related Disorders",
+      "0.000528389895710865",
+      "0.00510330832073014"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005072&label=Disease",
+        "title": "HBDIS005072"
+      },
+      "Amphetamine Addiction",
+      "0.000299376315415819",
+      "0.00346001448480061"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005073&label=Disease",
+        "title": "HBDIS005073"
+      },
+      "Amphetamine Abuse",
+      "0.000250152291050049",
+      "0.00302194437324685"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005080&label=Disease",
+        "title": "HBDIS005080"
+      },
+      "Substance-Related Disorders",
+      "4.47545147698617e-06",
+      "0.000142175908016867"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005084&label=Disease",
+        "title": "HBDIS005084"
+      },
+      "Alcohol or Other Drugs use",
+      "0.000420984075085317",
+      "0.00437585334217057"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005301&label=Disease",
+        "title": "HBDIS005301"
+      },
+      "opioid use",
+      "6.58390451293868e-05",
+      "0.00114632159708417"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005434&label=Disease",
+        "title": "HBDIS005434"
+      },
+      "Drug usage",
+      "0.0011928337846224",
+      "0.00858117206758542"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006011&label=Disease",
+        "title": "HBDIS006011"
+      },
+      "Etat Marbre",
+      "2.37409457371537e-05",
+      "0.000526622579566348"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006466&label=Disease",
+        "title": "HBDIS006466"
+      },
+      "Generalized Anxiety Disorder",
+      "0.000420984075085317",
+      "0.00437585334217057"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006510&label=Disease",
+        "title": "HBDIS006510"
+      },
+      "Tonic Seizures",
+      "0.00066038162819565",
+      "0.005902951609956"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006511&label=Disease",
+        "title": "HBDIS006511"
+      },
+      "Epileptic drop attack",
+      "0.000998344172113403",
+      "0.00770434442724005"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007063&label=Disease",
+        "title": "HBDIS007063"
+      },
+      "Malignant Bone Neoplasm",
+      "0.000725152622988725",
+      "0.00627202840135206"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007697&label=Disease",
+        "title": "HBDIS007697"
+      },
+      "Opium Dependence",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007701&label=Disease",
+        "title": "HBDIS007701"
+      },
+      "Mixed anxiety and depressive disorder",
+      "0.000725152622988725",
+      "0.00627202840135206"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008680&label=Disease",
+        "title": "HBDIS008680"
+      },
+      "Dystonia Disorders",
+      "0.001061293163428",
+      "0.008031095072814"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009087&label=Disease",
+        "title": "HBDIS009087"
+      },
+      "Seizures, Somatosensory",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009088&label=Disease",
+        "title": "HBDIS009088"
+      },
+      "Seizures, Auditory",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009089&label=Disease",
+        "title": "HBDIS009089"
+      },
+      "Olfactory seizure",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009090&label=Disease",
+        "title": "HBDIS009090"
+      },
+      "Gustatory seizure",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009091&label=Disease",
+        "title": "HBDIS009091"
+      },
+      "Vertiginous seizure",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009161&label=Disease",
+        "title": "HBDIS009161"
+      },
+      "Anxiety and fear",
+      "0.000112421330322951",
+      "0.00169724283401568"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009249&label=Disease",
+        "title": "HBDIS009249"
+      },
+      "Involuntary Movements",
+      "4.38096481812327e-05",
+      "0.000841804175279702"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009516&label=Disease",
+        "title": "HBDIS009516"
+      },
+      "Acquired Language Disorders",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009528&label=Disease",
+        "title": "HBDIS009528"
+      },
+      "Oral Dyskinesia",
+      "2.6294084983438e-06",
+      "9.2647067781645e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009840&label=Disease",
+        "title": "HBDIS009840"
+      },
+      "Postoperative Nausea and Vomiting",
+      "4.38096481812327e-05",
+      "0.000841804175279702"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009972&label=Disease",
+        "title": "HBDIS009972"
+      },
+      "Opiate Addiction",
+      "1.61612334697684e-06",
+      "6.23922993191795e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010128&label=Disease",
+        "title": "HBDIS010128"
+      },
+      "Alcohol problem",
+      "2.37409457371537e-05",
+      "0.000526622579566348"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010247&label=Disease",
+        "title": "HBDIS010247"
+      },
+      "Agnosia for Pain",
+      "2.3056409271553e-05",
+      "0.000515069165891274"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010481&label=Disease",
+        "title": "HBDIS010481"
+      },
+      "heroin abuse",
+      "2.88548459934998e-05",
+      "0.00061182182197467"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010488&label=Disease",
+        "title": "HBDIS010488"
+      },
+      "Cocaine Dependence",
+      "1.61215568288251e-05",
+      "0.000390096247948019"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010547&label=Disease",
+        "title": "HBDIS010547"
+      },
+      "familial alcoholism",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010633&label=Disease",
+        "title": "HBDIS010633"
+      },
+      "heavy drinking",
+      "0.000117756049683215",
+      "0.0017559988128607"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010822&label=Disease",
+        "title": "HBDIS010822"
+      },
+      "Substance abuse problem",
+      "1.3674741771174e-05",
+      "0.000343177197178509"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011145&label=Disease",
+        "title": "HBDIS011145"
+      },
+      "Non-epileptic convulsion",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011160&label=Disease",
+        "title": "HBDIS011160"
+      },
+      "Single Seizure",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011167&label=Disease",
+        "title": "HBDIS011167"
+      },
+      "Atonic Absence Seizures",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011326&label=Disease",
+        "title": "HBDIS011326"
+      },
+      "Convulsive Seizures",
+      "0.000698886931862244",
+      "0.00616408720684162"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011328&label=Disease",
+        "title": "HBDIS011328"
+      },
+      "Seizures, Sensory",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011346&label=Disease",
+        "title": "HBDIS011346"
+      },
+      "Stuttering, Childhood",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011562&label=Disease",
+        "title": "HBDIS011562"
+      },
+      "Ballismus",
+      "1.87844638523937e-06",
+      "7.05885019803301e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012033&label=Disease",
+        "title": "HBDIS012033"
+      },
+      "Opium addiction",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012371&label=Disease",
+        "title": "HBDIS012371"
+      },
+      "Sleeplessness",
+      "0.0011928337846224",
+      "0.00858117206758542"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012390&label=Disease",
+        "title": "HBDIS012390"
+      },
+      "Sudden onset of sleep",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012640&label=Disease",
+        "title": "HBDIS012640"
+      },
+      "Transient psychosis",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014338&label=Disease",
+        "title": "HBDIS014338"
+      },
+      "Drug Dependence",
+      "3.99163781065787e-05",
+      "0.000784853276282256"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014495&label=Disease",
+        "title": "HBDIS014495"
+      },
+      "Methamphetamine dependence",
+      "5.06583465784341e-05",
+      "0.000940629205680345"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015983&label=Disease",
+        "title": "HBDIS015983"
+      },
+      "NEUROTICISM",
+      "0.000738463941067597",
+      "0.00635716423473482"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020043&label=Disease",
+        "title": "HBDIS020043"
+      },
+      "Somnolence",
+      "0.000381391788632489",
+      "0.00409354989089308"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020074&label=Disease",
+        "title": "HBDIS020074"
+      },
+      "Alcohol dependence with withdrawal, unspecified",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021074&label=Disease",
+        "title": "HBDIS021074"
+      },
+      "Neonatal Opiate Withdrawal Syndrome",
+      "1.87844638523937e-06",
+      "7.05885019803301e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021526&label=Disease",
+        "title": "HBDIS021526"
+      },
+      "Nonepileptic Seizures",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022031&label=Disease",
+        "title": "HBDIS022031"
+      },
+      "Oculoskeletal dysplasia",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022032&label=Disease",
+        "title": "HBDIS022032"
+      },
+      "Spinal cord myoclonus",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025296&label=Disease",
+        "title": "HBDIS025296"
+      },
+      "Convulsions",
+      "0.00136780148518349",
+      "0.00937832033829945"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026078&label=Disease",
+        "title": "HBDIS026078"
+      },
+      "Diffuse midline glioma, point mutation K27M in histone H3",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026416&label=Disease",
+        "title": "HBDIS026416"
+      },
+      "Prescription Drug Abuse",
+      "3.01568834204417e-06",
+      "0.000103497691772094"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026435&label=Disease",
+        "title": "HBDIS026435"
+      },
+      "Myoclonic Seizures",
+      "0.000765443232248043",
+      "0.00653246950486692"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026729&label=Disease",
+        "title": "HBDIS026729"
+      },
+      "Food Addiction",
+      "3.50532280909077e-06",
+      "0.000116699212247792"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026735&label=Disease",
+        "title": "HBDIS026735"
+      },
+      "Heroin Smoking",
+      "4.50612988243684e-06",
+      "0.000142839996910087"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026737&label=Disease",
+        "title": "HBDIS026737"
+      },
+      "Generalized Absence Seizures",
+      "0.000586592408835293",
+      "0.00548083078726621"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027605&label=Disease",
+        "title": "HBDIS027605"
+      },
+      "Taq1A POLYMORPHISM",
+      "4.50612988243684e-06",
+      "0.000142839996910087"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013928&label=Disease",
+        "title": "HBDIS013928"
+      },
+      "Prostate Lymphoma",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001073&label=Disease",
+        "title": "HBDIS001073"
+      },
+      "Fibromyalgia",
+      "0.000922310277192555",
+      "0.00739700391021864"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001453&label=Disease",
+        "title": "HBDIS001453"
+      },
+      "Hyperphagia",
+      "0.000123213531541936",
+      "0.0018179289216231"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001503&label=Disease",
+        "title": "HBDIS001503"
+      },
+      "Hypotension, Orthostatic",
+      "0.000299376315415819",
+      "0.00346001448480061"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003067&label=Disease",
+        "title": "HBDIS003067"
+      },
+      "Urticaria",
+      "0.00131408430497574",
+      "0.00913528725152257"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003392&label=Disease",
+        "title": "HBDIS003392"
+      },
+      "Epilepsy, Cryptogenic",
+      "0.00036231966514326",
+      "0.00393703673883121"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005039&label=Disease",
+        "title": "HBDIS005039"
+      },
+      "Aura",
+      "0.000325625795347236",
+      "0.00363760005380795"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011161&label=Disease",
+        "title": "HBDIS011161"
+      },
+      "Awakening Epilepsy",
+      "0.000325625795347236",
+      "0.00363760005380795"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007848&label=Disease",
+        "title": "HBDIS007848"
+      },
+      "Critical lower limb ischemia",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010359&label=Disease",
+        "title": "HBDIS010359"
+      },
+      "Acute sciatica",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012445&label=Disease",
+        "title": "HBDIS012445"
+      },
+      "HIV-1-Associated Cognitive Motor Complex",
+      "0.000791389650528071",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015636&label=Disease",
+        "title": "HBDIS015636"
+      },
+      "SCHIZOPHRENIA 12",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027671&label=Disease",
+        "title": "HBDIS027671"
+      },
+      "Opium Use",
+      "0.000395757479816368",
+      "0.0041765176078312"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001106&label=Target",
+        "title": "HBTAR001106"
+      },
+      "DRD2",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT01019",
+          "title": "SymMap:SMTT01019"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00292"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002811&label=Target",
+        "title": "HBTAR002811"
+      },
+      "OPRD1",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT02428",
+          "title": "SymMap:SMTT02428"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00163"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002814&label=Target",
+        "title": "HBTAR002814"
+      },
+      "OPRM1",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT02430",
+          "title": "SymMap:SMTT02430"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00299"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000700&label=Target",
+        "title": "HBTAR000700"
+      },
+      "CHRM2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00210"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000703&label=Target",
+        "title": "HBTAR000703"
+      },
+      "CHRM4",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00154"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN010574",
+      "4-hydroxystrychnine",
+      "4-Hydroxystrychnidin-10-one; 4-Hydroxystrychnine; Strychnidin-10-one, 4-hydroxy- (9CI); (11S,18S,20R,21R,22S)-6-HYDROXY-12-OXA-8,17-DIAZAHEPTACYCLO[15.5.2.0(1),(1)?.0(2),?.0?,(2)(2).0(1)(1),(2)(1).0(1)?,(2)?]TETRACOSA-2,4,6,14-TETRAEN-9-ONE; Strychnidin-10-one, 4-hydroxy-; Strychnine, 4-hydroxy-; LS-147137; AC1L4QB3; 22595-26-2",
+      "C21H22N2O3",
+      "C1CN2CC3=CCOC4CC(=O)N5C6C4C3CC2C61C7=C5C(=CC=C7)O",
+      "350.41",
+      "28.34327301",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "22595-26-2"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT00535",
+        "title": "SMIT00535"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/10733/",
+        "title": "10733"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL003438"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "7812"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/211181",
+        "title": "211181"
+      }
+    ]
+  ]
+}

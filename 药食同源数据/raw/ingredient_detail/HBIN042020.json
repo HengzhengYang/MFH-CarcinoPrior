@@ -1,0 +1,220 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001251&label=Herb",
+        "title": "HERB001251"
+      },
+      "DI HUANG",
+      "地黄",
+      "Radix Rehmanniae",
+      "NA"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001783&label=Herb",
+        "title": "HERB001783"
+      },
+      "GAN DI HUANG",
+      "干地黄",
+      "Adhesive Rehmannia Dried Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rehmannia glutinosa [Syn. Rehmannia glutinosa f. huechingensis]"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005012&label=Herb",
+        "title": "HERB005012"
+      },
+      "SHENG DI HUANG",
+      "生地黄",
+      "Fresh rehmannia root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Rehmanniae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005118&label=Herb",
+        "title": "HERB005118"
+      },
+      "SHU DI HUANG",
+      "熟地黄",
+      "Prepared Rehmannia Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Rehmanniae Preparata"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "(E)-4-[(1R,6R)-1-hydroxy-2,2,6-trimethyl-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-methylol-tetrahydropyran-2-yl]oxy-cyclohexyl]but-3-en-2-one; (E)-4-[(1R,6R)-1-hydroxy-2,2,6-trimethyl-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-cyclohexyl]but-3-en-2-one; (E)-4-[(1R,6R)-1-hydroxy-2,2,6-trimethyl-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxycyclohexyl]but-3-en-2-one; rehmaionoside c; (E)-4-[(1R,6R)-1-hydroxy-2,2,6-trimethyl-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydropyran-2-yl]oxy-cyclohexyl]but-3-en-2-one; (E)-4-[(1R,6R)-1-hydroxy-2,2,6-trimethyl-6-[[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)-2-tetrahydropyranyl]oxy]cyclohexyl]but-3-en-2-one"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000233&label=Target",
+        "title": "HBTAR000233"
+      },
+      "AR",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00048"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001096&label=Target",
+        "title": "HBTAR001096"
+      },
+      "DPP4",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00332"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001277&label=Target",
+        "title": "HBTAR001277"
+      },
+      "ESR1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00046"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN042020",
+      "Rehmaionoside C",
+      "(E)-4-[(1R,6R)-1-hydroxy-2,2,6-trimethyl-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-methylol-tetrahydropyran-2-yl]oxy-cyclohexyl]but-3-en-2-one; (E)-4-[(1R,6R)-1-hydroxy-2,2,6-trimethyl-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-cyclohexyl]but-3-en-2-one; (E)-4-[(1R,6R)-1-hydroxy-2,2,6-trimethyl-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxycyclohexyl]but-3-en-2-one; rehmaionoside c; (E)-4-[(1R,6R)-1-hydroxy-2,2,6-trimethyl-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydropyran-2-yl]oxy-cyclohexyl]but-3-en-2-one; (E)-4-[(1R,6R)-1-hydroxy-2,2,6-trimethyl-6-[[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)-2-tetrahydropyranyl]oxy]cyclohexyl]but-3-en-2-one",
+      "C19H32O8",
+      "CC(=O)C=CC1(C(CCCC1(C)OC2C(C(C(C(O2)CO)O)O)O)(C)C)O",
+      "388.5",
+      "12.88872626",
+      {
+        "link": "https://www.symmap.org/detail/SMIT05755",
+        "title": "SMIT05755"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/18580/",
+        "title": "18580"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL003725"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "1344"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/11740990",
+        "title": "11740990"
+      }
+    ]
+  ]
+}

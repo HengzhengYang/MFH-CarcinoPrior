@@ -1,0 +1,219 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000259&label=Herb",
+        "title": "HERB000259"
+      },
+      "BAI QU CAI",
+      "白屈菜",
+      "Chelidonii Herba",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000293&label=Herb",
+        "title": "HERB000293"
+      },
+      "BAI YAO ZI",
+      "白药子",
+      "Radix Stephaniae Cepharanthae.",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002563&label=Herb",
+        "title": "HERB002563"
+      },
+      "HUANG QIN",
+      "黄芩",
+      "root of Baikal skullcap",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Scutellariae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002999&label=Herb",
+        "title": "HERB002999"
+      },
+      "JIU",
+      "酒",
+      "Ethanol",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Vinum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003245&label=Herb",
+        "title": "HERB003245"
+      },
+      "LAI FU ZI",
+      "莱菔子",
+      "Radish Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Raphani"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005067&label=Herb",
+        "title": "HERB005067"
+      },
+      "SHI LI ZI",
+      "石栗子",
+      "Belgaum Walnut Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Aleurites moluccana"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005070&label=Herb",
+        "title": "HERB005070"
+      },
+      "SHI LIU GEN",
+      "石榴根",
+      "Pomegranate Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Punica granatum"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "Glycerol trisinapate; AC1NSVZC; Glycerol tris[3-(4-hydroxy-3,5-dimethoxyphenyl)propenoate]; 1,3-bis({[(2E)-3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enoyl]oxy})propan-2-yl (2E)-3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enoate; Tri-O-sinapoylglycerol; 2,3-bis[[(E)-3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enoyl]oxy]propyl (E)-3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enoate"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN028119",
+      "glycerol sinapate",
+      "Glycerol trisinapate; AC1NSVZC; Glycerol tris[3-(4-hydroxy-3,5-dimethoxyphenyl)propenoate]; 1,3-bis({[(2E)-3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enoyl]oxy})propan-2-yl (2E)-3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enoate; Tri-O-sinapoylglycerol; 2,3-bis[[(E)-3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enoyl]oxy]propyl (E)-3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enoate",
+      "C14H18O7",
+      "COC1=CC(=CC(=C1O)OC)C=CC(=O)OCC(CO)O",
+      "298.29",
+      {
+        "link": "https://www.symmap.org/detail/SMIT15644",
+        "title": "SMIT15644"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/8810/",
+        "title": "8810"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/15948641",
+        "title": "15948641"
+      }
+    ]
+  ]
+}

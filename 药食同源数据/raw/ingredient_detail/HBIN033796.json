@@ -1,0 +1,227 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001214&label=Herb",
+        "title": "HERB001214"
+      },
+      "DAO CAO",
+      "稻草",
+      "Rice Straw",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Oryza sativa"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003192&label=Herb",
+        "title": "HERB003192"
+      },
+      "KUAN DONG HUA",
+      "款冬花",
+      "flower bud of common coltsfoot",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "flos farfarae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004086&label=Herb",
+        "title": "HERB004086"
+      },
+      "NAN FANG TU SI ZI",
+      "南方菟丝子",
+      "South Dodder Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Cuscuta australis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005172&label=Herb",
+        "title": "HERB005172"
+      },
+      "SHUI JIN FENG",
+      "水金凤",
+      "Lightyellow Snapweed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Impatiens nolitangere"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005275&label=Herb",
+        "title": "HERB005275"
+      },
+      "SPHAGNUM CYMBIFOLIUM ] (SPHAGNACEAE)",
+      "密叶泥炭藓",
+      "NI TAN XIAN",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Sphagnum palustre [Syn. Sphagnum obtusifolium"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005684&label=Herb",
+        "title": "HERB005684"
+      },
+      "WENG CAI",
+      "蕹菜",
+      "Aquatic Morning Glory",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Ipomoea aquatica"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006061&label=Herb",
+        "title": "HERB006061"
+      },
+      "XIANG YUAN",
+      "香橼",
+      "Citri Fructus",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006575&label=Herb",
+        "title": "HERB006575"
+      },
+      "YI ZHU QIAN MA",
+      "异株荨麻",
+      "Dioecious Nettle",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Urtica dioica"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NA"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN033796",
+      "lutein epoxide",
+      "C40H56O3",
+      "CC1=CC(CC(C1C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC23C(CC(CC2(O3)C)O)(C)C)C)C)(C)C)O",
+      "584.9",
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/13120/",
+        "title": "13120"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/5281244",
+        "title": "5281244"
+      }
+    ]
+  ]
+}

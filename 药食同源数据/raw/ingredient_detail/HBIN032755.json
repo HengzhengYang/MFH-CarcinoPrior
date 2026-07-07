@@ -1,0 +1,169 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000242&label=Herb",
+        "title": "HERB000242"
+      },
+      "BAI MAO GEN",
+      "白茅根",
+      "Lalang Grass Rhizome",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Imperatae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000267&label=Herb",
+        "title": "HERB000267"
+      },
+      "BAI SHAO",
+      "白芍",
+      "White peony root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Paeoniae Alba"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000305&label=Herb",
+        "title": "HERB000305"
+      },
+      "BAI ZHI",
+      "白芷",
+      "Dahurian Angelica Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Angelicae Dahuricae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "J-001577; NCGC00164095-03; Ethyl laurate, natural, >=98%, FCC, FG; KSC177E4D; MFCD00008966; FT-0625573; DSSTox_RID_82065; ACMC-2098jc; EBD2205440; UQDUPQYQJKYHQI-UHFFFAOYSA-N; MolPort-003-928-303; FEMA No. 2715; DSSTox_CID_6889; L0013; NSC83467; METHYL DODECANOATE; Methyl laurinate; Dodecanoic acid, methyl ester; WE(1:0/12:0); CAS-111-82-0; dodecanoic acid ethyl ester; LMFA07010463; EC 203-911-3; Methyl laurate, PharmaGrade, Manufactured under appropriate GMP controls for pharma or biopharmaceutical production.; Lauric acid methyl ester; NSC-8912; 77730007-072E-4C8A-8B4B-886E9C44946C; SBB061073; KB-78771; Ethyllaurate; Uniphat A40 IN 511; EINECS 203-386-0; NCGC00259039-01; UNII-8IPS6BI6KW; 111-82-0; NCGC00164095-02; Methyl laurate, 99.5%; KS-00000YST; Dodecanoic acid methyl ester (FAME MIX); CHEBI:87494; Ethyl dodecanoate, >=98.0% (GC); Ethyl laurate, United States Pharmacopeia (USP) Reference Standard; AI3-00645; LS-2734; Ethyl laurate, analytical standard; MolPort-003-919-868; InChI=1/C14H28O2/c1-3-5-6-7-8-9-10-11-12-13-14(15)16-4-2/h3-13H2,1-2H; lauric acid, ethyl ester; ZX-AT015455; TR-002315; NCGC00248234-01; MFCD00015065; AC1L1QCQ; ST24031192; F389D4MD5K; DSSTox_GSID_47044; TRA0068024; AI3-00669; L0015; CHEMBL3187842; HSDB 5550; METHYL DODECANOATE, 99.8%; A802417; Ethyl laurate (natural); CTK0H7241; Stepan C40; KS-00000YV2; Uniphat A40; V0948; AX8139492; Ethyl laurate, >=98%, FCC, FG; Methyl n-dodecanoate; NSC-83467; DSSTox_RID_78239; NCIOpen2_004797; Tox21_300555; Ethy"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN032755",
+      "lauric acid,ethyl ester",
+      "J-001577; NCGC00164095-03; Ethyl laurate, natural, >=98%, FCC, FG; KSC177E4D; MFCD00008966; FT-0625573; DSSTox_RID_82065; ACMC-2098jc; EBD2205440; UQDUPQYQJKYHQI-UHFFFAOYSA-N; MolPort-003-928-303; FEMA No. 2715; DSSTox_CID_6889; L0013; NSC83467; METHYL DODECANOATE; Methyl laurinate; Dodecanoic acid, methyl ester; WE(1:0/12:0); CAS-111-82-0; dodecanoic acid ethyl ester; LMFA07010463; EC 203-911-3; Methyl laurate, PharmaGrade, Manufactured under appropriate GMP controls for pharma or biopharmaceutical production.; Lauric acid methyl ester; NSC-8912; 77730007-072E-4C8A-8B4B-886E9C44946C; SBB061073; KB-78771; Ethyllaurate; Uniphat A40 IN 511; EINECS 203-386-0; NCGC00259039-01; UNII-8IPS6BI6KW; 111-82-0; NCGC00164095-02; Methyl laurate, 99.5%; KS-00000YST; Dodecanoic acid methyl ester (FAME MIX); CHEBI:87494; Ethyl dodecanoate, >=98.0% (GC); Ethyl laurate, United States Pharmacopeia (USP) Reference Standard; AI3-00645; LS-2734; Ethyl laurate, analytical standard; MolPort-003-919-868; InChI=1/C14H28O2/c1-3-5-6-7-8-9-10-11-12-13-14(15)16-4-2/h3-13H2,1-2H; lauric acid, ethyl ester; ZX-AT015455; TR-002315; NCGC00248234-01; MFCD00015065; AC1L1QCQ; ST24031192; F389D4MD5K; DSSTox_GSID_47044; TRA0068024; AI3-00669; L0015; CHEMBL3187842; HSDB 5550; METHYL DODECANOATE, 99.8%; A802417; Ethyl laurate (natural); CTK0H7241; Stepan C40; KS-00000YV2; Uniphat A40; V0948; AX8139492; Ethyl laurate, >=98%, FCC, FG; Methyl n-dodecanoate; NSC-83467; DSSTox_RID_78239; NCIOpen2_004797; Tox21_300555; Ethy",
+      "C14H28O2",
+      "CCCCCCCCCCCC(=O)OCC",
+      "228.37",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "106-33-2"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT02461",
+        "title": "SMIT02461"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/24642/",
+        "title": "24642"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "3053"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/7800",
+        "title": "7800"
+      }
+    ]
+  ]
+}

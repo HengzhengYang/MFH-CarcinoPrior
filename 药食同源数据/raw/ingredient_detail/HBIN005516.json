@@ -1,0 +1,201 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000706&label=Herb",
+        "title": "HERB000706"
+      },
+      "CHANG SHAN",
+      "常山",
+      "root of antifebrile Dichroa",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Dichroae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002345&label=Herb",
+        "title": "HERB002345"
+      },
+      "HOU TOU GU",
+      "猴头菇",
+      "Mushroom",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Hericium erinaceus"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002914&label=Herb",
+        "title": "HERB002914"
+      },
+      "JIN JI ER GEN",
+      "锦鸡儿根",
+      "Caragana sinica (Buchoz)Rehd.",
+      "NA"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003439&label=Herb",
+        "title": "HERB003439"
+      },
+      "LING XIAO HUA",
+      "凌霄花",
+      "flower of Common Trumpetcreeper",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Campsis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005017&label=Herb",
+        "title": "HERB005017"
+      },
+      "SHENG JIANG",
+      "生姜",
+      "Fresh Ginger",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Zingiberis Recens"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "693-54-9; W510637_ALDRICH; METHYL OCTYL KETONE; EINECS 211-752-6; 2-decanone; 2- Decanone; 4-01-00-03367 (Beilstein Handbook Reference); Methyl n-octyl ketone; 68228_FLUKA; Octyl methyl ketone; 196207_ALDRICH; Decan-2-one; BRN 1747463"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN005516",
+      "2-Decanone",
+      "693-54-9; W510637_ALDRICH; METHYL OCTYL KETONE; EINECS 211-752-6; 2-decanone; 2- Decanone; 4-01-00-03367 (Beilstein Handbook Reference); Methyl n-octyl ketone; 68228_FLUKA; Octyl methyl ketone; 196207_ALDRICH; Decan-2-one; BRN 1747463",
+      "C10H20O",
+      "CCCCCCCCC(=O)C",
+      "156.27",
+      "21.18214809",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "693-54-9"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT09486",
+        "title": "SMIT09486"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/33765/",
+        "title": "33765"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL008165"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "8669"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/12741",
+        "title": "12741"
+      }
+    ]
+  ]
+}

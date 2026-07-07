@@ -1,0 +1,741 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004832&label=Herb",
+        "title": "HERB004832"
+      },
+      "SANG SHEN",
+      "桑椹",
+      "Mulberry Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Mori"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "beta-Indol-3-ylethanol; NSC3884; NSC 3884; 3-Indolylethanol; 3-(beta-Hydroxyethyl)indole; Maybridge1_002422; BRN 0125553; Indole-3-ethanol; 3-(2-Hydroxyethyl)indole; 2-(3-Indolyl)ethanol; Ethanol, 3-indolyl-; CHEBI:17890; Indole ethanol; Indoleethanol; T90301_ALDRICH; EINECS 208-393-2; WLN: T56 BMJ D2Q; 5-21-03-00061 (Beilstein Handbook Reference); SBB003950; CDS1_000134; 1H-indolyl-3-ethanol; DivK1c_001174; Tryptophol; 2-(indol-3-yl)ethanol; 526-55-6; 1H-Indole-3-ethanol; Ethanol, 2-indol-3-yl-; .beta.-(3-Indole)ethanol; 3-Indoleethanol; ZINC00003252; C00955; 3-(.beta.-Hydroxyethyl)indole; Indole-3-ethanol (8CI); 54350_FLUKA; 2-(1H-indol-3-yl)ethanol"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000075&label=Disease",
+        "title": "HBDIS000075"
+      },
+      "Adult Antisocial Behavior",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000200&label=Disease",
+        "title": "HBDIS000200"
+      },
+      "Antisocial Personality Disorder",
+      "4.40993927721734e-05",
+      "0.000846217987180289"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000376&label=Disease",
+        "title": "HBDIS000376"
+      },
+      "Borderline Personality Disorder",
+      "0.000541536836584689",
+      "0.00519543211027014"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000603&label=Disease",
+        "title": "HBDIS000603"
+      },
+      "Cluster B personality disorder",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000604&label=Disease",
+        "title": "HBDIS000604"
+      },
+      "Cluster C personality disorder",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000852&label=Disease",
+        "title": "HBDIS000852"
+      },
+      "Dyskinetic syndrome",
+      "0.00104702251754779",
+      "0.00794454286701336"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000861&label=Disease",
+        "title": "HBDIS000861"
+      },
+      "Dyssocial Behavior",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001073&label=Disease",
+        "title": "HBDIS001073"
+      },
+      "Fibromyalgia",
+      "0.000280257068324319",
+      "0.00329730336829236"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001329&label=Disease",
+        "title": "HBDIS001329"
+      },
+      "Hepatic Coma",
+      "3.4187720352225e-06",
+      "0.000114498238967736"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001330&label=Disease",
+        "title": "HBDIS001330"
+      },
+      "Hepatic Encephalopathy",
+      "0.000163520001197612",
+      "0.00222082371672168"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001455&label=Disease",
+        "title": "HBDIS001455"
+      },
+      "Hyperprolactinemia",
+      "4.05412312219631e-05",
+      "0.000793496832210512"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001502&label=Disease",
+        "title": "HBDIS001502"
+      },
+      "Hypotension",
+      "0.000262308800834636",
+      "0.00313443732097962"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001527&label=Disease",
+        "title": "HBDIS001527"
+      },
+      "Impulsive Behavior",
+      "0.000831480485195312",
+      "0.00687459209414349"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002098&label=Disease",
+        "title": "HBDIS002098"
+      },
+      "nervous system disorder",
+      "0.000234472639101373",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002180&label=Disease",
+        "title": "HBDIS002180"
+      },
+      "Oppositional Defiant Disorder",
+      "8.67475489799169e-06",
+      "0.000240233789134663"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002266&label=Disease",
+        "title": "HBDIS002266"
+      },
+      "Pain, Postoperative",
+      "0.00013048113281101",
+      "0.00189676011883239"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002324&label=Disease",
+        "title": "HBDIS002324"
+      },
+      "Gambling, Pathological",
+      "1.0363547050713e-05",
+      "0.000275840410391804"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002520&label=Disease",
+        "title": "HBDIS002520"
+      },
+      "Tension Headache",
+      "2.47981083592209e-06",
+      "8.83561782283389e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002606&label=Disease",
+        "title": "HBDIS002606"
+      },
+      "Restless Legs Syndrome",
+      "0.000156615723481748",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002691&label=Disease",
+        "title": "HBDIS002691"
+      },
+      "Paranoid Schizophrenia",
+      "4.05412312219631e-05",
+      "0.000793496832210512"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003108&label=Disease",
+        "title": "HBDIS003108"
+      },
+      "Violence",
+      "4.78067824670429e-05",
+      "0.00089855015895317"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003270&label=Disease",
+        "title": "HBDIS003270"
+      },
+      "Addictive Behavior",
+      "1.11230112903548e-05",
+      "0.000292375884946869"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003465&label=Disease",
+        "title": "HBDIS003465"
+      },
+      "Conduct Disorder",
+      "1.63286731037852e-05",
+      "0.000394012865477709"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003492&label=Disease",
+        "title": "HBDIS003492"
+      },
+      "ACUTE ALCOHOL WITHDRAWAL",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003862&label=Disease",
+        "title": "HBDIS003862"
+      },
+      "Atypical depressive disorder",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004085&label=Disease",
+        "title": "HBDIS004085"
+      },
+      "Fetal Malnutrition",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004596&label=Disease",
+        "title": "HBDIS004596"
+      },
+      "Vascular ring",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004809&label=Disease",
+        "title": "HBDIS004809"
+      },
+      "Fear of heights",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004839&label=Disease",
+        "title": "HBDIS004839"
+      },
+      "Extrapyramidal sign",
+      "0.000160049339765247",
+      "0.00218304616548521"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006018&label=Disease",
+        "title": "HBDIS006018"
+      },
+      "Norrie disease",
+      "3.71323454322846e-05",
+      "0.000741627632262669"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006432&label=Disease",
+        "title": "HBDIS006432"
+      },
+      "Endometrioma",
+      "0.00114558249315715",
+      "0.00841756235747408"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006834&label=Disease",
+        "title": "HBDIS006834"
+      },
+      "Infectious pustular vulvovaginitis",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008639&label=Disease",
+        "title": "HBDIS008639"
+      },
+      "Abnormal involuntary movement",
+      "7.13583370420941e-06",
+      "0.000205951948484724"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008672&label=Disease",
+        "title": "HBDIS008672"
+      },
+      "Huntington Disease, Late Onset",
+      "2.47981083592209e-06",
+      "8.83561782283389e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009694&label=Disease",
+        "title": "HBDIS009694"
+      },
+      "Physical violence",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009920&label=Disease",
+        "title": "HBDIS009920"
+      },
+      "Delinquent behavior",
+      "4.50779465695225e-06",
+      "0.000142839996910087"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010251&label=Disease",
+        "title": "HBDIS010251"
+      },
+      "Impulsive character (finding)",
+      "3.38727830190105e-05",
+      "0.000692397956271884"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010563&label=Disease",
+        "title": "HBDIS010563"
+      },
+      "Aggressive personality",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010566&label=Disease",
+        "title": "HBDIS010566"
+      },
+      "Mental impairment",
+      "4.05412312219631e-05",
+      "0.000793496832210512"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010623&label=Disease",
+        "title": "HBDIS010623"
+      },
+      "Tardive Dyskinesia",
+      "0.000143251828876092",
+      "0.00203184510951711"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010822&label=Disease",
+        "title": "HBDIS010822"
+      },
+      "Substance abuse problem",
+      "0.000373560186129259",
+      "0.00403055918738161"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011191&label=Disease",
+        "title": "HBDIS011191"
+      },
+      "Fulminant Hepatic Failure with Cerebral Edema",
+      "2.9305307817766e-06",
+      "0.00010110066647899"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011192&label=Disease",
+        "title": "HBDIS011192"
+      },
+      "Hepatic Stupor",
+      "2.9305307817766e-06",
+      "0.00010110066647899"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011194&label=Disease",
+        "title": "HBDIS011194"
+      },
+      "Akinetic-Rigid Variant of Huntington Disease",
+      "2.47981083592209e-06",
+      "8.83561782283389e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011195&label=Disease",
+        "title": "HBDIS011195"
+      },
+      "Juvenile Huntington Disease",
+      "2.47981083592209e-06",
+      "8.83561782283389e-05"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011715&label=Disease",
+        "title": "HBDIS011715"
+      },
+      "Mental Retardation, X-Linked 9",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011733&label=Disease",
+        "title": "HBDIS011733"
+      },
+      "Brunner Syndrome",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012029&label=Disease",
+        "title": "HBDIS012029"
+      },
+      "Neurotic personality",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012171&label=Disease",
+        "title": "HBDIS012171"
+      },
+      "Adolescent antisocial behaviour",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012275&label=Disease",
+        "title": "HBDIS012275"
+      },
+      "Enzyme inhibition disorder",
+      "0.000368318357084613",
+      "0.00398659254082419"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012815&label=Disease",
+        "title": "HBDIS012815"
+      },
+      "Pheochromocytoma, Extra-Adrenal",
+      "2.49905121963401e-05",
+      "0.000547393842609658"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013209&label=Disease",
+        "title": "HBDIS013209"
+      },
+      "Fetal Nutrition Disorders",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013454&label=Disease",
+        "title": "HBDIS013454"
+      },
+      "Climacteric discomfort",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014500&label=Disease",
+        "title": "HBDIS014500"
+      },
+      "child neglect behavior",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015778&label=Disease",
+        "title": "HBDIS015778"
+      },
+      "AUTISM, SEVERE",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS016137&label=Disease",
+        "title": "HBDIS016137"
+      },
+      "CONE DYSTROPHY, X-LINKED, 1",
+      "0.000712250688451254",
+      "0.00618862741680015"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018899&label=Disease",
+        "title": "HBDIS018899"
+      },
+      "Oppositional Behavior",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS022115&label=Disease",
+        "title": "HBDIS022115"
+      },
+      "Drug-induced tardive dyskinesia",
+      "0.000143251828876092",
+      "0.00203184510951711"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026370&label=Disease",
+        "title": "HBDIS026370"
+      },
+      "ANTISOCIAL BEHAVIOR, SUSCEPTIBILITY TO",
+      "0.000237454487889821",
+      "0.00290371570374144"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026785&label=Disease",
+        "title": "HBDIS026785"
+      },
+      "Sporadic Parkinson disease",
+      "0.000373560186129259",
+      "0.00403055918738161"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008047&label=Disease",
+        "title": "HBDIS008047"
+      },
+      "Aromatic amino acid decarboxylase deficiency",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013271&label=Disease",
+        "title": "HBDIS013271"
+      },
+      "Deficiency of aromatic-L-amino-acid decarboxylase",
+      "0.00118689654189502",
+      "0.00855279454615903"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002402&label=Target",
+        "title": "HBTAR002402"
+      },
+      "MAOA",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/12180/",
+          "title": "TCMID:12180"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00566"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002403&label=Target",
+        "title": "HBTAR002403"
+      },
+      "MAOB",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT02025",
+          "title": "SymMap:SMTT02025"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00565"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003223&label=Target",
+        "title": "HBTAR003223"
+      },
+      "PRSS1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02928"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN029979",
+      "IEA",
+      "beta-Indol-3-ylethanol; NSC3884; NSC 3884; 3-Indolylethanol; 3-(beta-Hydroxyethyl)indole; Maybridge1_002422; BRN 0125553; Indole-3-ethanol; 3-(2-Hydroxyethyl)indole; 2-(3-Indolyl)ethanol; Ethanol, 3-indolyl-; CHEBI:17890; Indole ethanol; Indoleethanol; T90301_ALDRICH; EINECS 208-393-2; WLN: T56 BMJ D2Q; 5-21-03-00061 (Beilstein Handbook Reference); SBB003950; CDS1_000134; 1H-indolyl-3-ethanol; DivK1c_001174; Tryptophol; 2-(indol-3-yl)ethanol; 526-55-6; 1H-Indole-3-ethanol; Ethanol, 2-indol-3-yl-; .beta.-(3-Indole)ethanol; 3-Indoleethanol; ZINC00003252; C00955; 3-(.beta.-Hydroxyethyl)indole; Indole-3-ethanol (8CI); 54350_FLUKA; 2-(1H-indol-3-yl)ethanol",
+      "C10H11NO",
+      "C1=CC=C2C(=C1)C(=CN2)CCO",
+      "161.2",
+      "39.79147152",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "526-55-6"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT11345",
+        "title": "SMIT11345"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL010286"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/10685",
+        "title": "10685"
+      }
+    ]
+  ]
+}

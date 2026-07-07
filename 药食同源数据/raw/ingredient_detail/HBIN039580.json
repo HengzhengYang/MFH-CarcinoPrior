@@ -1,0 +1,1015 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000129&label=Herb",
+        "title": "HERB000129"
+      },
+      "BA DOU",
+      "巴豆",
+      "Croton Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Crotonis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001754&label=Herb",
+        "title": "HERB001754"
+      },
+      "FU PEN ZI",
+      "覆盆子",
+      "Rubi Fructus",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005534&label=Herb",
+        "title": "HERB005534"
+      },
+      "TONG QIAO SHE GU",
+      "筒鞘蛇菰",
+      "Involucrate Balanophora",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Balanophora involucrata"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "1-propanone, 1-[2-(beta-D-glucopyranosyloxy)-4,6-dihydroxyphenyl]-3-(4-hydroxyphenyl)-; ZINC03875408; C01604; 1-[2,4-dihydroxy-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]-3-(4-hydroxyphenyl)propan-1-one; KBio2_001771; 1-[2-(.beta.-D-Glucopyranosyloxy)-4,6-dihydroxyphenyl]-3-(4-hydroxyphenyl)-1-propanone; KBioSS_001771; KBioGR_002141; Spectrum_001291; 4,6-dihydroxy-2-(beta-D-glucosido)-beta-(p-hydroxyphenyl)propiophenone; 60-81-1; Spectrum4_001651; SPBio_000881; 2'-(beta-D-Glucopyranosyloxy)-4',6'-dihydroxy-3-(4-hydroxyphenyl)propiophenone; AIDS-009884; KBio2_004339; AIDS009884; 16055-86-0; AI3-19835; KBio2_006907; Spectrum3_001227; SpecPlus_000325; EINECS 200-487-1; 1-[2,4-dihydroxy-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-methylol-tetrahydropyran-2-yl]oxy-phenyl]-3-(4-hydroxyphenyl)propan-1-one; 1-[2,4-dihydroxy-6-[[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)-2-tetrahydropyranyl]oxy]phenyl]-3-(4-hydroxyphenyl)propan-1-one; 1-[2,4-dihydroxy-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-phenyl]-3-(4-hydroxyphenyl)propan-1-one; phlorizin; Phlorhizin; Phloridzosid; Phlorhizin;Phlorizin; DivK1c_006421; SDCCGMLS-0066626.P001; Phloretin 2'-glucoside; 52276-56-9; KBio1_001365; Phloretin-2'-beta-glucoside; BSPBio_002674; Phloridzin; SBB005924; NCGC00142423-01; KBio3_002174; NSC 2833; Phlorrhizen; 3,5-dihydroxy-2-[3-(4-hydroxyphenyl)propanoyl]phenyl beta-D-glucopyranoside; 1-Propanone, 1-(2-(beta-D-glucopyranosyloxy)-4,6-dihyd"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000294&label=Disease",
+        "title": "HBDIS000294"
+      },
+      "Bacteremia",
+      "0.00146517624012053",
+      "0.00973291677287914"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000789&label=Disease",
+        "title": "HBDIS000789"
+      },
+      "Diarrhea",
+      "0.000450227494541372",
+      "0.00460249218407228"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001739&label=Disease",
+        "title": "HBDIS001739"
+      },
+      "Leydig Cell Tumor",
+      "0.00104514324882043",
+      "0.00793709998804865"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002222&label=Disease",
+        "title": "HBDIS002222"
+      },
+      "Osteomyelitis",
+      "0.00033881953223435",
+      "0.00374616569970513"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002435&label=Disease",
+        "title": "HBDIS002435"
+      },
+      "Polycystic Ovary Syndrome",
+      "3.38890884219596e-05",
+      "0.000692606940865169"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002596&label=Disease",
+        "title": "HBDIS002596"
+      },
+      "Respiratory Distress Syndrome, Adult",
+      "0.000878973888324372",
+      "0.00711945184255575"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003597&label=Disease",
+        "title": "HBDIS003597"
+      },
+      "Myocardial Ischemia",
+      "0.00119555203676136",
+      "0.00859678446942615"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006207&label=Disease",
+        "title": "HBDIS006207"
+      },
+      "Lactase Deficiency, Congenital",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008920&label=Disease",
+        "title": "HBDIS008920"
+      },
+      "Teratozoospermia",
+      "0.000932148517903579",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009848&label=Disease",
+        "title": "HBDIS009848"
+      },
+      "Osteoporotic Fractures",
+      "0.000228491440818802",
+      "0.00285103210970214"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026129&label=Disease",
+        "title": "HBDIS026129"
+      },
+      "Primary lactase deficiency",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000268&label=Disease",
+        "title": "HBDIS000268"
+      },
+      "Astrocytoma",
+      "0.000508085307015196",
+      "0.00495262288002819"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000336&label=Disease",
+        "title": "HBDIS000336"
+      },
+      "Bladder neck obstruction",
+      "6.27934534811591e-05",
+      "0.00110521563402808"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001878&label=Disease",
+        "title": "HBDIS001878"
+      },
+      "Meconium Aspiration Syndrome",
+      "0.000932148517903579",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002711&label=Disease",
+        "title": "HBDIS002711"
+      },
+      "Myocardial Diseases, Secondary",
+      "0.000243660651322733",
+      "0.00296498512013332"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002720&label=Disease",
+        "title": "HBDIS002720"
+      },
+      "Septicemia",
+      "0.000161910029724511",
+      "0.00220223521711273"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003426&label=Disease",
+        "title": "HBDIS003426"
+      },
+      "Benign Neoplasm",
+      "0.000689567505835077",
+      "0.00610235006662726"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004005&label=Disease",
+        "title": "HBDIS004005"
+      },
+      "Gastrointestinal tract vascular insufficiency",
+      "6.9401675991446e-05",
+      "0.00119266211373174"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005172&label=Disease",
+        "title": "HBDIS005172"
+      },
+      "Selenium deficiency",
+      "0.00110399226187028",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005472&label=Disease",
+        "title": "HBDIS005472"
+      },
+      "Sepsis",
+      "0.000385015265215815",
+      "0.00412429807355287"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006317&label=Disease",
+        "title": "HBDIS006317"
+      },
+      "Gitelman Syndrome",
+      "0.000424054987850686",
+      "0.00439696602767694"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS007426&label=Disease",
+        "title": "HBDIS007426"
+      },
+      "Infarction, Lacunar",
+      "0.000932148517903579",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008539&label=Disease",
+        "title": "HBDIS008539"
+      },
+      "Malignant neoplasm of vulva",
+      "0.00135497697008072",
+      "0.00930793270086705"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010490&label=Disease",
+        "title": "HBDIS010490"
+      },
+      "Hepatopulmonary Syndrome",
+      "0.000462239532149803",
+      "0.0046866629072348"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010935&label=Disease",
+        "title": "HBDIS010935"
+      },
+      "Resistant hypertensive disorder",
+      "0.00148976932268511",
+      "0.00985842690569413"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012275&label=Disease",
+        "title": "HBDIS012275"
+      },
+      "Enzyme inhibition disorder",
+      "0.000825060109873793",
+      "0.0068353503248216"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015224&label=Disease",
+        "title": "HBDIS015224"
+      },
+      "HYPERTENSION, RESISTANT TO CONVENTIONAL THERAPY",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017166&label=Disease",
+        "title": "HBDIS017166"
+      },
+      "Hyperglycemia, Postprandial",
+      "0.000878010453822427",
+      "0.0071132750356448"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018891&label=Disease",
+        "title": "HBDIS018891"
+      },
+      "Vascular insufficiency of intestine",
+      "6.9401675991446e-05",
+      "0.00119266211373174"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019308&label=Disease",
+        "title": "HBDIS019308"
+      },
+      "SPHEROCYTOSIS, TYPE 1 (disorder)",
+      "0.00148976932268511",
+      "0.00985842690569413"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020606&label=Disease",
+        "title": "HBDIS020606"
+      },
+      "CORONARY ARTERY SPASM 1, SUSCEPTIBILITY TO",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020611&label=Disease",
+        "title": "HBDIS020611"
+      },
+      "POLYCYSTIC KIDNEY DISEASE 1",
+      "0.000987860726272225",
+      "0.00763669515968851"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025568&label=Disease",
+        "title": "HBDIS025568"
+      },
+      "Childhood Astrocytoma",
+      "3.8380094054251e-05",
+      "0.00076062427719734"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027781&label=Disease",
+        "title": "HBDIS027781"
+      },
+      "Secondary malignant neoplasm of colon and/or rectum",
+      "0.000731722347956282",
+      "0.00631144677578952"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001070&label=Disease",
+        "title": "HBDIS001070"
+      },
+      "Fibromatosis",
+      "0.000229035480631118",
+      "0.00285609770800024"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003061&label=Disease",
+        "title": "HBDIS003061"
+      },
+      "Urinary tract infection",
+      "0.00148979151981413",
+      "0.00985842690569413"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004148&label=Disease",
+        "title": "HBDIS004148"
+      },
+      "Chronic progressive external ophthalmoplegia",
+      "0.000825450370575602",
+      "0.0068353503248216"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004447&label=Disease",
+        "title": "HBDIS004447"
+      },
+      "Squamous Cell Neoplasms",
+      "0.00035253991443213",
+      "0.00386066131635469"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006813&label=Disease",
+        "title": "HBDIS006813"
+      },
+      "Tuberculous ascites",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008155&label=Disease",
+        "title": "HBDIS008155"
+      },
+      "Pulmonary melioidosis",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009135&label=Disease",
+        "title": "HBDIS009135"
+      },
+      "Neurogenic pain",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS010303&label=Disease",
+        "title": "HBDIS010303"
+      },
+      "Allergy to metal",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012073&label=Disease",
+        "title": "HBDIS012073"
+      },
+      "Postinfarction",
+      "0.00148976932268511",
+      "0.00985842690569413"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013187&label=Disease",
+        "title": "HBDIS013187"
+      },
+      "Gastric Xanthoma",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019018&label=Disease",
+        "title": "HBDIS019018"
+      },
+      "Bladder hyperplasia",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS027961&label=Disease",
+        "title": "HBDIS027961"
+      },
+      "distal bile duct cancer",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS001197&label=Disease",
+        "title": "HBDIS001197"
+      },
+      "Glycosuria",
+      "0.00142160130489907",
+      "0.00952648799290544"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004755&label=Disease",
+        "title": "HBDIS004755"
+      },
+      "Hyperactive bowel sounds",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006209&label=Disease",
+        "title": "HBDIS006209"
+      },
+      "Congenital glucose-galactose malabsorption",
+      "0.000257461059969949",
+      "0.00308995465228553"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS019579&label=Disease",
+        "title": "HBDIS019579"
+      },
+      "Glucagon-like Peptide-1 measurement",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020989&label=Disease",
+        "title": "HBDIS020989"
+      },
+      "Familial renal glucosuria",
+      "5.10856412126795e-06",
+      "0.000158009632582764"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021497&label=Disease",
+        "title": "HBDIS021497"
+      },
+      "Fanconi-Bickel Syndrome",
+      "0.000153616030139145",
+      "0.00214283801606474"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004200&label=Disease",
+        "title": "HBDIS004200"
+      },
+      "Skin and subcutaneous tissue disorders",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005604&label=Disease",
+        "title": "HBDIS005604"
+      },
+      "Solar urticaria",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS008980&label=Disease",
+        "title": "HBDIS008980"
+      },
+      "Eczematous drug eruption",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS013176&label=Disease",
+        "title": "HBDIS013176"
+      },
+      "Refractory heart failure",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026748&label=Disease",
+        "title": "HBDIS026748"
+      },
+      "Stage D heart failure",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026892&label=Disease",
+        "title": "HBDIS026892"
+      },
+      "Euglycaemic diabetic ketoacidosis",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS005913&label=Disease",
+        "title": "HBDIS005913"
+      },
+      "Nevus comedonicus",
+      "0.000631066802728089",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS023190&label=Disease",
+        "title": "HBDIS023190"
+      },
+      "DNA TOPOISOMERASE I, CAMPTOTHECIN-RESISTANT",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS026942&label=Disease",
+        "title": "HBDIS026942"
+      },
+      "Chicken Lymphoma",
+      "1.70015983789961e-05",
+      "0.000406944782760809"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS004442&label=Disease",
+        "title": "HBDIS004442"
+      },
+      "Neoplasms, Neuroepithelial",
+      "0.00122637449685993",
+      "0.00876533703189049"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020008&label=Disease",
+        "title": "HBDIS020008"
+      },
+      "Treatment related leukaemia",
+      "0.00054344312878353",
+      "0.00520764915956502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS025404&label=Disease",
+        "title": "HBDIS025404"
+      },
+      "Infant Leukemia",
+      "0.000287522947090297",
+      "0.00335718779926197"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS028044&label=Disease",
+        "title": "HBDIS028044"
+      },
+      "MICROCEPHALY, GROWTH RESTRICTION, AND INCREASED SISTER CHROMATID EXCHANGE 2",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS028045&label=Disease",
+        "title": "HBDIS028045"
+      },
+      "PROGRESSIVE EXTERNAL OPHTHALMOPLEGIA WITH MITOCHONDRIAL DNA DELETIONS, AUTOSOMAL RECESSIVE 5",
+      "0.00134557543137565",
+      "0.00926145906528502"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002299&label=Target",
+        "title": "HBTAR002299"
+      },
+      "LCT",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT01926",
+          "title": "SymMap:SMTT01926"
+        },
+        {
+          "link": "http://lifecenter.sgst.cn/hit/",
+          "title": "HIT:T0594"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00719"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002738&label=Target",
+        "title": "HBTAR002738"
+      },
+      "NOS3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11278/",
+          "title": "TCMID:11278"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003295&label=Target",
+        "title": "HBTAR003295"
+      },
+      "PTGS2",
+      [
+        {
+          "link": "https://www.symmap.org/detail/SMTT02777",
+          "title": "SymMap:SMTT02777"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00094"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003754&label=Target",
+        "title": "HBTAR003754"
+      },
+      "SLC5A1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/5748/",
+          "title": "TCMID:5748"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003755&label=Target",
+        "title": "HBTAR003755"
+      },
+      "SLC5A2",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1537/",
+          "title": "TCMID:1537"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003757&label=Target",
+        "title": "HBTAR003757"
+      },
+      "SLC5A3",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2036/",
+          "title": "TCMID:2036"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003758&label=Target",
+        "title": "HBTAR003758"
+      },
+      "SLC5A4",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/7516/",
+          "title": "TCMID:7516"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004153&label=Target",
+        "title": "HBTAR004153"
+      },
+      "TOP1",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/225/",
+          "title": "TCMID:225"
+        },
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR01293"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004154&label=Target",
+        "title": "HBTAR004154"
+      },
+      "TOP2A",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/8162/",
+          "title": "TCMID:8162"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004155&label=Target",
+        "title": "HBTAR004155"
+      },
+      "TOP2B",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/11173/",
+          "title": "TCMID:11173"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004156&label=Target",
+        "title": "HBTAR004156"
+      },
+      "TOP3A",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3426/",
+          "title": "TCMID:3426"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004960&label=Target",
+        "title": "HBTAR004960"
+      },
+      "TOP3B",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/13455/",
+          "title": "TCMID:13455"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010645&label=Target",
+        "title": "HBTAR010645"
+      },
+      "SLC5A11",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/6678/",
+          "title": "TCMID:6678"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010677&label=Target",
+        "title": "HBTAR010677"
+      },
+      "TOP1MT",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/2763/",
+          "title": "TCMID:2763"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR010817&label=Target",
+        "title": "HBTAR010817"
+      },
+      "SLC5A10",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/6865/",
+          "title": "TCMID:6865"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR011546&label=Target",
+        "title": "HBTAR011546"
+      },
+      "SLC5A9",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/15980/",
+          "title": "TCMID:15980"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000233&label=Target",
+        "title": "HBTAR000233"
+      },
+      "AR",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00048"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003005&label=Target",
+        "title": "HBTAR003005"
+      },
+      "PIM1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02966"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN039580",
+      "Phlorizin",
+      "1-propanone, 1-[2-(beta-D-glucopyranosyloxy)-4,6-dihydroxyphenyl]-3-(4-hydroxyphenyl)-; ZINC03875408; C01604; 1-[2,4-dihydroxy-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]-3-(4-hydroxyphenyl)propan-1-one; KBio2_001771; 1-[2-(.beta.-D-Glucopyranosyloxy)-4,6-dihydroxyphenyl]-3-(4-hydroxyphenyl)-1-propanone; KBioSS_001771; KBioGR_002141; Spectrum_001291; 4,6-dihydroxy-2-(beta-D-glucosido)-beta-(p-hydroxyphenyl)propiophenone; 60-81-1; Spectrum4_001651; SPBio_000881; 2'-(beta-D-Glucopyranosyloxy)-4',6'-dihydroxy-3-(4-hydroxyphenyl)propiophenone; AIDS-009884; KBio2_004339; AIDS009884; 16055-86-0; AI3-19835; KBio2_006907; Spectrum3_001227; SpecPlus_000325; EINECS 200-487-1; 1-[2,4-dihydroxy-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-methylol-tetrahydropyran-2-yl]oxy-phenyl]-3-(4-hydroxyphenyl)propan-1-one; 1-[2,4-dihydroxy-6-[[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)-2-tetrahydropyranyl]oxy]phenyl]-3-(4-hydroxyphenyl)propan-1-one; 1-[2,4-dihydroxy-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-phenyl]-3-(4-hydroxyphenyl)propan-1-one; phlorizin; Phlorhizin; Phloridzosid; Phlorhizin;Phlorizin; DivK1c_006421; SDCCGMLS-0066626.P001; Phloretin 2'-glucoside; 52276-56-9; KBio1_001365; Phloretin-2'-beta-glucoside; BSPBio_002674; Phloridzin; SBB005924; NCGC00142423-01; KBio3_002174; NSC 2833; Phlorrhizen; 3,5-dihydroxy-2-[3-(4-hydroxyphenyl)propanoyl]phenyl beta-D-glucopyranoside; 1-Propanone, 1-(2-(beta-D-glucopyranosyloxy)-4,6-dihyd",
+      "C21H24O10",
+      "C1=CC(=CC=C1CCC(=O)C2=C(C=C(C=C2OC3C(C(C(C(O3)CO)O)O)O)O)O)O",
+      "436.41",
+      "2.884396766",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "112318-65-7"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT04008",
+        "title": "SMIT04008"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/33365/",
+        "title": "33365"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL001623"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/6072",
+        "title": "6072"
+      }
+    ]
+  ]
+}

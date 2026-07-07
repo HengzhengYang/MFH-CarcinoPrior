@@ -1,0 +1,216 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000373&label=Herb",
+        "title": "HERB000373"
+      },
+      "BEI DOU GEN",
+      "北豆根",
+      "Chinese Cinquefoil",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Menispermi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000415&label=Herb",
+        "title": "HERB000415"
+      },
+      "BI BA",
+      "荜茇",
+      "Piperis Longi Fructus",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000604&label=Herb",
+        "title": "HERB000604"
+      },
+      "CAO WU",
+      "草乌",
+      "Kusnezoff Monkshood Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Aconiti Kusnezoffii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000606&label=Herb",
+        "title": "HERB000606"
+      },
+      "CAO WU TOU",
+      "草乌头",
+      "Radix Aconiti",
+      "NA"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001333&label=Herb",
+        "title": "HERB001333"
+      },
+      "DONG CHONG XIA CAO",
+      "冬虫夏草",
+      "Chinese Caterpillar Fungus",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Cordyceps"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001776&label=Herb",
+        "title": "HERB001776"
+      },
+      "FU ZI",
+      "附子",
+      "Common Monkshood Daughter Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Aconiti Lateralis"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "NSC-624749; NSC624749; Neoline"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN036680",
+      "neoline",
+      "NSC-624749; NSC624749; Neoline",
+      "C24H39NO6",
+      "CCN1CC2(CCC(C34C2C(C(C31)C5(CC(C6CC4C5C6O)OC)O)OC)O)COC",
+      "437.57",
+      "13.32477855",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "466-26-2"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT00157",
+        "title": "SMIT00157"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/24582/",
+        "title": "24582"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL002426"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "2360"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/95371629",
+        "title": "95371629"
+      }
+    ]
+  ]
+}

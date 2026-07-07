@@ -1,0 +1,308 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002083&label=Herb",
+        "title": "HERB002083"
+      },
+      "HAI DAI GEN",
+      "海带根",
+      "NA",
+      "NA"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002405&label=Herb",
+        "title": "HERB002405"
+      },
+      "HU ZHANG",
+      "虎杖",
+      "rhizome of Gaint Knotweed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Polygoni cuspidati"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002540&label=Herb",
+        "title": "HERB002540"
+      },
+      "HUANG LIAN",
+      "黄连",
+      "rhizome of Chinese Goldthread",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Coptidis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003210&label=Herb",
+        "title": "HERB003210"
+      },
+      "KUN BU",
+      "昆布",
+      "Kelp or Tangle",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Thallus Lamiriae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "C00771; SCHEMBL17408801; Laminarin; 9008-22-4; Laminaran; ZINC8551225"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000674&label=Disease",
+        "title": "HBDIS000674"
+      },
+      "Coughing",
+      "0.000175783612027674",
+      "0.00234617427628486"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS011972&label=Disease",
+        "title": "HBDIS011972"
+      },
+      "Pleural mesothelioma malignant advanced",
+      "0.00110785779436603",
+      "0.00820318525073856"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS000575&label=Disease",
+        "title": "HBDIS000575"
+      },
+      "Chromoblastomycosis",
+      "0.000949629987902282",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002823&label=Disease",
+        "title": "HBDIS002823"
+      },
+      "Sporotrichosis",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS003754&label=Disease",
+        "title": "HBDIS003754"
+      },
+      "Primary pulmonary coccidioidomycosis",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS006866&label=Disease",
+        "title": "HBDIS006866"
+      },
+      "Pulmonary paracoccidioidomycosis",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS009541&label=Disease",
+        "title": "HBDIS009541"
+      },
+      "Knight's move in thought",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS014718&label=Disease",
+        "title": "HBDIS014718"
+      },
+      "Mucosal Infection",
+      "0.00079138965052807",
+      "0.00661813853269338"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS015998&label=Disease",
+        "title": "HBDIS015998"
+      },
+      "Broad nail",
+      "0.00126607306991931",
+      "0.00887230256280801"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS017650&label=Disease",
+        "title": "HBDIS017650"
+      },
+      "Candidiasis, Familial, 2",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS018885&label=Disease",
+        "title": "HBDIS018885"
+      },
+      "Malassezia folliculitis",
+      "0.00063313678224339",
+      "0.00571727057267341"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS024225&label=Disease",
+        "title": "HBDIS024225"
+      },
+      "Recurrent vulvovaginal candidiasis",
+      "0.000158302991926547",
+      "0.00216468374939071"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000150&label=Target",
+        "title": "HBTAR000150"
+      },
+      "ALOX12",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1785/",
+          "title": "TCMID:1785"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR009206&label=Target",
+        "title": "HBTAR009206"
+      },
+      "CLEC7A",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/1307/",
+          "title": "TCMID:1307"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN032589",
+      "laminarin",
+      "C00771; SCHEMBL17408801; Laminarin; 9008-22-4; Laminaran; ZINC8551225",
+      "C18H32O16",
+      "C(C1C(C(C(C(O1)O)O)OC2C(C(C(C(O2)CO)O)OC3C(C(C(C(O3)CO)O)O)O)O)O)O",
+      "504.4",
+      {
+        "link": "https://www.symmap.org/detail/SMIT01667",
+        "title": "SMIT01667"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/23109/",
+        "title": "23109"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "3081"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/46173707",
+        "title": "46173707"
+      }
+    ]
+  ]
+}

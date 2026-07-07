@@ -1,0 +1,219 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000849&label=Herb",
+        "title": "HERB000849"
+      },
+      "CHUAN BEI MU",
+      "川贝母",
+      "Bulb of Tendrilleaf Fritillary",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Bulbus Fritillariae Cirrhosae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001104&label=Herb",
+        "title": "HERB001104"
+      },
+      "DA SUAN",
+      "大蒜",
+      "Garlic",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Bulbus Allii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003002&label=Herb",
+        "title": "HERB003002"
+      },
+      "JIU CAI",
+      "韭菜",
+      "Tuber Onion",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Allium tuberosum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003851&label=Herb",
+        "title": "HERB003851"
+      },
+      "MEI HUA",
+      "梅花",
+      "Plum Flower",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Mume"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004433&label=Herb",
+        "title": "HERB004433"
+      },
+      "QI LIN CAI",
+      "麒麟菜",
+      "Muriculate Eucheuma Frond",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Eucheuma muricatum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004692&label=Herb",
+        "title": "HERB004692"
+      },
+      "ROU CONG RONG",
+      "肉苁蓉",
+      "Desertliving Cistanche",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Cistanches"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006377&label=Herb",
+        "title": "HERB006377"
+      },
+      "YANG CONG",
+      "洋葱",
+      "Common Onion",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Allium cepa"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "4,6-Dimethyldodecane"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN010077",
+      "4,6-dimethyl dodecane",
+      "4,6-Dimethyldodecane",
+      "C14H30",
+      "CCCCCCC(C)CC(C)CCC",
+      "198.39",
+      {
+        "link": "https://www.symmap.org/detail/SMIT15165",
+        "title": "SMIT15165"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/6342/",
+        "title": "6342"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/545627",
+        "title": "545627"
+      }
+    ]
+  ]
+}

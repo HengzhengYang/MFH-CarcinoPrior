@@ -1,0 +1,443 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000418&label=Herb",
+        "title": "HERB000418"
+      },
+      "BI CHENG QIE",
+      "荜澄茄",
+      "Litseae Fructus",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000472&label=Herb",
+        "title": "HERB000472"
+      },
+      "BIAN XU",
+      "萹蓄",
+      "all-grass of common knotgrass",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Polygoni Avicularis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000483&label=Herb",
+        "title": "HERB000483"
+      },
+      "BI CHENG QIE",
+      "荜澄茄",
+      "NA",
+      "NA"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000638&label=Herb",
+        "title": "HERB000638"
+      },
+      "CHAI HU",
+      "柴胡",
+      "root of Chinese Thorowax",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Bupleuri"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004242&label=Herb",
+        "title": "HERB004242"
+      },
+      "NV ZHEN ZI",
+      "女贞子",
+      "fruit of Glossy privet",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Ligustri lucidi"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004769&label=Herb",
+        "title": "HERB004769"
+      },
+      "SAN JIAO MA DOU LING",
+      "三角马兜铃",
+      "Triangular Dutchmanspipe",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Aristolochia triangularis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005017&label=Herb",
+        "title": "HERB005017"
+      },
+      "SHENG JIANG",
+      "生姜",
+      "Fresh Ginger",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Zingiberis Recens"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "18423-69-3; (-)-Cubebin; AI3-62265; (3R,4R)-3,4-BIS(2H-1,3-BENZODIOXOL-5-YLMETHYL)OXOLAN-2-OL; SCHEMBL12857446; BG01069891; 1242843-00-0; 2-Furanol, 3,4-bis(1,3-benzodioxol-5-ylmethyl)tetrahydro-; Tetrahydro-3,4-dipiperonylfuran-2-ol; (2S,3R,4R)-3,4-bis(1,3-benzodioxol-5-ylmethyl)tetrahydrofuran-2-ol; Cubebine; AKOS000276832; 2-Furanol, 3,4-bis(1,3-benzodioxol-5-ylmethyl)tetrahydro-, (2S,3R,4R)-; (2S,3R,4R)-3,4-bis(1,3-benzodioxol-5-ylmethyl)oxolan-2-ol; rac-Cubebin; AIDS-002469; (2S,3R,4R)-3,4-bis(1,3-benzodioxol-5-ylmethyl)-2-tetrahydrofuranol; .beta.-Cubebin; cubebin; C10549; CHEMBL3752996; EINECS 242-300-6; AIDS002469; 2-Furanol, tetrahydro-3,4-dipiperonyl-"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS020102&label=Disease",
+        "title": "HBDIS020102"
+      },
+      "Neurogenic bladder dysfunction",
+      "0.00142416309588776",
+      "0.00952648799290544"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001096&label=Target",
+        "title": "HBTAR001096"
+      },
+      "DPP4",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00332"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001710&label=Target",
+        "title": "HBTAR001710"
+      },
+      "GSK3B",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00422"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000549&label=Target",
+        "title": "HBTAR000549"
+      },
+      "CCNA2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR03025"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000874&label=Target",
+        "title": "HBTAR000874"
+      },
+      "MAPK14",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00402"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000233&label=Target",
+        "title": "HBTAR000233"
+      },
+      "AR",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00048"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003295&label=Target",
+        "title": "HBTAR003295"
+      },
+      "PTGS2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00094"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003223&label=Target",
+        "title": "HBTAR003223"
+      },
+      "PRSS1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02928"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003005&label=Target",
+        "title": "HBTAR003005"
+      },
+      "PIM1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR02966"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001278&label=Target",
+        "title": "HBTAR001278"
+      },
+      "ESR2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00307"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000634&label=Target",
+        "title": "HBTAR000634"
+      },
+      "CDK2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00482"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000686&label=Target",
+        "title": "HBTAR000686"
+      },
+      "CHEK1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00647"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003112&label=Target",
+        "title": "HBTAR003112"
+      },
+      "PPARG",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00078"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR002737&label=Target",
+        "title": "HBTAR002737"
+      },
+      "NOS2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00003"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000099&label=Target",
+        "title": "HBTAR000099"
+      },
+      "ADRB2",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00261"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001277&label=Target",
+        "title": "HBTAR001277"
+      },
+      "ESR1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00046"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003294&label=Target",
+        "title": "HBTAR003294"
+      },
+      "PTGS1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00006"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN021823",
+      "Cubebin",
+      "18423-69-3; (-)-Cubebin; AI3-62265; (3R,4R)-3,4-BIS(2H-1,3-BENZODIOXOL-5-YLMETHYL)OXOLAN-2-OL; SCHEMBL12857446; BG01069891; 1242843-00-0; 2-Furanol, 3,4-bis(1,3-benzodioxol-5-ylmethyl)tetrahydro-; Tetrahydro-3,4-dipiperonylfuran-2-ol; (2S,3R,4R)-3,4-bis(1,3-benzodioxol-5-ylmethyl)tetrahydrofuran-2-ol; Cubebine; AKOS000276832; 2-Furanol, 3,4-bis(1,3-benzodioxol-5-ylmethyl)tetrahydro-, (2S,3R,4R)-; (2S,3R,4R)-3,4-bis(1,3-benzodioxol-5-ylmethyl)oxolan-2-ol; rac-Cubebin; AIDS-002469; (2S,3R,4R)-3,4-bis(1,3-benzodioxol-5-ylmethyl)-2-tetrahydrofuranol; .beta.-Cubebin; cubebin; C10549; CHEMBL3752996; EINECS 242-300-6; AIDS002469; 2-Furanol, tetrahydro-3,4-dipiperonyl-",
+      "C20H20O6",
+      "C1C(C(C(O1)O)CC2=CC3=C(C=C2)OCO3)CC4=CC5=C(C=C4)OCO5",
+      "356.37",
+      "57.1281289",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "18423-69-3"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT13874",
+        "title": "SMIT13874"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/4305/",
+        "title": "4305"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL013187"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/117443",
+        "title": "117443"
+      }
+    ]
+  ]
+}

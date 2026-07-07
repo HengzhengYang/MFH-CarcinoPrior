@@ -1,0 +1,330 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000246&label=Herb",
+        "title": "HERB000246"
+      },
+      "BAI MAO TENG",
+      "白毛藤",
+      "Herba Solani Lyrati",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000267&label=Herb",
+        "title": "HERB000267"
+      },
+      "BAI SHAO",
+      "白芍",
+      "White peony root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Paeoniae Alba"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000822&label=Herb",
+        "title": "HERB000822"
+      },
+      "CHONG WEI ZI",
+      "茺蔚子",
+      "Motherwort Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Leonuri"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001069&label=Herb",
+        "title": "HERB001069"
+      },
+      "DA HUANG",
+      "大黄",
+      "root and rhziome of Sorrel Rhubarb",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix et Rhizoma Rhei"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001271&label=Herb",
+        "title": "HERB001271"
+      },
+      "DI YU",
+      "地榆",
+      "Root of Garden Burnet",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Sanguisorbae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003840&label=Herb",
+        "title": "HERB003840"
+      },
+      "MEI GUI HUA",
+      "玫瑰花",
+      "Rose Flower",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Rosae Rugosae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004129&label=Herb",
+        "title": "HERB004129"
+      },
+      "NAO YANG HUA",
+      "闹羊花",
+      "Yellow Azalea Flower",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Rhododendri Mollis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004950&label=Herb",
+        "title": "HERB004950"
+      },
+      "SHAN ZHU YU",
+      "山茱萸",
+      "Asiatic Cornelian Cherry Fruit",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Corni"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005395&label=Herb",
+        "title": "HERB005395"
+      },
+      "TANG GU TE DA HUANG",
+      "唐古特大黄",
+      "Tangut Rhubarb",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rheum tanguticum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006938&label=Herb",
+        "title": "HERB006938"
+      },
+      "ZHANG YE DA HUANG",
+      "掌叶大黄",
+      "Sorrel Rhubarb",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rheum palmatum"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "1,2,6-tri-o-galloyl-β-d-glucose"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS012380&label=Disease",
+        "title": "HBDIS012380"
+      },
+      "Neurofibromatosis 3",
+      "0.00094959240707485",
+      "0.00741290816385172"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS021748&label=Disease",
+        "title": "HBDIS021748"
+      },
+      "COENZYME Q10 DEFICIENCY, PRIMARY, 6",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBDIS002955&label=Disease",
+        "title": "HBDIS002955"
+      },
+      "Tinea corporis (disorder)",
+      "0.000474871383048243",
+      "0.00470884528078264"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR003889&label=Target",
+        "title": "HBTAR003889"
+      },
+      "SQLE",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/908/",
+          "title": "TCMID:908"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR004744&label=Target",
+        "title": "HBTAR004744"
+      },
+      "KMO",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/3975/",
+          "title": "TCMID:3975"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR007473&label=Target",
+        "title": "HBTAR007473"
+      },
+      "COQ6",
+      [
+        {
+          "link": "http://119.3.41.228:8000/tcmid/target/4726/",
+          "title": "TCMID:4726"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id"
+    ],
+    [
+      "HBIN000689",
+      "1,2,6-tri-O-galloyl-β-D-glucose",
+      "1,2,6-tri-o-galloyl-β-d-glucose",
+      "C1=C(C=C(C(=C1O)O)O)C(=O)OCC2C(C(C(C(O2)OC(=O)C3=CC(=C(C(=C3)O)O)O)OC(=O)C4=CC(=C(C(=C4)O)O)O)O)O",
+      "470.76",
+      "17.72637775",
+      {
+        "link": "https://www.symmap.org/detail/SMIT07550",
+        "title": "SMIT07550"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/21626/",
+        "title": "21626"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL005851"
+      }
+    ]
+  ]
+}

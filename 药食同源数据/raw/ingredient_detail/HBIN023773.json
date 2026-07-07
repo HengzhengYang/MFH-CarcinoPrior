@@ -1,0 +1,164 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000182&label=Herb",
+        "title": "HERB000182"
+      },
+      "BAI FU ZI",
+      "白附子",
+      "rhizome of Giant Typhonium",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Typhonii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000186&label=Herb",
+        "title": "HERB000186"
+      },
+      "BAI GUO",
+      "白果",
+      "Ginkgo seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Ginkgo"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000237&label=Herb",
+        "title": "HERB000237"
+      },
+      "BAI LIAN",
+      "白蔹",
+      "root of Japanese Ampelopsis ",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Ampelopsis"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "AC1NUSQ2; digallate; Digalloyl ester; CHEBI:17866; 3,4-dihydroxy-5-(3,4,5-trihydroxybenzoyloxy)benzoate; 3,4-dihydroxy-5-(3,4,5-trihydroxybenzoyl)oxybenzoate"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN023773",
+      "digallic acid",
+      "AC1NUSQ2; digallate; Digalloyl ester; CHEBI:17866; 3,4-dihydroxy-5-(3,4,5-trihydroxybenzoyloxy)benzoate; 3,4-dihydroxy-5-(3,4,5-trihydroxybenzoyl)oxybenzoate",
+      "C14H9O9-",
+      "C1=C(C=C(C(=C1O)[O-])O)C(=O)OC2=CC(=CC(=C2O)O)C(=O)O",
+      "321.21",
+      {
+        "link": "https://www.symmap.org/detail/SMIT02215",
+        "title": "SMIT02215"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/24624/",
+        "title": "24624"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "4921"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/54711004",
+        "title": "54711004"
+      }
+    ]
+  ]
+}

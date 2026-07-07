@@ -1,0 +1,149 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002189&label=Herb",
+        "title": "HERB002189"
+      },
+      "HE TAO REN",
+      "核桃仁",
+      "English Walnut Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Juglandis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002840&label=Herb",
+        "title": "HERB002840"
+      },
+      "JIANG HUANG",
+      "姜黄",
+      "rhizome of Common Turmeric",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Curcumae longae"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "Hexanes, Environmental Grade; CAS-107-83-5; 32412-EP2292619A1; MFCD02179311; 2-Methyl pentane; KB-173815; ANW-15852; AI3-28851; HSDB 1125; UNII-49IB0U6MLD; 32368-EP2305674A1; MolPort-003-932-989; I14-94579; UNII-RQA19361ZA component AFABGHUZZDYHJO-UHFFFAOYSA-N; CTK0H5579; 18971-87-4; 49IB0U6MLD; 32368-EP2301929A1; 2-Methylpentane, analytical standard; 2-METHYLPENTANE; Pentane, methyl-; 32368-EP2292619A1; 32412-EP2269986A1; (CH3)2CH(CH2)2CH3; Methyl pentane; 32368-EP2281815A1; ACM43133955; 43133-95-5; I14-62403; LTBB004353; NSC-66496; 32368-EP2301933A1; 32412-EP2292228A1; DTXSID4029143; 32368-EP2292615A1; 32368-EP2305671A1; 77844-EP2308866A1; 32412-EP2272834A1; 32368-EP2301928A1; 32368-EP2272842A1; 92813-EP2380568A1; AFABGHUZZDYHJO-UHFFFAOYSA-N; 32412-EP2308840A1; NCGC00248641-01; 2-Methylpentan; CHEMBL30909; 2-Methylpentane, >=95.0% (GC); ZINC1693924; NSC 66496; 92813-EP2305649A1; DSSTox_GSID_29143; 32412-EP2301935A1; AKOS015907782; 32368-EP2305652A2; DSSTox_CID_9143; i-hexane; 32412-EP2292615A1; 1,1-Dimethylbutane; InChI=1/C6H14/c1-4-5-6(2)3/h6H,4-5H2,1-3H; WLN: 3Y1 & 1; AC1L1PSI; 2-Methyl-pentane; LS-101732; 32412-EP2301928A1; NCGC00258024-01; 32412-EP2311827A1; CJ-06564; 32368-EP2305659A1; Isohexanes (mixture of isomeric branched chain hexanes); Tox21_200470; RTR-001868; 32368-EP2305640A2; 2-Methylpentane, 5.0%; 32412-EP2301929A1; 2-methylpentane; M0382; iso-Hexan; AN-22488; CHEBI:88374; EINECS 203-523-4; 32412-EP2292622A1; Isohexane; 32412-EP2301933A1; 32368-EP2311827A1; "
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN006086",
+      "2-methyl pentane",
+      "Hexanes, Environmental Grade; CAS-107-83-5; 32412-EP2292619A1; MFCD02179311; 2-Methyl pentane; KB-173815; ANW-15852; AI3-28851; HSDB 1125; UNII-49IB0U6MLD; 32368-EP2305674A1; MolPort-003-932-989; I14-94579; UNII-RQA19361ZA component AFABGHUZZDYHJO-UHFFFAOYSA-N; CTK0H5579; 18971-87-4; 49IB0U6MLD; 32368-EP2301929A1; 2-Methylpentane, analytical standard; 2-METHYLPENTANE; Pentane, methyl-; 32368-EP2292619A1; 32412-EP2269986A1; (CH3)2CH(CH2)2CH3; Methyl pentane; 32368-EP2281815A1; ACM43133955; 43133-95-5; I14-62403; LTBB004353; NSC-66496; 32368-EP2301933A1; 32412-EP2292228A1; DTXSID4029143; 32368-EP2292615A1; 32368-EP2305671A1; 77844-EP2308866A1; 32412-EP2272834A1; 32368-EP2301928A1; 32368-EP2272842A1; 92813-EP2380568A1; AFABGHUZZDYHJO-UHFFFAOYSA-N; 32412-EP2308840A1; NCGC00248641-01; 2-Methylpentan; CHEMBL30909; 2-Methylpentane, >=95.0% (GC); ZINC1693924; NSC 66496; 92813-EP2305649A1; DSSTox_GSID_29143; 32412-EP2301935A1; AKOS015907782; 32368-EP2305652A2; DSSTox_CID_9143; i-hexane; 32412-EP2292615A1; 1,1-Dimethylbutane; InChI=1/C6H14/c1-4-5-6(2)3/h6H,4-5H2,1-3H; WLN: 3Y1 & 1; AC1L1PSI; 2-Methyl-pentane; LS-101732; 32412-EP2301928A1; NCGC00258024-01; 32412-EP2311827A1; CJ-06564; 32368-EP2305659A1; Isohexanes (mixture of isomeric branched chain hexanes); Tox21_200470; RTR-001868; 32368-EP2305640A2; 2-Methylpentane, 5.0%; 32412-EP2301929A1; 2-methylpentane; M0382; iso-Hexan; AN-22488; CHEBI:88374; EINECS 203-523-4; 32412-EP2292622A1; Isohexane; 32412-EP2301933A1; 32368-EP2311827A1; ",
+      "C6H14",
+      "CCCC(C)C",
+      "86.18",
+      {
+        "link": "https://www.symmap.org/detail/SMIT18501",
+        "title": "SMIT18501"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/24031/",
+        "title": "24031"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "8554"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/7892",
+        "title": "7892"
+      }
+    ]
+  ]
+}

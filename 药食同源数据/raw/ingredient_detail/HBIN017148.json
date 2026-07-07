@@ -1,0 +1,232 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000101&label=Herb",
+        "title": "HERB000101"
+      },
+      "AO DI LI LIN MAO JUE",
+      "奥地利鳞毛蕨",
+      "Broad Buckler-fern",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Dryopteris austriaca"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001903&label=Herb",
+        "title": "HERB001903"
+      },
+      "GOU JI",
+      "狗脊",
+      "Cochinchina Cudrania",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Cudrania cochinchinensis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001985&label=Herb",
+        "title": "HERB001985"
+      },
+      "GUAN ZHONG",
+      "贯众",
+      "root of Chinese Angelica",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Dryopteris crassirhizomae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003070&label=Herb",
+        "title": "HERB003070"
+      },
+      "JUE MING ZI",
+      "决明子",
+      "Cassia Seed",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Semen Cassiae"
+      },
+      "Semen Sene"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003718&label=Herb",
+        "title": "HERB003718"
+      },
+      "MAIN MA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003960&label=Herb",
+        "title": "HERB003960"
+      },
+      "MIAN MA",
+      "棉麻",
+      "Male-fern",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Dryopteris filix- mas"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005425&label=Herb",
+        "title": "HERB005425"
+      },
+      "TI GAI JUE",
+      "蹄盖蕨",
+      "Painted Fern",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Athyrium filix - femina"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "2',6'-Dihydroxy-4'-methoxy-3'-methylbutyrophenone; 519-40-4; 1-(2,6-dihydroxy-4-methoxy-3-methyl-phenyl)butan-1-one; Butyrophenone, 2',6'-dihydroxy-4'-methoxy-3'-methyl-; aspidinol; Aspidinol B; C10673; 1-(2,6-Dihydroxy-4-methoxy-3-methylphenyl)-1-butanone; 1-(2,6-dihydroxy-4-methoxy-3-methylphenyl)butan-1-one"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN017148",
+      "Aspidinol",
+      "2',6'-Dihydroxy-4'-methoxy-3'-methylbutyrophenone; 519-40-4; 1-(2,6-dihydroxy-4-methoxy-3-methyl-phenyl)butan-1-one; Butyrophenone, 2',6'-dihydroxy-4'-methoxy-3'-methyl-; aspidinol; Aspidinol B; C10673; 1-(2,6-Dihydroxy-4-methoxy-3-methylphenyl)-1-butanone; 1-(2,6-dihydroxy-4-methoxy-3-methylphenyl)butan-1-one",
+      "C12H16O4",
+      "CCCC(=O)C1=C(C(=C(C=C1O)OC)C)O",
+      "224.25",
+      "4.882654563",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "519-40-4"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT04820",
+        "title": "SMIT04820"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/1897/",
+        "title": "1897"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL002608"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "6561"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/122841",
+        "title": "122841"
+      }
+    ]
+  ]
+}

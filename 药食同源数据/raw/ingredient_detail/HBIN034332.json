@@ -1,0 +1,226 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001502&label=Herb",
+        "title": "HERB001502"
+      },
+      "DUO HUA CAI DOU",
+      "多花菜豆",
+      "Scarlet Runner Bean",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Phaseolus coccineus"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002135&label=Herb",
+        "title": "HERB002135"
+      },
+      "HAN QIN",
+      "旱芹",
+      "Wildcelery",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Apium graveolens"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002856&label=Herb",
+        "title": "HERB002856"
+      },
+      "JIAO GU LAN",
+      "绞股蓝",
+      "Gynostemmae Pentaphylli Herba",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003053&label=Herb",
+        "title": "HERB003053"
+      },
+      "JU YE",
+      "橘叶",
+      "tangerine leaf",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "folium citri tangerie"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003715&label=Herb",
+        "title": "HERB003715"
+      },
+      "MAI YA",
+      "麦芽",
+      "Germited Barley",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Hordei Germitus"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005429&label=Herb",
+        "title": "HERB005429"
+      },
+      "TIAN CAI",
+      "甜菜",
+      "Common Beet",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Beta vulgaris"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006335&label=Herb",
+        "title": "HERB006335"
+      },
+      "YA ZHI CAO",
+      "鸭跖草",
+      "all-grass of Common Dayflower",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Commelie"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "Delphinidin 3-(6''-(E)-p-coumaroylglucoside)-5-(6''-malonylglucoside); malonyl awobanin; Malonylawobanin; LMPK12010299"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN034332",
+      "malonylawobanin",
+      "Delphinidin 3-(6''-(E)-p-coumaroylglucoside)-5-(6''-malonylglucoside); malonyl awobanin; Malonylawobanin; LMPK12010299",
+      "C39H39O22+",
+      "C1=CC(=CC=C1C=CC(=O)OCC2C(C(C(C(O2)OC3=C([O+]=C4C=C(C=C(C4=C3)OC5C(C(C(C(O5)COC(=O)CC(=O)O)O)O)O)O)C6=CC(=C(C(=C6)O)O)O)O)O)O)O",
+      "859.7",
+      "6.634069241",
+      {
+        "link": "https://www.symmap.org/detail/SMIT00660",
+        "title": "SMIT00660"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/13433/",
+        "title": "13433"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL006842"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/5281258",
+        "title": "5281258"
+      }
+    ]
+  ]
+}

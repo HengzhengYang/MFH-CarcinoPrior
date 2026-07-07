@@ -1,0 +1,189 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001410&label=Herb",
+        "title": "HERB001410"
+      },
+      "DU ZHONG YE",
+      "杜仲叶",
+      "Eucommiae Folium",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001713&label=Herb",
+        "title": "HERB001713"
+      },
+      "FENG WEI CAO",
+      "凤尾草",
+      "all - grass of Chinese Brake",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Herba Pteridis multifidae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001924&label=Herb",
+        "title": "HERB001924"
+      },
+      "GOU TENG",
+      "钩藤",
+      "Gambir Plant",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Ramulus Uncariae cum Uncis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002420&label=Herb",
+        "title": "HERB002420"
+      },
+      "HUA GOU TENG",
+      "华钩藤",
+      "Chinese Gambirplant",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Uncaria sinensis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003067&label=Herb",
+        "title": "HERB003067"
+      },
+      "JUE",
+      "NA",
+      "Eastern Bracken Fern",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Pteridium aquilinum var. latiusculum"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "AC1L54AR; 35910-15-7; Pteroside A; (S)-6-(2-(beta-D-Glucopyranosyloxy)ethyl)-2,3-dihydro-3-hydroxy-2,5,7-trimethyl-1H-inden-1-one; (2S)-2-(hydroxymethyl)-2,5,7-trimethyl-6-[2-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyethyl]-3H-inden-1-one; 1H-Inden-1-one, 6-(2-(beta-D-glucopyranosyloxy)ethyl)-2,3-dihydro-3-hydroxy-2,5,7-trimethyl-, (S)-"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN041173",
+      "pteroside a",
+      "AC1L54AR; 35910-15-7; Pteroside A; (S)-6-(2-(beta-D-Glucopyranosyloxy)ethyl)-2,3-dihydro-3-hydroxy-2,5,7-trimethyl-1H-inden-1-one; (2S)-2-(hydroxymethyl)-2,5,7-trimethyl-6-[2-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyethyl]-3H-inden-1-one; 1H-Inden-1-one, 6-(2-(beta-D-glucopyranosyloxy)ethyl)-2,3-dihydro-3-hydroxy-2,5,7-trimethyl-, (S)-",
+      "C21H30O8",
+      "CC1=CC2=C(C(=C1CCOC3C(C(C(C(O3)CO)O)O)O)C)C(=O)C(C2)(C)CO",
+      "410.5",
+      {
+        "link": "https://www.symmap.org/detail/SMIT17363",
+        "title": "SMIT17363"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/18102/",
+        "title": "18102"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/169727",
+        "title": "169727"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000879&label=Herb",
+        "title": "HERB000879"
+      },
+      "CHUAN SHE GAN",
+      "川射干",
+      "Iridis Tectori Rhizoma",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001210&label=Herb",
+        "title": "HERB001210"
+      },
+      "DANG GUI",
+      "当归",
+      "root of Chinese Angelica",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Angelicae sinensis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006587&label=Herb",
+        "title": "HERB006587"
+      },
+      "YIN CHEN HAO",
+      "茵陈蒿",
+      "Capillary Wormwood Equivalent plant: Artemisia scoparia",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Artemisia capillaris"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "SC-47139; CJ-06479; NCGC00256558-01; 4-Hydroxyphenylethane; BENZENE,1-ETHYL,4-HYDROXY; ST24029082; UNII-AGG7E6G0ZC; 4-Hydroxyethylbenzene; SCHEMBL28713; Hydroxyphenylethane, p-; ANW-18096; RP19474; para-Ethylphenol; 4-Ethylphenol, PESTANAL(R), analytical standard; DTXSID4021977; NSC-62012; BRN 1363317; bmse000681; FEMA No. 3156; AKOS000120205; Tox21_302986; Jsp001552; ST50331802; NCGC00249062-01; p-ETHYLPHENOL, PRACT; DSSTox_GSID_21977; 4-06-00-03020 (Beilstein Handbook Reference); CHEBI:49584; 4-Ethylphenol, >=98%, FG; 123-07-9; InChI=1/C8H10O/c1-2-7-3-5-8(9)6-4-7/h3-6,9H,2H2,1H; CHEMBL108475; 4-ethyl phenol; Phenol, 4-ethyl-; PubChem3874; Z1262254269; SBB057513; KSC238K7P; Tox21_201533; 4-ETHYLPHENOL; HSDB 5598; MCULE-7755465629; AGG7E6G0ZC; ACMC-1BV6Q; RTR-003657; 4-ethyl-phenol; AJ-30079; TR-003657; MFCD00002393; L717; E0159; 1326305-80-9; AN-22901; FT-0618420; Phenol, 3(or 4)-ethyl-; AI3-26063; 1-Hydroxy-4-ethylbenzene; LS-104619; NCGC00259083-01; TRA0088896; AK114308; 2ra6; 19277-91-9 (hydrochloride salt); 4-ethyl-phenyl alcohol; 4-Ethylphenol 10 microg/mL in Acetonitrile; NSC62012; ZINC1690956; C13637; to_000047; CJ-28140; DSSTox_CID_1977; NE10189; 4-Ethylphenol, >=97.0% (GC); MolPort-001-783-219; F1908-0166; p-Ethylphenol; SGCUT00257; Phenol, p-ethyl-; CAS-123-07-9; Paraethylphenol; TL806331; 29471-88-3; W-108417; HXDOZKJGKXYMEW-UHFFFAOYSA-N; 1-Ethyl-4-hydroxybenzene; p-ethyl phenol; EINECS 204-598-6; NSC 62012; AC1L1L7V; 4-ethyl- phenol; KB-38602; DSSTox_RID_76438; 4"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN039362",
+      "p-ethylphenol",
+      "SC-47139; CJ-06479; NCGC00256558-01; 4-Hydroxyphenylethane; BENZENE,1-ETHYL,4-HYDROXY; ST24029082; UNII-AGG7E6G0ZC; 4-Hydroxyethylbenzene; SCHEMBL28713; Hydroxyphenylethane, p-; ANW-18096; RP19474; para-Ethylphenol; 4-Ethylphenol, PESTANAL(R), analytical standard; DTXSID4021977; NSC-62012; BRN 1363317; bmse000681; FEMA No. 3156; AKOS000120205; Tox21_302986; Jsp001552; ST50331802; NCGC00249062-01; p-ETHYLPHENOL, PRACT; DSSTox_GSID_21977; 4-06-00-03020 (Beilstein Handbook Reference); CHEBI:49584; 4-Ethylphenol, >=98%, FG; 123-07-9; InChI=1/C8H10O/c1-2-7-3-5-8(9)6-4-7/h3-6,9H,2H2,1H; CHEMBL108475; 4-ethyl phenol; Phenol, 4-ethyl-; PubChem3874; Z1262254269; SBB057513; KSC238K7P; Tox21_201533; 4-ETHYLPHENOL; HSDB 5598; MCULE-7755465629; AGG7E6G0ZC; ACMC-1BV6Q; RTR-003657; 4-ethyl-phenol; AJ-30079; TR-003657; MFCD00002393; L717; E0159; 1326305-80-9; AN-22901; FT-0618420; Phenol, 3(or 4)-ethyl-; AI3-26063; 1-Hydroxy-4-ethylbenzene; LS-104619; NCGC00259083-01; TRA0088896; AK114308; 2ra6; 19277-91-9 (hydrochloride salt); 4-ethyl-phenyl alcohol; 4-Ethylphenol 10 microg/mL in Acetonitrile; NSC62012; ZINC1690956; C13637; to_000047; CJ-28140; DSSTox_CID_1977; NE10189; 4-Ethylphenol, >=97.0% (GC); MolPort-001-783-219; F1908-0166; p-Ethylphenol; SGCUT00257; Phenol, p-ethyl-; CAS-123-07-9; Paraethylphenol; TL806331; 29471-88-3; W-108417; HXDOZKJGKXYMEW-UHFFFAOYSA-N; 1-Ethyl-4-hydroxybenzene; p-ethyl phenol; EINECS 204-598-6; NSC 62012; AC1L1L7V; 4-ethyl- phenol; KB-38602; DSSTox_RID_76438; 4",
+      "C8H10O",
+      "CCC1=CC=C(C=C1)O",
+      "122.16",
+      {
+        "link": "https://www.symmap.org/detail/SMIT15340",
+        "title": "SMIT15340"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/7472/",
+        "title": "7472"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/31242",
+        "title": "31242"
+      }
+    ]
+  ]
+}

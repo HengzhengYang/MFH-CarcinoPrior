@@ -1,0 +1,219 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002540&label=Herb",
+        "title": "HERB002540"
+      },
+      "HUANG LIAN",
+      "黄连",
+      "rhizome of Chinese Goldthread",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Rhizoma Coptidis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003210&label=Herb",
+        "title": "HERB003210"
+      },
+      "KUN BU",
+      "昆布",
+      "Kelp or Tangle",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Thallus Lamiriae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB003464&label=Herb",
+        "title": "HERB003464"
+      },
+      "LIU SU SHI HU",
+      "流苏石斛",
+      "Eyeshaped Dendrobium",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Dendrobium fimbriatum var. oculatum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004433&label=Herb",
+        "title": "HERB004433"
+      },
+      "QI LIN CAI",
+      "麒麟菜",
+      "Muriculate Eucheuma Frond",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Eucheuma muricatum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005121&label=Herb",
+        "title": "HERB005121"
+      },
+      "SHU HUA SHI HU",
+      "束花石斛",
+      "Goldenflower Dendrobium",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Dendrobium chrysanthum"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005276&label=Herb",
+        "title": "HERB005276"
+      },
+      "SPLACHNUM MNIOIDES] (SPALCHNACEAE)",
+      "并齿藓",
+      "BING CHI XIAN",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Tetraplodon mnioides [Syn. Tetraplodon bryoides"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005820&label=Herb",
+        "title": "HERB005820"
+      },
+      "XI GUA",
+      "西瓜",
+      "Watermelon",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Citrullus vulgaris [Syn. Citrullus lanatus ]"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "LS-98075; 2-Octen-1-al; 2-trans-octenal; AN-21697; 2548-87-0; FEMA No. 3215; LVBXEMGDVWVTGY-VOTSOKGWSA-N; ZINC2013450; CJ-31208; AC1Q2VCA; trans-2-OCTEN-1-AL FCC; trans-2-Octenal, technical grade, 94%; oct-(e)-2-enal; trans-2-Octen-1-al; AC1NR20Z; AKOS015915261; UNII-2MU4QO235A component LVBXEMGDVWVTGY-VOTSOKGWSA-N; (2E)-2-Octenal #; trans-2-Octenal, >=95%, stabilized, FG; CHEMBL448058; 25447-69-2; oct-2-en-1-al; Oct-2(E)-enal; SCHEMBL159708; Octenal (mixed isomers); O0176; trans-2-Octenal; (E)-2-Octen-1-al; (2E)-octenal; (E)-Oct-2-enal; RTR-011637; InChI=1/C8H14O/c1-2-3-4-5-6-7-8-9/h6-8H,2-5H2,1H3/b7-6+; 2-(E)-octenal; OCTENAL; AB1005980; trans-2-Octenal, analytical reference material; 2-Octenal, (2E)-; 548O870; CHEBI:61725; (E)-2-Octenal; 2-OCTENAL; UNII-55N91D7775; CHEBI:61748; 2363-89-5; LMFA06000029; AN-19916; trans-2-octen-1-al FCC, No Antioxidant; C21138; A1-01903; octene-1-oxide; MFCD00007011; EINECS 219-115-4; AI3-36269; SBB068337; TR-011637; KB-62982; (2E)oct-2-enal; trans-oct-2-enal; EINECS 219-833-8; 55N91D7775; I14-6240; LVBXEMGDVWVTGY-VOTSOKGWSA-; CCRIS 3418; (2E)-oct-2-enal; A817874; LS-98074; 2-Octenal, (E)-; trans-octen-2-al; 2-Octenel; J-016016"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN024651",
+      "(e)-2-octenal",
+      "LS-98075; 2-Octen-1-al; 2-trans-octenal; AN-21697; 2548-87-0; FEMA No. 3215; LVBXEMGDVWVTGY-VOTSOKGWSA-N; ZINC2013450; CJ-31208; AC1Q2VCA; trans-2-OCTEN-1-AL FCC; trans-2-Octenal, technical grade, 94%; oct-(e)-2-enal; trans-2-Octen-1-al; AC1NR20Z; AKOS015915261; UNII-2MU4QO235A component LVBXEMGDVWVTGY-VOTSOKGWSA-N; (2E)-2-Octenal #; trans-2-Octenal, >=95%, stabilized, FG; CHEMBL448058; 25447-69-2; oct-2-en-1-al; Oct-2(E)-enal; SCHEMBL159708; Octenal (mixed isomers); O0176; trans-2-Octenal; (E)-2-Octen-1-al; (2E)-octenal; (E)-Oct-2-enal; RTR-011637; InChI=1/C8H14O/c1-2-3-4-5-6-7-8-9/h6-8H,2-5H2,1H3/b7-6+; 2-(E)-octenal; OCTENAL; AB1005980; trans-2-Octenal, analytical reference material; 2-Octenal, (2E)-; 548O870; CHEBI:61725; (E)-2-Octenal; 2-OCTENAL; UNII-55N91D7775; CHEBI:61748; 2363-89-5; LMFA06000029; AN-19916; trans-2-octen-1-al FCC, No Antioxidant; C21138; A1-01903; octene-1-oxide; MFCD00007011; EINECS 219-115-4; AI3-36269; SBB068337; TR-011637; KB-62982; (2E)oct-2-enal; trans-oct-2-enal; EINECS 219-833-8; 55N91D7775; I14-6240; LVBXEMGDVWVTGY-VOTSOKGWSA-; CCRIS 3418; (2E)-oct-2-enal; A817874; LS-98074; 2-Octenal, (E)-; trans-octen-2-al; 2-Octenel; J-016016",
+      "C8H14O",
+      "CCCCCC=CC=O",
+      "126.2",
+      {
+        "link": "https://www.symmap.org/detail/SMIT16971",
+        "title": "SMIT16971"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/15970/",
+        "title": "15970"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/5283324",
+        "title": "5283324"
+      }
+    ]
+  ]
+}

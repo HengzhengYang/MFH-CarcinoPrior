@@ -1,0 +1,186 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002309&label=Herb",
+        "title": "HERB002309"
+      },
+      "HONG QI",
+      "红芪",
+      "Hedysari Radix",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002634&label=Herb",
+        "title": "HERB002634"
+      },
+      "HUI ZHAN MAO REN DONG",
+      "灰毡毛忍冬",
+      "Largeflower-like Honeysuckle",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Lonicera macranthoides"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002962&label=Herb",
+        "title": "HERB002962"
+      },
+      "JIN YIN HUA",
+      "金银花",
+      "Honeysuckle Flower",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Flos Lonicerae"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB006259&label=Herb",
+        "title": "HERB006259"
+      },
+      "XU DUAN",
+      "续断",
+      "Himalayan Teasel Root",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Dipsaci"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "Olean-12-en-28-oic acid, 3-((O-beta-D-glucopyranosyl-(1-4)-O-beta-D-glucopyranosyl-(1-3)-O-6-deoxy-alpha-L-mannopyranosyl-(1-2)-alpha-L-arabinopyranosyl)oxy)-23-hydroxy, 6-O-beta-D-glucopyranosyl-beta-D-glucopyranosyl ester, (3beta,4alpha)-; 136849-88-2; macranthoidin b; Olean-12-en-28-oic acid, 3-((O-beta-D-glucopyranosyl-(1-4)-O-beta-D-glucopyranosyl-(1-3)-O-6-deoxy-alpha-L-mannopyranosyl-(1-2)-alpha-L-arabinopyranosyl)oxy)-23-hydroxy-, 6-O-beta-D-glucopyranosyl-beta-D-glucopyranosyl est; N2410; Macranthoidin B; 3-O-beta-D-Glucopyranosyl-(1-4)-beta-D-glucopyranosyl-(1-3)-alpha-L-rhamnopyranosyl-(1-2)-alpha-L-arabinopyranosyl-3,23-dihydroxyolean-12-en-28-O-D-glucopyranosyl-(1-6)glucopyranoside"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMID id",
+      "TCMSP id",
+      "PubChem id"
+    ],
+    [
+      "HBIN034105",
+      "macranthoidin B",
+      "Olean-12-en-28-oic acid, 3-((O-beta-D-glucopyranosyl-(1-4)-O-beta-D-glucopyranosyl-(1-3)-O-6-deoxy-alpha-L-mannopyranosyl-(1-2)-alpha-L-arabinopyranosyl)oxy)-23-hydroxy, 6-O-beta-D-glucopyranosyl-beta-D-glucopyranosyl ester, (3beta,4alpha)-; 136849-88-2; macranthoidin b; Olean-12-en-28-oic acid, 3-((O-beta-D-glucopyranosyl-(1-4)-O-beta-D-glucopyranosyl-(1-3)-O-6-deoxy-alpha-L-mannopyranosyl-(1-2)-alpha-L-arabinopyranosyl)oxy)-23-hydroxy-, 6-O-beta-D-glucopyranosyl-beta-D-glucopyranosyl est; N2410; Macranthoidin B; 3-O-beta-D-Glucopyranosyl-(1-4)-beta-D-glucopyranosyl-(1-3)-alpha-L-rhamnopyranosyl-(1-2)-alpha-L-arabinopyranosyl-3,23-dihydroxyolean-12-en-28-O-D-glucopyranosyl-(1-6)glucopyranoside",
+      "C65H106O32",
+      "CC1C(C(C(C(O1)OC2C(C(COC2OC3CCC4(C(C3(C)CO)CCC5(C4CC=C6C5(CCC7(C6CC(CC7)(C)C)C(=O)OC8C(C(C(C(O8)COC9C(C(C(C(O9)CO)O)O)O)O)O)O)C)C)C)OC1C(C(C(C(O1)CO)O)O)O)OC1C(C(C(C(O1)CO)O)O)O)O)O)O",
+      "1399.52",
+      "6.689166406",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "136849-88-2"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT05182",
+        "title": "SMIT05182"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/13292/",
+        "title": "13292"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL003042"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/119025667",
+        "title": "119025667"
+      }
+    ]
+  ]
+}

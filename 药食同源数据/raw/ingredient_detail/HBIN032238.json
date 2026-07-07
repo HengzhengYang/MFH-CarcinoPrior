@@ -1,0 +1,194 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000826&label=Herb",
+        "title": "HERB000826"
+      },
+      "CHOU CAO",
+      "臭草",
+      "Common Rue",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Ruta graveolens"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB000833&label=Herb",
+        "title": "HERB000833"
+      },
+      "CHOU SHAN YANG",
+      "臭山羊",
+      "Japanese Orixa",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Orixa japonica"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB001915&label=Herb",
+        "title": "HERB001915"
+      },
+      "GOU QI ZI",
+      "枸杞子",
+      "fruit of Chinese Wolfberry",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Fructus Lycii"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002424&label=Herb",
+        "title": "HERB002424"
+      },
+      "HUA JIAO",
+      "花椒",
+      "Pricklyash Peel",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Pericarpium Zanthoxyli"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005244&label=Herb",
+        "title": "HERB005244"
+      },
+      "SI ROU TUO GUO YE MI ZHU YU",
+      "NA",
+      "NA",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Melicope semecarpifolia"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "484-08-2; C10701; Kokusaginine; BRN 0256613; JBRXRVFXQIKPEA-UHFFFAOYSA-N; NSC103013; DTXSID60197506; AC1L1UR2; MLS000574882; Dictamnine,7-dimethoxy-; ZINC900216; Dictamnine, 6,7-dimethoxy-; NSC-103013; Furo[2,3-b]quinoline, 4,6,7-trimethoxy-; NCGC00247607-01; BDBM50098783; Furo[2, 4,6,7-trimethoxy-; FURO(2,3-b)QUINOLINE, 4,6,7-TRIMETHOXY-; CHEBI:6142; NSC 103013; CCRIS 3582; 4,6,7-Trimethoxy-furo[2,3-b]quinoline; HMS2194N12; kokusaginine ; CHEMBL278779; LS-70937; Kokusaginin; 6,7-Dimethoxydictamnine; AC-542/20643020; AC1Q4Y70; SMR000156276; MEGxp0_000038; 4,6,7-Trimethoxyfuro[2,3-b]quinoline; 4-27-00-02295 (Beilstein Handbook Reference); 4,6,7-Trimethoxyfuro[2,3-b]quinoline #; HMS3328E08"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule smile",
+      "Molecule weight",
+      "SymMap id",
+      "TCMID id",
+      "TCM-ID id",
+      "PubChem id"
+    ],
+    [
+      "HBIN032238",
+      "kokusaginine",
+      "484-08-2; C10701; Kokusaginine; BRN 0256613; JBRXRVFXQIKPEA-UHFFFAOYSA-N; NSC103013; DTXSID60197506; AC1L1UR2; MLS000574882; Dictamnine,7-dimethoxy-; ZINC900216; Dictamnine, 6,7-dimethoxy-; NSC-103013; Furo[2,3-b]quinoline, 4,6,7-trimethoxy-; NCGC00247607-01; BDBM50098783; Furo[2, 4,6,7-trimethoxy-; FURO(2,3-b)QUINOLINE, 4,6,7-TRIMETHOXY-; CHEBI:6142; NSC 103013; CCRIS 3582; 4,6,7-Trimethoxy-furo[2,3-b]quinoline; HMS2194N12; kokusaginine ; CHEMBL278779; LS-70937; Kokusaginin; 6,7-Dimethoxydictamnine; AC-542/20643020; AC1Q4Y70; SMR000156276; MEGxp0_000038; 4,6,7-Trimethoxyfuro[2,3-b]quinoline; 4-27-00-02295 (Beilstein Handbook Reference); 4,6,7-Trimethoxyfuro[2,3-b]quinoline #; HMS3328E08",
+      "C14H13NO4",
+      "COC1=C(C=C2C(=C1)C(=C3C=COC3=N2)OC)OC",
+      "259.26",
+      {
+        "link": "https://www.symmap.org/detail/SMIT16190",
+        "title": "SMIT16190"
+      },
+      {
+        "link": "http://119.3.41.228:8000/tcmid/ingredient/12250/",
+        "title": "12250"
+      },
+      {
+        "link": "http://tcm.cz3.nus.edu.sg/group/tcm-id/tcmid.asp",
+        "title": "3152"
+      },
+      {
+        "link": "https://pubchem.ncbi.nlm.nih.gov/compound/10227",
+        "title": "10227"
+      }
+    ]
+  ]
+}

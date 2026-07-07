@@ -1,0 +1,215 @@
+{
+  "drug_paper_disease": [
+    [
+      "Paper id",
+      "Disease id",
+      "Disease name",
+      "PubMed id"
+    ]
+  ],
+  "herb_ingredient": [
+    [
+      "Herb id",
+      "Herb pinyin name",
+      "Herb Chinese name",
+      "Herb English name",
+      "Herb Latin name"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB002856&label=Herb",
+        "title": "HERB002856"
+      },
+      "JIAO GU LAN",
+      "绞股蓝",
+      "Gynostemmae Pentaphylli Herba",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": ""
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004251&label=Herb",
+        "title": "HERB004251"
+      },
+      "OU JIE",
+      "藕节",
+      "node of lotus rhizome",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "nodus nelumbinis rhizomatis"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004609&label=Herb",
+        "title": "HERB004609"
+      },
+      "REN SHEN",
+      "人参",
+      "Ginseng",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Ginseng"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB004616&label=Herb",
+        "title": "HERB004616"
+      },
+      "REN SHEN YE",
+      "人参叶",
+      "Ginseng Leaf",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Folium Ginseng"
+      }
+    ],
+    [
+      {
+        "link": "/Detail/?v=HERB005900&label=Herb",
+        "title": "HERB005900"
+      },
+      "XI YANG SHEN",
+      "西洋参",
+      "American Ginseng",
+      {
+        "style": {
+          "fontStyle": "italic"
+        },
+        "title": "Radix Pacis quinquefolii"
+      }
+    ]
+  ],
+  "Ingredient_alias": [
+    "Ginsenoside-Ra2_qt; Gypenoside XI_qt; Ginsenoside-Rb3_qt; Gypenoside VII_qt; Gypenoside XII_qt; Ginsenoside-Ra0_qt; Dammarane Sapogenin; Gypenoside XVII_qt; Gypenoside IX_qt; Gypenoside LXXV_qt; Gypenoside LXIX_qt; Gypenoside XIX_qt; Gypenoside XV_qt; Gypenoside XIII_qt; Gypinoside III_qt; ginsenoside Rd2_qt; Notoginseoside Fe_qt; Gypenoside IV_qt; Ginsenoside-Rs2_qt; Ginsenoside-Rs1_qt; Gypenoside XVI_qt; Gypinoside VII_qt; Ginsenoside-Ra3_qt; Gypenoside II_qt; Ginsenoside-Ra1_qt; Gypenoside VI_qt"
+  ],
+  "ingredient_disease": [
+    [
+      "Disease id",
+      "Disease name",
+      "P-value",
+      "FDR_BH"
+    ]
+  ],
+  "Merge_diff_gene": {
+    "all_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_CP_txt#mouse": "None.",
+    "up_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "diff_sig_gene#mouse": "NONE.No significantly different genes",
+    "all_GO_csv#human": "NONE.No enriched GO terms",
+    "drug_experiment": [
+      [
+        "Experiment id",
+        "GEO id",
+        "Organism",
+        "Experiment type",
+        "Control samples",
+        "Treatment samples"
+      ]
+    ],
+    "down_GO_csv#mouse": "NONE.No enriched GO terms",
+    "all_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "up_GO_csv#mouse": "NONE.No enriched GO terms",
+    "CMAP_PCL_txt#mouse": "None.",
+    "all_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "down_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_OE_txt#mouse": "None.",
+    "CMAP_KD_txt#mouse": "NONE.No linked CMAP drugs",
+    "CMAP_draw#human": "",
+    "down_kegg_csv#mouse": "NONE.No enriched KEGG terms",
+    "CMAP_KD_txt#human": "NONE.No linked CMAP drugs",
+    "CMAP_OE_txt#human": "None.",
+    "up_GO_csv#human": "NONE.No enriched GO terms",
+    "CMAP_draw#mouse": "",
+    "CMAP_CP_txt#human": "None.",
+    "diff_sig_gene#human": "NONE.No significantly different genes",
+    "up_kegg_csv#human": "NONE.No enriched KEGG terms",
+    "CMAP_PCL_txt#human": "None."
+  },
+  "ingredient_target": [
+    [
+      "Target id",
+      "Target name",
+      "Database sources"
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR000233&label=Target",
+        "title": "HBTAR000233"
+      },
+      "AR",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00048"
+        }
+      ]
+    ],
+    [
+      {
+        "link": "/Detail/?v=HBTAR001692&label=Target",
+        "title": "HBTAR001692"
+      },
+      "NR3C1",
+      [
+        {
+          "link": "https://tcmspw.com/browse.php?qc=targets",
+          "title": "TCMSP:TAR00308"
+        }
+      ]
+    ]
+  ],
+  "drug_paper_target": [
+    [
+      "Paper id",
+      "Target id",
+      "Target name",
+      "PubMed id"
+    ]
+  ],
+  "summary": [
+    [
+      "Ingredient id",
+      "Ingredient name",
+      "Alias",
+      "Molecule formula",
+      "Molecule weight",
+      "OB score",
+      "CAS id",
+      "SymMap id",
+      "TCMSP id"
+    ],
+    [
+      "HBIN028726",
+      "Gypnoside V_qt",
+      "Ginsenoside-Ra2_qt; Gypenoside XI_qt; Ginsenoside-Rb3_qt; Gypenoside VII_qt; Gypenoside XII_qt; Ginsenoside-Ra0_qt; Dammarane Sapogenin; Gypenoside XVII_qt; Gypenoside IX_qt; Gypenoside LXXV_qt; Gypenoside LXIX_qt; Gypenoside XIX_qt; Gypenoside XV_qt; Gypenoside XIII_qt; Gypinoside III_qt; ginsenoside Rd2_qt; Notoginseoside Fe_qt; Gypenoside IV_qt; Ginsenoside-Rs2_qt; Ginsenoside-Rs1_qt; Gypenoside XVI_qt; Gypinoside VII_qt; Ginsenoside-Ra3_qt; Gypenoside II_qt; Ginsenoside-Ra1_qt; Gypenoside VI_qt",
+      "C53H90O22",
+      "1079.27",
+      "29.69203747",
+      {
+        "link": "https://sso.cas.org/as/authorization.oauth2?response_type=code&client_id=SciFinderWeb&redirect_uri=https%3A%2F%2Fscifinder.cas.org%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiOXkiLCJzdWZmaXgiOiJhMUNGRHEuMTYwMTMwMzQ2MSJ9..X8yiubUlXgmeUjgJJWOgVQ.YnsZwT5nEmHRCz5HU7YSwwsyDOkRvM3B5cZ8lOCqJufEzOFcCRF8IiZM-U0AYdWkW74o3vbMOzef2xqW4-zqNQ.ctWMjsgmXL7mB0JU4AZ08w&nonce=F3WWZ0E1ZhfYL_iNXenE9k48rhSwfVhLoUeZnmopGzo&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fscifinder.cas.org%3A443%2Fscifinder&vnd_pi_application_name=SciFinderWebIDF",
+        "title": "68406-26-8"
+      },
+      {
+        "link": "https://www.symmap.org/detail/SMIT07103",
+        "title": "SMIT07103"
+      },
+      {
+        "link": "https://tcmspw.com/browse.php?qc=ingredients",
+        "title": "MOL005327"
+      }
+    ]
+  ]
+}
