@@ -1,0 +1,41 @@
+artifact: TASK02_HYBRID_RESTRICTED_ENVIRONMENT
+status: VALIDATED_NOT_LOCKED
+validated_at_utc: '2026-07-25T13:29:45Z'
+compute_policy:
+  mode: HYBRID_RESTRICTED
+  cpu_training_whitelist:
+    - sklearn.ensemble.RandomForestClassifier
+    - sklearn.svm.SVC(kernel=rbf, probability=False)
+  other_cpu_model_fit_allowed: false
+  gpu_required_for_all_platt_calibration: true
+environment:
+  name: mfh-carcinoprior-gpu
+  prefix: /home/administrator/miniforge3/envs/mfh-carcinoprior-gpu
+  python: '3.10.20'
+  scikit_learn: '1.7.2'
+  psutil: '7.2.2'
+  threadpoolctl: '3.6.0'
+gpu:
+  name: NVIDIA GeForce RTX 5070 Ti
+  torch: 2.11.0+cu128
+  cuda_runtime: '12.8'
+  compute_capability: '12.0'
+cpu_resource_limits:
+  maximum_concurrent_estimator_fits: 1
+  random_forest_n_jobs: 4
+  svc_processes: 1
+  native_threadpool_limit: 1
+  omp_num_threads: 1
+  mkl_num_threads: 1
+  openblas_num_threads: 1
+  maximum_process_rss_gib: 12
+validation:
+  full_test_suite: PASS_16_OF_16
+  p002_cpu_fit_events: 96
+  p002_cpu_whitelist_violations: 0
+  p002_gpu_platt_fit_events: 16
+  p002_gpu_calibration_failures: 0
+notes:
+  - No new dependency was installed for P002; the existing isolated GPU environment already contained sklearn and the required audit libraries.
+  - This manifest is review evidence and is not an immutable environment lock.
+  - Full training remains unauthorized.

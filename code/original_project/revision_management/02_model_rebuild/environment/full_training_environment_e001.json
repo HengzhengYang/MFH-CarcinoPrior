@@ -1,0 +1,52 @@
+{
+  "artifact": "TASK02_E001_FULL_TRAINING_ENVIRONMENT_CANDIDATE",
+  "captured_at_utc": "2026-07-27T14:24:49.455689+00:00",
+  "compute_policy": "HYBRID_RESTRICTED",
+  "cuda": {
+    "available": true,
+    "compute_capability": [
+      12,
+      0
+    ],
+    "device": "NVIDIA GeForce RTX 5070 Ti",
+    "nvidia_smi": "NVIDIA GeForce RTX 5070 Ti, 576.88, 16303",
+    "torch_cuda_runtime": "12.8"
+  },
+  "device_evidence_counts": {
+    "cpu:RBF_SVM": 4612,
+    "cpu:RandomForest": 3612,
+    "cuda:LightGBM": 4612,
+    "cuda:XGBoost": 4612,
+    "cuda:calibrator": 714,
+    "cuda:graph": 5224,
+    "cuda:language_model": 3112
+  },
+  "execution_plan_sha256": "03ed011fed5b2b3270bb6106eeb76d1dc284ef8e60ccd412e8975aefe2f44ca5",
+  "execution_supplement_sha256": "8ed6b3828c3acc53c2eca182833ad2b9e27fd6cfb099d358146f4ccba165c045",
+  "formal_fit_jobs_attempted": 26499,
+  "formal_fit_jobs_completed": 26498,
+  "go_full_training_sha256": "dae60ff147881db239e6b2f36dd0843f8f69687da8e4a9435fb9f9d4ff31dda4",
+  "notes": [
+    "Package versions are captured after the completed E001 process in the same isolated environment.",
+    "Per-job device evidence is independently validated from all 26,498 job-result records.",
+    "This candidate becomes an immutable environment lock only if Task 00 approves MODEL_LOCK.json."
+  ],
+  "packages": {
+    "lightgbm": "4.6.0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "psutil": "7.2.2",
+    "rdkit": "2025.03.6",
+    "scikit_learn": "1.7.2",
+    "torch": "2.11.0+cu128",
+    "xgboost": "3.2.0"
+  },
+  "platform": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "protocol_sha256": "2fc3cc0df70895643440dec40e27f51d045b88c62c7c50a8370af5688d592663",
+  "python": {
+    "executable": "/home/administrator/miniforge3/envs/mfh-carcinoprior-gpu/bin/python",
+    "version": "3.10.20"
+  },
+  "split_manifest_index_sha256": "5ea19ab7c5d7c89bbbc79110bd2baa7fd86690c389127d2f88c9cba7aba41b8f",
+  "status": "VALIDATED_PENDING_TASK00_MODEL_LOCK_REVIEW"
+}

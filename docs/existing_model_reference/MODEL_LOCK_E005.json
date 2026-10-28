@@ -1,0 +1,177 @@
+{
+  "artifact_id": "MODEL-057-TASK00-FORMAL-MODEL-LOCK-E005",
+  "model_lock_id": "MODEL_LOCK_E005",
+  "route_id": "E005_THREE_MEMBER_PARSIMONY_PRIMARY",
+  "decision_id": "D101",
+  "status": "APPROVED_LOCKED",
+  "locked": true,
+  "locked_by": "TASK00",
+  "lock_authority": "TASK00_ONLY",
+  "locked_at_utc": "2026-08-04T13:45:12Z",
+  "usable_by_downstream_tasks": true,
+  "downstream_operational_use_requires_separate_task00_authorization": true,
+  "route_chronology_classification": "AUTHOR_DIRECTED_POST_LOCK_PARSIMONY_PRIORITY_ROUTE",
+  "primary_model": {
+    "ensemble_id": "E005_FIXED_THREE_MEMBER_PARSIMONY_PRIORITY_ENSEMBLE",
+    "role": "PARSIMONY_PRIORITY_PRIMARY_FOR_FUTURE_WORK",
+    "members": [
+      "RandomForest_MACCS",
+      "MPNN",
+      "MolFormer_CUDA_Logistic"
+    ],
+    "weights": {
+      "RandomForest_MACCS": 0.3333333333333333,
+      "MPNN": 0.3333333333333333,
+      "MolFormer_CUDA_Logistic": 0.3333333333333333
+    },
+    "weight_rule": "one retained member from each of the fingerprint, graph and molecular-language branches; the three sealed-Platt-calibrated member probabilities receive equal one-third weights",
+    "aggregation": "PLATT_CALIBRATED_BRANCH_BALANCED_PROBABILITY_SOFT_VOTING",
+    "decision_threshold": 0.42534557978312176,
+    "classification_rule": "ensemble_probability_greater_than_or_equal_to_threshold",
+    "threshold_role": "FROZEN_E002_SSTAR_FULL_DEVELOPMENT_APPARENT_MCC_OPTIMUM_NO_NEW_THRESHOLD_SEARCH",
+    "selection_policy": "ONE_STANDARD_ERROR_PARSIMONY_WITH_ONE_MEMBER_PER_REPRESENTATION_BRANCH",
+    "full_development_metrics": {
+      "five_fold_macro_roc_auc": 0.7959762508836177,
+      "five_fold_macro_auprc": 0.7924716567636396,
+      "five_fold_macro_brier": 0.186819646297105,
+      "five_fold_macro_log_loss": 0.5542077323918224,
+      "five_fold_macro_mcc_at_locked_threshold": 0.441807843010311,
+      "five_fold_macro_mcc_at_0_5": 0.4094278867175217,
+      "pooled_mcc_at_locked_threshold": 0.4299723556588746,
+      "pooled_mcc_at_0_5": 0.40313544139866825
+    },
+    "evidence_grade": "INTERNAL_ONE_SE_PARSIMONY_ROUTE_WITH_POSTHOC_FULL_DEVELOPMENT_APPARENT_LOMO",
+    "uniform_metric_superiority_claimed": false,
+    "fixed_three_member_nested_outer_oof_estimate_available": false,
+    "fresh_untouched_external_validation_available": false
+  },
+  "selected_member_artifacts": [
+    {
+      "member": "RandomForest_MACCS",
+      "branch": "fingerprint",
+      "candidate_id": "rf_sqrt_regularized",
+      "weight": 0.3333333333333333,
+      "base_model_path": "revision_management/02_model_rebuild/models/full_e001/final_primary/RandomForest_MACCS.joblib",
+      "base_model_size_bytes": 5674565,
+      "base_model_sha256": "3679220b411ed93c0e9ec633cd2847699e06e408d1c9890631198583ed8b69a6",
+      "calibrator_path": "revision_management/02_model_rebuild/models/full_e001/final_primary/RandomForest_MACCS_platt.pt",
+      "calibrator_size_bytes": 2413,
+      "calibrator_sha256": "783252e7e89e2e7c73247a2a455292f3e219aa6c431c6f48fed5419c793254b0"
+    },
+    {
+      "member": "MPNN",
+      "branch": "graph",
+      "candidate_id": "mpnn_04_h256_d030_lr3e4",
+      "weight": 0.3333333333333333,
+      "base_model_path": "revision_management/02_model_rebuild/models/full_e001/final_primary/MPNN.pt",
+      "base_model_size_bytes": 6950317,
+      "base_model_sha256": "dfaa444d0c5be0774faa06d5b83df4f430e6ce01dbb1b5f22117951217eadc8d",
+      "calibrator_path": "revision_management/02_model_rebuild/models/full_e001/final_primary/MPNN_platt.pt",
+      "calibrator_size_bytes": 2237,
+      "calibrator_sha256": "426771f3ee631f1df26befee2863fa9342a534c8fa69bf87858a5619f0666547"
+    },
+    {
+      "member": "MolFormer_CUDA_Logistic",
+      "branch": "molecular_language",
+      "candidate_id": "molformer_logistic_c0.01",
+      "weight": 0.3333333333333333,
+      "base_model_path": "revision_management/02_model_rebuild/models/full_e001/final_primary/MolFormer_CUDA_Logistic.pt",
+      "base_model_size_bytes": 12029,
+      "base_model_sha256": "a1c51b5f72b09cc6acc3a49b662ecc14f605529161d9c905504e2bd79383086f",
+      "calibrator_path": "revision_management/02_model_rebuild/models/full_e001/final_primary/MolFormer_CUDA_Logistic_platt.pt",
+      "calibrator_size_bytes": 2453,
+      "calibrator_sha256": "57a6966c331781e2724a636f60595ee9d88c15e5f3a1502a18623e338deb0489"
+    }
+  ],
+  "model_role_transition": {
+    "e005_three_member": "FORMAL_PARSIMONY_PRIORITY_PRIMARY_FOR_FUTURE_WORK",
+    "e003_five_member": "IMMUTABLE_HISTORICAL_PERFORMANCE_PRIORITY_COMPARATOR",
+    "fourteen_member": "UNPRUNED_BASELINE",
+    "model_lock_e003_overwritten_or_modified": false,
+    "model_lock_e003_path": "revision_management/02_model_rebuild/e003_route/MODEL_LOCK_E003.json",
+    "model_lock_e003_sha256": "ad96c04a7fd9c5b601b7cea28e174c487cd8d21519ecababd757d5e168cecffc"
+  },
+  "candidate_package_bindings": {
+    "candidate_path": "revision_management/02_model_rebuild/e003_route/three_member_primary_candidate/MODEL_LOCK_E005_CANDIDATE.json",
+    "candidate_sha256": "c37d582b115e0fb7c8ab099922af807af7ff2cff78dcb6c8fc21e54ca8b0c301",
+    "specification_sha256": "b9feed84740e0375d5e191f87e1c8b0464bba66b3d39c9b9712af2bee6e0e413",
+    "artifact_hash_closure_sha256": "20c5bbf238cfbfe876f4813b5444d6cb3637d751b5dad6fe141a9013a3337936",
+    "applicant_validation_sha256": "49e70a45893b8f85e0dfae9e6cbcdfe0290b186a4112c995987b32715137ea9c",
+    "review_request_sha256": "415c47c82145abbdb0c4bc6d5fa840a3479c829c165028c0bf32684f4176c432",
+    "handoff_sha256": "e3d3b01d06f63d7b6f3a8e5b24e72f2bd2f816e980e25d3fa7f2a9fed451a29e",
+    "submitted_status_sha256": "e619ebdfe530acdd0d6c212dfff51e56c3f2755c1490b5ec674ed0a953833e32"
+  },
+  "task00_review_bindings": {
+    "independent_validator_path": "revision_management/02_model_rebuild/e003_route/three_member_primary_candidate/task00_lock_review/validate_d101_e005_candidate_task00.py",
+    "independent_validator_sha256": "819e0aa1493bdf78b822e47e602baa1a7d42753704889da40abff4fff9e269de",
+    "independent_report_path": "revision_management/02_model_rebuild/e003_route/three_member_primary_candidate/task00_lock_review/TASK00_D101_E005_CANDIDATE_LOCK_INDEPENDENT_AUDIT.json",
+    "independent_report_sha256": "a2ff044e3756641d0053b29b54ade3be3cf92f2bd579a94a862d39e3fb26a1a5",
+    "independent_checks": "122/122 PASS",
+    "review_path": "revision_management/02_model_rebuild/TASK00_MODEL_LOCK_E005_REVIEW_D101.md",
+    "review_sha256": "c177640e8bea0827545c023b7314e2455e62c052c59c6d4a41c221a06bea0360"
+  },
+  "evidence_bindings": {
+    "e001_model_manifest_path": "revision_management/02_model_rebuild/models/full_e001/final_primary/model_manifest.json",
+    "e001_model_manifest_sha256": "831f5fbd81f20bb854b4d2238f967d2b20bdbf248990734bcc44a34f0af0fbef",
+    "e001_environment_path": "revision_management/02_model_rebuild/environment/full_training_environment_e001.json",
+    "e001_environment_sha256": "0896621a39906bb750199ac0472522989f660bd57b61c72870cac7f5ea013d14",
+    "e002_sstar_record_path": "revision_management/02_model_rebuild/e002_nested_pruning/runs/P002-E002-NESTED-PRUNING-RUN-V1-20260730-8F4C2D71A6B9/SELECTIONS/FINAL_PRIMARY_SSTAR/SSTAR_SELECTION_RECORD.json",
+    "e002_sstar_record_sha256": "e51c143103a213febd6e12aec22126eaa9a4514879c3fe1ef8eec28ac871e082",
+    "e002_sstar_seal_path": "revision_management/02_model_rebuild/e002_nested_pruning/runs/P002-E002-NESTED-PRUNING-RUN-V1-20260730-8F4C2D71A6B9/SELECTIONS/FINAL_PRIMARY_SSTAR/SEAL_MANIFEST.json",
+    "e002_sstar_seal_sha256": "92343cb852554ed89315036406992d56230b60eb1d4ea57e0a81ac436429e949",
+    "d099_lomo_result_path": "revision_management/02_model_rebuild/e003_route/three_member_lomo_diagnostic/v2/runs/P002-E003-THREE-MEMBER-LOMO-DIAGNOSTIC-V2-20260804-D097B6E4C219/RESULT_PACKAGE/LOMO_RESULT.json",
+    "d099_lomo_result_sha256": "b2937add512ad2089979a6ee4e3d8662076c61b39b74ad2734c6af2b5fbaff98",
+    "d100_result_acceptance_sha256": "0335408ed364edc5c9692af236de9d76aa500c6adfc7a134d7e9b5c50c22901a",
+    "d100_route_review_sha256": "0301013e670b5c3e11a2d8d962342eaa7139c18e3c98e3a3eebe30db33fa5cdc",
+    "d100_route_decision_sha256": "bc52e6c0af9a1b6dbc812bdad3c184a2f6c890fb0a87e0b38a1edf190d67d41b"
+  },
+  "chronology_and_claim_limits": {
+    "route_change_after_e003_lock": true,
+    "route_change_after_prior_external_result_availability": true,
+    "approved_route_description": "AUTHOR_DIRECTED_POST_LOCK_PARSIMONY_PRIORITY_ROUTE",
+    "originally_preregistered_primary_model_claim_allowed": false,
+    "prospectively_blind_selection_claim_allowed": false,
+    "existing_isscan_or_a3_fresh_confirmation_claim_allowed": false,
+    "d099_independent_model_selection_claim_allowed": false,
+    "uniform_superiority_claim_allowed": false
+  },
+  "scientific_limitations": {
+    "five_member_e003_remains_complete_path_roc_auc_maximum": true,
+    "fixed_three_member_nested_outer_oof_estimate_available": false,
+    "d099_is_posthoc_full_development_apparent": true,
+    "fresh_untouched_external_validation_available": false,
+    "existing_external_results_are_outcome_aware_descriptive_for_e005": true,
+    "new_external_data_required_for_fresh_confirmation": true
+  },
+  "writing_input_contract": {
+    "candidate_path": "revision_management/02_model_rebuild/e003_route/three_member_primary_candidate/MANUSCRIPT_WRITING_INPUT_PENDING_TASK00.md",
+    "candidate_sha256": "8bdcaef86cdb297a9eb6dd4f5fe05a730f1edae26e9e386564af8dfa335438ee",
+    "registration_after_lock_authorized": true,
+    "manuscript_or_supplement_edit_authorized": false,
+    "task05_separate_authorization_required": true
+  },
+  "lock_creation_operation_counts": {
+    "base_model_fit": 0,
+    "platt_fit": 0,
+    "recalibration": 0,
+    "model_load": 0,
+    "calibrator_load": 0,
+    "feature_extraction": 0,
+    "prediction": 0,
+    "external_data_access": 0,
+    "mfh_rescreening": 0,
+    "manuscript_edit": 0
+  },
+  "current_authorizations": {
+    "formal_model_lock_e005_created_and_locked": true,
+    "writing_input_registration": true,
+    "manuscript_file_editing": false,
+    "external_evaluation": false,
+    "mfh_rescreening": false,
+    "base_model_or_platt_refitting": false,
+    "recalibration": false,
+    "new_prediction": false,
+    "threshold_change": false,
+    "model_lock_e003_modification": false
+  }
+}

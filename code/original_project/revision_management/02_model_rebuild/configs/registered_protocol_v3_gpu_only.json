@@ -1,0 +1,223 @@
+{
+  "protocol_id": "TASK02-NESTED-GROUP-CV-V3-GPU-ONLY-REGISTERED",
+  "status": "REGISTERED_FOR_TASK00_AUTHORIZED_LIMITED_SMOKE_ONLY",
+  "registered_before_smoke_performance_at_utc": "2026-07-25T07:30:00Z",
+  "task00_conditional_approval_path": "revision_management/02_model_rebuild/TASK00_PROTOCOL_APPROVAL.json",
+  "task00_conditional_approval_sha256": "2234749770ed0de0e6043c7f3ecef4589f46aacb4248fe98c069178a175001b9",
+  "base_seed": 20260724,
+  "compute_policy": {
+    "mode": "GPU_ONLY",
+    "formal_model_fitting_cpu_fallback_allowed": false,
+    "required_environment_prefix": "/home/administrator/miniforge3/envs/mfh-carcinoprior-gpu",
+    "required_torch": "2.11.0+cu128",
+    "required_device": "cuda:0",
+    "maximum_batch_size_reductions": 1,
+    "persistent_oom_action": "STOP_AND_RETURN_TO_TASK00"
+  },
+  "inputs": [
+    {
+      "scenario_id": "primary_conflict_excluded",
+      "role": "primary",
+      "path": "revision_management/01_data_audit/frozen/model_units_primary_conflict_excluded.csv",
+      "sha256": "895bd06143c917de784e132bdfe0d19d33cfcaf6a063a17b079bc134e23a7d0f",
+      "rows": 1494
+    },
+    {
+      "scenario_id": "sensitivity_conflict_positive",
+      "role": "sensitivity",
+      "path": "revision_management/01_data_audit/frozen/model_units_sensitivity_conflict_positive.csv",
+      "sha256": "cf36aadb604112999f70e3a38e89703453fa947c3bc16acca919f228a83fb4c7",
+      "rows": 1526
+    },
+    {
+      "scenario_id": "sensitivity_conflict_negative",
+      "role": "sensitivity",
+      "path": "revision_management/01_data_audit/frozen/model_units_sensitivity_conflict_negative.csv",
+      "sha256": "79e811a391444b2f80bfff7339e0a7cc8c354d0f0e2295640a18ab227ffa6daa",
+      "rows": 1522
+    },
+    {
+      "scenario_id": "strict_statement_conflict_excluded",
+      "role": "sensitivity",
+      "path": "revision_management/01_data_audit/frozen/model_units_strict_statement_conflict_excluded.csv",
+      "sha256": "d4079ad2a156291eaa64b04919d4bf85a9da9d4aaeeb49e380621071bc9be490",
+      "rows": 1216
+    },
+    {
+      "scenario_id": "core_bioassay_only_relabelled",
+      "role": "sensitivity",
+      "path": "revision_management/01_data_audit/frozen/model_units_core_bioassay_only_relabelled.csv",
+      "sha256": "2cb28551d90d21a9042ac649be8e80c23dbea357d586ed6fecb8afebbdbb00ce",
+      "rows": 1208
+    }
+  ],
+  "split_designs": [
+    {
+      "id": "group_random_nested_cv",
+      "outer_folds": 5,
+      "inner_folds": 5,
+      "split_group_key": "cv_group_id",
+      "atomic_group_key": "cv_group_id"
+    },
+    {
+      "id": "scaffold_group_nested_cv",
+      "outer_folds": 5,
+      "inner_folds": 5,
+      "split_group_key": "bemis_murcko_scaffold_or_acyclic_cv_group_fallback",
+      "atomic_group_key": "cv_group_id"
+    }
+  ],
+  "split_seed_selection": {
+    "registered_before_performance": true,
+    "candidate_seed_count": 256,
+    "eligibility": "every training and evaluation fold contains both labels and every evaluation fold contains at least 20 model units",
+    "selection": "first eligible seed in ascending order; an outer seed is eligible only when all five of its inner partitions also have an eligible seed",
+    "uses_model_predictions_or_metrics": false
+  },
+  "approved_candidates": {
+    "fingerprint_ml": {
+      "features": {
+        "ECFP4": {"radius": 2, "n_bits": 2048},
+        "MACCS": {"n_bits": 167}
+      },
+      "algorithms": {
+        "XGBoost": {
+          "backend": "xgboost 3.2.0 with CuPy device-consistent fit and prediction",
+          "full_trials_per_feature": 8,
+          "smoke_parameters": {
+            "num_boost_round": 16,
+            "max_depth": 4,
+            "eta": 0.05,
+            "subsample": 0.8,
+            "colsample_bytree": 0.8,
+            "lambda": 1.0,
+            "tree_method": "hist",
+            "device": "cuda"
+          }
+        },
+        "LightGBM": {
+          "backend": "lightgbm 4.6.0 CUDA trainer",
+          "full_trials_per_feature": 8,
+          "smoke_parameters": {
+            "num_boost_round": 16,
+            "num_leaves": 31,
+            "learning_rate": 0.05,
+            "feature_fraction": 0.8,
+            "bagging_fraction": 0.8,
+            "bagging_freq": 1,
+            "device_type": "cuda"
+          }
+        }
+      }
+    },
+    "graph_dl": {
+      "backend": "native PyTorch CUDA without torch_geometric",
+      "architectures": ["GCN", "GAT", "MPNN", "AttentiveFP"],
+      "full_trials_per_architecture": 4,
+      "full_max_epochs": 80,
+      "full_patience": 10,
+      "smoke_parameters": {
+        "hidden_dim": 32,
+        "dropout": 0.1,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "max_epochs": 3,
+        "patience": 2,
+        "batch_size": 128,
+        "single_oom_reduced_batch_size": 64,
+        "early_stop_method": "GroupShuffleSplit with group-disjoint 20% validation subset",
+        "early_stop_validation_fraction": 0.2,
+        "early_stop_seed_candidates": 256
+        ,
+        "early_stop_minimum_validation_units": "min(20, max(5, floor(training_units/10)))"
+      }
+    },
+    "smiles_language_models": {
+      "pooling": "attention-mask-weighted mean of last_hidden_state; pooler forbidden",
+      "head": "fold-local standardized PyTorch CUDA logistic regression",
+      "full_logistic_c_candidates": [0.01, 0.1, 1.0, 10.0, 100.0],
+      "smoke_logistic_c": 1.0,
+      "smoke_head_max_iter": 50,
+      "max_token_length": 256,
+      "models": [
+        {
+          "name": "ChemBERTa",
+          "model_id": "DeepChem/ChemBERTa-77M-MLM",
+          "revision": "ed8a5374f2024ec8da53760af91a33fb8f6a15ff",
+          "smoke_batch_size": 64,
+          "single_oom_reduced_batch_size": 32
+        },
+        {
+          "name": "MolFormer",
+          "model_id": "ibm/MoLFormer-XL-both-10pct",
+          "revision": "7b12d946c181a37f6012b9dc3b002275de070314",
+          "smoke_batch_size": 32,
+          "single_oom_reduced_batch_size": 16
+        }
+      ]
+    }
+  },
+  "excluded_before_performance_inspection": [
+    "RandomForest",
+    "RBF-SVM",
+    "isotonic calibration",
+    "from-scratch SMILES Transformer"
+  ],
+  "calibration": {
+    "method": "two-parameter sigmoid Platt calibration",
+    "backend": "native PyTorch CUDA",
+    "max_iter": 50,
+    "training_source": "group-cross-fitted raw predictions from the outer-training partition only",
+    "outer_test_labels_access": false
+  },
+  "ensemble": {
+    "rule": "branch-balanced equal-weight mean of calibrated probabilities",
+    "fingerprint_branch_members": 4,
+    "graph_branch_members": 4,
+    "language_model_branch_members": 2,
+    "member_selection_in_smoke": "none; all registered minimal candidates exercise the pipeline"
+  },
+  "threshold": {
+    "rule": "maximize MCC on outer-training cross-fitted calibrated ensemble probabilities",
+    "tie_rule": "closest to 0.5",
+    "outer_test_access": false
+  },
+  "limited_smoke_registration": {
+    "scenario": "primary_conflict_excluded",
+    "designs": ["group_random_nested_cv", "scaffold_group_nested_cv"],
+    "outer_fold_zero_based": 0,
+    "inner_folds": 5,
+    "repeats_for_determinism": 2,
+    "full_hyperparameter_grid": false,
+    "sensitivity_model_fitting": false,
+    "probability_absolute_tolerance": 0.00001
+  },
+  "revised_full_execution_budget": {
+    "per_scenario": {
+      "fingerprint_fit_jobs": 1840,
+      "graph_fit_jobs": 1040,
+      "language_head_fit_jobs": 620,
+      "calibrator_fit_jobs": 100,
+      "total_fit_jobs": 3600
+    },
+    "five_scenarios_fit_jobs": 18000,
+    "final_primary_internal_selection_and_refit_fit_jobs": 700,
+    "registered_total_fit_job_ceiling": 18700,
+    "task00_hard_ceiling_fit_jobs": 25700,
+    "storage_hard_stop_gib": 60,
+    "planning_window_hours": [24, 48]
+  },
+  "hard_guards": {
+    "all_split_members_use_shared_manifest": true,
+    "cv_group_overlap_allowed": false,
+    "scaffold_overlap_allowed_in_scaffold_design": false,
+    "outer_test_used_for_selection_calibration_or_threshold": false,
+    "external_validation_used": false,
+    "mfh_rescreening": false,
+    "manuscript_editing": false,
+    "docking_or_dynamics": false,
+    "task01_mutation": false,
+    "model_lock_may_be_set_locked_by_task02": false,
+    "full_training_authorized": false
+  }
+}

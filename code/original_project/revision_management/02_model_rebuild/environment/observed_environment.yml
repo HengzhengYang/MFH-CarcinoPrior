@@ -1,0 +1,43 @@
+artifact: task02_pretraining_environment_observation
+status: OBSERVED_NOT_LOCKED
+observed_at_utc: 2026-07-24T14:44:19Z
+platform: Linux-6.6.114.1-microsoft-standard-WSL2-x86_64
+python:
+  executable: /home/administrator/miniforge3/envs/mfh-carcinoprior/bin/python
+  version: 3.10.20
+packages:
+  pandas: 2.3.3
+  numpy: 2.2.6
+  scipy: 1.15.2
+  scikit_learn: 1.7.2
+  rdkit: 2025.3.6
+  xgboost: 3.2.0
+  lightgbm: 4.6.0
+  torch: 2.12.0+cpu
+  transformers: 4.44.2
+hardware:
+  cpu: Intel Core i5-14600KF
+  logical_cpus_visible_to_wsl: 20
+  memory_gib: 15
+  swap_gib: 4
+  gpu: NVIDIA GeForce RTX 5070 Ti
+  gpu_memory_mib: 16303
+  driver_version: 576.88
+  nvidia_smi_cuda_version: 12.9
+  free_project_filesystem_gib: 926
+runtime_findings:
+  torch_cuda_available: false
+  torch_cuda_build: null
+  original_environment_file_found: false
+  repository_has_git_metadata: false
+pretrained_model_cache:
+  ChemBERTa:
+    model_id: DeepChem/ChemBERTa-77M-MLM
+    resolved_main_revision: ed8a5374f2024ec8da53760af91a33fb8f6a15ff
+  MolFormer:
+    model_id: ibm/MoLFormer-XL-both-10pct
+    resolved_main_revision: 7b12d946c181a37f6012b9dc3b002275de070314
+notes:
+  - This file records the environment observed during audit; it is not the final dependency lock.
+  - The current environment cannot use the available GPU and is not approved for large training.
+  - Create and smoke-test an isolated GPU-capable environment, or explicitly approve CPU-only execution, before the full run.

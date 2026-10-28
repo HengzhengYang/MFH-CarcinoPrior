@@ -1,0 +1,310 @@
+{
+  "schema_version": "3.0",
+  "protocol_id": "PROTOCOL_TASK04_MFH_SCREENING_V3_CANDIDATE",
+  "status": "D110_V3_CANDIDATE_PENDING_TASK00_EXECUTION_VERSION_LOCK_NO_GO",
+  "governance": {
+    "decision": "D110",
+    "preserved_completed_blockers": [
+      "B01",
+      "B02",
+      "B03",
+      "B04",
+      "B05",
+      "B06",
+      "B07",
+      "B08",
+      "B09",
+      "B10",
+      "B11"
+    ],
+    "blockers_closed_in_v3_candidate": [
+      "B12",
+      "B13",
+      "B14",
+      "B15",
+      "B16"
+    ],
+    "formal_acceptance": "PENDING_TASK00_REVIEW"
+  },
+  "accepted_inputs": {
+    "structure_input": {
+      "path": "revision_management/04_mfh_rescreening/inputs/TASK04_MFH_STRUCTURE_INPUT_V1_CANDIDATE.csv",
+      "sha256": "27f32a58a6f0366495bb370b31afe73c494a3e575c5576fcff044fd0b974b32e",
+      "rows": 5003
+    },
+    "pair_provenance": {
+      "path": "revision_management/04_mfh_rescreening/inputs/TASK04_MFH_STRUCTURE_PAIR_PROVENANCE_V1_CANDIDATE.csv",
+      "sha256": "f6c8d72603b413ac8e3ca0f54d3f6a68ce92a32f9995e367ea17ea85878287d2",
+      "rows": 11703
+    },
+    "training_overlap_reference": {
+      "path": "revision_management/04_mfh_rescreening/inputs/TASK04_TRAINING_OVERLAP_REFERENCE_V1_CANDIDATE.csv",
+      "sha256": "94e95db260d84b49c93b53eb0ac142ae48a76de217bd1db40b984152f72a3c38",
+      "rows": 1494
+    }
+  },
+  "route": {
+    "route_id": "E005_THREE_MEMBER_PARSIMONY_PRIMARY",
+    "members": [
+      "RandomForest_MACCS",
+      "MPNN",
+      "MolFormer_CUDA_Logistic"
+    ],
+    "registered_order": [
+      "RandomForest_MACCS",
+      "MPNN",
+      "MolFormer_CUDA_Logistic"
+    ],
+    "weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "canonical_aggregation": "np.mean(np.vstack(member_probabilities_in_registered_order), axis=0, dtype=np.float64)",
+    "decision_threshold": 0.42534557978312176,
+    "classification_rule": "probability >= threshold",
+    "artifacts": {
+      "RandomForest_MACCS": {
+        "branch": "fingerprint",
+        "candidate_id": "rf_sqrt_regularized",
+        "base_model_path": "revision_management/02_model_rebuild/models/full_e001/final_primary/RandomForest_MACCS.joblib",
+        "base_model_size_bytes": 5674565,
+        "base_model_sha256": "3679220b411ed93c0e9ec633cd2847699e06e408d1c9890631198583ed8b69a6",
+        "calibrator_path": "revision_management/02_model_rebuild/models/full_e001/final_primary/RandomForest_MACCS_platt.pt",
+        "calibrator_size_bytes": 2413,
+        "calibrator_sha256": "783252e7e89e2e7c73247a2a455292f3e219aa6c431c6f48fed5419c793254b0"
+      },
+      "MPNN": {
+        "branch": "graph",
+        "candidate_id": "mpnn_04_h256_d030_lr3e4",
+        "base_model_path": "revision_management/02_model_rebuild/models/full_e001/final_primary/MPNN.pt",
+        "base_model_size_bytes": 6950317,
+        "base_model_sha256": "dfaa444d0c5be0774faa06d5b83df4f430e6ce01dbb1b5f22117951217eadc8d",
+        "calibrator_path": "revision_management/02_model_rebuild/models/full_e001/final_primary/MPNN_platt.pt",
+        "calibrator_size_bytes": 2237,
+        "calibrator_sha256": "426771f3ee631f1df26befee2863fa9342a534c8fa69bf87858a5619f0666547"
+      },
+      "MolFormer_CUDA_Logistic": {
+        "branch": "molecular_language",
+        "candidate_id": "molformer_logistic_c0.01",
+        "base_model_path": "revision_management/02_model_rebuild/models/full_e001/final_primary/MolFormer_CUDA_Logistic.pt",
+        "base_model_size_bytes": 12029,
+        "base_model_sha256": "a1c51b5f72b09cc6acc3a49b662ecc14f605529161d9c905504e2bd79383086f",
+        "calibrator_path": "revision_management/02_model_rebuild/models/full_e001/final_primary/MolFormer_CUDA_Logistic_platt.pt",
+        "calibrator_size_bytes": 2453,
+        "calibrator_sha256": "57a6966c331781e2724a636f60595ee9d88c15e5f3a1502a18623e338deb0489"
+      }
+    }
+  },
+  "graph_input_contract": {
+    "model_unit_id": "screening_structure_id",
+    "cv_group_id": "INFER-CV- plus first 20 uppercase SHA256 hex of canonical nonisomeric SMILES; graph carrier only",
+    "final_label": -1,
+    "canonical_isomeric_smiles": "accepted standardized_smiles",
+    "final_label_is_unlabeled_inference_sentinel": true
+  },
+  "gpu_platt_contract": {
+    "device": "cuda:0",
+    "dtype": "torch.float32 application then canonical float64 export",
+    "cpu_fallback": false,
+    "loads": 3,
+    "applications": 3,
+    "fits": 0
+  },
+  "feature_contracts": {
+    "RandomForest_MACCS": {
+      "rdkit_maccs_bits": 167
+    },
+    "MPNN": {
+      "architecture": "MPNN",
+      "hidden_dim": 256,
+      "dropout": 0.3,
+      "batch_size": 128
+    },
+    "MolFormer": {
+      "name": "MolFormer",
+      "model_id": "ibm/MoLFormer-XL-both-10pct",
+      "revision": "7b12d946c181a37f6012b9dc3b002275de070314",
+      "smoke_batch_size": 32,
+      "single_oom_reduced_batch_size": 16,
+      "max_token_length": 256,
+      "pooling": "attention-mask-weighted mean of last_hidden_state",
+      "local_files_only": true
+    },
+    "ECFP4": {
+      "radius": 2,
+      "n_bits": 2048,
+      "similarity": "Tanimoto"
+    }
+  },
+  "ad_contract": {
+    "reference": "accepted 1494-unit identity reference",
+    "threshold": "q=0.05 NumPy linear quantile of leave-one-out nearest ECFP4 Tanimoto",
+    "seal": "atomic AD_REFERENCE_SEAL.json before any member base-model load",
+    "result_informed_change": false
+  },
+  "chemical_space_contract": {
+    "method": "training-only ECFP4 full-SVD PCA",
+    "centering": "float64 training column mean",
+    "components": 2,
+    "sign_rule": "largest-absolute-loading-positive",
+    "candidate_transform_only": true
+  },
+  "atomicity_contract": {
+    "claim_boundary": "outer try begins before atomic run_root.mkdir; every exception after successful mkdir enters terminal handling",
+    "early_failure_evidence": [
+      "ATTEMPT_CLAIM_EVIDENCE.json",
+      "FAILURE.json",
+      "TRACEBACK.txt",
+      "PARTIAL_STAGING_MANIFEST.json",
+      "OPERATION_LEDGER.jsonl",
+      "RESOURCE_LEDGER.json",
+      "TERMINAL_STATUS.json",
+      "OUTPUT_MANIFEST.json"
+    ],
+    "authoritative_terminal": "exactly one of run_root/RESULT_PACKAGE or run_root/FAILURE_PACKAGE",
+    "terminal_status_location": "inside the atomically published terminal package",
+    "success": "staged RESULT_PACKAGE includes TERMINAL_STATUS and OUTPUT_MANIFEST before renameat2 RENAME_NOREPLACE",
+    "failure": "complete FAILURE_PACKAGE includes terminal status and evidence before renameat2 RENAME_NOREPLACE",
+    "post_result_publication_writes": 0,
+    "result_presence_after_rename_exception": "authoritative committed success; failure publication forbidden",
+    "dual_terminal_state_forbidden": true
+  },
+  "required_candidate_outputs": [
+    "mfh_screening_all_candidate.csv",
+    "mfh_screening_novel_only_candidate.csv",
+    "mfh_training_overlaps_candidate.csv",
+    "applicability_domain_reference_candidate.csv",
+    "chemical_space_coordinates_candidate.csv",
+    "mfh_pair_results_candidate.csv",
+    "mfh_source_verification_priority_candidate.csv"
+  ],
+  "operation_evidence": {
+    "hash_chained_fsync_jsonl": "CONTROL/OPERATION_LEDGER.jsonl",
+    "member_prediction_seals": 3,
+    "base_model_loads": 3,
+    "calibrator_loads": 3,
+    "gpu_platt_applications": 3,
+    "model_fit": 0,
+    "calibrator_fit": 0,
+    "threshold_search": 0,
+    "retry": 0,
+    "whole_run_retry": 0,
+    "molformer_oom_reductions_max": 1,
+    "molformer_cpu_fallback": 0,
+    "molformer_metadata_persisted_and_hashed": true
+  },
+  "claim_language": {
+    "allowed": [
+      "screening priority",
+      "verification priority",
+      "model signal",
+      "applicability-domain warning"
+    ],
+    "forbidden": [
+      "human carcinogenic risk",
+      "measured occurrence",
+      "concentration",
+      "exposure",
+      "bioavailability"
+    ]
+  },
+  "current_operation_counts": {
+    "real_model_load": 0,
+    "real_calibrator_load": 0,
+    "real_feature_extraction": 0,
+    "real_prediction": 0,
+    "real_ad_uncertainty_priority": 0,
+    "screening_lock_creation": 0
+  },
+  "uncertainty_and_disagreement": {
+    "member_probability_sd": "population SD (ddof=0) across three calibrated member probabilities",
+    "member_probability_range": "maximum minus minimum member probability",
+    "member_probability_iqr": "NumPy linear q75 minus q25 across three member probabilities",
+    "margin": "absolute E005 ensemble probability minus locked threshold distance",
+    "near_threshold_warning": {
+      "field": "near_threshold_warning",
+      "rule": "absolute_margin_to_locked_threshold <= 0.05",
+      "inclusive": true
+    },
+    "moderate_disagreement_warning": {
+      "field": "moderate_disagreement_warning",
+      "rule": "member_probability_range >= 0.15",
+      "inclusive": true
+    },
+    "high_disagreement_warning": {
+      "field": "high_disagreement_warning",
+      "rule": "member_probability_range >= 0.30",
+      "inclusive": true
+    },
+    "claim_limit": "diagnostic warnings only; not confidence intervals or calibrated epistemic uncertainty"
+  },
+  "verification_priority_rule": {
+    "frozen_before_prediction": true,
+    "numeric_values_remain_numeric_through_aggregation": true,
+    "structure_hierarchy": [
+      "model_signal_positive descending",
+      "E005_ensemble_probability descending",
+      "ecfp4_ad_warning ascending",
+      "high_disagreement_warning ascending",
+      "moderate_disagreement_warning ascending",
+      "near_threshold_warning ascending",
+      "member_probability_range ascending"
+    ],
+    "structure_exact_tie_break": [
+      "screening_structure_id ascending"
+    ],
+    "structure_rank_fields": [
+      "structure_verification_priority_rank",
+      "structure_priority_tie_group_rank",
+      "structure_priority_within_tie_order"
+    ],
+    "source_hierarchy": [
+      "model_signal_positive_structures descending",
+      "maximum_e005_model_signal descending",
+      "mean_e005_model_signal descending",
+      "ad_warning_fraction ascending",
+      "high_disagreement_fraction ascending",
+      "unique_standardized_structures descending"
+    ],
+    "source_exact_tie_break": [
+      "mfh_id ascending",
+      "official_name ascending"
+    ],
+    "source_rank_fields": [
+      "source_verification_priority_rank",
+      "source_priority_tie_group_rank",
+      "source_priority_within_tie_order"
+    ],
+    "counting_unit": "unique frozen mfh_id-screening_structure_id pair",
+    "claim_limit": "verification priority only; not occurrence, concentration, exposure, bioavailability, or human risk"
+  },
+  "molformer_oom_evidence_contract": {
+    "initial_batch_size": 32,
+    "single_reduced_batch_size": 16,
+    "oom_reductions_allowed": [
+      0,
+      1
+    ],
+    "attempted_batch_sizes_if_no_oom": [
+      32
+    ],
+    "attempted_batch_sizes_if_one_oom": [
+      32,
+      16
+    ],
+    "metadata_output": "CONTROL/MOLFORMER_EXTRACTION_METADATA.json",
+    "metadata_file_hash_required": true,
+    "operation_ledger_fields": [
+      "whole_run_retry",
+      "attempted_batch_sizes",
+      "used_batch_size",
+      "oom_reductions_used",
+      "cpu_fallback_used",
+      "metadata_file_sha256"
+    ],
+    "whole_run_retry": 0,
+    "cpu_fallback": 0,
+    "local_oom_batch_reduction_is_not_whole_run_retry": true
+  }
+}

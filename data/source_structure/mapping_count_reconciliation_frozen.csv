@@ -1,0 +1,14 @@
+﻿metric,recomputed_count,definition,decision_status,task00_lock_status
+raw_mapping_rows,15774,All rows in plus-manual source,CONFIRMED,LOCKED
+invalid_or_missing_structure_rows,2130,Rows without a reproducible standardized structure,CONFIRMED,LOCKED
+valid_structure_rows_before_identity_adjudication,13644,RDKit-valid rows before MFH-HERB exclusions,CONFIRMED,LOCKED
+source_rows_excluded_by_MFH_HERB_identity,15,All MHR-016 and MHR-018 source rows,CONFIRMED,LOCKED
+identity_excluded_rows_already_invalid,3,Identity-excluded rows already absent from the valid structure set,CONFIRMED,LOCKED
+additional_valid_rows_excluded_by_MFH_HERB_identity,12,RDKit-valid rows additionally removed by identity adjudication,CONFIRMED,LOCKED
+frozen_valid_mapping_rows,13632,Valid source rows after confirmed identity decisions,CONFIRMED,LOCKED
+duplicate_mfh_structure_rows_collapsed,1929,Valid-row excess after unique pair grouping,CONFIRMED,LOCKED
+frozen_unique_mfh_structure_pairs,11703,"Unique (mfh_id, standardized_inchikey) pairs",CONFIRMED,LOCKED
+frozen_unique_standardized_structures,5003,Unique standardized InChIKeys,CONFIRMED,LOCKED
+frozen_unique_mfh_sources,106,Unique MFH identifiers,CONFIRMED,LOCKED
+manual_supplement_source_rows,14,Accepted secondary-database-supported FuShe rows,CONFIRMED,LOCKED
+manual_supplement_pairs,14,Frozen pairs containing manual supplement provenance,CONFIRMED,LOCKED

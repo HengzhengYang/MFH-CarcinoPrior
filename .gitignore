@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+credentials*.json
+*private_key*
+*.pem
+*.key
+*.pt
+*.pth
+*.joblib
+*.pkl
+*.ckpt
+models/
+checkpoints/
+cache/
+outputs/
+*.log
+Thumbs.db
+.DS_Store
+
+# Explicitly included release weights; keep other checkpoints ignored.
+!/weights/e005/*.pt
+!/weights/e005/*.joblib

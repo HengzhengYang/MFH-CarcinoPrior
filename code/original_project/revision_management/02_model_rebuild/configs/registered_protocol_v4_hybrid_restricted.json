@@ -1,0 +1,249 @@
+{
+  "protocol_id": "TASK02-NESTED-GROUP-CV-V4-HYBRID-RESTRICTED-REGISTERED",
+  "status": "REGISTERED_FOR_P002_RF_SVM_LIMITED_SMOKE_ONLY",
+  "registered_before_restored_model_performance_at_utc": "2026-07-25T13:12:00Z",
+  "supersedes_protocol_path": "revision_management/02_model_rebuild/configs/registered_protocol_v3_gpu_only.json",
+  "task00_amendment_path": "revision_management/02_model_rebuild/TASK00_PROTOCOL_AMENDMENT_P002.json",
+  "task00_amendment_sha256": "726fb0f39d1e7887aa98d720aaad9de9bdd15e1ea1f004034ef4e301a3f52858",
+  "base_seed": 20260724,
+  "compute_policy": {
+    "mode": "HYBRID_RESTRICTED",
+    "cpu_training_whitelist": [
+      "sklearn.ensemble.RandomForestClassifier",
+      "sklearn.svm.SVC(kernel=rbf, probability=False)"
+    ],
+    "other_cpu_model_fit_allowed": false,
+    "cpu_fitted_preprocessing_allowed": false,
+    "gpu_required_environment_prefix": "/home/administrator/miniforge3/envs/mfh-carcinoprior-gpu",
+    "gpu_required_torch": "2.11.0+cu128",
+    "gpu_required_device": "cuda:0",
+    "all_calibration_gpu_required": true,
+    "whitelist_violation_action": "HARD_FAIL_AND_RETURN_TO_TASK00"
+  },
+  "inputs": [
+    {
+      "scenario_id": "primary_conflict_excluded",
+      "role": "primary",
+      "path": "revision_management/01_data_audit/frozen/model_units_primary_conflict_excluded.csv",
+      "sha256": "895bd06143c917de784e132bdfe0d19d33cfcaf6a063a17b079bc134e23a7d0f",
+      "rows": 1494
+    },
+    {
+      "scenario_id": "sensitivity_conflict_positive",
+      "role": "sensitivity",
+      "path": "revision_management/01_data_audit/frozen/model_units_sensitivity_conflict_positive.csv",
+      "sha256": "cf36aadb604112999f70e3a38e89703453fa947c3bc16acca919f228a83fb4c7",
+      "rows": 1526
+    },
+    {
+      "scenario_id": "sensitivity_conflict_negative",
+      "role": "sensitivity",
+      "path": "revision_management/01_data_audit/frozen/model_units_sensitivity_conflict_negative.csv",
+      "sha256": "79e811a391444b2f80bfff7339e0a7cc8c354d0f0e2295640a18ab227ffa6daa",
+      "rows": 1522
+    },
+    {
+      "scenario_id": "strict_statement_conflict_excluded",
+      "role": "sensitivity",
+      "path": "revision_management/01_data_audit/frozen/model_units_strict_statement_conflict_excluded.csv",
+      "sha256": "d4079ad2a156291eaa64b04919d4bf85a9da9d4aaeeb49e380621071bc9be490",
+      "rows": 1216
+    },
+    {
+      "scenario_id": "core_bioassay_only_relabelled",
+      "role": "sensitivity",
+      "path": "revision_management/01_data_audit/frozen/model_units_core_bioassay_only_relabelled.csv",
+      "sha256": "2cb28551d90d21a9042ac649be8e80c23dbea357d586ed6fecb8afebbdbb00ce",
+      "rows": 1208
+    }
+  ],
+  "split_policy": {
+    "designs": [
+      "group_random_nested_cv",
+      "scaffold_group_nested_cv"
+    ],
+    "outer_folds": 5,
+    "inner_folds": 5,
+    "atomic_group_key": "cv_group_id",
+    "scaffold_split_group": "bemis_murcko_scaffold_or_acyclic_cv_group_fallback",
+    "manifest_index_path": "revision_management/02_model_rebuild/splits/split_manifest_index.csv",
+    "required_manifest_index_sha256": "5ea19ab7c5d7c89bbbc79110bd2baa7fd86690c389127d2f88c9cba7aba41b8f",
+    "silent_regeneration_allowed": false,
+    "revalidation_only_before_p002_smoke": true
+  },
+  "fingerprint_features": {
+    "ECFP4": {
+      "radius": 2,
+      "n_bits": 2048,
+      "array_sha256": "f959d16da42ec82ee62ba3d99128e07a9e20201133dbbcf8fbc0347f44ec82f2",
+      "shape": [1494, 2048]
+    },
+    "MACCS": {
+      "n_bits": 167,
+      "array_sha256": "612d8ff497cb2aa61159062c2576d3a5d04f3d098f2777f1b8869b0c740daa13",
+      "shape": [1494, 167]
+    },
+    "cache_path": "revision_management/02_model_rebuild/features/primary_smoke_fingerprints.npz",
+    "cache_sha256": "9e70ba6ff47d42888fbd5c95eff42d450bec38c36203bc83b347a28ada14d44b",
+    "ordered_model_unit_id_sha256": "136a7cb2898fd0471ee9c4c3f4aa112a240ac3fa1bbbbb65517a5575b89086f5",
+    "missing_value_rule": "hard fail; no imputer is fitted",
+    "variance_filter_rule": "none; binary fingerprint columns are passed unchanged",
+    "rf_preprocessing": "none",
+    "svc_preprocessing": "fold-local mean and population standard deviation computed with PyTorch CUDA; scale clamped at 1e-6; transformed dense float32 arrays are then supplied to whitelisted CPU SVC"
+  },
+  "restored_candidates": {
+    "RandomForest": {
+      "estimator_fqn": "sklearn.ensemble.RandomForestClassifier",
+      "features": ["ECFP4", "MACCS"],
+      "fixed_parameters": {
+        "n_estimators": 500,
+        "class_weight": "balanced",
+        "bootstrap": true,
+        "n_jobs": 4
+      },
+      "full_candidates_per_feature": [
+        {"id": "rf_sqrt_default", "max_features": "sqrt", "max_depth": null, "min_samples_leaf": 1},
+        {"id": "rf_log2_default", "max_features": "log2", "max_depth": null, "min_samples_leaf": 1},
+        {"id": "rf_sqrt_regularized", "max_features": "sqrt", "max_depth": 24, "min_samples_leaf": 2},
+        {"id": "rf_dense_regularized", "max_features": 0.25, "max_depth": 32, "min_samples_leaf": 1},
+        {"id": "rf_sqrt_strong_regularization", "max_features": "sqrt", "max_depth": 16, "min_samples_leaf": 4},
+        {"id": "rf_half_regularized", "max_features": 0.5, "max_depth": 24, "min_samples_leaf": 2}
+      ],
+      "smoke_parameters": {
+        "n_estimators": 64,
+        "max_features": "sqrt",
+        "max_depth": 24,
+        "min_samples_leaf": 2,
+        "class_weight": "balanced",
+        "bootstrap": true,
+        "n_jobs": 4
+      },
+      "raw_calibration_input": "positive-class predict_proba",
+      "calibrator": "native PyTorch CUDA two-parameter Platt"
+    },
+    "RBF_SVM": {
+      "estimator_fqn": "sklearn.svm.SVC",
+      "features": ["ECFP4", "MACCS"],
+      "fixed_parameters": {
+        "kernel": "rbf",
+        "probability": false,
+        "class_weight": "balanced",
+        "cache_size": 1024,
+        "tol": 0.001,
+        "max_iter": 5000
+      },
+      "full_candidates_per_feature": [
+        {"id": "svm_c0.5_scale", "C": 0.5, "gamma": "scale"},
+        {"id": "svm_c2_scale", "C": 2.0, "gamma": "scale"},
+        {"id": "svm_c8_scale", "C": 8.0, "gamma": "scale"},
+        {"id": "svm_c2_g0.001", "C": 2.0, "gamma": 0.001},
+        {"id": "svm_c8_g0.001", "C": 8.0, "gamma": 0.001},
+        {"id": "svm_c2_g0.005", "C": 2.0, "gamma": 0.005},
+        {"id": "svm_c0.5_g0.005", "C": 0.5, "gamma": 0.005},
+        {"id": "svm_c8_g0.005", "C": 8.0, "gamma": 0.005}
+      ],
+      "smoke_parameters": {
+        "C": 2.0,
+        "gamma": "scale",
+        "kernel": "rbf",
+        "probability": false,
+        "class_weight": "balanced",
+        "cache_size": 1024,
+        "tol": 0.001,
+        "max_iter": 5000
+      },
+      "raw_calibration_input": "decision_function",
+      "calibrator": "native PyTorch CUDA two-parameter Platt"
+    }
+  },
+  "cpu_resource_limits": {
+    "maximum_concurrent_estimator_fits": 1,
+    "random_forest_n_jobs": 4,
+    "svc_processes": 1,
+    "native_threadpool_limit": 1,
+    "omp_num_threads": 1,
+    "mkl_num_threads": 1,
+    "openblas_num_threads": 1,
+    "maximum_process_rss_gib": 12,
+    "memory_limit_action": "STOP_AND_RETURN_TO_TASK00"
+  },
+  "seed_policy": {
+    "member_seed_formula": "base_seed + design_index*100000 + member_index*1000; repeat is deliberately excluded so both determinism runs use identical seeds",
+    "inner_seed_formula": "member_seed + inner_fold*10",
+    "calibration_seed_formula": "member_seed + 500000",
+    "outer_refit_seed_formula": "member_seed + 900000"
+  },
+  "calibration": {
+    "method": "two-parameter sigmoid Platt calibration",
+    "backend": "native PyTorch CUDA",
+    "max_iter": 50,
+    "training_source": "registered inner-fold cross-fitted raw inputs from the outer-training partition only",
+    "outer_test_labels_access": false
+  },
+  "base_members": {
+    "fingerprint": [
+      "RandomForest_ECFP4",
+      "RandomForest_MACCS",
+      "RBF_SVM_ECFP4",
+      "RBF_SVM_MACCS",
+      "XGBoost_ECFP4",
+      "XGBoost_MACCS",
+      "LightGBM_ECFP4",
+      "LightGBM_MACCS"
+    ],
+    "graph": ["GCN", "GAT", "MPNN", "AttentiveFP"],
+    "language_model": ["ChemBERTa_CUDA_Logistic", "MolFormer_CUDA_Logistic"],
+    "total": 14
+  },
+  "ensemble": {
+    "rule": "equal mean within each representation branch, followed by equal mean of the three branch probabilities",
+    "all_members_calibrated_before_averaging": true,
+    "outer_test_access_for_member_selection_weights_or_threshold": false
+  },
+  "p002_limited_smoke": {
+    "scenario": "primary_conflict_excluded",
+    "designs": ["group_random_nested_cv", "scaffold_group_nested_cv"],
+    "outer_fold_zero_based": 0,
+    "members": [
+      "RandomForest_ECFP4",
+      "RandomForest_MACCS",
+      "RBF_SVM_ECFP4",
+      "RBF_SVM_MACCS"
+    ],
+    "inner_folds": 5,
+    "deterministic_repeats": 2,
+    "full_hyperparameter_grid": false,
+    "sensitivity_model_fitting": false,
+    "probability_absolute_tolerance": 0.00000001
+  },
+  "revised_full_execution_budget": {
+    "per_scenario": {
+      "gpu_fingerprint_fit_jobs": 1840,
+      "cpu_rf_svm_search_fit_jobs": 1400,
+      "cpu_rf_svm_crossfit_and_refit_jobs": 240,
+      "graph_fit_jobs": 1040,
+      "language_head_fit_jobs": 620,
+      "gpu_calibrator_fit_jobs": 140,
+      "total_fit_jobs": 5280
+    },
+    "five_scenarios_fit_jobs": 26400,
+    "final_primary_internal_selection_and_refit_fit_job_allowance": 900,
+    "registered_total_fit_job_ceiling": 27300,
+    "planning_window_hours": [36, 60],
+    "storage_hard_stop_gib": 60,
+    "requires_new_task00_full_training_approval": true
+  },
+  "hard_guards": {
+    "all_split_members_use_unchanged_shared_manifest": true,
+    "cv_group_overlap_allowed": false,
+    "scaffold_overlap_allowed_in_scaffold_design": false,
+    "outer_test_used_for_selection_calibration_or_threshold": false,
+    "external_validation_used": false,
+    "mfh_rescreening": false,
+    "manuscript_editing": false,
+    "docking_or_dynamics": false,
+    "task01_mutation": false,
+    "model_lock_may_be_set_locked_by_task02": false,
+    "full_training_authorized": false
+  }
+}

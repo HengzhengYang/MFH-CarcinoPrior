@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "environment_id": "TASK04_RUNTIME_ENVIRONMENT_LOCK_V3_CANDIDATE",
+  "status": "CANDIDATE_PENDING_TASK00_V3_EXECUTION_VERSION_LOCK",
+  "python": {
+    "version_info": [
+      3,
+      10,
+      20
+    ],
+    "executable": "/home/administrator/miniforge3/envs/mfh-carcinoprior-gpu/bin/python",
+    "executable_size_bytes": 17504824,
+    "executable_sha256": "055afe965fffde340df3786bf42198103539a4870e84576544b2f1524d7da4d1"
+  },
+  "packages": {
+    "joblib": "1.5.3",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "psutil": "7.2.2",
+    "rdkit": "2025.3.6",
+    "scikit_learn": "1.7.2",
+    "torch": "2.11.0+cu128",
+    "transformers": "4.44.2"
+  },
+  "cuda": {
+    "available": true,
+    "runtime": "12.8",
+    "device_name": "NVIDIA GeForce RTX 5070 Ti",
+    "compute_capability": [
+      12,
+      0
+    ],
+    "total_memory_bytes": 17094475776
+  },
+  "platform": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "preclaim_exact_gate_required": true,
+  "model_or_calibrator_loaded_during_capture": false,
+  "source_v2_environment_sha256": "1d17b574b1045b595c1b0bfc58ea2311ae16dc9bf6360d5e9b27d98992cb968b"
+}

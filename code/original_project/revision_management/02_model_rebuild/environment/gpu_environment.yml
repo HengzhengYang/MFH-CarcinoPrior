@@ -1,0 +1,92 @@
+artifact: TASK02_GPU_ENVIRONMENT
+status: VALIDATED_P001_GPU_BACKENDS_NOT_LOCKED
+validated_at_utc: '2026-07-25T08:07:55Z'
+author_compute_policy:
+  mode: GPU_ONLY
+  cpu_training_fallback_allowed: false
+  fail_closed_if_cuda_unavailable: true
+environment:
+  manager: conda
+  name: mfh-carcinoprior-gpu
+  prefix: /home/administrator/miniforge3/envs/mfh-carcinoprior-gpu
+  python: '3.10.20'
+  creation: cloned from mfh-carcinoprior, then replaced torch 2.12.0+cpu with the official cu128 wheel
+  original_environment_modified: false
+gpu:
+  name: NVIDIA GeForce RTX 5070 Ti
+  driver_version: '576.88'
+  total_vram_mib: 16303
+  compute_capability: '12.0'
+pytorch:
+  version: 2.11.0+cu128
+  bundled_cuda_runtime: '12.8'
+  cuda_available: true
+  device_count: 1
+  device_name: NVIDIA GeForce RTX 5070 Ti
+  compiled_architectures:
+    - sm_75
+    - sm_80
+    - sm_86
+    - sm_90
+    - sm_100
+    - sm_120
+core_packages:
+  transformers: 4.44.2
+  xgboost: 3.2.0
+  lightgbm: 4.6.0
+  cupy_cuda12x: 14.1.1
+  cuda_pathfinder: 1.6.0
+  scikit_learn: 1.7.2
+  rdkit: 2025.3.6
+cuda_smoke_tests:
+  tensor_matmul_backward:
+    status: PASS
+    device: cuda:0
+    matrix_shape: [2048, 2048]
+    gradient_finite: true
+    peak_memory_mib: 80.3
+  chemberta:
+    status: PASS
+    model: DeepChem/ChemBERTa-77M-MLM
+    revision: ed8a5374f2024ec8da53760af91a33fb8f6a15ff
+    local_files_only: true
+    output_shape: [1, 5, 384]
+    output_finite: true
+    device: cuda:0
+  molformer:
+    status: PASS
+    model: ibm/MoLFormer-XL-both-10pct
+    revision: 7b12d946c181a37f6012b9dc3b002275de070314
+    local_files_only: true
+    output_shape: [1, 5, 768]
+    output_finite: true
+    device: cuda:0
+  xgboost:
+    status: PASS
+    version: 3.2.0
+    required_parameter: device=cuda
+    reported_device: cuda:0
+  lightgbm:
+    status: PASS
+    version: 4.6.0
+    required_parameter: device_type=cuda
+validated_formal_backends:
+  xgboost: CuPy QuantileDMatrix and device-consistent inplace prediction
+  lightgbm: CUDA trainer with device_type=cuda
+  graph_models: native PyTorch CUDA GCN, GAT, MPNN and AttentiveFP
+  smiles_logistic_head: fold-local standardized native PyTorch CUDA
+  calibration: native PyTorch CUDA two-parameter sigmoid Platt
+excluded_by_task00_p001:
+  random_forest: sklearn backend is CPU-only; candidate removed before performance inspection
+  rbf_svm: sklearn backend is CPU-only; candidate removed before performance inspection
+  isotonic_calibration: no validated GPU implementation; method removed before performance inspection
+  from_scratch_transformer: outside the approved P001 core and smoke budget
+informational_absences:
+  cuml: not installed
+  torch_geometric: not installed; old graph prototypes use native PyTorch, so this is informational rather than a required dependency
+notes:
+  - Prebuilt PyTorch wheels bundle their CUDA runtime; a WSL-local nvcc compiler is not required for the validated operations.
+  - Do not install a Linux NVIDIA display driver inside WSL; the Windows NVIDIA driver is exposed to WSL.
+  - This manifest records a validated base runtime but is not an immutable environment lock.
+  - The P001-authorized limited outer-fold smoke passed; formal full training was not executed.
+  - This environment manifest is review evidence and remains mutable until Task 00 later locks the final environment.

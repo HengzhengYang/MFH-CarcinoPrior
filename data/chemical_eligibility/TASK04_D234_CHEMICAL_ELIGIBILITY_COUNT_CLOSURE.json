@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "closure_id": "TASK04-D234-CHEMICAL-ELIGIBILITY-COUNT-CLOSURE",
+  "decision_id": "D234",
+  "date": "2026-08-24",
+  "status": "LOCKED_REPORTING_PROJECTION_NO_MODEL_RERUN",
+  "source_bindings": {
+    "screening_all_path": "revision_management/04_mfh_rescreening/v3_2/runs/TASK04-MFH-SCREENING-V3-2-20260806-D115-C8A47D219E63/RESULT_PACKAGE/mfh_screening_all_candidate.csv",
+    "screening_all_sha256": "fd9498518f7f86679ded4722deadcaf0975befed7b4703c3876ab295243ee198",
+    "pair_results_path": "revision_management/04_mfh_rescreening/v3_2/runs/TASK04-MFH-SCREENING-V3-2-20260806-D115-C8A47D219E63/RESULT_PACKAGE/mfh_pair_results_candidate.csv",
+    "pair_results_sha256": "456ea618d1da04dcb3350d2b9b93c0e617232cb6963871cab9fcd31ff291ba79",
+    "d151_result_lock_path": "revision_management/06_docking_and_dynamics/TASK06_D150_STRUCTURE_FAMILY_RESULT_LOCK_D151.json",
+    "d151_result_lock_sha256": "174db4e7a22a68454ca83bb8248b0a0a032a483ab5f3ab036c406363b2a96e85",
+    "d151_family_membership_sha256": "36776d2d539ad2896c0c509a1ab2cdbb958bddcfef4b3d0e79119f72836c4c82",
+    "exclusion_registry_sha256": "735dfa03058f731e3756252ef02173d17e6115983964a278be04523a848ac646"
+  },
+  "eligibility_rule": {
+    "parser": "RDKit_MolFromSmiles",
+    "exclude_if": "parse_valid AND real_atom_count>=1 AND bond_count=0 AND distinct_real_atomic_numbers=1",
+    "parse_failures": 0,
+    "zero_bond_multi_element_records": 0,
+    "excluded_record_count": 26,
+    "distinct_element_symbol_count": 25,
+    "all_observed_exclusions_are_single_atom": true
+  },
+  "base_counts": {
+    "raw_screened_structures": 5003,
+    "excluded_element_only_records": 26,
+    "molecular_structure_analysis_set": 4977,
+    "raw_structure_unseen": 4865,
+    "excluded_structure_unseen": 25,
+    "adjusted_structure_unseen": 4840,
+    "raw_exact_standardized_structure_overlap": 95,
+    "excluded_exact_standardized_structure_overlap": 1,
+    "adjusted_exact_standardized_structure_overlap": 94,
+    "raw_cv_group_structure_overlap": 43,
+    "excluded_cv_group_structure_overlap": 0,
+    "adjusted_cv_group_structure_overlap": 43,
+    "raw_any_training_overlap": 138,
+    "excluded_any_training_overlap": 1,
+    "adjusted_any_training_overlap": 137,
+    "raw_mfh_structure_pairs": 11703,
+    "excluded_mfh_structure_pairs": 61,
+    "adjusted_mfh_structure_pairs": 11642,
+    "raw_mfh_sources": 106,
+    "adjusted_mfh_sources": 106
+  },
+  "threshold_projection": [
+    {"threshold": 0.42534557978312176, "role": "LOCKED_E005_CLASSIFICATION_THRESHOLD", "raw_all": 2314, "excluded_all": 26, "adjusted_all": 2288, "raw_structure_unseen": 2254, "excluded_structure_unseen": 25, "adjusted_structure_unseen": 2229, "raw_training_overlap": 60, "excluded_training_overlap": 1, "adjusted_training_overlap": 59},
+    {"threshold": 0.5, "role": "COMMON_FIXED_THRESHOLD_SECONDARY_DESCRIPTION", "raw_all": 1587, "excluded_all": 25, "adjusted_all": 1562, "raw_structure_unseen": 1535, "excluded_structure_unseen": 24, "adjusted_structure_unseen": 1511, "raw_training_overlap": 52, "excluded_training_overlap": 1, "adjusted_training_overlap": 51},
+    {"threshold": 0.7, "role": "NONPRIMARY_EXPLORATORY_REFERENCE_NOT_ADOPTED", "raw_all": 288, "excluded_all": 13, "adjusted_all": 275, "raw_structure_unseen": 266, "excluded_structure_unseen": 12, "adjusted_structure_unseen": 254, "raw_training_overlap": 22, "excluded_training_overlap": 1, "adjusted_training_overlap": 21},
+    {"threshold": 0.75, "role": "PRIMARY_MECHANISTIC_PRIORITY_ROUTE", "raw_all": 134, "excluded_all": 9, "adjusted_all": 125, "raw_structure_unseen": 119, "excluded_structure_unseen": 8, "adjusted_structure_unseen": 111, "raw_training_overlap": 15, "excluded_training_overlap": 1, "adjusted_training_overlap": 14},
+    {"threshold": 0.8, "role": "NESTED_HIGH_SIGNAL_CORE", "raw_all": 50, "excluded_all": 4, "adjusted_all": 46, "raw_structure_unseen": 42, "excluded_structure_unseen": 3, "adjusted_structure_unseen": 39, "raw_training_overlap": 8, "excluded_training_overlap": 1, "adjusted_training_overlap": 7},
+    {"threshold": 0.486117, "role": "LEGACY_STALE_MANUSCRIPT_THRESHOLD_FOR_REPLACEMENT_ONLY", "raw_all": 1724, "excluded_all": 25, "adjusted_all": 1699, "raw_structure_unseen": 1671, "excluded_structure_unseen": 24, "adjusted_structure_unseen": 1647, "raw_training_overlap": 53, "excluded_training_overlap": 1, "adjusted_training_overlap": 52}
+  ],
+  "downstream_invariance": {
+    "d151_family_membership_rows": 111,
+    "excluded_registry_intersection_with_d151_family_membership": 0,
+    "d151_family_count": 60,
+    "major_family_count": 5,
+    "small_family_count": 9,
+    "non_singleton_family_count": 14,
+    "non_singleton_member_count": 65,
+    "singleton_count": 46,
+    "d163_target_blind_representative_count": 14,
+    "recalculation_required": false,
+    "d233_network_pharmacology_target_lock_affected": false
+  },
+  "prohibited_interpretation": [
+    "NOT_A_MODEL_RERUN",
+    "NOT_A_NEW_PREDICTION_RUN",
+    "DOES_NOT_OVERWRITE_D115_OR_D116",
+    "DOES_NOT_CHANGE_ANY_E005_PROBABILITY"
+  ]
+}
